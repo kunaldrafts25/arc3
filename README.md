@@ -1,3 +1,7 @@
+# Artifact publication update
+
+Adapters and raw research data are now available in the [free release assets](https://github.com/kunaldrafts25/arc3/releases/tag/untagged-3f7374879df81a5dcba5). See [ARTIFACTS.md](ARTIFACTS.md), [ARTIFACTS.json](ARTIFACTS.json) and [MODEL_CARD.md](MODEL_CARD.md). Earlier source-cleanup notes that called these artifacts private or pending are historical. Credentials, software environments and disposable caches remain excluded.
+
 <!-- Standalone ARC3 publication; combined workspace: https://github.com/kunaldrafts25/arc -->
 
 # ARC-Hydra: ARC-AGI-3 research agent

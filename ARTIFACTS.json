@@ -1,0 +1,2919 @@
+{
+  "schema_version": 1,
+  "repository": "kunaldrafts25/arc3",
+  "release_url": "https://github.com/kunaldrafts25/arc3/releases/tag/untagged-3f7374879df81a5dcba5",
+  "storage": "GitHub Release assets; no Git LFS or paid-storage setting changes",
+  "files": [
+    {
+      "path": "notebooks/training_data_cpu_probe/probe.ipynb",
+      "bytes": 6093936,
+      "sha256": "c6de75e9185a5f2604f1af3145b18e0fb3447da51f5d30794c9d3403644c63c0",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "notebooks/training_data_cpu_probe/probe.ipynb",
+      "source_path": "notebooks/training_data_cpu_probe/probe.ipynb",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/kaggle/arc_agi_3_wheels/arc_agi-0.9.8-py3-none-any.whl",
+      "bytes": 40151,
+      "sha256": "aeca1663db342e91cb8fc96cf0c83e2fa39db1640bc1298e80a8d522e3af70f3",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/kaggle/arc_agi_3_wheels/arc_agi-0.9.8-py3-none-any.whl",
+      "source_path": "reference/kaggle/arc_agi_3_wheels/arc_agi-0.9.8-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/kaggle/duck-summary-v1/bp35-0a0ad940_p0_requests.jsonl",
+      "bytes": 46259475,
+      "sha256": "9e8d2c9b3bc72f4327cc4fb95c844a139ad0ca9e97bd05d36225a4638f0e8f8d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/kaggle/duck-summary-v1/bp35-0a0ad940_p0_requests.jsonl",
+      "source_path": "reference/kaggle/duck-summary-v1/bp35-0a0ad940_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/kaggle/duck-verification-v1/ft09-0d8bbf25_p0_requests.jsonl",
+      "bytes": 35778883,
+      "sha256": "e7e2398c9bc67c3bc41e0eee3db09c2b6fb0111f8232a906c1c9c8e86a797797",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/kaggle/duck-verification-v1/ft09-0d8bbf25_p0_requests.jsonl",
+      "source_path": "reference/kaggle/duck-verification-v1/ft09-0d8bbf25_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/kaggle/general-learner-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "bytes": 14803401,
+      "sha256": "2479bd47fcb9cdc2c47a39c4745a091458f8b8a375d5e16eb9d4b3f7023b0a6e",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/kaggle/general-learner-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "source_path": "reference/kaggle/general-learner-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/kaggle/general-learner-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "bytes": 8019952,
+      "sha256": "382f379f9f8db18c48c5fd94a23bfcc1dad553f19f647773916ff17ad891237e",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/kaggle/general-learner-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "source_path": "reference/kaggle/general-learner-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/kaggle/pennyroyal-v3-build-v1/pennyroyal-v3-overlay/wheels/sglang-0.5.19+g560edbdca18a-cp312-cp312-linux_x86_64.whl",
+      "bytes": 24958825,
+      "sha256": "ffc0be8aa61168db6a521bb9eaae800e3cfde64d888170cc66fa9cde9dfa94a6",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/kaggle/pennyroyal-v3-build-v1/pennyroyal-v3-overlay/wheels/sglang-0.5.19+g560edbdca18a-cp312-cp312-linux_x86_64.whl",
+      "source_path": "reference/kaggle/pennyroyal-v3-build-v1/pennyroyal-v3-overlay/wheels/sglang-0.5.19+g560edbdca18a-cp312-cp312-linux_x86_64.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/kaggle/retained-v3-native-wheel/sglang-0.5.19+g560edbdca18a-cp312-cp312-linux_x86_64.whl",
+      "bytes": 24958825,
+      "sha256": "ffc0be8aa61168db6a521bb9eaae800e3cfde64d888170cc66fa9cde9dfa94a6",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/kaggle/retained-v3-native-wheel/sglang-0.5.19+g560edbdca18a-cp312-cp312-linux_x86_64.whl",
+      "source_path": "reference/kaggle/retained-v3-native-wheel/sglang-0.5.19+g560edbdca18a-cp312-cp312-linux_x86_64.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/kaggle/ultimate-candidate-v3/transcripts/ar25-0c556536_p0.txt",
+      "bytes": 3060540,
+      "sha256": "395a76d3cd34ea18b1a931bd70ba52a18929e54fbda3cd37f771419531aa43cb",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/kaggle/ultimate-candidate-v3/transcripts/ar25-0c556536_p0.txt",
+      "source_path": "reference/kaggle/ultimate-candidate-v3/transcripts/ar25-0c556536_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/kaggle/ultimate-candidate-v3/transcripts/r11l-495a7899_p0.txt",
+      "bytes": 2755963,
+      "sha256": "26ed8d377fee17e114020aff396200efe9df0e2edd686223d68763131ae540ee",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/kaggle/ultimate-candidate-v3/transcripts/r11l-495a7899_p0.txt",
+      "source_path": "reference/kaggle/ultimate-candidate-v3/transcripts/r11l-495a7899_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/kaggle/verified-planner-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "bytes": 1081550,
+      "sha256": "ff5d37ae1631b5cfcd3debb6714604c7062738c50c71bfd1107bb904cc5bcc62",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/kaggle/verified-planner-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "source_path": "reference/kaggle/verified-planner-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/kaggle/verified-planner-v1/transcripts/vc33-5430563c_p0.txt",
+      "bytes": 1175018,
+      "sha256": "4d5db108a307d0fd9959baf96a8ef76ab564bc7b3114ce4b2b4ebee625ec4448",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/kaggle/verified-planner-v1/transcripts/vc33-5430563c_p0.txt",
+      "source_path": "reference/kaggle/verified-planner-v1/transcripts/vc33-5430563c_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/annotated_types-0.7.0-py3-none-any.whl",
+      "bytes": 13643,
+      "sha256": "1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/annotated_types-0.7.0-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/annotated_types-0.7.0-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/arcengine-0.9.3-py3-none-any.whl",
+      "bytes": 38374,
+      "sha256": "5f9739d6d0055780a4581fd6fe09066bb08775c4c8212c9adcca2eb008aef59c",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/arcengine-0.9.3-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/arcengine-0.9.3-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/arc_agi-0.9.8-py3-none-any.whl",
+      "bytes": 40151,
+      "sha256": "aeca1663db342e91cb8fc96cf0c83e2fa39db1640bc1298e80a8d522e3af70f3",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/arc_agi-0.9.8-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/arc_agi-0.9.8-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/blinker-1.9.0-py3-none-any.whl",
+      "bytes": 8458,
+      "sha256": "ba0efaa9080b619ff2f3459d1d500c57bddea4a6b424b60a91141db6fd2f08bc",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/blinker-1.9.0-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/blinker-1.9.0-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/certifi-2026.2.25-py3-none-any.whl",
+      "bytes": 153684,
+      "sha256": "027692e4402ad994f1c42e52a4997a9763c646b73e4096e4d5d6db8af1d6f0fa",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/certifi-2026.2.25-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/certifi-2026.2.25-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/charset_normalizer-3.4.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 216589,
+      "sha256": "5649fd1c7bade02f320a462fdefd0b4bd3ce036065836d4f42e0de958038e116",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/charset_normalizer-3.4.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/charset_normalizer-3.4.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/click-8.3.2-py3-none-any.whl",
+      "bytes": 108379,
+      "sha256": "1924d2c27c5653561cd2cae4548d1406039cb79b858b747cfea24924bbc1616d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/click-8.3.2-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/click-8.3.2-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 362601,
+      "sha256": "4d00e655fcef08aba35ec9610536bfe90267d7ab5ba944f7032549c55a146da1",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/cycler-0.12.1-py3-none-any.whl",
+      "bytes": 8321,
+      "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/cycler-0.12.1-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/cycler-0.12.1-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/flask-3.1.3-py3-none-any.whl",
+      "bytes": 103424,
+      "sha256": "f4bcbefc124291925f1a26446da31a5178f9483862233b23c0c96a20701f670c",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/flask-3.1.3-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/flask-3.1.3-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/fonttools-4.62.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 4988768,
+      "sha256": "149f7d84afca659d1a97e39a4778794a2f83bf344c5ee5134e09995086cc2392",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/fonttools-4.62.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/fonttools-4.62.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/idna-3.11-py3-none-any.whl",
+      "bytes": 71008,
+      "sha256": "771a87f49d9defaf64091e6e6fe9c18d4833f140bd19464795bc32d966ca37ea",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/idna-3.11-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/idna-3.11-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/itsdangerous-2.2.0-py3-none-any.whl",
+      "bytes": 16234,
+      "sha256": "c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/itsdangerous-2.2.0-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/itsdangerous-2.2.0-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/jinja2-3.1.6-py3-none-any.whl",
+      "bytes": 134899,
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/jinja2-3.1.6-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/jinja2-3.1.6-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/kiwisolver-1.5.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 1477934,
+      "sha256": "bb5136fb5352d3f422df33f0c879a1b0c204004324150cc3b5e3c4f310c9049f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/kiwisolver-1.5.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/kiwisolver-1.5.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 22947,
+      "sha256": "d6dd0be5b5b189d31db7cda48b91d7e0a9795f31430b7f271219ab30f1d3ac9d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/matplotlib-3.10.8-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "bytes": 8716944,
+      "sha256": "3ab4aabc72de4ff77b3ec33a6d78a68227bf1123465887f9905ba79184a1cc04",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/matplotlib-3.10.8-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/matplotlib-3.10.8-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/numpy-2.4.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 16645480,
+      "sha256": "81f4a14bee47aec54f883e0cad2d73986640c1590eb9bfaaba7ad17394481e6e",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/numpy-2.4.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/numpy-2.4.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/packaging-26.1-py3-none-any.whl",
+      "bytes": 95831,
+      "sha256": "5d9c0669c6285e491e0ced2eee587eaf67b670d94a19e94e3984a481aba6802f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/packaging-26.1-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/packaging-26.1-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/pillow-12.2.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 7087215,
+      "sha256": "62f5409336adb0663b7caa0da5c7d9e7bdbaae9ce761d34669420c2a801b2780",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/pillow-12.2.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/pillow-12.2.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/pydantic-2.13.2-py3-none-any.whl",
+      "bytes": 471947,
+      "sha256": "a525087f4c03d7e7456a3de89b64cd693d2229933bb1068b9af6befd5563694e",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/pydantic-2.13.2-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/pydantic-2.13.2-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/pydantic_core-2.46.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 2094058,
+      "sha256": "48649cf2d8c358d79586e9fb2f8235902fcaa2d969ec1c5301f2d1873b2f8321",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/pydantic_core-2.46.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/pydantic_core-2.46.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/pyparsing-3.3.2-py3-none-any.whl",
+      "bytes": 122781,
+      "sha256": "850ba148bd908d7e2411587e247a1e4f0327839c40e2e5e6d05a007ecc69911d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/pyparsing-3.3.2-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/pyparsing-3.3.2-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "bytes": 229892,
+      "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/python_dotenv-1.2.2-py3-none-any.whl",
+      "bytes": 22101,
+      "sha256": "1d8214789a24de455a8b8bd8ae6fe3c6b69a5e3d64aa8a8e5d68e694bbcb285a",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/python_dotenv-1.2.2-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/python_dotenv-1.2.2-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/requests-2.33.1-py3-none-any.whl",
+      "bytes": 64947,
+      "sha256": "4e6d1ef462f3626a1f0a0a9c42dd93c63bad33f9f1c1937509b8c5c8718ab56a",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/requests-2.33.1-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/requests-2.33.1-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/six-1.17.0-py2.py3-none-any.whl",
+      "bytes": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/six-1.17.0-py2.py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/six-1.17.0-py2.py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/typing_extensions-4.15.0-py3-none-any.whl",
+      "bytes": 44614,
+      "sha256": "f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/typing_extensions-4.15.0-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/typing_extensions-4.15.0-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/typing_inspection-0.4.2-py3-none-any.whl",
+      "bytes": 14611,
+      "sha256": "4ed1cacbdc298c220f1bd249ed5287caa16f34d44ef4e9c3d0cbad5b521545e7",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/typing_inspection-0.4.2-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/typing_inspection-0.4.2-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/urllib3-2.6.3-py3-none-any.whl",
+      "bytes": 131584,
+      "sha256": "bf272323e553dfb2e87d9bfd225ca7b0f467b919d7bbd355436d3fd37cb0acd4",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/urllib3-2.6.3-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/urllib3-2.6.3-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reference/public-development-inputs/arc_agi_3_wheels/werkzeug-3.1.8-py3-none-any.whl",
+      "bytes": 226459,
+      "sha256": "63a77fb8892bf28ebc3178683445222aa500e48ebad5ec77b0ad80f8726b1f50",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reference/public-development-inputs/arc_agi_3_wheels/werkzeug-3.1.8-py3-none-any.whl",
+      "source_path": "reference/public-development-inputs/arc_agi_3_wheels/werkzeug-3.1.8-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/arc3/qwen27-training-pilot/train.jsonl",
+      "bytes": 7031316,
+      "sha256": "fd73b3802e886bd4dc6c443ac24388f3c491f7720b6213ded89e4bc5889d71c5",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/arc3/qwen27-training-pilot/train.jsonl",
+      "source_path": "reports/arc3/qwen27-training-pilot/train.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/arc3/qwen27-training-pilot/validation.jsonl",
+      "bytes": 2815735,
+      "sha256": "c8527dde162787d496e842a6a4684cf692e9490211b8ce520176ade02c8ea452",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/arc3/qwen27-training-pilot/validation.jsonl",
+      "source_path": "reports/arc3/qwen27-training-pilot/validation.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/arc3/qwen27-training-pilot/context-32768/train.jsonl",
+      "bytes": 18380809,
+      "sha256": "d3e8c271f7fc67c3c5ff72019946ff5a46bf4f90f0bbc973b08da58c44c19efe",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/arc3/qwen27-training-pilot/context-32768/train.jsonl",
+      "source_path": "reports/arc3/qwen27-training-pilot/context-32768/train.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/arc3/qwen27-training-pilot/context-32768/validation.jsonl",
+      "bytes": 4696845,
+      "sha256": "c40c876828c0338036fdde844e1d47f7d66f575dfc22e5e9721a33dc39489d74",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/arc3/qwen27-training-pilot/context-32768/validation.jsonl",
+      "source_path": "reports/arc3/qwen27-training-pilot/context-32768/validation.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/ar25-0c556536_p0.txt",
+      "bytes": 2397085,
+      "sha256": "3935471c361d912b94a7512743cbe5e144f219b2994c007de3f10bdbe435c9e1",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/ar25-0c556536_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/ar25-0c556536_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "bytes": 766718,
+      "sha256": "f8055626757da4c8b154801af9c37bf3726696e1cd617173565d5b5fab7fd699",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "bytes": 993827,
+      "sha256": "17469e6455a432b7fcfdd9ca69242273de25b60b43cadd9862390364f423ae73",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "bytes": 1549077,
+      "sha256": "0712b52aa5f597f625a89f56fa9fa17aa76d6a15e276ea32b4c859626c046e91",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/dc22-fdcac232_p0.txt",
+      "bytes": 2935907,
+      "sha256": "e2a5910ed98784ebe89a66a33099ac325e1895abc292c7a6623e8f48618c5b0f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/dc22-fdcac232_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/dc22-fdcac232_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "bytes": 1093055,
+      "sha256": "5a0d956c3e8f394cb74a12d1697ae9d05ad22a5e5c2f7b209607d17a1c23436f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/g50t-5849a774_p0.txt",
+      "bytes": 918051,
+      "sha256": "7d533449dcfa8c2a3bcee1067d287129f54e5c02b97729b6473f03a982948abd",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/g50t-5849a774_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/g50t-5849a774_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "bytes": 2127516,
+      "sha256": "0ae1f2fd4a0dcd887036e383efeb8ac845ed6bb229d04f530b0675f00d29c31f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/lf52-271a04aa_p0.txt",
+      "bytes": 1920863,
+      "sha256": "4a22e53f24a556f4d0732d1ae41aff7788842d1ee947d62204706a4589c8c770",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/lf52-271a04aa_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/lf52-271a04aa_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/lp85-305b61c3_p0.txt",
+      "bytes": 2216069,
+      "sha256": "bafe340d19896872ad0bd30dbad27b4596941cca154fa8a6afbaa731c6ceae49",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/lp85-305b61c3_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/lp85-305b61c3_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/ls20-9607627b_p0.txt",
+      "bytes": 1903795,
+      "sha256": "2394a5de420c6e97de64a6a056ceb820466e5dab0125b004b68a544f154d13d1",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/ls20-9607627b_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/ls20-9607627b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "bytes": 2431415,
+      "sha256": "8a2fbcc0eff2756ec8a1b57403077bb455c43296f57f6f707e28e46c5c0afa10",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/r11l-495a7899_p0.txt",
+      "bytes": 1908538,
+      "sha256": "aabe94b7977be1a178e3b1f06b86d8426d03956d6b88be91d8b7d310eb900680",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/r11l-495a7899_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/r11l-495a7899_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/re86-8af5384d_p0.txt",
+      "bytes": 1546004,
+      "sha256": "f32b0c0073aabb6da3863736a7a66ca86863286ad3c5effe69fd5d76283939db",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/re86-8af5384d_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/re86-8af5384d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/s5i5-18d95033_p0.txt",
+      "bytes": 1848673,
+      "sha256": "73321ac95295ac8ae0f5004a5b0bd70f03761c8d05e05c4869ed4e29055914ad",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/s5i5-18d95033_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/s5i5-18d95033_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "bytes": 2288366,
+      "sha256": "4d00d8694f2bd19ad9021a1eee2baf02a41d15322852a87048050ce39a5c5858",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/sc25-635fd71a_p0.txt",
+      "bytes": 2869728,
+      "sha256": "b892d7eb65423325557f0da65ac930476e01114f772a843995cb41cb60437df3",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/sc25-635fd71a_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/sc25-635fd71a_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/sk48-d8078629_p0.txt",
+      "bytes": 897114,
+      "sha256": "aeee9bc143e8bc6eb7b527b5f0f75619de7e22fa274f658db5caeda4578a7e95",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/sk48-d8078629_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/sk48-d8078629_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/sp80-589a99af_p0.txt",
+      "bytes": 1351185,
+      "sha256": "7d7717cf1ed206ef3c2479131909020d851b89b28a043b5d9a86cf4374073438",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/sp80-589a99af_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/sp80-589a99af_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/su15-1944f8ab_p0.txt",
+      "bytes": 2895972,
+      "sha256": "c74ccab1543a496b3404376f317631637db044f7c0485db48d6ac1e183b122bc",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/su15-1944f8ab_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/su15-1944f8ab_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "bytes": 924388,
+      "sha256": "d0dacf444dfe474f3f62d5eb51984c56ff90a025f09cd0d9ca4676e74da5d141",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/tr87-cd924810_p0.txt",
+      "bytes": 1357249,
+      "sha256": "b57d75ea152aba32229cd478592f51e0d7ae2e3b015c43510937cf2057103426",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/tr87-cd924810_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/tr87-cd924810_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/tu93-0768757b_p0.txt",
+      "bytes": 2734395,
+      "sha256": "98f6613e0e48f006d4af3bae8b392371a1861c683c5cb4bfd0d2e64bd9018f9a",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/tu93-0768757b_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/tu93-0768757b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/vc33-5430563c_p0.txt",
+      "bytes": 2118798,
+      "sha256": "6b9465658aa7fea4ddaa715be7e11275848d1d3995c16bd2a616fde321df4d8c",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/vc33-5430563c_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/vc33-5430563c_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/deadline-candidate-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "bytes": 1582201,
+      "sha256": "3e31196ef39462421170d343f8fc1f5ba5140cddc2e9a6cd95ed64ef80c0eb62",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/deadline-candidate-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "source_path": "reports/kaggle/deadline-candidate-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-benchmark-v2/bp35-0a0ad940_p0_requests.jsonl",
+      "bytes": 43724827,
+      "sha256": "0ccbdff8ade8de6099d3e60df114718a2b763a34a076e7448cfcdbd068b89adf",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-benchmark-v2/bp35-0a0ad940_p0_requests.jsonl",
+      "source_path": "reports/kaggle/duck-m2-benchmark-v2/bp35-0a0ad940_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-benchmark-v2/lf52-271a04aa_p0_requests.jsonl",
+      "bytes": 86693916,
+      "sha256": "fb407d6a66a0b519178a75c1099ae234401ac4c315f0e83964bf607deba17476",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-benchmark-v2/lf52-271a04aa_p0_requests.jsonl",
+      "source_path": "reports/kaggle/duck-m2-benchmark-v2/lf52-271a04aa_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-benchmark-v2/sk48-d8078629_p0_requests.jsonl",
+      "bytes": 11674371,
+      "sha256": "757f864e0bc946517ccb5a4cf43555c734fc25716deff820680ad770ccf6d45d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-benchmark-v2/sk48-d8078629_p0_requests.jsonl",
+      "source_path": "reports/kaggle/duck-m2-benchmark-v2/sk48-d8078629_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-benchmark-v2/sp80-589a99af_p0_requests.jsonl",
+      "bytes": 23044743,
+      "sha256": "aacbf284b18dbb7136f353050a2bc1e66ce9452b4d713690162cc7f427a51aa2",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-benchmark-v2/sp80-589a99af_p0_requests.jsonl",
+      "source_path": "reports/kaggle/duck-m2-benchmark-v2/sp80-589a99af_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-benchmark-v2/vc33-5430563c_p0_requests.jsonl",
+      "bytes": 39399489,
+      "sha256": "b05089ef9210ebadb24732bc487de1e0ad9983a3478caa5f093cf1373fca345d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-benchmark-v2/vc33-5430563c_p0_requests.jsonl",
+      "source_path": "reports/kaggle/duck-m2-benchmark-v2/vc33-5430563c_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-benchmark-v2/wa30-ee6fef47_p0_requests.jsonl",
+      "bytes": 30973699,
+      "sha256": "3fa39d75e68557d0367867f859373f64c131952db93a72b6c8080b07568a8db6",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-benchmark-v2/wa30-ee6fef47_p0_requests.jsonl",
+      "source_path": "reports/kaggle/duck-m2-benchmark-v2/wa30-ee6fef47_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/.per_game_cards.pkl",
+      "bytes": 288262,
+      "sha256": "d541655ba5a693ac60670d2a823d61df03ead45278b3ff187d4f59065bbc6b27",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/.per_game_cards.pkl",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/.per_game_cards.pkl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/bp35-0a0ad940_p0_requests.jsonl",
+      "bytes": 5692438,
+      "sha256": "2082a8f0b7ce656f560951cc2afda947fbce49c2f60762d8ce99b7838684ea6e",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/bp35-0a0ad940_p0_requests.jsonl",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/bp35-0a0ad940_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/ft09-0d8bbf25_p0_requests.jsonl",
+      "bytes": 5139671,
+      "sha256": "b3b60fa5ea5f87139e11878cbb69bed904efd2555af8b3056a598b2b7ce09651",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/ft09-0d8bbf25_p0_requests.jsonl",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/ft09-0d8bbf25_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/games.pkl",
+      "bytes": 727,
+      "sha256": "8053fdd90a1aaf007db4e0efaa82084a7dc5d0f48408246b6d05a140910d80a3",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/games.pkl",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/games.pkl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/intermediate_states.pkl",
+      "bytes": 1230391,
+      "sha256": "cef2de60170883184d4d4f8872d278102af08f6a49dac837618491d2d3efda98",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/intermediate_states.pkl",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/intermediate_states.pkl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/ls20-9607627b_p0_requests.jsonl",
+      "bytes": 5388726,
+      "sha256": "f189a0e1b56ca4fb93f178cce0cdbf12383060969562ce7c7811dab559cfb501",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/ls20-9607627b_p0_requests.jsonl",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/ls20-9607627b_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/r11l-495a7899_p0_requests.jsonl",
+      "bytes": 8324038,
+      "sha256": "214cfc4ef7cdc450b44133de4dbfc44f6728d98ffc1c5ef8f030c409ba0e3d35",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/r11l-495a7899_p0_requests.jsonl",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/r11l-495a7899_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/solver.pkl",
+      "bytes": 1902,
+      "sha256": "44469eb2eec7f0c0f6cf50795cff8d22f1b356f1c3e3ac1123e296e609cd4bce",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/solver.pkl",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/solver.pkl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/vc33-5430563c_p0_requests.jsonl",
+      "bytes": 4130719,
+      "sha256": "91b2a3c30d03e4119f72f0d532f14aeb69c8fc55f7b4b36cf331150ddd77ce24",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/vc33-5430563c_p0_requests.jsonl",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/vc33-5430563c_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "bytes": 397606,
+      "sha256": "df146087d40ffc87334bd920849a0dc43685ef32bb47cde15d107de109e9d9cd",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "bytes": 391770,
+      "sha256": "df52ec20205882a66032a182a5c12be957685bcd4716aa91af62b8b2fb468cd8",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/transcripts/ls20-9607627b_p0.txt",
+      "bytes": 407553,
+      "sha256": "e697ed24a0956d55e1c244f242b06e7fff45499b84b0631e333920c0ac9c06ab",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/transcripts/ls20-9607627b_p0.txt",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/transcripts/ls20-9607627b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/transcripts/r11l-495a7899_p0.txt",
+      "bytes": 477158,
+      "sha256": "8d42280e6c5b8dc510e1c78a3986c7f5557229638ad0b76d9308804067d89de4",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/transcripts/r11l-495a7899_p0.txt",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/transcripts/r11l-495a7899_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/duck-m2-preflight-v1/transcripts/vc33-5430563c_p0.txt",
+      "bytes": 384296,
+      "sha256": "d76cbc7878da03c2a4d2b8fe7d60d79887e5c49329f66f4d803e229c7d101e5a",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/duck-m2-preflight-v1/transcripts/vc33-5430563c_p0.txt",
+      "source_path": "reports/kaggle/duck-m2-preflight-v1/transcripts/vc33-5430563c_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/ar25-0c556536_p0.txt",
+      "bytes": 2802770,
+      "sha256": "1743ba1ae88fe23fa3e290f80cbbdc314622843fb603b3e2b42ab95bdf0e2429",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/ar25-0c556536_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/ar25-0c556536_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "bytes": 855098,
+      "sha256": "ad188a501d225feae7f8bca4653b88dc614cd47969468182cef03b8abbb8dcba",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "bytes": 2643479,
+      "sha256": "a56ccfdb2a470f16fc3dafd72955e1f4c91223ad3e32ec1c2f4a0935ca75e233",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "bytes": 1733455,
+      "sha256": "eb485048dd2e34f2090ddd9a5f08d42b89e6ffcdf5386861e8421ec4abdda43f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/dc22-fdcac232_p0.txt",
+      "bytes": 2156267,
+      "sha256": "c1b2978fd49d2219191e9c614e5ce149c7c1556369788b631d1aab00c0284f29",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/dc22-fdcac232_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/dc22-fdcac232_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "bytes": 1043436,
+      "sha256": "6db00fb602a8fde1b37bcd3747e43d419e572c1d46bc15f0794dd73b3139052a",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/g50t-5849a774_p0.txt",
+      "bytes": 795505,
+      "sha256": "e49e6a4e0c4311a28c930f850c6dbecc1a927ef2017dc0b1ba30f8cae09575fd",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/g50t-5849a774_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/g50t-5849a774_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "bytes": 1824868,
+      "sha256": "f3b8264ad6eae1c1ed3c1df8f975dfaf5ea55fb2b396ab7d2d8e74125fae8226",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/lf52-271a04aa_p0.txt",
+      "bytes": 2046988,
+      "sha256": "76a5d4a79e7b5a5bfd3ec7222b3c8759dccf0332215b9066590fb20c72cb7b00",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/lf52-271a04aa_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/lf52-271a04aa_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/lp85-305b61c3_p0.txt",
+      "bytes": 2042586,
+      "sha256": "cdd029db4fdbbbf3214804f46dbd57faa60c7f4b8c7e1cbcf67954134ed13952",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/lp85-305b61c3_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/lp85-305b61c3_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/ls20-9607627b_p0.txt",
+      "bytes": 1452665,
+      "sha256": "ba372b853f1517dfd629b2574170adeabea240c9ea80c4a243d33297e374fc43",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/ls20-9607627b_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/ls20-9607627b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "bytes": 1441798,
+      "sha256": "aafcd5c5ea756e7fa04421de7d823b1ec710426ff09f3cea79cb394977aa96bd",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/r11l-495a7899_p0.txt",
+      "bytes": 1708905,
+      "sha256": "f270de484d4253330181cd0bbb3f591dd3e0567f8f88afaf3d4e6a534f11f56f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/r11l-495a7899_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/r11l-495a7899_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/re86-8af5384d_p0.txt",
+      "bytes": 1912289,
+      "sha256": "e77e4930116cecb1c9b436fc2294c75bcd63ee4a9219e692eee81ab89250e237",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/re86-8af5384d_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/re86-8af5384d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/s5i5-18d95033_p0.txt",
+      "bytes": 856704,
+      "sha256": "ff0f91b7df54deec4651603953c67b948d2f0c66319bf20cbc31fd697932f47c",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/s5i5-18d95033_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/s5i5-18d95033_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "bytes": 1024851,
+      "sha256": "a635ddc98e9c531c2c6e955a98e2449e729aeea67917c6ac2942787278926fda",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/sc25-635fd71a_p0.txt",
+      "bytes": 2196601,
+      "sha256": "accaf75fef716cc9577e57f87fdc8ce3d0e1f3a9ce4f9cd4ee12e697ba1346d3",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/sc25-635fd71a_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/sc25-635fd71a_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/sk48-d8078629_p0.txt",
+      "bytes": 855543,
+      "sha256": "c4730cf3d3558d756e69d9befd6fe6290fb87122f0e06bcabd7e18510697fcab",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/sk48-d8078629_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/sk48-d8078629_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/sp80-589a99af_p0.txt",
+      "bytes": 1355572,
+      "sha256": "7b84bbb7df11e5fb38283c9e74f8a2c3437d1e335a75955bf358ce359a79da53",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/sp80-589a99af_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/sp80-589a99af_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/su15-1944f8ab_p0.txt",
+      "bytes": 1926996,
+      "sha256": "e9fce567153aadcf151b530238a220ffdda84c00879c6ea496e7e7b75eb91fb8",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/su15-1944f8ab_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/su15-1944f8ab_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "bytes": 813866,
+      "sha256": "4d1a2efd98cac302edd420f412a9242413f9f787766b9522f7a684a7d6e57d91",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/tr87-cd924810_p0.txt",
+      "bytes": 1688106,
+      "sha256": "3c64f87a2296dce8b474597dafa72e4eb7f1a5d75989a6ce3d9b64388466d9cd",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/tr87-cd924810_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/tr87-cd924810_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/tu93-0768757b_p0.txt",
+      "bytes": 1880497,
+      "sha256": "011c8d8de14d238ea73bfc51e8969033a047bb2e3614153e2881b39e22f1c572",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/tu93-0768757b_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/tu93-0768757b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/vc33-5430563c_p0.txt",
+      "bytes": 2098465,
+      "sha256": "d10e59b0714ab60465007a15fb7af2bc4e48701e581ffcc3ab0d46c1cfe2bc6b",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/vc33-5430563c_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/vc33-5430563c_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-control-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "bytes": 869825,
+      "sha256": "3bb353f3eb14ccaeb8f0f3d26f25cd0ac2b49a4374853248c65c75b3f6e974e4",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-control-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-control-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ar25-0c556536_p0.txt",
+      "bytes": 2145665,
+      "sha256": "7bc008154f75023a41e1db84a9ec7d3a87cb14b5f8071c039415f5ffc7eb85c9",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ar25-0c556536_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ar25-0c556536_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "bytes": 963537,
+      "sha256": "4cb628748901fbcde520ed3687258f635035170d84350502dac022c92a40f5f8",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "bytes": 1183371,
+      "sha256": "ef5e4129346180fd5a2ae9b1cd161df35ab3f17df86af2150654a6a0ea22b2a6",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "bytes": 2996456,
+      "sha256": "7e7f9b0a1e408b19ef13a0a5c09bfa219b3db306516ea5eb349d297c9a61102d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/dc22-fdcac232_p0.txt",
+      "bytes": 2459802,
+      "sha256": "de2f2258990d28cfd86869f15412a2b41286df7697f94ee5752ba832496f6c3f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/dc22-fdcac232_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/dc22-fdcac232_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "bytes": 1471112,
+      "sha256": "74a694ef7c67c1e263c452afc3590a558d0bf84440ead8cf5c56da0fda1d828b",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/g50t-5849a774_p0.txt",
+      "bytes": 2701412,
+      "sha256": "684b85f4fa0ec754d1e8f839c7fb80b802d83332bbb5aef271a7940ee52daae6",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/g50t-5849a774_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/g50t-5849a774_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "bytes": 2408485,
+      "sha256": "ee286bcfe02e19022395edcd845f1dd7a9f26f8b4f4fc9edfc5cad753d062f81",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/lf52-271a04aa_p0.txt",
+      "bytes": 3051849,
+      "sha256": "baf643fd55ac3b4920048e08a1dbffccc98720e1cf0ef7a22f6f690a4dce4c2d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/lf52-271a04aa_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/lf52-271a04aa_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/lp85-305b61c3_p0.txt",
+      "bytes": 1985887,
+      "sha256": "0dfaba831738c869f653fba029e4fb9e29845937246ba2a8c32a59f2f11cac50",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/lp85-305b61c3_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/lp85-305b61c3_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ls20-9607627b_p0.txt",
+      "bytes": 2001567,
+      "sha256": "f294db333dc70282f3424ca467f606493d93428ea586fab8650908f46397d0a2",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ls20-9607627b_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/ls20-9607627b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "bytes": 3730174,
+      "sha256": "ccbb067b849ab5c8064a99e8cd36f0f4edd4adfde118f80a4f4d4f59d33ea1c0",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/r11l-495a7899_p0.txt",
+      "bytes": 1895374,
+      "sha256": "e8341501e2cf033990a0903412deaac12ac05720ff1c28fc8ae9ca225bfce21a",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/r11l-495a7899_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/r11l-495a7899_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/re86-8af5384d_p0.txt",
+      "bytes": 1998906,
+      "sha256": "f980c5306bb28fc2fc2f3a7ad2a68096a7d11dbd3d6282509af6723ee238d75f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/re86-8af5384d_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/re86-8af5384d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/s5i5-18d95033_p0.txt",
+      "bytes": 1278484,
+      "sha256": "1914a202de0d462ec6f09762621112cac178443ece4892968226b9f30d793078",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/s5i5-18d95033_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/s5i5-18d95033_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "bytes": 620052,
+      "sha256": "ede92a885015060f1fd263cd19c16a46a11e7c99b13cc5772941ea567e9cc883",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sc25-635fd71a_p0.txt",
+      "bytes": 1276785,
+      "sha256": "650becd985d2c7a86db3260fb5811e1571800102b5c21ea6e44008d219aee8be",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sc25-635fd71a_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sc25-635fd71a_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sk48-d8078629_p0.txt",
+      "bytes": 970826,
+      "sha256": "f539fb48110696e051dbcb1927c887f26e8feff557016c075b17e32c4f2efc1c",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sk48-d8078629_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sk48-d8078629_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sp80-589a99af_p0.txt",
+      "bytes": 2838736,
+      "sha256": "6018e8646420dad94ddcd30033f77181a3db93199fe3c62ae3a16973021e236a",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sp80-589a99af_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/sp80-589a99af_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/su15-1944f8ab_p0.txt",
+      "bytes": 2649775,
+      "sha256": "37e6b7a8f25fa501eb026344779692be0960fd71b57270bbcfb9e937d3ef3693",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/su15-1944f8ab_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/su15-1944f8ab_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "bytes": 851880,
+      "sha256": "70a796527ca3617b525aba01eb9b22d5f23556758e4ceeaf422db36b26444fa7",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/tr87-cd924810_p0.txt",
+      "bytes": 1534216,
+      "sha256": "9a0186206aadf43180148ba67ad72e26c76e41a2b2ce7e4276be302d808a18e9",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/tr87-cd924810_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/tr87-cd924810_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/tu93-0768757b_p0.txt",
+      "bytes": 2658805,
+      "sha256": "6c17afc2d397e87f57b07d6ce1c79c1522b0bab21114af393f4831083830d0af",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/tu93-0768757b_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/tu93-0768757b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/vc33-5430563c_p0.txt",
+      "bytes": 2680925,
+      "sha256": "d414afc98ef05a55567a2068ae247eddb12cf646761d03b44ca655585ab2fb8e",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/vc33-5430563c_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/vc33-5430563c_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "bytes": 1448457,
+      "sha256": "1c5455b7f7951771e14aab71e8e2cd1023a2f035ba2e6331b9650eb9a2f6a184",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/prediction-matched-prediction-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "source_path": "reports/kaggle/prediction-matched-prediction-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ar25-0c556536_p0.txt",
+      "bytes": 1917417,
+      "sha256": "2b15d5aa44367c05c7c745ca19853b45b1a7123ea856a0623d7d6f5221ccaf2d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ar25-0c556536_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ar25-0c556536_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "bytes": 1239032,
+      "sha256": "e485fa85827190da45b26170c9be3e6ed5cc560aa46dacc135363fb61b37f8b0",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "bytes": 1222603,
+      "sha256": "22a7d1fc6239e10bd4ae8e65b81c01666f1710faefd8f542cb11c0e9ea88bd5c",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "bytes": 1454911,
+      "sha256": "df23f7673d114a5b2a3a8985d237631c709a841dfd335510fa73f5710fb10938",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/dc22-fdcac232_p0.txt",
+      "bytes": 976891,
+      "sha256": "a068f6bb25bc1a4398db120b7c9cd53e549ddaff2b03bd52860bfc26070b6fca",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/dc22-fdcac232_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/dc22-fdcac232_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "bytes": 742651,
+      "sha256": "1748e985b79760117a6d46ee6bd7c2434c5efdd011b85bad77445032db8c4fe4",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/g50t-5849a774_p0.txt",
+      "bytes": 809315,
+      "sha256": "9561b360f76ab8972443913d5dbf02b259e4491220e48faeaa0fe52098ca568f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/g50t-5849a774_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/g50t-5849a774_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "bytes": 1212832,
+      "sha256": "689f84a7a236330e8f4e7c079fb44297259ae5e0a9bc476fd835607d6a8de63f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/lf52-271a04aa_p0.txt",
+      "bytes": 1588859,
+      "sha256": "f2f6b85bc7d7cf51e52f4b756d3063ed98458c8697ad783dec1ba26978ca422b",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/lf52-271a04aa_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/lf52-271a04aa_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/lp85-305b61c3_p0.txt",
+      "bytes": 1164033,
+      "sha256": "90fa42848c95aa1050cfd169c86b7b48764ecd8648bd18253c3f32c13d6b888c",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/lp85-305b61c3_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/lp85-305b61c3_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ls20-9607627b_p0.txt",
+      "bytes": 1327375,
+      "sha256": "67ae427dced7fa3b5d2992d4f42844be5320e407e994f8a0313ba4d9a1da6721",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ls20-9607627b_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/ls20-9607627b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "bytes": 967605,
+      "sha256": "4f8a401fe3e90f86e73e3d5220dec041c5fa0cc7a4c1633ca4f97f90c66ef432",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/r11l-495a7899_p0.txt",
+      "bytes": 1259933,
+      "sha256": "f2e5023cbfb4d810cbc8d0974a7700a307c7036cb36131f3c460aeb287626199",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/r11l-495a7899_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/r11l-495a7899_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/re86-8af5384d_p0.txt",
+      "bytes": 1154273,
+      "sha256": "973866c037fdcaf59b334016251addbf2687327d6b078da89003c66c086fc698",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/re86-8af5384d_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/re86-8af5384d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/s5i5-18d95033_p0.txt",
+      "bytes": 692650,
+      "sha256": "d597cfcb7f5fc9653c84e1400229c72affcf4d932cfbfe44bbbd7927560f5890",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/s5i5-18d95033_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/s5i5-18d95033_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "bytes": 925936,
+      "sha256": "752917b194c9bd0a3d2b905af565dfe000648a0832e350e89e6ef6d0f5bd5659",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sc25-635fd71a_p0.txt",
+      "bytes": 2001170,
+      "sha256": "593b9f5c9fd2b7a08d2e4347f1ae96e95e588680c252be93379598395032a945",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sc25-635fd71a_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sc25-635fd71a_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sk48-d8078629_p0.txt",
+      "bytes": 886115,
+      "sha256": "08da6f82ec11462c74413ffdbb59848ad5d7fabdd4ee24e33dfe4b65e6118548",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sk48-d8078629_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sk48-d8078629_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sp80-589a99af_p0.txt",
+      "bytes": 1188460,
+      "sha256": "d6b26e467dbd60f54a2bfbfa9a4ac3ff62093957387406045a09c63878272010",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sp80-589a99af_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/sp80-589a99af_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/su15-1944f8ab_p0.txt",
+      "bytes": 1364469,
+      "sha256": "3db0ea1ac877025d1a71510ed4a01a486e578c11230ae6ecac142d52784bcc1f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/su15-1944f8ab_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/su15-1944f8ab_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "bytes": 900181,
+      "sha256": "24aa89f05a2b0ea3184d6766f711eb7dc4b6a1697475dfa0d689c3b1cdfe83c3",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/tr87-cd924810_p0.txt",
+      "bytes": 728412,
+      "sha256": "e67af3557a4006b1b4570058f41bca6c6cbbbdbb52d47afdd2791aae8ee26352",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/tr87-cd924810_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/tr87-cd924810_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/tu93-0768757b_p0.txt",
+      "bytes": 1373136,
+      "sha256": "f774f88fdbf905faa37542d9c778cd607e82c5438328a2d357f367f341d1d631",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/tu93-0768757b_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/tu93-0768757b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/vc33-5430563c_p0.txt",
+      "bytes": 984785,
+      "sha256": "6deb9beb9135d390f927700ea3f99436a5092117ab234f7f1dfb6eaa93a83434",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/vc33-5430563c_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/vc33-5430563c_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "bytes": 841617,
+      "sha256": "6b1d15aadcd73a3453da967dea1c42eeee896310f03b4bcae2369bdaaa0d3d51",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "source_path": "reports/kaggle/qwen27-fair-capacity-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/ar25-0c556536_p0.txt",
+      "bytes": 2047265,
+      "sha256": "0c564321db87441d56f2c0b5e66cbb2796a672e32d7a8cc33ac151bcedd8569d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/ar25-0c556536_p0.txt",
+      "source_path": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/ar25-0c556536_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/cn04-2fe56bfb_p0.txt",
+      "bytes": 1565548,
+      "sha256": "2499771c686bdd5f20ef7e0cafe29f28e12ad5befe7456f81388e8d7b016d602",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/cn04-2fe56bfb_p0.txt",
+      "source_path": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/cn04-2fe56bfb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/ka59-38d34dbb_p0.txt",
+      "bytes": 2067610,
+      "sha256": "bced4152a235c33921e39575df9454b71f49a939bffc9e9dde93d9c640a6cf1a",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/ka59-38d34dbb_p0.txt",
+      "source_path": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/ka59-38d34dbb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/ls20-9607627b_p0.txt",
+      "bytes": 1836460,
+      "sha256": "f0142a4008b79dbeee73b9935be99019303b7c59adc0c4da2b8e0155d862d168",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/ls20-9607627b_p0.txt",
+      "source_path": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/ls20-9607627b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/s5i5-18d95033_p0.txt",
+      "bytes": 1892684,
+      "sha256": "9e6f6ef36a826eb801e1fd0f9c619372cb3783ec632c68d78f53a2aa204e73c1",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/s5i5-18d95033_p0.txt",
+      "source_path": "reports/kaggle/qwen27-lora-gameplay-v1/adapted/transcripts/s5i5-18d95033_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/ar25-0c556536_p0.txt",
+      "bytes": 1956825,
+      "sha256": "b417322fbc821b9e48c78be7033fcb21756de95583b1641a86de5aa9bab28335",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/ar25-0c556536_p0.txt",
+      "source_path": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/ar25-0c556536_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/cn04-2fe56bfb_p0.txt",
+      "bytes": 1816453,
+      "sha256": "7ffb6b7831b416acd1ac99f9953fef8540c3e074a117b667b1e3bb720f2e0846",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/cn04-2fe56bfb_p0.txt",
+      "source_path": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/cn04-2fe56bfb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/ka59-38d34dbb_p0.txt",
+      "bytes": 1732371,
+      "sha256": "d40d78a91310d251d2f09ef37c30452100de0bed95175d05824624f6131cd576",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/ka59-38d34dbb_p0.txt",
+      "source_path": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/ka59-38d34dbb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/ls20-9607627b_p0.txt",
+      "bytes": 1751978,
+      "sha256": "08daade6b9deb3f79e61638fbd5bb2835e1014ba3f34fa848bd2e71faabeb3e0",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/ls20-9607627b_p0.txt",
+      "source_path": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/ls20-9607627b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/s5i5-18d95033_p0.txt",
+      "bytes": 1828933,
+      "sha256": "e196d64cd7cba35798763ef3a79a00b63b922b28451ec69672de558d322c25ae",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/s5i5-18d95033_p0.txt",
+      "source_path": "reports/kaggle/qwen27-lora-gameplay-v1/base/transcripts/s5i5-18d95033_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-pilot-v1/sft-pilot/adapter/adapter_model.safetensors",
+      "bytes": 435280528,
+      "sha256": "45c87044ffc3c133e4dfb637ed769e13fb78b040c7aefba59672183783760c4d",
+      "asset": "Qwen3.8-27B-ARC3-native-adapter.safetensors",
+      "source_path": "reports/kaggle/qwen27-lora-pilot-v1/sft-pilot/adapter/adapter_model.safetensors",
+      "kind": "native-adapter"
+    },
+    {
+      "path": "reports/kaggle/qwen27-lora-pilot-v1/sft-pilot/serving-adapter/adapter_model.safetensors",
+      "bytes": 466767600,
+      "sha256": "d43af1abea2c99c6fe527546c72bcb6acdb4cdb972a6dc9181a7b42e007e7b30",
+      "asset": "Qwen3.8-27B-ARC3-serving-adapter.safetensors",
+      "source_path": "reports/kaggle/qwen27-lora-pilot-v1/sft-pilot/serving-adapter/adapter_model.safetensors",
+      "kind": "serving-adapter"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ar25-0c556536_p0.txt",
+      "bytes": 1365180,
+      "sha256": "296c04803364313c5ea85cb428be3e26928ad472cd0c211cc27691bcc66564a9",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ar25-0c556536_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ar25-0c556536_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "bytes": 761343,
+      "sha256": "7705a58662cac1780573ba67f758382e80cf2d3f7feaac1bce63fe86385fa793",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "bytes": 1198461,
+      "sha256": "810cd118d6f1ccbd8a44f546b92c64fbfe64c29f7bba870cd12b7caa859c7c72",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "bytes": 908953,
+      "sha256": "e649535802eef66c27f41b3acbe8efd1cee15d675c8ecfffd38e641af62695d4",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/dc22-fdcac232_p0.txt",
+      "bytes": 848152,
+      "sha256": "238285bec615e6810a1ad11459491289ca6c38211d349d28f0b9fabe3296e6b6",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/dc22-fdcac232_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/dc22-fdcac232_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "bytes": 1122910,
+      "sha256": "7e1ef20ca037794f99f411fc26031c6e457e87c88bbf08f9df6cdb12ca6e3036",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/g50t-5849a774_p0.txt",
+      "bytes": 844619,
+      "sha256": "7a76a5063c5d65e70d0b5541b12ae65c7054aebe86499789f1335bf386531742",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/g50t-5849a774_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/g50t-5849a774_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "bytes": 904197,
+      "sha256": "29bdf6912d68021df7e2b4929d77f45e564516ca9a36eb083b833a2fdd3fca4d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/lf52-271a04aa_p0.txt",
+      "bytes": 1033765,
+      "sha256": "fbce8a4888bee77af4003e0bd1ade22b43dbbb504b3cb660122664cc349c1ed2",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/lf52-271a04aa_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/lf52-271a04aa_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/lp85-305b61c3_p0.txt",
+      "bytes": 1270273,
+      "sha256": "afc6eb97ba71381cafacf1267b69c096785b905ebec36350be8fd50f507d3838",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/lp85-305b61c3_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/lp85-305b61c3_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ls20-9607627b_p0.txt",
+      "bytes": 1145557,
+      "sha256": "6ef6390dfe7c78565e9b6705aa9a754fd81f04e7e6a4dae281196acbe7ad3f79",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ls20-9607627b_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/ls20-9607627b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "bytes": 956334,
+      "sha256": "a5de46e6c1ecb7afccdae533bb1a7e6569bd415773211f9aec625e2d9d340c14",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/r11l-495a7899_p0.txt",
+      "bytes": 1152153,
+      "sha256": "32c82b8e8e15d126b68cb4c7ea6ec9be2e61e347af433adf3d8b5774d76b602f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/r11l-495a7899_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/r11l-495a7899_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/re86-8af5384d_p0.txt",
+      "bytes": 758294,
+      "sha256": "6c3528763f40c6b400024042972d37f951ff9b8c3170d369bfa131e7774d9ecd",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/re86-8af5384d_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/re86-8af5384d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/s5i5-18d95033_p0.txt",
+      "bytes": 1031392,
+      "sha256": "29d1a01d21cdc5ed4791117b357a7ccb2073e82cb9f5fc23704f730c95ca2f37",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/s5i5-18d95033_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/s5i5-18d95033_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "bytes": 864283,
+      "sha256": "652909332be1a1dd41d20f8309c8104a9050ea9ffe55736d167d4e1250812b4b",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sc25-635fd71a_p0.txt",
+      "bytes": 806964,
+      "sha256": "03cf23512f82242f2a41bfb3a6b5e8d80541881191cb0b2a72c84e423b5be4d2",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sc25-635fd71a_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sc25-635fd71a_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sk48-d8078629_p0.txt",
+      "bytes": 1212699,
+      "sha256": "c77fbf50b329fa880444865b6c71d1c1842a14ed42e2c0965d7f77e72abf4467",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sk48-d8078629_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sk48-d8078629_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sp80-589a99af_p0.txt",
+      "bytes": 666073,
+      "sha256": "64389ed4e97a38c5d53138783dca4853ed43539389936026e2981f99b746e3ad",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sp80-589a99af_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/sp80-589a99af_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/su15-1944f8ab_p0.txt",
+      "bytes": 1035087,
+      "sha256": "59af10403aa6d0b6274863721837d2c45e86cc97d430af9884e6f815e4d9018d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/su15-1944f8ab_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/su15-1944f8ab_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "bytes": 809725,
+      "sha256": "6afc79bda06fae8080cc81fcbeee64e5b78caf6a330534530ebc141e2a44eda4",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/tr87-cd924810_p0.txt",
+      "bytes": 1219024,
+      "sha256": "a08bfb3f4df4fa84e717b01a305c6eeac220aa22fbaba17e816cf5c0c145220f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/tr87-cd924810_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/tr87-cd924810_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/tu93-0768757b_p0.txt",
+      "bytes": 1359301,
+      "sha256": "f1c1d98ad7b849e6010381515e81268491b8f944fd7ba524aca7b7946d977897",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/tu93-0768757b_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/tu93-0768757b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/vc33-5430563c_p0.txt",
+      "bytes": 1849464,
+      "sha256": "d0e0f3af29322ebf62ec3bdd9f6a122bc8d778b9c42b519d1888272e95d6a98f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/vc33-5430563c_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/vc33-5430563c_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "bytes": 830540,
+      "sha256": "6cca4d058aa3873f917eeecb27899e6613ae0eb5794b20e68898c10a441dd0dd",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "source_path": "reports/kaggle/qwen27-matched-baseline-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/ar25-0c556536_p0.txt",
+      "bytes": 2232008,
+      "sha256": "fb15dd21b4f8f0bbca973a7325aaac49840514f6f5e5de69f28bf590f730d436",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/ar25-0c556536_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/ar25-0c556536_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "bytes": 2258487,
+      "sha256": "d3324faa4450cb951147fff5d997d38c21a7e7bb34a11bf4c27eb281ffd5bd16",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "bytes": 3661206,
+      "sha256": "e7e3c898a71d4a74c20e776f04c04f158bf616c853a86ae8bfea7f234261466e",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/cd82-fb555c5d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "bytes": 1520002,
+      "sha256": "f9fe0f0da032f7f8c7d717cda519e250b6ecaa78a4fec1ff254f036b6a797dc1",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/cn04-2fe56bfb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/dc22-fdcac232_p0.txt",
+      "bytes": 1603112,
+      "sha256": "4bf6825aa3dffa08a0ec83a04db3b78e941447475e973acaa6bc10183fe5fc13",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/dc22-fdcac232_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/dc22-fdcac232_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "bytes": 2450593,
+      "sha256": "6ebc6165372a3fe60e574b935f28e7c0a93d23afbde906638d2732a92bb929ba",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/ft09-0d8bbf25_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/g50t-5849a774_p0.txt",
+      "bytes": 2947547,
+      "sha256": "30761c311219c40d1cde41e072f7daef0ed23bd320819d58ed1accff6ffec7c2",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/g50t-5849a774_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/g50t-5849a774_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "bytes": 1374434,
+      "sha256": "1d22de1bd3b29e374c603212b5bf120969f5349c53aab633e5f13b483c1a1308",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/ka59-38d34dbb_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/lf52-271a04aa_p0.txt",
+      "bytes": 2998629,
+      "sha256": "8da39b5ee3572d4f9d5712d0bf5ccfbcbf702fd52a72f9da80fb7ce8f309812e",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/lf52-271a04aa_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/lf52-271a04aa_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/lp85-305b61c3_p0.txt",
+      "bytes": 2279980,
+      "sha256": "e80337bd0b0a4b77a006f24752400e0e63835ca28ea82da6ecfa3295cca6ef49",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/lp85-305b61c3_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/lp85-305b61c3_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/ls20-9607627b_p0.txt",
+      "bytes": 1246209,
+      "sha256": "f338d96e36f66643eaee49e3c32b4a0b17ffbc0d4acdc14e1b55ea94ec113899",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/ls20-9607627b_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/ls20-9607627b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "bytes": 3299187,
+      "sha256": "f347b9b4d7449336be517bf3e878b21af1f25f568b0fb06d9d2e5024935a6508",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/m0r0-492f87ba_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/r11l-495a7899_p0.txt",
+      "bytes": 2478993,
+      "sha256": "c5f6eb80fd6df422da4cc27bf310bfbdf28d60e9511dfe2c6add7757f693928d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/r11l-495a7899_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/r11l-495a7899_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/re86-8af5384d_p0.txt",
+      "bytes": 2247329,
+      "sha256": "88f58ecdbc3626df0554c03626ef12c187eb6c351594d94c9d46dec9781dc1a7",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/re86-8af5384d_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/re86-8af5384d_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/s5i5-18d95033_p0.txt",
+      "bytes": 2018261,
+      "sha256": "a39dfde4f9dfd1f1720f707be0f504bdb692a6c5e83d69e3c19c1b55749758a2",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/s5i5-18d95033_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/s5i5-18d95033_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "bytes": 2823079,
+      "sha256": "d5e47514b84e67c277d1e499e589aee89f932e0f0069593aec2d5804f76b93e3",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/sb26-7fbdac44_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/sc25-635fd71a_p0.txt",
+      "bytes": 3378560,
+      "sha256": "e89f7da83856cdffe005f271fe71d422af21c91ecc71510af365bbb984ff456d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/sc25-635fd71a_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/sc25-635fd71a_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/sk48-d8078629_p0.txt",
+      "bytes": 805904,
+      "sha256": "9d65e5ced455c50bba127d76f1f424580195219b923e11581defef8158c9d40f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/sk48-d8078629_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/sk48-d8078629_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/sp80-589a99af_p0.txt",
+      "bytes": 1372228,
+      "sha256": "6987a98118847a153d22f4f31ed9448b371d8db9d50904237799d423d2902861",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/sp80-589a99af_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/sp80-589a99af_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/su15-1944f8ab_p0.txt",
+      "bytes": 1783618,
+      "sha256": "3cd2a9c871862983136bcd0facacd1c3d9a7e479b68eb6fc1f86a3e7b895b07e",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/su15-1944f8ab_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/su15-1944f8ab_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "bytes": 2337577,
+      "sha256": "cb7dfcaa01e0db590352c1e3e7b702faef067a01c751bb90ae8d67881580a381",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/tn36-ef4dde99_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/tr87-cd924810_p0.txt",
+      "bytes": 831831,
+      "sha256": "1e019a89fad6725e5b550341af90d731443805057e5dd5d12317499008b38581",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/tr87-cd924810_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/tr87-cd924810_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/tu93-0768757b_p0.txt",
+      "bytes": 3108629,
+      "sha256": "5ba8552ed628297789fea7243504a66f764e33ce785f87039678dc3d01ad8ed9",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/tu93-0768757b_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/tu93-0768757b_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/vc33-5430563c_p0.txt",
+      "bytes": 3214172,
+      "sha256": "4d8c3bf311016ca2d8f7b27375817d46b511bb67708a0791c8a5495a19092b83",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/vc33-5430563c_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/vc33-5430563c_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/kaggle/thinkingcap-matched-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "bytes": 1342911,
+      "sha256": "863a77a654c7d75c65d6fddbc4a6a6c12f812eb0e65dd05a7e467d0f97cd25b4",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/kaggle/thinkingcap-matched-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "source_path": "reports/kaggle/thinkingcap-matched-v1/transcripts/wa30-ee6fef47_p0.txt",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-flashnext-gguf-training-20261101/transformers-gguf-source.tar.gz",
+      "bytes": 21372866,
+      "sha256": "c3c892aadd9043fac06dfe0d1cdd0c175b31e15f905f4a2e4d3bbc609855ca91",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-flashnext-gguf-training-20261101/transformers-gguf-source.tar.gz",
+      "source_path": "reports/research/arc3-flashnext-gguf-training-20261101/transformers-gguf-source.tar.gz",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/curriculum-sample/manifest.json",
+      "bytes": 1106,
+      "sha256": "f28185b4b4ca3dc3a93ab8f3c5d1e106bc79ea45ba17f55c62696f4fc6fef850",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/curriculum-sample/manifest.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/curriculum-sample/manifest.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/curriculum-sample/ambiguity/stage6-stats.json",
+      "bytes": 543,
+      "sha256": "656e7c6a2e211d05cf22c925ec5c9dc0459c5b6586ee58e8b6f4eaf65b70a029",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/curriculum-sample/ambiguity/stage6-stats.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/curriculum-sample/ambiguity/stage6-stats.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/curriculum-sample/ambiguity/data/train-00000.parquet",
+      "bytes": 3255451,
+      "sha256": "d6cb87f7dd09a4cdee64dea7446afbbf7d99af00eb3f7a1620c313bc201b919c",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/curriculum-sample/ambiguity/data/train-00000.parquet",
+      "source_path": "reports/research/arc3-training-selection-20261101/curriculum-sample/ambiguity/data/train-00000.parquet",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/curriculum-sample/composition/stage5-stats.json",
+      "bytes": 642,
+      "sha256": "c0b4ba934c8e172c826b3fd7c57fde5cab679cf1c5637cf33f3b13ed7c7e92fc",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/curriculum-sample/composition/stage5-stats.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/curriculum-sample/composition/stage5-stats.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/curriculum-sample/data/train-00000.parquet",
+      "bytes": 5211023,
+      "sha256": "b3fc35fa7503a1b629203725b6a350741aad73532736fc77322965948f05f477",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/curriculum-sample/data/train-00000.parquet",
+      "source_path": "reports/research/arc3-training-selection-20261101/curriculum-sample/data/train-00000.parquet",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/curriculum-sample/data/validation-00000.parquet",
+      "bytes": 5429338,
+      "sha256": "6f3e845b58a0990733e4e6f5a38e28951c14847fb512e826ca0479bf06573ef0",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/curriculum-sample/data/validation-00000.parquet",
+      "source_path": "reports/research/arc3-training-selection-20261101/curriculum-sample/data/validation-00000.parquet",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/curriculum-sample/deep_composition/stage7-stats.json",
+      "bytes": 504,
+      "sha256": "ac467973191c92a9cc6f467e41fbf22df50628e778b923c5001b8177cba367fa",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/curriculum-sample/deep_composition/stage7-stats.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/curriculum-sample/deep_composition/stage7-stats.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/dependency-source/wheels/transformers-5.12.1-py3-none-any.whl",
+      "bytes": 11150587,
+      "sha256": "2a5e109d2021265df7098ffbb738295acaf5ad256f12cbc586db2ea4dcbb1a8a",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/dependency-source/wheels/transformers-5.12.1-py3-none-any.whl",
+      "source_path": "reports/research/arc3-training-selection-20261101/dependency-source/wheels/transformers-5.12.1-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/target-tokenizer/chat_template.jinja",
+      "bytes": 8952,
+      "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/target-tokenizer/chat_template.jinja",
+      "source_path": "reports/research/arc3-training-selection-20261101/target-tokenizer/chat_template.jinja",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/target-tokenizer/config.json",
+      "bytes": 51350,
+      "sha256": "74227dd615bf1ea975aa676bdf355a0379858c12f394b5365cd9dfa5fc2c70bc",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/target-tokenizer/config.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/target-tokenizer/config.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/target-tokenizer/manifest.json",
+      "bytes": 1124,
+      "sha256": "667a8855767b35c9c94cc669f7a88d6d705661d25966744779c504a7e94b3ba4",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/target-tokenizer/manifest.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/target-tokenizer/manifest.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/target-tokenizer/preprocessor_config.json",
+      "bytes": 390,
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/target-tokenizer/preprocessor_config.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/target-tokenizer/preprocessor_config.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/target-tokenizer/tokenizer.json",
+      "bytes": 12809320,
+      "sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/target-tokenizer/tokenizer.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/target-tokenizer/tokenizer.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/target-tokenizer/tokenizer_config.json",
+      "bytes": 17928,
+      "sha256": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/target-tokenizer/tokenizer_config.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/target-tokenizer/tokenizer_config.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/bp35-0a0ad940_p0_requests.jsonl",
+      "bytes": 8140641,
+      "sha256": "7b40c8e4563dabea281ac4777a44d12af17fee84026e1c442090c1289dc8b4a2",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/bp35-0a0ad940_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/bp35-0a0ad940_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/cd82-fb555c5d_p0_requests.jsonl",
+      "bytes": 8376368,
+      "sha256": "f3bc89861fa8c048b0681772a452c4595ec0ab0599e71b31ac3b7f4512e6335f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/cd82-fb555c5d_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/cd82-fb555c5d_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/dc22-fdcac232_p0_requests.jsonl",
+      "bytes": 8319778,
+      "sha256": "21a70208ee37c0e14e9a201d5c5e307850955332205cdb0fa41b795385abb527",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/dc22-fdcac232_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/dc22-fdcac232_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/ft09-0d8bbf25_p0_requests.jsonl",
+      "bytes": 8172746,
+      "sha256": "67deca8662e22481ca0b37db85f41c1dba40b84da09ea9e830ac1d85ebaa8c59",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/ft09-0d8bbf25_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/ft09-0d8bbf25_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/g50t-5849a774_p0_requests.jsonl",
+      "bytes": 8276740,
+      "sha256": "3d68b605f210c5c989819a2124a7db51e168bbfc8400310167feded86e4eacbc",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/g50t-5849a774_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/g50t-5849a774_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/lf52-271a04aa_p0_requests.jsonl",
+      "bytes": 8355306,
+      "sha256": "8e97b832f3cb205580a43f8f3ead18087ad34d120a3cedf4a3731a659aed78cf",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/lf52-271a04aa_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/lf52-271a04aa_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/lp85-305b61c3_p0_requests.jsonl",
+      "bytes": 8364814,
+      "sha256": "34a034701c58fa1feace7540fc06257c4da64e8e17bb19dbe1eba33d8e0ef6bd",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/lp85-305b61c3_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/lp85-305b61c3_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/m0r0-492f87ba_p0_requests.jsonl",
+      "bytes": 8328258,
+      "sha256": "0697bf2455b3cbdde95569604f2706f56d41c20bb7a3c6e6cdc9149cb5f07687",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/m0r0-492f87ba_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/m0r0-492f87ba_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/manifest.json",
+      "bytes": 6467,
+      "sha256": "3a80f0bc5b706f805877e0ee5183ff3ccd5550ed493e3d6b51b29462597637a2",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/manifest.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/manifest.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/r11l-495a7899_p0_requests.jsonl",
+      "bytes": 8061184,
+      "sha256": "abb6c647e2cc5a248285f45d704f9bd71cb8ceb5c6be6d1462aeda5aabd4baa8",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/r11l-495a7899_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/r11l-495a7899_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/re86-8af5384d_p0_requests.jsonl",
+      "bytes": 8303151,
+      "sha256": "651ac4058890537da07227ca5ee81f1cb6f077bb38b1c9e0d974daf48466b543",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/re86-8af5384d_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/re86-8af5384d_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sb26-7fbdac44_p0_requests.jsonl",
+      "bytes": 8263411,
+      "sha256": "cf6f8e01284aaf02abbdbbeaff7e5bc4627b18da2e966f1a29293ba0f7b27f9c",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sb26-7fbdac44_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sb26-7fbdac44_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sc25-635fd71a_p0_requests.jsonl",
+      "bytes": 8303749,
+      "sha256": "d48744b81029459350ac60dd5cba153082da37ca7537769fc28845368cbe7d14",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sc25-635fd71a_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sc25-635fd71a_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sk48-d8078629_p0_requests.jsonl",
+      "bytes": 8163148,
+      "sha256": "ba3e156a1c1ae10d1e822c3cb1293168076f22e55fb33c13e40c44279e830347",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sk48-d8078629_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sk48-d8078629_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sp80-589a99af_p0_requests.jsonl",
+      "bytes": 8036893,
+      "sha256": "fc71f93cb8a4a09aa57a64dae49f26bdabec918dae77b6d78aeedf680e20988d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sp80-589a99af_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/sp80-589a99af_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/su15-1944f8ab_p0_requests.jsonl",
+      "bytes": 8160005,
+      "sha256": "10ca1b71526399397bfc17299a48d781d93db23055abbb587ea820f99b9c9278",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/su15-1944f8ab_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/su15-1944f8ab_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/tn36-ef4dde99_p0_requests.jsonl",
+      "bytes": 8310778,
+      "sha256": "84c9115dbfe8c32d9a7902043e0b0fdb9ad4e015268a704fcfab77bf26da2856",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/tn36-ef4dde99_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/tn36-ef4dde99_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/tr87-cd924810_p0_requests.jsonl",
+      "bytes": 8212851,
+      "sha256": "0d64fd962488983f96b3f3f4220ec063dcd84c5b676dd8d9a31e8d20f80e3054",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/tr87-cd924810_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/tr87-cd924810_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/tu93-0768757b_p0_requests.jsonl",
+      "bytes": 8164380,
+      "sha256": "ee490e5a80904baa86b04600d33666899b663943d73427c43d499fb6c62c1521",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/tu93-0768757b_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/tu93-0768757b_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/vc33-5430563c_p0_requests.jsonl",
+      "bytes": 8171933,
+      "sha256": "6cbbf6f4e0c1219ae2d6797a62486a612d3eabc5c121738a227c797b967cc772",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/vc33-5430563c_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/vc33-5430563c_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/wa30-ee6fef47_p0_requests.jsonl",
+      "bytes": 8203270,
+      "sha256": "b111441f8ed4233b0f5dd8c0c2f8d97f93e74dfa18fa84d449728942a5c81454",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/wa30-ee6fef47_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/control/wa30-ee6fef47_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/bp35-0a0ad940_p0_requests.jsonl",
+      "bytes": 8233734,
+      "sha256": "7120031371bf2fe61c8901ae9cf4b670c8435998d1f3a43145769359a0b8d7dd",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/bp35-0a0ad940_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/bp35-0a0ad940_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/cd82-fb555c5d_p0_requests.jsonl",
+      "bytes": 8135870,
+      "sha256": "29196177e8add0c7b44687fc77c410ffa72f4290d2250da7ab0fe9e161fc8ff3",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/cd82-fb555c5d_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/cd82-fb555c5d_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/dc22-fdcac232_p0_requests.jsonl",
+      "bytes": 8129840,
+      "sha256": "fa1bf695e948f18c8c4ae3a49444b363f6e12d232eede5114432dba184df7fa0",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/dc22-fdcac232_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/dc22-fdcac232_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/ft09-0d8bbf25_p0_requests.jsonl",
+      "bytes": 8067000,
+      "sha256": "7dfd47a3ea32155366b5795e4da6de0464245328ab881d424dcfd9b2c646efad",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/ft09-0d8bbf25_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/ft09-0d8bbf25_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/g50t-5849a774_p0_requests.jsonl",
+      "bytes": 8236172,
+      "sha256": "9bdecb4039d6fe6d8574a862413eef808131f76b2b941a55e34bdfe24f0c0b9f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/g50t-5849a774_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/g50t-5849a774_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/lf52-271a04aa_p0_requests.jsonl",
+      "bytes": 8094999,
+      "sha256": "596197d8252ce0944843db86ca16d0b6dd1e36b44a297edd8f47bbcf2af7c097",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/lf52-271a04aa_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/lf52-271a04aa_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/lp85-305b61c3_p0_requests.jsonl",
+      "bytes": 8098772,
+      "sha256": "c9f6143433c1037268859c8df1ee4f082bde8f42dd86e0f4ae5c160a78380186",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/lp85-305b61c3_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/lp85-305b61c3_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/m0r0-492f87ba_p0_requests.jsonl",
+      "bytes": 8226741,
+      "sha256": "7a1be147076d569d1bc3435ea607e820dcf727c14d7b8ae1150e016579c0fddb",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/m0r0-492f87ba_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/m0r0-492f87ba_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/manifest.json",
+      "bytes": 6456,
+      "sha256": "74cbc02fb897223685e733faa48430660459a9d4b3d1a6adeba6a59aff171cbf",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/manifest.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/manifest.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/r11l-495a7899_p0_requests.jsonl",
+      "bytes": 8358364,
+      "sha256": "38be6fa88d9e82f2b340c1323ecba3d4a72e9247076c4e0db3ec6b49d9e8f898",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/r11l-495a7899_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/r11l-495a7899_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/re86-8af5384d_p0_requests.jsonl",
+      "bytes": 8321397,
+      "sha256": "9036b29fb9dd480ee84875c42180afeb798c79bb0ee3bf62a0341fc0509f52d8",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/re86-8af5384d_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/re86-8af5384d_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sb26-7fbdac44_p0_requests.jsonl",
+      "bytes": 8282544,
+      "sha256": "d6328ca99f6677bbc282e5757f091ff391579fd1dcde031b51f822d597c6e7b8",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sb26-7fbdac44_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sb26-7fbdac44_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sc25-635fd71a_p0_requests.jsonl",
+      "bytes": 8191440,
+      "sha256": "a83d88f48d89048f5ce3260ad613afb515482c28885701a8d2c800daa4b8903a",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sc25-635fd71a_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sc25-635fd71a_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sk48-d8078629_p0_requests.jsonl",
+      "bytes": 8266507,
+      "sha256": "d5badbaf2cb928fb14bc4441c2cf16acd5cbe1199999056fc1f7740a905ea1b9",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sk48-d8078629_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sk48-d8078629_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sp80-589a99af_p0_requests.jsonl",
+      "bytes": 8079978,
+      "sha256": "b2c4df9b67dae84ab6f448e0a7486f41551bb1356c5a4e6c9f12b9a31dbabddf",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sp80-589a99af_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/sp80-589a99af_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/su15-1944f8ab_p0_requests.jsonl",
+      "bytes": 8097325,
+      "sha256": "12edfabe4ca6f56574ad6f22c11c0a254bc99d15158e29ab8eae7db47fb00e13",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/su15-1944f8ab_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/su15-1944f8ab_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/tn36-ef4dde99_p0_requests.jsonl",
+      "bytes": 8316361,
+      "sha256": "f517acb3b839371234967a45ebe140a70cde36d0d4205b1ab9f086d965f659bb",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/tn36-ef4dde99_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/tn36-ef4dde99_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/tr87-cd924810_p0_requests.jsonl",
+      "bytes": 8376377,
+      "sha256": "915baa53d953da8df231ff17079babdaf73f95e23bc618586f39e6c98e7a3be1",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/tr87-cd924810_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/tr87-cd924810_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/tu93-0768757b_p0_requests.jsonl",
+      "bytes": 8219167,
+      "sha256": "aa61dc6462f362f90f40512240368973f9d8f7ba14669ab04e981de305bc0068",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/tu93-0768757b_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/tu93-0768757b_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/vc33-5430563c_p0_requests.jsonl",
+      "bytes": 8228860,
+      "sha256": "7c1096579493a11447ec335ca2329e98b8f19f8fa1db3913a82ea933384070d0",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/vc33-5430563c_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/vc33-5430563c_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/wa30-ee6fef47_p0_requests.jsonl",
+      "bytes": 8216158,
+      "sha256": "a3922928920250766851c335faa6b726b36202e1c1fd0e32a2b2d825e797885d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/wa30-ee6fef47_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/general/wa30-ee6fef47_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/bp35-0a0ad940_p0_requests.jsonl",
+      "bytes": 8124067,
+      "sha256": "102a8d7b0fb26e9af6555bb7e59c5a4f09ff9ba58fec072b665edc537b11472f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/bp35-0a0ad940_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/bp35-0a0ad940_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/cd82-fb555c5d_p0_requests.jsonl",
+      "bytes": 8211341,
+      "sha256": "3891148afac8fd92fd532afdf59ea6227b076836611e21ce9ba5bc37ab44ffe7",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/cd82-fb555c5d_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/cd82-fb555c5d_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/dc22-fdcac232_p0_requests.jsonl",
+      "bytes": 8149497,
+      "sha256": "427503ba98c4771f3bd219fee145822df5918835ad23abbc5804608caa4501eb",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/dc22-fdcac232_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/dc22-fdcac232_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/ft09-0d8bbf25_p0_requests.jsonl",
+      "bytes": 8266783,
+      "sha256": "31caeeecbb2b74cd4b223abba0643085134be1c1b8707ba73ce1e283f9193b45",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/ft09-0d8bbf25_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/ft09-0d8bbf25_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/g50t-5849a774_p0_requests.jsonl",
+      "bytes": 8064702,
+      "sha256": "af03d1ceed00b9034754819c19071b8114331572d958e77316aa221e8170dc4a",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/g50t-5849a774_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/g50t-5849a774_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/lf52-271a04aa_p0_requests.jsonl",
+      "bytes": 8297668,
+      "sha256": "8373278ba540152863395543c70f327100e0df0789a947533b0f80dc2f264581",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/lf52-271a04aa_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/lf52-271a04aa_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/lp85-305b61c3_p0_requests.jsonl",
+      "bytes": 8117453,
+      "sha256": "0a06e1a3525cc8589eb9b17cb60092d5c989013a865c2b89ddf511fee2cd90c4",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/lp85-305b61c3_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/lp85-305b61c3_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/m0r0-492f87ba_p0_requests.jsonl",
+      "bytes": 8092500,
+      "sha256": "f1d48e6ca1bc2ce078d0ecd5bbaec4506702961108d9801ebed1acda52c287d7",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/m0r0-492f87ba_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/m0r0-492f87ba_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/manifest.json",
+      "bytes": 6469,
+      "sha256": "74b9ac06000cb67dbbeec6ae87338d62e04b53b486bbdd423158523554941eb2",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/manifest.json",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/manifest.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/r11l-495a7899_p0_requests.jsonl",
+      "bytes": 8265449,
+      "sha256": "97d079e4326770041372801eb81b65477b003d8bd02c00259bfc7db0d8fc7a9f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/r11l-495a7899_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/r11l-495a7899_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/re86-8af5384d_p0_requests.jsonl",
+      "bytes": 8068862,
+      "sha256": "7bf7dfbe7de76fc69fb3096f703a38d001fbef0451d1d96b8e9dfa032a884058",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/re86-8af5384d_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/re86-8af5384d_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sb26-7fbdac44_p0_requests.jsonl",
+      "bytes": 8224191,
+      "sha256": "7453c1802cd7e15f4bf880438903f784e8b580334c92627138c1ad29a70ffaae",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sb26-7fbdac44_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sb26-7fbdac44_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sc25-635fd71a_p0_requests.jsonl",
+      "bytes": 8186244,
+      "sha256": "644402fbf7c1bf7b524a68c35060ebc0f34363b7c3b7bbfc8929e21d16534614",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sc25-635fd71a_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sc25-635fd71a_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sk48-d8078629_p0_requests.jsonl",
+      "bytes": 8354300,
+      "sha256": "14b32c15d6dfdb0dd837419d00dd25b33ea38458ecc15b6cb498ccdff5fa8f4e",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sk48-d8078629_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sk48-d8078629_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sp80-589a99af_p0_requests.jsonl",
+      "bytes": 8167366,
+      "sha256": "bd2b115b1a70eb04ba13e06f06eb3a6d83c493836ec836ab15b70fbd528ab1f0",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sp80-589a99af_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/sp80-589a99af_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/su15-1944f8ab_p0_requests.jsonl",
+      "bytes": 8142670,
+      "sha256": "0020e96976029a50a4ea92541978032e7a1401b0301e153e15840db0b3850104",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/su15-1944f8ab_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/su15-1944f8ab_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/tn36-ef4dde99_p0_requests.jsonl",
+      "bytes": 8016796,
+      "sha256": "0d997d03bd66e753048fba5786b195de018ba32d304d7d80659b5bcb940d99d1",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/tn36-ef4dde99_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/tn36-ef4dde99_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/tr87-cd924810_p0_requests.jsonl",
+      "bytes": 8358347,
+      "sha256": "c4062b64a9c7e2b1bd000443685fa7d79e022a831d2144531cc8973896099b28",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/tr87-cd924810_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/tr87-cd924810_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/tu93-0768757b_p0_requests.jsonl",
+      "bytes": 8323044,
+      "sha256": "d3667b0ea4a618e4038802f5e2e136046ba5ec85fbae3ba398a2e46128c11057",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/tu93-0768757b_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/tu93-0768757b_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/vc33-5430563c_p0_requests.jsonl",
+      "bytes": 8088684,
+      "sha256": "4782edf982bc7d3a797f67d40c34d3ca36917d9c7d9698a4cb3cfd51037cf7eb",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/vc33-5430563c_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/vc33-5430563c_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/wa30-ee6fef47_p0_requests.jsonl",
+      "bytes": 8352167,
+      "sha256": "5b0bb627215ae8fd4878480945344006f7afe9ced47f5987632543c59296041d",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/wa30-ee6fef47_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-prefixes/prediction/wa30-ee6fef47_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-traces/arc-hydra-general-learner.log",
+      "bytes": 1042742,
+      "sha256": "02dd7ea125e378f4e8fb542690b3bb5e3633022b98246a193ac3c0c2a13db921",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-traces/arc-hydra-general-learner.log",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-traces/arc-hydra-general-learner.log",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-traces/dc22-fdcac232_p0_requests.jsonl",
+      "bytes": 340024025,
+      "sha256": "2a041357a8f61956f65ea55d53977f880203e7a9f11df1eff44c6a6bf78d4176",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-traces/dc22-fdcac232_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-traces/dc22-fdcac232_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-traces/ft09-0d8bbf25_p0_requests.jsonl",
+      "bytes": 22044847,
+      "sha256": "86813ada5271a786c511613d575d9064c1a992fb1b8cd863803ee531503efc87",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-traces/ft09-0d8bbf25_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-traces/ft09-0d8bbf25_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-traces/g50t-5849a774_p0_requests.jsonl",
+      "bytes": 338609854,
+      "sha256": "fa62d56b19ba02575e69b6768ba43fb9c55adeb8752243bc565fb9ae146b0b5e",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-traces/g50t-5849a774_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-traces/g50t-5849a774_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/teacher-traces/r11l-495a7899_p0_requests.jsonl",
+      "bytes": 55935946,
+      "sha256": "8bd20c64434c600d037ed1f9375f1b21564392a9a9c08a4f7411beda02e20258",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/teacher-traces/r11l-495a7899_p0_requests.jsonl",
+      "source_path": "reports/research/arc3-training-selection-20261101/teacher-traces/r11l-495a7899_p0_requests.jsonl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/training-wheels/accelerate-1.15.0-py3-none-any.whl",
+      "bytes": 394295,
+      "sha256": "97eacca0b73e45cb867dbf8c5d5d4dc32219544300e0c8992c7334dc2ef33cec",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/training-wheels/accelerate-1.15.0-py3-none-any.whl",
+      "source_path": "reports/research/arc3-training-selection-20261101/training-wheels/accelerate-1.15.0-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/training-wheels/flash_linear_attention-0.6.0-py3-none-any.whl",
+      "bytes": 403549,
+      "sha256": "6dec9735f8454523c13553622e98aff30152dde6586b4ac7d88010fbb7a06b5f",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/training-wheels/flash_linear_attention-0.6.0-py3-none-any.whl",
+      "source_path": "reports/research/arc3-training-selection-20261101/training-wheels/flash_linear_attention-0.6.0-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/training-wheels/fla_core-0.6.0-py3-none-any.whl",
+      "bytes": 1085221,
+      "sha256": "b0708b70e0b119cd58a0a5146ea56cb175cef6ed969d8ac60267e3e077ce3ebd",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/training-wheels/fla_core-0.6.0-py3-none-any.whl",
+      "source_path": "reports/research/arc3-training-selection-20261101/training-wheels/fla_core-0.6.0-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": "reports/research/arc3-training-selection-20261101/training-wheels/peft-0.21.2-py3-none-any.whl",
+      "bytes": 835427,
+      "sha256": "106ab6077ff72c54d21577f9af5970e34bac7582cb14209f7b2b511e322a4eae",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": "reports/research/arc3-training-selection-20261101/training-wheels/peft-0.21.2-py3-none-any.whl",
+      "source_path": "reports/research/arc3-training-selection-20261101/training-wheels/peft-0.21.2-py3-none-any.whl",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": ".tmp/arc3-training-pilot-inputs-v1/dataset-metadata.json",
+      "bytes": 640,
+      "sha256": "4d8c024e2531aa6ed361209eb30d869af8e582dc32c3d02f282288b51c7132d1",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": ".tmp/arc3-training-pilot-inputs-v1/dataset-metadata.json",
+      "source_path": ".tmp/arc3-training-pilot-inputs-v1/dataset-metadata.json",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": ".tmp/arc3-training-pilot-inputs-v1/README.md",
+      "bytes": 605,
+      "sha256": "a7adc43422dd1f3cbfcf7ce15716fc3f9a2327325f6ebc8065bf61382f64b7b1",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": ".tmp/arc3-training-pilot-inputs-v1/README.md",
+      "source_path": ".tmp/arc3-training-pilot-inputs-v1/README.md",
+      "kind": "raw-data-tar-gzip"
+    },
+    {
+      "path": ".tmp/arc3-training-pilot-inputs-v1/training-pilot-inputs.tar.gz",
+      "bytes": 11111335,
+      "sha256": "10e5df7fbe82f82f4cbf95e923e465b900184e36fa9877fbafdf752e6b549961",
+      "asset": "arc-research-raw-data-2026-11-03.tar.gz",
+      "archive_member": ".tmp/arc3-training-pilot-inputs-v1/training-pilot-inputs.tar.gz",
+      "source_path": ".tmp/arc3-training-pilot-inputs-v1/training-pilot-inputs.tar.gz",
+      "kind": "raw-data-tar-gzip"
+    }
+  ],
+  "assets": [
+    {
+      "name": "arc-research-raw-data-2026-11-03.tar.gz",
+      "bytes": 595760281,
+      "sha256": "19d622ca51e16c7bbc06ef3a3a803acc4173a481fa5beff324dcd755ddeca649",
+      "kind": "raw-data-tar-gzip",
+      "url": "https://github.com/kunaldrafts25/arc3/releases/download/untagged-3f7374879df81a5dcba5/arc-research-raw-data-2026-11-03.tar.gz",
+      "github_digest": "sha256:19d622ca51e16c7bbc06ef3a3a803acc4173a481fa5beff324dcd755ddeca649"
+    },
+    {
+      "name": "Qwen3.8-27B-ARC3-native-adapter.safetensors",
+      "bytes": 435280528,
+      "sha256": "45c87044ffc3c133e4dfb637ed769e13fb78b040c7aefba59672183783760c4d",
+      "kind": "native-adapter",
+      "url": "https://github.com/kunaldrafts25/arc3/releases/download/untagged-3f7374879df81a5dcba5/Qwen3.8-27B-ARC3-native-adapter.safetensors",
+      "github_digest": "sha256:45c87044ffc3c133e4dfb637ed769e13fb78b040c7aefba59672183783760c4d"
+    },
+    {
+      "name": "Qwen3.8-27B-ARC3-serving-adapter.safetensors",
+      "bytes": 466767600,
+      "sha256": "d43af1abea2c99c6fe527546c72bcb6acdb4cdb972a6dc9181a7b42e007e7b30",
+      "kind": "serving-adapter",
+      "url": "https://github.com/kunaldrafts25/arc3/releases/download/untagged-3f7374879df81a5dcba5/Qwen3.8-27B-ARC3-serving-adapter.safetensors",
+      "github_digest": "sha256:d43af1abea2c99c6fe527546c72bcb6acdb4cdb972a6dc9181a7b42e007e7b30"
+    }
+  ],
+  "restoration_verified": {
+    "passed": true,
+    "arc3_restored": {
+      "verified": 319,
+      "restored": 302
+    },
+    "combined_verified": {
+      "verified": 319,
+      "restored": 0
+    },
+    "path_escape_rejected": true,
+    "windows_long_paths_supported": true,
+    "files": 319,
+    "source_bytes": 3003424404
+  },
+  "scope": "All previously withheld local adapters/raw training/gameplay artifacts and the reproducibility input bundle"
+}
