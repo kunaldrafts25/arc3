@@ -1,0 +1,210 @@
+{
+  "recorded_at": "2026-10-25T18:39:12.508629+00:00",
+  "final": false,
+  "games": [
+    {
+      "game_id": "ar25-0c556536",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 8,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 9,
+      "actions": 8,
+      "generated_tokens": 14515
+    },
+    {
+      "game_id": "cd82-fb555c5d",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 6,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "score": 4.76,
+      "levels_completed": 1,
+      "total_levels": 6,
+      "actions": 16,
+      "generated_tokens": 15404
+    },
+    {
+      "game_id": "dc22-fdcac232",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 6,
+      "actions": 11,
+      "generated_tokens": 13616
+    },
+    {
+      "game_id": "ft09-0d8bbf25",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 6,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 7,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 7,
+      "actions": 10,
+      "generated_tokens": 16046
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 10,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "score": 2.78,
+      "levels_completed": 1,
+      "total_levels": 8,
+      "actions": 7,
+      "generated_tokens": 15081
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 7,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 6,
+      "actions": 5,
+      "generated_tokens": 14995
+    },
+    {
+      "game_id": "r11l-495a7899",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 6,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 8,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 8,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 8,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "sc25-635fd71a",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 6,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "sk48-d8078629",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 8,
+      "actions": 14,
+      "generated_tokens": 13934
+    },
+    {
+      "game_id": "sp80-589a99af",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 6,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 9,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 7,
+      "actions": 24,
+      "generated_tokens": 14517
+    },
+    {
+      "game_id": "tr87-cd924810",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 6,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "score": 2.22,
+      "levels_completed": 1,
+      "total_levels": 9,
+      "actions": 24,
+      "generated_tokens": 11691
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 7,
+      "actions": 0,
+      "generated_tokens": 0
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "score": 0.0,
+      "levels_completed": 0,
+      "total_levels": 9,
+      "actions": 23,
+      "generated_tokens": 15424
+    }
+  ],
+  "levels": 3,
+  "actions": 142,
+  "generated_tokens": 145223,
+  "boundary": "Latest complete printed public snapshot; unfinished run, rounded display scores. Not hidden-score evidence."
+}

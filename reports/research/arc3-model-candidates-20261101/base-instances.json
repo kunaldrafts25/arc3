@@ -1,0 +1,41 @@
+{
+  "instances": [
+    {
+      "id": 755365,
+      "ownerSlug": "dfranzen",
+      "modelSlug": "intel-qwen3.8-flash-next-w4a16-autoround",
+      "slug": "default",
+      "versionId": 1007514,
+      "fineTunable": false,
+      "overview": "Resharded version of [Intel\u2019s Qwen3.8-Flash-Next-W4A16-AutoRound](https://huggingface.co/Intel/Qwen3.8-Flash-Next-W4A16-AutoRound), prepared for faster loading and prefetching on Kaggle. The original weights are unchanged, including the BF16 PLE table; only their distribution across safetensors files has changed.\n\nThe model remains subject to the original **Qwen Community License 1.0 (`qwen-community-1.0`)**. All credit for the model and quantization goes to Qwen and Intel.",
+      "versionNumber": 1,
+      "framework": "MODEL_FRAMEWORK_TRANSFORMERS",
+      "versionNotes": "Initial release",
+      "downloadUrl": "/models/dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/Transformers/default/1/download",
+      "databundleVersionId": 21243408,
+      "lastVersionId": 1007514,
+      "metrics": "",
+      "license": {
+        "id": 12,
+        "name": "Other (specified in description)",
+        "agreementRequired": false
+      },
+      "databundleId": 13080223,
+      "firestorePath": "cRMDJcKFHoC2d3cZorBo/versions/knAelCvRseY5DS9b23yE",
+      "status": "READY",
+      "databundleVersionType": "FILESET",
+      "creationStatus": {
+        "status": "READY",
+        "creationPercentComplete": 1,
+        "creationLastUpdate": "2026-09-28T20:46:26.259Z",
+        "creationStep": "Ready",
+        "creationStart": "2026-09-28T20:44:22.715Z"
+      },
+      "uncompressedStorageUri": "",
+      "modelId": 765336,
+      "totalUncompressedBytes": 181240184163,
+      "sigstoreState": "SIGSTORE_STATE_NONE",
+      "creatorUserId": 1739702
+    }
+  ]
+}

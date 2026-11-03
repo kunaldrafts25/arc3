@@ -1,0 +1,28 @@
+{
+  "files": {
+    "artifacts/bp35-0a0ad940_p0_tool_runtime_state.hydra-events.jsonl": "eefcf8ffd7ebac8b1601ed678ceb2a14c4a1445ea9a060f1f5cff7a43a856702",
+    "artifacts/ft09-0d8bbf25_p0_tool_runtime_state.hydra-events.jsonl": "f41361a3a2244efd9a9792641cfca04e66d645da69d9a2c09627750df2c8dc4a",
+    "artifacts/ls20-9607627b_p0_tool_runtime_state.hydra-events.jsonl": "f891b328204fa57998ec8466805a31bdd9d6a580597ffa8d52ffc8665424720f",
+    "artifacts/r11l-495a7899_p0_tool_runtime_state.hydra-events.jsonl": "d798caaa6ff4f9e132d527fa114f1629657e10a51ca839cf1871415a39829d9c",
+    "artifacts/vc33-5430563c_p0_tool_runtime_state.hydra-events.jsonl": "fdaa31d384b5ef0fb4cb44ae988d09c64c9a44a4ce4e612ee5a72ef944de009d"
+  },
+  "counts": {
+    "probe_events": 81,
+    "executed_probe_actions": 81,
+    "verify_events": 51,
+    "passed_replays": 29,
+    "replayed_predictions": 424,
+    "abstentions": 5,
+    "replay_counterexamples": 15,
+    "replay_errors": 6,
+    "abstract_replays": 51,
+    "plan_events": 27,
+    "executed_plan_actions": 158,
+    "plan_stop:terminal_or_level_boundary": 7,
+    "plan_stop:complete": 10,
+    "plan_stop:unverified_model": 6,
+    "plan_stop:prediction_mismatch": 3,
+    "plan_stop:step_cap": 1
+  },
+  "boundary": "Mechanical events from completed sandbox calls only; interrupted calls may be absent. Replay counts include repeated checks of the same history. Abstract-state checks are not full-grid correctness. Adoption does not establish score improvement."
+}

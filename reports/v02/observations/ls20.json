@@ -1,0 +1,615 @@
+[
+  {
+    "step": 0,
+    "state": "NOT_FINISHED",
+    "level": 0
+  },
+  {
+    "step": 1,
+    "action": 1,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        13,
+        40,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 2,
+    "action": 2,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        14,
+        40,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 3,
+    "action": 3,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        15,
+        45,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 4,
+    "action": 4,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        16,
+        45,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 5,
+    "action": 1,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        17,
+        40,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 6,
+    "action": 2,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        18,
+        40,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 7,
+    "action": 3,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        19,
+        45,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 8,
+    "action": 4,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        20,
+        45,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 9,
+    "action": 1,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        21,
+        40,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 10,
+    "action": 1,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        22,
+        35,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 11,
+    "action": 1,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        23,
+        30,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 12,
+    "action": 1,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        24,
+        25,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 13,
+    "action": 2,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        25,
+        25,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 14,
+    "action": 2,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        26,
+        30,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 15,
+    "action": 2,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        27,
+        35,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 16,
+    "action": 2,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        28,
+        40,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 17,
+    "action": 3,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        29,
+        45,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 18,
+    "action": 3,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        24,
+        45,
+        33,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 19,
+    "action": 3,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        19,
+        45,
+        31,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 20,
+    "action": 3,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 2,
+      "bbox": [
+        32,
+        61,
+        32,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 21,
+    "action": 4,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        19,
+        45,
+        33,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 22,
+    "action": 4,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        24,
+        45,
+        34,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 23,
+    "action": 4,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        29,
+        45,
+        38,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 24,
+    "action": 4,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        34,
+        45,
+        43,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 25,
+    "action": 1,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        37,
+        40,
+        43,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 26,
+    "action": 1,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        38,
+        35,
+        43,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 27,
+    "action": 1,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        39,
+        30,
+        43,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 28,
+    "action": 1,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        39,
+        25,
+        43,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 29,
+    "action": 2,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        39,
+        25,
+        43,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 30,
+    "action": 2,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        39,
+        30,
+        43,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 31,
+    "action": 2,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        39,
+        35,
+        43,
+        62
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 32,
+    "action": 2,
+    "data": {
+      "game_id": "ls20"
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 52,
+      "bbox": [
+        39,
+        40,
+        44,
+        62
+      ],
+      "shape_changed": false
+    }
+  }
+]

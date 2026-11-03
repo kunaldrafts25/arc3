@@ -1,0 +1,20 @@
+{
+  "packages": {
+    "peft": {
+      "version": "0.21.2",
+      "filename": "peft-0.21.2-py3-none-any.whl",
+      "sha256": "106ab6077ff72c54d21577f9af5970e34bac7582cb14209f7b2b511e322a4eae"
+    },
+    "accelerate": {
+      "version": "1.15.0",
+      "filename": "accelerate-1.15.0-py3-none-any.whl",
+      "sha256": "97eacca0b73e45cb867dbf8c5d5d4dc32219544300e0c8992c7334dc2ef33cec"
+    }
+  },
+  "base_runtime": "dfranzen/pennyroyal-v253",
+  "base_lock_sha256": "4b0ee12848c1e7c3a51b0819de3a1ae63a967313fd1f62b9e2ca6b9c82b8da02",
+  "files": {
+    "accelerate-1.15.0-py3-none-any.whl": "97eacca0b73e45cb867dbf8c5d5d4dc32219544300e0c8992c7334dc2ef33cec",
+    "peft-0.21.2-py3-none-any.whl": "106ab6077ff72c54d21577f9af5970e34bac7582cb14209f7b2b511e322a4eae"
+  }
+}

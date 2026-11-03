@@ -1,0 +1,69 @@
+{
+  "phase": "screen_reconciled",
+  "kernel": "kunalsinghh25/arc-hydra-qwen27-lora-gameplay",
+  "pid": 22236,
+  "files": {
+    "submission.ipynb": "979aa9a8d6a9c7ffd88139918d0a941d20eaf9d23b3116d75c1157031e09bdaa",
+    "kernel-metadata.json": "a69827bd421cba132f183624114407ea0864e04942ba1c7110e7d04bde92ae29",
+    "provenance.json": "286031ac6d544c3e9985650648231db23390cb282e08b3cd679c4f0bb5f63cfe"
+  },
+  "hard_session_timeout_seconds": 7200,
+  "resources": {
+    "allowed": true,
+    "reason": "One two-hour screen; only acknowledged capped ARC3 capacity job may overlap; ARC2 and final evaluation reserves preserved",
+    "available_gpu_seconds": 73076.909224,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [
+      {
+        "kernel": "kunalsinghh25/arc-hydra-qwen27-fair-capacity",
+        "status": "RUNNING",
+        "accelerator": "unclassified"
+      }
+    ],
+    "arc2_free_seconds_floor": 10800,
+    "final_official_free_seconds_floor": 32400,
+    "recorded_at": "2026-11-01T17:12:20.980643+00:00"
+  },
+  "scope": "One paired base/adapter real-game screen. No automatic promotion or official submission.",
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-qwen27-lora-gameplay",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-qwen27-lora-gameplay",
+    "versionNumber": 1,
+    "kernelId": 142147595
+  },
+  "recorded_at": "2026-11-01T19:04:41.125811+00:00",
+  "exact_kernel": "kunalsinghh25/arc-hydra-qwen27-lora-gameplay/1",
+  "kernel_status": "COMPLETE",
+  "error_type": "JSONDecodeError",
+  "reason": "Extra data: line 27 column 2 (char 644)",
+  "comparison": {
+    "phase": "complete",
+    "arms": {
+      "base": {
+        "games": 5,
+        "score": 15.714285714285714,
+        "levels": 12,
+        "full_wins": 0,
+        "actions": 548,
+        "generated_tokens": 853615
+      },
+      "adapted": {
+        "games": 5,
+        "score": 5.330145611963793,
+        "levels": 7,
+        "full_wins": 0,
+        "actions": 615,
+        "generated_tokens": 929251
+      }
+    },
+    "finished_at_epoch": 1793559778.1465604,
+    "official_submission_eligible": false,
+    "boundary": "Five public whole-game gradient holdouts, previously studied by the researcher. Paired shared-server screening with one stochastic draw; no hidden-score estimate or automatic promotion.",
+    "adapted_minus_base_score": -10.38414010232192
+  },
+  "reconciliation": "completed-reconciliation.json",
+  "next_action": "Reject this adapter; do not run full25 or submit it. Validation loss improvement failed to transfer to this paired real-game screen.",
+  "reconciled_at": "2026-11-01T22:13:09.731662+00:00"
+}

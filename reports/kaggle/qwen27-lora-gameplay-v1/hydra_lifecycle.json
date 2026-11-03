@@ -1,0 +1,10 @@
+{
+  "phase": "model_ready",
+  "context": {
+    "competition": false,
+    "variant": "planning-assist"
+  },
+  "gameplay": null,
+  "error": null,
+  "checked_at": "2026-11-01T17:18:02.000934+00:00"
+}

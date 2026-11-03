@@ -1,0 +1,28 @@
+{
+  "phase": "accepted",
+  "variant": "control",
+  "kernel": "kunalsinghh25/arc-hydra-inspection-matched-control",
+  "files": {
+    "kernel-metadata.json": "8b2ec2f4eb462f259084d27196d596e6ea146012bcc5f983c49a0cec52a3e3d9",
+    "provenance.json": "be70b6739da2ff4c8cc9f9ed98cf10034c9da44f5c0c6cceb637cb6a2fb6da0b",
+    "submission.ipynb": "59e4b1cb10abbd685c4ce5d2edb350a4cbef77b18cc735e7d8415cd1a3a25529"
+  },
+  "resources": {
+    "allowed": true,
+    "reason": "free quota and shared-job checks passed",
+    "available_gpu_seconds": 108000.0,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [],
+    "arc2_free_seconds_floor": 10800
+  },
+  "hard_session_timeout_seconds": 7200,
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-inspection-matched-control",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-inspection-matched-control",
+    "versionNumber": 1,
+    "kernelId": 141991727
+  },
+  "recorded_at": "2026-10-31T19:10:03.441921+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-duck-v3-runtime/1",
+  "recorded_at": "2026-10-26T18:12:08.150916+00:00",
+  "files": {
+    "kernel-metadata.json": "bca321f5900b110b2892209d3ff5ccf5ea72bf2012e6acbf24aaa772ffb9e003",
+    "provenance.json": "422c6eecc5a3dd1654c7da760ec4904e9488c3f664e61b216021f3497dfb5bb5",
+    "submission.ipynb": "2be677f2ab126a9f96410edb3a447e3fdd3d115156727ea7746582735636708a"
+  },
+  "cpu_input": "kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair/6",
+  "manifest_sha256": "f1b8e87b99402e8504491bb2d2d107df81b119295d4b919944986eacb2fef7fb",
+  "validation": "12 packaging/runtime tests passed; GPU inference and gameplay unverified",
+  "observer_session": 35416
+}

@@ -1,0 +1,41 @@
+{
+  "observed_at": "2026-10-27T19:17:37.869579+00:00",
+  "input_paths": [
+    {
+      "COMPETITION_WHEELHOUSE": "/kaggle/input/arc-prize-2026-arc-agi-3/arc_agi_3_wheels",
+      "DRAFT_MODEL_DIR": "/kaggle/input/models/dfranzen/albucino-qwen3-8-flash-next-drafter/transformers/default/1",
+      "MODEL_DIR": "/kaggle/input/models/dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/transformers/default/1",
+      "ORIG_BUNDLE_DIR": "/kaggle/input/taaf-kaggle-source-bundle-copy",
+      "WHEELHOUSE_DIR": "/kaggle/input/pennyroyal-v253"
+    }
+  ],
+  "installed_extension": {
+    "enforce_probes": false,
+    "extension": "planning-assist-v1",
+    "files": {
+      "python_tool_sandbox.py": {
+        "after": "83ef0d3092e079f51cdb7da32e96dcb108473daf49f291f5e1e4bb3c02fe8385",
+        "before": "3900b7255842df04be9ad08f91b521279a2e63f8226ac4bc77fb6de7a4e36943"
+      },
+      "tool_agent.py": {
+        "after": "283132b535967c5a78a098f93431e72ea3c6a149848e61c819452eae92e3869e",
+        "before": "053556f4a2d19bbb0f04d3ecde14bad2d76abfe91e89254740b763136a5a8e82"
+      }
+    },
+    "library_sha256": "83057d90c3248775260aa3cc5d06a9f59a36572298dc0d41ef58a858a9a4efe0"
+  },
+  "matches_cpu_gate": true,
+  "model_readiness_verified": true,
+  "source": "Exact version live notebook log; final gameplay pending",
+  "readiness": [
+    "READY after 523s -> http://127.0.0.1:8001/v1",
+    "Local model ready after 1.0s of public readiness wait"
+  ],
+  "effective_run": {
+    "games": 25,
+    "passes": 1,
+    "concurrency": 25,
+    "gameplay_seconds": 7200,
+    "deadline": "2026-10-27T20:24:38.954066"
+  }
+}

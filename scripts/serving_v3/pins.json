@@ -1,0 +1,15 @@
+{
+  "source_commit": "560edbdca18aedae13f71ae20b3984efa4d22633",
+  "cuda": {
+    "nvidia-cuda-nvcc": "13.3.73",
+    "nvidia-cuda-crt": "13.3.73",
+    "nvidia-nvvm": "13.3.73",
+    "nvidia-cuda-runtime": "13.3.29",
+    "nvidia-cuda-cccl": "13.3.4.3.1"
+  },
+  "micromamba": {
+    "version": "2.9.0-0",
+    "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.9.0-0/micromamba-linux-64",
+    "sha256": "366cd9cd8be14df1ab8ed50352a82111082a36686b2d389fdb79a92c3fafb3e3"
+  }
+}

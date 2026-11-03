@@ -1,0 +1,713 @@
+{
+  "common_gameplay_seconds": 4935.117182,
+  "durations_seconds": {
+    "candidate": 4935.117182,
+    "memory": 30110.932635,
+    "prediction": 6069.521898
+  },
+  "common_time": {
+    "candidate": {
+      "score": 36.601928890135454,
+      "levels": 84,
+      "actions": 3637,
+      "generation_charges": 2925138
+    },
+    "memory": {
+      "score": 38.534239246284876,
+      "levels": 87,
+      "actions": 3961,
+      "generation_charges": 2971420
+    },
+    "prediction": {
+      "score": 36.44459366050078,
+      "levels": 86,
+      "actions": 3988,
+      "generation_charges": 3090000
+    }
+  },
+  "candidate_full_screen": {
+    "model_gameplay_verified": true,
+    "problems": [],
+    "games": 25,
+    "levels": 84,
+    "full_wins": 4,
+    "mean_public_score": 36.601928890135454,
+    "generated_tokens": 2925138,
+    "notes": {
+      "sk48-d8078629": "tokens=70573",
+      "tn36-ef4dde99": "tokens=65127",
+      "m0r0-492f87ba": "tokens=165846",
+      "bp35-0a0ad940": "tokens=64851",
+      "cn04-2fe56bfb": "tokens=116213",
+      "dc22-fdcac232": "tokens=184088",
+      "tu93-0768757b": "tokens=191222",
+      "lp85-305b61c3": "tokens=164977",
+      "ka59-38d34dbb": "tokens=125788",
+      "wa30-ee6fef47": "tokens=104098",
+      "vc33-5430563c": "tokens=117610",
+      "lf52-271a04aa": "tokens=107173",
+      "r11l-495a7899": "tokens=138938",
+      "sc25-635fd71a": "tokens=157534",
+      "sp80-589a99af": "tokens=106681",
+      "ar25-0c556536": "tokens=120889",
+      "sb26-7fbdac44": "tokens=130700",
+      "cd82-fb555c5d": "tokens=72432",
+      "re86-8af5384d": "tokens=112842",
+      "s5i5-18d95033": "tokens=169154",
+      "ls20-9607627b": "tokens=124279",
+      "ft09-0d8bbf25": "tokens=77992",
+      "su15-1944f8ab": "tokens=181686",
+      "tr87-cd924810": "tokens=87866",
+      "g50t-5849a774": "tokens=81251"
+    },
+    "boundary": "Public development gameplay only. Not a hidden score or proof of the 71-point goal.",
+    "token_accounting_corrections": [],
+    "token_accounting_basis": "Action-record generation plus terminal no-action generation; cancellation notes may include additional uncharged generation.",
+    "public_level_completions_by_elapsed_seconds": {
+      "1800": 34,
+      "3600": 66,
+      "5400": 84,
+      "7200": 84
+    }
+  },
+  "memory_games": 22,
+  "memory_changes": 72,
+  "tool_usage": {
+    "inspection_tools": {
+      "read_region": 404,
+      "row_runs": 181,
+      "read_cells": 89
+    },
+    "inspection_queries": 674,
+    "repeated_identical_event_metadata": 193,
+    "inspection_per_game": [
+      {
+        "game": "bp35-0a0ad940",
+        "queries": 80,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "dc22-fdcac232",
+        "queries": 10,
+        "repeated_identical_event_metadata": 1
+      },
+      {
+        "game": "ft09-0d8bbf25",
+        "queries": 109,
+        "repeated_identical_event_metadata": 5
+      },
+      {
+        "game": "g50t-5849a774",
+        "queries": 11,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "lf52-271a04aa",
+        "queries": 51,
+        "repeated_identical_event_metadata": 1
+      },
+      {
+        "game": "ls20-9607627b",
+        "queries": 8,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "r11l-495a7899",
+        "queries": 165,
+        "repeated_identical_event_metadata": 113
+      },
+      {
+        "game": "re86-8af5384d",
+        "queries": 22,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "s5i5-18d95033",
+        "queries": 89,
+        "repeated_identical_event_metadata": 6
+      },
+      {
+        "game": "sc25-635fd71a",
+        "queries": 5,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "sk48-d8078629",
+        "queries": 16,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "sp80-589a99af",
+        "queries": 5,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "su15-1944f8ab",
+        "queries": 4,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "tn36-ef4dde99",
+        "queries": 2,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "tu93-0768757b",
+        "queries": 97,
+        "repeated_identical_event_metadata": 67
+      }
+    ],
+    "transcript_replies": 1687,
+    "reasoning_characters": 8049927,
+    "no_action_followup_prompts": 287,
+    "boundary": "read_cells telemetry omits requested coordinates, so identical event metadata does not establish an identical query. Repeated measurements may also occur inside one efficient computation. No-action turns can perform useful search. These counts do not identify wasted inference or establish causality."
+  },
+  "prediction_adoption": {
+    "source_origin": "model",
+    "session_store_files": 0,
+    "event_files": 0,
+    "counts": {},
+    "per_session": {},
+    "source_sha256": {},
+    "event_formats": [],
+    "audit_errors": [],
+    "frozen_forecast_archive_complete": false,
+    "boundary": "Counts establish use and measured checks only. Model origin must be established separately from real gameplay/provenance; programmatic replay is not LLM adoption. Superseded archives are not counted as new checks. V1 events do not retain all original forecasts/cancellations; V2 explicitly logs forecast-before-dispatch and measured resolution, which this audit checks for internal consistency. These logs are not an independent game-state oracle. Matching selected features is not a correct object identity, rule, goal, better decision or score improvement. New version after refutation is an observed sequence, not proof of causal learning or successful repair."
+  },
+  "qualifies_for_deadline_submission": false,
+  "decision": "Hold for explicit review; screen did not beat both retained alternatives",
+  "decision_basis": "Candidate must match/exceed historical memory completion and score, and exceed/equal historical prediction score, at their common actual gameplay duration. All25 substantive games, successful lifecycle, exact executed package/extensions and actual memory events are prerequisite checks.",
+  "limitations": "One stochastic public draw, different scheduling horizons, and already inspected games. No causal isolation, unseen-game guarantee, or official-score prediction. Zero prediction use must not be credited as a mechanism improvement.",
+  "hashes": {
+    "candidate": "e6bcf865a56254a3d3f4e3b73bd899ed7caeefce43a6e8fd998730a43282a536",
+    "memory": "c2ca907ef0d9e186d33ccb7bb8c899c321bdccf86061b911d61f7dd3d18ca0ef",
+    "prediction": "c70616c5cc7a16c77c0f91d8033d2d3c38ad8111c1240b2a72dbe0713d89a5b7"
+  },
+  "per_game": [
+    {
+      "game": "ar25-0c556536",
+      "candidate": {
+        "levels": 5,
+        "actions": 216,
+        "generated_tokens": 120291,
+        "score": 41.666666666666664
+      },
+      "memory": {
+        "levels": 8,
+        "actions": 308,
+        "generated_tokens": 131553,
+        "score": 100.0
+      },
+      "prediction": {
+        "levels": 7,
+        "actions": 289,
+        "generated_tokens": 133622,
+        "score": 77.77777777777777
+      }
+    },
+    {
+      "game": "bp35-0a0ad940",
+      "candidate": {
+        "levels": 0,
+        "actions": 24,
+        "generated_tokens": 62242,
+        "score": 0.0
+      },
+      "memory": {
+        "levels": 0,
+        "actions": 16,
+        "generated_tokens": 78766,
+        "score": 0.0
+      },
+      "prediction": {
+        "levels": 0,
+        "actions": 26,
+        "generated_tokens": 74505,
+        "score": 0.0
+      }
+    },
+    {
+      "game": "cd82-fb555c5d",
+      "candidate": {
+        "levels": 0,
+        "actions": 32,
+        "generated_tokens": 67395,
+        "score": 0.0
+      },
+      "memory": {
+        "levels": 0,
+        "actions": 49,
+        "generated_tokens": 58672,
+        "score": 0.0
+      },
+      "prediction": {
+        "levels": 0,
+        "actions": 16,
+        "generated_tokens": 76830,
+        "score": 0.0
+      }
+    },
+    {
+      "game": "cn04-2fe56bfb",
+      "candidate": {
+        "levels": 1,
+        "actions": 70,
+        "generated_tokens": 98042,
+        "score": 4.761904761904762
+      },
+      "memory": {
+        "levels": 1,
+        "actions": 47,
+        "generated_tokens": 62769,
+        "score": 4.761904761904762
+      },
+      "prediction": {
+        "levels": 3,
+        "actions": 77,
+        "generated_tokens": 123449,
+        "score": 28.571428571428573
+      }
+    },
+    {
+      "game": "dc22-fdcac232",
+      "candidate": {
+        "levels": 4,
+        "actions": 296,
+        "generated_tokens": 182262,
+        "score": 47.61904761904762
+      },
+      "memory": {
+        "levels": 4,
+        "actions": 276,
+        "generated_tokens": 199993,
+        "score": 47.61904761904762
+      },
+      "prediction": {
+        "levels": 3,
+        "actions": 251,
+        "generated_tokens": 167853,
+        "score": 28.571428571428573
+      }
+    },
+    {
+      "game": "ft09-0d8bbf25",
+      "candidate": {
+        "levels": 6,
+        "actions": 88,
+        "generated_tokens": 77992,
+        "score": 100.0
+      },
+      "memory": {
+        "levels": 6,
+        "actions": 92,
+        "generated_tokens": 84399,
+        "score": 100.0
+      },
+      "prediction": {
+        "levels": 4,
+        "actions": 91,
+        "generated_tokens": 71294,
+        "score": 47.61904761904762
+      }
+    },
+    {
+      "game": "g50t-5849a774",
+      "candidate": {
+        "levels": 0,
+        "actions": 38,
+        "generated_tokens": 73349,
+        "score": 0.0
+      },
+      "memory": {
+        "levels": 0,
+        "actions": 46,
+        "generated_tokens": 78232,
+        "score": 0.0
+      },
+      "prediction": {
+        "levels": 3,
+        "actions": 294,
+        "generated_tokens": 162222,
+        "score": 21.349605522682445
+      }
+    },
+    {
+      "game": "ka59-38d34dbb",
+      "candidate": {
+        "levels": 4,
+        "actions": 166,
+        "generated_tokens": 125788,
+        "score": 35.714285714285715
+      },
+      "memory": {
+        "levels": 3,
+        "actions": 148,
+        "generated_tokens": 134717,
+        "score": 17.849668433134017
+      },
+      "prediction": {
+        "levels": 2,
+        "actions": 207,
+        "generated_tokens": 154403,
+        "score": 10.714285714285714
+      }
+    },
+    {
+      "game": "lf52-271a04aa",
+      "candidate": {
+        "levels": 2,
+        "actions": 98,
+        "generated_tokens": 91454,
+        "score": 5.454545454545454
+      },
+      "memory": {
+        "levels": 2,
+        "actions": 134,
+        "generated_tokens": 139405,
+        "score": 5.454545454545454
+      },
+      "prediction": {
+        "levels": 3,
+        "actions": 138,
+        "generated_tokens": 162253,
+        "score": 10.909090909090908
+      }
+    },
+    {
+      "game": "lp85-305b61c3",
+      "candidate": {
+        "levels": 8,
+        "actions": 139,
+        "generated_tokens": 164977,
+        "score": 100.0
+      },
+      "memory": {
+        "levels": 8,
+        "actions": 148,
+        "generated_tokens": 147234,
+        "score": 100.0
+      },
+      "prediction": {
+        "levels": 7,
+        "actions": 145,
+        "generated_tokens": 165242,
+        "score": 77.77777777777777
+      }
+    },
+    {
+      "game": "ls20-9607627b",
+      "candidate": {
+        "levels": 2,
+        "actions": 173,
+        "generated_tokens": 121207,
+        "score": 9.709589718240238
+      },
+      "memory": {
+        "levels": 3,
+        "actions": 252,
+        "generated_tokens": 159362,
+        "score": 16.188187499265908
+      },
+      "prediction": {
+        "levels": 2,
+        "actions": 197,
+        "generated_tokens": 98700,
+        "score": 5.60515873015873
+      }
+    },
+    {
+      "game": "m0r0-492f87ba",
+      "candidate": {
+        "levels": 2,
+        "actions": 184,
+        "generated_tokens": 164740,
+        "score": 12.666666666666666
+      },
+      "memory": {
+        "levels": 4,
+        "actions": 189,
+        "generated_tokens": 138370,
+        "score": 47.61904761904762
+      },
+      "prediction": {
+        "levels": 5,
+        "actions": 224,
+        "generated_tokens": 186167,
+        "score": 71.42857142857143
+      }
+    },
+    {
+      "game": "r11l-495a7899",
+      "candidate": {
+        "levels": 5,
+        "actions": 68,
+        "generated_tokens": 130744,
+        "score": 71.42857142857143
+      },
+      "memory": {
+        "levels": 6,
+        "actions": 100,
+        "generated_tokens": 114094,
+        "score": 100.0
+      },
+      "prediction": {
+        "levels": 6,
+        "actions": 101,
+        "generated_tokens": 139597,
+        "score": 100.0
+      }
+    },
+    {
+      "game": "re86-8af5384d",
+      "candidate": {
+        "levels": 5,
+        "actions": 352,
+        "generated_tokens": 87319,
+        "score": 41.666666666666664
+      },
+      "memory": {
+        "levels": 5,
+        "actions": 389,
+        "generated_tokens": 124247,
+        "score": 40.67522106881969
+      },
+      "prediction": {
+        "levels": 5,
+        "actions": 354,
+        "generated_tokens": 123889,
+        "score": 41.666666666666664
+      }
+    },
+    {
+      "game": "s5i5-18d95033",
+      "candidate": {
+        "levels": 2,
+        "actions": 81,
+        "generated_tokens": 167823,
+        "score": 7.623456790123457
+      },
+      "memory": {
+        "levels": 1,
+        "actions": 188,
+        "generated_tokens": 115655,
+        "score": 0.811622433244055
+      },
+      "prediction": {
+        "levels": 1,
+        "actions": 98,
+        "generated_tokens": 114210,
+        "score": 1.020304050607081
+      }
+    },
+    {
+      "game": "sb26-7fbdac44",
+      "candidate": {
+        "levels": 6,
+        "actions": 181,
+        "generated_tokens": 129624,
+        "score": 56.69801954917571
+      },
+      "memory": {
+        "levels": 7,
+        "actions": 160,
+        "generated_tokens": 80641,
+        "score": 77.77777777777777
+      },
+      "prediction": {
+        "levels": 8,
+        "actions": 127,
+        "generated_tokens": 26173,
+        "score": 100.0
+      }
+    },
+    {
+      "game": "sc25-635fd71a",
+      "candidate": {
+        "levels": 5,
+        "actions": 248,
+        "generated_tokens": 157534,
+        "score": 71.42857142857143
+      },
+      "memory": {
+        "levels": 5,
+        "actions": 276,
+        "generated_tokens": 187857,
+        "score": 71.42857142857143
+      },
+      "prediction": {
+        "levels": 0,
+        "actions": 99,
+        "generated_tokens": 56588,
+        "score": 0.0
+      }
+    },
+    {
+      "game": "sk48-d8078629",
+      "candidate": {
+        "levels": 0,
+        "actions": 65,
+        "generated_tokens": 65743,
+        "score": 0.0
+      },
+      "memory": {
+        "levels": 0,
+        "actions": 61,
+        "generated_tokens": 69581,
+        "score": 0.0
+      },
+      "prediction": {
+        "levels": 0,
+        "actions": 86,
+        "generated_tokens": 65742,
+        "score": 0.0
+      }
+    },
+    {
+      "game": "sp80-589a99af",
+      "candidate": {
+        "levels": 1,
+        "actions": 50,
+        "generated_tokens": 94218,
+        "score": 4.761904761904762
+      },
+      "memory": {
+        "levels": 1,
+        "actions": 26,
+        "generated_tokens": 75181,
+        "score": 4.761904761904762
+      },
+      "prediction": {
+        "levels": 4,
+        "actions": 130,
+        "generated_tokens": 192418,
+        "score": 47.61904761904762
+      }
+    },
+    {
+      "game": "su15-1944f8ab",
+      "candidate": {
+        "levels": 4,
+        "actions": 112,
+        "generated_tokens": 181686,
+        "score": 22.22222222222222
+      },
+      "memory": {
+        "levels": 3,
+        "actions": 96,
+        "generated_tokens": 134912,
+        "score": 13.333333333333334
+      },
+      "prediction": {
+        "levels": 3,
+        "actions": 179,
+        "generated_tokens": 140222,
+        "score": 11.833856903154992
+      }
+    },
+    {
+      "game": "tn36-ef4dde99",
+      "candidate": {
+        "levels": 0,
+        "actions": 55,
+        "generated_tokens": 64379,
+        "score": 0.0
+      },
+      "memory": {
+        "levels": 1,
+        "actions": 67,
+        "generated_tokens": 113914,
+        "score": 3.5714285714285716
+      },
+      "prediction": {
+        "levels": 0,
+        "actions": 48,
+        "generated_tokens": 70193,
+        "score": 0.0
+      }
+    },
+    {
+      "game": "tr87-cd924810",
+      "candidate": {
+        "levels": 6,
+        "actions": 319,
+        "generated_tokens": 87866,
+        "score": 100.0
+      },
+      "memory": {
+        "levels": 4,
+        "actions": 313,
+        "generated_tokens": 136124,
+        "score": 47.05927595065239
+      },
+      "prediction": {
+        "levels": 5,
+        "actions": 308,
+        "generated_tokens": 98550,
+        "score": 71.42857142857143
+      }
+    },
+    {
+      "game": "tu93-0768757b",
+      "candidate": {
+        "levels": 8,
+        "actions": 222,
+        "generated_tokens": 191222,
+        "score": 80.0
+      },
+      "memory": {
+        "levels": 7,
+        "actions": 205,
+        "generated_tokens": 157719,
+        "score": 62.22222222222222
+      },
+      "prediction": {
+        "levels": 8,
+        "actions": 202,
+        "generated_tokens": 193370,
+        "score": 80.0
+      }
+    },
+    {
+      "game": "vc33-5430563c",
+      "candidate": {
+        "levels": 7,
+        "actions": 206,
+        "generated_tokens": 117610,
+        "score": 100.0
+      },
+      "memory": {
+        "levels": 7,
+        "actions": 274,
+        "generated_tokens": 170539,
+        "score": 100.0
+      },
+      "prediction": {
+        "levels": 6,
+        "actions": 192,
+        "generated_tokens": 180839,
+        "score": 75.0
+      }
+    },
+    {
+      "game": "wa30-ee6fef47",
+      "candidate": {
+        "levels": 1,
+        "actions": 154,
+        "generated_tokens": 99631,
+        "score": 1.6261028047934711
+      },
+      "memory": {
+        "levels": 1,
+        "actions": 101,
+        "generated_tokens": 77484,
+        "score": 2.2222222222222223
+      },
+      "prediction": {
+        "levels": 1,
+        "actions": 109,
+        "generated_tokens": 111669,
+        "score": 2.2222222222222223
+      }
+    }
+  ]
+}

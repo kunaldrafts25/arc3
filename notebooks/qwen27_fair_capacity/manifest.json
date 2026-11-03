@@ -1,0 +1,9 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-qwen27-fair-capacity",
+  "wall_seconds": 7200,
+  "files": {
+    "submission.ipynb": "8f9bbe5c7f86d10ae91b622482135295e0f8ae24efd03e8a79c7faf9c6f06048",
+    "kernel-metadata.json": "868690ce34268af53b50d4ec9d93a529d7e54e2956d7a67ed576a480e62c65a8",
+    "provenance.json": "77a6e5465ba10ee02d0ed70992cda2b4e5b9c582dcabd6931d0b69a218e82f65"
+  }
+}

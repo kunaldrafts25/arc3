@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-10-27T15:57:57.984520+00:00",
+  "exact_kernel": "kunalsinghh25/arc-hydra-duck-m2-baseline/3",
+  "source": "Exact-version live notebook log; final artifacts still pending",
+  "readiness": [
+    "READY after 649s -> http://127.0.0.1:8001/v1",
+    "Local model ready after 1.0s of public readiness wait"
+  ],
+  "effective_run": {
+    "games": 25,
+    "passes": 1,
+    "concurrency": 25,
+    "gameplay_seconds": 7200,
+    "deadline": "2026-10-27T17:57:08.799657"
+  },
+  "inferred_run_start_utc": "2026-10-27T15:57:08.799657"
+}

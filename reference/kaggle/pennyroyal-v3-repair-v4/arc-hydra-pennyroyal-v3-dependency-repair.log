@@ -1,0 +1,1016 @@
+[{"stream_name":"stderr","time":9.454810312,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.454950642,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.454957969,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.454961848,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.259844936,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.259877028,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.259883187,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.259887639,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.772710686,"data":"3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]\n"}
+,{"stream_name":"stdout","time":11.976072934,"data":"3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]\n"}
+,{"stream_name":"stdout","time":12.725139379,"data":"Reused hash-verified native runtime wheel\n"}
+,{"stream_name":"stdout","time":12.928070623,"data":"Reused hash-verified native runtime wheel\n"}
+,{"stream_name":"stdout","time":14.772755539,"data":"Fetch Shard Index for conda-forge/linux-64                                                      ⧖ Starting\n"}
+,{"stream_name":"stdout","time":14.871820738,"data":"Fetch Shard Index for conda-forge/linux-64                                                ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":14.871859269,"data":"Fetch Shard Index for conda-forge/noarch                                                        ⧖ Starting\n"}
+,{"stream_name":"stdout","time":14.962822448,"data":"Fetch Shard Index for conda-forge/noarch                                                  ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":14.962847195,"data":"Fetching and Parsing Packages' Shards                                                           ⧖ Starting\n"}
+,{"stream_name":"stdout","time":14.975314656,"data":"Fetch Shard Index for conda-forge/linux-64                                                      ⧖ Starting\n"}
+,{"stream_name":"stdout","time":14.97535332,"data":"Fetch Shard Index for conda-forge/linux-64                                                ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":14.975357824,"data":"Fetch Shard Index for conda-forge/noarch                                                        ⧖ Starting\n"}
+,{"stream_name":"stdout","time":14.975360932,"data":"Fetch Shard Index for conda-forge/noarch                                                  ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":14.975363869,"data":"Fetching and Parsing Packages' Shards                                                           ⧖ Starting\n"}
+,{"stream_name":"stdout","time":17.902792998,"data":"Fetching and Parsing Packages' Shards                                                     ✔ Done (2.9 sec)\n"}
+,{"stream_name":"stdout","time":18.105667479,"data":"Fetching and Parsing Packages' Shards                                                     ✔ Done (2.9 sec)\n"}
+,{"stream_name":"stdout","time":18.117793209,"data":"\n"}
+,{"stream_name":"stdout","time":18.117823968,"data":"Resolving Environment                                                                           ⧖ Starting\n"}
+,{"stream_name":"stdout","time":18.244238124,"data":"Resolving Environment                                                                     ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":18.246089005,"data":"\n"}
+,{"stream_name":"stdout","time":18.246116008,"data":"Transaction\n"}
+,{"stream_name":"stdout","time":18.246120345,"data":"\n"}
+,{"stream_name":"stdout","time":18.246123435,"data":"  Prefix: /tmp/hydra-serving-v3/gcc\n"}
+,{"stream_name":"stdout","time":18.246126604,"data":"\n"}
+,{"stream_name":"stdout","time":18.24612957,"data":"  Updating specs:\n"}
+,{"stream_name":"stdout","time":18.246132602,"data":"\n"}
+,{"stream_name":"stdout","time":18.246135627,"data":"   - gxx_linux-64=15\n"}
+,{"stream_name":"stdout","time":18.246138649,"data":"\n"}
+,{"stream_name":"stdout","time":18.246141507,"data":"\n"}
+,{"stream_name":"stdout","time":18.265695918,"data":"  Package                     Version  Build                 Channel          Size\n"}
+,{"stream_name":"stdout","time":18.265729136,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":18.265748555,"data":"  Install:\n"}
+,{"stream_name":"stdout","time":18.265753228,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":18.265759676,"data":"\n"}
+,{"stream_name":"stdout","time":18.265763844,"data":"  + _openmp_mutex                 4.5  20_gnu                conda-forge      29kB\n"}
+,{"stream_name":"stdout","time":18.265768858,"data":"  + binutils_impl_linux-64     2.46.1  default_hfdba357_103  conda-forge       4MB\n"}
+,{"stream_name":"stdout","time":18.26577312,"data":"  + binutils_linux-64          2.46.1  default_h4852527_103  conda-forge      36kB\n"}
+,{"stream_name":"stdout","time":18.265777224,"data":"  + gcc_impl_linux-64          15.3.0  h6ad849d_7            conda-forge      84MB\n"}
+,{"stream_name":"stdout","time":18.265782015,"data":"  + gcc_linux-64               15.3.0  h7df7c86_2            conda-forge      30kB\n"}
+,{"stream_name":"stdout","time":18.26578603,"data":"  + gxx_impl_linux-64          15.3.0  h90d9265_7            conda-forge      17MB\n"}
+,{"stream_name":"stdout","time":18.265790226,"data":"  + gxx_linux-64               15.3.0  h39dd401_2            conda-forge      29kB\n"}
+,{"stream_name":"stdout","time":18.265794318,"data":"  + kernel-headers_linux-64    5.14.0  he073ed8_3            conda-forge       1MB\n"}
+,{"stream_name":"stdout","time":18.265798306,"data":"  + ld_impl_linux-64           2.46.1  default_hbd61a6d_103  conda-forge     742kB\n"}
+,{"stream_name":"stdout","time":18.265802235,"data":"  + libgcc                     16.2.0  ha9f2e26_7            conda-forge       1MB\n"}
+,{"stream_name":"stdout","time":18.265806241,"data":"  + libgcc-devel_linux-64      15.3.0  h2b852eb_107          conda-forge       3MB\n"}
+,{"stream_name":"stdout","time":18.265810293,"data":"  + libgomp                    16.2.0  he0feb66_7            conda-forge     641kB\n"}
+,{"stream_name":"stdout","time":18.265814358,"data":"  + libsanitizer               15.3.0  h54950a5_7            conda-forge       8MB\n"}
+,{"stream_name":"stdout","time":18.265822714,"data":"  + libstdcxx                  16.2.0  h934c35e_7            conda-forge       7MB\n"}
+,{"stream_name":"stdout","time":18.265825525,"data":"  + libstdcxx-devel_linux-64   15.3.0  hb2c5482_107          conda-forge      21MB\n"}
+,{"stream_name":"stdout","time":18.265855631,"data":"  + libzlib                     1.3.2  h25fd6f3_3            conda-forge      64kB\n"}
+,{"stream_name":"stdout","time":18.265861167,"data":"  + sysroot_linux-64             2.34  h087de78_3            conda-forge      41MB\n"}
+,{"stream_name":"stdout","time":18.2658679,"data":"  + tzdata                      2026e  h5d301ff_0            conda-forge     119kB\n"}
+,{"stream_name":"stdout","time":18.265872217,"data":"  + zstd                        1.5.7  hb78ec9c_7            conda-forge     601kB\n"}
+,{"stream_name":"stdout","time":18.265876294,"data":"\n"}
+,{"stream_name":"stdout","time":18.265879953,"data":"  Summary:\n"}
+,{"stream_name":"stdout","time":18.265883717,"data":"\n"}
+,{"stream_name":"stdout","time":18.265887427,"data":"  Install: 19 packages\n"}
+,{"stream_name":"stdout","time":18.2658912,"data":"\n"}
+,{"stream_name":"stdout","time":18.265894892,"data":"  Total download: 189MB\n"}
+,{"stream_name":"stdout","time":18.265898655,"data":"\n"}
+,{"stream_name":"stdout","time":18.26590261,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":18.265911796,"data":"\n"}
+,{"stream_name":"stdout","time":18.265915593,"data":"\n"}
+,{"stream_name":"stdout","time":18.265919833,"data":"warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.\n"}
+,{"stream_name":"stdout","time":18.27186163,"data":"\n"}
+,{"stream_name":"stdout","time":18.271898824,"data":"Transaction starting\n"}
+,{"stream_name":"stdout","time":18.321136591,"data":"\n"}
+,{"stream_name":"stdout","time":18.321166031,"data":"Resolving Environment                                                                           ⧖ Starting\n"}
+,{"stream_name":"stdout","time":18.321170694,"data":"Resolving Environment                                                                     ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":18.321173978,"data":"\n"}
+,{"stream_name":"stdout","time":18.321176845,"data":"Transaction\n"}
+,{"stream_name":"stdout","time":18.321191411,"data":"\n"}
+,{"stream_name":"stdout","time":18.321195997,"data":"  Prefix: /tmp/hydra-serving-v3/gcc\n"}
+,{"stream_name":"stdout","time":18.321200871,"data":"\n"}
+,{"stream_name":"stdout","time":18.321205222,"data":"  Updating specs:\n"}
+,{"stream_name":"stdout","time":18.321209589,"data":"\n"}
+,{"stream_name":"stdout","time":18.321214235,"data":"   - gxx_linux-64=15\n"}
+,{"stream_name":"stdout","time":18.321218929,"data":"\n"}
+,{"stream_name":"stdout","time":18.32122267,"data":"\n"}
+,{"stream_name":"stdout","time":18.321226405,"data":"  Package                     Version  Build                 Channel          Size\n"}
+,{"stream_name":"stdout","time":18.32123067,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":18.321236841,"data":"  Install:\n"}
+,{"stream_name":"stdout","time":18.321240657,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":18.321260849,"data":"\n"}
+,{"stream_name":"stdout","time":18.321263843,"data":"  + _openmp_mutex                 4.5  20_gnu                conda-forge      29kB\n"}
+,{"stream_name":"stdout","time":18.321266602,"data":"  + binutils_impl_linux-64     2.46.1  default_hfdba357_103  conda-forge       4MB\n"}
+,{"stream_name":"stdout","time":18.321269371,"data":"  + binutils_linux-64          2.46.1  default_h4852527_103  conda-forge      36kB\n"}
+,{"stream_name":"stdout","time":18.321272087,"data":"  + gcc_impl_linux-64          15.3.0  h6ad849d_7            conda-forge      84MB\n"}
+,{"stream_name":"stdout","time":18.321274798,"data":"  + gcc_linux-64               15.3.0  h7df7c86_2            conda-forge      30kB\n"}
+,{"stream_name":"stdout","time":18.321277516,"data":"  + gxx_impl_linux-64          15.3.0  h90d9265_7            conda-forge      17MB\n"}
+,{"stream_name":"stdout","time":18.321281174,"data":"  + gxx_linux-64               15.3.0  h39dd401_2            conda-forge      29kB\n"}
+,{"stream_name":"stdout","time":18.321295818,"data":"  + kernel-headers_linux-64    5.14.0  he073ed8_3            conda-forge       1MB\n"}
+,{"stream_name":"stdout","time":18.321300669,"data":"  + ld_impl_linux-64           2.46.1  default_hbd61a6d_103  conda-forge     742kB\n"}
+,{"stream_name":"stdout","time":18.321305776,"data":"  + libgcc                     16.2.0  ha9f2e26_7            conda-forge       1MB\n"}
+,{"stream_name":"stdout","time":18.321310652,"data":"  + libgcc-devel_linux-64      15.3.0  h2b852eb_107          conda-forge       3MB\n"}
+,{"stream_name":"stdout","time":18.321315342,"data":"  + libgomp                    16.2.0  he0feb66_7            conda-forge     641kB\n"}
+,{"stream_name":"stdout","time":18.321319528,"data":"  + libsanitizer               15.3.0  h54950a5_7            conda-forge       8MB\n"}
+,{"stream_name":"stdout","time":18.321325654,"data":"  + libstdcxx                  16.2.0  h934c35e_7            conda-forge       7MB\n"}
+,{"stream_name":"stdout","time":18.321329705,"data":"  + libstdcxx-devel_linux-64   15.3.0  hb2c5482_107          conda-forge      21MB\n"}
+,{"stream_name":"stdout","time":18.321333707,"data":"  + libzlib                     1.3.2  h25fd6f3_3            conda-forge      64kB\n"}
+,{"stream_name":"stdout","time":18.321337679,"data":"  + sysroot_linux-64             2.34  h087de78_3            conda-forge      41MB\n"}
+,{"stream_name":"stdout","time":18.321341577,"data":"  + tzdata                      2026e  h5d301ff_0            conda-forge     119kB\n"}
+,{"stream_name":"stdout","time":18.321345551,"data":"  + zstd                        1.5.7  hb78ec9c_7            conda-forge     601kB\n"}
+,{"stream_name":"stdout","time":18.321349509,"data":"\n"}
+,{"stream_name":"stdout","time":18.321353162,"data":"  Summary:\n"}
+,{"stream_name":"stdout","time":18.32135691,"data":"\n"}
+,{"stream_name":"stdout","time":18.321360712,"data":"  Install: 19 packages\n"}
+,{"stream_name":"stdout","time":18.321368721,"data":"\n"}
+,{"stream_name":"stdout","time":18.321371541,"data":"  Total download: 189MB\n"}
+,{"stream_name":"stdout","time":18.321374194,"data":"\n"}
+,{"stream_name":"stdout","time":18.321376854,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":18.321391136,"data":"\n"}
+,{"stream_name":"stdout","time":18.321395565,"data":"\n"}
+,{"stream_name":"stdout","time":18.321405531,"data":"warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.\n"}
+,{"stream_name":"stdout","time":18.321411309,"data":"\n"}
+,{"stream_name":"stdout","time":18.321415702,"data":"Transaction starting\n"}
+,{"stream_name":"stdout","time":20.507527185,"data":"Linking libstdcxx-devel_linux-64-15.3.0-hb2c5482_107\n"}
+,{"stream_name":"stdout","time":20.590267382,"data":"Linking libgcc-devel_linux-64-15.3.0-h2b852eb_107\n"}
+,{"stream_name":"stdout","time":20.592801573,"data":"Linking kernel-headers_linux-64-5.14.0-he073ed8_3\n"}
+,{"stream_name":"stdout","time":20.683642436,"data":"Linking tzdata-2026e-h5d301ff_0\n"}
+,{"stream_name":"stdout","time":20.710587172,"data":"Linking libstdcxx-devel_linux-64-15.3.0-hb2c5482_107\n"}
+,{"stream_name":"stdout","time":20.710613912,"data":"Linking libgcc-devel_linux-64-15.3.0-h2b852eb_107\n"}
+,{"stream_name":"stdout","time":20.710618976,"data":"Linking kernel-headers_linux-64-5.14.0-he073ed8_3\n"}
+,{"stream_name":"stdout","time":20.710623801,"data":"Linking tzdata-2026e-h5d301ff_0\n"}
+,{"stream_name":"stdout","time":20.730943123,"data":"Linking sysroot_linux-64-2.34-h087de78_3\n"}
+,{"stream_name":"stdout","time":20.819788264,"data":"Linking libgomp-16.2.0-he0feb66_7\n"}
+,{"stream_name":"stdout","time":20.823268344,"data":"Linking libzlib-1.3.2-h25fd6f3_3\n"}
+,{"stream_name":"stdout","time":20.825839181,"data":"Linking _openmp_mutex-4.5-20_gnu\n"}
+,{"stream_name":"stdout","time":20.841681725,"data":"Linking zstd-1.5.7-hb78ec9c_7\n"}
+,{"stream_name":"stdout","time":20.845863156,"data":"Linking libgcc-16.2.0-ha9f2e26_7\n"}
+,{"stream_name":"stdout","time":20.85142901,"data":"Linking ld_impl_linux-64-2.46.1-default_hbd61a6d_103\n"}
+,{"stream_name":"stdout","time":20.886488259,"data":"Linking libstdcxx-16.2.0-h934c35e_7\n"}
+,{"stream_name":"stdout","time":20.887787197,"data":"Linking binutils_impl_linux-64-2.46.1-default_hfdba357_103\n"}
+,{"stream_name":"stdout","time":20.936633922,"data":"Linking sysroot_linux-64-2.34-h087de78_3\n"}
+,{"stream_name":"stdout","time":20.936659259,"data":"Linking libgomp-16.2.0-he0feb66_7\n"}
+,{"stream_name":"stdout","time":20.936663726,"data":"Linking libzlib-1.3.2-h25fd6f3_3\n"}
+,{"stream_name":"stdout","time":20.936667933,"data":"Linking _openmp_mutex-4.5-20_gnu\n"}
+,{"stream_name":"stdout","time":20.936671869,"data":"Linking zstd-1.5.7-hb78ec9c_7\n"}
+,{"stream_name":"stdout","time":20.936676473,"data":"Linking libgcc-16.2.0-ha9f2e26_7\n"}
+,{"stream_name":"stdout","time":20.936681282,"data":"Linking ld_impl_linux-64-2.46.1-default_hbd61a6d_103\n"}
+,{"stream_name":"stdout","time":20.936685939,"data":"Linking libstdcxx-16.2.0-h934c35e_7\n"}
+,{"stream_name":"stdout","time":20.936690383,"data":"Linking binutils_impl_linux-64-2.46.1-default_hfdba357_103\n"}
+,{"stream_name":"stdout","time":20.943882464,"data":"Linking libsanitizer-15.3.0-h54950a5_7\n"}
+,{"stream_name":"stdout","time":20.945529803,"data":"Linking binutils_linux-64-2.46.1-default_h4852527_103\n"}
+,{"stream_name":"stdout","time":20.947040537,"data":"Linking gcc_impl_linux-64-15.3.0-h6ad849d_7\n"}
+,{"stream_name":"stdout","time":21.147882674,"data":"Linking libsanitizer-15.3.0-h54950a5_7\n"}
+,{"stream_name":"stdout","time":21.147913571,"data":"Linking binutils_linux-64-2.46.1-default_h4852527_103\n"}
+,{"stream_name":"stdout","time":21.147919305,"data":"Linking gcc_impl_linux-64-15.3.0-h6ad849d_7\n"}
+,{"stream_name":"stdout","time":21.26195923,"data":"Linking gxx_impl_linux-64-15.3.0-h90d9265_7\n"}
+,{"stream_name":"stdout","time":21.264155816,"data":"Linking gcc_linux-64-15.3.0-h7df7c86_2\n"}
+,{"stream_name":"stdout","time":21.266067986,"data":"Linking gxx_linux-64-15.3.0-h39dd401_2\n"}
+,{"stream_name":"stdout","time":21.267981647,"data":"\n"}
+,{"stream_name":"stdout","time":21.268000252,"data":"Transaction finished\n"}
+,{"stream_name":"stdout","time":21.26800633,"data":"\n"}
+,{"stream_name":"stdout","time":21.268299335000002,"data":"\n"}
+,{"stream_name":"stdout","time":21.26831045,"data":"To activate this environment, use:\n"}
+,{"stream_name":"stdout","time":21.268315887,"data":"\n"}
+,{"stream_name":"stdout","time":21.268321538,"data":"    micromamba activate /tmp/hydra-serving-v3/gcc\n"}
+,{"stream_name":"stdout","time":21.26832707,"data":"\n"}
+,{"stream_name":"stdout","time":21.268332796,"data":"Or to execute a single command in this environment, use:\n"}
+,{"stream_name":"stdout","time":21.268337835,"data":"\n"}
+,{"stream_name":"stdout","time":21.268342924,"data":"    micromamba run -p /tmp/hydra-serving-v3/gcc mycommand\n"}
+,{"stream_name":"stdout","time":21.268348129,"data":"\n"}
+,{"stream_name":"stdout","time":21.321437104,"data":"x86_64-conda-linux-gnu-g++ (conda-forge gcc 15.3.0-7) 15.3.0\n"}
+,{"stream_name":"stdout","time":21.32146365,"data":"Copyright (C) 2025 Free Software Foundation, Inc.\n"}
+,{"stream_name":"stdout","time":21.321468753,"data":"This is free software; see the source for copying conditions.  There is NO\n"}
+,{"stream_name":"stdout","time":21.321473651,"data":"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"}
+,{"stream_name":"stdout","time":21.321478441,"data":"\n"}
+,{"stream_name":"stdout","time":21.460695631,"data":"Using CPython 3.12.13 interpreter at: /usr/bin/python3\n"}
+,{"stream_name":"stdout","time":21.460719873,"data":"Creating virtual environment at: /tmp/hydra-serving-v3/compiler\n"}
+,{"stream_name":"stdout","time":21.463236621,"data":"Activate with: source /tmp/hydra-serving-v3/compiler/bin/activate\n"}
+,{"stream_name":"stdout","time":21.464793492,"data":"Linking gxx_impl_linux-64-15.3.0-h90d9265_7\n"}
+,{"stream_name":"stdout","time":21.464817557,"data":"Linking gcc_linux-64-15.3.0-h7df7c86_2\n"}
+,{"stream_name":"stdout","time":21.464822578,"data":"Linking gxx_linux-64-15.3.0-h39dd401_2\n"}
+,{"stream_name":"stdout","time":21.464826978,"data":"\n"}
+,{"stream_name":"stdout","time":21.464831312,"data":"Transaction finished\n"}
+,{"stream_name":"stdout","time":21.4648359,"data":"\n"}
+,{"stream_name":"stdout","time":21.464840329,"data":"\n"}
+,{"stream_name":"stdout","time":21.464844526,"data":"To activate this environment, use:\n"}
+,{"stream_name":"stdout","time":21.464848519,"data":"\n"}
+,{"stream_name":"stdout","time":21.464852307,"data":"    micromamba activate /tmp/hydra-serving-v3/gcc\n"}
+,{"stream_name":"stdout","time":21.46485625,"data":"\n"}
+,{"stream_name":"stdout","time":21.46486003,"data":"Or to execute a single command in this environment, use:\n"}
+,{"stream_name":"stdout","time":21.464864011,"data":"\n"}
+,{"stream_name":"stdout","time":21.46486751,"data":"    micromamba run -p /tmp/hydra-serving-v3/gcc mycommand\n"}
+,{"stream_name":"stdout","time":21.464875853,"data":"\n"}
+,{"stream_name":"stdout","time":21.464878512,"data":"x86_64-conda-linux-gnu-g++ (conda-forge gcc 15.3.0-7) 15.3.0\n"}
+,{"stream_name":"stdout","time":21.464881224,"data":"Copyright (C) 2025 Free Software Foundation, Inc.\n"}
+,{"stream_name":"stdout","time":21.464884034,"data":"This is free software; see the source for copying conditions.  There is NO\n"}
+,{"stream_name":"stdout","time":21.464897467,"data":"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"}
+,{"stream_name":"stdout","time":21.464900308,"data":"\n"}
+,{"stream_name":"stdout","time":21.464902911,"data":"Using CPython 3.12.13 interpreter at: /usr/bin/python3\n"}
+,{"stream_name":"stdout","time":21.464905686,"data":"Creating virtual environment at: /tmp/hydra-serving-v3/compiler\n"}
+,{"stream_name":"stdout","time":21.666201178,"data":"Activate with: source /tmp/hydra-serving-v3/compiler/bin/activate\n"}
+,{"stream_name":"stdout","time":21.693380219,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/compiler\n"}
+,{"stream_name":"stdout","time":21.897698911,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/compiler\n"}
+,{"stream_name":"stdout","time":24.190642476,"data":"Resolved 5 packages in 181ms\n"}
+,{"stream_name":"stdout","time":24.196338246,"data":"Downloading nvidia-cuda-cccl (3.7MiB)\n"}
+,{"stream_name":"stdout","time":24.198839679,"data":"Downloading nvidia-nvvm (66.0MiB)\n"}
+,{"stream_name":"stdout","time":24.206518936,"data":"Downloading nvidia-cuda-nvcc (42.9MiB)\n"}
+,{"stream_name":"stdout","time":24.301469174,"data":"Downloading nvidia-cuda-runtime (2.2MiB)\n"}
+,{"stream_name":"stdout","time":24.393802196,"data":"Resolved 5 packages in 181ms\n"}
+,{"stream_name":"stdout","time":24.393851921,"data":"Downloading nvidia-cuda-cccl (3.7MiB)\n"}
+,{"stream_name":"stdout","time":24.393858095,"data":"Downloading nvidia-nvvm (66.0MiB)\n"}
+,{"stream_name":"stdout","time":24.393862429,"data":"Downloading nvidia-cuda-nvcc (42.9MiB)\n"}
+,{"stream_name":"stdout","time":24.393866374,"data":"Downloading nvidia-cuda-runtime (2.2MiB)\n"}
+,{"stream_name":"stdout","time":24.403877257,"data":" Downloaded nvidia-cuda-runtime\n"}
+,{"stream_name":"stdout","time":24.498411067,"data":" Downloaded nvidia-cuda-cccl\n"}
+,{"stream_name":"stdout","time":24.606448605,"data":" Downloaded nvidia-cuda-runtime\n"}
+,{"stream_name":"stdout","time":24.606491835,"data":" Downloaded nvidia-cuda-cccl\n"}
+,{"stream_name":"stdout","time":26.646194404,"data":" Downloaded nvidia-cuda-nvcc\n"}
+,{"stream_name":"stdout","time":26.848905503,"data":" Downloaded nvidia-cuda-nvcc\n"}
+,{"stream_name":"stdout","time":27.424010896,"data":" Downloaded nvidia-nvvm\n"}
+,{"stream_name":"stdout","time":27.626986554,"data":" Downloaded nvidia-nvvm\n"}
+,{"stream_name":"stdout","time":28.402896212,"data":"Prepared 5 packages in 4.21s\n"}
+,{"stream_name":"stdout","time":28.6078534,"data":"Prepared 5 packages in 4.21s\n"}
+,{"stream_name":"stdout","time":30.230104598,"data":"Installed 5 packages in 1.82s\n"}
+,{"stream_name":"stdout","time":30.230131292,"data":" + nvidia-cuda-cccl==13.3.4.3.1\n"}
+,{"stream_name":"stdout","time":30.230136005,"data":" + nvidia-cuda-crt==13.3.73\n"}
+,{"stream_name":"stdout","time":30.230139905,"data":" + nvidia-cuda-nvcc==13.3.73\n"}
+,{"stream_name":"stdout","time":30.230143959,"data":" + nvidia-cuda-runtime==13.3.29\n"}
+,{"stream_name":"stdout","time":30.230148045,"data":" + nvidia-nvvm==13.3.73\n"}
+,{"stream_name":"stdout","time":30.293576015,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":30.293608635,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":30.432976659,"data":"Installed 5 packages in 1.82s\n"}
+,{"stream_name":"stdout","time":30.433001642,"data":" + nvidia-cuda-cccl==13.3.4.3.1\n"}
+,{"stream_name":"stdout","time":30.433009098,"data":" + nvidia-cuda-crt==13.3.73\n"}
+,{"stream_name":"stdout","time":30.433024511,"data":" + nvidia-cuda-nvcc==13.3.73\n"}
+,{"stream_name":"stdout","time":30.433028999,"data":" + nvidia-cuda-runtime==13.3.29\n"}
+,{"stream_name":"stdout","time":30.433033185,"data":" + nvidia-nvvm==13.3.73\n"}
+,{"stream_name":"stdout","time":30.433037326,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":30.433041751,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":30.720059202,"data":"nvcc: NVIDIA (R) Cuda compiler driver\n"}
+,{"stream_name":"stdout","time":30.720084562,"data":"Copyright (c) 2005-2026 NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":30.720089294,"data":"Built on Tue_Jun_09_02:43:40_PM_PDT_2026\n"}
+,{"stream_name":"stdout","time":30.720093127,"data":"Cuda compilation tools, release 13.3, V13.3.73\n"}
+,{"stream_name":"stdout","time":30.720096981,"data":"Build cuda_13.3.r13.3/compiler.38244171_0\n"}
+,{"stream_name":"stdout","time":30.720101149,"data":"\n"}
+,{"stream_name":"stdout","time":30.922674222,"data":"nvcc: NVIDIA (R) Cuda compiler driver\n"}
+,{"stream_name":"stdout","time":30.922702331,"data":"Copyright (c) 2005-2026 NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":30.922709508,"data":"Built on Tue_Jun_09_02:43:40_PM_PDT_2026\n"}
+,{"stream_name":"stdout","time":30.922713927,"data":"Cuda compilation tools, release 13.3, V13.3.73\n"}
+,{"stream_name":"stdout","time":30.922718283000002,"data":"Build cuda_13.3.r13.3/compiler.38244171_0\n"}
+,{"stream_name":"stdout","time":30.922722497,"data":"\n"}
+,{"stream_name":"stdout","time":32.143425409,"data":"CPU CUDA SM120f compiler probe passed\n"}
+,{"stream_name":"stdout","time":32.179594588,"data":"Cloning into '/tmp/hydra-serving-v3/source'...\n"}
+,{"stream_name":"stdout","time":32.346050725,"data":"CPU CUDA SM120f compiler probe passed\n"}
+,{"stream_name":"stdout","time":32.346092882,"data":"Cloning into '/tmp/hydra-serving-v3/source'...\n"}
+,{"stream_name":"stdout","time":37.847509176,"data":"Note: switching to '560edbdca18aedae13f71ae20b3984efa4d22633'.\n"}
+,{"stream_name":"stdout","time":37.847565529,"data":"\n"}
+,{"stream_name":"stdout","time":37.847574925,"data":"You are in 'detached HEAD' state. You can look around, make experimental\n"}
+,{"stream_name":"stdout","time":37.847579166,"data":"changes and commit them, and you can discard any commits you make in this\n"}
+,{"stream_name":"stdout","time":37.847583639,"data":"state without impacting any branches by switching back to a branch.\n"}
+,{"stream_name":"stdout","time":37.84758766,"data":"\n"}
+,{"stream_name":"stdout","time":37.847591372,"data":"If you want to create a new branch to retain commits you create, you may\n"}
+,{"stream_name":"stdout","time":37.847595288,"data":"do so (now or later) by using -c with the switch command. Example:\n"}
+,{"stream_name":"stdout","time":37.847599184,"data":"\n"}
+,{"stream_name":"stdout","time":37.847602797,"data":"  git switch -c \u003cnew-branch-name\u003e\n"}
+,{"stream_name":"stdout","time":37.84760711,"data":"\n"}
+,{"stream_name":"stdout","time":37.847610697,"data":"Or undo this operation with:\n"}
+,{"stream_name":"stdout","time":37.847619767,"data":"\n"}
+,{"stream_name":"stdout","time":37.84762543,"data":"  git switch -\n"}
+,{"stream_name":"stdout","time":37.847634365,"data":"\n"}
+,{"stream_name":"stdout","time":37.84763734,"data":"Turn off this advice by setting config variable advice.detachedHead to false\n"}
+,{"stream_name":"stdout","time":37.847658713,"data":"\n"}
+,{"stream_name":"stdout","time":38.050082332,"data":"Note: switching to '560edbdca18aedae13f71ae20b3984efa4d22633'.\n"}
+,{"stream_name":"stdout","time":38.050130149,"data":"\n"}
+,{"stream_name":"stdout","time":38.050135905,"data":"You are in 'detached HEAD' state. You can look around, make experimental\n"}
+,{"stream_name":"stdout","time":38.050141971,"data":"changes and commit them, and you can discard any commits you make in this\n"}
+,{"stream_name":"stdout","time":38.05015085,"data":"state without impacting any branches by switching back to a branch.\n"}
+,{"stream_name":"stdout","time":38.050153738,"data":"\n"}
+,{"stream_name":"stdout","time":38.050156268,"data":"If you want to create a new branch to retain commits you create, you may\n"}
+,{"stream_name":"stdout","time":38.050158942,"data":"do so (now or later) by using -c with the switch command. Example:\n"}
+,{"stream_name":"stdout","time":38.050161618,"data":"\n"}
+,{"stream_name":"stdout","time":38.050164199,"data":"  git switch -c \u003cnew-branch-name\u003e\n"}
+,{"stream_name":"stdout","time":38.050167269,"data":"\n"}
+,{"stream_name":"stdout","time":38.050169873,"data":"Or undo this operation with:\n"}
+,{"stream_name":"stdout","time":38.050172465,"data":"\n"}
+,{"stream_name":"stdout","time":38.050175148,"data":"  git switch -\n"}
+,{"stream_name":"stdout","time":38.050177823,"data":"\n"}
+,{"stream_name":"stdout","time":38.050180454,"data":"Turn off this advice by setting config variable advice.detachedHead to false\n"}
+,{"stream_name":"stdout","time":38.050183192,"data":"\n"}
+,{"stream_name":"stdout","time":39.006257598,"data":"Updating files:  83% (7195/8591)\rUpdating files:  84% (7217/8591)\rUpdating files:  85% (7303/8591)\rUpdating files:  86% (7389/8591)\rUpdating files:  87% (7475/8591)\rUpdating files:  88% (7561/8591)\rUpdating files:  89% (7646/8591)\rUpdating files:  90% (7732/8591)\rUpdating files:  91% (7818/8591)\rUpdating files:  92% (7904/8591)\rUpdating files:  93% (7990/8591)\rUpdating files:  94% (8076/8591)\rUpdating files:  95% (8162/8591)\rUpdating files:  96% (8248/8591)\rUpdating files:  97% (8334/8591)\rUpdating files:  98% (8420/8591)\rUpdating files:  99% (8506/8591)\rUpdating files: 100% (8591/8591)\rUpdating files: 100% (8591/8591), done.\n"}
+,{"stream_name":"stdout","time":39.06786303,"data":"Updating files:  83% (7195/8591)\rUpdating files:  84% (7217/8591)\rUpdating files:  85% (7303/8591)\rUpdating files:  86% (7389/8591)\rUpdating files:  87% (7475/8591)\rUpdating files:  88% (7561/8591)\rUpdating files:  89% (7646/8591)\rUpdating files:  90% (7732/8591)\rUpdating files:  91% (7818/8591)\rUpdating files:  92% (7904/8591)\rUpdating files:  93% (7990/8591)\rUpdating files:  94% (8076/8591)\rUpdating files:  95% (8162/8591)\rUpdating files:  96% (8248/8591)\rUpdating files:  97% (8334/8591)\rUpdating files:  98% (8420/8591)\rUpdating files:  99% (8506/8591)\rUpdating files: 100% (8591/8591)\rUpdating files: 100% (8591/8591), done.\n"}
+,{"stream_name":"stdout","time":39.402772293,"data":"Using CPython 3.12.13 interpreter at: /usr/bin/python3\n"}
+,{"stream_name":"stdout","time":39.402799913,"data":"Creating virtual environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":39.404233289,"data":"Activate with: source /tmp/hydra-serving-v3/runtime/bin/activate\n"}
+,{"stream_name":"stdout","time":39.518837222,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":39.610765015,"data":"Using CPython 3.12.13 interpreter at: /usr/bin/python3\n"}
+,{"stream_name":"stdout","time":39.610941117,"data":"Creating virtual environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":39.610956446,"data":"Activate with: source /tmp/hydra-serving-v3/runtime/bin/activate\n"}
+,{"stream_name":"stdout","time":39.610987711,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":39.779740282,"data":"Resolved 208 packages in 192ms\n"}
+,{"stream_name":"stdout","time":39.982706856,"data":"Resolved 208 packages in 192ms\n"}
+,{"stream_name":"stdout","time":157.668613921,"data":"Prepared 208 packages in 1m 57s\n"}
+,{"stream_name":"stdout","time":157.882458977,"data":"Prepared 208 packages in 1m 57s\n"}
+,{"stream_name":"stdout","time":327.015690182,"data":"Installed 208 packages in 2m 49s\n"}
+,{"stream_name":"stdout","time":327.019264834,"data":" + aiohappyeyeballs==2.7.1\n"}
+,{"stream_name":"stdout","time":327.019299447,"data":" + aiohttp==3.14.3\n"}
+,{"stream_name":"stdout","time":327.019306085,"data":" + aiosignal==1.4.0\n"}
+,{"stream_name":"stdout","time":327.019311838,"data":" + airportsdata==20260905\n"}
+,{"stream_name":"stdout","time":327.019317638,"data":" + annotated-doc==0.0.5\n"}
+,{"stream_name":"stdout","time":327.019323058,"data":" + annotated-types==0.8.0\n"}
+,{"stream_name":"stdout","time":327.019328613,"data":" + anthropic==1.9.0\n"}
+,{"stream_name":"stdout","time":327.019333549,"data":" + anyio==4.15.1\n"}
+,{"stream_name":"stdout","time":327.019338188,"data":" + apache-tvm-ffi==0.1.11\n"}
+,{"stream_name":"stdout","time":327.019343045,"data":" + asttokens==3.0.2\n"}
+,{"stream_name":"stdout","time":327.019347949,"data":" + attrs==26.1.0\n"}
+,{"stream_name":"stdout","time":327.019353095,"data":" + blobfile==3.0.0\n"}
+,{"stream_name":"stdout","time":327.019358574,"data":" + build==1.6.1\n"}
+,{"stream_name":"stdout","time":327.019363735,"data":" + certifi==2026.7.22\n"}
+,{"stream_name":"stdout","time":327.019368724,"data":" + cffi==2.1.1\n"}
+,{"stream_name":"stdout","time":327.01937407,"data":" + charset-normalizer==3.5.1\n"}
+,{"stream_name":"stdout","time":327.019382807,"data":" + click==8.5.0\n"}
+,{"stream_name":"stdout","time":327.019387543,"data":" + cloudpickle==3.1.2\n"}
+,{"stream_name":"stdout","time":327.01939205,"data":" + compressed-tensors==0.19.1a20260928\n"}
+,{"stream_name":"stdout","time":327.019396725,"data":" + cryptography==50.0.1\n"}
+,{"stream_name":"stdout","time":327.019402161,"data":" + cuda-bindings==13.4.3\n"}
+,{"stream_name":"stdout","time":327.019407289,"data":" + cuda-core==1.2.1\n"}
+,{"stream_name":"stdout","time":327.019412349,"data":" + cuda-pathfinder==1.8.2\n"}
+,{"stream_name":"stdout","time":327.019417204,"data":" + cuda-python==13.4.1\n"}
+,{"stream_name":"stdout","time":327.019422358,"data":" + cuda-tile==1.6.0rc5\n"}
+,{"stream_name":"stdout","time":327.019427401,"data":" + cuda-toolkit==13.0.3.0\n"}
+,{"stream_name":"stdout","time":327.019432489,"data":" + datasets==5.0.1\n"}
+,{"stream_name":"stdout","time":327.019437518,"data":" + dill==0.4.1\n"}
+,{"stream_name":"stdout","time":327.019442976,"data":" + diskcache==5.6.3\n"}
+,{"stream_name":"stdout","time":327.019448155,"data":" + distro==1.9.0\n"}
+,{"stream_name":"stdout","time":327.01945344,"data":" + docstring-parser==0.18.0\n"}
+,{"stream_name":"stdout","time":327.019458549,"data":" + easydict==1.13\n"}
+,{"stream_name":"stdout","time":327.019463677,"data":" + einops==0.9.0.dev0\n"}
+,{"stream_name":"stdout","time":327.019469058,"data":" + executing==2.2.1\n"}
+,{"stream_name":"stdout","time":327.019474332,"data":" + fastapi==0.141.1\n"}
+,{"stream_name":"stdout","time":327.019479432,"data":" + filelock==4.0.6\n"}
+,{"stream_name":"stdout","time":327.019484572,"data":" + flash-attn-4==4.0.0b19\n"}
+,{"stream_name":"stdout","time":327.019489986,"data":" + flashinfer-cubin==0.6.17\n"}
+,{"stream_name":"stdout","time":327.019515063,"data":" + flashinfer-jit-cache==0.6.17+cu130\n"}
+,{"stream_name":"stdout","time":327.019520258,"data":" + flashinfer-python==0.6.17\n"}
+,{"stream_name":"stdout","time":327.01952438,"data":" + frozenlist==1.8.0\n"}
+,{"stream_name":"stdout","time":327.019528332,"data":" + fsspec==2026.6.0\n"}
+,{"stream_name":"stdout","time":327.019553413,"data":" + gguf==0.19.0\n"}
+,{"stream_name":"stdout","time":327.019558265,"data":" + grpcio==1.84.0\n"}
+,{"stream_name":"stdout","time":327.019562478,"data":" + grpcio-health-checking==1.82.0rc2\n"}
+,{"stream_name":"stdout","time":327.019576057,"data":" + grpcio-reflection==1.82.0rc2\n"}
+,{"stream_name":"stdout","time":327.019580211,"data":" + h11==0.16.0\n"}
+,{"stream_name":"stdout","time":327.019584184,"data":" + hf-xet==1.7.0.dev1\n"}
+,{"stream_name":"stdout","time":327.019588155,"data":" + httpcore==1.0.9\n"}
+,{"stream_name":"stdout","time":327.019592161,"data":" + httpcore2==2.13.1\n"}
+,{"stream_name":"stdout","time":327.019596169,"data":" + httpx==0.28.1\n"}
+,{"stream_name":"stdout","time":327.019600262,"data":" + httpx2==2.13.1\n"}
+,{"stream_name":"stdout","time":327.019604332,"data":" + huggingface-hub==1.33.0\n"}
+,{"stream_name":"stdout","time":327.019608348,"data":" + humming-kernels==0.1.12\n"}
+,{"stream_name":"stdout","time":327.019612405,"data":" + idna==3.20\n"}
+,{"stream_name":"stdout","time":327.019616572,"data":" + interegular==0.3.3\n"}
+,{"stream_name":"stdout","time":327.019620885,"data":" + ipython==9.17.1\n"}
+,{"stream_name":"stdout","time":327.020933127,"data":" + ipython-pygments-lexers==1.1.1\n"}
+,{"stream_name":"stdout","time":327.020955864,"data":" + jedi==0.20.0\n"}
+,{"stream_name":"stdout","time":327.020961164,"data":" + jinja2==3.1.6\n"}
+,{"stream_name":"stdout","time":327.020965783,"data":" + jiter==0.17.0\n"}
+,{"stream_name":"stdout","time":327.020970071,"data":" + jsonschema==4.26.0\n"}
+,{"stream_name":"stdout","time":327.020973717,"data":" + jsonschema-specifications==2025.9.1\n"}
+,{"stream_name":"stdout","time":327.02097775,"data":" + kernels==0.14.1\n"}
+,{"stream_name":"stdout","time":327.020981326,"data":" + kernels-data==0.16.2\n"}
+,{"stream_name":"stdout","time":327.020985924,"data":" + lark==1.3.1\n"}
+,{"stream_name":"stdout","time":327.020990265,"data":" + llguidance==1.8.0\n"}
+,{"stream_name":"stdout","time":327.020995001,"data":" + llvmlite==0.47.0\n"}
+,{"stream_name":"stdout","time":327.020999169,"data":" + loguru==0.7.3\n"}
+,{"stream_name":"stdout","time":327.021003455,"data":" + lxml==7.0.0b1\n"}
+,{"stream_name":"stdout","time":327.021007829,"data":" + markdown-it-py==4.2.0\n"}
+,{"stream_name":"stdout","time":327.021012317,"data":" + markupsafe==3.0.3\n"}
+,{"stream_name":"stdout","time":327.021016667,"data":" + matplotlib-inline==0.2.2\n"}
+,{"stream_name":"stdout","time":327.0210208,"data":" + mdurl==0.1.2\n"}
+,{"stream_name":"stdout","time":327.021024366,"data":" + mistral-common==1.12.0\n"}
+,{"stream_name":"stdout","time":327.021027904,"data":" + ml-dtypes==0.6.0\n"}
+,{"stream_name":"stdout","time":327.021031316,"data":" + modelscope==1.40.1\n"}
+,{"stream_name":"stdout","time":327.021035615,"data":" + modelscope-hub==0.4.5\n"}
+,{"stream_name":"stdout","time":327.021039867,"data":" + mpmath==1.3.0\n"}
+,{"stream_name":"stdout","time":327.021043722,"data":" + msgspec==0.22.0\n"}
+,{"stream_name":"stdout","time":327.021047788,"data":" + multidict==6.9.1\n"}
+,{"stream_name":"stdout","time":327.021051577,"data":" + multiprocess==0.70.19\n"}
+,{"stream_name":"stdout","time":327.022839373,"data":" + nccl4py==0.6.0\n"}
+,{"stream_name":"stdout","time":327.022868388,"data":" + nest-asyncio==1.6.0\n"}
+,{"stream_name":"stdout","time":327.022874587,"data":" + networkx==3.7\n"}
+,{"stream_name":"stdout","time":327.022879114,"data":" + ninja==1.13.2\n"}
+,{"stream_name":"stdout","time":327.022884485,"data":" + numba==0.65.1\n"}
+,{"stream_name":"stdout","time":327.022888777,"data":" + numpy==2.3.5\n"}
+,{"stream_name":"stdout","time":327.022892982,"data":" + nvidia-cublas==13.1.1.3\n"}
+,{"stream_name":"stdout","time":327.022897282,"data":" + nvidia-cuda-cccl==13.0.85\n"}
+,{"stream_name":"stdout","time":327.022900765,"data":" + nvidia-cuda-crt==13.0.88\n"}
+,{"stream_name":"stdout","time":327.022904547,"data":" + nvidia-cuda-cupti==13.0.85\n"}
+,{"stream_name":"stdout","time":327.022908599,"data":" + nvidia-cuda-nvcc==13.0.88\n"}
+,{"stream_name":"stdout","time":327.022912811,"data":" + nvidia-cuda-nvdisasm==13.4.92\n"}
+,{"stream_name":"stdout","time":327.0229172,"data":" + nvidia-cuda-nvrtc==13.0.88\n"}
+,{"stream_name":"stdout","time":327.02292091,"data":" + nvidia-cuda-runtime==13.0.96\n"}
+,{"stream_name":"stdout","time":327.022924545,"data":" + nvidia-cudnn-cu13==9.20.0.48\n"}
+,{"stream_name":"stdout","time":327.022928944,"data":" + nvidia-cudnn-frontend==1.30.0\n"}
+,{"stream_name":"stdout","time":327.022933198,"data":" + nvidia-cufft==12.0.0.61\n"}
+,{"stream_name":"stdout","time":327.022936825,"data":" + nvidia-cufile==1.15.1.6\n"}
+,{"stream_name":"stdout","time":327.022940607,"data":" + nvidia-curand==10.4.0.35\n"}
+,{"stream_name":"stdout","time":327.022944433,"data":" + nvidia-cusolver==12.0.4.66\n"}
+,{"stream_name":"stdout","time":327.022948207,"data":" + nvidia-cusparse==12.6.3.3\n"}
+,{"stream_name":"stdout","time":327.02295282,"data":" + nvidia-cusparselt-cu13==0.8.1\n"}
+,{"stream_name":"stdout","time":327.022956685,"data":" + nvidia-cutlass-dsl==4.6.2\n"}
+,{"stream_name":"stdout","time":327.022960749,"data":" + nvidia-cutlass-dsl-libs-base==4.6.2\n"}
+,{"stream_name":"stdout","time":327.02296489,"data":" + nvidia-cutlass-dsl-libs-core==4.6.2\n"}
+,{"stream_name":"stdout","time":327.022969106,"data":" + nvidia-cutlass-dsl-libs-cu12==4.6.2\n"}
+,{"stream_name":"stdout","time":327.022973196,"data":" + nvidia-cutlass-dsl-libs-cu13==4.6.2\n"}
+,{"stream_name":"stdout","time":327.02297733,"data":" + nvidia-mathdx==25.6.0\n"}
+,{"stream_name":"stdout","time":327.022981502,"data":" + nvidia-ml-py==13.615.71\n"}
+,{"stream_name":"stdout","time":327.022985246,"data":" + nvidia-nccl-cu13==2.29.7\n"}
+,{"stream_name":"stdout","time":327.022989425,"data":" + nvidia-nvjitlink==13.4.92\n"}
+,{"stream_name":"stdout","time":327.022993282,"data":" + nvidia-nvshmem-cu13==3.4.5\n"}
+,{"stream_name":"stdout","time":327.022997337,"data":" + nvidia-nvtx==13.0.85\n"}
+,{"stream_name":"stdout","time":327.023001401,"data":" + nvidia-nvvm==13.0.88\n"}
+,{"stream_name":"stdout","time":327.023005393,"data":" + openai==2.6.1\n"}
+,{"stream_name":"stdout","time":327.023009327,"data":" + openai-harmony==0.0.4\n"}
+,{"stream_name":"stdout","time":327.023013391,"data":" + orjson==3.12.0\n"}
+,{"stream_name":"stdout","time":327.023710267,"data":" + outlines==0.1.11\n"}
+,{"stream_name":"stdout","time":327.023735617,"data":" + outlines-core==0.1.26\n"}
+,{"stream_name":"stdout","time":327.023741311,"data":" + packaging==26.3\n"}
+,{"stream_name":"stdout","time":327.023745794,"data":" + pandas==3.0.6\n"}
+,{"stream_name":"stdout","time":327.023750656,"data":" + parso==0.8.7\n"}
+,{"stream_name":"stdout","time":327.023756087,"data":" + partial-json-parser==0.2.1.1.post7\n"}
+,{"stream_name":"stdout","time":327.023822481,"data":" + pexpect==4.9.0\n"}
+,{"stream_name":"stdout","time":327.023829461,"data":" + pillow==12.3.0\n"}
+,{"stream_name":"stdout","time":327.02383359,"data":" + pip==26.2.1\n"}
+,{"stream_name":"stdout","time":327.023837716,"data":" + prometheus-client==0.26.0\n"}
+,{"stream_name":"stdout","time":327.023841974,"data":" + prompt-toolkit==3.0.53\n"}
+,{"stream_name":"stdout","time":327.023846007,"data":" + propcache==0.5.4\n"}
+,{"stream_name":"stdout","time":327.024066527,"data":" + protobuf==6.33.6\n"}
+,{"stream_name":"stdout","time":327.024076628,"data":" + psutil==7.2.2\n"}
+,{"stream_name":"stdout","time":327.024080594,"data":" + ptyprocess==0.7.0\n"}
+,{"stream_name":"stdout","time":327.024084592,"data":" + pure-eval==0.2.4\n"}
+,{"stream_name":"stdout","time":327.024088433,"data":" + py-spy==0.4.2\n"}
+,{"stream_name":"stdout","time":327.024203219,"data":" + pyarrow==25.0.1\n"}
+,{"stream_name":"stdout","time":327.024209994,"data":" + pybase64==1.5.0\n"}
+,{"stream_name":"stdout","time":327.024277734,"data":" + pycountry==26.2.16\n"}
+,{"stream_name":"stdout","time":327.024284216,"data":" + pycparser==3.0\n"}
+,{"stream_name":"stdout","time":327.024559822,"data":" + pycryptodomex==3.23.0\n"}
+,{"stream_name":"stdout","time":327.024758871,"data":" + pydantic==2.14.0b2\n"}
+,{"stream_name":"stdout","time":327.024766208,"data":" + pydantic-core==2.49.0\n"}
+,{"stream_name":"stdout","time":327.024773423,"data":" + pydantic-extra-types==2.11.1\n"}
+,{"stream_name":"stdout","time":327.02477836,"data":" + pygments==2.21.0\n"}
+,{"stream_name":"stdout","time":327.024783037,"data":" + pyproject-hooks==1.3.3\n"}
+,{"stream_name":"stdout","time":327.025037945,"data":" + python-dateutil==2.9.0.post0\n"}
+,{"stream_name":"stdout","time":327.025045788,"data":" + python-multipart==0.0.32\n"}
+,{"stream_name":"stdout","time":327.025049577,"data":" + pyyaml==6.0.3\n"}
+,{"stream_name":"stdout","time":327.025053467,"data":" + pyzmq==27.2.0\n"}
+,{"stream_name":"stdout","time":327.025057645,"data":" + quack-kernels==0.6.4\n"}
+,{"stream_name":"stdout","time":327.025219488,"data":" + referencing==0.37.0\n"}
+,{"stream_name":"stdout","time":327.025279844,"data":" + regex==2026.9.29\n"}
+,{"stream_name":"stdout","time":327.025286237,"data":" + requests==2.34.2\n"}
+,{"stream_name":"stdout","time":327.025291022,"data":" + rich==15.0.0\n"}
+,{"stream_name":"stdout","time":327.025507688,"data":" + rpds-py==2026.6.3\n"}
+,{"stream_name":"stdout","time":327.025606414,"data":" + safetensors==0.9.0rc1\n"}
+,{"stream_name":"stdout","time":327.025612908,"data":" + scipy==1.18.1\n"}
+,{"stream_name":"stdout","time":327.025620137,"data":" + sentencepiece==0.2.2\n"}
+,{"stream_name":"stdout","time":327.026787605,"data":" + setproctitle==1.3.7\n"}
+,{"stream_name":"stdout","time":327.026807621,"data":" + setuptools==84.0.0\n"}
+,{"stream_name":"stdout","time":327.026813255,"data":" + sgl-deep-ep==0.1.2+cu130\n"}
+,{"stream_name":"stdout","time":327.026818094,"data":" + sgl-deep-gemm==0.1.5.post3+cu130\n"}
+,{"stream_name":"stdout","time":327.026822497,"data":" + sglang==0.5.19+gd00d88efc8d6\n"}
+,{"stream_name":"stdout","time":327.026826706,"data":" + sglang-kernel==0.4.6.post1+cu130\n"}
+,{"stream_name":"stdout","time":327.026831191,"data":" + shellingham==1.5.4\n"}
+,{"stream_name":"stdout","time":327.026835083,"data":" + six==1.17.0\n"}
+,{"stream_name":"stdout","time":327.026839202,"data":" + smg-grpc-proto==0.4.22\n"}
+,{"stream_name":"stdout","time":327.026843207,"data":" + smg-grpc-servicer==0.13.0\n"}
+,{"stream_name":"stdout","time":327.026861391,"data":" + sniffio==1.3.1\n"}
+,{"stream_name":"stdout","time":327.026866365,"data":" + soundfile==0.13.1\n"}
+,{"stream_name":"stdout","time":327.026869988,"data":" + stack-data==0.6.3\n"}
+,{"stream_name":"stdout","time":327.026874111,"data":" + starlette==1.7.0\n"}
+,{"stream_name":"stdout","time":327.02687808,"data":" + sympy==1.14.0\n"}
+,{"stream_name":"stdout","time":327.026882271,"data":" + tabulate==0.10.0\n"}
+,{"stream_name":"stdout","time":327.026886194,"data":" + tiktoken==0.14.0\n"}
+,{"stream_name":"stdout","time":327.026889994,"data":" + tilelang==0.1.12\n"}
+,{"stream_name":"stdout","time":327.026893883,"data":" + timm==1.0.16\n"}
+,{"stream_name":"stdout","time":327.026898004,"data":" + tokenizers==0.22.2\n"}
+,{"stream_name":"stdout","time":327.026901737,"data":" + tokenspeed-mla==0.1.8\n"}
+,{"stream_name":"stdout","time":327.028000561,"data":" + tokenspeed-triton==3.8.10.post20260920\n"}
+,{"stream_name":"stdout","time":327.02802515,"data":" + tomlkit==0.15.1\n"}
+,{"stream_name":"stdout","time":327.028030768,"data":" + torch==2.13.0+cu130\n"}
+,{"stream_name":"stdout","time":327.028035134,"data":" + torch-c-dlpack-ext==0.1.5\n"}
+,{"stream_name":"stdout","time":327.028120944,"data":" + torch-memory-saver==0.0.10\n"}
+,{"stream_name":"stdout","time":327.028406969,"data":" + torchaudio==2.11.0+cu130\n"}
+,{"stream_name":"stdout","time":327.028416507,"data":" + torchcodec==0.15.0+cu130\n"}
+,{"stream_name":"stdout","time":327.028719433,"data":" + torchvision==0.28.0+cu130\n"}
+,{"stream_name":"stdout","time":327.028731686,"data":" + tqdm==4.70.1\n"}
+,{"stream_name":"stdout","time":327.028737101,"data":" + traitlets==5.16.1\n"}
+,{"stream_name":"stdout","time":327.028741995,"data":" + transformers==5.12.1\n"}
+,{"stream_name":"stdout","time":327.028932158,"data":" + triton==3.7.1\n"}
+,{"stream_name":"stdout","time":327.028940979,"data":" + truststore==0.10.4\n"}
+,{"stream_name":"stdout","time":327.028945032,"data":" + typer==0.27.2\n"}
+,{"stream_name":"stdout","time":327.028948835,"data":" + typing-extensions==4.16.0\n"}
+,{"stream_name":"stdout","time":327.028952827,"data":" + typing-inspection==0.4.4\n"}
+,{"stream_name":"stdout","time":327.028960849,"data":" + urllib3==2.8.0\n"}
+,{"stream_name":"stdout","time":327.029091822,"data":" + uv==0.12.20\n"}
+,{"stream_name":"stdout","time":327.029098624,"data":" + uvicorn==0.54.0\n"}
+,{"stream_name":"stdout","time":327.029103655,"data":" + uvloop==0.22.1\n"}
+,{"stream_name":"stdout","time":327.029107852,"data":" + watchfiles==1.3.0\n"}
+,{"stream_name":"stdout","time":327.029112184,"data":" + wcwidth==0.9.1\n"}
+,{"stream_name":"stdout","time":327.029116651,"data":" + wheel==0.48.0\n"}
+,{"stream_name":"stdout","time":327.02912094,"data":" + xgrammar==0.2.1\n"}
+,{"stream_name":"stdout","time":327.029124981,"data":" + xxhash==4.0.1\n"}
+,{"stream_name":"stdout","time":327.029129517,"data":" + yarl==1.25.1\n"}
+,{"stream_name":"stdout","time":327.029144784,"data":" + z3-solver==4.15.4.0\n"}
+,{"stream_name":"stdout","time":327.029149954,"data":" + zstandard==0.25.0\n"}
+,{"stream_name":"stdout","time":327.232293331,"data":"Installed 208 packages in 2m 49s\n"}
+,{"stream_name":"stdout","time":327.23235489,"data":" + aiohappyeyeballs==2.7.1\n"}
+,{"stream_name":"stdout","time":327.232361119,"data":" + aiohttp==3.14.3\n"}
+,{"stream_name":"stdout","time":327.232365714,"data":" + aiosignal==1.4.0\n"}
+,{"stream_name":"stdout","time":327.232369935,"data":" + airportsdata==20260905\n"}
+,{"stream_name":"stdout","time":327.232394834,"data":" + annotated-doc==0.0.5\n"}
+,{"stream_name":"stdout","time":327.232410077,"data":" + annotated-types==0.8.0\n"}
+,{"stream_name":"stdout","time":327.232414338,"data":" + anthropic==1.9.0\n"}
+,{"stream_name":"stdout","time":327.232418117,"data":" + anyio==4.15.1\n"}
+,{"stream_name":"stdout","time":327.232421922,"data":" + apache-tvm-ffi==0.1.11\n"}
+,{"stream_name":"stdout","time":327.232425731,"data":" + asttokens==3.0.2\n"}
+,{"stream_name":"stdout","time":327.232429576,"data":" + attrs==26.1.0\n"}
+,{"stream_name":"stdout","time":327.232433391,"data":" + blobfile==3.0.0\n"}
+,{"stream_name":"stdout","time":327.232437237,"data":" + build==1.6.1\n"}
+,{"stream_name":"stdout","time":327.232441027,"data":" + certifi==2026.7.22\n"}
+,{"stream_name":"stdout","time":327.232444819,"data":" + cffi==2.1.1\n"}
+,{"stream_name":"stdout","time":327.232449169,"data":" + charset-normalizer==3.5.1\n"}
+,{"stream_name":"stdout","time":327.232453447,"data":" + click==8.5.0\n"}
+,{"stream_name":"stdout","time":327.232457854,"data":" + cloudpickle==3.1.2\n"}
+,{"stream_name":"stdout","time":327.232462711,"data":" + compressed-tensors==0.19.1a20260928\n"}
+,{"stream_name":"stdout","time":327.232467117,"data":" + cryptography==50.0.1\n"}
+,{"stream_name":"stdout","time":327.23247142,"data":" + cuda-bindings==13.4.3\n"}
+,{"stream_name":"stdout","time":327.232475218,"data":" + cuda-core==1.2.1\n"}
+,{"stream_name":"stdout","time":327.232478997,"data":" + cuda-pathfinder==1.8.2\n"}
+,{"stream_name":"stdout","time":327.232482871,"data":" + cuda-python==13.4.1\n"}
+,{"stream_name":"stdout","time":327.232486242,"data":" + cuda-tile==1.6.0rc5\n"}
+,{"stream_name":"stdout","time":327.232489942,"data":" + cuda-toolkit==13.0.3.0\n"}
+,{"stream_name":"stdout","time":327.232493814,"data":" + datasets==5.0.1\n"}
+,{"stream_name":"stdout","time":327.232498194,"data":" + dill==0.4.1\n"}
+,{"stream_name":"stdout","time":327.232502505,"data":" + diskcache==5.6.3\n"}
+,{"stream_name":"stdout","time":327.232506199,"data":" + distro==1.9.0\n"}
+,{"stream_name":"stdout","time":327.23250954,"data":" + docstring-parser==0.18.0\n"}
+,{"stream_name":"stdout","time":327.232513274,"data":" + easydict==1.13\n"}
+,{"stream_name":"stdout","time":327.232516914,"data":" + einops==0.9.0.dev0\n"}
+,{"stream_name":"stdout","time":327.232520507,"data":" + executing==2.2.1\n"}
+,{"stream_name":"stdout","time":327.23252388,"data":" + fastapi==0.141.1\n"}
+,{"stream_name":"stdout","time":327.232527248,"data":" + filelock==4.0.6\n"}
+,{"stream_name":"stdout","time":327.232549537,"data":" + flash-attn-4==4.0.0b19\n"}
+,{"stream_name":"stdout","time":327.23255667,"data":" + flashinfer-cubin==0.6.17\n"}
+,{"stream_name":"stdout","time":327.232561771,"data":" + flashinfer-jit-cache==0.6.17+cu130\n"}
+,{"stream_name":"stdout","time":327.23256572,"data":" + flashinfer-python==0.6.17\n"}
+,{"stream_name":"stdout","time":327.232570068,"data":" + frozenlist==1.8.0\n"}
+,{"stream_name":"stdout","time":327.232574185,"data":" + fsspec==2026.6.0\n"}
+,{"stream_name":"stdout","time":327.232578375,"data":" + gguf==0.19.0\n"}
+,{"stream_name":"stdout","time":327.232582407,"data":" + grpcio==1.84.0\n"}
+,{"stream_name":"stdout","time":327.232586371,"data":" + grpcio-health-checking==1.82.0rc2\n"}
+,{"stream_name":"stdout","time":327.23259046,"data":" + grpcio-reflection==1.82.0rc2\n"}
+,{"stream_name":"stdout","time":327.232594562,"data":" + h11==0.16.0\n"}
+,{"stream_name":"stdout","time":327.232598612,"data":" + hf-xet==1.7.0.dev1\n"}
+,{"stream_name":"stdout","time":327.232602502,"data":" + httpcore==1.0.9\n"}
+,{"stream_name":"stdout","time":327.232612261,"data":" + httpcore2==2.13.1\n"}
+,{"stream_name":"stdout","time":327.232616375,"data":" + httpx==0.28.1\n"}
+,{"stream_name":"stdout","time":327.232620388,"data":" + httpx2==2.13.1\n"}
+,{"stream_name":"stdout","time":327.232624354,"data":" + huggingface-hub==1.33.0\n"}
+,{"stream_name":"stdout","time":327.232628328,"data":" + humming-kernels==0.1.12\n"}
+,{"stream_name":"stdout","time":327.232632244,"data":" + idna==3.20\n"}
+,{"stream_name":"stdout","time":327.232636213,"data":" + interegular==0.3.3\n"}
+,{"stream_name":"stdout","time":327.232640253,"data":" + ipython==9.17.1\n"}
+,{"stream_name":"stdout","time":327.232644205,"data":" + ipython-pygments-lexers==1.1.1\n"}
+,{"stream_name":"stdout","time":327.232648194,"data":" + jedi==0.20.0\n"}
+,{"stream_name":"stdout","time":327.232652121,"data":" + jinja2==3.1.6\n"}
+,{"stream_name":"stdout","time":327.23265639,"data":" + jiter==0.17.0\n"}
+,{"stream_name":"stdout","time":327.232660363,"data":" + jsonschema==4.26.0\n"}
+,{"stream_name":"stdout","time":327.232664894,"data":" + jsonschema-specifications==2025.9.1\n"}
+,{"stream_name":"stdout","time":327.232668946,"data":" + kernels==0.14.1\n"}
+,{"stream_name":"stdout","time":327.23267294,"data":" + kernels-data==0.16.2\n"}
+,{"stream_name":"stdout","time":327.232676991,"data":" + lark==1.3.1\n"}
+,{"stream_name":"stdout","time":327.232680945,"data":" + llguidance==1.8.0\n"}
+,{"stream_name":"stdout","time":327.232685286,"data":" + llvmlite==0.47.0\n"}
+,{"stream_name":"stdout","time":327.23268943,"data":" + loguru==0.7.3\n"}
+,{"stream_name":"stdout","time":327.232693096,"data":" + lxml==7.0.0b1\n"}
+,{"stream_name":"stdout","time":327.232697043,"data":" + markdown-it-py==4.2.0\n"}
+,{"stream_name":"stdout","time":327.232700896,"data":" + markupsafe==3.0.3\n"}
+,{"stream_name":"stdout","time":327.232705058,"data":" + matplotlib-inline==0.2.2\n"}
+,{"stream_name":"stdout","time":327.232708583,"data":" + mdurl==0.1.2\n"}
+,{"stream_name":"stdout","time":327.232712837,"data":" + mistral-common==1.12.0\n"}
+,{"stream_name":"stdout","time":327.232716791,"data":" + ml-dtypes==0.6.0\n"}
+,{"stream_name":"stdout","time":327.232720754,"data":" + modelscope==1.40.1\n"}
+,{"stream_name":"stdout","time":327.232724817,"data":" + modelscope-hub==0.4.5\n"}
+,{"stream_name":"stdout","time":327.232728827,"data":" + mpmath==1.3.0\n"}
+,{"stream_name":"stdout","time":327.232732707,"data":" + msgspec==0.22.0\n"}
+,{"stream_name":"stdout","time":327.232736749,"data":" + multidict==6.9.1\n"}
+,{"stream_name":"stdout","time":327.232740785,"data":" + multiprocess==0.70.19\n"}
+,{"stream_name":"stdout","time":327.232744667,"data":" + nccl4py==0.6.0\n"}
+,{"stream_name":"stdout","time":327.232748632,"data":" + nest-asyncio==1.6.0\n"}
+,{"stream_name":"stdout","time":327.232752628,"data":" + networkx==3.7\n"}
+,{"stream_name":"stdout","time":327.232756612,"data":" + ninja==1.13.2\n"}
+,{"stream_name":"stdout","time":327.232760666,"data":" + numba==0.65.1\n"}
+,{"stream_name":"stdout","time":327.232764658,"data":" + numpy==2.3.5\n"}
+,{"stream_name":"stdout","time":327.232768784,"data":" + nvidia-cublas==13.1.1.3\n"}
+,{"stream_name":"stdout","time":327.232772825,"data":" + nvidia-cuda-cccl==13.0.85\n"}
+,{"stream_name":"stdout","time":327.232776871,"data":" + nvidia-cuda-crt==13.0.88\n"}
+,{"stream_name":"stdout","time":327.232783797,"data":" + nvidia-cuda-cupti==13.0.85\n"}
+,{"stream_name":"stdout","time":327.232787862,"data":" + nvidia-cuda-nvcc==13.0.88\n"}
+,{"stream_name":"stdout","time":327.232791979,"data":" + nvidia-cuda-nvdisasm==13.4.92\n"}
+,{"stream_name":"stdout","time":327.23280042,"data":" + nvidia-cuda-nvrtc==13.0.88\n"}
+,{"stream_name":"stdout","time":327.232804599,"data":" + nvidia-cuda-runtime==13.0.96\n"}
+,{"stream_name":"stdout","time":327.232808986,"data":" + nvidia-cudnn-cu13==9.20.0.48\n"}
+,{"stream_name":"stdout","time":327.232812973,"data":" + nvidia-cudnn-frontend==1.30.0\n"}
+,{"stream_name":"stdout","time":327.232817057,"data":" + nvidia-cufft==12.0.0.61\n"}
+,{"stream_name":"stdout","time":327.232821025,"data":" + nvidia-cufile==1.15.1.6\n"}
+,{"stream_name":"stdout","time":327.232825062,"data":" + nvidia-curand==10.4.0.35\n"}
+,{"stream_name":"stdout","time":327.232829059,"data":" + nvidia-cusolver==12.0.4.66\n"}
+,{"stream_name":"stdout","time":327.232832862,"data":" + nvidia-cusparse==12.6.3.3\n"}
+,{"stream_name":"stdout","time":327.232836971,"data":" + nvidia-cusparselt-cu13==0.8.1\n"}
+,{"stream_name":"stdout","time":327.232841329,"data":" + nvidia-cutlass-dsl==4.6.2\n"}
+,{"stream_name":"stdout","time":327.232845622,"data":" + nvidia-cutlass-dsl-libs-base==4.6.2\n"}
+,{"stream_name":"stdout","time":327.23284972,"data":" + nvidia-cutlass-dsl-libs-core==4.6.2\n"}
+,{"stream_name":"stdout","time":327.232853685,"data":" + nvidia-cutlass-dsl-libs-cu12==4.6.2\n"}
+,{"stream_name":"stdout","time":327.232857797,"data":" + nvidia-cutlass-dsl-libs-cu13==4.6.2\n"}
+,{"stream_name":"stdout","time":327.232861927,"data":" + nvidia-mathdx==25.6.0\n"}
+,{"stream_name":"stdout","time":327.232865904,"data":" + nvidia-ml-py==13.615.71\n"}
+,{"stream_name":"stdout","time":327.232869519,"data":" + nvidia-nccl-cu13==2.29.7\n"}
+,{"stream_name":"stdout","time":327.23287348,"data":" + nvidia-nvjitlink==13.4.92\n"}
+,{"stream_name":"stdout","time":327.232877437,"data":" + nvidia-nvshmem-cu13==3.4.5\n"}
+,{"stream_name":"stdout","time":327.232881618,"data":" + nvidia-nvtx==13.0.85\n"}
+,{"stream_name":"stdout","time":327.232885687,"data":" + nvidia-nvvm==13.0.88\n"}
+,{"stream_name":"stdout","time":327.232890462,"data":" + openai==2.6.1\n"}
+,{"stream_name":"stdout","time":327.232894218,"data":" + openai-harmony==0.0.4\n"}
+,{"stream_name":"stdout","time":327.232898231,"data":" + orjson==3.12.0\n"}
+,{"stream_name":"stdout","time":327.23290218,"data":" + outlines==0.1.11\n"}
+,{"stream_name":"stdout","time":327.232906178,"data":" + outlines-core==0.1.26\n"}
+,{"stream_name":"stdout","time":327.232910105,"data":" + packaging==26.3\n"}
+,{"stream_name":"stdout","time":327.232914111,"data":" + pandas==3.0.6\n"}
+,{"stream_name":"stdout","time":327.232918053,"data":" + parso==0.8.7\n"}
+,{"stream_name":"stdout","time":327.232922355,"data":" + partial-json-parser==0.2.1.1.post7\n"}
+,{"stream_name":"stdout","time":327.232926465,"data":" + pexpect==4.9.0\n"}
+,{"stream_name":"stdout","time":327.23293044,"data":" + pillow==12.3.0\n"}
+,{"stream_name":"stdout","time":327.232934701,"data":" + pip==26.2.1\n"}
+,{"stream_name":"stdout","time":327.232938694,"data":" + prometheus-client==0.26.0\n"}
+,{"stream_name":"stdout","time":327.23294267,"data":" + prompt-toolkit==3.0.53\n"}
+,{"stream_name":"stdout","time":327.232946625,"data":" + propcache==0.5.4\n"}
+,{"stream_name":"stdout","time":327.232950589,"data":" + protobuf==6.33.6\n"}
+,{"stream_name":"stdout","time":327.232954555,"data":" + psutil==7.2.2\n"}
+,{"stream_name":"stdout","time":327.232958516,"data":" + ptyprocess==0.7.0\n"}
+,{"stream_name":"stdout","time":327.232962485,"data":" + pure-eval==0.2.4\n"}
+,{"stream_name":"stdout","time":327.232966451,"data":" + py-spy==0.4.2\n"}
+,{"stream_name":"stdout","time":327.232973819,"data":" + pyarrow==25.0.1\n"}
+,{"stream_name":"stdout","time":327.232977917,"data":" + pybase64==1.5.0\n"}
+,{"stream_name":"stdout","time":327.232981901,"data":" + pycountry==26.2.16\n"}
+,{"stream_name":"stdout","time":327.232985905,"data":" + pycparser==3.0\n"}
+,{"stream_name":"stdout","time":327.232989971,"data":" + pycryptodomex==3.23.0\n"}
+,{"stream_name":"stdout","time":327.23299399,"data":" + pydantic==2.14.0b2\n"}
+,{"stream_name":"stdout","time":327.232997871,"data":" + pydantic-core==2.49.0\n"}
+,{"stream_name":"stdout","time":327.233001823,"data":" + pydantic-extra-types==2.11.1\n"}
+,{"stream_name":"stdout","time":327.233005945,"data":" + pygments==2.21.0\n"}
+,{"stream_name":"stdout","time":327.233009957,"data":" + pyproject-hooks==1.3.3\n"}
+,{"stream_name":"stdout","time":327.233013941,"data":" + python-dateutil==2.9.0.post0\n"}
+,{"stream_name":"stdout","time":327.233017989,"data":" + python-multipart==0.0.32\n"}
+,{"stream_name":"stdout","time":327.233022202,"data":" + pyyaml==6.0.3\n"}
+,{"stream_name":"stdout","time":327.233026161,"data":" + pyzmq==27.2.0\n"}
+,{"stream_name":"stdout","time":327.233030047,"data":" + quack-kernels==0.6.4\n"}
+,{"stream_name":"stdout","time":327.233034131,"data":" + referencing==0.37.0\n"}
+,{"stream_name":"stdout","time":327.233038116,"data":" + regex==2026.9.29\n"}
+,{"stream_name":"stdout","time":327.233041964,"data":" + requests==2.34.2\n"}
+,{"stream_name":"stdout","time":327.233045947,"data":" + rich==15.0.0\n"}
+,{"stream_name":"stdout","time":327.23304988,"data":" + rpds-py==2026.6.3\n"}
+,{"stream_name":"stdout","time":327.23305381,"data":" + safetensors==0.9.0rc1\n"}
+,{"stream_name":"stdout","time":327.233057817,"data":" + scipy==1.18.1\n"}
+,{"stream_name":"stdout","time":327.233061874,"data":" + sentencepiece==0.2.2\n"}
+,{"stream_name":"stdout","time":327.233065868,"data":" + setproctitle==1.3.7\n"}
+,{"stream_name":"stdout","time":327.23306978,"data":" + setuptools==84.0.0\n"}
+,{"stream_name":"stdout","time":327.233073723,"data":" + sgl-deep-ep==0.1.2+cu130\n"}
+,{"stream_name":"stdout","time":327.233078449,"data":" + sgl-deep-gemm==0.1.5.post3+cu130\n"}
+,{"stream_name":"stdout","time":327.23308255,"data":" + sglang==0.5.19+gd00d88efc8d6\n"}
+,{"stream_name":"stdout","time":327.233086642,"data":" + sglang-kernel==0.4.6.post1+cu130\n"}
+,{"stream_name":"stdout","time":327.233091023,"data":" + shellingham==1.5.4\n"}
+,{"stream_name":"stdout","time":327.23309532,"data":" + six==1.17.0\n"}
+,{"stream_name":"stdout","time":327.233099567,"data":" + smg-grpc-proto==0.4.22\n"}
+,{"stream_name":"stdout","time":327.233103485,"data":" + smg-grpc-servicer==0.13.0\n"}
+,{"stream_name":"stdout","time":327.233107674,"data":" + sniffio==1.3.1\n"}
+,{"stream_name":"stdout","time":327.233111678,"data":" + soundfile==0.13.1\n"}
+,{"stream_name":"stdout","time":327.23311556,"data":" + stack-data==0.6.3\n"}
+,{"stream_name":"stdout","time":327.233119551,"data":" + starlette==1.7.0\n"}
+,{"stream_name":"stdout","time":327.233124137,"data":" + sympy==1.14.0\n"}
+,{"stream_name":"stdout","time":327.233128292,"data":" + tabulate==0.10.0\n"}
+,{"stream_name":"stdout","time":327.233132306,"data":" + tiktoken==0.14.0\n"}
+,{"stream_name":"stdout","time":327.233136271,"data":" + tilelang==0.1.12\n"}
+,{"stream_name":"stdout","time":327.233140142,"data":" + timm==1.0.16\n"}
+,{"stream_name":"stdout","time":327.233143864,"data":" + tokenizers==0.22.2\n"}
+,{"stream_name":"stdout","time":327.233147866,"data":" + tokenspeed-mla==0.1.8\n"}
+,{"stream_name":"stdout","time":327.233156069,"data":" + tokenspeed-triton==3.8.10.post20260920\n"}
+,{"stream_name":"stdout","time":327.233160422,"data":" + tomlkit==0.15.1\n"}
+,{"stream_name":"stdout","time":327.233164402,"data":" + torch==2.13.0+cu130\n"}
+,{"stream_name":"stdout","time":327.233167988,"data":" + torch-c-dlpack-ext==0.1.5\n"}
+,{"stream_name":"stdout","time":327.233172007,"data":" + torch-memory-saver==0.0.10\n"}
+,{"stream_name":"stdout","time":327.233176183,"data":" + torchaudio==2.11.0+cu130\n"}
+,{"stream_name":"stdout","time":327.233180226,"data":" + torchcodec==0.15.0+cu130\n"}
+,{"stream_name":"stdout","time":327.233184248,"data":" + torchvision==0.28.0+cu130\n"}
+,{"stream_name":"stdout","time":327.233195832,"data":" + tqdm==4.70.1\n"}
+,{"stream_name":"stdout","time":327.23320004,"data":" + traitlets==5.16.1\n"}
+,{"stream_name":"stdout","time":327.23320397,"data":" + transformers==5.12.1\n"}
+,{"stream_name":"stdout","time":327.233207935,"data":" + triton==3.7.1\n"}
+,{"stream_name":"stdout","time":327.233211964,"data":" + truststore==0.10.4\n"}
+,{"stream_name":"stdout","time":327.233215705,"data":" + typer==0.27.2\n"}
+,{"stream_name":"stdout","time":327.233219597,"data":" + typing-extensions==4.16.0\n"}
+,{"stream_name":"stdout","time":327.233223745,"data":" + typing-inspection==0.4.4\n"}
+,{"stream_name":"stdout","time":327.233227848,"data":" + urllib3==2.8.0\n"}
+,{"stream_name":"stdout","time":327.233231797,"data":" + uv==0.12.20\n"}
+,{"stream_name":"stdout","time":327.233235812,"data":" + uvicorn==0.54.0\n"}
+,{"stream_name":"stdout","time":327.233239729,"data":" + uvloop==0.22.1\n"}
+,{"stream_name":"stdout","time":327.233243705,"data":" + watchfiles==1.3.0\n"}
+,{"stream_name":"stdout","time":327.233247617,"data":" + wcwidth==0.9.1\n"}
+,{"stream_name":"stdout","time":327.233251631,"data":" + wheel==0.48.0\n"}
+,{"stream_name":"stdout","time":327.233255584,"data":" + xgrammar==0.2.1\n"}
+,{"stream_name":"stdout","time":327.233259466,"data":" + xxhash==4.0.1\n"}
+,{"stream_name":"stdout","time":327.233263545,"data":" + yarl==1.25.1\n"}
+,{"stream_name":"stdout","time":327.233267749,"data":" + z3-solver==4.15.4.0\n"}
+,{"stream_name":"stdout","time":327.233272159,"data":" + zstandard==0.25.0\n"}
+,{"stream_name":"stdout","time":327.70713565,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":327.707172327,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":327.909805166,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":327.909852715,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":328.326802051,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":328.529337697,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":333.849119344,"data":"Resolved 204 packages in 5.40s\n"}
+,{"stream_name":"stdout","time":333.868785278,"data":"Downloading flashinfer-python (32.1MiB)\n"}
+,{"stream_name":"stdout","time":333.870486357,"data":"Downloading nvidia-cutlass-dsl-libs-cu12 (84.6MiB)\n"}
+,{"stream_name":"stdout","time":333.871132774,"data":"Downloading nccl-extensions (21.5MiB)\n"}
+,{"stream_name":"stdout","time":333.871154043,"data":"Downloading nvidia-cutlass-dsl-libs-base (2.7MiB)\n"}
+,{"stream_name":"stdout","time":333.877128996,"data":"Downloading nvidia-cutlass-dsl-libs-cu13 (84.2MiB)\n"}
+,{"stream_name":"stdout","time":333.88356805,"data":"Downloading nvidia-cutlass-dsl-libs-core (1.2MiB)\n"}
+,{"stream_name":"stdout","time":334.061813793,"data":"Resolved 204 packages in 5.40s\n"}
+,{"stream_name":"stdout","time":334.061842598,"data":"Downloading flashinfer-python (32.1MiB)\n"}
+,{"stream_name":"stdout","time":334.063596994,"data":"Downloading nvidia-cutlass-dsl-libs-cu12 (84.6MiB)\n"}
+,{"stream_name":"stdout","time":334.063606346,"data":"Downloading nccl-extensions (21.5MiB)\n"}
+,{"stream_name":"stdout","time":334.063903541,"data":"Downloading nvidia-cutlass-dsl-libs-base (2.7MiB)\n"}
+,{"stream_name":"stdout","time":334.063914799,"data":"Downloading nvidia-cutlass-dsl-libs-cu13 (84.2MiB)\n"}
+,{"stream_name":"stdout","time":334.063919346,"data":"Downloading nvidia-cutlass-dsl-libs-core (1.2MiB)\n"}
+,{"stream_name":"stdout","time":334.112104025,"data":" Downloaded nvidia-cutlass-dsl-libs-core\n"}
+,{"stream_name":"stdout","time":334.131831439,"data":" Downloaded nvidia-cutlass-dsl-libs-base\n"}
+,{"stream_name":"stdout","time":334.32021667,"data":" Downloaded nvidia-cutlass-dsl-libs-core\n"}
+,{"stream_name":"stdout","time":334.320266733,"data":" Downloaded nvidia-cutlass-dsl-libs-base\n"}
+,{"stream_name":"stdout","time":334.958578564,"data":" Downloaded nccl-extensions\n"}
+,{"stream_name":"stdout","time":335.161320417,"data":" Downloaded nccl-extensions\n"}
+,{"stream_name":"stdout","time":335.815297146,"data":" Downloaded flashinfer-python\n"}
+,{"stream_name":"stdout","time":336.01871283,"data":" Downloaded flashinfer-python\n"}
+,{"stream_name":"stdout","time":336.469290243,"data":" Downloaded nvidia-cutlass-dsl-libs-cu13\n"}
+,{"stream_name":"stdout","time":336.552963615,"data":" Downloaded nvidia-cutlass-dsl-libs-cu12\n"}
+,{"stream_name":"stdout","time":336.553274129,"data":"Prepared 9 packages in 2.69s\n"}
+,{"stream_name":"stdout","time":336.672454165,"data":" Downloaded nvidia-cutlass-dsl-libs-cu13\n"}
+,{"stream_name":"stdout","time":336.672490583,"data":" Downloaded nvidia-cutlass-dsl-libs-cu12\n"}
+,{"stream_name":"stdout","time":336.672494502,"data":"Prepared 9 packages in 2.69s\n"}
+,{"stream_name":"stdout","time":336.976060476,"data":"Uninstalled 8 packages in 422ms\n"}
+,{"stream_name":"stdout","time":337.179858417,"data":"Uninstalled 8 packages in 422ms\n"}
+,{"stream_name":"stdout","time":341.293490421,"data":"Installed 9 packages in 4.31s\n"}
+,{"stream_name":"stdout","time":341.295928324,"data":" - flashinfer-python==0.6.17\n"}
+,{"stream_name":"stdout","time":341.295959955,"data":" + flashinfer-python==0.7.0.post1\n"}
+,{"stream_name":"stdout","time":341.295965501,"data":" + nccl-extensions==0.1.0\n"}
+,{"stream_name":"stdout","time":341.2959701,"data":" - nvidia-cutlass-dsl==4.6.2\n"}
+,{"stream_name":"stdout","time":341.295974696,"data":" + nvidia-cutlass-dsl==4.7.1\n"}
+,{"stream_name":"stdout","time":341.295978842,"data":" - nvidia-cutlass-dsl-libs-base==4.6.2\n"}
+,{"stream_name":"stdout","time":341.295982929,"data":" + nvidia-cutlass-dsl-libs-base==4.7.1\n"}
+,{"stream_name":"stdout","time":341.295987614,"data":" - nvidia-cutlass-dsl-libs-core==4.6.2\n"}
+,{"stream_name":"stdout","time":341.295991969,"data":" + nvidia-cutlass-dsl-libs-core==4.7.1\n"}
+,{"stream_name":"stdout","time":341.295996191,"data":" - nvidia-cutlass-dsl-libs-cu12==4.6.2\n"}
+,{"stream_name":"stdout","time":341.296000468,"data":" + nvidia-cutlass-dsl-libs-cu12==4.7.1\n"}
+,{"stream_name":"stdout","time":341.296004842,"data":" - nvidia-cutlass-dsl-libs-cu13==4.6.2\n"}
+,{"stream_name":"stdout","time":341.29600924,"data":" + nvidia-cutlass-dsl-libs-cu13==4.7.1\n"}
+,{"stream_name":"stdout","time":341.296014191,"data":" - quack-kernels==0.6.4\n"}
+,{"stream_name":"stdout","time":341.296018434,"data":" + quack-kernels==0.6.5\n"}
+,{"stream_name":"stdout","time":341.29603615,"data":" - sglang==0.5.19+gd00d88efc8d6\n"}
+,{"stream_name":"stdout","time":341.296040571,"data":" + sglang==0.5.19+g560edbdca18a (from file:///kaggle/working/pennyroyal-v3-overlay/wheels/sglang-0.5.19+g560edbdca18a-cp312-cp312-linux_x86_64.whl)\n"}
+,{"stream_name":"stdout","time":341.325267741,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":341.496517349,"data":"Installed 9 packages in 4.31s\n"}
+,{"stream_name":"stdout","time":341.49659159,"data":" - flashinfer-python==0.6.17\n"}
+,{"stream_name":"stdout","time":341.496600417,"data":" + flashinfer-python==0.7.0.post1\n"}
+,{"stream_name":"stdout","time":341.496605016,"data":" + nccl-extensions==0.1.0\n"}
+,{"stream_name":"stdout","time":341.496608643,"data":" - nvidia-cutlass-dsl==4.6.2\n"}
+,{"stream_name":"stdout","time":341.496612597,"data":" + nvidia-cutlass-dsl==4.7.1\n"}
+,{"stream_name":"stdout","time":341.496616625,"data":" - nvidia-cutlass-dsl-libs-base==4.6.2\n"}
+,{"stream_name":"stdout","time":341.496620405,"data":" + nvidia-cutlass-dsl-libs-base==4.7.1\n"}
+,{"stream_name":"stdout","time":341.496624189,"data":" - nvidia-cutlass-dsl-libs-core==4.6.2\n"}
+,{"stream_name":"stdout","time":341.496627828,"data":" + nvidia-cutlass-dsl-libs-core==4.7.1\n"}
+,{"stream_name":"stdout","time":341.496631689,"data":" - nvidia-cutlass-dsl-libs-cu12==4.6.2\n"}
+,{"stream_name":"stdout","time":341.496636298,"data":" + nvidia-cutlass-dsl-libs-cu12==4.7.1\n"}
+,{"stream_name":"stdout","time":341.496640663,"data":" - nvidia-cutlass-dsl-libs-cu13==4.6.2\n"}
+,{"stream_name":"stdout","time":341.496645595,"data":" + nvidia-cutlass-dsl-libs-cu13==4.7.1\n"}
+,{"stream_name":"stdout","time":341.496650315,"data":" - quack-kernels==0.6.4\n"}
+,{"stream_name":"stdout","time":341.496654533,"data":" + quack-kernels==0.6.5\n"}
+,{"stream_name":"stdout","time":341.496659612,"data":" - sglang==0.5.19+gd00d88efc8d6\n"}
+,{"stream_name":"stdout","time":341.496663999,"data":" + sglang==0.5.19+g560edbdca18a (from file:///kaggle/working/pennyroyal-v3-overlay/wheels/sglang-0.5.19+g560edbdca18a-cp312-cp312-linux_x86_64.whl)\n"}
+,{"stream_name":"stdout","time":341.496668689,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":349.465363607,"data":"Resolved 7 packages in 8.12s\n"}
+,{"stream_name":"stdout","time":349.483443867,"data":"Downloading flashinfer-jit-cache-sm120f (178.5MiB)\n"}
+,{"stream_name":"stdout","time":349.504099779,"data":"Downloading flashinfer-jit-cache-sm89 (108.6MiB)\n"}
+,{"stream_name":"stdout","time":349.509990132,"data":"Downloading flashinfer-jit-cache-sm80 (110.5MiB)\n"}
+,{"stream_name":"stdout","time":349.582854099,"data":"Downloading flashinfer-jit-cache-sm100a (260.7MiB)\n"}
+,{"stream_name":"stdout","time":349.583079451,"data":"Downloading flashinfer-jit-cache-sm90a (280.5MiB)\n"}
+,{"stream_name":"stdout","time":349.583483615,"data":"Downloading flashinfer-jit-cache-sm103a (266.7MiB)\n"}
+,{"stream_name":"stdout","time":349.668390455,"data":"Resolved 7 packages in 8.12s\n"}
+,{"stream_name":"stdout","time":349.668436966,"data":"Downloading flashinfer-jit-cache-sm120f (178.5MiB)\n"}
+,{"stream_name":"stdout","time":349.668443225,"data":"Downloading flashinfer-jit-cache-sm89 (108.6MiB)\n"}
+,{"stream_name":"stdout","time":349.668448494,"data":"Downloading flashinfer-jit-cache-sm80 (110.5MiB)\n"}
+,{"stream_name":"stdout","time":349.668453155,"data":"Downloading flashinfer-jit-cache-sm100a (260.7MiB)\n"}
+,{"stream_name":"stdout","time":349.668457684,"data":"Downloading flashinfer-jit-cache-sm90a (280.5MiB)\n"}
+,{"stream_name":"stdout","time":349.668479002,"data":"Downloading flashinfer-jit-cache-sm103a (266.7MiB)\n"}
+,{"stream_name":"stdout","time":355.970696741,"data":" Downloaded flashinfer-jit-cache-sm89\n"}
+,{"stream_name":"stdout","time":356.062415904,"data":" Downloaded flashinfer-jit-cache-sm80\n"}
+,{"stream_name":"stdout","time":356.173592673,"data":" Downloaded flashinfer-jit-cache-sm89\n"}
+,{"stream_name":"stdout","time":356.173628181,"data":" Downloaded flashinfer-jit-cache-sm80\n"}
+,{"stream_name":"stdout","time":359.149221783,"data":" Downloaded flashinfer-jit-cache-sm120f\n"}
+,{"stream_name":"stdout","time":359.359921106,"data":" Downloaded flashinfer-jit-cache-sm120f\n"}
+,{"stream_name":"stdout","time":367.80928943,"data":" Downloaded flashinfer-jit-cache-sm100a\n"}
+,{"stream_name":"stdout","time":367.92374477,"data":" Downloaded flashinfer-jit-cache-sm103a\n"}
+,{"stream_name":"stdout","time":367.953396399,"data":" Downloaded flashinfer-jit-cache-sm90a\n"}
+,{"stream_name":"stdout","time":367.953869466,"data":"Prepared 7 packages in 18.48s\n"}
+,{"stream_name":"stdout","time":368.012519585,"data":" Downloaded flashinfer-jit-cache-sm100a\n"}
+,{"stream_name":"stdout","time":368.012598057,"data":" Downloaded flashinfer-jit-cache-sm103a\n"}
+,{"stream_name":"stdout","time":368.012606782,"data":" Downloaded flashinfer-jit-cache-sm90a\n"}
+,{"stream_name":"stdout","time":368.012612093,"data":"Prepared 7 packages in 18.48s\n"}
+,{"stream_name":"stdout","time":368.256444392,"data":"Uninstalled 1 package in 302ms\n"}
+,{"stream_name":"stdout","time":368.46032054,"data":"Uninstalled 1 package in 302ms\n"}
+,{"stream_name":"stdout","time":387.598021516,"data":"Installed 7 packages in 19.34s\n"}
+,{"stream_name":"stdout","time":387.598060416,"data":" - flashinfer-jit-cache==0.6.17+cu130\n"}
+,{"stream_name":"stdout","time":387.598067051,"data":" + flashinfer-jit-cache==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.598072462,"data":" + flashinfer-jit-cache-sm100a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.598077985,"data":" + flashinfer-jit-cache-sm103a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.598084005,"data":" + flashinfer-jit-cache-sm120f==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.598089644,"data":" + flashinfer-jit-cache-sm80==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.598095386,"data":" + flashinfer-jit-cache-sm89==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.598100812,"data":" + flashinfer-jit-cache-sm90a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.619727472,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":387.799977012,"data":"Installed 7 packages in 19.34s\n"}
+,{"stream_name":"stdout","time":387.800027393,"data":" - flashinfer-jit-cache==0.6.17+cu130\n"}
+,{"stream_name":"stdout","time":387.800032655,"data":" + flashinfer-jit-cache==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.800036379,"data":" + flashinfer-jit-cache-sm100a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.80003985,"data":" + flashinfer-jit-cache-sm103a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.800043209,"data":" + flashinfer-jit-cache-sm120f==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.800046558,"data":" + flashinfer-jit-cache-sm80==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.800063473,"data":" + flashinfer-jit-cache-sm89==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.800069616,"data":" + flashinfer-jit-cache-sm90a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":387.800095816,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":387.851052106,"data":"Resolved 1 package in 223ms\n"}
+,{"stream_name":"stdout","time":388.053492748,"data":"Resolved 1 package in 223ms\n"}
+,{"stream_name":"stdout","time":388.15519008,"data":"Downloading flashinfer-cubin (1.5GiB)\n"}
+,{"stream_name":"stdout","time":388.357935468,"data":"Downloading flashinfer-cubin (1.5GiB)\n"}
+,{"stream_name":"stdout","time":430.309812139,"data":" Downloaded flashinfer-cubin\n"}
+,{"stream_name":"stdout","time":430.310248894,"data":"Prepared 1 package in 42.45s\n"}
+,{"stream_name":"stdout","time":430.516281194,"data":" Downloaded flashinfer-cubin\n"}
+,{"stream_name":"stdout","time":430.516321776,"data":"Prepared 1 package in 42.45s\n"}
+,{"stream_name":"stdout","time":432.318597507,"data":"Uninstalled 1 package in 2.00s\n"}
+,{"stream_name":"stdout","time":432.521591465,"data":"Uninstalled 1 package in 2.00s\n"}
+,{"stream_name":"stdout","time":535.632626218,"data":"Installed 1 package in 1m 43s\n"}
+,{"stream_name":"stdout","time":535.632680946,"data":" - flashinfer-cubin==0.6.17\n"}
+,{"stream_name":"stdout","time":535.632688341,"data":" + flashinfer-cubin==0.7.0.post1\n"}
+,{"stream_name":"stdout","time":535.665369335,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":536.07924817,"data":"Installed 1 package in 1m 43s\n"}
+,{"stream_name":"stdout","time":536.07930941,"data":" - flashinfer-cubin==0.6.17\n"}
+,{"stream_name":"stdout","time":536.079319032,"data":" + flashinfer-cubin==0.7.0.post1\n"}
+,{"stream_name":"stdout","time":536.079324128,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":536.081282754,"data":"Resolved 1 package in 386ms\n"}
+,{"stream_name":"stdout","time":536.094432405,"data":"Prepared 1 package in 11ms\n"}
+,{"stream_name":"stdout","time":536.098946056,"data":"Installed 1 package in 4ms\n"}
+,{"stream_name":"stdout","time":536.098984484,"data":" + wrapt==1.17.3\n"}
+,{"stream_name":"stdout","time":536.283887695,"data":"Resolved 1 package in 386ms\n"}
+,{"stream_name":"stdout","time":536.283934731,"data":"Prepared 1 package in 11ms\n"}
+,{"stream_name":"stdout","time":536.283943737,"data":"Installed 1 package in 4ms\n"}
+,{"stream_name":"stdout","time":536.283950856,"data":" + wrapt==1.17.3\n"}
+,{"stream_name":"stdout","time":537.750407829,"data":"No broken requirements found.\n"}
+,{"stream_name":"stdout","time":537.953322853,"data":"No broken requirements found.\n"}
+,{"stream_name":"stdout","time":538.59863547,"data":"nvcc: NVIDIA (R) Cuda compiler driver\n"}
+,{"stream_name":"stdout","time":538.598667539,"data":"Copyright (c) 2005-2026 NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":538.598673842,"data":"Built on Tue_Jun_09_02:43:40_PM_PDT_2026\n"}
+,{"stream_name":"stdout","time":538.598678903,"data":"Cuda compilation tools, release 13.3, V13.3.73\n"}
+,{"stream_name":"stdout","time":538.598684096,"data":"Build cuda_13.3.r13.3/compiler.38244171_0\n"}
+,{"stream_name":"stdout","time":538.598689235,"data":"\n"}
+,{"stream_name":"stdout","time":538.801368921,"data":"nvcc: NVIDIA (R) Cuda compiler driver\n"}
+,{"stream_name":"stdout","time":538.801414903,"data":"Copyright (c) 2005-2026 NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":538.801423138,"data":"Built on Tue_Jun_09_02:43:40_PM_PDT_2026\n"}
+,{"stream_name":"stdout","time":538.801428965,"data":"Cuda compilation tools, release 13.3, V13.3.73\n"}
+,{"stream_name":"stdout","time":538.801434405,"data":"Build cuda_13.3.r13.3/compiler.38244171_0\n"}
+,{"stream_name":"stdout","time":538.80145696,"data":"\n"}
+,{"stream_name":"stdout","time":2447.937605102,"data":"FlashInfer SM120 packaging: the fused_moe_120 build failed with nvcc host compiler /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ (CUDAHOSTCXX), MAX_JOBS=2:\n"}
+,{"stream_name":"stdout","time":2447.941826154,"data":"--- stderr ---\n"}
+,{"stream_name":"stdout","time":2447.941845954,"data":"[... 34 earlier stderr lines ...]\n"}
+,{"stream_name":"stdout","time":2447.94185491,"data":"          detected during instantiation of \"size_t tensorrt_llm::kernels::cutlass_kernels::MoeGemmRunner\u003cT, WeightType, OutputType, ScaleBiasType, IsMXFPX, Sm90Wfp4Afp8Mode\u003e::calcMaxWorkspaceSize(int) const [with T=__nv_fp8_e4m3, WeightType=cutlass::uint4b_t, OutputType=half, ScaleBiasType=half, IsMXFPX=false, Sm90Wfp4Afp8Mode=tensorrt_llm::kernels::cutlass_kernels::Sm90Wfp4Afp8ScaleMode::kDisabled]\" at line 972 of /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_template_dispatch.h\n"}
+,{"stream_name":"stdout","time":2447.941870813,"data":"\n"}
+,{"stream_name":"stdout","time":2447.94187648,"data":"Remark: The warnings can be suppressed with \"-diag-suppress \u003cwarning-number\u003e\"\n"}
+,{"stream_name":"stdout","time":2447.941882183,"data":"\n"}
+,{"stream_name":"stdout","time":2447.941895383,"data":"[7/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_uint8.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp16_uint8.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_uint8.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.941930276,"data":"[8/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_uint4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp16_uint4.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_uint4.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.941946665,"data":"[9/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_fp16.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp16_fp16.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_fp16.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.941967269,"data":"[10/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_uint8.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_bf16_uint8.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_uint8.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.941987231,"data":"[11/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_fp8.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_bf16_fp8.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_fp8.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.942006433,"data":"[12/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_uint4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_bf16_uint4.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_uint4.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.942021936,"data":"[13/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_fp4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_bf16_fp4.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_fp4.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.942040882,"data":"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/./moe_gemm_template_dispatch_tma_ws_mixed_dtype.h(355): warning #177-D: variable \"ScaleMode\" was declared but never referenced\n"}
+,{"stream_name":"stdout","time":2447.942046159,"data":"    static constexpr auto ScaleMode =\n"}
+,{"stream_name":"stdout","time":2447.942050171,"data":"                          ^\n"}
+,{"stream_name":"stdout","time":2447.942054934,"data":"          detected during instantiation of \"size_t tensorrt_llm::kernels::cutlass_kernels::MoeGemmRunner\u003cT, WeightType, OutputType, ScaleBiasType, IsMXFPX, Sm90Wfp4Afp8Mode\u003e::calcMaxWorkspaceSize(int) const [with T=__nv_bfloat16, WeightType=tensorrt_llm::kernels::cutlass_kernels::Fp4Type, OutputType=__nv_bfloat16, ScaleBiasType=__nv_bfloat16, IsMXFPX=false, Sm90Wfp4Afp8Mode=tensorrt_llm::kernels::cutlass_kernels::Sm90Wfp4Afp8ScaleMode::kDisabled]\" at line 972 of /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_template_dispatch.h\n"}
+,{"stream_name":"stdout","time":2447.942061525,"data":"\n"}
+,{"stream_name":"stdout","time":2447.942065306,"data":"Remark: The warnings can be suppressed with \"-diag-suppress \u003cwarning-number\u003e\"\n"}
+,{"stream_name":"stdout","time":2447.942072876,"data":"\n"}
+,{"stream_name":"stdout","time":2447.942077311,"data":"[14/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_bf16.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_bf16_bf16.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_bf16.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.942093503,"data":"[15/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/fp8_blockscale_gemm_fp8_blockscale_gemm.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/fp8_blockscale_gemm/fp8_blockscale_gemm.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/fp8_blockscale_gemm_fp8_blockscale_gemm.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.942113411,"data":"[16/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_mixed_utils.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_mixed_utils.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_mixed_utils.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.942132255,"data":"[17/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_fp4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp16_fp4.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_fp4.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.942162323,"data":"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/./moe_gemm_template_dispatch_tma_ws_mixed_dtype.h(355): warning #177-D: variable \"ScaleMode\" was declared but never referenced\n"}
+,{"stream_name":"stdout","time":2447.942167908,"data":"    static constexpr auto ScaleMode =\n"}
+,{"stream_name":"stdout","time":2447.942198234,"data":"                          ^\n"}
+,{"stream_name":"stdout","time":2447.942202425,"data":"          detected during instantiation of \"size_t tensorrt_llm::kernels::cutlass_kernels::MoeGemmRunner\u003cT, WeightType, OutputType, ScaleBiasType, IsMXFPX, Sm90Wfp4Afp8Mode\u003e::calcMaxWorkspaceSize(int) const [with T=half, WeightType=tensorrt_llm::kernels::cutlass_kernels::Fp4Type, OutputType=half, ScaleBiasType=half, IsMXFPX=false, Sm90Wfp4Afp8Mode=tensorrt_llm::kernels::cutlass_kernels::Sm90Wfp4Afp8ScaleMode::kDisabled]\" at line 972 of /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_template_dispatch.h\n"}
+,{"stream_name":"stdout","time":2447.942208899,"data":"\n"}
+,{"stream_name":"stdout","time":2447.942212613,"data":"Remark: The warnings can be suppressed with \"-diag-suppress \u003cwarning-number\u003e\"\n"}
+,{"stream_name":"stdout","time":2447.942216856,"data":"\n"}
+,{"stream_name":"stdout","time":2447.94222191,"data":"[18/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_deepgemm_jit_setup.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/fused_moe/cutlass_backend/deepgemm_jit_setup.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_deepgemm_jit_setup.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.94224097,"data":"FAILED: [code=1] /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_deepgemm_jit_setup.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.942246056,"data":" /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_deepgemm_jit_setup.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/fused_moe/cutlass_backend/deepgemm_jit_setup.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_deepgemm_jit_setup.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.942261105,"data":"In file included from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/deep_gemm/compiler.cuh:35,\n"}
+,{"stream_name":"stdout","time":2447.942268804,"data":"                 from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/fused_moe/cutlass_backend/deepgemm_jit_setup.cu:21:\n"}
+,{"stream_name":"stdout","time":2447.94227327,"data":"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/deep_gemm/jit_utils.cuh:21:10: fatal error: nvrtc.h: No such file or directory\n"}
+,{"stream_name":"stdout","time":2447.942277558,"data":"   21 | #include \u003cnvrtc.h\u003e\n"}
+,{"stream_name":"stdout","time":2447.942282396,"data":"      |          ^~~~~~~~~\n"}
+,{"stream_name":"stdout","time":2447.942286386,"data":"compilation terminated.\n"}
+,{"stream_name":"stdout","time":2447.942291814,"data":"[19/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_flashinfer_cutlass_fused_moe_binding.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/fused_moe/cutlass_backend/flashinfer_cutlass_fused_moe_binding.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_flashinfer_cutlass_fused_moe_binding.cuda.o \n"}
+,{"stream_name":"stdout","time":2447.942306443,"data":"ninja: build stopped: subcommand failed.\n"}
+,{"stream_name":"stdout","time":2447.942313583,"data":"patches/moe-source.patch: applied\n"}
+,{"stream_name":"stdout","time":2447.942317574,"data":"patches/gdn-source.patch: applied\n"}
+,{"stream_name":"stdout","time":2447.942321433,"data":"patches/asan-include-compat.patch: applied\n"}
+,{"stream_name":"stdout","time":2447.942325379,"data":"building fused_moe_120 for FLASHINFER_CUDA_ARCH_LIST=12.0f (MAX_JOBS=2)\n"}
+,{"stream_name":"stdout","time":2447.981122613,"data":"BUILD FAILED at line 150; partial artifacts retained\n"}
+,{"stream_name":"stdout","time":2448.099887135,"data":"FlashInfer SM120 packaging: the fused_moe_120 build failed with nvcc host compiler /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ (CUDAHOSTCXX), MAX_JOBS=2:\n"}
+,{"stream_name":"stdout","time":2448.099943471,"data":"--- stderr ---\n"}
+,{"stream_name":"stdout","time":2448.099953228,"data":"[... 34 earlier stderr lines ...]\n"}
+,{"stream_name":"stdout","time":2448.099956441,"data":"          detected during instantiation of \"size_t tensorrt_llm::kernels::cutlass_kernels::MoeGemmRunner\u003cT, WeightType, OutputType, ScaleBiasType, IsMXFPX, Sm90Wfp4Afp8Mode\u003e::calcMaxWorkspaceSize(int) const [with T=__nv_fp8_e4m3, WeightType=cutlass::uint4b_t, OutputType=half, ScaleBiasType=half, IsMXFPX=false, Sm90Wfp4Afp8Mode=tensorrt_llm::kernels::cutlass_kernels::Sm90Wfp4Afp8ScaleMode::kDisabled]\" at line 972 of /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_template_dispatch.h\n"}
+,{"stream_name":"stdout","time":2448.099961364,"data":"\n"}
+,{"stream_name":"stdout","time":2448.099964068,"data":"Remark: The warnings can be suppressed with \"-diag-suppress \u003cwarning-number\u003e\"\n"}
+,{"stream_name":"stdout","time":2448.099967171,"data":"\n"}
+,{"stream_name":"stdout","time":2448.099971842,"data":"[7/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_uint8.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp16_uint8.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_uint8.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100035944,"data":"[8/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_uint4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp16_uint4.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_uint4.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100048506,"data":"[9/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_fp16.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp16_fp16.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_fp16.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100066014,"data":"[10/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_uint8.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_bf16_uint8.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_uint8.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100081455,"data":"[11/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_fp8.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_bf16_fp8.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_fp8.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100103014,"data":"[12/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_uint4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_bf16_uint4.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_uint4.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100120362,"data":"[13/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_fp4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_bf16_fp4.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_fp4.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100134711,"data":"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/./moe_gemm_template_dispatch_tma_ws_mixed_dtype.h(355): warning #177-D: variable \"ScaleMode\" was declared but never referenced\n"}
+,{"stream_name":"stdout","time":2448.100139942,"data":"    static constexpr auto ScaleMode =\n"}
+,{"stream_name":"stdout","time":2448.100144535,"data":"                          ^\n"}
+,{"stream_name":"stdout","time":2448.100148958,"data":"          detected during instantiation of \"size_t tensorrt_llm::kernels::cutlass_kernels::MoeGemmRunner\u003cT, WeightType, OutputType, ScaleBiasType, IsMXFPX, Sm90Wfp4Afp8Mode\u003e::calcMaxWorkspaceSize(int) const [with T=__nv_bfloat16, WeightType=tensorrt_llm::kernels::cutlass_kernels::Fp4Type, OutputType=__nv_bfloat16, ScaleBiasType=__nv_bfloat16, IsMXFPX=false, Sm90Wfp4Afp8Mode=tensorrt_llm::kernels::cutlass_kernels::Sm90Wfp4Afp8ScaleMode::kDisabled]\" at line 972 of /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_template_dispatch.h\n"}
+,{"stream_name":"stdout","time":2448.100159557,"data":"\n"}
+,{"stream_name":"stdout","time":2448.100164013,"data":"Remark: The warnings can be suppressed with \"-diag-suppress \u003cwarning-number\u003e\"\n"}
+,{"stream_name":"stdout","time":2448.100168786,"data":"\n"}
+,{"stream_name":"stdout","time":2448.100173514,"data":"[14/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_bf16.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_bf16_bf16.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_bf16_bf16.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100190842,"data":"[15/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/fp8_blockscale_gemm_fp8_blockscale_gemm.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/fp8_blockscale_gemm/fp8_blockscale_gemm.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/fp8_blockscale_gemm_fp8_blockscale_gemm.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100208391,"data":"[16/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_mixed_utils.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_mixed_utils.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_mixed_utils.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100226909,"data":"[17/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_fp4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp16_fp4.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp16_fp4.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100260443,"data":"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/./moe_gemm_template_dispatch_tma_ws_mixed_dtype.h(355): warning #177-D: variable \"ScaleMode\" was declared but never referenced\n"}
+,{"stream_name":"stdout","time":2448.100266205,"data":"    static constexpr auto ScaleMode =\n"}
+,{"stream_name":"stdout","time":2448.10027092,"data":"                          ^\n"}
+,{"stream_name":"stdout","time":2448.100275087,"data":"          detected during instantiation of \"size_t tensorrt_llm::kernels::cutlass_kernels::MoeGemmRunner\u003cT, WeightType, OutputType, ScaleBiasType, IsMXFPX, Sm90Wfp4Afp8Mode\u003e::calcMaxWorkspaceSize(int) const [with T=half, WeightType=tensorrt_llm::kernels::cutlass_kernels::Fp4Type, OutputType=half, ScaleBiasType=half, IsMXFPX=false, Sm90Wfp4Afp8Mode=tensorrt_llm::kernels::cutlass_kernels::Sm90Wfp4Afp8ScaleMode::kDisabled]\" at line 972 of /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_template_dispatch.h\n"}
+,{"stream_name":"stdout","time":2448.100282078,"data":"\n"}
+,{"stream_name":"stdout","time":2448.10028614,"data":"Remark: The warnings can be suppressed with \"-diag-suppress \u003cwarning-number\u003e\"\n"}
+,{"stream_name":"stdout","time":2448.100290472,"data":"\n"}
+,{"stream_name":"stdout","time":2448.100295388,"data":"[18/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_deepgemm_jit_setup.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/fused_moe/cutlass_backend/deepgemm_jit_setup.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_deepgemm_jit_setup.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100313969,"data":"FAILED: [code=1] /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_deepgemm_jit_setup.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100319266,"data":" /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_deepgemm_jit_setup.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/fused_moe/cutlass_backend/deepgemm_jit_setup.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_deepgemm_jit_setup.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.10033596,"data":"In file included from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/deep_gemm/compiler.cuh:35,\n"}
+,{"stream_name":"stdout","time":2448.10034078,"data":"                 from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/fused_moe/cutlass_backend/deepgemm_jit_setup.cu:21:\n"}
+,{"stream_name":"stdout","time":2448.100345903,"data":"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/deep_gemm/jit_utils.cuh:21:10: fatal error: nvrtc.h: No such file or directory\n"}
+,{"stream_name":"stdout","time":2448.100351433,"data":"   21 | #include \u003cnvrtc.h\u003e\n"}
+,{"stream_name":"stdout","time":2448.100356447,"data":"      |          ^~~~~~~~~\n"}
+,{"stream_name":"stdout","time":2448.100360654,"data":"compilation terminated.\n"}
+,{"stream_name":"stdout","time":2448.100366237,"data":"[19/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_flashinfer_cutlass_fused_moe_binding.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/fused_moe/cutlass_backend/flashinfer_cutlass_fused_moe_binding.cu -o /tmp/pennyroyal-flashinfer-sm120-xpy1g8mk/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/cutlass_backend_flashinfer_cutlass_fused_moe_binding.cuda.o \n"}
+,{"stream_name":"stdout","time":2448.100384115,"data":"ninja: build stopped: subcommand failed.\n"}
+,{"stream_name":"stdout","time":2448.100388195,"data":"patches/moe-source.patch: applied\n"}
+,{"stream_name":"stdout","time":2448.100392038,"data":"patches/gdn-source.patch: applied\n"}
+,{"stream_name":"stdout","time":2448.10039597,"data":"patches/asan-include-compat.patch: applied\n"}
+,{"stream_name":"stdout","time":2448.100399939,"data":"building fused_moe_120 for FLASHINFER_CUDA_ARCH_LIST=12.0f (MAX_JOBS=2)\n"}
+,{"stream_name":"stdout","time":2448.10040402,"data":"BUILD FAILED at line 150; partial artifacts retained\n"}
+,{"stream_name":"stderr","time":2448.774361024,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":2448.774431866,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":2448.774436541,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":2448.786027839,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":2448.787706072,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":2448.787738346,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":2448.787762567,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":2448.787765903,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":2448.78776894,"data":"Exception encountered at \"In [1]\":\n"}
+,{"stream_name":"stderr","time":2448.787771867,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":2448.787774763,"data":"CalledProcessError                        Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":2448.787777682,"data":"/tmp/ipykernel_17/1937498414.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":2448.787780854,"data":"      9 for name,content in BUILD_SOURCES.items():\n"}
+,{"stream_name":"stderr","time":2448.787783546,"data":"     10     (stage/name).write_text(content,encoding='utf-8')\n"}
+,{"stream_name":"stderr","time":2448.787786383,"data":"---\u003e 11 subprocess.run(['bash',str(stage/'build_overlay.sh'),str(stage)],check=True)\n"}
+,{"stream_name":"stderr","time":2448.787810041,"data":"\n"}
+,{"stream_name":"stderr","time":2448.787814604,"data":"/usr/lib/python3.12/subprocess.py in run(input, capture_output, timeout, check, *popenargs, **kwargs)\n"}
+,{"stream_name":"stderr","time":2448.787819197,"data":"    569         retcode = process.poll()\n"}
+,{"stream_name":"stderr","time":2448.787823071,"data":"    570         if check and retcode:\n"}
+,{"stream_name":"stderr","time":2448.787827469,"data":"--\u003e 571             raise CalledProcessError(retcode, process.args,\n"}
+,{"stream_name":"stderr","time":2448.787832443,"data":"    572                                      output=stdout, stderr=stderr)\n"}
+,{"stream_name":"stderr","time":2448.787837086,"data":"    573     return CompletedProcess(process.args, retcode, stdout, stderr)\n"}
+,{"stream_name":"stderr","time":2448.78784123,"data":"\n"}
+,{"stream_name":"stderr","time":2448.787845167,"data":"CalledProcessError: Command '['bash', '/kaggle/working/build-src/build_overlay.sh', '/kaggle/working/build-src']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stderr","time":2448.787864972,"data":"\n"}
+,{"stream_name":"stderr","time":2453.083118275,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2453.083205854,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2453.531240779,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2453.531300808,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2455.85873693,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2456.424095626,"data":"[NbConvertApp] Writing 112387 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2460.71375043,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2462.289902553,"data":"[NbConvertApp] Writing 437274 bytes to __results__.html\n"}
+]

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "hydra/verified_planning.py": "83057d90c3248775260aa3cc5d06a9f59a36572298dc0d41ef58a858a9a4efe0",
+    "scripts/install_verified_agent.py": "edc926c41c065f01ac2bc63055a17e7aff069f0e4e6dd4dcb1eabdd7c1e97d6a",
+    "scripts/verified_agent_probe.py": "64669c1cb65754138d77148022e39b9c50a75e6d27a946ca8bbbad87cb2c10fe"
+  },
+  "upstream_patch_sha256": "80aef535ee80970622127f3ee1917e1b127db22ebe07ece40fc8558a63b4484d",
+  "enforce_probes": false,
+  "prediction_files": {
+    "hydra/grid_inspection.py": "b7c023672d6d9b1469755c4f40c27dc03b8aa82fe7272534c34c2a086cca0037",
+    "scripts/install_inspection_agent.py": "5aafc848dff27460c3d83858ca6a293f7f345e96c221bc2dab7b20b935d45d69",
+    "hydra/prediction_ledger.py": "f6415856143ce413b4346f063b8e61e21fe2c8ebab1374f262da7809de58dd8a",
+    "hydra/prediction_host.py": "36a6427c450b1e52259c6bcb46624ea77bc7da87d3f6f30ecf8fdebb6eadb097",
+    "hydra/prediction_tools.py": "28ff741670d60cdbb00a38f932617587b828ff5e94ff984262b53633bc81d9d1",
+    "scripts/install_prediction_agent.py": "82081db0a842716a10f1703bd9aff33a243789648a0e5c62ff2db91e96ff0962",
+    "scripts/prediction_agent_probe.py": "0feefbcb2b64cffcbccf225497c2939aec742c5d3557287d4cf33818aff3c37a"
+  }
+}

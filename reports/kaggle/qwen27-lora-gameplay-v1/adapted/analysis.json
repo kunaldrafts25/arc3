@@ -1,0 +1,25 @@
+{
+  "model_gameplay_verified": true,
+  "problems": [],
+  "games": 5,
+  "levels": 7,
+  "full_wins": 0,
+  "mean_public_score": 5.330145611963793,
+  "generated_tokens": 929251,
+  "notes": {
+    "cn04-2fe56bfb": "tokens=200615",
+    "ka59-38d34dbb": "tokens=176889",
+    "ar25-0c556536": "tokens=229056",
+    "s5i5-18d95033": "tokens=213362",
+    "ls20-9607627b": "tokens=189643"
+  },
+  "boundary": "Public development gameplay only. Not a hidden score or proof of the 71-point goal.",
+  "token_accounting_corrections": [],
+  "token_accounting_basis": "Action-record generation plus terminal no-action generation; cancellation notes may include additional uncharged generation.",
+  "public_level_completions_by_elapsed_seconds": {
+    "1800": 5,
+    "3600": 6,
+    "5400": 7,
+    "7200": 7
+  }
+}

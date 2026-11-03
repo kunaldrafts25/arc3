@@ -1,0 +1,10 @@
+{
+  "id": 745013,
+  "ownerSlug": "mikedan7",
+  "slug": "qwen3-8-27b-fp8-official",
+  "title": "Qwen3.8-27B-FP8 (official mirror)",
+  "subtitle": "Unmodified mirror of Qwen/Qwen3.8-27B-FP8 at revision 017b9c7af6b5",
+  "isPrivate": false,
+  "description": "# Model Summary\n\nAn **unmodified mirror** of the official [Qwen/Qwen3.8-27B-FP8](https://huggingface.co/Qwen/Qwen3.8-27B-FP8) weights, pinned to revision `017b9c7af6b5689d5dd426a76e0bc077eb5ca20a`.\n\nThis is not our work and not a re-quantisation. Every file was fetched from the pinned revision and its content hash checked against what Hugging Face publishes for that same revision. Nothing was repacked, re-sharded, or re-quantised.\n\n# Model Characteristics\n\n- Architecture `Qwen3_5ForConditionalGeneration` (multimodal; the vision tower is excluded from FP8 and stays bf16)\n- FP8 e4m3, `weight_block_size [128, 128]`, dynamic activation scaling\n- 81 files, 30,890,049,597 bytes\n- Apache-2.0, same as upstream. `LICENSE` is included unchanged.\n\n# Provenance\n\n`mirror_manifest.json` ships with the files and records, per file, the size and SHA-256 actually computed here.\n\n| evidence | files |\n|---|---|\n| LFS SHA-256, matched against the Hugging Face API for the pinned revision | 67 |\n| git blob SHA-1 for non-LFS files, matched against the API `blobId` | 14 |\n| total | **81** |\n\nOne caveat worth recording. The upstream repository also ships a `crc32.txt`, and that file is **stale for three entries** -- `chat_template.jinja`, `generation_config.json`, and `tokenizer_config.json`. Recomputing CRC32 on the bytes Hugging Face itself serves for the pinned revision reproduces the disagreement, while the content hashes for those same three files match exactly. The contents are authoritative; `crc32.txt` is not. It is kept here unchanged because it is part of the upstream revision.",
+  "publishTime": null
+}

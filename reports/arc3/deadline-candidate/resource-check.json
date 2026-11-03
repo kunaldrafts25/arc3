@@ -1,0 +1,83 @@
+{
+  "allowed": true,
+  "available_gpu_seconds": 65368.527,
+  "reserved_gpu_seconds": 0.0,
+  "pay_to_scale_enabled": false,
+  "needed_seconds": 50400,
+  "arc2_floor_seconds": 10800,
+  "official_reserve_seconds": 32400,
+  "active_shared_jobs": [],
+  "recent_jobs": [
+    {
+      "kernel": "kunalsinghh25/arc-hydra-flashnext-training-cpu-probe/2",
+      "status": "RUNNING",
+      "accelerator": "cpu-verified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-qwen27-lora-gameplay",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-adapter-mount-cpu-probe",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-qwen27-lora-pilot",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-training-data-offline-probe",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-qwen27-fair-capacity",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-training-environment-cpu-probe",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-qwen27-matched-baseline",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-qwen27-cpu-preflight",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-thinkingcap-matched-candidate",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-prediction-matched-candidate",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-model-compatibility-cpu-probe",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-prediction-study-cpu-probe",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-inspection-matched-control",
+      "status": "COMPLETE",
+      "accelerator": "unclassified"
+    }
+  ],
+  "recorded_at": "2026-11-01T22:47:49.352464+00:00"
+}

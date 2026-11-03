@@ -1,0 +1,9 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-qwen27-cpu-preflight",
+  "cpu_only": true,
+  "wall_seconds": 1800,
+  "files": {
+    "probe.ipynb": "e4651d034c9a04c2347f863505baf8dab70498262f3e94b85a6df3ba2d11ecf8",
+    "kernel-metadata.json": "804d0225c0c32042489f416445c2bbda15a2404e2b642db53fcd13b7a040a543"
+  }
+}

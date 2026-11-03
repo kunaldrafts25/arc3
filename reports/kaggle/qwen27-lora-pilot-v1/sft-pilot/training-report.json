@@ -1,0 +1,2666 @@
+{
+  "phase": "complete",
+  "started_at_epoch": 1793549832.23663,
+  "deadline": 1793556050.6361496,
+  "trainable_scope": "Rank16, alpha32,400 supported language attention/recurrent/feed-forward projections; frozen base and vision. GDN beta/decay and embeddings excluded.",
+  "seed": 20261101,
+  "learning_rate": 1e-05,
+  "gradient_accumulation": 4,
+  "max_epochs": 1,
+  "device": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "gpu_total_bytes": 101973819392,
+  "optimizer_steps": 40,
+  "training_examples": 158,
+  "training_input_tokens": 1626879,
+  "supervised_tokens": 103939,
+  "examples": [
+    {
+      "example": "8cd8d3b1a7fa3cf58287c9554b55348bc091af8a6a8f6e0bd73e2c0d1f4c9540",
+      "loss": 0.6781921982765198,
+      "wall_seconds": 31.413397312164307,
+      "actual_input_tokens": 10508,
+      "masked_prompt_tokens": 9906,
+      "supervised_tokens": 602,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "497bbdcbba303b8d562ce86f94d8a3eb9b182c7c482040cfdfc28bd1dda2f683",
+      "loss": 0.3419524133205414,
+      "wall_seconds": 14.143876791000366,
+      "actual_input_tokens": 6160,
+      "masked_prompt_tokens": 6068,
+      "supervised_tokens": 92,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "9b306f7141ebe64fd75948b57f11efc508fd13723d5ab29387c98bf7c0183105",
+      "loss": 0.8011731505393982,
+      "wall_seconds": 5.2500975131988525,
+      "actual_input_tokens": 6572,
+      "masked_prompt_tokens": 6356,
+      "supervised_tokens": 216,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "b2ee5028422cdd2f69a9d17fafb0d92c8d85b79ab3bea3a395f5288fddb0f941",
+      "loss": 0.5548011660575867,
+      "wall_seconds": 24.760180711746216,
+      "actual_input_tokens": 8575,
+      "masked_prompt_tokens": 8349,
+      "supervised_tokens": 226,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "1ad66d71c7a3eca2915ed679209b9830e9f62e5ea70101d911b6b6eec91d3a82",
+      "loss": 0.7201142907142639,
+      "wall_seconds": 7.000191688537598,
+      "actual_input_tokens": 8592,
+      "masked_prompt_tokens": 7995,
+      "supervised_tokens": 597,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "cc054effffcba6120352836d34243d43cf20aa8c8cfb1e79d9b1ccadc0da37ae",
+      "loss": 0.692351222038269,
+      "wall_seconds": 20.282496690750122,
+      "actual_input_tokens": 13116,
+      "masked_prompt_tokens": 12339,
+      "supervised_tokens": 777,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "46937990509e3885e8ce2f969be4fcd45d6cbb179ea10e0863a63436eb0aa012",
+      "loss": 0.9486733078956604,
+      "wall_seconds": 5.488412618637085,
+      "actual_input_tokens": 6651,
+      "masked_prompt_tokens": 6437,
+      "supervised_tokens": 214,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "0028c43a7222a660ece8b9675d2939ea1ae317d1f7febe702340650e43e13fb9",
+      "loss": 0.376420259475708,
+      "wall_seconds": 19.055708646774292,
+      "actual_input_tokens": 11057,
+      "masked_prompt_tokens": 9603,
+      "supervised_tokens": 1454,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "ccfa7306c941f8494651e5e35b4fc41231649f5167e219e2a02007aa5cfb9038",
+      "loss": 0.4776102900505066,
+      "wall_seconds": 6.9870851039886475,
+      "actual_input_tokens": 8560,
+      "masked_prompt_tokens": 8435,
+      "supervised_tokens": 125,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "ba1669c96cd0708dda9b6a3cac918473293ae110895be5ffb3730b063290653d",
+      "loss": 0.502540111541748,
+      "wall_seconds": 22.2116117477417,
+      "actual_input_tokens": 14729,
+      "masked_prompt_tokens": 12506,
+      "supervised_tokens": 2223,
+      "images": 2,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "0777e69aad07b2508ef6598867f1dce0c7070aacbf2ffab9c48a172f2fa8ab9c",
+      "loss": 0.9268574118614197,
+      "wall_seconds": 8.706012725830078,
+      "actual_input_tokens": 10365,
+      "masked_prompt_tokens": 9406,
+      "supervised_tokens": 959,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "35dc61b123c7635e130f17563141b6733e9efe3e62711928dc28d524ba863f9d",
+      "loss": 0.7837361693382263,
+      "wall_seconds": 8.417673110961914,
+      "actual_input_tokens": 10166,
+      "masked_prompt_tokens": 8895,
+      "supervised_tokens": 1271,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "63bef63b5c5ba374aebaa7c350db04039fc85016816f06f7091024f4b8423b31",
+      "loss": 0.5867758989334106,
+      "wall_seconds": 9.5167818069458,
+      "actual_input_tokens": 11472,
+      "masked_prompt_tokens": 10554,
+      "supervised_tokens": 918,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "8ce172d638ea25df27df41e50df37530a9a2b36acc60ced39b8a2fa088e3b883",
+      "loss": 0.8075946569442749,
+      "wall_seconds": 9.691883087158203,
+      "actual_input_tokens": 11423,
+      "masked_prompt_tokens": 10752,
+      "supervised_tokens": 671,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "fbd5fe1d633fd6e821625736fef6ff687c989da5276bab90b93a3bb88c4c5319",
+      "loss": 0.2908056974411011,
+      "wall_seconds": 5.348567962646484,
+      "actual_input_tokens": 6543,
+      "masked_prompt_tokens": 6439,
+      "supervised_tokens": 104,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "5f058efbef6f8837387b84ed201fcd37563bfa26ec9f77df84c4a3206aec4494",
+      "loss": 0.6543679237365723,
+      "wall_seconds": 12.647388219833374,
+      "actual_input_tokens": 14757,
+      "masked_prompt_tokens": 12537,
+      "supervised_tokens": 2220,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "8105a1244deefd1b202c0f0b05da1300c32200ad192b31fcb5da6b235916d03a",
+      "loss": 0.6953880190849304,
+      "wall_seconds": 32.30108666419983,
+      "actual_input_tokens": 16039,
+      "masked_prompt_tokens": 13826,
+      "supervised_tokens": 2213,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "8bfba91d4961f3ebed35429b76b79cfcb9b0701b67765613655da1d346554979",
+      "loss": 0.3681226670742035,
+      "wall_seconds": 5.1943488121032715,
+      "actual_input_tokens": 6464,
+      "masked_prompt_tokens": 6363,
+      "supervised_tokens": 101,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "60678ccb5b68da10b5c3de7c3ce88cb2cc56b43e875d8a6d705c7768ac647c6a",
+      "loss": 0.851463794708252,
+      "wall_seconds": 13.096122741699219,
+      "actual_input_tokens": 15468,
+      "masked_prompt_tokens": 15172,
+      "supervised_tokens": 296,
+      "images": 7,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "92e54a92b63b825781d37dc9d400332289f311ea3deb78e5801de721ca3fcf7c",
+      "loss": 0.4533722400665283,
+      "wall_seconds": 12.089417219161987,
+      "actual_input_tokens": 14276,
+      "masked_prompt_tokens": 14133,
+      "supervised_tokens": 143,
+      "images": 7,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "ae0654253474b60f927e735b3f2cccecfc93fab02adea718b8eedf857da1214b",
+      "loss": 0.7463793754577637,
+      "wall_seconds": 9.835888862609863,
+      "actual_input_tokens": 11872,
+      "masked_prompt_tokens": 11452,
+      "supervised_tokens": 420,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "cba5a2c4bd81cea0bb5d725fc8bd4ee0e76032da36155b5e23e78a24e0e85e98",
+      "loss": 0.6743378639221191,
+      "wall_seconds": 7.681922674179077,
+      "actual_input_tokens": 9187,
+      "masked_prompt_tokens": 7946,
+      "supervised_tokens": 1241,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "a33c585570a05c8aba6955542d44ad21f2421ee6eff87a5ebb66262b237bc7ed",
+      "loss": 0.5388190150260925,
+      "wall_seconds": 12.731430530548096,
+      "actual_input_tokens": 15098,
+      "masked_prompt_tokens": 14767,
+      "supervised_tokens": 331,
+      "images": 2,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "21343b727933e506c6ff99561e47d8315bcc985cd76c71bc6bc9fcafe8be3497",
+      "loss": 0.30859899520874023,
+      "wall_seconds": 5.035195350646973,
+      "actual_input_tokens": 6175,
+      "masked_prompt_tokens": 6068,
+      "supervised_tokens": 107,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "44cec8d9853f02bad4dbb73712348c27d43e572669ed084840f57e032465ebfd",
+      "loss": 0.8614456057548523,
+      "wall_seconds": 9.047484397888184,
+      "actual_input_tokens": 10842,
+      "masked_prompt_tokens": 10095,
+      "supervised_tokens": 747,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "60d3992664f7fb3227d6411357b348eef3c11f453a5427579e595d35f83f979d",
+      "loss": 0.7965885996818542,
+      "wall_seconds": 12.429197549819946,
+      "actual_input_tokens": 14405,
+      "masked_prompt_tokens": 14253,
+      "supervised_tokens": 152,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "2ac6e9ab0a33ab53989704537c7b1ce31a7fff3a889101f423e6d419ebad506a",
+      "loss": 0.6492425203323364,
+      "wall_seconds": 8.666890382766724,
+      "actual_input_tokens": 10392,
+      "masked_prompt_tokens": 10159,
+      "supervised_tokens": 233,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "ffd85d70f1d88db64f73368387711a129cf96730af74bd5cd55ee7d6c0bb1c0c",
+      "loss": 0.2212948054075241,
+      "wall_seconds": 4.47995138168335,
+      "actual_input_tokens": 5585,
+      "masked_prompt_tokens": 5463,
+      "supervised_tokens": 122,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "81f8e79d3c0e7c580102af5d996bb5dae1971c3248398f562b66fe5f80a6ef88",
+      "loss": 0.9010672569274902,
+      "wall_seconds": 23.375826120376587,
+      "actual_input_tokens": 6950,
+      "masked_prompt_tokens": 6533,
+      "supervised_tokens": 417,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "077b700582ce1b6759053e24818a52bccbac5f2024fea90906285f5fa75fcf22",
+      "loss": 0.8105309009552002,
+      "wall_seconds": 11.823083877563477,
+      "actual_input_tokens": 14010,
+      "masked_prompt_tokens": 13433,
+      "supervised_tokens": 577,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "60739f9bc762a58f16671d6fe39db0f06ed7efb2632c2d9ad9ee8af1a3d68075",
+      "loss": 0.2497928887605667,
+      "wall_seconds": 5.019933700561523,
+      "actual_input_tokens": 6161,
+      "masked_prompt_tokens": 6053,
+      "supervised_tokens": 108,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "57478bc59f817a419e4aa9c5329e5599f017e4712e67beb13ed1e224cdae57d2",
+      "loss": 0.8022555708885193,
+      "wall_seconds": 13.021447896957397,
+      "actual_input_tokens": 15133,
+      "masked_prompt_tokens": 13878,
+      "supervised_tokens": 1255,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "1a2b8564201d8ccfca9394298042e6eb78536224558de90ef8834f7ce78820d9",
+      "loss": 0.7250791788101196,
+      "wall_seconds": 6.05374002456665,
+      "actual_input_tokens": 7438,
+      "masked_prompt_tokens": 6773,
+      "supervised_tokens": 665,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "b5ea281fcbef330eef229fc5600fb85739f0cdc8658835f324dba856179c7287",
+      "loss": 0.6971346735954285,
+      "wall_seconds": 5.53961181640625,
+      "actual_input_tokens": 6781,
+      "masked_prompt_tokens": 6252,
+      "supervised_tokens": 529,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "cbdf6c73cb7efa40d802112dbbf0d9596571decd5b4e0259db1cef4b386d547c",
+      "loss": 0.6938027739524841,
+      "wall_seconds": 6.199249744415283,
+      "actual_input_tokens": 7644,
+      "masked_prompt_tokens": 7043,
+      "supervised_tokens": 601,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "036ea0903aca9b7c13e9f0c28b433b2c82b144270db309004096dc860141b207",
+      "loss": 0.7926162481307983,
+      "wall_seconds": 6.235113143920898,
+      "actual_input_tokens": 7588,
+      "masked_prompt_tokens": 6924,
+      "supervised_tokens": 664,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "b08b5e23f37a13bda7abc70ad9614c130b4f757f7a6082d1202dd99e7070a553",
+      "loss": 0.8351327180862427,
+      "wall_seconds": 6.6388020515441895,
+      "actual_input_tokens": 8136,
+      "masked_prompt_tokens": 7156,
+      "supervised_tokens": 980,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "78e01dc51f4ad33db1bcc903802e96f0b5a61fc9fedf0dc22c83cfceb520e5d3",
+      "loss": 0.8409558534622192,
+      "wall_seconds": 9.499238729476929,
+      "actual_input_tokens": 11147,
+      "masked_prompt_tokens": 10491,
+      "supervised_tokens": 656,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "e5e5e158fe760374fa85ebd629365ae0965bb67ac1c22f6a1676cdf747b064cd",
+      "loss": 0.6713153719902039,
+      "wall_seconds": 10.978073358535767,
+      "actual_input_tokens": 13040,
+      "masked_prompt_tokens": 12827,
+      "supervised_tokens": 213,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "868c9b320e381c4e36d6bffdda9f05df8e7707de5006612f6f891dcbb8025b7b",
+      "loss": 0.5429317951202393,
+      "wall_seconds": 9.373642206192017,
+      "actual_input_tokens": 11097,
+      "masked_prompt_tokens": 10943,
+      "supervised_tokens": 154,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "f3c22915bbdbd1617baf8926a87547fd15423def47d1e9cc32c6aa0142538a65",
+      "loss": 0.806020200252533,
+      "wall_seconds": 6.760033130645752,
+      "actual_input_tokens": 8179,
+      "masked_prompt_tokens": 7138,
+      "supervised_tokens": 1041,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "3f479433f939ec9984b5d04018cb9e98bd42c28009d037fbec44cb01df755fc2",
+      "loss": 0.25974351167678833,
+      "wall_seconds": 8.037008285522461,
+      "actual_input_tokens": 9587,
+      "masked_prompt_tokens": 9482,
+      "supervised_tokens": 105,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "34ccb7b4fde0a62d2f7452138c65273f053ddfcf0d8adb1850d0d25fb5f7bdc0",
+      "loss": 0.8951412439346313,
+      "wall_seconds": 6.025759696960449,
+      "actual_input_tokens": 7299,
+      "masked_prompt_tokens": 6971,
+      "supervised_tokens": 328,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "d8914c9eadcc277989daf66f30e994564fd48590edbe57faf76543433102e31a",
+      "loss": 0.5474965572357178,
+      "wall_seconds": 8.659632921218872,
+      "actual_input_tokens": 10426,
+      "masked_prompt_tokens": 9174,
+      "supervised_tokens": 1252,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "2999bf0c6df08f78b0f3f0a2e64e8264c2941b0aa15fd6d9f4db1c4bb82d4561",
+      "loss": 0.8707141876220703,
+      "wall_seconds": 11.913702249526978,
+      "actual_input_tokens": 13847,
+      "masked_prompt_tokens": 12230,
+      "supervised_tokens": 1617,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "7ccc9a2bf95b916ab0e4b5453b803f857bdc30e221f1a674de16134cad8d0e33",
+      "loss": 0.5126402378082275,
+      "wall_seconds": 12.868895292282104,
+      "actual_input_tokens": 15156,
+      "masked_prompt_tokens": 13484,
+      "supervised_tokens": 1672,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "d939cf76b96d54c7146930a790fedd3a218c080ad57fd08b1d7eb7076066034a",
+      "loss": 0.5899716019630432,
+      "wall_seconds": 6.517733097076416,
+      "actual_input_tokens": 7915,
+      "masked_prompt_tokens": 7634,
+      "supervised_tokens": 281,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "120cd9e7381151987db823aa0fa9d6a2dd06a678b670b306a9d2cccb7a43028f",
+      "loss": 0.6315264105796814,
+      "wall_seconds": 11.332129001617432,
+      "actual_input_tokens": 13197,
+      "masked_prompt_tokens": 12861,
+      "supervised_tokens": 336,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "d78ac770696e6d84d232c2e350bb03ab997f95c11737919927708ee63af79aae",
+      "loss": 0.2338796854019165,
+      "wall_seconds": 5.205612421035767,
+      "actual_input_tokens": 6452,
+      "masked_prompt_tokens": 6356,
+      "supervised_tokens": 96,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "c105f5e232dace2365fa782021cce4c3264c329ef12438195cdb684068c6d3f0",
+      "loss": 0.8362218141555786,
+      "wall_seconds": 8.735530614852905,
+      "actual_input_tokens": 10355,
+      "masked_prompt_tokens": 9864,
+      "supervised_tokens": 491,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "62091a7f4ca943fb56d9947a6b796868f519f34e37a4db624ee7448ff1393da6",
+      "loss": 0.898457944393158,
+      "wall_seconds": 12.85713815689087,
+      "actual_input_tokens": 14885,
+      "masked_prompt_tokens": 14640,
+      "supervised_tokens": 245,
+      "images": 6,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "0c841655795c6e5bcdcfdd05869d7239ea22dca4bf73a65692a492562054490d",
+      "loss": 0.7606406807899475,
+      "wall_seconds": 11.673214435577393,
+      "actual_input_tokens": 13613,
+      "masked_prompt_tokens": 12170,
+      "supervised_tokens": 1443,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "26875b3a992c65a9a6e0827490d613dd7a13a8aa0ef1f85e2559effed0872fc6",
+      "loss": 0.5237525701522827,
+      "wall_seconds": 9.738938093185425,
+      "actual_input_tokens": 11662,
+      "masked_prompt_tokens": 10625,
+      "supervised_tokens": 1037,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "b48d26d715a8d826e0372e8e9bdd46f9f2724d12229980f346d8c9502a980f7d",
+      "loss": 0.7509033679962158,
+      "wall_seconds": 5.5284199714660645,
+      "actual_input_tokens": 6896,
+      "masked_prompt_tokens": 6262,
+      "supervised_tokens": 634,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "c9de9fe846daca2c3a73969f34ee98ab1a2991274f98c056b564e2413c3c1ad1",
+      "loss": 0.6019576787948608,
+      "wall_seconds": 7.690117597579956,
+      "actual_input_tokens": 9318,
+      "masked_prompt_tokens": 7635,
+      "supervised_tokens": 1683,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "3eaabd6d9d8786e4f7737695f252637c4f09f0b469e35619f08b59c2f68cd159",
+      "loss": 0.2754805088043213,
+      "wall_seconds": 5.258194446563721,
+      "actual_input_tokens": 6536,
+      "masked_prompt_tokens": 6437,
+      "supervised_tokens": 99,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "44b405e649d3a05b75c727e7a251cc6f8148d6a06d11558318ebe93e29b077df",
+      "loss": 0.11373250186443329,
+      "wall_seconds": 12.294161319732666,
+      "actual_input_tokens": 14568,
+      "masked_prompt_tokens": 14289,
+      "supervised_tokens": 279,
+      "images": 2,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "04675edac2cce0b72017784fef1f5b960411c7bd34bd9411f21a3c66308369fe",
+      "loss": 0.7892772555351257,
+      "wall_seconds": 10.370243787765503,
+      "actual_input_tokens": 12330,
+      "masked_prompt_tokens": 11041,
+      "supervised_tokens": 1289,
+      "images": 2,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "81aebef391ae9108e7d3ffdc40ad96ff591d724196dee5de669fdc52c6b9cdb7",
+      "loss": 0.8020777702331543,
+      "wall_seconds": 6.275671482086182,
+      "actual_input_tokens": 7583,
+      "masked_prompt_tokens": 7005,
+      "supervised_tokens": 578,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "26a9cda9b1688b7dc748104043f5cfd20df36f7e2a179a0a5899c907e4e6ca0b",
+      "loss": 0.22576899826526642,
+      "wall_seconds": 5.2788801193237305,
+      "actual_input_tokens": 6457,
+      "masked_prompt_tokens": 6363,
+      "supervised_tokens": 94,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "c1f076242749666d180cff91d07429dce337fd88b477a54622224eace6aeb8f0",
+      "loss": 0.26218342781066895,
+      "wall_seconds": 5.197419881820679,
+      "actual_input_tokens": 6476,
+      "masked_prompt_tokens": 6373,
+      "supervised_tokens": 103,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "2396e6b009b8c9e837d6dfc7d03f2aa00598bb58b2367de387fc2160f415fd0b",
+      "loss": 0.617129385471344,
+      "wall_seconds": 8.126021385192871,
+      "actual_input_tokens": 9770,
+      "masked_prompt_tokens": 9428,
+      "supervised_tokens": 342,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "e4a1bebf57b4b4883cd6949d64a14963443e3e1ba7bfa2aa1cbb7cb9d8d2f29e",
+      "loss": 0.7010076642036438,
+      "wall_seconds": 6.642663955688477,
+      "actual_input_tokens": 8128,
+      "masked_prompt_tokens": 7415,
+      "supervised_tokens": 713,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "cb0e9d3c90f89c8b62051cd1f7894a5019c95172a72473a8b4e2d3136e144866",
+      "loss": 0.7534640431404114,
+      "wall_seconds": 12.03432583808899,
+      "actual_input_tokens": 14220,
+      "masked_prompt_tokens": 13972,
+      "supervised_tokens": 248,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "dbc0e2c0d560bf8b4919dd1d242d0ec1f749155381955fa16f95efc5116d8820",
+      "loss": 0.17730583250522614,
+      "wall_seconds": 5.198039770126343,
+      "actual_input_tokens": 6464,
+      "masked_prompt_tokens": 6363,
+      "supervised_tokens": 101,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "eb195763b91b9204afcc6aafbb1ce16c96decaa03e6cedac660f0bd498a35098",
+      "loss": 0.918173611164093,
+      "wall_seconds": 6.494862079620361,
+      "actual_input_tokens": 7968,
+      "masked_prompt_tokens": 7423,
+      "supervised_tokens": 545,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "803158a62158174ea27b96d9b7d8888c16221a6ec35ad342ce256145b368bd78",
+      "loss": 0.25516849756240845,
+      "wall_seconds": 4.944571256637573,
+      "actual_input_tokens": 6150,
+      "masked_prompt_tokens": 6051,
+      "supervised_tokens": 99,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "1c1b1508e298e289c096601b382cf7f2e488616dc8f4587d15a5d3c788170621",
+      "loss": 0.3528679311275482,
+      "wall_seconds": 9.374405145645142,
+      "actual_input_tokens": 11097,
+      "masked_prompt_tokens": 10539,
+      "supervised_tokens": 558,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "6b84d9e0685cb0edb3371ef20fa3a12f480e9ced804cbc09b40b20d278ea7559",
+      "loss": 0.45868009328842163,
+      "wall_seconds": 5.2638163566589355,
+      "actual_input_tokens": 6542,
+      "masked_prompt_tokens": 6370,
+      "supervised_tokens": 172,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "fae1ca5352e0d2d076ac5c5d1d16e82e8a5dae137927bcda3393de7f590ddf0f",
+      "loss": 1.0110987424850464,
+      "wall_seconds": 13.391955852508545,
+      "actual_input_tokens": 15720,
+      "masked_prompt_tokens": 14706,
+      "supervised_tokens": 1014,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "04f0fdd61f6959c2a33a9e02f5294f4922081916a9b2844faa961dae441a9c01",
+      "loss": 0.7007381319999695,
+      "wall_seconds": 10.715452194213867,
+      "actual_input_tokens": 12561,
+      "masked_prompt_tokens": 11995,
+      "supervised_tokens": 566,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "489d82333bf54b9e69384579963d479cc1c2443628fd9fc6651a3bff2b5507c0",
+      "loss": 0.8075204491615295,
+      "wall_seconds": 10.11238694190979,
+      "actual_input_tokens": 12021,
+      "masked_prompt_tokens": 10954,
+      "supervised_tokens": 1067,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "9b662edf2f830ba3fbf8d5f1daee6c778dd29178353618f263897bbad5051653",
+      "loss": 0.6556705236434937,
+      "wall_seconds": 12.879570484161377,
+      "actual_input_tokens": 15003,
+      "masked_prompt_tokens": 12449,
+      "supervised_tokens": 2554,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "81d94703f2dd10b555307a4de1ee197738ff2bf26b1463c0c61ca182ce81b25a",
+      "loss": 0.1869501918554306,
+      "wall_seconds": 5.203049421310425,
+      "actual_input_tokens": 6474,
+      "masked_prompt_tokens": 6366,
+      "supervised_tokens": 108,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "1e51e1c6d22597b3bae369e4840948de75d4983f3a808f535a7809bfb5242c95",
+      "loss": 0.8392055034637451,
+      "wall_seconds": 5.903425455093384,
+      "actual_input_tokens": 7246,
+      "masked_prompt_tokens": 6948,
+      "supervised_tokens": 298,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "a5852c9947f324c0a53d86a1cd41caecf6f84dab2683fbd300d3ff0e8d18c0a2",
+      "loss": 0.20838502049446106,
+      "wall_seconds": 4.399077415466309,
+      "actual_input_tokens": 5578,
+      "masked_prompt_tokens": 5468,
+      "supervised_tokens": 110,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "d88bc853e9e91c5a1a702f02f210f848f6aff2c14ab8fd8d8f53f4aee9d50818",
+      "loss": 0.9212601780891418,
+      "wall_seconds": 10.939788341522217,
+      "actual_input_tokens": 12767,
+      "masked_prompt_tokens": 12196,
+      "supervised_tokens": 571,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "5d6128a1ef50e1f66d7727998937f8459cebf68d668a4109017393f1bcefb653",
+      "loss": 0.9967845678329468,
+      "wall_seconds": 5.9030539989471436,
+      "actual_input_tokens": 7157,
+      "masked_prompt_tokens": 6896,
+      "supervised_tokens": 261,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "5aa6fce8cf41cac79cd60f740c3385647b18822191948a025a849416b394f5c5",
+      "loss": 0.8481818437576294,
+      "wall_seconds": 6.679494142532349,
+      "actual_input_tokens": 8206,
+      "masked_prompt_tokens": 7802,
+      "supervised_tokens": 404,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "ae07d1c87174bed26c8886a691be193562b06d8e70023360c1d95a3c33f41f71",
+      "loss": 0.6568686366081238,
+      "wall_seconds": 9.451136350631714,
+      "actual_input_tokens": 11167,
+      "masked_prompt_tokens": 10931,
+      "supervised_tokens": 236,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "b0041a39efad0b40f28c882d8e0be0beea111ad5d8876ee2d17d994000059c93",
+      "loss": 0.5254276394844055,
+      "wall_seconds": 12.021488428115845,
+      "actual_input_tokens": 14061,
+      "masked_prompt_tokens": 13317,
+      "supervised_tokens": 744,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "547b6882214449336c7b4613958d33aa4e46b49bfba91b49f312b2f63fde11eb",
+      "loss": 0.6069231629371643,
+      "wall_seconds": 6.65262508392334,
+      "actual_input_tokens": 8160,
+      "masked_prompt_tokens": 7617,
+      "supervised_tokens": 543,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "50466251b349ab428728aeb5dad8dfeb8e59a99114e6acfc838dda90097fe8cb",
+      "loss": 0.6756162047386169,
+      "wall_seconds": 11.044219970703125,
+      "actual_input_tokens": 13152,
+      "masked_prompt_tokens": 12834,
+      "supervised_tokens": 318,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "89a582febf4590abaf3bf7bba41916c44f5335adc3254ecfc36ec0e2a7e75e10",
+      "loss": 0.9693293571472168,
+      "wall_seconds": 12.674888849258423,
+      "actual_input_tokens": 14942,
+      "masked_prompt_tokens": 14197,
+      "supervised_tokens": 745,
+      "images": 4,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "9d873b052f85f8ba6f5bbf80cd657fc0f9213d7bfb5a1f3a5e5a639041d9cbc8",
+      "loss": 1.0324386358261108,
+      "wall_seconds": 12.455673217773438,
+      "actual_input_tokens": 14682,
+      "masked_prompt_tokens": 13077,
+      "supervised_tokens": 1605,
+      "images": 4,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "6d2b1c8d98dbe2975a977792b5525417f1f1f79429f384ef3ba2dbb12911cace",
+      "loss": 0.8013954758644104,
+      "wall_seconds": 11.657073974609375,
+      "actual_input_tokens": 13726,
+      "masked_prompt_tokens": 13102,
+      "supervised_tokens": 624,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "01dc01917ae28cd306a353b0c679e0f7f584591c58a57f1124ca738436fa4e6d",
+      "loss": 0.8985502123832703,
+      "wall_seconds": 12.977778434753418,
+      "actual_input_tokens": 15085,
+      "masked_prompt_tokens": 13502,
+      "supervised_tokens": 1583,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "3ccbe2b14a53f0ca05aa50d4c4336b81abf7476c10d2aec5e067b1cf71db6391",
+      "loss": 0.8220186829566956,
+      "wall_seconds": 13.172098636627197,
+      "actual_input_tokens": 15245,
+      "masked_prompt_tokens": 14425,
+      "supervised_tokens": 820,
+      "images": 6,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "e81ff8cbb14a034d109f3c4455c8f1e8b34371cbc5bb2a1dba73e54a92291326",
+      "loss": 0.7880989909172058,
+      "wall_seconds": 5.7947375774383545,
+      "actual_input_tokens": 7075,
+      "masked_prompt_tokens": 6561,
+      "supervised_tokens": 514,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "8417490fcd91c15a3cf2a6902c9f82bbf27d63bb527d78ed5cbe61dc3079f46d",
+      "loss": 0.6600903272628784,
+      "wall_seconds": 9.033838510513306,
+      "actual_input_tokens": 10739,
+      "masked_prompt_tokens": 9287,
+      "supervised_tokens": 1452,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "d11b8aec83086e2bfe35e4a20ef04528f1eb6967591a97b1668f20b90f197eb1",
+      "loss": 0.7336145043373108,
+      "wall_seconds": 6.9248669147491455,
+      "actual_input_tokens": 8436,
+      "masked_prompt_tokens": 7211,
+      "supervised_tokens": 1225,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "f75790a0e53a2e4026038020b98b1411743c72ef17faf6e41b22f41bebc2cd61",
+      "loss": 0.15836253762245178,
+      "wall_seconds": 4.947892427444458,
+      "actual_input_tokens": 6168,
+      "masked_prompt_tokens": 6068,
+      "supervised_tokens": 100,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "2b94d88e1994581f0cb10f5948dc73aef69f6d20e0f60eb4dc667920bdfa39cb",
+      "loss": 0.9850649237632751,
+      "wall_seconds": 10.648546695709229,
+      "actual_input_tokens": 12481,
+      "masked_prompt_tokens": 11217,
+      "supervised_tokens": 1264,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "693e697d8c819e558442ee082295137a91b54f04f2ffd1b529c62997ba444d2d",
+      "loss": 0.11992355436086655,
+      "wall_seconds": 4.952940940856934,
+      "actual_input_tokens": 6158,
+      "masked_prompt_tokens": 6061,
+      "supervised_tokens": 97,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "6f51f72633de1923bb8470d0075ccc6bd0f78a5f56e79ef66c37e619e70281c3",
+      "loss": 0.7333410978317261,
+      "wall_seconds": 7.643165826797485,
+      "actual_input_tokens": 9248,
+      "masked_prompt_tokens": 8026,
+      "supervised_tokens": 1222,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "e41595028e3e4cc0bcc7e42690b051aa392e1bf2894c68094a008912f5fd1ae8",
+      "loss": 0.7841265797615051,
+      "wall_seconds": 9.535199403762817,
+      "actual_input_tokens": 11227,
+      "masked_prompt_tokens": 10375,
+      "supervised_tokens": 852,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "2e61cc7a16b313bfa55537843d00becffb135df4eea3b0281aacb376c38977d1",
+      "loss": 0.25379782915115356,
+      "wall_seconds": 10.938019275665283,
+      "actual_input_tokens": 12960,
+      "masked_prompt_tokens": 12800,
+      "supervised_tokens": 160,
+      "images": 4,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "7f85b394dad7029787447570c65eb62e997ce5864719a95574a267d42ff94bcc",
+      "loss": 0.5517916679382324,
+      "wall_seconds": 10.62447190284729,
+      "actual_input_tokens": 12427,
+      "masked_prompt_tokens": 12132,
+      "supervised_tokens": 295,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "8459f4c68950c1ea2935c5ab54663f9ce5cfb50f2775daa980b1a79261ea50d8",
+      "loss": 0.6740784049034119,
+      "wall_seconds": 9.13321828842163,
+      "actual_input_tokens": 10962,
+      "masked_prompt_tokens": 10414,
+      "supervised_tokens": 548,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "4ef909d3217fd3c00fceae1b4b2e9eb23f584b589315d15c4573e98d2f6e5cff",
+      "loss": 0.6978262662887573,
+      "wall_seconds": 11.608714818954468,
+      "actual_input_tokens": 13453,
+      "masked_prompt_tokens": 12325,
+      "supervised_tokens": 1128,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "5096404b3d5b588edbba825e861d06d5e0160265aa801a05c9aca5bb94745dd8",
+      "loss": 0.32516181468963623,
+      "wall_seconds": 11.592087507247925,
+      "actual_input_tokens": 13497,
+      "masked_prompt_tokens": 13419,
+      "supervised_tokens": 78,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "b0487e8b984119ad0d9e07c0196749c1388d0988aa92849bc099a3985605413e",
+      "loss": 0.6149476766586304,
+      "wall_seconds": 10.658456802368164,
+      "actual_input_tokens": 12447,
+      "masked_prompt_tokens": 12256,
+      "supervised_tokens": 191,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "475578ccf083f9dc4ff7635e0b9d48d13bb31f36a65ad145773f96ee27d1283b",
+      "loss": 0.7240464687347412,
+      "wall_seconds": 9.11703896522522,
+      "actual_input_tokens": 10755,
+      "masked_prompt_tokens": 10378,
+      "supervised_tokens": 377,
+      "images": 2,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "3e8a0dcf60d1bdbf32792674c3d602686f74035518fd710dbd16708ee96284ea",
+      "loss": 0.7825064659118652,
+      "wall_seconds": 6.1690833568573,
+      "actual_input_tokens": 7445,
+      "masked_prompt_tokens": 6926,
+      "supervised_tokens": 519,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "4f88e3312b6fd5918b6a914336c934ec9254c277ac93066669c8e53fa2228795",
+      "loss": 0.5718168020248413,
+      "wall_seconds": 12.949913024902344,
+      "actual_input_tokens": 15045,
+      "masked_prompt_tokens": 12814,
+      "supervised_tokens": 2231,
+      "images": 2,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "4601f3a8e71bd324e0e18fc197428fa26f1e6209cf60bf56c2b2965c62de3d08",
+      "loss": 0.5247656106948853,
+      "wall_seconds": 12.781688928604126,
+      "actual_input_tokens": 14853,
+      "masked_prompt_tokens": 14163,
+      "supervised_tokens": 690,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "d2868f0c0f82ec77934d4a7824cccfe1d981f3c03720824a928ab26a75bd0cdc",
+      "loss": 0.8240072727203369,
+      "wall_seconds": 12.700965642929077,
+      "actual_input_tokens": 14763,
+      "masked_prompt_tokens": 13081,
+      "supervised_tokens": 1682,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "72cf58ed79ad6328bd13f4e6448caa1d8690f75d4f68805a4cee58d3bf1f1567",
+      "loss": 0.13962529599666595,
+      "wall_seconds": 5.351426601409912,
+      "actual_input_tokens": 6553,
+      "masked_prompt_tokens": 6447,
+      "supervised_tokens": 106,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "39a5331b5aafcb21b0cefa91dfc9f9ea0c07e412c4c9bf9c5ad5eaf256a27c72",
+      "loss": 0.12477981299161911,
+      "wall_seconds": 5.276690244674683,
+      "actual_input_tokens": 6455,
+      "masked_prompt_tokens": 6358,
+      "supervised_tokens": 97,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "1a3c311fa667582131fa83d684e0307264c30a3d836907ded6a90ce2c64e1c6f",
+      "loss": 0.8343376517295837,
+      "wall_seconds": 12.45885682106018,
+      "actual_input_tokens": 14425,
+      "masked_prompt_tokens": 13007,
+      "supervised_tokens": 1418,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "a1b9f42f873795d64dd149315b81bdd820b781e3333321fa4023b41caae4b8ae",
+      "loss": 0.676405131816864,
+      "wall_seconds": 7.840840578079224,
+      "actual_input_tokens": 9528,
+      "masked_prompt_tokens": 9175,
+      "supervised_tokens": 353,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "672a0d7f8f33ba4c1c006df4e8f5fdff2efa460dd945cefef64a14f48e25bbd8",
+      "loss": 0.6328834295272827,
+      "wall_seconds": 8.519609451293945,
+      "actual_input_tokens": 10053,
+      "masked_prompt_tokens": 9432,
+      "supervised_tokens": 621,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "2b39fb41a4ba9ffb905151c7ca12a5fa1203f509dd919cbe2e82da532460afd6",
+      "loss": 0.1196381226181984,
+      "wall_seconds": 4.928232669830322,
+      "actual_input_tokens": 6144,
+      "masked_prompt_tokens": 6058,
+      "supervised_tokens": 86,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "fc1f0d7c84c2b0d76abdc31109830c1c90dc5cabcb926ff1a9d97c1c2833db9f",
+      "loss": 0.1388702243566513,
+      "wall_seconds": 5.19610333442688,
+      "actual_input_tokens": 6454,
+      "masked_prompt_tokens": 6358,
+      "supervised_tokens": 96,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "7de3df1315583fe658988120a0560d1db888acf3b8cdf9a91464b8e4dd8dbe2d",
+      "loss": 0.7032885551452637,
+      "wall_seconds": 8.68209719657898,
+      "actual_input_tokens": 10410,
+      "masked_prompt_tokens": 9917,
+      "supervised_tokens": 493,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "4cb60d224e07c311e48430d487862409b99c3c30f23ed75142904b40f74026ef",
+      "loss": 0.7152669429779053,
+      "wall_seconds": 11.45317816734314,
+      "actual_input_tokens": 13566,
+      "masked_prompt_tokens": 13121,
+      "supervised_tokens": 445,
+      "images": 2,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "c3d1bfc10ad603dadef2b3038a7b8d5ca2dadd1825ed7afb7ad384844d044839",
+      "loss": 0.6722882986068726,
+      "wall_seconds": 7.015977621078491,
+      "actual_input_tokens": 8494,
+      "masked_prompt_tokens": 8055,
+      "supervised_tokens": 439,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "b93810dc15887b7f050afee8a7671713a4cfdf0d21d24de613a03bde66622ae4",
+      "loss": 0.44993460178375244,
+      "wall_seconds": 8.950191974639893,
+      "actual_input_tokens": 10607,
+      "masked_prompt_tokens": 9671,
+      "supervised_tokens": 936,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "570ed1445e491103c6c28c9fc00b62d2cc2eace4da5b6880e3beeb7a2292de38",
+      "loss": 0.7087791562080383,
+      "wall_seconds": 8.440332412719727,
+      "actual_input_tokens": 9989,
+      "masked_prompt_tokens": 8860,
+      "supervised_tokens": 1129,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "cc91ad175f225726dbcf84291ef4792eaaabba9e17d358d976d64d20c58d4395",
+      "loss": 0.8046230673789978,
+      "wall_seconds": 6.701948404312134,
+      "actual_input_tokens": 8218,
+      "masked_prompt_tokens": 7322,
+      "supervised_tokens": 896,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "aac31832743418fb1ef6fe9ad993199849804fc65567f452ef1ad8d524679f2d",
+      "loss": 0.6163899898529053,
+      "wall_seconds": 7.040672302246094,
+      "actual_input_tokens": 8564,
+      "masked_prompt_tokens": 8054,
+      "supervised_tokens": 510,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "440aa05b584d30f38b386cb6d4d2077ff64df61b6f769480af328a3af7a9da9f",
+      "loss": 0.8454704284667969,
+      "wall_seconds": 8.673032999038696,
+      "actual_input_tokens": 10466,
+      "masked_prompt_tokens": 9577,
+      "supervised_tokens": 889,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "23df344ffa81a9af96905e3eaa28d90c1c74379f6e045e805d47a5da322be0e0",
+      "loss": 0.2794175148010254,
+      "wall_seconds": 5.2926294803619385,
+      "actual_input_tokens": 6580,
+      "masked_prompt_tokens": 6457,
+      "supervised_tokens": 123,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "628365d08d8b17aacee98a4fb18641fa7a12a957acacee2b04c553b090e2ebbf",
+      "loss": 0.7541295886039734,
+      "wall_seconds": 9.559901714324951,
+      "actual_input_tokens": 11253,
+      "masked_prompt_tokens": 9878,
+      "supervised_tokens": 1375,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "0bf04c79e29681a5081b91d1daa3bf728befbec3c9917dcdc4c983199581811e",
+      "loss": 0.19506041705608368,
+      "wall_seconds": 5.276917219161987,
+      "actual_input_tokens": 6570,
+      "masked_prompt_tokens": 6454,
+      "supervised_tokens": 116,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "fb93ec62ba825465da65432c5755a21eba36df65ebfd348ea087c1a56479f30a",
+      "loss": 0.6399232149124146,
+      "wall_seconds": 11.905190467834473,
+      "actual_input_tokens": 14088,
+      "masked_prompt_tokens": 12422,
+      "supervised_tokens": 1666,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "7dc2b78c0bc8f714a4e183b071176d27b9356c96bd9b306863ef72967b3940fa",
+      "loss": 0.8526206612586975,
+      "wall_seconds": 12.205132007598877,
+      "actual_input_tokens": 14189,
+      "masked_prompt_tokens": 13184,
+      "supervised_tokens": 1005,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "8daefe80b16b8b01f2b5da19022f138b505b04999bc32090a9a49ef3873d50e6",
+      "loss": 0.7799052000045776,
+      "wall_seconds": 8.50383973121643,
+      "actual_input_tokens": 10023,
+      "masked_prompt_tokens": 8701,
+      "supervised_tokens": 1322,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "c56ec9013dfe32d598494330b530c54bb15e294c77b6d4134d2c97657cddefab",
+      "loss": 0.5505926609039307,
+      "wall_seconds": 8.447811126708984,
+      "actual_input_tokens": 10023,
+      "masked_prompt_tokens": 9510,
+      "supervised_tokens": 513,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "810ef33d2a75998f375cff3b73f9ac2608fdcbdf4c3b4aa3fd2381313f745025",
+      "loss": 0.8832318782806396,
+      "wall_seconds": 12.431235313415527,
+      "actual_input_tokens": 14614,
+      "masked_prompt_tokens": 13198,
+      "supervised_tokens": 1416,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "621d86b59e2114c01199adc616dfcd01abb26417f575cce8b67093d4856817a0",
+      "loss": 0.7238950133323669,
+      "wall_seconds": 13.323813199996948,
+      "actual_input_tokens": 15684,
+      "masked_prompt_tokens": 15269,
+      "supervised_tokens": 415,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "c4df675c90f40968a750d85163b5b67abf916e51cd2e16e0c45253eedd0c8357",
+      "loss": 0.5001306533813477,
+      "wall_seconds": 8.356297254562378,
+      "actual_input_tokens": 10012,
+      "masked_prompt_tokens": 9831,
+      "supervised_tokens": 181,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "bf46582c33f4f058ab569981582f073084daaafd3fda59cf27d6a2e2dc56c217",
+      "loss": 0.6682354807853699,
+      "wall_seconds": 7.185816287994385,
+      "actual_input_tokens": 8752,
+      "masked_prompt_tokens": 7232,
+      "supervised_tokens": 1520,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "3c40e7b857ef9a61a426309932ae06755f8e92dd468969aa758901400073b972",
+      "loss": 0.13365837931632996,
+      "wall_seconds": 5.351428985595703,
+      "actual_input_tokens": 6551,
+      "masked_prompt_tokens": 6444,
+      "supervised_tokens": 107,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "d1e450c32c1379c4cef5d263e043a712e67e6c4febfb73a25b3786a19d4032b3",
+      "loss": 0.6012966632843018,
+      "wall_seconds": 8.302802324295044,
+      "actual_input_tokens": 10000,
+      "masked_prompt_tokens": 9475,
+      "supervised_tokens": 525,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "c081da3201ffbf13a7fbaa3bc53d281a9759d0410f283c0d9eb1bec3ca7f859b",
+      "loss": 0.5476998686790466,
+      "wall_seconds": 9.502311944961548,
+      "actual_input_tokens": 11205,
+      "masked_prompt_tokens": 9050,
+      "supervised_tokens": 2155,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "2c44d9dfe05f98401679e2b94b9cf7cbcfb0a70c42ede0cde2609f398fe324c7",
+      "loss": 0.14344465732574463,
+      "wall_seconds": 5.257730960845947,
+      "actual_input_tokens": 6534,
+      "masked_prompt_tokens": 6439,
+      "supervised_tokens": 95,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "6dbb09c05274cc419662c85645d658e4de12b7e25824997b05df63de1e345c66",
+      "loss": 0.18756935000419617,
+      "wall_seconds": 5.054512023925781,
+      "actual_input_tokens": 6174,
+      "masked_prompt_tokens": 6051,
+      "supervised_tokens": 123,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "2522e2fe7292f16e4fc4831ef9f2d154fdc9b2a6fbd5946c73c5b1d2c98e70f1",
+      "loss": 0.10088727623224258,
+      "wall_seconds": 5.198045253753662,
+      "actual_input_tokens": 6470,
+      "masked_prompt_tokens": 6373,
+      "supervised_tokens": 97,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "c256dd201cb562dd7d76c34524061d17c3d853dd6f994782b91dd2c5a171b8c1",
+      "loss": 0.7271555066108704,
+      "wall_seconds": 6.387650012969971,
+      "actual_input_tokens": 7721,
+      "masked_prompt_tokens": 7284,
+      "supervised_tokens": 437,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "860779c0df2f32215b627d43f36f56cd0882cc82435760631f32bd1d8a508f41",
+      "loss": 0.7501331567764282,
+      "wall_seconds": 8.920182704925537,
+      "actual_input_tokens": 10515,
+      "masked_prompt_tokens": 10039,
+      "supervised_tokens": 476,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "9fe74935ae09a4b61f08d5fece1e5b9de71f1ef65420514b21fd0a79d839fe4f",
+      "loss": 0.6691786050796509,
+      "wall_seconds": 5.3115973472595215,
+      "actual_input_tokens": 6618,
+      "masked_prompt_tokens": 6444,
+      "supervised_tokens": 174,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "52bc05038c07c69c8f854d3c6ca4a0e99dfe96571e3c33625fdbc0d74216ae5e",
+      "loss": 0.48053526878356934,
+      "wall_seconds": 11.59414029121399,
+      "actual_input_tokens": 13531,
+      "masked_prompt_tokens": 13206,
+      "supervised_tokens": 325,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "87c434195ca631c5ec24299e8400b477643b991dab386abfc6a7dd680edce36c",
+      "loss": 0.6281432509422302,
+      "wall_seconds": 7.083184480667114,
+      "actual_input_tokens": 8628,
+      "masked_prompt_tokens": 8167,
+      "supervised_tokens": 461,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "d97892c66b10273d5a3854bdc7247ac3fb7447797e1d64712501c97efb259705",
+      "loss": 0.7892493009567261,
+      "wall_seconds": 6.6547722816467285,
+      "actual_input_tokens": 8154,
+      "masked_prompt_tokens": 7045,
+      "supervised_tokens": 1109,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "3adf2be28ce4f9dcc74f7806550cd7639f3fd95ff4453e33fd490fe5d06183cf",
+      "loss": 0.579997181892395,
+      "wall_seconds": 13.437889099121094,
+      "actual_input_tokens": 15802,
+      "masked_prompt_tokens": 15376,
+      "supervised_tokens": 426,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "8d2633eb8fc73155b130d01694941b327f9818fa20b22b3ce9fe9df8e38a54be",
+      "loss": 0.14148271083831787,
+      "wall_seconds": 5.212890625,
+      "actual_input_tokens": 6478,
+      "masked_prompt_tokens": 6373,
+      "supervised_tokens": 105,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "ad1c22ec43f2b1554ac0de0039f081017a07c17996aecc8f61695143afe2180b",
+      "loss": 0.12846989929676056,
+      "wall_seconds": 5.3601837158203125,
+      "actual_input_tokens": 6564,
+      "masked_prompt_tokens": 6454,
+      "supervised_tokens": 110,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "1b5014a9a2d5d2019240ca2cedf84b0c6172ac9012950e0596458efa9e043e65",
+      "loss": 0.790835440158844,
+      "wall_seconds": 8.869624137878418,
+      "actual_input_tokens": 10748,
+      "masked_prompt_tokens": 10327,
+      "supervised_tokens": 421,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "c7c81d1fc270b7c0f907cca2fd5c5010eaa421ac0d2c0503cd956344fdad82a1",
+      "loss": 0.7116949558258057,
+      "wall_seconds": 9.703155517578125,
+      "actual_input_tokens": 11417,
+      "masked_prompt_tokens": 10353,
+      "supervised_tokens": 1064,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "15e8a1f3831f487db5414b92fe42b06763217e376edadb117593468ee13923c9",
+      "loss": 0.7311236262321472,
+      "wall_seconds": 13.702393054962158,
+      "actual_input_tokens": 16008,
+      "masked_prompt_tokens": 15091,
+      "supervised_tokens": 917,
+      "images": 6,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "e439a3d545c7fa4f9caecec4f0e3de6bd2d7aef950016358699831c19e149f74",
+      "loss": 0.8305173516273499,
+      "wall_seconds": 6.895490884780884,
+      "actual_input_tokens": 8416,
+      "masked_prompt_tokens": 8137,
+      "supervised_tokens": 279,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "b791c8a4bb170bd9c67ede0ea076763e1c7012379a621db935ab8c3ca30992ff",
+      "loss": 0.6940000057220459,
+      "wall_seconds": 9.899702787399292,
+      "actual_input_tokens": 11802,
+      "masked_prompt_tokens": 10818,
+      "supervised_tokens": 984,
+      "images": 5,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "e3d4c7f6196608ae09cfdb65b02e42670fb72789550c7a85c5bd1a2afee369f3",
+      "loss": 0.6972920298576355,
+      "wall_seconds": 7.716184854507446,
+      "actual_input_tokens": 9189,
+      "masked_prompt_tokens": 8822,
+      "supervised_tokens": 367,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "a1814f413c35f47187a669eb06cbc579ce002a29664689988bee8910230edf04",
+      "loss": 0.43217411637306213,
+      "wall_seconds": 5.3138954639434814,
+      "actual_input_tokens": 6640,
+      "masked_prompt_tokens": 6451,
+      "supervised_tokens": 189,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "0c6436d28e1b294433fc6047795e0df79f7a71df6321c4ab605b751111bf2958",
+      "loss": 0.8940181136131287,
+      "wall_seconds": 8.49783706665039,
+      "actual_input_tokens": 10093,
+      "masked_prompt_tokens": 8928,
+      "supervised_tokens": 1165,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "a805407c71a4a02eeb6c9c5517ca650fc55fd80b649e4ae94cd6ebd0a44f5080",
+      "loss": 0.8584533333778381,
+      "wall_seconds": 11.053303241729736,
+      "actual_input_tokens": 13136,
+      "masked_prompt_tokens": 12364,
+      "supervised_tokens": 772,
+      "images": 3,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    },
+    {
+      "example": "a3e12184c05233675703512eb4aa79b23529753e6e7191d3533c5bf09059d705",
+      "loss": 0.7316816449165344,
+      "wall_seconds": 9.083840370178223,
+      "actual_input_tokens": 10429,
+      "masked_prompt_tokens": 9410,
+      "supervised_tokens": 1019,
+      "images": 1,
+      "boundary": "Actual processor tensor/loss-mask checks only; not a backward pass or model-quality result."
+    }
+  ],
+  "validation": [
+    {
+      "tag": "before_training",
+      "mean_token_loss": 0.7663362788259471,
+      "supervised_tokens": 5237,
+      "examples": [
+        {
+          "example": "00f64627ef71c4cb2aefe94ed9049e8db9f3f95425f92386fc67e86f55c946cc",
+          "loss": 0.8704201579093933,
+          "supervised_tokens": 1241
+        },
+        {
+          "example": "ca0e34c7ee03464650b3de51d9b57ee8b73413dddc50968f742fb0a8afa2f489",
+          "loss": 0.8439388275146484,
+          "supervised_tokens": 1762
+        },
+        {
+          "example": "83a72df29192441d03c2657e69c32a3f86d2a1f902d74e4fff7133ef2610877a",
+          "loss": 0.4778350293636322,
+          "supervised_tokens": 232
+        },
+        {
+          "example": "eb87a502e8d0fc366db0eebbd0e944ea70bee34fdcfe363a7c596dc7ae753f3e",
+          "loss": 0.7221699357032776,
+          "supervised_tokens": 1361
+        },
+        {
+          "example": "0cc3d851a79a256c24b6a648a99510961f7db5eeb22b1f08de9e57baff3dd847",
+          "loss": 0.4176845848560333,
+          "supervised_tokens": 91
+        },
+        {
+          "example": "20d034c3ebaff57144f0e972173ecff45be5aaa00176de4d7bf07b528d8346e2",
+          "loss": 0.7291399240493774,
+          "supervised_tokens": 353
+        },
+        {
+          "example": "d094237a4be94d6ba2c4f6ccf06822f580538f3cb0edc79f8690e5df385f5310",
+          "loss": 0.21473193168640137,
+          "supervised_tokens": 109
+        },
+        {
+          "example": "4a2d4ad2ad02aa8d737871e3de840bdca5aac99acecf698f242d337a86378c05",
+          "loss": 0.3813520669937134,
+          "supervised_tokens": 88
+        }
+      ]
+    },
+    {
+      "tag": "after_training",
+      "mean_token_loss": 0.7236518625092456,
+      "supervised_tokens": 5237,
+      "examples": [
+        {
+          "example": "00f64627ef71c4cb2aefe94ed9049e8db9f3f95425f92386fc67e86f55c946cc",
+          "loss": 0.8274143934249878,
+          "supervised_tokens": 1241
+        },
+        {
+          "example": "ca0e34c7ee03464650b3de51d9b57ee8b73413dddc50968f742fb0a8afa2f489",
+          "loss": 0.8081265091896057,
+          "supervised_tokens": 1762
+        },
+        {
+          "example": "83a72df29192441d03c2657e69c32a3f86d2a1f902d74e4fff7133ef2610877a",
+          "loss": 0.42563149333000183,
+          "supervised_tokens": 232
+        },
+        {
+          "example": "eb87a502e8d0fc366db0eebbd0e944ea70bee34fdcfe363a7c596dc7ae753f3e",
+          "loss": 0.6881417632102966,
+          "supervised_tokens": 1361
+        },
+        {
+          "example": "0cc3d851a79a256c24b6a648a99510961f7db5eeb22b1f08de9e57baff3dd847",
+          "loss": 0.4246809482574463,
+          "supervised_tokens": 91
+        },
+        {
+          "example": "20d034c3ebaff57144f0e972173ecff45be5aaa00176de4d7bf07b528d8346e2",
+          "loss": 0.666816771030426,
+          "supervised_tokens": 353
+        },
+        {
+          "example": "d094237a4be94d6ba2c4f6ccf06822f580538f3cb0edc79f8690e5df385f5310",
+          "loss": 0.19428254663944244,
+          "supervised_tokens": 109
+        },
+        {
+          "example": "4a2d4ad2ad02aa8d737871e3de840bdca5aac99acecf698f242d337a86378c05",
+          "loss": 0.09668298065662384,
+          "supervised_tokens": 88
+        }
+      ]
+    },
+    {
+      "tag": "saved_adapter_reloaded",
+      "mean_token_loss": 0.7236518625092456,
+      "supervised_tokens": 5237,
+      "examples": [
+        {
+          "example": "00f64627ef71c4cb2aefe94ed9049e8db9f3f95425f92386fc67e86f55c946cc",
+          "loss": 0.8274143934249878,
+          "supervised_tokens": 1241
+        },
+        {
+          "example": "ca0e34c7ee03464650b3de51d9b57ee8b73413dddc50968f742fb0a8afa2f489",
+          "loss": 0.8081265091896057,
+          "supervised_tokens": 1762
+        },
+        {
+          "example": "83a72df29192441d03c2657e69c32a3f86d2a1f902d74e4fff7133ef2610877a",
+          "loss": 0.42563149333000183,
+          "supervised_tokens": 232
+        },
+        {
+          "example": "eb87a502e8d0fc366db0eebbd0e944ea70bee34fdcfe363a7c596dc7ae753f3e",
+          "loss": 0.6881417632102966,
+          "supervised_tokens": 1361
+        },
+        {
+          "example": "0cc3d851a79a256c24b6a648a99510961f7db5eeb22b1f08de9e57baff3dd847",
+          "loss": 0.4246809482574463,
+          "supervised_tokens": 91
+        },
+        {
+          "example": "20d034c3ebaff57144f0e972173ecff45be5aaa00176de4d7bf07b528d8346e2",
+          "loss": 0.666816771030426,
+          "supervised_tokens": 353
+        },
+        {
+          "example": "d094237a4be94d6ba2c4f6ccf06822f580538f3cb0edc79f8690e5df385f5310",
+          "loss": 0.19428254663944244,
+          "supervised_tokens": 109
+        },
+        {
+          "example": "4a2d4ad2ad02aa8d737871e3de840bdca5aac99acecf698f242d337a86378c05",
+          "loss": 0.09668298065662384,
+          "supervised_tokens": 88
+        }
+      ]
+    }
+  ],
+  "boundary": "Actual teacher-imitation training, not a gameplay or official score. Validation loss and serialization checks do not establish unfamiliar-game improvement.",
+  "updated_at_epoch": 1793552143.1612444,
+  "export_preflight": {
+    "passed": true,
+    "actual_runtime_normalizer_sha256": "4ca4271197f4636515bbac30636ac5187c19396a12e2653a0b04d07f23cedbeb",
+    "groups_checked": 48,
+    "max_absolute_error": 0.0,
+    "boundary": "Actual Torch/safetensors export and pinned runtime normalization on tiny synthetic tensors only; saved trained weights and gameplay remain required."
+  },
+  "dataset_sha256": {
+    "train": "fd73b3802e886bd4dc6c443ac24388f3c491f7720b6213ded89e4bc5889d71c5",
+    "validation": "c8527dde162787d496e842a6a4684cf692e9490211b8ce520176ade02c8ea452"
+  },
+  "validation_sample_ids": [
+    "00f64627ef71c4cb2aefe94ed9049e8db9f3f95425f92386fc67e86f55c946cc",
+    "ca0e34c7ee03464650b3de51d9b57ee8b73413dddc50968f742fb0a8afa2f489",
+    "83a72df29192441d03c2657e69c32a3f86d2a1f902d74e4fff7133ef2610877a",
+    "eb87a502e8d0fc366db0eebbd0e944ea70bee34fdcfe363a7c596dc7ae753f3e",
+    "0cc3d851a79a256c24b6a648a99510961f7db5eeb22b1f08de9e57baff3dd847",
+    "20d034c3ebaff57144f0e972173ecff45be5aaa00176de4d7bf07b528d8346e2",
+    "d094237a4be94d6ba2c4f6ccf06822f580538f3cb0edc79f8690e5df385f5310",
+    "4a2d4ad2ad02aa8d737871e3de840bdca5aac99acecf698f242d337a86378c05"
+  ],
+  "trainable_parameters": 108789760,
+  "lora_targets": [
+    "model.language_model.layers.0.linear_attn.in_proj_qkv",
+    "model.language_model.layers.0.linear_attn.in_proj_z",
+    "model.language_model.layers.0.linear_attn.out_proj",
+    "model.language_model.layers.0.mlp.down_proj",
+    "model.language_model.layers.0.mlp.gate_proj",
+    "model.language_model.layers.0.mlp.up_proj",
+    "model.language_model.layers.1.linear_attn.in_proj_qkv",
+    "model.language_model.layers.1.linear_attn.in_proj_z",
+    "model.language_model.layers.1.linear_attn.out_proj",
+    "model.language_model.layers.1.mlp.down_proj",
+    "model.language_model.layers.1.mlp.gate_proj",
+    "model.language_model.layers.1.mlp.up_proj",
+    "model.language_model.layers.10.linear_attn.in_proj_qkv",
+    "model.language_model.layers.10.linear_attn.in_proj_z",
+    "model.language_model.layers.10.linear_attn.out_proj",
+    "model.language_model.layers.10.mlp.down_proj",
+    "model.language_model.layers.10.mlp.gate_proj",
+    "model.language_model.layers.10.mlp.up_proj",
+    "model.language_model.layers.11.mlp.down_proj",
+    "model.language_model.layers.11.mlp.gate_proj",
+    "model.language_model.layers.11.mlp.up_proj",
+    "model.language_model.layers.11.self_attn.k_proj",
+    "model.language_model.layers.11.self_attn.o_proj",
+    "model.language_model.layers.11.self_attn.q_proj",
+    "model.language_model.layers.11.self_attn.v_proj",
+    "model.language_model.layers.12.linear_attn.in_proj_qkv",
+    "model.language_model.layers.12.linear_attn.in_proj_z",
+    "model.language_model.layers.12.linear_attn.out_proj",
+    "model.language_model.layers.12.mlp.down_proj",
+    "model.language_model.layers.12.mlp.gate_proj",
+    "model.language_model.layers.12.mlp.up_proj",
+    "model.language_model.layers.13.linear_attn.in_proj_qkv",
+    "model.language_model.layers.13.linear_attn.in_proj_z",
+    "model.language_model.layers.13.linear_attn.out_proj",
+    "model.language_model.layers.13.mlp.down_proj",
+    "model.language_model.layers.13.mlp.gate_proj",
+    "model.language_model.layers.13.mlp.up_proj",
+    "model.language_model.layers.14.linear_attn.in_proj_qkv",
+    "model.language_model.layers.14.linear_attn.in_proj_z",
+    "model.language_model.layers.14.linear_attn.out_proj",
+    "model.language_model.layers.14.mlp.down_proj",
+    "model.language_model.layers.14.mlp.gate_proj",
+    "model.language_model.layers.14.mlp.up_proj",
+    "model.language_model.layers.15.mlp.down_proj",
+    "model.language_model.layers.15.mlp.gate_proj",
+    "model.language_model.layers.15.mlp.up_proj",
+    "model.language_model.layers.15.self_attn.k_proj",
+    "model.language_model.layers.15.self_attn.o_proj",
+    "model.language_model.layers.15.self_attn.q_proj",
+    "model.language_model.layers.15.self_attn.v_proj",
+    "model.language_model.layers.16.linear_attn.in_proj_qkv",
+    "model.language_model.layers.16.linear_attn.in_proj_z",
+    "model.language_model.layers.16.linear_attn.out_proj",
+    "model.language_model.layers.16.mlp.down_proj",
+    "model.language_model.layers.16.mlp.gate_proj",
+    "model.language_model.layers.16.mlp.up_proj",
+    "model.language_model.layers.17.linear_attn.in_proj_qkv",
+    "model.language_model.layers.17.linear_attn.in_proj_z",
+    "model.language_model.layers.17.linear_attn.out_proj",
+    "model.language_model.layers.17.mlp.down_proj",
+    "model.language_model.layers.17.mlp.gate_proj",
+    "model.language_model.layers.17.mlp.up_proj",
+    "model.language_model.layers.18.linear_attn.in_proj_qkv",
+    "model.language_model.layers.18.linear_attn.in_proj_z",
+    "model.language_model.layers.18.linear_attn.out_proj",
+    "model.language_model.layers.18.mlp.down_proj",
+    "model.language_model.layers.18.mlp.gate_proj",
+    "model.language_model.layers.18.mlp.up_proj",
+    "model.language_model.layers.19.mlp.down_proj",
+    "model.language_model.layers.19.mlp.gate_proj",
+    "model.language_model.layers.19.mlp.up_proj",
+    "model.language_model.layers.19.self_attn.k_proj",
+    "model.language_model.layers.19.self_attn.o_proj",
+    "model.language_model.layers.19.self_attn.q_proj",
+    "model.language_model.layers.19.self_attn.v_proj",
+    "model.language_model.layers.2.linear_attn.in_proj_qkv",
+    "model.language_model.layers.2.linear_attn.in_proj_z",
+    "model.language_model.layers.2.linear_attn.out_proj",
+    "model.language_model.layers.2.mlp.down_proj",
+    "model.language_model.layers.2.mlp.gate_proj",
+    "model.language_model.layers.2.mlp.up_proj",
+    "model.language_model.layers.20.linear_attn.in_proj_qkv",
+    "model.language_model.layers.20.linear_attn.in_proj_z",
+    "model.language_model.layers.20.linear_attn.out_proj",
+    "model.language_model.layers.20.mlp.down_proj",
+    "model.language_model.layers.20.mlp.gate_proj",
+    "model.language_model.layers.20.mlp.up_proj",
+    "model.language_model.layers.21.linear_attn.in_proj_qkv",
+    "model.language_model.layers.21.linear_attn.in_proj_z",
+    "model.language_model.layers.21.linear_attn.out_proj",
+    "model.language_model.layers.21.mlp.down_proj",
+    "model.language_model.layers.21.mlp.gate_proj",
+    "model.language_model.layers.21.mlp.up_proj",
+    "model.language_model.layers.22.linear_attn.in_proj_qkv",
+    "model.language_model.layers.22.linear_attn.in_proj_z",
+    "model.language_model.layers.22.linear_attn.out_proj",
+    "model.language_model.layers.22.mlp.down_proj",
+    "model.language_model.layers.22.mlp.gate_proj",
+    "model.language_model.layers.22.mlp.up_proj",
+    "model.language_model.layers.23.mlp.down_proj",
+    "model.language_model.layers.23.mlp.gate_proj",
+    "model.language_model.layers.23.mlp.up_proj",
+    "model.language_model.layers.23.self_attn.k_proj",
+    "model.language_model.layers.23.self_attn.o_proj",
+    "model.language_model.layers.23.self_attn.q_proj",
+    "model.language_model.layers.23.self_attn.v_proj",
+    "model.language_model.layers.24.linear_attn.in_proj_qkv",
+    "model.language_model.layers.24.linear_attn.in_proj_z",
+    "model.language_model.layers.24.linear_attn.out_proj",
+    "model.language_model.layers.24.mlp.down_proj",
+    "model.language_model.layers.24.mlp.gate_proj",
+    "model.language_model.layers.24.mlp.up_proj",
+    "model.language_model.layers.25.linear_attn.in_proj_qkv",
+    "model.language_model.layers.25.linear_attn.in_proj_z",
+    "model.language_model.layers.25.linear_attn.out_proj",
+    "model.language_model.layers.25.mlp.down_proj",
+    "model.language_model.layers.25.mlp.gate_proj",
+    "model.language_model.layers.25.mlp.up_proj",
+    "model.language_model.layers.26.linear_attn.in_proj_qkv",
+    "model.language_model.layers.26.linear_attn.in_proj_z",
+    "model.language_model.layers.26.linear_attn.out_proj",
+    "model.language_model.layers.26.mlp.down_proj",
+    "model.language_model.layers.26.mlp.gate_proj",
+    "model.language_model.layers.26.mlp.up_proj",
+    "model.language_model.layers.27.mlp.down_proj",
+    "model.language_model.layers.27.mlp.gate_proj",
+    "model.language_model.layers.27.mlp.up_proj",
+    "model.language_model.layers.27.self_attn.k_proj",
+    "model.language_model.layers.27.self_attn.o_proj",
+    "model.language_model.layers.27.self_attn.q_proj",
+    "model.language_model.layers.27.self_attn.v_proj",
+    "model.language_model.layers.28.linear_attn.in_proj_qkv",
+    "model.language_model.layers.28.linear_attn.in_proj_z",
+    "model.language_model.layers.28.linear_attn.out_proj",
+    "model.language_model.layers.28.mlp.down_proj",
+    "model.language_model.layers.28.mlp.gate_proj",
+    "model.language_model.layers.28.mlp.up_proj",
+    "model.language_model.layers.29.linear_attn.in_proj_qkv",
+    "model.language_model.layers.29.linear_attn.in_proj_z",
+    "model.language_model.layers.29.linear_attn.out_proj",
+    "model.language_model.layers.29.mlp.down_proj",
+    "model.language_model.layers.29.mlp.gate_proj",
+    "model.language_model.layers.29.mlp.up_proj",
+    "model.language_model.layers.3.mlp.down_proj",
+    "model.language_model.layers.3.mlp.gate_proj",
+    "model.language_model.layers.3.mlp.up_proj",
+    "model.language_model.layers.3.self_attn.k_proj",
+    "model.language_model.layers.3.self_attn.o_proj",
+    "model.language_model.layers.3.self_attn.q_proj",
+    "model.language_model.layers.3.self_attn.v_proj",
+    "model.language_model.layers.30.linear_attn.in_proj_qkv",
+    "model.language_model.layers.30.linear_attn.in_proj_z",
+    "model.language_model.layers.30.linear_attn.out_proj",
+    "model.language_model.layers.30.mlp.down_proj",
+    "model.language_model.layers.30.mlp.gate_proj",
+    "model.language_model.layers.30.mlp.up_proj",
+    "model.language_model.layers.31.mlp.down_proj",
+    "model.language_model.layers.31.mlp.gate_proj",
+    "model.language_model.layers.31.mlp.up_proj",
+    "model.language_model.layers.31.self_attn.k_proj",
+    "model.language_model.layers.31.self_attn.o_proj",
+    "model.language_model.layers.31.self_attn.q_proj",
+    "model.language_model.layers.31.self_attn.v_proj",
+    "model.language_model.layers.32.linear_attn.in_proj_qkv",
+    "model.language_model.layers.32.linear_attn.in_proj_z",
+    "model.language_model.layers.32.linear_attn.out_proj",
+    "model.language_model.layers.32.mlp.down_proj",
+    "model.language_model.layers.32.mlp.gate_proj",
+    "model.language_model.layers.32.mlp.up_proj",
+    "model.language_model.layers.33.linear_attn.in_proj_qkv",
+    "model.language_model.layers.33.linear_attn.in_proj_z",
+    "model.language_model.layers.33.linear_attn.out_proj",
+    "model.language_model.layers.33.mlp.down_proj",
+    "model.language_model.layers.33.mlp.gate_proj",
+    "model.language_model.layers.33.mlp.up_proj",
+    "model.language_model.layers.34.linear_attn.in_proj_qkv",
+    "model.language_model.layers.34.linear_attn.in_proj_z",
+    "model.language_model.layers.34.linear_attn.out_proj",
+    "model.language_model.layers.34.mlp.down_proj",
+    "model.language_model.layers.34.mlp.gate_proj",
+    "model.language_model.layers.34.mlp.up_proj",
+    "model.language_model.layers.35.mlp.down_proj",
+    "model.language_model.layers.35.mlp.gate_proj",
+    "model.language_model.layers.35.mlp.up_proj",
+    "model.language_model.layers.35.self_attn.k_proj",
+    "model.language_model.layers.35.self_attn.o_proj",
+    "model.language_model.layers.35.self_attn.q_proj",
+    "model.language_model.layers.35.self_attn.v_proj",
+    "model.language_model.layers.36.linear_attn.in_proj_qkv",
+    "model.language_model.layers.36.linear_attn.in_proj_z",
+    "model.language_model.layers.36.linear_attn.out_proj",
+    "model.language_model.layers.36.mlp.down_proj",
+    "model.language_model.layers.36.mlp.gate_proj",
+    "model.language_model.layers.36.mlp.up_proj",
+    "model.language_model.layers.37.linear_attn.in_proj_qkv",
+    "model.language_model.layers.37.linear_attn.in_proj_z",
+    "model.language_model.layers.37.linear_attn.out_proj",
+    "model.language_model.layers.37.mlp.down_proj",
+    "model.language_model.layers.37.mlp.gate_proj",
+    "model.language_model.layers.37.mlp.up_proj",
+    "model.language_model.layers.38.linear_attn.in_proj_qkv",
+    "model.language_model.layers.38.linear_attn.in_proj_z",
+    "model.language_model.layers.38.linear_attn.out_proj",
+    "model.language_model.layers.38.mlp.down_proj",
+    "model.language_model.layers.38.mlp.gate_proj",
+    "model.language_model.layers.38.mlp.up_proj",
+    "model.language_model.layers.39.mlp.down_proj",
+    "model.language_model.layers.39.mlp.gate_proj",
+    "model.language_model.layers.39.mlp.up_proj",
+    "model.language_model.layers.39.self_attn.k_proj",
+    "model.language_model.layers.39.self_attn.o_proj",
+    "model.language_model.layers.39.self_attn.q_proj",
+    "model.language_model.layers.39.self_attn.v_proj",
+    "model.language_model.layers.4.linear_attn.in_proj_qkv",
+    "model.language_model.layers.4.linear_attn.in_proj_z",
+    "model.language_model.layers.4.linear_attn.out_proj",
+    "model.language_model.layers.4.mlp.down_proj",
+    "model.language_model.layers.4.mlp.gate_proj",
+    "model.language_model.layers.4.mlp.up_proj",
+    "model.language_model.layers.40.linear_attn.in_proj_qkv",
+    "model.language_model.layers.40.linear_attn.in_proj_z",
+    "model.language_model.layers.40.linear_attn.out_proj",
+    "model.language_model.layers.40.mlp.down_proj",
+    "model.language_model.layers.40.mlp.gate_proj",
+    "model.language_model.layers.40.mlp.up_proj",
+    "model.language_model.layers.41.linear_attn.in_proj_qkv",
+    "model.language_model.layers.41.linear_attn.in_proj_z",
+    "model.language_model.layers.41.linear_attn.out_proj",
+    "model.language_model.layers.41.mlp.down_proj",
+    "model.language_model.layers.41.mlp.gate_proj",
+    "model.language_model.layers.41.mlp.up_proj",
+    "model.language_model.layers.42.linear_attn.in_proj_qkv",
+    "model.language_model.layers.42.linear_attn.in_proj_z",
+    "model.language_model.layers.42.linear_attn.out_proj",
+    "model.language_model.layers.42.mlp.down_proj",
+    "model.language_model.layers.42.mlp.gate_proj",
+    "model.language_model.layers.42.mlp.up_proj",
+    "model.language_model.layers.43.mlp.down_proj",
+    "model.language_model.layers.43.mlp.gate_proj",
+    "model.language_model.layers.43.mlp.up_proj",
+    "model.language_model.layers.43.self_attn.k_proj",
+    "model.language_model.layers.43.self_attn.o_proj",
+    "model.language_model.layers.43.self_attn.q_proj",
+    "model.language_model.layers.43.self_attn.v_proj",
+    "model.language_model.layers.44.linear_attn.in_proj_qkv",
+    "model.language_model.layers.44.linear_attn.in_proj_z",
+    "model.language_model.layers.44.linear_attn.out_proj",
+    "model.language_model.layers.44.mlp.down_proj",
+    "model.language_model.layers.44.mlp.gate_proj",
+    "model.language_model.layers.44.mlp.up_proj",
+    "model.language_model.layers.45.linear_attn.in_proj_qkv",
+    "model.language_model.layers.45.linear_attn.in_proj_z",
+    "model.language_model.layers.45.linear_attn.out_proj",
+    "model.language_model.layers.45.mlp.down_proj",
+    "model.language_model.layers.45.mlp.gate_proj",
+    "model.language_model.layers.45.mlp.up_proj",
+    "model.language_model.layers.46.linear_attn.in_proj_qkv",
+    "model.language_model.layers.46.linear_attn.in_proj_z",
+    "model.language_model.layers.46.linear_attn.out_proj",
+    "model.language_model.layers.46.mlp.down_proj",
+    "model.language_model.layers.46.mlp.gate_proj",
+    "model.language_model.layers.46.mlp.up_proj",
+    "model.language_model.layers.47.mlp.down_proj",
+    "model.language_model.layers.47.mlp.gate_proj",
+    "model.language_model.layers.47.mlp.up_proj",
+    "model.language_model.layers.47.self_attn.k_proj",
+    "model.language_model.layers.47.self_attn.o_proj",
+    "model.language_model.layers.47.self_attn.q_proj",
+    "model.language_model.layers.47.self_attn.v_proj",
+    "model.language_model.layers.48.linear_attn.in_proj_qkv",
+    "model.language_model.layers.48.linear_attn.in_proj_z",
+    "model.language_model.layers.48.linear_attn.out_proj",
+    "model.language_model.layers.48.mlp.down_proj",
+    "model.language_model.layers.48.mlp.gate_proj",
+    "model.language_model.layers.48.mlp.up_proj",
+    "model.language_model.layers.49.linear_attn.in_proj_qkv",
+    "model.language_model.layers.49.linear_attn.in_proj_z",
+    "model.language_model.layers.49.linear_attn.out_proj",
+    "model.language_model.layers.49.mlp.down_proj",
+    "model.language_model.layers.49.mlp.gate_proj",
+    "model.language_model.layers.49.mlp.up_proj",
+    "model.language_model.layers.5.linear_attn.in_proj_qkv",
+    "model.language_model.layers.5.linear_attn.in_proj_z",
+    "model.language_model.layers.5.linear_attn.out_proj",
+    "model.language_model.layers.5.mlp.down_proj",
+    "model.language_model.layers.5.mlp.gate_proj",
+    "model.language_model.layers.5.mlp.up_proj",
+    "model.language_model.layers.50.linear_attn.in_proj_qkv",
+    "model.language_model.layers.50.linear_attn.in_proj_z",
+    "model.language_model.layers.50.linear_attn.out_proj",
+    "model.language_model.layers.50.mlp.down_proj",
+    "model.language_model.layers.50.mlp.gate_proj",
+    "model.language_model.layers.50.mlp.up_proj",
+    "model.language_model.layers.51.mlp.down_proj",
+    "model.language_model.layers.51.mlp.gate_proj",
+    "model.language_model.layers.51.mlp.up_proj",
+    "model.language_model.layers.51.self_attn.k_proj",
+    "model.language_model.layers.51.self_attn.o_proj",
+    "model.language_model.layers.51.self_attn.q_proj",
+    "model.language_model.layers.51.self_attn.v_proj",
+    "model.language_model.layers.52.linear_attn.in_proj_qkv",
+    "model.language_model.layers.52.linear_attn.in_proj_z",
+    "model.language_model.layers.52.linear_attn.out_proj",
+    "model.language_model.layers.52.mlp.down_proj",
+    "model.language_model.layers.52.mlp.gate_proj",
+    "model.language_model.layers.52.mlp.up_proj",
+    "model.language_model.layers.53.linear_attn.in_proj_qkv",
+    "model.language_model.layers.53.linear_attn.in_proj_z",
+    "model.language_model.layers.53.linear_attn.out_proj",
+    "model.language_model.layers.53.mlp.down_proj",
+    "model.language_model.layers.53.mlp.gate_proj",
+    "model.language_model.layers.53.mlp.up_proj",
+    "model.language_model.layers.54.linear_attn.in_proj_qkv",
+    "model.language_model.layers.54.linear_attn.in_proj_z",
+    "model.language_model.layers.54.linear_attn.out_proj",
+    "model.language_model.layers.54.mlp.down_proj",
+    "model.language_model.layers.54.mlp.gate_proj",
+    "model.language_model.layers.54.mlp.up_proj",
+    "model.language_model.layers.55.mlp.down_proj",
+    "model.language_model.layers.55.mlp.gate_proj",
+    "model.language_model.layers.55.mlp.up_proj",
+    "model.language_model.layers.55.self_attn.k_proj",
+    "model.language_model.layers.55.self_attn.o_proj",
+    "model.language_model.layers.55.self_attn.q_proj",
+    "model.language_model.layers.55.self_attn.v_proj",
+    "model.language_model.layers.56.linear_attn.in_proj_qkv",
+    "model.language_model.layers.56.linear_attn.in_proj_z",
+    "model.language_model.layers.56.linear_attn.out_proj",
+    "model.language_model.layers.56.mlp.down_proj",
+    "model.language_model.layers.56.mlp.gate_proj",
+    "model.language_model.layers.56.mlp.up_proj",
+    "model.language_model.layers.57.linear_attn.in_proj_qkv",
+    "model.language_model.layers.57.linear_attn.in_proj_z",
+    "model.language_model.layers.57.linear_attn.out_proj",
+    "model.language_model.layers.57.mlp.down_proj",
+    "model.language_model.layers.57.mlp.gate_proj",
+    "model.language_model.layers.57.mlp.up_proj",
+    "model.language_model.layers.58.linear_attn.in_proj_qkv",
+    "model.language_model.layers.58.linear_attn.in_proj_z",
+    "model.language_model.layers.58.linear_attn.out_proj",
+    "model.language_model.layers.58.mlp.down_proj",
+    "model.language_model.layers.58.mlp.gate_proj",
+    "model.language_model.layers.58.mlp.up_proj",
+    "model.language_model.layers.59.mlp.down_proj",
+    "model.language_model.layers.59.mlp.gate_proj",
+    "model.language_model.layers.59.mlp.up_proj",
+    "model.language_model.layers.59.self_attn.k_proj",
+    "model.language_model.layers.59.self_attn.o_proj",
+    "model.language_model.layers.59.self_attn.q_proj",
+    "model.language_model.layers.59.self_attn.v_proj",
+    "model.language_model.layers.6.linear_attn.in_proj_qkv",
+    "model.language_model.layers.6.linear_attn.in_proj_z",
+    "model.language_model.layers.6.linear_attn.out_proj",
+    "model.language_model.layers.6.mlp.down_proj",
+    "model.language_model.layers.6.mlp.gate_proj",
+    "model.language_model.layers.6.mlp.up_proj",
+    "model.language_model.layers.60.linear_attn.in_proj_qkv",
+    "model.language_model.layers.60.linear_attn.in_proj_z",
+    "model.language_model.layers.60.linear_attn.out_proj",
+    "model.language_model.layers.60.mlp.down_proj",
+    "model.language_model.layers.60.mlp.gate_proj",
+    "model.language_model.layers.60.mlp.up_proj",
+    "model.language_model.layers.61.linear_attn.in_proj_qkv",
+    "model.language_model.layers.61.linear_attn.in_proj_z",
+    "model.language_model.layers.61.linear_attn.out_proj",
+    "model.language_model.layers.61.mlp.down_proj",
+    "model.language_model.layers.61.mlp.gate_proj",
+    "model.language_model.layers.61.mlp.up_proj",
+    "model.language_model.layers.62.linear_attn.in_proj_qkv",
+    "model.language_model.layers.62.linear_attn.in_proj_z",
+    "model.language_model.layers.62.linear_attn.out_proj",
+    "model.language_model.layers.62.mlp.down_proj",
+    "model.language_model.layers.62.mlp.gate_proj",
+    "model.language_model.layers.62.mlp.up_proj",
+    "model.language_model.layers.63.mlp.down_proj",
+    "model.language_model.layers.63.mlp.gate_proj",
+    "model.language_model.layers.63.mlp.up_proj",
+    "model.language_model.layers.63.self_attn.k_proj",
+    "model.language_model.layers.63.self_attn.o_proj",
+    "model.language_model.layers.63.self_attn.q_proj",
+    "model.language_model.layers.63.self_attn.v_proj",
+    "model.language_model.layers.7.mlp.down_proj",
+    "model.language_model.layers.7.mlp.gate_proj",
+    "model.language_model.layers.7.mlp.up_proj",
+    "model.language_model.layers.7.self_attn.k_proj",
+    "model.language_model.layers.7.self_attn.o_proj",
+    "model.language_model.layers.7.self_attn.q_proj",
+    "model.language_model.layers.7.self_attn.v_proj",
+    "model.language_model.layers.8.linear_attn.in_proj_qkv",
+    "model.language_model.layers.8.linear_attn.in_proj_z",
+    "model.language_model.layers.8.linear_attn.out_proj",
+    "model.language_model.layers.8.mlp.down_proj",
+    "model.language_model.layers.8.mlp.gate_proj",
+    "model.language_model.layers.8.mlp.up_proj",
+    "model.language_model.layers.9.linear_attn.in_proj_qkv",
+    "model.language_model.layers.9.linear_attn.in_proj_z",
+    "model.language_model.layers.9.linear_attn.out_proj",
+    "model.language_model.layers.9.mlp.down_proj",
+    "model.language_model.layers.9.mlp.gate_proj",
+    "model.language_model.layers.9.mlp.up_proj"
+  ],
+  "model_loaded_at_epoch": 1793550526.1544914,
+  "training_examples_available": 158,
+  "native_loss_alignment": {
+    "native_loss": 2.5133259296417236,
+    "selected_loss": 2.5133259296417236,
+    "absolute_error": 0.0,
+    "boundary": "Short actual-checkpoint mathematical loss alignment check, not an ARC3 capability evaluation."
+  },
+  "training_started_at_epoch": 1793550609.8960407,
+  "last_gradient_norm": 0.7444354295730591,
+  "max_gpu_allocated_bytes": 75441778688,
+  "max_gpu_reserved_bytes": 78704017408,
+  "training_finished_at_epoch": 1793552091.8127317,
+  "adapter_output_squared_norm": 0.84804114374856,
+  "serving_export": {
+    "format": "SGLang d00d88efc8d6 GDN four-slice adapter",
+    "native_tensor_count": 800,
+    "serving_tensor_count": 992,
+    "qkv_delta_checks": [
+      {
+        "native": "base_model.model.model.language_model.layers.0.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.1.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.10.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.12.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.13.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.14.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.16.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.17.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.18.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.2.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.20.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.21.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.22.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.24.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.25.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.26.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.28.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.29.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.30.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.32.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.33.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.34.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.36.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.37.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.38.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.4.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.40.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.41.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.42.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.44.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.45.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.46.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.48.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.49.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.5.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.50.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.52.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.53.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.54.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.56.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.57.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.58.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.6.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.60.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.61.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.62.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.8.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      },
+      {
+        "native": "base_model.model.model.language_model.layers.9.linear_attn.in_proj_qkv.lora_B.weight",
+        "max_absolute_error": 0.0,
+        "widths": [
+          2048,
+          2048,
+          6144
+        ]
+      }
+    ],
+    "target_modules": [
+      "qkv_proj",
+      "o_proj",
+      "out_proj",
+      "in_proj_qkvz",
+      "gate_up_proj",
+      "down_proj"
+    ],
+    "serving_verified": false,
+    "boundary": "Actual-weight algebraic export only. Runtime load, routing and gameplay remain required.",
+    "files": {
+      "adapter_config.json": {
+        "bytes": 1227,
+        "sha256": "a6aec727ab26ba005e55e1c84145032a7ad8cdb8a3e21a3d3d8ee9c0e3b7792f"
+      },
+      "adapter_model.safetensors": {
+        "bytes": 466767600,
+        "sha256": "d43af1abea2c99c6fe527546c72bcb6acdb4cdb972a6dc9181a7b42e007e7b30"
+      },
+      "export-report.json": {
+        "bytes": 10870,
+        "sha256": "4bb5dec1e460c504d66695b56d37617c84f6c42882ce341426a5b1e3efe425a1"
+      }
+    }
+  },
+  "adapter_files": {
+    "README.md": {
+      "bytes": 5300,
+      "sha256": "49f69178f7f630e300fc208b9968c51f7c28fb8eeced49094a29170965c460e3"
+    },
+    "adapter_config.json": {
+      "bytes": 1280,
+      "sha256": "a7ded76027a6ee774c669af5082c3ebd2ba33a079bc95df28b49f93c7ac8b053"
+    },
+    "adapter_model.safetensors": {
+      "bytes": 435280528,
+      "sha256": "45c87044ffc3c133e4dfb637ed769e13fb78b040c7aefba59672183783760c4d"
+    }
+  },
+  "reloaded_adapter_active": "reloaded",
+  "reload_loss_absolute_error": 0.0,
+  "validation_loss_delta": -0.0426844163167015,
+  "training_epoch_fraction": 1.0,
+  "finished_at_epoch": 1793552143.1612377,
+  "serving_verified": false,
+  "gameplay_improvement_verified": false,
+  "official_submission_eligible": false
+}

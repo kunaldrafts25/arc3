@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-10-27T20:57:47.614307+00:00",
+  "kernel": "kunalsinghh25/arc-hydra-general-learner/1",
+  "status": "RUNNING",
+  "installation_checks": {
+    "ARC_HYDRA_STUDY_INSTALLED": {
+      "matches_cpu_gate": true,
+      "report": {
+        "extension": "general-study-v1",
+        "files": {
+          "python_tool_sandbox.py": {
+            "after": "d22bd92c65f03b9eda64b7c09c7e99e2799fb2b2c07951b26a16195b16b79ff3",
+            "before": "83ef0d3092e079f51cdb7da32e96dcb108473daf49f291f5e1e4bb3c02fe8385"
+          },
+          "tool_agent.py": {
+            "after": "67b831a00cff5e3735d4723c8aeaf2fa8b1670faa5507fb154f446ae1766467c",
+            "before": "283132b535967c5a78a098f93431e72ea3c6a149848e61c819452eae92e3869e"
+          }
+        },
+        "guidance_sha256": "75e30f3ce69688e14fb6d01512d8c04d42fa9596dac8067030d3648d30a361e3",
+        "library_sha256": "52749cb8bc4d80bee73d7621ac9ee017280ba427b4b204f310a4abe0c6eac0fd"
+      }
+    },
+    "ARC_HYDRA_VERIFIED_PLANNING_INSTALLED": {
+      "matches_cpu_gate": true,
+      "report": {
+        "enforce_probes": false,
+        "extension": "planning-assist-v1",
+        "files": {
+          "python_tool_sandbox.py": {
+            "after": "83ef0d3092e079f51cdb7da32e96dcb108473daf49f291f5e1e4bb3c02fe8385",
+            "before": "3900b7255842df04be9ad08f91b521279a2e63f8226ac4bc77fb6de7a4e36943"
+          },
+          "tool_agent.py": {
+            "after": "283132b535967c5a78a098f93431e72ea3c6a149848e61c819452eae92e3869e",
+            "before": "053556f4a2d19bbb0f04d3ecde14bad2d76abfe91e89254740b763136a5a8e82"
+          }
+        },
+        "library_sha256": "83057d90c3248775260aa3cc5d06a9f59a36572298dc0d41ef58a858a9a4efe0"
+      }
+    }
+  },
+  "model_readiness_established": false,
+  "score_established": false
+}

@@ -1,0 +1,35 @@
+{
+  "source": "https://www.kaggle.com/code/dfranzen/arc-agi-3-milestone-2-solution",
+  "source_sha256": "88a379f17c3a4ba8c98715fc23155346ccd6eb289bdafebadfc61a3178f9d9bd",
+  "source_code_sha256": [
+    "6fdcd1ae7445c0cfc26eec1047363aa0c196c867d289a35b6f64403b5a43dce2",
+    "9850ba064f46a851bfe7d29817a46c5fddd76f8eafcd6735a499da57cadac50c",
+    "7ef53c4c2f0a6c2e636be00056ac7ce2a6813c8d6d2ced8e65937e1d6465641a",
+    "0acc65bba3dd5435f5e25a73cb378b3ff269364f0f7a5a99226fc4a41060ae44",
+    "e90a3a7aafca6e8f3a041b70a4dbbec721adb62b58a19e1f89ac4f019d0ae976",
+    "c362ce556dc35ed0725c31b3f5c60b86bc83a2d94152fd1a109116813a4b5cf8",
+    "63d378a0f4ca15b2b46e69e8198b731b703e4ca91b3a889951127846b42cdd5d",
+    "f07004157034433dca3cae84e0000980649f21c32a70f2c17c6cb4111f1f3f7f",
+    "ba1a098185cfdde69293193cebdf108567a446667086c4cb771660a1696459ac",
+    "d390c0bc7cfb9d2e67fddd20e1be24b11930e886789916ce0cf467c492922266",
+    "b417422de021be6ab02751c570276f7639c3b8d52a755701472bbd05c79361d0"
+  ],
+  "author_repository": "https://github.com/da-fr/arc-agi-3-solution",
+  "inspected_repository_commit": "10882e332d883af3e61616df8c8a17d03a328a75",
+  "authors": [
+    "Daniel Franzen",
+    "Jeroen Cottaar",
+    "Tufa Labs"
+  ],
+  "license": "Apache-2.0; third-party model/runtime licenses also apply",
+  "mode": "benchmark",
+  "public_games": "all 25",
+  "public_runtime_seconds": 7200,
+  "public_startup_allowance_seconds": 3600,
+  "competition_changes": "Mechanically checked replay/planned actions, one exploratory action per tool call; shared model readiness, lifecycle counters and global finalization reserve. Original model/runtime/scheduler retained.",
+  "competition_finalization_reserve_seconds": 600,
+  "agent_variant": "verified-planning",
+  "verified_planning_sha256": "2fbcd9dc435ae8844e770fee3fce6987c0c37da7aecea6f5f41feb7b7cdf7172",
+  "extension_installer_sha256": "995b25a90892ace4ea42d307fde39f653544f08d0376e7fa746d9b3e120c29cd",
+  "public_competition_diagnostics": false
+}

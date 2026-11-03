@@ -1,0 +1,3 @@
+Transient read failure: ConnectionError attempt 1
+Transient read failure: ConnectTimeout attempt 1
+Transient read failure: ConnectionError attempt 2

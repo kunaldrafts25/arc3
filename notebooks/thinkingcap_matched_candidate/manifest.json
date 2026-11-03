@@ -1,0 +1,10 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-thinkingcap-matched-candidate",
+  "wall_seconds": 7200,
+  "launched": false,
+  "files": {
+    "submission.ipynb": "b6f41c6f73abe21af075a1fade1b05886d78aff7f1a62a09fd44d9dceddc3aef",
+    "kernel-metadata.json": "5aeafb8df0a188d3608b279884c71aecf8276767a434e54b03fdd587175846ac",
+    "provenance.json": "757811756bb09f0ab97212580c9ffd0c67b7d39b9707aa54f6c463dda4d117f7"
+  }
+}

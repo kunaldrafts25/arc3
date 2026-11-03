@@ -1,0 +1,12 @@
+{
+  "source_origin": "model",
+  "session_store_files": 0,
+  "event_files": 0,
+  "counts": {},
+  "per_session": {},
+  "source_sha256": {},
+  "event_formats": [],
+  "audit_errors": [],
+  "frozen_forecast_archive_complete": false,
+  "boundary": "Counts establish use and measured checks only. Model origin must be established separately from real gameplay/provenance; programmatic replay is not LLM adoption. Superseded archives are not counted as new checks. V1 events do not retain all original forecasts/cancellations; V2 explicitly logs forecast-before-dispatch and measured resolution, which this audit checks for internal consistency. These logs are not an independent game-state oracle. Matching selected features is not a correct object identity, rule, goal, better decision or score improvement. New version after refutation is an observed sequence, not proof of causal learning or successful repair."
+}

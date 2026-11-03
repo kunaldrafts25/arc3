@@ -1,0 +1,185 @@
+{
+  "checked_at": "2026-11-01T07:33:33.613326+00:00",
+  "control_analysis": {
+    "model_gameplay_verified": true,
+    "problems": [],
+    "games": 25,
+    "levels": 81,
+    "full_wins": 4,
+    "mean_public_score": 31.581267498484365,
+    "generated_tokens": 2911914,
+    "notes": {
+      "sk48-d8078629": "tokens=73488",
+      "tn36-ef4dde99": "tokens=71789",
+      "m0r0-492f87ba": "tokens=99928",
+      "bp35-0a0ad940": "tokens=72299",
+      "cn04-2fe56bfb": "tokens=138921",
+      "dc22-fdcac232": "tokens=117813",
+      "tu93-0768757b": "tokens=172944",
+      "lp85-305b61c3": "tokens=191295",
+      "ka59-38d34dbb": "tokens=177384",
+      "wa30-ee6fef47": "tokens=75280",
+      "vc33-5430563c": "tokens=154615",
+      "lf52-271a04aa": "tokens=112863",
+      "r11l-495a7899": "tokens=143558",
+      "sc25-635fd71a": "tokens=101255",
+      "sp80-589a99af": "tokens=118068",
+      "ar25-0c556536": "tokens=158339",
+      "sb26-7fbdac44": "tokens=55120",
+      "cd82-fb555c5d": "tokens=156136",
+      "re86-8af5384d": "tokens=160811",
+      "s5i5-18d95033": "tokens=77161",
+      "ls20-9607627b": "tokens=105541",
+      "ft09-0d8bbf25": "tokens=97299",
+      "su15-1944f8ab": "tokens=140688",
+      "tr87-cd924810": "tokens=154045",
+      "g50t-5849a774": "tokens=84801"
+    },
+    "boundary": "Public development gameplay only. Not a hidden score or proof of the 71-point goal.",
+    "token_accounting_corrections": [],
+    "token_accounting_basis": "Action-record generation plus terminal no-action generation; cancellation notes may include additional uncharged generation.",
+    "public_level_completions_by_elapsed_seconds": {
+      "1800": 37,
+      "3600": 64,
+      "5400": 81,
+      "7200": 81
+    }
+  },
+  "usage": {
+    "inspection_tools": {
+      "read_region": 216,
+      "row_runs": 249,
+      "read_cells": 239
+    },
+    "inspection_queries": 704,
+    "repeated_identical_event_metadata": 182,
+    "inspection_per_game": [
+      {
+        "game": "bp35-0a0ad940",
+        "queries": 84,
+        "repeated_identical_event_metadata": 6
+      },
+      {
+        "game": "cd82-fb555c5d",
+        "queries": 3,
+        "repeated_identical_event_metadata": 2
+      },
+      {
+        "game": "cn04-2fe56bfb",
+        "queries": 22,
+        "repeated_identical_event_metadata": 1
+      },
+      {
+        "game": "ft09-0d8bbf25",
+        "queries": 138,
+        "repeated_identical_event_metadata": 110
+      },
+      {
+        "game": "g50t-5849a774",
+        "queries": 99,
+        "repeated_identical_event_metadata": 3
+      },
+      {
+        "game": "ka59-38d34dbb",
+        "queries": 1,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "lf52-271a04aa",
+        "queries": 93,
+        "repeated_identical_event_metadata": 1
+      },
+      {
+        "game": "lp85-305b61c3",
+        "queries": 2,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "m0r0-492f87ba",
+        "queries": 36,
+        "repeated_identical_event_metadata": 11
+      },
+      {
+        "game": "r11l-495a7899",
+        "queries": 6,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "s5i5-18d95033",
+        "queries": 59,
+        "repeated_identical_event_metadata": 46
+      },
+      {
+        "game": "sb26-7fbdac44",
+        "queries": 2,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "sc25-635fd71a",
+        "queries": 32,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "sk48-d8078629",
+        "queries": 25,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "su15-1944f8ab",
+        "queries": 1,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "tn36-ef4dde99",
+        "queries": 80,
+        "repeated_identical_event_metadata": 2
+      },
+      {
+        "game": "tu93-0768757b",
+        "queries": 3,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "vc33-5430563c",
+        "queries": 13,
+        "repeated_identical_event_metadata": 0
+      },
+      {
+        "game": "wa30-ee6fef47",
+        "queries": 5,
+        "repeated_identical_event_metadata": 0
+      }
+    ],
+    "transcript_replies": 1675,
+    "reasoning_characters": 7855418,
+    "no_action_followup_prompts": 309,
+    "boundary": "read_cells telemetry omits requested coordinates, so identical event metadata does not establish an identical query. Repeated measurements may also occur inside one efficient computation. No-action turns can perform useful search. These counts do not identify wasted inference or establish causality."
+  },
+  "historical_common_gameplay": [
+    {
+      "run": "ultimate-candidate-v3",
+      "source_sha256": "e2db5e903f0d165a5d9905767b2ccd2ab7fb28dd4a52e5ff31a2c495f2e012db",
+      "gameplay_seconds": 4819.353899,
+      "score": 29.00474708742566,
+      "levels": 80,
+      "generated_tokens": 2925742
+    },
+    {
+      "run": "general-learner-v1",
+      "source_sha256": "c2ca907ef0d9e186d33ccb7bb8c899c321bdccf86061b911d61f7dd3d18ca0ef",
+      "gameplay_seconds": 4819.353899,
+      "score": 38.534239246284876,
+      "levels": 87,
+      "generated_tokens": 2886132
+    },
+    {
+      "run": "prediction-matched-control-v1",
+      "source_sha256": "a2f7a598aa1dff1a144071ba5ab82e7b3628935bcd83ad57677dd81f82cf8e54",
+      "gameplay_seconds": 4819.353899,
+      "score": 31.581267498484365,
+      "levels": 81,
+      "generated_tokens": 2911914
+    }
+  ],
+  "boundary": "Historical truncations are descriptive only. Scheduler horizons, sampling, extensions and startup policies differ. This does not isolate an inspection effect. Repeated queries and no-action turns can be useful computations. Neither public score nor tool adoption estimates official performance."
+}

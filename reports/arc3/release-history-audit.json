@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "reachable_blobs": 867,
+  "issues": [],
+  "unscanned": [],
+  "scope": "All reachable Git blob contents scanned for configured credential patterns and the current project-local token; not a guarantee against every possible secret."
+}

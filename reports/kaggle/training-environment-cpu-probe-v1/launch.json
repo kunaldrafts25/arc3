@@ -1,0 +1,34 @@
+{
+  "phase": "accepted",
+  "kernel": "kunalsinghh25/arc-hydra-training-environment-cpu-probe",
+  "files": {
+    "probe.ipynb": "f671354f62f72d052d2b2d0167984c57ad393201d5a27b6009dd935d56eab3ea",
+    "kernel-metadata.json": "acea587826fa34c6742ee84a650af15c6333ccfea9dfab3bd6aec1512653bc6c"
+  },
+  "cpu_only": true,
+  "hard_session_timeout_seconds": 1800,
+  "resources": {
+    "allowed": false,
+    "reason": "shared compute reserved or another GPU development job active",
+    "available_gpu_seconds": 86670.892129,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [
+      {
+        "kernel": "kunalsinghh25/arc-hydra-qwen27-matched-baseline",
+        "status": "RUNNING",
+        "accelerator": "unclassified"
+      }
+    ],
+    "arc2_free_seconds_floor": 10800
+  },
+  "scope": "CPU dependency and empty meta-model check only; no GPU, weights, training or official submission",
+  "recorded_at": "2026-11-01T13:26:45.310129+00:00",
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-training-environment-cpu-probe",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-training-environment-cpu-probe",
+    "versionNumber": 1,
+    "kernelId": 142117604
+  }
+}

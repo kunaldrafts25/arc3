@@ -1,0 +1,40 @@
+[{"stream_name":"stderr","time":8.532550883,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.532625222,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.532634762,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.532640911,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.256662083,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.256697679,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.256704119,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.256708701,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.528572646,"data":"{\n"}
+,{"stream_name":"stdout","time":15.528644624,"data":"  \"passed\": true,\n"}
+,{"stream_name":"stdout","time":15.528652118,"data":"  \"training_kernel\": \"kunalsinghh25/arc-hydra-qwen27-lora-pilot/1\",\n"}
+,{"stream_name":"stdout","time":15.528657221,"data":"  \"adapter_directory\": \"/kaggle/input/notebooks/kunalsinghh25/arc-hydra-qwen27-lora-pilot/sft-pilot/serving-adapter\",\n"}
+,{"stream_name":"stdout","time":15.52866209,"data":"  \"actual_tensor_count\": 992,\n"}
+,{"stream_name":"stdout","time":15.528666438,"data":"  \"recurrent_groups_checked\": 48,\n"}
+,{"stream_name":"stdout","time":15.528670946,"data":"  \"training_report_sha256\": \"7c2129b8b3d81a2ccc633a28129e6d2300f8c03c7668f11be1aeafa3d770e50d\",\n"}
+,{"stream_name":"stdout","time":15.528675386,"data":"  \"adapter_files\": {\n"}
+,{"stream_name":"stdout","time":15.52868009,"data":"    \"adapter_config.json\": {\n"}
+,{"stream_name":"stdout","time":15.528684718000001,"data":"      \"bytes\": 1227,\n"}
+,{"stream_name":"stdout","time":15.528689713,"data":"      \"sha256\": \"a6aec727ab26ba005e55e1c84145032a7ad8cdb8a3e21a3d3d8ee9c0e3b7792f\"\n"}
+,{"stream_name":"stdout","time":15.528694633,"data":"    },\n"}
+,{"stream_name":"stdout","time":15.528698812,"data":"    \"adapter_model.safetensors\": {\n"}
+,{"stream_name":"stdout","time":15.528703039,"data":"      \"bytes\": 466767600,\n"}
+,{"stream_name":"stdout","time":15.528707524,"data":"      \"sha256\": \"d43af1abea2c99c6fe527546c72bcb6acdb4cdb972a6dc9181a7b42e007e7b30\"\n"}
+,{"stream_name":"stdout","time":15.528712125,"data":"    },\n"}
+,{"stream_name":"stdout","time":15.528716297999999,"data":"    \"export-report.json\": {\n"}
+,{"stream_name":"stdout","time":15.52872103,"data":"      \"bytes\": 10870,\n"}
+,{"stream_name":"stdout","time":15.528725672,"data":"      \"sha256\": \"4bb5dec1e460c504d66695b56d37617c84f6c42882ce341426a5b1e3efe425a1\"\n"}
+,{"stream_name":"stdout","time":15.5287307,"data":"    }\n"}
+,{"stream_name":"stdout","time":15.528735101,"data":"  },\n"}
+,{"stream_name":"stdout","time":15.528739604,"data":"  \"boundary\": \"CPU-only exact mount, file hashes and saved tensor-header check. No weights loaded into a model; no inference or gameplay claim.\"\n"}
+,{"stream_name":"stdout","time":15.52874435,"data":"}\n"}
+,{"stream_name":"stderr","time":18.838276313,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":18.838330737,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":19.031052403,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":19.031114189,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":19.812736951,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":20.195166251,"data":"[NbConvertApp] Writing 6165 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":23.307264414,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":24.311130158,"data":"[NbConvertApp] Writing 290250 bytes to __results__.html\n"}
+]

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "cases": [
+    "actual_child_reads_historical_observation_and_exports_adoption",
+    "absolute_run_endpoints_are_exact_and_exclusive",
+    "sampled_regions_retain_raw_coordinate_axes",
+    "unobserved_step_is_rejected",
+    "negative_index_cannot_silently_wrap",
+    "actual_host_returns_values_and_persists_adoption_events",
+    "new_game_cannot_read_previous_game_steps"
+  ],
+  "base_mechanical_cases": 8,
+  "prompt_combinations": 16,
+  "boundary": "Synthetic actual-host CPU checks only. Pixel values are observations, not certified object roles or rules. No model gameplay/score gain established."
+}

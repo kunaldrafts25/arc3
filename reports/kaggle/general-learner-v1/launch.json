@@ -1,0 +1,17 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-general-learner/1",
+  "recorded_at": "2026-10-27T20:56:30.080793+00:00",
+  "files": {
+    "kernel-metadata.json": "64360b7782be57a12183f1c60ef13d8dfa92194479fc33f0ab6e9cf22d5b6096",
+    "provenance.json": "1a2d491a9cb6b527022e4d892c210c17020c40fe2068a4093859f6f87b045442",
+    "submission.ipynb": "d94289632f9c33c833b5eaa8a26e0dd98fc99931a54d1352d143592d13e0012e"
+  },
+  "notebook_timeout_seconds": 32400,
+  "whole_notebook_seconds": 32400,
+  "finalization_reserve_seconds": 600,
+  "public_games": 25,
+  "cpu_gate": "kunalsinghh25/arc-hydra-study-cpu-probe/2",
+  "local_tests_passed": 109,
+  "score": null,
+  "comparison_boundary": "Agent protocol and available compute both changed. No score improvement established."
+}

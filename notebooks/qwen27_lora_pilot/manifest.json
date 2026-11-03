@@ -1,0 +1,9 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-qwen27-lora-pilot",
+  "wall_seconds": 7200,
+  "files": {
+    "train.ipynb": "f7ae20d6323cc543c75f44a64927ced35d3be8bba051f05b687eb5876264200a",
+    "kernel-metadata.json": "143968d905131e4bd33ad95a7d59e77c45a17d618639ce57c5ce8215be63cf16",
+    "provenance.json": "74385d9fbca54c8685196bccf4e5c1833ce60bbb277b47b915a5a1a3603de990"
+  }
+}

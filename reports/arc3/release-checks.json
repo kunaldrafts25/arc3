@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-03T09:42:55.519303+00:00",
+  "arc3_tests_passed": 219,
+  "isolated_ci_tests_passed": 55,
+  "frozen_composition_snapshot_checked": true,
+  "documentation_links_checked": true,
+  "history_blob_credential_scan_passed": true,
+  "history_blobs_scanned": 867,
+  "working_tree_audit": {
+    "passed": true,
+    "files": 1272,
+    "total_bytes": 89367688,
+    "total_mib": 85.23,
+    "max_file_mib": 10,
+    "issues": [],
+    "scope": "Tracked plus nonignored working-tree files; credentials are never printed. Does not certify dependencies, licenses or old Git object contents."
+  },
+  "arc2_files_jobs_branch_preserved": true,
+  "git_commit_or_push_performed": false,
+  "shared_git_index_memory_bytes_verified": true,
+  "final_candidate_hashes_verified": true,
+  "staged_and_unstaged_whitespace_checks_passed": true,
+  "staged_scope": "ARC3 artifact byte preservation, .gitattributes and five transcript untrackings; no ARC2 index changes"
+}

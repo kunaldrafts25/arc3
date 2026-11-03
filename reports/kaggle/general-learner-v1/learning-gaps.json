@@ -1,0 +1,240 @@
+{
+  "source_sha256": "c2ca907ef0d9e186d33ccb7bb8c899c321bdccf86061b911d61f7dd3d18ca0ef",
+  "generated_tokens": 15203434,
+  "unfinished_tail_tokens": 5182917,
+  "unfinished_tail_fraction": 0.3409043641061618,
+  "memory_files": 25,
+  "memory_events": 244,
+  "changed_note_versions_by_status": {
+    "hypothesis": 119,
+    "supported": 298,
+    "contradicted": 0
+  },
+  "same_key_status_revisions": [
+    {
+      "before": "hypothesis",
+      "after": "hypothesis",
+      "count": 25
+    },
+    {
+      "before": "hypothesis",
+      "after": "supported",
+      "count": 11
+    },
+    {
+      "before": "supported",
+      "after": "hypothesis",
+      "count": 3
+    },
+    {
+      "before": "supported",
+      "after": "supported",
+      "count": 61
+    }
+  ],
+  "memory_file_hashes": {
+    "ar25-0c556536_p0_tool_runtime_state.study.events.jsonl": "a43e1f8a7e398d8450508b1e55332f3bad25ed0f6e8fbced2acd54db5d0feb24",
+    "bp35-0a0ad940_p0_tool_runtime_state.study.events.jsonl": "343c89e4e038ac4ca51b0deba3be638cc58f6c51d3146103caca3fd9560a2e95",
+    "cd82-fb555c5d_p0_tool_runtime_state.study.events.jsonl": "e2709e290cc000380552882fb620c4d5e03a9ceab2121a607b491e229ab75344",
+    "cn04-2fe56bfb_p0_tool_runtime_state.study.events.jsonl": "7aec49a15f426ebc10b5eae86c7d12254af60c80fa5c78e0753e8aa9a4a922f2",
+    "dc22-fdcac232_p0_tool_runtime_state.study.events.jsonl": "6a47a24608c54118aed5c69a0835d7697a4eb9d7cb7087f8a04ca13e8b8740e2",
+    "ft09-0d8bbf25_p0_tool_runtime_state.study.events.jsonl": "5ce8e223ec1ee02ab92dcc397df879f9edb7a78c3c13586d0b73c856e8351808",
+    "g50t-5849a774_p0_tool_runtime_state.study.events.jsonl": "03b007e08764508da4ba03e32f2e53d7f0a9ec01f64a4ba93a86be5e790e582d",
+    "ka59-38d34dbb_p0_tool_runtime_state.study.events.jsonl": "4f8856e07522ca492e664bd89301f713a713bcce046600d9e8cb012136e5e89d",
+    "lf52-271a04aa_p0_tool_runtime_state.study.events.jsonl": "00f08123917d67411bb9e942effb3706469ea11dc98f8b071efcd201148a0059",
+    "lp85-305b61c3_p0_tool_runtime_state.study.events.jsonl": "634c027aa0ddb3c831d3ad626439c38d9d339bccc2bf1a61ca7c61746466852e",
+    "ls20-9607627b_p0_tool_runtime_state.study.events.jsonl": "796212d1c29f15f9f1a8aafec8f2beb3e65d82eac7964e015946dff309cc2c4e",
+    "m0r0-492f87ba_p0_tool_runtime_state.study.events.jsonl": "e89779af201092e43c912c1b4adcd16208d4cd756a01e2f0a2e942416ed5baca",
+    "r11l-495a7899_p0_tool_runtime_state.study.events.jsonl": "77f88bbdd8d4810629efc402730025d31c249c4fca921c6b8d9c6b40bc60bb37",
+    "re86-8af5384d_p0_tool_runtime_state.study.events.jsonl": "0d84d87b5bb9814502ca99b141392c9e99a20627cba487d1582c45e856086fc1",
+    "s5i5-18d95033_p0_tool_runtime_state.study.events.jsonl": "ca942eb9dea85353ce22a25e4c44523cb7b8a49aeaf9ad323f3ebfe43852f816",
+    "sb26-7fbdac44_p0_tool_runtime_state.study.events.jsonl": "1cffe91b6afe636f4706cef5529b94a58801ce4040eada81104e7c0ab4a8a0c5",
+    "sc25-635fd71a_p0_tool_runtime_state.study.events.jsonl": "ed03387da8a95e196a4261d7a338d6b8c120022499afb5c215028e7e89399521",
+    "sk48-d8078629_p0_tool_runtime_state.study.events.jsonl": "f344ebd66eee3752294a55b659ec6c4a3164b69f9d8a1c98071c007564858e96",
+    "sp80-589a99af_p0_tool_runtime_state.study.events.jsonl": "d8de3cda51ee1ffa0ee4e36f6e6cc948b73b8019ded8c9918b6905b370be2cb1",
+    "su15-1944f8ab_p0_tool_runtime_state.study.events.jsonl": "2e39e4e13d549d7f4e5c133e4ac5eb47e70a3c0c38f4b4503c78e45712e646e1",
+    "tn36-ef4dde99_p0_tool_runtime_state.study.events.jsonl": "9c372fca0e97e3b4607bf339ccb87157e9a1ea7ae766842e630fc7fdf4e7e4a9",
+    "tr87-cd924810_p0_tool_runtime_state.study.events.jsonl": "a24e74562463ab9969ab6cdfcd175939b5e14433fc3a87b3354af06943517537",
+    "tu93-0768757b_p0_tool_runtime_state.study.events.jsonl": "6b21ca640dc17129b10bfe559f18d2bccb530e5219818f988b787f37cb5fe170",
+    "vc33-5430563c_p0_tool_runtime_state.study.events.jsonl": "0f6dec3859be844344386cf8b7c3e77455a5d397725b48c12281de368ed6210f",
+    "wa30-ee6fef47_p0_tool_runtime_state.study.events.jsonl": "d05e0d70c88de808c010738f00214a4b0e9a87921c66a70a0bce618b2254759a"
+  },
+  "per_game": [
+    {
+      "game_id": "sk48-d8078629",
+      "levels_completed": 6,
+      "total_levels": 8,
+      "generated_tokens": 1180503,
+      "unfinished_tail_tokens": 522303
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "levels_completed": 6,
+      "total_levels": 7,
+      "generated_tokens": 794773,
+      "unfinished_tail_tokens": 319112
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "levels_completed": 5,
+      "total_levels": 6,
+      "generated_tokens": 591399,
+      "unfinished_tail_tokens": 439370
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "levels_completed": 3,
+      "total_levels": 9,
+      "generated_tokens": 1100414,
+      "unfinished_tail_tokens": 289313
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "levels_completed": 6,
+      "total_levels": 6,
+      "generated_tokens": 826508,
+      "unfinished_tail_tokens": 0
+    },
+    {
+      "game_id": "dc22-fdcac232",
+      "levels_completed": 5,
+      "total_levels": 6,
+      "generated_tokens": 802033,
+      "unfinished_tail_tokens": 262485
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "levels_completed": 9,
+      "total_levels": 9,
+      "generated_tokens": 349708,
+      "unfinished_tail_tokens": 0
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "levels_completed": 8,
+      "total_levels": 8,
+      "generated_tokens": 147234,
+      "unfinished_tail_tokens": 0
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "levels_completed": 6,
+      "total_levels": 7,
+      "generated_tokens": 731309,
+      "unfinished_tail_tokens": 339887
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "levels_completed": 4,
+      "total_levels": 9,
+      "generated_tokens": 545894,
+      "unfinished_tail_tokens": 355685
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "levels_completed": 7,
+      "total_levels": 7,
+      "generated_tokens": 170539,
+      "unfinished_tail_tokens": 0
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "levels_completed": 4,
+      "total_levels": 10,
+      "generated_tokens": 780218,
+      "unfinished_tail_tokens": 424009
+    },
+    {
+      "game_id": "r11l-495a7899",
+      "levels_completed": 6,
+      "total_levels": 6,
+      "generated_tokens": 114094,
+      "unfinished_tail_tokens": 0
+    },
+    {
+      "game_id": "sc25-635fd71a",
+      "levels_completed": 6,
+      "total_levels": 6,
+      "generated_tokens": 309129,
+      "unfinished_tail_tokens": 0
+    },
+    {
+      "game_id": "sp80-589a99af",
+      "levels_completed": 4,
+      "total_levels": 6,
+      "generated_tokens": 1363650,
+      "unfinished_tail_tokens": 416374
+    },
+    {
+      "game_id": "ar25-0c556536",
+      "levels_completed": 8,
+      "total_levels": 8,
+      "generated_tokens": 131553,
+      "unfinished_tail_tokens": 0
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "levels_completed": 8,
+      "total_levels": 8,
+      "generated_tokens": 98221,
+      "unfinished_tail_tokens": 0
+    },
+    {
+      "game_id": "cd82-fb555c5d",
+      "levels_completed": 6,
+      "total_levels": 6,
+      "generated_tokens": 255426,
+      "unfinished_tail_tokens": 0
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "levels_completed": 6,
+      "total_levels": 8,
+      "generated_tokens": 798465,
+      "unfinished_tail_tokens": 596743
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "levels_completed": 3,
+      "total_levels": 8,
+      "generated_tokens": 1080952,
+      "unfinished_tail_tokens": 645572
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "levels_completed": 6,
+      "total_levels": 7,
+      "generated_tokens": 795908,
+      "unfinished_tail_tokens": 153123
+    },
+    {
+      "game_id": "ft09-0d8bbf25",
+      "levels_completed": 6,
+      "total_levels": 6,
+      "generated_tokens": 84399,
+      "unfinished_tail_tokens": 0
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "levels_completed": 8,
+      "total_levels": 9,
+      "generated_tokens": 965024,
+      "unfinished_tail_tokens": 267564
+    },
+    {
+      "game_id": "tr87-cd924810",
+      "levels_completed": 6,
+      "total_levels": 6,
+      "generated_tokens": 241735,
+      "unfinished_tail_tokens": 0
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "levels_completed": 5,
+      "total_levels": 7,
+      "generated_tokens": 944346,
+      "unfinished_tail_tokens": 151377
+    }
+  ],
+  "boundary": "Retrospective public development measurements. Tail reasoning did not produce another recorded completion, but may contain useful exploration or near-solutions. Absence of explicitly contradicted notes does not prove absence of belief correction: deletion and implicit rewrites are possible. Memory status labels are model-authored; observed-step validity does not establish causality. No hidden diagnosis or score improvement established."
+}

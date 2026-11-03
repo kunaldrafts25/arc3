@@ -1,0 +1,7731 @@
+{
+  "plans": [
+    [
+      "cn04",
+      5,
+      null,
+      "Geometric-group probe: test whether the alternate keyboard action rotates the controllable shape, changes mode, or resets it. Preserve color counts and compare transformed masks before fitting a pose model."
+    ],
+    [
+      "dc22",
+      4,
+      null,
+      "Control-grounding probe: compare RIGHT with the earlier ineffective UP and click; identify the affected object rather than assuming the large reference shapes are controllable."
+    ],
+    [
+      "lf52",
+      2,
+      null,
+      "Selection-conditioned collision test: RIGHT may have been blocked by an adjacent purple piece. Test DOWN into a visibly unoccupied tile before concluding that selection failed."
+    ],
+    [
+      "m0r0",
+      5,
+      null,
+      "Mode/interaction probe: measure whether the alternate keyboard action changes the large geometry, active object or only interface indicators."
+    ],
+    [
+      "re86",
+      5,
+      null,
+      "Mode probe after reversible directional changes: test whether the alternate action switches the active colored mechanism or resets/rotates the scene."
+    ],
+    [
+      "sp80",
+      5,
+      null,
+      "Test the alternate action to discriminate translation-only control from a selectable transformation mode; compare persistent geometry separately from counters."
+    ],
+    [
+      "tn36",
+      6,
+      {
+        "x": 32,
+        "y": 19
+      },
+      "Affordance revision: selecting blue features and the lower circle was ineffective. Test an adjacent checkerboard cell as a possible movement destination."
+    ],
+    [
+      "s5i5",
+      6,
+      {
+        "x": 38,
+        "y": 21
+      },
+      "Topology probe: operate one control from the other framed pair, then compare remote link changes with local color/selection changes."
+    ],
+    [
+      "bp35",
+      6,
+      {
+        "x": 35,
+        "y": 41
+      },
+      "Probe the spatial action near the corridor/water boundary after lateral control was observed; test direct target interaction versus keyboard-only dynamics."
+    ],
+    [
+      "ka59",
+      6,
+      {
+        "x": 29,
+        "y": 33
+      },
+      "Control-identity probe: click the second visible purple marker and inspect selection/mode feedback before applying another direction."
+    ]
+  ],
+  "results": [
+    {
+      "game": "cn04-2fe56bfb",
+      "index": 3,
+      "command": {
+        "action": 5
+      },
+      "reason": "Geometric-group probe: test whether the alternate keyboard action rotates the controllable shape, changes mode, or resets it. Preserve color counts and compare transformed masks before fitting a pose model.",
+      "observed_at": "2026-10-27T20:02:25.615251+00:00",
+      "state": "NOT_FINISHED",
+      "levels": 0,
+      "total_levels": 6,
+      "actions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "D:\\compi\\ARC-AGI-3-Kaggle-Starter\\reference\\manual-play\\2026-10-28\\cn04-0003.png",
+      "diff": {
+        "changed_cells": 207,
+        "bbox": [
+          11,
+          11,
+          28,
+          28
+        ],
+        "shape_changed": false
+      },
+      "observation_sha256": "dc0bf0fab21621ad688dcb8f32c9215eae5d021e4db243abdc1d97186056c7e7",
+      "colors": {
+        "10": 3749,
+        "0": 136,
+        "4": 31,
+        "8": 36,
+        "14": 144
+      },
+      "components": [
+        {
+          "color": 0,
+          "area": 1,
+          "point": [
+            16,
+            0
+          ],
+          "bbox": [
+            16,
+            0,
+            16,
+            0
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            16.0,
+            0.0
+          ]
+        },
+        {
+          "color": 8,
+          "area": 9,
+          "point": [
+            12,
+            15
+          ],
+          "bbox": [
+            11,
+            14,
+            13,
+            16
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "2b765cb343180330"
+          ],
+          "centroid": [
+            12.0,
+            15.0
+          ]
+        },
+        {
+          "color": 8,
+          "area": 9,
+          "point": [
+            12,
+            21
+          ],
+          "bbox": [
+            11,
+            20,
+            13,
+            22
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "2b765cb343180330"
+          ],
+          "centroid": [
+            12.0,
+            21.0
+          ]
+        },
+        {
+          "color": 8,
+          "area": 9,
+          "point": [
+            39,
+            36
+          ],
+          "bbox": [
+            38,
+            35,
+            40,
+            37
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "2b765cb343180330"
+          ],
+          "centroid": [
+            39.0,
+            36.0
+          ]
+        },
+        {
+          "color": 8,
+          "area": 9,
+          "point": [
+            39,
+            42
+          ],
+          "bbox": [
+            38,
+            41,
+            40,
+            43
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "2b765cb343180330"
+          ],
+          "centroid": [
+            39.0,
+            42.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 31,
+          "point": [
+            32,
+            0
+          ],
+          "bbox": [
+            17,
+            0,
+            47,
+            0
+          ],
+          "shape": [
+            [
+              1,
+              31
+            ],
+            "0b4d9703b41c21cb"
+          ],
+          "centroid": [
+            32.0,
+            0.0
+          ]
+        },
+        {
+          "color": 10,
+          "area": 45,
+          "point": [
+            45,
+            39
+          ],
+          "bbox": [
+            44,
+            32,
+            46,
+            46
+          ],
+          "shape": [
+            [
+              15,
+              3
+            ],
+            "2a82c01b09112cba"
+          ],
+          "centroid": [
+            45.0,
+            39.0
+          ]
+        },
+        {
+          "color": 0,
+          "area": 135,
+          "point": [
+            22,
+            16
+          ],
+          "bbox": [
+            14,
+            11,
+            28,
+            25
+          ],
+          "shape": [
+            [
+              15,
+              15
+            ],
+            "6797a4ce2e4e0f8c"
+          ],
+          "centroid": [
+            22.2,
+            18.0
+          ]
+        },
+        {
+          "color": 14,
+          "area": 144,
+          "point": [
+            43,
+            39
+          ],
+          "bbox": [
+            41,
+            29,
+            49,
+            49
+          ],
+          "shape": [
+            [
+              21,
+              9
+            ],
+            "a57ce1830998d4e6"
+          ],
+          "centroid": [
+            45.0,
+            39.0
+          ]
+        },
+        {
+          "color": 10,
+          "area": 3704,
+          "point": [
+            31,
+            32
+          ],
+          "bbox": [
+            0,
+            0,
+            63,
+            63
+          ],
+          "shape": [
+            [
+              64,
+              64
+            ],
+            "3a0547c0653b19e6"
+          ],
+          "centroid": [
+            31.20842332613391,
+            31.910637149028076
+          ]
+        }
+      ]
+    },
+    {
+      "game": "dc22-fdcac232",
+      "index": 3,
+      "command": {
+        "action": 4
+      },
+      "reason": "Control-grounding probe: compare RIGHT with the earlier ineffective UP and click; identify the affected object rather than assuming the large reference shapes are controllable.",
+      "observed_at": "2026-10-27T20:02:25.631245+00:00",
+      "state": "NOT_FINISHED",
+      "levels": 0,
+      "total_levels": 6,
+      "actions": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "image": "D:\\compi\\ARC-AGI-3-Kaggle-Starter\\reference\\manual-play\\2026-10-28\\dc22-0003.png",
+      "diff": {
+        "changed_cells": 9,
+        "bbox": [
+          1,
+          38,
+          13,
+          63
+        ],
+        "shape_changed": false
+      },
+      "observation_sha256": "c527898a3cab14ff1884e780bf95701bbb53b17049807cba69f9df4beb300bbd",
+      "colors": {
+        "3": 1218,
+        "4": 1256,
+        "0": 186,
+        "5": 1190,
+        "8": 71,
+        "2": 80,
+        "9": 71,
+        "11": 4,
+        "13": 16,
+        "14": 4
+      },
+      "components": [
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            9,
+            34
+          ],
+          "bbox": [
+            9,
+            34,
+            9,
+            34
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            9.0,
+            34.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 1,
+          "point": [
+            10,
+            34
+          ],
+          "bbox": [
+            10,
+            34,
+            10,
+            34
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            10.0,
+            34.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            11,
+            34
+          ],
+          "bbox": [
+            11,
+            34,
+            11,
+            34
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            11.0,
+            34.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            8,
+            35
+          ],
+          "bbox": [
+            8,
+            35,
+            8,
+            35
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            8.0,
+            35.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 1,
+          "point": [
+            9,
+            35
+          ],
+          "bbox": [
+            9,
+            35,
+            9,
+            35
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            9.0,
+            35.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            10,
+            35
+          ],
+          "bbox": [
+            10,
+            35,
+            10,
+            35
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            10.0,
+            35.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            9,
+            36
+          ],
+          "bbox": [
+            9,
+            36,
+            9,
+            36
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            9.0,
+            36.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 1,
+          "point": [
+            10,
+            36
+          ],
+          "bbox": [
+            10,
+            36,
+            10,
+            36
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            10.0,
+            36.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            11,
+            36
+          ],
+          "bbox": [
+            11,
+            36,
+            11,
+            36
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            11.0,
+            36.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            8,
+            37
+          ],
+          "bbox": [
+            8,
+            37,
+            8,
+            37
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            8.0,
+            37.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 1,
+          "point": [
+            9,
+            37
+          ],
+          "bbox": [
+            9,
+            37,
+            9,
+            37
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            9.0,
+            37.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            10,
+            37
+          ],
+          "bbox": [
+            10,
+            37,
+            10,
+            37
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            10.0,
+            37.0
+          ]
+        },
+        {
+          "color": 0,
+          "area": 4,
+          "point": [
+            32,
+            10
+          ],
+          "bbox": [
+            32,
+            10,
+            33,
+            11
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            32.5,
+            10.5
+          ]
+        },
+        {
+          "color": 0,
+          "area": 4,
+          "point": [
+            32,
+            14
+          ],
+          "bbox": [
+            32,
+            14,
+            33,
+            15
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            32.5,
+            14.5
+          ]
+        },
+        {
+          "color": 0,
+          "area": 4,
+          "point": [
+            32,
+            18
+          ],
+          "bbox": [
+            32,
+            18,
+            33,
+            19
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            32.5,
+            18.5
+          ]
+        },
+        {
+          "color": 11,
+          "area": 4,
+          "point": [
+            24,
+            20
+          ],
+          "bbox": [
+            24,
+            20,
+            25,
+            21
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            24.5,
+            20.5
+          ]
+        },
+        {
+          "color": 0,
+          "area": 4,
+          "point": [
+            32,
+            22
+          ],
+          "bbox": [
+            32,
+            22,
+            33,
+            23
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            32.5,
+            22.5
+          ]
+        },
+        {
+          "color": 0,
+          "area": 4,
+          "point": [
+            32,
+            26
+          ],
+          "bbox": [
+            32,
+            26,
+            33,
+            27
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            32.5,
+            26.5
+          ]
+        },
+        {
+          "color": 0,
+          "area": 4,
+          "point": [
+            32,
+            30
+          ],
+          "bbox": [
+            32,
+            30,
+            33,
+            31
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            32.5,
+            30.5
+          ]
+        },
+        {
+          "color": 0,
+          "area": 4,
+          "point": [
+            32,
+            34
+          ],
+          "bbox": [
+            32,
+            34,
+            33,
+            35
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            32.5,
+            34.5
+          ]
+        },
+        {
+          "color": 14,
+          "area": 4,
+          "point": [
+            12,
+            38
+          ],
+          "bbox": [
+            12,
+            38,
+            13,
+            39
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            12.5,
+            38.5
+          ]
+        },
+        {
+          "color": 0,
+          "area": 4,
+          "point": [
+            32,
+            38
+          ],
+          "bbox": [
+            32,
+            38,
+            33,
+            39
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            32.5,
+            38.5
+          ]
+        },
+        {
+          "color": 0,
+          "area": 4,
+          "point": [
+            32,
+            42
+          ],
+          "bbox": [
+            32,
+            42,
+            33,
+            43
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            32.5,
+            42.5
+          ]
+        },
+        {
+          "color": 0,
+          "area": 4,
+          "point": [
+            32,
+            46
+          ],
+          "bbox": [
+            32,
+            46,
+            33,
+            47
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            32.5,
+            46.5
+          ]
+        },
+        {
+          "color": 0,
+          "area": 4,
+          "point": [
+            32,
+            50
+          ],
+          "bbox": [
+            32,
+            50,
+            33,
+            51
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            32.5,
+            50.5
+          ]
+        },
+        {
+          "color": 9,
+          "area": 16,
+          "point": [
+            20,
+            22
+          ],
+          "bbox": [
+            18,
+            20,
+            21,
+            23
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            19.5,
+            21.5
+          ]
+        },
+        {
+          "color": 2,
+          "area": 16,
+          "point": [
+            10,
+            32
+          ],
+          "bbox": [
+            8,
+            30,
+            11,
+            33
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            9.5,
+            31.5
+          ]
+        },
+        {
+          "color": 13,
+          "area": 16,
+          "point": [
+            20,
+            32
+          ],
+          "bbox": [
+            18,
+            30,
+            21,
+            33
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            19.5,
+            31.5
+          ]
+        },
+        {
+          "color": 8,
+          "area": 24,
+          "point": [
+            15,
+            32
+          ],
+          "bbox": [
+            12,
+            30,
+            17,
+            33
+          ],
+          "shape": [
+            [
+              4,
+              6
+            ],
+            "a84a46ea386f5fe0"
+          ],
+          "centroid": [
+            14.5,
+            31.5
+          ]
+        },
+        {
+          "color": 2,
+          "area": 32,
+          "point": [
+            26,
+            20
+          ],
+          "bbox": [
+            22,
+            18,
+            27,
+            23
+          ],
+          "shape": [
+            [
+              6,
+              6
+            ],
+            "838830a43208679d"
+          ],
+          "centroid": [
+            24.5,
+            20.5
+          ]
+        },
+        {
+          "color": 2,
+          "area": 32,
+          "point": [
+            10,
+            41
+          ],
+          "bbox": [
+            8,
+            38,
+            13,
+            43
+          ],
+          "shape": [
+            [
+              6,
+              6
+            ],
+            "0c3b64fb60ebae50"
+          ],
+          "centroid": [
+            10.25,
+            40.75
+          ]
+        },
+        {
+          "color": 0,
+          "area": 40,
+          "point": [
+            48,
+            22
+          ],
+          "bbox": [
+            41,
+            16,
+            55,
+            22
+          ],
+          "shape": [
+            [
+              7,
+              15
+            ],
+            "d949d323d3a297c0"
+          ],
+          "centroid": [
+            48.0,
+            19.45
+          ]
+        },
+        {
+          "color": 0,
+          "area": 40,
+          "point": [
+            48,
+            39
+          ],
+          "bbox": [
+            41,
+            33,
+            55,
+            39
+          ],
+          "shape": [
+            [
+              7,
+              15
+            ],
+            "d949d323d3a297c0"
+          ],
+          "centroid": [
+            48.0,
+            36.45
+          ]
+        },
+        {
+          "color": 8,
+          "area": 47,
+          "point": [
+            48,
+            19
+          ],
+          "bbox": [
+            42,
+            17,
+            54,
+            21
+          ],
+          "shape": [
+            [
+              5,
+              13
+            ],
+            "0bb4b63b68681439"
+          ],
+          "centroid": [
+            48.0,
+            19.382978723404257
+          ]
+        },
+        {
+          "color": 9,
+          "area": 47,
+          "point": [
+            48,
+            36
+          ],
+          "bbox": [
+            42,
+            34,
+            54,
+            38
+          ],
+          "shape": [
+            [
+              5,
+              13
+            ],
+            "0bb4b63b68681439"
+          ],
+          "centroid": [
+            48.0,
+            36.38297872340426
+          ]
+        },
+        {
+          "color": 0,
+          "area": 62,
+          "point": [
+            32,
+            63
+          ],
+          "bbox": [
+            2,
+            63,
+            63,
+            63
+          ],
+          "shape": [
+            [
+              1,
+              62
+            ],
+            "dac2ae1119bb7a06"
+          ],
+          "centroid": [
+            32.5,
+            63.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 578,
+          "point": [
+            31,
+            58
+          ],
+          "bbox": [
+            0,
+            54,
+            63,
+            63
+          ],
+          "shape": [
+            [
+              10,
+              64
+            ],
+            "17d19ca210f78c88"
+          ],
+          "centroid": [
+            31.39273356401384,
+            58.017301038062286
+          ]
+        },
+        {
+          "color": 3,
+          "area": 640,
+          "point": [
+            31,
+            4
+          ],
+          "bbox": [
+            0,
+            0,
+            63,
+            9
+          ],
+          "shape": [
+            [
+              10,
+              64
+            ],
+            "d201cd060d0b98b1"
+          ],
+          "centroid": [
+            31.5,
+            4.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 1190,
+          "point": [
+            48,
+            32
+          ],
+          "bbox": [
+            32,
+            10,
+            63,
+            53
+          ],
+          "shape": [
+            [
+              44,
+              32
+            ],
+            "e38832c15e73a981"
+          ],
+          "centroid": [
+            47.98151260504201,
+            32.061344537815124
+          ]
+        },
+        {
+          "color": 4,
+          "area": 1252,
+          "point": [
+            15,
+            34
+          ],
+          "bbox": [
+            0,
+            10,
+            31,
+            53
+          ],
+          "shape": [
+            [
+              44,
+              32
+            ],
+            "71a6e439cff2e943"
+          ],
+          "centroid": [
+            15.436102236421725,
+            31.64696485623003
+          ]
+        }
+      ]
+    },
+    {
+      "game": "lf52-271a04aa",
+      "index": 4,
+      "command": {
+        "action": 2
+      },
+      "reason": "Selection-conditioned collision test: RIGHT may have been blocked by an adjacent purple piece. Test DOWN into a visibly unoccupied tile before concluding that selection failed.",
+      "observed_at": "2026-10-27T20:02:25.649000+00:00",
+      "state": "NOT_FINISHED",
+      "levels": 0,
+      "total_levels": 10,
+      "actions": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "image": "D:\\compi\\ARC-AGI-3-Kaggle-Starter\\reference\\manual-play\\2026-10-28\\lf52-0004.png",
+      "diff": {
+        "changed_cells": 1,
+        "bbox": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "shape_changed": false
+      },
+      "observation_sha256": "0d9d9fa4404f4f75b69154c9ae88ed71fe400f06a35813d2ed2de3e7962dabde",
+      "colors": {
+        "1": 460,
+        "0": 704,
+        "10": 2586,
+        "5": 172,
+        "9": 86,
+        "3": 20,
+        "14": 60,
+        "2": 8
+      },
+      "components": [
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            23,
+            18
+          ],
+          "bbox": [
+            23,
+            18,
+            23,
+            18
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            23.0,
+            18.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            26,
+            18
+          ],
+          "bbox": [
+            26,
+            18,
+            26,
+            18
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            26.0,
+            18.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            29,
+            18
+          ],
+          "bbox": [
+            29,
+            18,
+            29,
+            18
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            29.0,
+            18.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            32,
+            18
+          ],
+          "bbox": [
+            32,
+            18,
+            32,
+            18
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            32.0,
+            18.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            35,
+            18
+          ],
+          "bbox": [
+            35,
+            18,
+            35,
+            18
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            35.0,
+            18.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            38,
+            18
+          ],
+          "bbox": [
+            38,
+            18,
+            38,
+            18
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            38.0,
+            18.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            23,
+            21
+          ],
+          "bbox": [
+            23,
+            21,
+            23,
+            21
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            23.0,
+            21.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            26,
+            21
+          ],
+          "bbox": [
+            26,
+            21,
+            26,
+            21
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            26.0,
+            21.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            29,
+            21
+          ],
+          "bbox": [
+            29,
+            21,
+            29,
+            21
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            29.0,
+            21.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            32,
+            21
+          ],
+          "bbox": [
+            32,
+            21,
+            32,
+            21
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            32.0,
+            21.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            35,
+            21
+          ],
+          "bbox": [
+            35,
+            21,
+            35,
+            21
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            35.0,
+            21.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            38,
+            21
+          ],
+          "bbox": [
+            38,
+            21,
+            38,
+            21
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            38.0,
+            21.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            41,
+            24
+          ],
+          "bbox": [
+            41,
+            24,
+            41,
+            24
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            41.0,
+            24.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            44,
+            24
+          ],
+          "bbox": [
+            44,
+            24,
+            44,
+            24
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            44.0,
+            24.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            41,
+            27
+          ],
+          "bbox": [
+            41,
+            27,
+            41,
+            27
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            41.0,
+            27.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            44,
+            27
+          ],
+          "bbox": [
+            44,
+            27,
+            44,
+            27
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            44.0,
+            27.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            41,
+            36
+          ],
+          "bbox": [
+            41,
+            36,
+            41,
+            36
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            41.0,
+            36.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            44,
+            36
+          ],
+          "bbox": [
+            44,
+            36,
+            44,
+            36
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            44.0,
+            36.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            41,
+            39
+          ],
+          "bbox": [
+            41,
+            39,
+            41,
+            39
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            41.0,
+            39.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 1,
+          "point": [
+            44,
+            39
+          ],
+          "bbox": [
+            44,
+            39,
+            44,
+            39
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            44.0,
+            39.0
+          ]
+        },
+        {
+          "color": 2,
+          "area": 2,
+          "point": [
+            30,
+            18
+          ],
+          "bbox": [
+            30,
+            18,
+            31,
+            18
+          ],
+          "shape": [
+            [
+              1,
+              2
+            ],
+            "d394158c0e31b002"
+          ],
+          "centroid": [
+            30.5,
+            18.0
+          ]
+        },
+        {
+          "color": 2,
+          "area": 2,
+          "point": [
+            29,
+            19
+          ],
+          "bbox": [
+            29,
+            19,
+            29,
+            20
+          ],
+          "shape": [
+            [
+              2,
+              1
+            ],
+            "d394158c0e31b002"
+          ],
+          "centroid": [
+            29.0,
+            19.5
+          ]
+        },
+        {
+          "color": 2,
+          "area": 2,
+          "point": [
+            32,
+            19
+          ],
+          "bbox": [
+            32,
+            19,
+            32,
+            20
+          ],
+          "shape": [
+            [
+              2,
+              1
+            ],
+            "d394158c0e31b002"
+          ],
+          "centroid": [
+            32.0,
+            19.5
+          ]
+        },
+        {
+          "color": 2,
+          "area": 2,
+          "point": [
+            30,
+            21
+          ],
+          "bbox": [
+            30,
+            21,
+            31,
+            21
+          ],
+          "shape": [
+            [
+              1,
+              2
+            ],
+            "d394158c0e31b002"
+          ],
+          "centroid": [
+            30.5,
+            21.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 4,
+          "point": [
+            1,
+            0
+          ],
+          "bbox": [
+            0,
+            0,
+            3,
+            0
+          ],
+          "shape": [
+            [
+              1,
+              4
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 4,
+          "point": [
+            30,
+            19
+          ],
+          "bbox": [
+            30,
+            19,
+            31,
+            20
+          ],
+          "shape": [
+            [
+              2,
+              2
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            30.5,
+            19.5
+          ]
+        },
+        {
+          "color": 14,
+          "area": 12,
+          "point": [
+            19,
+            19
+          ],
+          "bbox": [
+            17,
+            18,
+            20,
+            21
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "9fbd876de70833a9"
+          ],
+          "centroid": [
+            18.5,
+            19.5
+          ]
+        },
+        {
+          "color": 14,
+          "area": 12,
+          "point": [
+            25,
+            19
+          ],
+          "bbox": [
+            23,
+            18,
+            26,
+            21
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "9fbd876de70833a9"
+          ],
+          "centroid": [
+            24.5,
+            19.5
+          ]
+        },
+        {
+          "color": 14,
+          "area": 12,
+          "point": [
+            37,
+            19
+          ],
+          "bbox": [
+            35,
+            18,
+            38,
+            21
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "9fbd876de70833a9"
+          ],
+          "centroid": [
+            36.5,
+            19.5
+          ]
+        },
+        {
+          "color": 14,
+          "area": 12,
+          "point": [
+            43,
+            25
+          ],
+          "bbox": [
+            41,
+            24,
+            44,
+            27
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "9fbd876de70833a9"
+          ],
+          "centroid": [
+            42.5,
+            25.5
+          ]
+        },
+        {
+          "color": 14,
+          "area": 12,
+          "point": [
+            43,
+            37
+          ],
+          "bbox": [
+            41,
+            36,
+            44,
+            39
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "9fbd876de70833a9"
+          ],
+          "centroid": [
+            42.5,
+            37.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            13,
+            14
+          ],
+          "bbox": [
+            11,
+            12,
+            14,
+            15
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            12.5,
+            13.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            19,
+            14
+          ],
+          "bbox": [
+            17,
+            12,
+            20,
+            15
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            18.5,
+            13.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            25,
+            14
+          ],
+          "bbox": [
+            23,
+            12,
+            26,
+            15
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            24.5,
+            13.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            31,
+            14
+          ],
+          "bbox": [
+            29,
+            12,
+            32,
+            15
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            30.5,
+            13.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            37,
+            14
+          ],
+          "bbox": [
+            35,
+            12,
+            38,
+            15
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            36.5,
+            13.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            43,
+            14
+          ],
+          "bbox": [
+            41,
+            12,
+            44,
+            15
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            42.5,
+            13.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            49,
+            14
+          ],
+          "bbox": [
+            47,
+            12,
+            50,
+            15
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            48.5,
+            13.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            13,
+            20
+          ],
+          "bbox": [
+            11,
+            18,
+            14,
+            21
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            12.5,
+            19.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            43,
+            20
+          ],
+          "bbox": [
+            41,
+            18,
+            44,
+            21
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            42.5,
+            19.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            49,
+            20
+          ],
+          "bbox": [
+            47,
+            18,
+            50,
+            21
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            48.5,
+            19.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            13,
+            26
+          ],
+          "bbox": [
+            11,
+            24,
+            14,
+            27
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            12.5,
+            25.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            19,
+            26
+          ],
+          "bbox": [
+            17,
+            24,
+            20,
+            27
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            18.5,
+            25.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            25,
+            26
+          ],
+          "bbox": [
+            23,
+            24,
+            26,
+            27
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            24.5,
+            25.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            31,
+            26
+          ],
+          "bbox": [
+            29,
+            24,
+            32,
+            27
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            30.5,
+            25.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            37,
+            26
+          ],
+          "bbox": [
+            35,
+            24,
+            38,
+            27
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            36.5,
+            25.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            49,
+            26
+          ],
+          "bbox": [
+            47,
+            24,
+            50,
+            27
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            48.5,
+            25.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            37,
+            32
+          ],
+          "bbox": [
+            35,
+            30,
+            38,
+            33
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            36.5,
+            31.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            43,
+            32
+          ],
+          "bbox": [
+            41,
+            30,
+            44,
+            33
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            42.5,
+            31.5
+          ]
+        },
+        {
+          "color": 1,
+          "area": 16,
+          "point": [
+            49,
+            32
+          ],
+          "bbox": [
+            47,
+            30,
+            50,
+            33
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            48.5,
+            31.5
+          ]
+        }
+      ]
+    },
+    {
+      "game": "m0r0-492f87ba",
+      "index": 3,
+      "command": {
+        "action": 5
+      },
+      "reason": "Mode/interaction probe: measure whether the alternate keyboard action changes the large geometry, active object or only interface indicators.",
+      "observed_at": "2026-10-27T20:02:25.661996+00:00",
+      "state": "NOT_FINISHED",
+      "levels": 0,
+      "total_levels": 6,
+      "actions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "D:\\compi\\ARC-AGI-3-Kaggle-Starter\\reference\\manual-play\\2026-10-28\\m0r0-0003.png",
+      "diff": {
+        "changed_cells": 0,
+        "bbox": null,
+        "shape_changed": false
+      },
+      "observation_sha256": "40dce267cdff53eab5ed4336ac2ced3c731441fc8f1a751c9d8786a9162db91d",
+      "colors": {
+        "5": 1451,
+        "0": 2,
+        "11": 1294,
+        "12": 1299,
+        "10": 50
+      },
+      "components": [
+        {
+          "color": 0,
+          "area": 1,
+          "point": [
+            63,
+            0
+          ],
+          "bbox": [
+            63,
+            0,
+            63,
+            0
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            63.0,
+            0.0
+          ]
+        },
+        {
+          "color": 0,
+          "area": 1,
+          "point": [
+            0,
+            63
+          ],
+          "bbox": [
+            0,
+            63,
+            0,
+            63
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            0.0,
+            63.0
+          ]
+        },
+        {
+          "color": 10,
+          "area": 25,
+          "point": [
+            21,
+            51
+          ],
+          "bbox": [
+            19,
+            49,
+            23,
+            53
+          ],
+          "shape": [
+            [
+              5,
+              5
+            ],
+            "e59ef6b5cb10716b"
+          ],
+          "centroid": [
+            21.0,
+            51.0
+          ]
+        },
+        {
+          "color": 10,
+          "area": 25,
+          "point": [
+            41,
+            51
+          ],
+          "bbox": [
+            39,
+            49,
+            43,
+            53
+          ],
+          "shape": [
+            [
+              5,
+              5
+            ],
+            "e59ef6b5cb10716b"
+          ],
+          "centroid": [
+            41.0,
+            51.0
+          ]
+        },
+        {
+          "color": 5,
+          "area": 63,
+          "point": [
+            31,
+            0
+          ],
+          "bbox": [
+            0,
+            0,
+            62,
+            0
+          ],
+          "shape": [
+            [
+              1,
+              63
+            ],
+            "a676522a25432c50"
+          ],
+          "centroid": [
+            31.0,
+            0.0
+          ]
+        },
+        {
+          "color": 5,
+          "area": 63,
+          "point": [
+            32,
+            63
+          ],
+          "bbox": [
+            1,
+            63,
+            63,
+            63
+          ],
+          "shape": [
+            [
+              1,
+              63
+            ],
+            "a676522a25432c50"
+          ],
+          "centroid": [
+            32.0,
+            63.0
+          ]
+        },
+        {
+          "color": 11,
+          "area": 1294,
+          "point": [
+            13,
+            29
+          ],
+          "bbox": [
+            0,
+            1,
+            31,
+            62
+          ],
+          "shape": [
+            [
+              62,
+              32
+            ],
+            "e23a00d52e61543a"
+          ],
+          "centroid": [
+            14.008500772797527,
+            29.100463678516228
+          ]
+        },
+        {
+          "color": 12,
+          "area": 1299,
+          "point": [
+            48,
+            30
+          ],
+          "bbox": [
+            32,
+            1,
+            63,
+            62
+          ],
+          "shape": [
+            [
+              62,
+              32
+            ],
+            "95b81eec850c258d"
+          ],
+          "centroid": [
+            49.16474210931486,
+            30.377983063895304
+          ]
+        },
+        {
+          "color": 5,
+          "area": 1325,
+          "point": [
+            23,
+            39
+          ],
+          "bbox": [
+            9,
+            9,
+            53,
+            58
+          ],
+          "shape": [
+            [
+              50,
+              45
+            ],
+            "03b1eac5843edab6"
+          ],
+          "centroid": [
+            31.28301886792453,
+            34.20754716981132
+          ]
+        }
+      ]
+    },
+    {
+      "game": "re86-8af5384d",
+      "index": 3,
+      "command": {
+        "action": 5
+      },
+      "reason": "Mode probe after reversible directional changes: test whether the alternate action switches the active colored mechanism or resets/rotates the scene.",
+      "observed_at": "2026-10-27T20:02:25.681089+00:00",
+      "state": "NOT_FINISHED",
+      "levels": 0,
+      "total_levels": 8,
+      "actions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "image": "D:\\compi\\ARC-AGI-3-Kaggle-Starter\\reference\\manual-play\\2026-10-28\\re86-0003.png",
+      "diff": {
+        "changed_cells": 3,
+        "bbox": [
+          21,
+          27,
+          62,
+          63
+        ],
+        "shape_changed": false
+      },
+      "observation_sha256": "9377add54237edc88036c3c04a3f9da12b4cabab77b8ea47637ddc10a68dd472",
+      "colors": {
+        "5": 3862,
+        "4": 64,
+        "11": 48,
+        "9": 57,
+        "0": 1,
+        "15": 62,
+        "1": 2
+      },
+      "components": [
+        {
+          "color": 11,
+          "area": 1,
+          "point": [
+            15,
+            3
+          ],
+          "bbox": [
+            15,
+            3,
+            15,
+            3
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            15.0,
+            3.0
+          ]
+        },
+        {
+          "color": 11,
+          "area": 1,
+          "point": [
+            6,
+            9
+          ],
+          "bbox": [
+            6,
+            9,
+            6,
+            9
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            6.0,
+            9.0
+          ]
+        },
+        {
+          "color": 11,
+          "area": 1,
+          "point": [
+            24,
+            9
+          ],
+          "bbox": [
+            24,
+            9,
+            24,
+            9
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            24.0,
+            9.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            48,
+            16
+          ],
+          "bbox": [
+            48,
+            16,
+            48,
+            16
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            48.0,
+            16.0
+          ]
+        },
+        {
+          "color": 11,
+          "area": 1,
+          "point": [
+            15,
+            17
+          ],
+          "bbox": [
+            15,
+            17,
+            15,
+            17
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            15.0,
+            17.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            40,
+            24
+          ],
+          "bbox": [
+            40,
+            24,
+            40,
+            24
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            40.0,
+            24.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            53,
+            24
+          ],
+          "bbox": [
+            53,
+            24,
+            53,
+            24
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            53.0,
+            24.0
+          ]
+        },
+        {
+          "color": 0,
+          "area": 1,
+          "point": [
+            21,
+            27
+          ],
+          "bbox": [
+            21,
+            27,
+            21,
+            27
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            21.0,
+            27.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 1,
+          "point": [
+            48,
+            35
+          ],
+          "bbox": [
+            48,
+            35,
+            48,
+            35
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            48.0,
+            35.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 2,
+          "point": [
+            62,
+            63
+          ],
+          "bbox": [
+            62,
+            63,
+            63,
+            63
+          ],
+          "shape": [
+            [
+              1,
+              2
+            ],
+            "d394158c0e31b002"
+          ],
+          "centroid": [
+            62.5,
+            63.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 8,
+          "point": [
+            15,
+            2
+          ],
+          "bbox": [
+            14,
+            2,
+            16,
+            4
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "728286e611c741de"
+          ],
+          "centroid": [
+            15.0,
+            3.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 8,
+          "point": [
+            6,
+            8
+          ],
+          "bbox": [
+            5,
+            8,
+            7,
+            10
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "728286e611c741de"
+          ],
+          "centroid": [
+            6.0,
+            9.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 8,
+          "point": [
+            24,
+            8
+          ],
+          "bbox": [
+            23,
+            8,
+            25,
+            10
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "728286e611c741de"
+          ],
+          "centroid": [
+            24.0,
+            9.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 8,
+          "point": [
+            48,
+            15
+          ],
+          "bbox": [
+            47,
+            15,
+            49,
+            17
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "728286e611c741de"
+          ],
+          "centroid": [
+            48.0,
+            16.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 8,
+          "point": [
+            15,
+            16
+          ],
+          "bbox": [
+            14,
+            16,
+            16,
+            18
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "728286e611c741de"
+          ],
+          "centroid": [
+            15.0,
+            17.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 8,
+          "point": [
+            40,
+            23
+          ],
+          "bbox": [
+            39,
+            23,
+            41,
+            25
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "728286e611c741de"
+          ],
+          "centroid": [
+            40.0,
+            24.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 8,
+          "point": [
+            53,
+            23
+          ],
+          "bbox": [
+            52,
+            23,
+            54,
+            25
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "728286e611c741de"
+          ],
+          "centroid": [
+            53.0,
+            24.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 8,
+          "point": [
+            48,
+            34
+          ],
+          "bbox": [
+            47,
+            34,
+            49,
+            36
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "728286e611c741de"
+          ],
+          "centroid": [
+            48.0,
+            35.0
+          ]
+        },
+        {
+          "color": 11,
+          "area": 11,
+          "point": [
+            21,
+            21
+          ],
+          "bbox": [
+            21,
+            16,
+            21,
+            26
+          ],
+          "shape": [
+            [
+              11,
+              1
+            ],
+            "2aa4e75fe33b537b"
+          ],
+          "centroid": [
+            21.0,
+            21.0
+          ]
+        },
+        {
+          "color": 11,
+          "area": 11,
+          "point": [
+            15,
+            27
+          ],
+          "bbox": [
+            10,
+            27,
+            20,
+            27
+          ],
+          "shape": [
+            [
+              1,
+              11
+            ],
+            "2aa4e75fe33b537b"
+          ],
+          "centroid": [
+            15.0,
+            27.0
+          ]
+        },
+        {
+          "color": 11,
+          "area": 11,
+          "point": [
+            27,
+            27
+          ],
+          "bbox": [
+            22,
+            27,
+            32,
+            27
+          ],
+          "shape": [
+            [
+              1,
+              11
+            ],
+            "2aa4e75fe33b537b"
+          ],
+          "centroid": [
+            27.0,
+            27.0
+          ]
+        },
+        {
+          "color": 11,
+          "area": 11,
+          "point": [
+            21,
+            33
+          ],
+          "bbox": [
+            21,
+            28,
+            21,
+            38
+          ],
+          "shape": [
+            [
+              11,
+              1
+            ],
+            "2aa4e75fe33b537b"
+          ],
+          "centroid": [
+            21.0,
+            33.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 53,
+          "point": [
+            36,
+            45
+          ],
+          "bbox": [
+            23,
+            32,
+            49,
+            58
+          ],
+          "shape": [
+            [
+              27,
+              27
+            ],
+            "e5ccd243dbc1facd"
+          ],
+          "centroid": [
+            36.0,
+            45.0
+          ]
+        },
+        {
+          "color": 15,
+          "area": 62,
+          "point": [
+            30,
+            63
+          ],
+          "bbox": [
+            0,
+            63,
+            61,
+            63
+          ],
+          "shape": [
+            [
+              1,
+              62
+            ],
+            "dac2ae1119bb7a06"
+          ],
+          "centroid": [
+            30.5,
+            63.0
+          ]
+        },
+        {
+          "color": 5,
+          "area": 3862,
+          "point": [
+            32,
+            31
+          ],
+          "bbox": [
+            0,
+            0,
+            63,
+            62
+          ],
+          "shape": [
+            [
+              63,
+              64
+            ],
+            "9a060318e1d7ce02"
+          ],
+          "centroid": [
+            31.567581563956498,
+            31.11315380631797
+          ]
+        }
+      ]
+    },
+    {
+      "game": "sp80-589a99af",
+      "index": 3,
+      "command": {
+        "action": 5
+      },
+      "reason": "Test the alternate action to discriminate translation-only control from a selectable transformation mode; compare persistent geometry separately from counters.",
+      "observed_at": "2026-10-27T20:02:25.707678+00:00",
+      "state": "NOT_FINISHED",
+      "levels": 0,
+      "total_levels": 6,
+      "actions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image": "D:\\compi\\ARC-AGI-3-Kaggle-Starter\\reference\\manual-play\\2026-10-28\\sp80-0003.png",
+      "diff": {
+        "changed_cells": 2,
+        "bbox": [
+          58,
+          0,
+          59,
+          0
+        ],
+        "shape_changed": false
+      },
+      "observation_sha256": "ee2c131b721cc5f147e340ee7004326a09e87529b4c999a7dc4a03c3a68ad852",
+      "colors": {
+        "14": 58,
+        "0": 6,
+        "12": 3508,
+        "4": 12,
+        "6": 16,
+        "9": 80,
+        "11": 160,
+        "1": 256
+      },
+      "components": [
+        {
+          "color": 0,
+          "area": 6,
+          "point": [
+            60,
+            0
+          ],
+          "bbox": [
+            58,
+            0,
+            63,
+            0
+          ],
+          "shape": [
+            [
+              1,
+              6
+            ],
+            "d9fc759ebbc45e1b"
+          ],
+          "centroid": [
+            60.5,
+            0.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 12,
+          "point": [
+            38,
+            2
+          ],
+          "bbox": [
+            36,
+            1,
+            39,
+            3
+          ],
+          "shape": [
+            [
+              3,
+              4
+            ],
+            "4624111b64ab8b46"
+          ],
+          "centroid": [
+            37.5,
+            2.0
+          ]
+        },
+        {
+          "color": 6,
+          "area": 16,
+          "point": [
+            38,
+            6
+          ],
+          "bbox": [
+            36,
+            4,
+            39,
+            7
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            37.5,
+            5.5
+          ]
+        },
+        {
+          "color": 14,
+          "area": 58,
+          "point": [
+            28,
+            0
+          ],
+          "bbox": [
+            0,
+            0,
+            57,
+            0
+          ],
+          "shape": [
+            [
+              1,
+              58
+            ],
+            "561f6432e828e678"
+          ],
+          "centroid": [
+            28.5,
+            0.0
+          ]
+        },
+        {
+          "color": 9,
+          "area": 80,
+          "point": [
+            22,
+            18
+          ],
+          "bbox": [
+            12,
+            16,
+            31,
+            19
+          ],
+          "shape": [
+            [
+              4,
+              20
+            ],
+            "659df83d9b9aa928"
+          ],
+          "centroid": [
+            21.5,
+            17.5
+          ]
+        },
+        {
+          "color": 11,
+          "area": 80,
+          "point": [
+            21,
+            56
+          ],
+          "bbox": [
+            16,
+            52,
+            27,
+            59
+          ],
+          "shape": [
+            [
+              8,
+              12
+            ],
+            "c75ff44fed7b21d2"
+          ],
+          "centroid": [
+            21.5,
+            55.9
+          ]
+        },
+        {
+          "color": 11,
+          "area": 80,
+          "point": [
+            45,
+            56
+          ],
+          "bbox": [
+            40,
+            52,
+            51,
+            59
+          ],
+          "shape": [
+            [
+              8,
+              12
+            ],
+            "c75ff44fed7b21d2"
+          ],
+          "centroid": [
+            45.5,
+            55.9
+          ]
+        },
+        {
+          "color": 1,
+          "area": 256,
+          "point": [
+            32,
+            62
+          ],
+          "bbox": [
+            0,
+            60,
+            63,
+            63
+          ],
+          "shape": [
+            [
+              4,
+              64
+            ],
+            "d295519679b60658"
+          ],
+          "centroid": [
+            31.5,
+            61.5
+          ]
+        },
+        {
+          "color": 12,
+          "area": 3508,
+          "point": [
+            32,
+            29
+          ],
+          "bbox": [
+            0,
+            1,
+            63,
+            59
+          ],
+          "shape": [
+            [
+              59,
+              64
+            ],
+            "0d3af1bacb6af234"
+          ],
+          "centroid": [
+            31.588939566704674,
+            29.311288483466363
+          ]
+        }
+      ]
+    },
+    {
+      "game": "tn36-ef4dde99",
+      "index": 4,
+      "command": {
+        "action": 6,
+        "data": {
+          "x": 32,
+          "y": 19
+        }
+      },
+      "reason": "Affordance revision: selecting blue features and the lower circle was ineffective. Test an adjacent checkerboard cell as a possible movement destination.",
+      "observed_at": "2026-10-27T20:02:25.721434+00:00",
+      "state": "NOT_FINISHED",
+      "levels": 0,
+      "total_levels": 7,
+      "actions": [
+        6
+      ],
+      "image": "D:\\compi\\ARC-AGI-3-Kaggle-Starter\\reference\\manual-play\\2026-10-28\\tn36-0004.png",
+      "diff": {
+        "changed_cells": 1,
+        "bbox": [
+          58,
+          1,
+          58,
+          1
+        ],
+        "shape_changed": false
+      },
+      "observation_sha256": "36a10276ecda04990bae81818b761c1226b11639e73349b0880270ef629f28bc",
+      "colors": {
+        "5": 3015,
+        "9": 126,
+        "3": 4,
+        "0": 353,
+        "4": 550,
+        "11": 30,
+        "1": 18
+      },
+      "components": [
+        {
+          "color": 4,
+          "area": 2,
+          "point": [
+            31,
+            16
+          ],
+          "bbox": [
+            31,
+            16,
+            32,
+            16
+          ],
+          "shape": [
+            [
+              1,
+              2
+            ],
+            "d394158c0e31b002"
+          ],
+          "centroid": [
+            31.5,
+            16.0
+          ]
+        },
+        {
+          "color": 5,
+          "area": 3,
+          "point": [
+            21,
+            42
+          ],
+          "bbox": [
+            20,
+            42,
+            22,
+            42
+          ],
+          "shape": [
+            [
+              1,
+              3
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            21.0,
+            42.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 3,
+          "point": [
+            26,
+            42
+          ],
+          "bbox": [
+            25,
+            42,
+            27,
+            42
+          ],
+          "shape": [
+            [
+              1,
+              3
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            26.0,
+            42.0
+          ]
+        },
+        {
+          "color": 5,
+          "area": 3,
+          "point": [
+            31,
+            42
+          ],
+          "bbox": [
+            30,
+            42,
+            32,
+            42
+          ],
+          "shape": [
+            [
+              1,
+              3
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            31.0,
+            42.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 3,
+          "point": [
+            36,
+            42
+          ],
+          "bbox": [
+            35,
+            42,
+            37,
+            42
+          ],
+          "shape": [
+            [
+              1,
+              3
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            36.0,
+            42.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 3,
+          "point": [
+            41,
+            42
+          ],
+          "bbox": [
+            40,
+            42,
+            42,
+            42
+          ],
+          "shape": [
+            [
+              1,
+              3
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            41.0,
+            42.0
+          ]
+        },
+        {
+          "color": 5,
+          "area": 3,
+          "point": [
+            21,
+            45
+          ],
+          "bbox": [
+            21,
+            44,
+            21,
+            46
+          ],
+          "shape": [
+            [
+              3,
+              1
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            21.0,
+            45.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 3,
+          "point": [
+            26,
+            45
+          ],
+          "bbox": [
+            26,
+            44,
+            26,
+            46
+          ],
+          "shape": [
+            [
+              3,
+              1
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            26.0,
+            45.0
+          ]
+        },
+        {
+          "color": 5,
+          "area": 3,
+          "point": [
+            31,
+            45
+          ],
+          "bbox": [
+            31,
+            44,
+            31,
+            46
+          ],
+          "shape": [
+            [
+              3,
+              1
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            31.0,
+            45.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 3,
+          "point": [
+            36,
+            45
+          ],
+          "bbox": [
+            36,
+            44,
+            36,
+            46
+          ],
+          "shape": [
+            [
+              3,
+              1
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            36.0,
+            45.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 3,
+          "point": [
+            41,
+            45
+          ],
+          "bbox": [
+            41,
+            44,
+            41,
+            46
+          ],
+          "shape": [
+            [
+              3,
+              1
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            41.0,
+            45.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 4,
+          "point": [
+            59,
+            1
+          ],
+          "bbox": [
+            58,
+            1,
+            61,
+            1
+          ],
+          "shape": [
+            [
+              1,
+              4
+            ],
+            "140cdbabd0a1b33f"
+          ],
+          "centroid": [
+            59.5,
+            1.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 12,
+          "point": [
+            27,
+            35
+          ],
+          "bbox": [
+            26,
+            33,
+            28,
+            36
+          ],
+          "shape": [
+            [
+              4,
+              3
+            ],
+            "4624111b64ab8b46"
+          ],
+          "centroid": [
+            27.0,
+            34.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 12,
+          "point": [
+            36,
+            35
+          ],
+          "bbox": [
+            35,
+            33,
+            37,
+            36
+          ],
+          "shape": [
+            [
+              4,
+              3
+            ],
+            "4624111b64ab8b46"
+          ],
+          "centroid": [
+            36.0,
+            34.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 12,
+          "point": [
+            32,
+            39
+          ],
+          "bbox": [
+            30,
+            38,
+            33,
+            40
+          ],
+          "shape": [
+            [
+              3,
+              4
+            ],
+            "4624111b64ab8b46"
+          ],
+          "centroid": [
+            31.5,
+            39.0
+          ]
+        },
+        {
+          "color": 11,
+          "area": 14,
+          "point": [
+            32,
+            14
+          ],
+          "bbox": [
+            30,
+            13,
+            33,
+            16
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "09623c247b551288"
+          ],
+          "centroid": [
+            31.5,
+            14.285714285714286
+          ]
+        },
+        {
+          "color": 5,
+          "area": 14,
+          "point": [
+            32,
+            34
+          ],
+          "bbox": [
+            30,
+            33,
+            33,
+            36
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "09623c247b551288"
+          ],
+          "centroid": [
+            31.5,
+            34.285714285714285
+          ]
+        },
+        {
+          "color": 5,
+          "area": 15,
+          "point": [
+            27,
+            39
+          ],
+          "bbox": [
+            26,
+            37,
+            29,
+            40
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "4f3d64dc1c99b745"
+          ],
+          "centroid": [
+            27.4,
+            38.6
+          ]
+        },
+        {
+          "color": 5,
+          "area": 15,
+          "point": [
+            36,
+            39
+          ],
+          "bbox": [
+            34,
+            37,
+            37,
+            40
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "5c8167c3a77bb49b"
+          ],
+          "centroid": [
+            35.6,
+            38.6
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            16,
+            11
+          ],
+          "bbox": [
+            14,
+            9,
+            17,
+            12
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            15.5,
+            10.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            20,
+            11
+          ],
+          "bbox": [
+            18,
+            9,
+            21,
+            12
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            19.5,
+            10.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            24,
+            11
+          ],
+          "bbox": [
+            22,
+            9,
+            25,
+            12
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            23.5,
+            10.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            28,
+            11
+          ],
+          "bbox": [
+            26,
+            9,
+            29,
+            12
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            27.5,
+            10.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            32,
+            11
+          ],
+          "bbox": [
+            30,
+            9,
+            33,
+            12
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            31.5,
+            10.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            36,
+            11
+          ],
+          "bbox": [
+            34,
+            9,
+            37,
+            12
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            35.5,
+            10.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            40,
+            11
+          ],
+          "bbox": [
+            38,
+            9,
+            41,
+            12
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            39.5,
+            10.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            44,
+            11
+          ],
+          "bbox": [
+            42,
+            9,
+            45,
+            12
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            43.5,
+            10.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            48,
+            11
+          ],
+          "bbox": [
+            46,
+            9,
+            49,
+            12
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            47.5,
+            10.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            16,
+            15
+          ],
+          "bbox": [
+            14,
+            13,
+            17,
+            16
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            15.5,
+            14.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            20,
+            15
+          ],
+          "bbox": [
+            18,
+            13,
+            21,
+            16
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            19.5,
+            14.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            24,
+            15
+          ],
+          "bbox": [
+            22,
+            13,
+            25,
+            16
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            23.5,
+            14.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            28,
+            15
+          ],
+          "bbox": [
+            26,
+            13,
+            29,
+            16
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            27.5,
+            14.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            36,
+            15
+          ],
+          "bbox": [
+            34,
+            13,
+            37,
+            16
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            35.5,
+            14.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            40,
+            15
+          ],
+          "bbox": [
+            38,
+            13,
+            41,
+            16
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            39.5,
+            14.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            44,
+            15
+          ],
+          "bbox": [
+            42,
+            13,
+            45,
+            16
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            43.5,
+            14.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            48,
+            15
+          ],
+          "bbox": [
+            46,
+            13,
+            49,
+            16
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            47.5,
+            14.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            16,
+            19
+          ],
+          "bbox": [
+            14,
+            17,
+            17,
+            20
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            15.5,
+            18.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            20,
+            19
+          ],
+          "bbox": [
+            18,
+            17,
+            21,
+            20
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            19.5,
+            18.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            24,
+            19
+          ],
+          "bbox": [
+            22,
+            17,
+            25,
+            20
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            23.5,
+            18.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            28,
+            19
+          ],
+          "bbox": [
+            26,
+            17,
+            29,
+            20
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            27.5,
+            18.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            32,
+            19
+          ],
+          "bbox": [
+            30,
+            17,
+            33,
+            20
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            31.5,
+            18.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            36,
+            19
+          ],
+          "bbox": [
+            34,
+            17,
+            37,
+            20
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            35.5,
+            18.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            40,
+            19
+          ],
+          "bbox": [
+            38,
+            17,
+            41,
+            20
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            39.5,
+            18.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            44,
+            19
+          ],
+          "bbox": [
+            42,
+            17,
+            45,
+            20
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            43.5,
+            18.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            48,
+            19
+          ],
+          "bbox": [
+            46,
+            17,
+            49,
+            20
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            47.5,
+            18.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            16,
+            23
+          ],
+          "bbox": [
+            14,
+            21,
+            17,
+            24
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            15.5,
+            22.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            20,
+            23
+          ],
+          "bbox": [
+            18,
+            21,
+            21,
+            24
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            19.5,
+            22.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            24,
+            23
+          ],
+          "bbox": [
+            22,
+            21,
+            25,
+            24
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            23.5,
+            22.5
+          ]
+        },
+        {
+          "color": 5,
+          "area": 16,
+          "point": [
+            28,
+            23
+          ],
+          "bbox": [
+            26,
+            21,
+            29,
+            24
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            27.5,
+            22.5
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            32,
+            23
+          ],
+          "bbox": [
+            30,
+            21,
+            33,
+            24
+          ],
+          "shape": [
+            [
+              4,
+              4
+            ],
+            "0389a513699fc513"
+          ],
+          "centroid": [
+            31.5,
+            22.5
+          ]
+        }
+      ]
+    },
+    {
+      "game": "s5i5-18d95033",
+      "index": 4,
+      "command": {
+        "action": 6,
+        "data": {
+          "x": 38,
+          "y": 21
+        }
+      },
+      "reason": "Topology probe: operate one control from the other framed pair, then compare remote link changes with local color/selection changes.",
+      "observed_at": "2026-10-27T20:02:25.744924+00:00",
+      "state": "NOT_FINISHED",
+      "levels": 0,
+      "total_levels": 8,
+      "actions": [
+        6
+      ],
+      "image": "D:\\compi\\ARC-AGI-3-Kaggle-Starter\\reference\\manual-play\\2026-10-28\\s5i5-0004.png",
+      "diff": {
+        "changed_cells": 11,
+        "bbox": [
+          28,
+          9,
+          59,
+          63
+        ],
+        "shape_changed": false
+      },
+      "observation_sha256": "b06cda78df7098df8af582054bf9d4fb3a22e110d68631ec4feeb3d2842c8184",
+      "colors": {
+        "5": 3806,
+        "3": 75,
+        "14": 19,
+        "13": 10,
+        "2": 72,
+        "4": 77,
+        "11": 37
+      },
+      "components": [
+        {
+          "color": 13,
+          "area": 1,
+          "point": [
+            52,
+            9
+          ],
+          "bbox": [
+            52,
+            9,
+            52,
+            9
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            52.0,
+            9.0
+          ]
+        },
+        {
+          "color": 13,
+          "area": 1,
+          "point": [
+            28,
+            10
+          ],
+          "bbox": [
+            28,
+            10,
+            28,
+            10
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            28.0,
+            10.0
+          ]
+        },
+        {
+          "color": 13,
+          "area": 1,
+          "point": [
+            51,
+            10
+          ],
+          "bbox": [
+            51,
+            10,
+            51,
+            10
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            51.0,
+            10.0
+          ]
+        },
+        {
+          "color": 5,
+          "area": 1,
+          "point": [
+            52,
+            10
+          ],
+          "bbox": [
+            52,
+            10,
+            52,
+            10
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            52.0,
+            10.0
+          ]
+        },
+        {
+          "color": 13,
+          "area": 1,
+          "point": [
+            53,
+            10
+          ],
+          "bbox": [
+            53,
+            10,
+            53,
+            10
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            53.0,
+            10.0
+          ]
+        },
+        {
+          "color": 13,
+          "area": 1,
+          "point": [
+            52,
+            11
+          ],
+          "bbox": [
+            52,
+            11,
+            52,
+            11
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            52.0,
+            11.0
+          ]
+        },
+        {
+          "color": 13,
+          "area": 1,
+          "point": [
+            10,
+            34
+          ],
+          "bbox": [
+            10,
+            34,
+            10,
+            34
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            10.0,
+            34.0
+          ]
+        },
+        {
+          "color": 13,
+          "area": 1,
+          "point": [
+            10,
+            51
+          ],
+          "bbox": [
+            10,
+            51,
+            10,
+            51
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            10.0,
+            51.0
+          ]
+        },
+        {
+          "color": 13,
+          "area": 1,
+          "point": [
+            9,
+            52
+          ],
+          "bbox": [
+            9,
+            52,
+            9,
+            52
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            9.0,
+            52.0
+          ]
+        },
+        {
+          "color": 5,
+          "area": 1,
+          "point": [
+            10,
+            52
+          ],
+          "bbox": [
+            10,
+            52,
+            10,
+            52
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            10.0,
+            52.0
+          ]
+        },
+        {
+          "color": 13,
+          "area": 1,
+          "point": [
+            11,
+            52
+          ],
+          "bbox": [
+            11,
+            52,
+            11,
+            52
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            11.0,
+            52.0
+          ]
+        },
+        {
+          "color": 13,
+          "area": 1,
+          "point": [
+            10,
+            53
+          ],
+          "bbox": [
+            10,
+            53,
+            10,
+            53
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            10.0,
+            53.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 3,
+          "point": [
+            27,
+            10
+          ],
+          "bbox": [
+            27,
+            9,
+            27,
+            11
+          ],
+          "shape": [
+            [
+              3,
+              1
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            27.0,
+            10.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 3,
+          "point": [
+            10,
+            27
+          ],
+          "bbox": [
+            9,
+            27,
+            11,
+            27
+          ],
+          "shape": [
+            [
+              1,
+              3
+            ],
+            "b6df44f4720d1e4e"
+          ],
+          "centroid": [
+            10.0,
+            27.0
+          ]
+        },
+        {
+          "color": 14,
+          "area": 5,
+          "point": [
+            29,
+            10
+          ],
+          "bbox": [
+            28,
+            9,
+            29,
+            11
+          ],
+          "shape": [
+            [
+              3,
+              2
+            ],
+            "40c0879651d0ae23"
+          ],
+          "centroid": [
+            28.6,
+            10.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 5,
+          "point": [
+            42,
+            21
+          ],
+          "bbox": [
+            42,
+            19,
+            42,
+            23
+          ],
+          "shape": [
+            [
+              5,
+              1
+            ],
+            "87d1255dc5968211"
+          ],
+          "centroid": [
+            42.0,
+            21.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 5,
+          "point": [
+            24,
+            41
+          ],
+          "bbox": [
+            22,
+            41,
+            26,
+            41
+          ],
+          "shape": [
+            [
+              1,
+              5
+            ],
+            "87d1255dc5968211"
+          ],
+          "centroid": [
+            24.0,
+            41.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 5,
+          "point": [
+            61,
+            63
+          ],
+          "bbox": [
+            59,
+            63,
+            63,
+            63
+          ],
+          "shape": [
+            [
+              1,
+              5
+            ],
+            "87d1255dc5968211"
+          ],
+          "centroid": [
+            61.0,
+            63.0
+          ]
+        },
+        {
+          "color": 14,
+          "area": 7,
+          "point": [
+            38,
+            21
+          ],
+          "bbox": [
+            38,
+            20,
+            40,
+            22
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "349f21ae501bc7bf"
+          ],
+          "centroid": [
+            38.857142857142854,
+            21.0
+          ]
+        },
+        {
+          "color": 14,
+          "area": 7,
+          "point": [
+            46,
+            21
+          ],
+          "bbox": [
+            44,
+            20,
+            46,
+            22
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "afd99525f0f8e48c"
+          ],
+          "centroid": [
+            45.142857142857146,
+            21.0
+          ]
+        },
+        {
+          "color": 11,
+          "area": 7,
+          "point": [
+            24,
+            37
+          ],
+          "bbox": [
+            23,
+            37,
+            25,
+            39
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "c637e393b04f4f55"
+          ],
+          "centroid": [
+            24.0,
+            37.857142857142854
+          ]
+        },
+        {
+          "color": 11,
+          "area": 7,
+          "point": [
+            24,
+            45
+          ],
+          "bbox": [
+            23,
+            43,
+            25,
+            45
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "879de5bd4a87af63"
+          ],
+          "centroid": [
+            24.0,
+            44.142857142857146
+          ]
+        },
+        {
+          "color": 4,
+          "area": 18,
+          "point": [
+            39,
+            21
+          ],
+          "bbox": [
+            37,
+            19,
+            41,
+            23
+          ],
+          "shape": [
+            [
+              5,
+              5
+            ],
+            "6ca3b88ecc06d9d8"
+          ],
+          "centroid": [
+            39.05555555555556,
+            21.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 18,
+          "point": [
+            45,
+            21
+          ],
+          "bbox": [
+            43,
+            19,
+            47,
+            23
+          ],
+          "shape": [
+            [
+              5,
+              5
+            ],
+            "f64f3897487ff801"
+          ],
+          "centroid": [
+            44.94444444444444,
+            21.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 18,
+          "point": [
+            24,
+            38
+          ],
+          "bbox": [
+            22,
+            36,
+            26,
+            40
+          ],
+          "shape": [
+            [
+              5,
+              5
+            ],
+            "7407ffb3b2915318"
+          ],
+          "centroid": [
+            24.0,
+            38.05555555555556
+          ]
+        },
+        {
+          "color": 4,
+          "area": 18,
+          "point": [
+            24,
+            44
+          ],
+          "bbox": [
+            22,
+            42,
+            26,
+            46
+          ],
+          "shape": [
+            [
+              5,
+              5
+            ],
+            "7ac10dcb30e43a20"
+          ],
+          "centroid": [
+            24.0,
+            43.94444444444444
+          ]
+        },
+        {
+          "color": 11,
+          "area": 23,
+          "point": [
+            10,
+            31
+          ],
+          "bbox": [
+            9,
+            28,
+            11,
+            35
+          ],
+          "shape": [
+            [
+              8,
+              3
+            ],
+            "53f83ce262fe7f8e"
+          ],
+          "centroid": [
+            10.0,
+            31.391304347826086
+          ]
+        },
+        {
+          "color": 2,
+          "area": 36,
+          "point": [
+            42,
+            18
+          ],
+          "bbox": [
+            36,
+            18,
+            48,
+            24
+          ],
+          "shape": [
+            [
+              7,
+              13
+            ],
+            "87366999bbb6cbcc"
+          ],
+          "centroid": [
+            42.0,
+            21.0
+          ]
+        },
+        {
+          "color": 2,
+          "area": 36,
+          "point": [
+            27,
+            41
+          ],
+          "bbox": [
+            21,
+            35,
+            27,
+            47
+          ],
+          "shape": [
+            [
+              13,
+              7
+            ],
+            "ee7fd190afd37fef"
+          ],
+          "centroid": [
+            24.0,
+            41.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 59,
+          "point": [
+            29,
+            63
+          ],
+          "bbox": [
+            0,
+            63,
+            58,
+            63
+          ],
+          "shape": [
+            [
+              1,
+              59
+            ],
+            "84cef574ddfe00dd"
+          ],
+          "centroid": [
+            29.0,
+            63.0
+          ]
+        },
+        {
+          "color": 5,
+          "area": 3804,
+          "point": [
+            32,
+            31
+          ],
+          "bbox": [
+            0,
+            0,
+            63,
+            62
+          ],
+          "shape": [
+            [
+              63,
+              64
+            ],
+            "f37060a81fafe248"
+          ],
+          "centroid": [
+            31.590431125131442,
+            31.04968454258675
+          ]
+        }
+      ]
+    },
+    {
+      "game": "bp35-0a0ad940",
+      "index": 3,
+      "command": {
+        "action": 6,
+        "data": {
+          "x": 35,
+          "y": 41
+        }
+      },
+      "reason": "Probe the spatial action near the corridor/water boundary after lateral control was observed; test direct target interaction versus keyboard-only dynamics.",
+      "observed_at": "2026-10-27T20:02:25.754903+00:00",
+      "state": "NOT_FINISHED",
+      "levels": 0,
+      "total_levels": 9,
+      "actions": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "image": "D:\\compi\\ARC-AGI-3-Kaggle-Starter\\reference\\manual-play\\2026-10-28\\bp35-0003.png",
+      "diff": {
+        "changed_cells": 1,
+        "bbox": [
+          2,
+          63,
+          2,
+          63
+        ],
+        "shape_changed": false
+      },
+      "observation_sha256": "cd0edec8b2310a7918a067f0307ef30570e20c85697e3c9a5a3fb376d2b5745f",
+      "colors": {
+        "5": 1894,
+        "10": 1805,
+        "3": 178,
+        "14": 147,
+        "9": 6,
+        "11": 2,
+        "15": 3,
+        "0": 61
+      },
+      "components": [
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            2,
+            1
+          ],
+          "bbox": [
+            2,
+            1,
+            2,
+            1
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            2.0,
+            1.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            8,
+            1
+          ],
+          "bbox": [
+            8,
+            1,
+            8,
+            1
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            8.0,
+            1.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            13,
+            1
+          ],
+          "bbox": [
+            13,
+            1,
+            13,
+            1
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            13.0,
+            1.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            17,
+            1
+          ],
+          "bbox": [
+            17,
+            1,
+            17,
+            1
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            17.0,
+            1.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            19,
+            1
+          ],
+          "bbox": [
+            19,
+            1,
+            19,
+            1
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            19.0,
+            1.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            23,
+            1
+          ],
+          "bbox": [
+            23,
+            1,
+            23,
+            1
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            23.0,
+            1.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            25,
+            1
+          ],
+          "bbox": [
+            25,
+            1,
+            25,
+            1
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            25.0,
+            1.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            29,
+            1
+          ],
+          "bbox": [
+            29,
+            1,
+            29,
+            1
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            29.0,
+            1.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            56,
+            1
+          ],
+          "bbox": [
+            56,
+            1,
+            56,
+            1
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            56.0,
+            1.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            62,
+            1
+          ],
+          "bbox": [
+            62,
+            1,
+            62,
+            1
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            62.0,
+            1.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            1,
+            4
+          ],
+          "bbox": [
+            1,
+            4,
+            1,
+            4
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            1.0,
+            4.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            7,
+            4
+          ],
+          "bbox": [
+            7,
+            4,
+            7,
+            4
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            7.0,
+            4.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            55,
+            4
+          ],
+          "bbox": [
+            55,
+            4,
+            55,
+            4
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            55.0,
+            4.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            61,
+            4
+          ],
+          "bbox": [
+            61,
+            4,
+            61,
+            4
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            61.0,
+            4.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            4,
+            5
+          ],
+          "bbox": [
+            4,
+            5,
+            4,
+            5
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            4.0,
+            5.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            10,
+            5
+          ],
+          "bbox": [
+            10,
+            5,
+            10,
+            5
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            10.0,
+            5.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            13,
+            5
+          ],
+          "bbox": [
+            13,
+            5,
+            13,
+            5
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            13.0,
+            5.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            17,
+            5
+          ],
+          "bbox": [
+            17,
+            5,
+            17,
+            5
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            17.0,
+            5.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            19,
+            5
+          ],
+          "bbox": [
+            19,
+            5,
+            19,
+            5
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            19.0,
+            5.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            23,
+            5
+          ],
+          "bbox": [
+            23,
+            5,
+            23,
+            5
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            23.0,
+            5.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            25,
+            5
+          ],
+          "bbox": [
+            25,
+            5,
+            25,
+            5
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            25.0,
+            5.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            29,
+            5
+          ],
+          "bbox": [
+            29,
+            5,
+            29,
+            5
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            29.0,
+            5.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            58,
+            5
+          ],
+          "bbox": [
+            58,
+            5,
+            58,
+            5
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            58.0,
+            5.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            2,
+            7
+          ],
+          "bbox": [
+            2,
+            7,
+            2,
+            7
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            2.0,
+            7.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            8,
+            7
+          ],
+          "bbox": [
+            8,
+            7,
+            8,
+            7
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            8.0,
+            7.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            14,
+            7
+          ],
+          "bbox": [
+            14,
+            7,
+            14,
+            7
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            14.0,
+            7.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            20,
+            7
+          ],
+          "bbox": [
+            20,
+            7,
+            20,
+            7
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            20.0,
+            7.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            26,
+            7
+          ],
+          "bbox": [
+            26,
+            7,
+            26,
+            7
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            26.0,
+            7.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            56,
+            7
+          ],
+          "bbox": [
+            56,
+            7,
+            56,
+            7
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            56.0,
+            7.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            62,
+            7
+          ],
+          "bbox": [
+            62,
+            7,
+            62,
+            7
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            62.0,
+            7.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            1,
+            10
+          ],
+          "bbox": [
+            1,
+            10,
+            1,
+            10
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            1.0,
+            10.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            7,
+            10
+          ],
+          "bbox": [
+            7,
+            10,
+            7,
+            10
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            7.0,
+            10.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            13,
+            10
+          ],
+          "bbox": [
+            13,
+            10,
+            13,
+            10
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            13.0,
+            10.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            19,
+            10
+          ],
+          "bbox": [
+            19,
+            10,
+            19,
+            10
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            19.0,
+            10.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            25,
+            10
+          ],
+          "bbox": [
+            25,
+            10,
+            25,
+            10
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            25.0,
+            10.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            55,
+            10
+          ],
+          "bbox": [
+            55,
+            10,
+            55,
+            10
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            55.0,
+            10.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            61,
+            10
+          ],
+          "bbox": [
+            61,
+            10,
+            61,
+            10
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            61.0,
+            10.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            4,
+            11
+          ],
+          "bbox": [
+            4,
+            11,
+            4,
+            11
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            4.0,
+            11.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            10,
+            11
+          ],
+          "bbox": [
+            10,
+            11,
+            10,
+            11
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            10.0,
+            11.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            16,
+            11
+          ],
+          "bbox": [
+            16,
+            11,
+            16,
+            11
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            16.0,
+            11.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            22,
+            11
+          ],
+          "bbox": [
+            22,
+            11,
+            22,
+            11
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            22.0,
+            11.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            28,
+            11
+          ],
+          "bbox": [
+            28,
+            11,
+            28,
+            11
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            28.0,
+            11.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            58,
+            11
+          ],
+          "bbox": [
+            58,
+            11,
+            58,
+            11
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            58.0,
+            11.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            2,
+            13
+          ],
+          "bbox": [
+            2,
+            13,
+            2,
+            13
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            2.0,
+            13.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            8,
+            13
+          ],
+          "bbox": [
+            8,
+            13,
+            8,
+            13
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            8.0,
+            13.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            14,
+            13
+          ],
+          "bbox": [
+            14,
+            13,
+            14,
+            13
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            14.0,
+            13.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            20,
+            13
+          ],
+          "bbox": [
+            20,
+            13,
+            20,
+            13
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            20.0,
+            13.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            26,
+            13
+          ],
+          "bbox": [
+            26,
+            13,
+            26,
+            13
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            26.0,
+            13.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            31,
+            13
+          ],
+          "bbox": [
+            31,
+            13,
+            31,
+            13
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            31.0,
+            13.0
+          ]
+        },
+        {
+          "color": 3,
+          "area": 1,
+          "point": [
+            35,
+            13
+          ],
+          "bbox": [
+            35,
+            13,
+            35,
+            13
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            35.0,
+            13.0
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ka59-38d34dbb",
+      "index": 3,
+      "command": {
+        "action": 6,
+        "data": {
+          "x": 29,
+          "y": 33
+        }
+      },
+      "reason": "Control-identity probe: click the second visible purple marker and inspect selection/mode feedback before applying another direction.",
+      "observed_at": "2026-10-27T20:02:25.782370+00:00",
+      "state": "NOT_FINISHED",
+      "levels": 0,
+      "total_levels": 7,
+      "actions": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "image": "D:\\compi\\ARC-AGI-3-Kaggle-Starter\\reference\\manual-play\\2026-10-28\\ka59-0003.png",
+      "diff": {
+        "changed_cells": 1,
+        "bbox": [
+          62,
+          63,
+          62,
+          63
+        ],
+        "shape_changed": false
+      },
+      "observation_sha256": "19d78fbc8758dd8d2758d180533618358c943a8255554617ec6e18f2ebd73536",
+      "colors": {
+        "2": 3249,
+        "1": 607,
+        "15": 126,
+        "4": 94,
+        "14": 16,
+        "0": 3,
+        "5": 1
+      },
+      "components": [
+        {
+          "color": 0,
+          "area": 1,
+          "point": [
+            19,
+            31
+          ],
+          "bbox": [
+            19,
+            31,
+            19,
+            31
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            19.0,
+            31.0
+          ]
+        },
+        {
+          "color": 5,
+          "area": 1,
+          "point": [
+            28,
+            31
+          ],
+          "bbox": [
+            28,
+            31,
+            28,
+            31
+          ],
+          "shape": [
+            [
+              1,
+              1
+            ],
+            "00e83d0a3f7519ad"
+          ],
+          "centroid": [
+            28.0,
+            31.0
+          ]
+        },
+        {
+          "color": 0,
+          "area": 2,
+          "point": [
+            62,
+            63
+          ],
+          "bbox": [
+            62,
+            63,
+            63,
+            63
+          ],
+          "shape": [
+            [
+              1,
+              2
+            ],
+            "d394158c0e31b002"
+          ],
+          "centroid": [
+            62.5,
+            63.0
+          ]
+        },
+        {
+          "color": 14,
+          "area": 8,
+          "point": [
+            19,
+            30
+          ],
+          "bbox": [
+            18,
+            30,
+            20,
+            32
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "728286e611c741de"
+          ],
+          "centroid": [
+            19.0,
+            31.0
+          ]
+        },
+        {
+          "color": 14,
+          "area": 8,
+          "point": [
+            28,
+            30
+          ],
+          "bbox": [
+            27,
+            30,
+            29,
+            32
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "728286e611c741de"
+          ],
+          "centroid": [
+            28.0,
+            31.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 9,
+          "point": [
+            46,
+            28
+          ],
+          "bbox": [
+            45,
+            27,
+            47,
+            29
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "2b765cb343180330"
+          ],
+          "centroid": [
+            46.0,
+            28.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 9,
+          "point": [
+            31,
+            31
+          ],
+          "bbox": [
+            30,
+            30,
+            32,
+            32
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "2b765cb343180330"
+          ],
+          "centroid": [
+            31.0,
+            31.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 9,
+          "point": [
+            13,
+            34
+          ],
+          "bbox": [
+            12,
+            33,
+            14,
+            35
+          ],
+          "shape": [
+            [
+              3,
+              3
+            ],
+            "2b765cb343180330"
+          ],
+          "centroid": [
+            13.0,
+            34.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            46,
+            26
+          ],
+          "bbox": [
+            44,
+            26,
+            48,
+            30
+          ],
+          "shape": [
+            [
+              5,
+              5
+            ],
+            "ed2c5a633939dd52"
+          ],
+          "centroid": [
+            46.0,
+            28.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 16,
+          "point": [
+            13,
+            32
+          ],
+          "bbox": [
+            11,
+            32,
+            15,
+            36
+          ],
+          "shape": [
+            [
+              5,
+              5
+            ],
+            "ed2c5a633939dd52"
+          ],
+          "centroid": [
+            13.0,
+            34.0
+          ]
+        },
+        {
+          "color": 4,
+          "area": 62,
+          "point": [
+            30,
+            63
+          ],
+          "bbox": [
+            0,
+            63,
+            61,
+            63
+          ],
+          "shape": [
+            [
+              1,
+              62
+            ],
+            "dac2ae1119bb7a06"
+          ],
+          "centroid": [
+            30.5,
+            63.0
+          ]
+        },
+        {
+          "color": 15,
+          "area": 126,
+          "point": [
+            36,
+            31
+          ],
+          "bbox": [
+            33,
+            21,
+            38,
+            41
+          ],
+          "shape": [
+            [
+              21,
+              6
+            ],
+            "d372b4c917a81029"
+          ],
+          "centroid": [
+            35.5,
+            31.0
+          ]
+        },
+        {
+          "color": 1,
+          "area": 290,
+          "point": [
+            16,
+            31
+          ],
+          "bbox": [
+            9,
+            21,
+            26,
+            41
+          ],
+          "shape": [
+            [
+              21,
+              18
+            ],
+            "0c1af61583d349df"
+          ],
+          "centroid": [
+            16.444827586206898,
+            30.74137931034483
+          ]
+        },
+        {
+          "color": 1,
+          "area": 290,
+          "point": [
+            46,
+            31
+          ],
+          "bbox": [
+            39,
+            21,
+            53,
+            41
+          ],
+          "shape": [
+            [
+              21,
+              15
+            ],
+            "e92bfacc2ecba2d5"
+          ],
+          "centroid": [
+            46.0,
+            31.25862068965517
+          ]
+        },
+        {
+          "color": 2,
+          "area": 3249,
+          "point": [
+            31,
+            33
+          ],
+          "bbox": [
+            0,
+            0,
+            63,
+            62
+          ],
+          "shape": [
+            [
+              63,
+              64
+            ],
+            "df084df1082f2e47"
+          ],
+          "centroid": [
+            31.47091412742382,
+            31.0
+          ]
+        }
+      ]
+    }
+  ]
+}

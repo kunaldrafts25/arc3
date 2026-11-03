@@ -1,0 +1,60 @@
+  390s ...
+  420s ...
+  450s ...
+  480s ...
+  510s ...
+  540s ...
+  570s ...
+  600s ...
+  630s ...
+  660s ...
+
+DEADLINE at 720s from notebook start; releasing the benchmark with the server still loading
+benchmark.solver: HarnessSolver(label='duck-harness', runtime_environment=None, job_dir=None, soft_end_time=None, minimal_diagnostics=False, model='local', analyzer_timeout=900.0, max_actions_per_game=None, max_runtime_s_per_game=29018, max_generated_tokens_per_game=None, concurrency=100, save_request_logs=True, start_local_server=False, local_server_config='', local_server_api_key_file='', local_server_repo_dir='/Users/jeroencottaar/code/ARC3-Inference', local_server_port=None, local_server_tensor_parallel_size=None, local_server_count=1, cancel_drain_timeout_s=120.0)
+[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 64 threads, 68 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5
+[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 64 threads, 68 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5
+Starting benchmark...
+priority gate active: 10 concurrent streams
+
+priority gate active: 10 concurrent streams
+vc33-5430563c: warmup RESET issued before the analyzer is reachable
+
+vc33-5430563c: warmup RESET issued before the analyzer is reachable
+first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request
+
+first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request
+first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request
+
+first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request
+first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request
+
+first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request
+first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request
+
+first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request
+first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request
+
+first analyzer request failed (ConnectionError); retrying for up to 900s while the endpoint comes up, then falling back to 3 retries per request
+[sys] RAM 103.3/176.9 | swap none | proc 0.4 GB, 69 threads, 73 fds | GPU0 69.9/95.6 | disk / 7123.5/8156.9, /kaggle/working 0.0/19.5
+benchmark: regenerated diagnostics in /kaggle/working in 0.68s
+benchmark: duck-harness-kaggle
+solver:    duck-harness
+games:     5
+passes:    1
+runs:      5 (won: 0)
+started:   2026-10-25 14:35:39
+ended:     in progress
+mean score:    0.00
+median score:  0.00
+total actions: 1
+total tokens:  0
+generated tokens/sec: 0.00 (job wallclock)
+total wallclock: 0.2s
+
+per-game (mean across passes):
+  bp35-0a0ad940: score=0.00, levels=0.0/9, actions=0, tokens=0
+  ft09-0d8bbf25: score=0.00, levels=0.0/6, actions=0, tokens=0
+  ls20-9607627b: score=0.00, levels=0.0/7, actions=0, tokens=0
+  r11l-495a7899: score=0.00, levels=0.0/6, actions=0, tokens=0
+  vc33-5430563c: score=0.00, levels=0.0/7, actions=1, tokens=0
+

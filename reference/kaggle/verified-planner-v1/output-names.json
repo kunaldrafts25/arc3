@@ -1,0 +1,134 @@
+[
+  {
+    "name": "artifacts/bp35-0a0ad940_p0_events.jsonl"
+  },
+  {
+    "name": "artifacts/bp35-0a0ad940_p0_tool_runtime_state.hydra-events.jsonl"
+  },
+  {
+    "name": "artifacts/bp35-0a0ad940_p0_viewer_data.json"
+  },
+  {
+    "name": "artifacts/ft09-0d8bbf25_p0_events.jsonl"
+  },
+  {
+    "name": "artifacts/ft09-0d8bbf25_p0_tool_runtime_state.hydra-events.jsonl"
+  },
+  {
+    "name": "artifacts/ft09-0d8bbf25_p0_viewer_data.json"
+  },
+  {
+    "name": "artifacts/ls20-9607627b_p0_events.jsonl"
+  },
+  {
+    "name": "artifacts/ls20-9607627b_p0_tool_runtime_state.hydra-events.jsonl"
+  },
+  {
+    "name": "artifacts/ls20-9607627b_p0_viewer_data.json"
+  },
+  {
+    "name": "artifacts/r11l-495a7899_p0_events.jsonl"
+  },
+  {
+    "name": "artifacts/r11l-495a7899_p0_tool_runtime_state.hydra-events.jsonl"
+  },
+  {
+    "name": "artifacts/r11l-495a7899_p0_viewer_data.json"
+  },
+  {
+    "name": "artifacts/vc33-5430563c_p0_events.jsonl"
+  },
+  {
+    "name": "artifacts/vc33-5430563c_p0_tool_runtime_state.hydra-events.jsonl"
+  },
+  {
+    "name": "artifacts/vc33-5430563c_p0_viewer_data.json"
+  },
+  {
+    "name": "benchmark.json"
+  },
+  {
+    "name": "bp35-0a0ad940_p0_requests.jsonl"
+  },
+  {
+    "name": "ft09-0d8bbf25_p0_requests.jsonl"
+  },
+  {
+    "name": "git_status.txt"
+  },
+  {
+    "name": "hydra_extension.json"
+  },
+  {
+    "name": "hydra_lifecycle.json"
+  },
+  {
+    "name": "hydra_model_summary.json"
+  },
+  {
+    "name": "hydra_provenance.json"
+  },
+  {
+    "name": "ls20-9607627b_p0_requests.jsonl"
+  },
+  {
+    "name": "prompts/bp35-0a0ad940_p0.log"
+  },
+  {
+    "name": "prompts/ft09-0d8bbf25_p0.log"
+  },
+  {
+    "name": "prompts/ls20-9607627b_p0.log"
+  },
+  {
+    "name": "prompts/r11l-495a7899_p0.log"
+  },
+  {
+    "name": "prompts/vc33-5430563c_p0.log"
+  },
+  {
+    "name": "r11l-495a7899_p0_requests.jsonl"
+  },
+  {
+    "name": "requests.jsonl"
+  },
+  {
+    "name": "serve.log"
+  },
+  {
+    "name": "solver_analysis/bp35-0a0ad940_p0.html"
+  },
+  {
+    "name": "solver_analysis/ft09-0d8bbf25_p0.html"
+  },
+  {
+    "name": "solver_analysis/ls20-9607627b_p0.html"
+  },
+  {
+    "name": "solver_analysis/r11l-495a7899_p0.html"
+  },
+  {
+    "name": "solver_analysis/vc33-5430563c_p0.html"
+  },
+  {
+    "name": "submission.parquet"
+  },
+  {
+    "name": "transcripts/bp35-0a0ad940_p0.txt"
+  },
+  {
+    "name": "transcripts/ft09-0d8bbf25_p0.txt"
+  },
+  {
+    "name": "transcripts/ls20-9607627b_p0.txt"
+  },
+  {
+    "name": "transcripts/r11l-495a7899_p0.txt"
+  },
+  {
+    "name": "transcripts/vc33-5430563c_p0.txt"
+  },
+  {
+    "name": "vc33-5430563c_p0_requests.jsonl"
+  }
+]

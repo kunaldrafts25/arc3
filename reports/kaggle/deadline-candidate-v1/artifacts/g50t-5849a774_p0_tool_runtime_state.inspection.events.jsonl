@@ -1,0 +1,11 @@
+{"level": 1, "returned_cells": 56, "step": 1, "tool": "read_cells"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 63, "step": 20, "tool": "row_runs"}
+{"cols": [12, 34], "level": 1, "returned_runs": 3, "row": 37, "step": 29, "tool": "row_runs"}
+{"cols": [12, 34], "level": 1, "returned_runs": 5, "row": 38, "step": 29, "tool": "row_runs"}
+{"cols": [12, 34], "level": 1, "returned_runs": 4, "row": 39, "step": 29, "tool": "row_runs"}
+{"cols": [12, 34], "level": 1, "returned_runs": 3, "row": 40, "step": 29, "tool": "row_runs"}
+{"cols": [12, 34], "level": 1, "returned_runs": 4, "row": 41, "step": 29, "tool": "row_runs"}
+{"cols": [12, 34], "level": 1, "returned_runs": 5, "row": 42, "step": 29, "tool": "row_runs"}
+{"cols": [12, 34], "level": 1, "returned_runs": 3, "row": 43, "step": 29, "tool": "row_runs"}
+{"cols": [12, 34], "level": 1, "returned_runs": 5, "row": 38, "step": 38, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 63, "step": 38, "tool": "row_runs"}

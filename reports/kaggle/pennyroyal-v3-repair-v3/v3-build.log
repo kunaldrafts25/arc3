@@ -1,0 +1,470 @@
+3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]
+Reused hash-verified native runtime wheel
+Fetch Shard Index for conda-forge/linux-64                                                      ⧖ Starting
+Fetch Shard Index for conda-forge/linux-64                                                ✔ Done (0.1 sec)
+Fetch Shard Index for conda-forge/noarch                                                        ⧖ Starting
+Fetch Shard Index for conda-forge/noarch                                                  ✔ Done (0.1 sec)
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (3.9 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+
+Transaction
+
+  Prefix: /tmp/hydra-serving-v3/gcc
+
+  Updating specs:
+
+   - gxx_linux-64=15
+
+
+  Package                     Version  Build                 Channel          Size
+────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────
+
+  + _openmp_mutex                 4.5  20_gnu                conda-forge      29kB
+  + binutils_impl_linux-64     2.46.1  default_hfdba357_103  conda-forge       4MB
+  + binutils_linux-64          2.46.1  default_h4852527_103  conda-forge      36kB
+  + gcc_impl_linux-64          15.3.0  h6ad849d_7            conda-forge      84MB
+  + gcc_linux-64               15.3.0  h7df7c86_2            conda-forge      30kB
+  + gxx_impl_linux-64          15.3.0  h90d9265_7            conda-forge      17MB
+  + gxx_linux-64               15.3.0  h39dd401_2            conda-forge      29kB
+  + kernel-headers_linux-64    5.14.0  he073ed8_3            conda-forge       1MB
+  + ld_impl_linux-64           2.46.1  default_hbd61a6d_103  conda-forge     742kB
+  + libgcc                     16.2.0  ha9f2e26_7            conda-forge       1MB
+  + libgcc-devel_linux-64      15.3.0  h2b852eb_107          conda-forge       3MB
+  + libgomp                    16.2.0  he0feb66_7            conda-forge     641kB
+  + libsanitizer               15.3.0  h54950a5_7            conda-forge       8MB
+  + libstdcxx                  16.2.0  h934c35e_7            conda-forge       7MB
+  + libstdcxx-devel_linux-64   15.3.0  hb2c5482_107          conda-forge      21MB
+  + libzlib                     1.3.2  h25fd6f3_3            conda-forge      64kB
+  + sysroot_linux-64             2.34  h087de78_3            conda-forge      41MB
+  + tzdata                      2026e  h5d301ff_0            conda-forge     119kB
+  + zstd                        1.5.7  hb78ec9c_7            conda-forge     601kB
+
+  Summary:
+
+  Install: 19 packages
+
+  Total download: 189MB
+
+────────────────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking libstdcxx-devel_linux-64-15.3.0-hb2c5482_107
+Linking libgcc-devel_linux-64-15.3.0-h2b852eb_107
+Linking kernel-headers_linux-64-5.14.0-he073ed8_3
+Linking tzdata-2026e-h5d301ff_0
+Linking sysroot_linux-64-2.34-h087de78_3
+Linking libgomp-16.2.0-he0feb66_7
+Linking libzlib-1.3.2-h25fd6f3_3
+Linking _openmp_mutex-4.5-20_gnu
+Linking zstd-1.5.7-hb78ec9c_7
+Linking libgcc-16.2.0-ha9f2e26_7
+Linking ld_impl_linux-64-2.46.1-default_hbd61a6d_103
+Linking libstdcxx-16.2.0-h934c35e_7
+Linking binutils_impl_linux-64-2.46.1-default_hfdba357_103
+Linking libsanitizer-15.3.0-h54950a5_7
+Linking binutils_linux-64-2.46.1-default_h4852527_103
+Linking gcc_impl_linux-64-15.3.0-h6ad849d_7
+Linking gxx_impl_linux-64-15.3.0-h90d9265_7
+Linking gcc_linux-64-15.3.0-h7df7c86_2
+Linking gxx_linux-64-15.3.0-h39dd401_2
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    micromamba activate /tmp/hydra-serving-v3/gcc
+
+Or to execute a single command in this environment, use:
+
+    micromamba run -p /tmp/hydra-serving-v3/gcc mycommand
+
+x86_64-conda-linux-gnu-g++ (conda-forge gcc 15.3.0-7) 15.3.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Using CPython 3.12.13 interpreter at: /usr/bin/python3
+Creating virtual environment at: /tmp/hydra-serving-v3/compiler
+Activate with: source /tmp/hydra-serving-v3/compiler/bin/activate
+Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/compiler
+Resolved 5 packages in 151ms
+Downloading nvidia-cuda-cccl (3.7MiB)
+Downloading nvidia-nvvm (66.0MiB)
+Downloading nvidia-cuda-runtime (2.2MiB)
+Downloading nvidia-cuda-nvcc (42.9MiB)
+ Downloaded nvidia-cuda-runtime
+ Downloaded nvidia-cuda-cccl
+ Downloaded nvidia-cuda-nvcc
+ Downloaded nvidia-nvvm
+Prepared 5 packages in 1.91s
+Installed 5 packages in 889ms
+ + nvidia-cuda-cccl==13.3.4.3.1
+ + nvidia-cuda-crt==13.3.73
+ + nvidia-cuda-nvcc==13.3.73
+ + nvidia-cuda-runtime==13.3.29
+ + nvidia-nvvm==13.3.73
+Error in sitecustomize; set PYTHONVERBOSE for traceback:
+ModuleNotFoundError: No module named 'wrapt'
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2026 NVIDIA Corporation
+Built on Tue_Jun_09_02:43:40_PM_PDT_2026
+Cuda compilation tools, release 13.3, V13.3.73
+Build cuda_13.3.r13.3/compiler.38244171_0
+
+CPU CUDA SM120f compiler probe passed
+Cloning into '/tmp/hydra-serving-v3/source'...
+Note: switching to '560edbdca18aedae13f71ae20b3984efa4d22633'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+Updating files:  59% (5137/8591)Updating files:  60% (5155/8591)Updating files:  61% (5241/8591)Updating files:  62% (5327/8591)Updating files:  63% (5413/8591)Updating files:  64% (5499/8591)Updating files:  65% (5585/8591)Updating files:  66% (5671/8591)Updating files:  67% (5756/8591)Updating files:  68% (5842/8591)Updating files:  69% (5928/8591)Updating files:  70% (6014/8591)Updating files:  71% (6100/8591)Updating files:  72% (6186/8591)Updating files:  73% (6272/8591)Updating files:  74% (6358/8591)Updating files:  75% (6444/8591)Updating files:  76% (6530/8591)Updating files:  77% (6616/8591)Updating files:  78% (6701/8591)Updating files:  79% (6787/8591)Updating files:  80% (6873/8591)Updating files:  81% (6959/8591)Updating files:  82% (7045/8591)Updating files:  83% (7131/8591)Updating files:  84% (7217/8591)Updating files:  85% (7303/8591)Updating files:  86% (7389/8591)Updating files:  87% (7475/8591)Updating files:  88% (7561/8591)Updating files:  89% (7646/8591)Updating files:  90% (7732/8591)Updating files:  91% (7818/8591)Updating files:  92% (7904/8591)Updating files:  93% (7990/8591)Updating files:  94% (8076/8591)Updating files:  95% (8162/8591)Updating files:  96% (8248/8591)Updating files:  97% (8334/8591)Updating files:  98% (8420/8591)Updating files:  99% (8506/8591)Updating files: 100% (8591/8591)Updating files: 100% (8591/8591), done.
+Using CPython 3.12.13 interpreter at: /usr/bin/python3
+Creating virtual environment at: /tmp/hydra-serving-v3/runtime
+Activate with: source /tmp/hydra-serving-v3/runtime/bin/activate
+Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime
+Resolved 208 packages in 3.42s
+Prepared 208 packages in 67m 12s
+Installed 208 packages in 4m 11s
+ + aiohappyeyeballs==2.7.1
+ + aiohttp==3.14.3
+ + aiosignal==1.4.0
+ + airportsdata==20260905
+ + annotated-doc==0.0.5
+ + annotated-types==0.8.0
+ + anthropic==1.9.0
+ + anyio==4.15.1
+ + apache-tvm-ffi==0.1.11
+ + asttokens==3.0.2
+ + attrs==26.1.0
+ + blobfile==3.0.0
+ + build==1.6.1
+ + certifi==2026.7.22
+ + cffi==2.1.1
+ + charset-normalizer==3.5.1
+ + click==8.5.0
+ + cloudpickle==3.1.2
+ + compressed-tensors==0.19.1a20260928
+ + cryptography==50.0.1
+ + cuda-bindings==13.4.3
+ + cuda-core==1.2.1
+ + cuda-pathfinder==1.8.2
+ + cuda-python==13.4.1
+ + cuda-tile==1.6.0rc5
+ + cuda-toolkit==13.0.3.0
+ + datasets==5.0.1
+ + dill==0.4.1
+ + diskcache==5.6.3
+ + distro==1.9.0
+ + docstring-parser==0.18.0
+ + easydict==1.13
+ + einops==0.9.0.dev0
+ + executing==2.2.1
+ + fastapi==0.141.1
+ + filelock==4.0.6
+ + flash-attn-4==4.0.0b19
+ + flashinfer-cubin==0.6.17
+ + flashinfer-jit-cache==0.6.17+cu130
+ + flashinfer-python==0.6.17
+ + frozenlist==1.8.0
+ + fsspec==2026.6.0
+ + gguf==0.19.0
+ + grpcio==1.84.0
+ + grpcio-health-checking==1.82.0rc2
+ + grpcio-reflection==1.82.0rc2
+ + h11==0.16.0
+ + hf-xet==1.7.0.dev1
+ + httpcore==1.0.9
+ + httpcore2==2.13.1
+ + httpx==0.28.1
+ + httpx2==2.13.1
+ + huggingface-hub==1.33.0
+ + humming-kernels==0.1.12
+ + idna==3.20
+ + interegular==0.3.3
+ + ipython==9.17.1
+ + ipython-pygments-lexers==1.1.1
+ + jedi==0.20.0
+ + jinja2==3.1.6
+ + jiter==0.17.0
+ + jsonschema==4.26.0
+ + jsonschema-specifications==2025.9.1
+ + kernels==0.14.1
+ + kernels-data==0.16.2
+ + lark==1.3.1
+ + llguidance==1.8.0
+ + llvmlite==0.47.0
+ + loguru==0.7.3
+ + lxml==7.0.0b1
+ + markdown-it-py==4.2.0
+ + markupsafe==3.0.3
+ + matplotlib-inline==0.2.2
+ + mdurl==0.1.2
+ + mistral-common==1.12.0
+ + ml-dtypes==0.6.0
+ + modelscope==1.40.1
+ + modelscope-hub==0.4.5
+ + mpmath==1.3.0
+ + msgspec==0.22.0
+ + multidict==6.9.1
+ + multiprocess==0.70.19
+ + nccl4py==0.6.0
+ + nest-asyncio==1.6.0
+ + networkx==3.7
+ + ninja==1.13.2
+ + numba==0.65.1
+ + numpy==2.3.5
+ + nvidia-cublas==13.1.1.3
+ + nvidia-cuda-cccl==13.0.85
+ + nvidia-cuda-crt==13.0.88
+ + nvidia-cuda-cupti==13.0.85
+ + nvidia-cuda-nvcc==13.0.88
+ + nvidia-cuda-nvdisasm==13.4.92
+ + nvidia-cuda-nvrtc==13.0.88
+ + nvidia-cuda-runtime==13.0.96
+ + nvidia-cudnn-cu13==9.20.0.48
+ + nvidia-cudnn-frontend==1.30.0
+ + nvidia-cufft==12.0.0.61
+ + nvidia-cufile==1.15.1.6
+ + nvidia-curand==10.4.0.35
+ + nvidia-cusolver==12.0.4.66
+ + nvidia-cusparse==12.6.3.3
+ + nvidia-cusparselt-cu13==0.8.1
+ + nvidia-cutlass-dsl==4.6.2
+ + nvidia-cutlass-dsl-libs-base==4.6.2
+ + nvidia-cutlass-dsl-libs-core==4.6.2
+ + nvidia-cutlass-dsl-libs-cu12==4.6.2
+ + nvidia-cutlass-dsl-libs-cu13==4.6.2
+ + nvidia-mathdx==25.6.0
+ + nvidia-ml-py==13.615.71
+ + nvidia-nccl-cu13==2.29.7
+ + nvidia-nvjitlink==13.4.92
+ + nvidia-nvshmem-cu13==3.4.5
+ + nvidia-nvtx==13.0.85
+ + nvidia-nvvm==13.0.88
+ + openai==2.6.1
+ + openai-harmony==0.0.4
+ + orjson==3.12.0
+ + outlines==0.1.11
+ + outlines-core==0.1.26
+ + packaging==26.3
+ + pandas==3.0.6
+ + parso==0.8.7
+ + partial-json-parser==0.2.1.1.post7
+ + pexpect==4.9.0
+ + pillow==12.3.0
+ + pip==26.2.1
+ + prometheus-client==0.26.0
+ + prompt-toolkit==3.0.53
+ + propcache==0.5.4
+ + protobuf==6.33.6
+ + psutil==7.2.2
+ + ptyprocess==0.7.0
+ + pure-eval==0.2.4
+ + py-spy==0.4.2
+ + pyarrow==25.0.1
+ + pybase64==1.5.0
+ + pycountry==26.2.16
+ + pycparser==3.0
+ + pycryptodomex==3.23.0
+ + pydantic==2.14.0b2
+ + pydantic-core==2.49.0
+ + pydantic-extra-types==2.11.1
+ + pygments==2.21.0
+ + pyproject-hooks==1.3.3
+ + python-dateutil==2.9.0.post0
+ + python-multipart==0.0.32
+ + pyyaml==6.0.3
+ + pyzmq==27.2.0
+ + quack-kernels==0.6.4
+ + referencing==0.37.0
+ + regex==2026.9.29
+ + requests==2.34.2
+ + rich==15.0.0
+ + rpds-py==2026.6.3
+ + safetensors==0.9.0rc1
+ + scipy==1.18.1
+ + sentencepiece==0.2.2
+ + setproctitle==1.3.7
+ + setuptools==84.0.0
+ + sgl-deep-ep==0.1.2+cu130
+ + sgl-deep-gemm==0.1.5.post3+cu130
+ + sglang==0.5.19+gd00d88efc8d6
+ + sglang-kernel==0.4.6.post1+cu130
+ + shellingham==1.5.4
+ + six==1.17.0
+ + smg-grpc-proto==0.4.22
+ + smg-grpc-servicer==0.13.0
+ + sniffio==1.3.1
+ + soundfile==0.13.1
+ + stack-data==0.6.3
+ + starlette==1.7.0
+ + sympy==1.14.0
+ + tabulate==0.10.0
+ + tiktoken==0.14.0
+ + tilelang==0.1.12
+ + timm==1.0.16
+ + tokenizers==0.22.2
+ + tokenspeed-mla==0.1.8
+ + tokenspeed-triton==3.8.10.post20260920
+ + tomlkit==0.15.1
+ + torch==2.13.0+cu130
+ + torch-c-dlpack-ext==0.1.5
+ + torch-memory-saver==0.0.10
+ + torchaudio==2.11.0+cu130
+ + torchcodec==0.15.0+cu130
+ + torchvision==0.28.0+cu130
+ + tqdm==4.70.1
+ + traitlets==5.16.1
+ + transformers==5.12.1
+ + triton==3.7.1
+ + truststore==0.10.4
+ + typer==0.27.2
+ + typing-extensions==4.16.0
+ + typing-inspection==0.4.4
+ + urllib3==2.8.0
+ + uv==0.12.20
+ + uvicorn==0.54.0
+ + uvloop==0.22.1
+ + watchfiles==1.3.0
+ + wcwidth==0.9.1
+ + wheel==0.48.0
+ + xgrammar==0.2.1
+ + xxhash==4.0.1
+ + yarl==1.25.1
+ + z3-solver==4.15.4.0
+ + zstandard==0.25.0
+Error in sitecustomize; set PYTHONVERBOSE for traceback:
+ModuleNotFoundError: No module named 'wrapt'
+Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime
+Resolved 204 packages in 3.09s
+Downloading nvidia-cutlass-dsl-libs-base (2.7MiB)
+Downloading nvidia-cutlass-dsl-libs-cu12 (84.6MiB)
+Downloading nvidia-cutlass-dsl-libs-cu13 (84.2MiB)
+Downloading flashinfer-python (32.1MiB)
+Downloading nvidia-cutlass-dsl-libs-core (1.2MiB)
+Downloading nccl-extensions (21.5MiB)
+ Downloaded nvidia-cutlass-dsl-libs-core
+ Downloaded nvidia-cutlass-dsl-libs-base
+ Downloaded nccl-extensions
+ Downloaded flashinfer-python
+ Downloaded nvidia-cutlass-dsl-libs-cu13
+ Downloaded nvidia-cutlass-dsl-libs-cu12
+Prepared 9 packages in 3.18s
+Uninstalled 8 packages in 460ms
+Installed 9 packages in 9.43s
+ - flashinfer-python==0.6.17
+ + flashinfer-python==0.7.0.post1
+ + nccl-extensions==0.1.0
+ - nvidia-cutlass-dsl==4.6.2
+ + nvidia-cutlass-dsl==4.7.1
+ - nvidia-cutlass-dsl-libs-base==4.6.2
+ + nvidia-cutlass-dsl-libs-base==4.7.1
+ - nvidia-cutlass-dsl-libs-core==4.6.2
+ + nvidia-cutlass-dsl-libs-core==4.7.1
+ - nvidia-cutlass-dsl-libs-cu12==4.6.2
+ + nvidia-cutlass-dsl-libs-cu12==4.7.1
+ - nvidia-cutlass-dsl-libs-cu13==4.6.2
+ + nvidia-cutlass-dsl-libs-cu13==4.7.1
+ - quack-kernels==0.6.4
+ + quack-kernels==0.6.5
+ - sglang==0.5.19+gd00d88efc8d6
+ + sglang==0.5.19+g560edbdca18a (from file:///kaggle/working/pennyroyal-v3-overlay/wheels/sglang-0.5.19+g560edbdca18a-cp312-cp312-linux_x86_64.whl)
+Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime
+Resolved 7 packages in 8.50s
+Downloading flashinfer-jit-cache-sm100a (260.7MiB)
+Downloading flashinfer-jit-cache-sm120f (178.5MiB)
+Downloading flashinfer-jit-cache-sm90a (280.5MiB)
+Downloading flashinfer-jit-cache-sm89 (108.6MiB)
+Downloading flashinfer-jit-cache-sm103a (266.7MiB)
+Downloading flashinfer-jit-cache-sm80 (110.5MiB)
+ Downloaded flashinfer-jit-cache-sm89
+ Downloaded flashinfer-jit-cache-sm80
+ Downloaded flashinfer-jit-cache-sm120f
+ Downloaded flashinfer-jit-cache-sm100a
+ Downloaded flashinfer-jit-cache-sm103a
+ Downloaded flashinfer-jit-cache-sm90a
+Prepared 7 packages in 14.93s
+Uninstalled 1 package in 333ms
+Installed 7 packages in 16.41s
+ - flashinfer-jit-cache==0.6.17+cu130
+ + flashinfer-jit-cache==0.7.0.post1+cu130
+ + flashinfer-jit-cache-sm100a==0.7.0.post1+cu130
+ + flashinfer-jit-cache-sm103a==0.7.0.post1+cu130
+ + flashinfer-jit-cache-sm120f==0.7.0.post1+cu130
+ + flashinfer-jit-cache-sm80==0.7.0.post1+cu130
+ + flashinfer-jit-cache-sm89==0.7.0.post1+cu130
+ + flashinfer-jit-cache-sm90a==0.7.0.post1+cu130
+Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime
+Resolved 1 package in 116ms
+Downloading flashinfer-cubin (1.5GiB)
+ Downloaded flashinfer-cubin
+Prepared 1 package in 42.24s
+Uninstalled 1 package in 2.81s
+Installed 1 package in 2m 12s
+ - flashinfer-cubin==0.6.17
+ + flashinfer-cubin==0.7.0.post1
+Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime
+Resolved 1 package in 287ms
+Prepared 1 package in 20ms
+Installed 1 package in 4ms
+ + wrapt==1.17.3
+No broken requirements found.
+FlashInfer SM120 packaging: the fused_moe_120 build failed with nvcc host compiler /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ (CUDAHOSTCXX), MAX_JOBS=2:
+--- stderr ---
+2026-10-25 17:49:44,126 - INFO - core.py:564 - flashinfer.jit: Building JIT module fused_moe_120; this can take several minutes on first use.
+Traceback (most recent call last):
+  File "/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/jit/cpp_ext.py", line 406, in run_ninja
+    subprocess.run(
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['ninja', '-v', '-C', '/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120', '-f', '/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/build.ninja', '-j', '2']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<string>", line 15, in <module>
+  File "/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/jit/core.py", line 569, in build
+    run_ninja(self.build_dir, self.ninja_path, verbose)
+  File "/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/jit/cpp_ext.py", line 418, in run_ninja
+    raise RuntimeError(msg) from e
+RuntimeError: Ninja build failed. Ninja output:
+ninja: Entering directory `/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120'
+[1/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp8_uint4.cu -o /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o 
+FAILED: [code=1] /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o 
+ /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp8_uint4.cu -o /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o 
+In file included from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include/cutlass_extensions/compute_occupancy.h:21,
+                 from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_template_dispatch.h:39,
+                 from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp8_uint4.cu:17:
+/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include/tensorrt_llm/common/cudaUtils.h:19:10: fatal error: cublasLt.h: No such file or directory
+   19 | #include <cublasLt.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+[2/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_tma_warp_specialized_input.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_tma_warp_specialized_input.cu -o /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_tma_warp_specialized_input.cuda.o 
+ninja: build stopped: subcommand failed.
+patches/moe-source.patch: applied
+patches/gdn-source.patch: applied
+patches/asan-include-compat.patch: applied
+building fused_moe_120 for FLASHINFER_CUDA_ARCH_LIST=12.0f (MAX_JOBS=2)
+BUILD FAILED at line 147; partial artifacts retained

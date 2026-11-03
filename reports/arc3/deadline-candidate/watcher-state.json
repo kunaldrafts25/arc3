@@ -1,0 +1,37 @@
+{
+  "phase": "screen_rejected_manual_decision_needed",
+  "pid": 21864,
+  "kernel": "kunalsinghh25/arc-hydra-deadline-candidate/1",
+  "scope": "One already accepted two-hour development screen and at most one nine-hour official evaluation if its predeclared gameplay gate passes",
+  "target": "Official100 or strictly above the freshly verified competing leader",
+  "recorded_at": "2026-11-02T08:35:17.987060+00:00",
+  "kernel_status": "COMPLETE",
+  "comparison": {
+    "common_gameplay_seconds": 4935.117182,
+    "common_time": {
+      "candidate": {
+        "score": 36.601928890135454,
+        "levels": 84,
+        "actions": 3637,
+        "generation_charges": 2925138
+      },
+      "memory": {
+        "score": 38.534239246284876,
+        "levels": 87,
+        "actions": 3961,
+        "generation_charges": 2971420
+      },
+      "prediction": {
+        "score": 36.44459366050078,
+        "levels": 86,
+        "actions": 3988,
+        "generation_charges": 3090000
+      }
+    },
+    "memory_games": 22,
+    "memory_changes": 72,
+    "qualifies_for_deadline_submission": false,
+    "decision": "Hold for explicit review; screen did not beat both retained alternatives",
+    "limitations": "One stochastic public draw, different scheduling horizons, and already inspected games. No causal isolation, unseen-game guarantee, or official-score prediction. Zero prediction use must not be credited as a mechanism improvement."
+  }
+}

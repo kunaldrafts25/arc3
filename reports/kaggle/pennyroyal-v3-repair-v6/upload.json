@@ -1,0 +1,11 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair/6",
+  "recorded_at": "2026-10-26T13:19:22.443124+00:00",
+  "files": {
+    "kernel-metadata.json": "bf0ebcb1b42bb35e319021593395e4f5fd0291f30742a9afad0b0c78079494e9",
+    "source-manifest.json": "a9f736294a6febd7a1fa3ad2f5bb00b3bbb6964520726a8941555b442d684c6c",
+    "build.ipynb": "ef228c341b1b4525981f2d663d207a6dc6ed24defd727e0cf61a15749f73852c"
+  },
+  "validation": "Python compilation, Bash syntax, two runtime-overlay tests passed; cloud build and GPU inference unverified",
+  "observer_session": 70362
+}

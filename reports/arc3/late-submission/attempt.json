@@ -1,0 +1,19 @@
+{
+  "phase": "accepted",
+  "kernel": "kunalsinghh25/arc-hydra-deadline-candidate/1",
+  "available_gpu_seconds": 58630.767,
+  "allowed_now": 100,
+  "active_jobs": [],
+  "known_submissions": [
+    57751759,
+    57726784,
+    57686595,
+    57657435,
+    57630597,
+    57601062
+  ],
+  "reason": "User explicitly requested the last notebook after the competition ended. Earlier deadline promotion gate rejected this candidate. This is a post-deadline attempt, not an on-time entry.",
+  "competition_deadline_utc": "2026-11-02T23:59:00+00:00",
+  "submission_ref": 57942215,
+  "recorded_at": "2026-11-03T09:27:05.468372+00:00"
+}

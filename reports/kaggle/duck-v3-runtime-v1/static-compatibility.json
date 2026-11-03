@@ -1,0 +1,233 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-duck-v3-runtime/1",
+  "wheel_sha256": "ffc0be8aa61168db6a521bb9eaae800e3cfde64d888170cc66fa9cde9dfa94a6",
+  "launcher_server_flags": {
+    "--chat-template": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--chunked-prefill-size": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--context-length": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--cuda-graph-bs-decode": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--cuda-graph-max-bs-decode": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--default-chat-template-kwargs": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--disable-flashinfer-autotune": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--dtype": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--enable-cache-report": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--enable-metrics": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--enable-request-time-stats-logging": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--gdn-mtp-cache-mode": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--host": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--image-processor-backend": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--kv-cache-dtype": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--linear-attn-decode-backend": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--linear-attn-prefill-backend": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--load-format": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--mamba-backend": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--mamba-radix-cache-strategy": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--mamba-ssm-dtype": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--mamba-track-interval": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--max-mamba-cache-size": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--max-prefill-tokens": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--max-running-requests": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--mem-fraction-static": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--mm-feature-transport": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--model-loader-extra-config": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--model-path": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--moe-runner-backend": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--page-size": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--ple-offload-embedding": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--port": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--quantization": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--reasoning-parser": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--schedule-policy": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--served-model-name": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--speculative-accept-threshold-acc": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--speculative-accept-threshold-single": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--speculative-algorithm": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--speculative-draft-kv-cache-dtype": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--speculative-draft-model-path": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--speculative-draft-model-quantization": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--speculative-eagle-topk": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--speculative-moe-runner-backend": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--speculative-num-draft-tokens": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--speculative-num-steps": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--speculative-token-map": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--tensor-parallel-size": {
+      "literal_flag_present": true,
+      "field_name_present": false
+    },
+    "--tool-call-parser": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--trust-remote-code": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--warmups": {
+      "literal_flag_present": true,
+      "field_name_present": true
+    },
+    "--watchdog-timeout": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--weight-loader-drop-cache-after-load": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    },
+    "--weight-loader-prefetch-checkpoints": {
+      "literal_flag_present": false,
+      "field_name_present": true
+    }
+  },
+  "unmatched_flags": [],
+  "original_custom_cache_markers": {
+    "SGLANG_MAMBA_PREFILL_FINAL_ONLY": false,
+    "mamba_refresh_on_unlock": false,
+    "mamba_prefill_final_only": false
+  },
+  "boundary": "Static inspection of the exact wheel and uploaded launcher. New SGLang arguments may be generated from annotated fields, so literal flag-string absence alone does not establish incompatibility. Presence does not prove GPU behavior or performance. Original custom cache markers may be replaced by different upstream mechanisms."
+}

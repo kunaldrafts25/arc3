@@ -1,0 +1,5 @@
+{"bounds": [46, 54, 29, 40], "level": 1, "returned_cells": 88, "step": 0, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [26, 34, 25, 43], "level": 1, "returned_cells": 144, "step": 0, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [34, 47, 30, 39], "level": 1, "returned_cells": 117, "step": 3, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [27, 42, 11, 23], "level": 2, "returned_cells": 180, "step": 54, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [27, 42, 11, 24], "level": 2, "returned_cells": 195, "step": 74, "stride": [1, 1], "tool": "read_region"}

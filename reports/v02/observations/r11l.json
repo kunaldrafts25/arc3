@@ -1,0 +1,677 @@
+[
+  {
+    "step": 0,
+    "state": "NOT_FINISHED",
+    "level": 0
+  },
+  {
+    "step": 1,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 40,
+      "y": 18
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 117,
+      "bbox": [
+        0,
+        0,
+        42,
+        57
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 2,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 30,
+      "y": 48
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 93,
+      "bbox": [
+        0,
+        1,
+        42,
+        57
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 3,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 42,
+      "y": 22
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 91,
+      "bbox": [
+        0,
+        2,
+        44,
+        57
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 4,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 59,
+      "y": 7
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 5,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 40,
+      "y": 56
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 101,
+      "bbox": [
+        0,
+        4,
+        44,
+        59
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 6,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 59,
+      "y": 7
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 7,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 36,
+      "y": 20
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 102,
+      "bbox": [
+        0,
+        6,
+        42,
+        59
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 8,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 42,
+      "y": 20
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 111,
+      "bbox": [
+        0,
+        7,
+        44,
+        57
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 9,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 40,
+      "y": 18
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        0,
+        9,
+        0,
+        9
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 10,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 33,
+      "y": 42
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 78,
+      "bbox": [
+        0,
+        10,
+        44,
+        52
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 11,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 42,
+      "y": 20
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 78,
+      "bbox": [
+        0,
+        11,
+        44,
+        52
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 12,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 37,
+      "y": 23
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 94,
+      "bbox": [
+        0,
+        12,
+        44,
+        54
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 13,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 3,
+      "y": 60
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        0,
+        13,
+        0,
+        13
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 14,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 56,
+      "y": 24
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 125,
+      "bbox": [
+        0,
+        14,
+        58,
+        57
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 15,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 24,
+      "y": 56
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 88,
+      "bbox": [
+        0,
+        15,
+        58,
+        59
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 16,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 38,
+      "y": 18
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 89,
+      "bbox": [
+        0,
+        16,
+        40,
+        59
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 17,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 27,
+      "y": 58
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 25,
+      "bbox": [
+        0,
+        16,
+        40,
+        61
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 18,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 37,
+      "y": 23
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 1428,
+      "bbox": [
+        0,
+        0,
+        63,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 19,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 58,
+      "y": 2
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 20,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 42,
+      "y": 53
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 21,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 0,
+      "y": 32
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 143,
+      "bbox": [
+        0,
+        2,
+        47,
+        33
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 22,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 40,
+      "y": 24
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 122,
+      "bbox": [
+        0,
+        3,
+        46,
+        33
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 23,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 39,
+      "y": 14
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 127,
+      "bbox": [
+        0,
+        4,
+        46,
+        26
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 24,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 51,
+      "y": 44
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        0,
+        5,
+        0,
+        5
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 25,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 56,
+      "y": 24
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 146,
+      "bbox": [
+        0,
+        6,
+        58,
+        26
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 26,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 37,
+      "y": 52
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 2,
+      "bbox": [
+        0,
+        7,
+        0,
+        8
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 27,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 37,
+      "y": 0
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        0,
+        9,
+        0,
+        9
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 28,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 52,
+      "y": 45
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        0,
+        10,
+        0,
+        10
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 29,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 40,
+      "y": 8
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 153,
+      "bbox": [
+        0,
+        6,
+        58,
+        26
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 30,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 41,
+      "y": 48
+    },
+    "state": "GAME_OVER",
+    "level": 1,
+    "difference": {
+      "changed_cells": 155,
+      "bbox": [
+        0,
+        6,
+        47,
+        50
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 31,
+    "action": 0,
+    "data": {
+      "game_id": "r11l-495a7899"
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 167,
+      "bbox": [
+        0,
+        0,
+        47,
+        50
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 32,
+    "action": 6,
+    "data": {
+      "game_id": "r11l-495a7899",
+      "x": 38,
+      "y": 53
+    },
+    "state": "NOT_FINISHED",
+    "level": 1,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "shape_changed": false
+    }
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "instances": [
+    {
+      "id": 753237,
+      "ownerSlug": "phuongncn",
+      "modelSlug": "arc3-qwen38-swift-w4a16-autoround",
+      "slug": "w4a16-a",
+      "versionId": 1004225,
+      "fineTunable": false,
+      "overview": "Swift-1.5-Qwen3.8-Flash-Next-W4A16-AutoRound part a (2-part split, 50-file Kaggle limit).",
+      "versionNumber": 1,
+      "framework": "MODEL_FRAMEWORK_PY_TORCH",
+      "versionNotes": "Initial release",
+      "downloadUrl": "/models/phuongncn/arc3-qwen38-swift-w4a16-autoround/PyTorch/w4a16-a/1/download",
+      "databundleVersionId": 21125511,
+      "lastVersionId": 1004225,
+      "metrics": "",
+      "license": {
+        "id": 12,
+        "name": "Other (specified in description)",
+        "agreementRequired": false
+      },
+      "databundleId": 13012644,
+      "firestorePath": "Tqzk2Lcs3ibfZL3izd96/versions/1c9tQNt08wd5wESG11nl",
+      "status": "READY",
+      "databundleVersionType": "FILESET",
+      "creationStatus": {
+        "status": "READY",
+        "creationPercentComplete": 1,
+        "creationLastUpdate": "2026-09-25T17:40:43.753Z",
+        "creationStep": "Ready",
+        "creationStart": "2026-09-25T17:39:25.357Z"
+      },
+      "uncompressedStorageUri": "",
+      "externalBaseModelUrl": "",
+      "modelId": 763369,
+      "totalUncompressedBytes": 124500425336,
+      "sigstoreState": "SIGSTORE_STATE_NONE",
+      "creatorUserId": 34082637
+    },
+    {
+      "id": 753259,
+      "ownerSlug": "phuongncn",
+      "modelSlug": "arc3-qwen38-swift-w4a16-autoround",
+      "slug": "w4a16-b",
+      "versionId": 1004251,
+      "fineTunable": false,
+      "overview": "Swift-1.5-Qwen3.8-Flash-Next-W4A16-AutoRound part b (2-part split, 50-file Kaggle limit).",
+      "versionNumber": 1,
+      "framework": "MODEL_FRAMEWORK_PY_TORCH",
+      "versionNotes": "Initial release",
+      "downloadUrl": "/models/phuongncn/arc3-qwen38-swift-w4a16-autoround/PyTorch/w4a16-b/1/download",
+      "databundleVersionId": 21126653,
+      "lastVersionId": 1004251,
+      "metrics": "",
+      "license": {
+        "id": 12,
+        "name": "Other (specified in description)",
+        "agreementRequired": false
+      },
+      "databundleId": 13013339,
+      "firestorePath": "SOZrm1Y36QopJDhJC8C3/versions/wLsgpzJuKFItiSkCk933",
+      "status": "READY",
+      "databundleVersionType": "FILESET",
+      "creationStatus": {
+        "status": "READY",
+        "creationPercentComplete": 1,
+        "creationLastUpdate": "2026-09-25T18:21:18.015Z",
+        "creationStep": "Ready",
+        "creationStart": "2026-09-25T18:19:53.594Z"
+      },
+      "uncompressedStorageUri": "",
+      "externalBaseModelUrl": "",
+      "modelId": 763369,
+      "totalUncompressedBytes": 52790776295,
+      "sigstoreState": "SIGSTORE_STATE_NONE",
+      "creatorUserId": 34082637
+    }
+  ]
+}

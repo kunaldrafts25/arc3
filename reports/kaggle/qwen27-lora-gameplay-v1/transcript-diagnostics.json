@@ -1,0 +1,22 @@
+{
+  "base": {
+    "recorded_replies": 283,
+    "mean_reasoning_chars": 10390.547703180213,
+    "reasoning_chars": 2940525,
+    "no_action_followups": 33,
+    "syntax_errors": 0,
+    "name_errors": 1,
+    "timeout_mentions": 5,
+    "game_over_mentions": 0
+  },
+  "adapted": {
+    "recorded_replies": 311,
+    "mean_reasoning_chars": 9283.1961414791,
+    "reasoning_chars": 2887074,
+    "no_action_followups": 44,
+    "syntax_errors": 0,
+    "name_errors": 1,
+    "timeout_mentions": 5,
+    "game_over_mentions": 0
+  }
+}

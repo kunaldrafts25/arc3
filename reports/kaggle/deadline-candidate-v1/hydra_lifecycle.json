@@ -1,0 +1,21 @@
+{
+  "phase": "run_finished",
+  "context": {
+    "competition": false,
+    "variant": "planning-assist",
+    "games": 25
+  },
+  "gameplay": {
+    "games": 25,
+    "model_gameplay_games": 25,
+    "actions": 3637,
+    "generated_tokens": 2925138,
+    "levels_completed": 84,
+    "states": {
+      "cancelled": 21,
+      "won": 4
+    }
+  },
+  "error": null,
+  "checked_at": "2026-11-02T00:40:03.216195+00:00"
+}

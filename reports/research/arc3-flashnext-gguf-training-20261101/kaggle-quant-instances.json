@@ -1,0 +1,20 @@
+{
+  "buianhtruc/strata-qwen3-8-flash-next-gsq-rco-iq3-s": [
+    {
+      "slug": "default",
+      "framework": "MODEL_FRAMEWORK_GGUF",
+      "versionNumber": 1,
+      "overview": null,
+      "status": null
+    }
+  ],
+  "buianhtruc/strata-qwen3-8-flash-next-gyro-m-tq2-0": [
+    {
+      "slug": "default",
+      "framework": "MODEL_FRAMEWORK_GGUF",
+      "versionNumber": 1,
+      "overview": null,
+      "status": null
+    }
+  ]
+}

@@ -1,0 +1,935 @@
+{
+  "checked_at": "2026-11-01T15:35:51.103475+00:00",
+  "candidate_variant": "qwen27",
+  "benchmark_sha256": {
+    "control": "a2f7a598aa1dff1a144071ba5ab82e7b3628935bcd83ad57677dd81f82cf8e54",
+    "qwen27": "7a52b103fa4b39fa61402e9679ce9a4b64b92f184fdc73836eeaa14e60dbccec"
+  },
+  "summaries": {
+    "control": {
+      "model_gameplay_verified": true,
+      "problems": [],
+      "games": 25,
+      "levels": 81,
+      "full_wins": 4,
+      "mean_public_score": 31.581267498484365,
+      "generated_tokens": 2911914,
+      "notes": {
+        "sk48-d8078629": "tokens=73488",
+        "tn36-ef4dde99": "tokens=71789",
+        "m0r0-492f87ba": "tokens=99928",
+        "bp35-0a0ad940": "tokens=72299",
+        "cn04-2fe56bfb": "tokens=138921",
+        "dc22-fdcac232": "tokens=117813",
+        "tu93-0768757b": "tokens=172944",
+        "lp85-305b61c3": "tokens=191295",
+        "ka59-38d34dbb": "tokens=177384",
+        "wa30-ee6fef47": "tokens=75280",
+        "vc33-5430563c": "tokens=154615",
+        "lf52-271a04aa": "tokens=112863",
+        "r11l-495a7899": "tokens=143558",
+        "sc25-635fd71a": "tokens=101255",
+        "sp80-589a99af": "tokens=118068",
+        "ar25-0c556536": "tokens=158339",
+        "sb26-7fbdac44": "tokens=55120",
+        "cd82-fb555c5d": "tokens=156136",
+        "re86-8af5384d": "tokens=160811",
+        "s5i5-18d95033": "tokens=77161",
+        "ls20-9607627b": "tokens=105541",
+        "ft09-0d8bbf25": "tokens=97299",
+        "su15-1944f8ab": "tokens=140688",
+        "tr87-cd924810": "tokens=154045",
+        "g50t-5849a774": "tokens=84801"
+      },
+      "boundary": "Public development gameplay only. Not a hidden score or proof of the 71-point goal.",
+      "token_accounting_corrections": [],
+      "token_accounting_basis": "Action-record generation plus terminal no-action generation; cancellation notes may include additional uncharged generation.",
+      "public_level_completions_by_elapsed_seconds": {
+        "1800": 37,
+        "3600": 64,
+        "5400": 81,
+        "7200": 81
+      }
+    },
+    "qwen27": {
+      "model_gameplay_verified": true,
+      "problems": [],
+      "games": 25,
+      "levels": 36,
+      "full_wins": 0,
+      "mean_public_score": 9.541728666176809,
+      "generated_tokens": 2166817,
+      "notes": {
+        "sk48-d8078629": "tokens=130559",
+        "m0r0-492f87ba": "tokens=76950",
+        "tu93-0768757b": "tokens=137357",
+        "lp85-305b61c3": "tokens=138166",
+        "r11l-495a7899": "tokens=132828",
+        "sp80-589a99af": "tokens=76502",
+        "ar25-0c556536": "tokens=103545",
+        "cd82-fb555c5d": "tokens=96032",
+        "s5i5-18d95033": "tokens=61593",
+        "ls20-9607627b": "tokens=103924",
+        "ft09-0d8bbf25": "tokens=140082",
+        "su15-1944f8ab": "tokens=56093",
+        "tr87-cd924810": "tokens=103921"
+      },
+      "boundary": "Public development gameplay only. Not a hidden score or proof of the 71-point goal.",
+      "token_accounting_corrections": [],
+      "token_accounting_basis": "Action-record generation plus terminal no-action generation; cancellation notes may include additional uncharged generation.",
+      "public_level_completions_by_elapsed_seconds": {
+        "1800": 6,
+        "3600": 19,
+        "5400": 30,
+        "7200": 36
+      }
+    }
+  },
+  "gameplay_seconds": {
+    "control": 4819.353899,
+    "qwen27": 6465.849633
+  },
+  "common_gameplay_seconds": 4819.353899,
+  "common_elapsed_mean_score": {
+    "control": 31.581267498484365,
+    "qwen27": 5.88193110989039
+  },
+  "final_mean_score_delta": -22.039538832307557,
+  "common_elapsed_mean_score_delta": -25.699336388593977,
+  "games_improved": 3,
+  "games_regressed": 18,
+  "games_unchanged": 4,
+  "per_game": [
+    {
+      "game": "sb26-7fbdac44",
+      "control": {
+        "levels": 8,
+        "actions": 156,
+        "generated_tokens": 55120,
+        "score": 94.70375781186593
+      },
+      "qwen27": {
+        "levels": 1,
+        "actions": 56,
+        "generated_tokens": 52887,
+        "score": 2.7777777777777777
+      },
+      "common_elapsed_score_delta": -91.92598003408816,
+      "final_score_delta": -91.92598003408816
+    },
+    {
+      "game": "ar25-0c556536",
+      "control": {
+        "levels": 8,
+        "actions": 361,
+        "generated_tokens": 158339,
+        "score": 100.0
+      },
+      "qwen27": {
+        "levels": 1,
+        "actions": 45,
+        "generated_tokens": 62612,
+        "score": 2.6119783695541274
+      },
+      "common_elapsed_score_delta": -97.38802163044588,
+      "final_score_delta": -91.66666666666667
+    },
+    {
+      "game": "lp85-305b61c3",
+      "control": {
+        "levels": 8,
+        "actions": 144,
+        "generated_tokens": 191295,
+        "score": 100.0
+      },
+      "qwen27": {
+        "levels": 3,
+        "actions": 50,
+        "generated_tokens": 97061,
+        "score": 16.666666666666668
+      },
+      "common_elapsed_score_delta": -83.33333333333333,
+      "final_score_delta": -77.20521541950113
+    },
+    {
+      "game": "cd82-fb555c5d",
+      "control": {
+        "levels": 6,
+        "actions": 159,
+        "generated_tokens": 156136,
+        "score": 81.49516921824613
+      },
+      "qwen27": {
+        "levels": 1,
+        "actions": 42,
+        "generated_tokens": 78815,
+        "score": 4.761904761904762
+      },
+      "common_elapsed_score_delta": -76.73326445634137,
+      "final_score_delta": -76.73326445634137
+    },
+    {
+      "game": "re86-8af5384d",
+      "control": {
+        "levels": 5,
+        "actions": 315,
+        "generated_tokens": 148307,
+        "score": 41.666666666666664
+      },
+      "qwen27": {
+        "levels": 1,
+        "actions": 58,
+        "generated_tokens": 51574,
+        "score": 2.7777777777777777
+      },
+      "common_elapsed_score_delta": -38.888888888888886,
+      "final_score_delta": -38.88888888888889
+    },
+    {
+      "game": "tr87-cd924810",
+      "control": {
+        "levels": 5,
+        "actions": 250,
+        "generated_tokens": 154045,
+        "score": 71.42857142857143
+      },
+      "qwen27": {
+        "levels": 3,
+        "actions": 112,
+        "generated_tokens": 61235,
+        "score": 28.571428571428573
+      },
+      "common_elapsed_score_delta": -42.85714285714286,
+      "final_score_delta": -33.37040698632395
+    },
+    {
+      "game": "vc33-5430563c",
+      "control": {
+        "levels": 5,
+        "actions": 204,
+        "generated_tokens": 154615,
+        "score": 53.57142857142857
+      },
+      "qwen27": {
+        "levels": 3,
+        "actions": 54,
+        "generated_tokens": 91911,
+        "score": 21.428571428571427
+      },
+      "common_elapsed_score_delta": -32.14285714285714,
+      "final_score_delta": -32.14285714285714
+    },
+    {
+      "game": "sc25-635fd71a",
+      "control": {
+        "levels": 3,
+        "actions": 205,
+        "generated_tokens": 94054,
+        "score": 25.996013565776167
+      },
+      "qwen27": {
+        "levels": 0,
+        "actions": 54,
+        "generated_tokens": 56828,
+        "score": 0.0
+      },
+      "common_elapsed_score_delta": -25.996013565776167,
+      "final_score_delta": -25.996013565776167
+    },
+    {
+      "game": "ka59-38d34dbb",
+      "control": {
+        "levels": 3,
+        "actions": 167,
+        "generated_tokens": 177384,
+        "score": 21.428571428571427
+      },
+      "qwen27": {
+        "levels": 0,
+        "actions": 55,
+        "generated_tokens": 61099,
+        "score": 0.0
+      },
+      "common_elapsed_score_delta": -21.428571428571427,
+      "final_score_delta": -21.428571428571427
+    },
+    {
+      "game": "dc22-fdcac232",
+      "control": {
+        "levels": 2,
+        "actions": 190,
+        "generated_tokens": 117813,
+        "score": 14.285714285714286
+      },
+      "qwen27": {
+        "levels": 0,
+        "actions": 104,
+        "generated_tokens": 67828,
+        "score": 0.0
+      },
+      "common_elapsed_score_delta": -14.285714285714286,
+      "final_score_delta": -14.285714285714285
+    },
+    {
+      "game": "cn04-2fe56bfb",
+      "control": {
+        "levels": 2,
+        "actions": 118,
+        "generated_tokens": 138921,
+        "score": 12.76531074177068
+      },
+      "qwen27": {
+        "levels": 0,
+        "actions": 59,
+        "generated_tokens": 72517,
+        "score": 0.0
+      },
+      "common_elapsed_score_delta": -12.76531074177068,
+      "final_score_delta": -12.76531074177068
+    },
+    {
+      "game": "su15-1944f8ab",
+      "control": {
+        "levels": 3,
+        "actions": 162,
+        "generated_tokens": 140015,
+        "score": 12.90311418685121
+      },
+      "qwen27": {
+        "levels": 0,
+        "actions": 7,
+        "generated_tokens": 13417,
+        "score": 0.0
+      },
+      "common_elapsed_score_delta": -12.90311418685121,
+      "final_score_delta": -10.680891964628987
+    },
+    {
+      "game": "m0r0-492f87ba",
+      "control": {
+        "levels": 2,
+        "actions": 135,
+        "generated_tokens": 98028,
+        "score": 14.285714285714286
+      },
+      "qwen27": {
+        "levels": 1,
+        "actions": 36,
+        "generated_tokens": 73879,
+        "score": 4.761904761904762
+      },
+      "common_elapsed_score_delta": -9.523809523809526,
+      "final_score_delta": -9.523809523809522
+    },
+    {
+      "game": "sp80-589a99af",
+      "control": {
+        "levels": 2,
+        "actions": 39,
+        "generated_tokens": 116839,
+        "score": 14.285714285714286
+      },
+      "qwen27": {
+        "levels": 1,
+        "actions": 26,
+        "generated_tokens": 70724,
+        "score": 4.761904761904762
+      },
+      "common_elapsed_score_delta": -9.523809523809526,
+      "final_score_delta": -9.523809523809522
+    },
+    {
+      "game": "lf52-271a04aa",
+      "control": {
+        "levels": 3,
+        "actions": 130,
+        "generated_tokens": 109853,
+        "score": 10.909090909090908
+      },
+      "qwen27": {
+        "levels": 1,
+        "actions": 92,
+        "generated_tokens": 50406,
+        "score": 1.8181818181818181
+      },
+      "common_elapsed_score_delta": -9.09090909090909,
+      "final_score_delta": -9.09090909090909
+    },
+    {
+      "game": "ls20-9607627b",
+      "control": {
+        "levels": 2,
+        "actions": 234,
+        "generated_tokens": 104745,
+        "score": 10.143849206349206
+      },
+      "qwen27": {
+        "levels": 1,
+        "actions": 24,
+        "generated_tokens": 73236,
+        "score": 3.5714285714285716
+      },
+      "common_elapsed_score_delta": -6.572420634920634,
+      "final_score_delta": -6.572420634920634
+    },
+    {
+      "game": "tu93-0768757b",
+      "control": {
+        "levels": 5,
+        "actions": 199,
+        "generated_tokens": 172944,
+        "score": 28.7307761280294
+      },
+      "qwen27": {
+        "levels": 2,
+        "actions": 46,
+        "generated_tokens": 78239,
+        "score": 6.666666666666667
+      },
+      "common_elapsed_score_delta": -22.064109461362733,
+      "final_score_delta": -6.5085539058071795
+    },
+    {
+      "game": "ft09-0d8bbf25",
+      "control": {
+        "levels": 4,
+        "actions": 102,
+        "generated_tokens": 88633,
+        "score": 47.61904761904762
+      },
+      "qwen27": {
+        "levels": 3,
+        "actions": 46,
+        "generated_tokens": 49927,
+        "score": 23.80859375
+      },
+      "common_elapsed_score_delta": -23.81045386904762,
+      "final_score_delta": -4.762834821428562
+    },
+    {
+      "game": "bp35-0a0ad940",
+      "control": {
+        "levels": 0,
+        "actions": 24,
+        "generated_tokens": 71016,
+        "score": 0.0
+      },
+      "qwen27": {
+        "levels": 0,
+        "actions": 30,
+        "generated_tokens": 64509,
+        "score": 0.0
+      },
+      "common_elapsed_score_delta": 0.0,
+      "final_score_delta": 0.0
+    },
+    {
+      "game": "g50t-5849a774",
+      "control": {
+        "levels": 0,
+        "actions": 52,
+        "generated_tokens": 83077,
+        "score": 0.0
+      },
+      "qwen27": {
+        "levels": 0,
+        "actions": 16,
+        "generated_tokens": 48935,
+        "score": 0.0
+      },
+      "common_elapsed_score_delta": 0.0,
+      "final_score_delta": 0.0
+    },
+    {
+      "game": "tn36-ef4dde99",
+      "control": {
+        "levels": 0,
+        "actions": 62,
+        "generated_tokens": 62828,
+        "score": 0.0
+      },
+      "qwen27": {
+        "levels": 0,
+        "actions": 27,
+        "generated_tokens": 71243,
+        "score": 0.0
+      },
+      "common_elapsed_score_delta": 0.0,
+      "final_score_delta": 0.0
+    },
+    {
+      "game": "wa30-ee6fef47",
+      "control": {
+        "levels": 1,
+        "actions": 92,
+        "generated_tokens": 56047,
+        "score": 2.2222222222222223
+      },
+      "qwen27": {
+        "levels": 1,
+        "actions": 88,
+        "generated_tokens": 66171,
+        "score": 2.2222222222222223
+      },
+      "common_elapsed_score_delta": 0.0,
+      "final_score_delta": 0.0
+    },
+    {
+      "game": "s5i5-18d95033",
+      "control": {
+        "levels": 1,
+        "actions": 39,
+        "generated_tokens": 74104,
+        "score": 2.5195263290501386
+      },
+      "qwen27": {
+        "levels": 1,
+        "actions": 49,
+        "generated_tokens": 59566,
+        "score": 2.7777777777777777
+      },
+      "common_elapsed_score_delta": 0.25825144872763905,
+      "final_score_delta": 0.25825144872763905
+    },
+    {
+      "game": "sk48-d8078629",
+      "control": {
+        "levels": 0,
+        "actions": 31,
+        "generated_tokens": 63623,
+        "score": 0.0
+      },
+      "qwen27": {
+        "levels": 1,
+        "actions": 22,
+        "generated_tokens": 72739,
+        "score": 2.7777777777777777
+      },
+      "common_elapsed_score_delta": 2.7777777777777777,
+      "final_score_delta": 2.7777777777777777
+    },
+    {
+      "game": "r11l-495a7899",
+      "control": {
+        "levels": 3,
+        "actions": 36,
+        "generated_tokens": 124133,
+        "score": 28.571428571428573
+      },
+      "qwen27": {
+        "levels": 2,
+        "actions": 37,
+        "generated_tokens": 75298,
+        "score": 14.285714285714286
+      },
+      "common_elapsed_score_delta": -14.285714285714286,
+      "final_score_delta": 19.047619047619044
+    }
+  ],
+  "prediction_adoption": {
+    "source_origin": "model",
+    "session_store_files": 0,
+    "event_files": 0,
+    "counts": {},
+    "per_session": {},
+    "source_sha256": {},
+    "event_formats": [],
+    "audit_errors": [],
+    "frozen_forecast_archive_complete": false,
+    "boundary": "Counts establish use and measured checks only. Model origin must be established separately from real gameplay/provenance; programmatic replay is not LLM adoption. Superseded archives are not counted as new checks. V1 events do not retain all original forecasts/cancellations; V2 explicitly logs forecast-before-dispatch and measured resolution, which this audit checks for internal consistency. These logs are not an independent game-state oracle. Matching selected features is not a correct object identity, rule, goal, better decision or score improvement. New version after refutation is an observed sequence, not proof of causal learning or successful repair."
+  },
+  "costs": {
+    "control": {
+      "actions": 3606,
+      "completed_level_score_ceiling": 32.93160173160173,
+      "mean_action_efficiency_gap": 1.3503342331173656,
+      "generation_after_last_completion_on_unfinished_games": 1055964
+    },
+    "qwen27": {
+      "actions": 1708,
+      "completed_level_score_ceiling": 10.313997113997114,
+      "mean_action_efficiency_gap": 0.7722684478203057,
+      "generation_after_last_completion_on_unfinished_games": 1156512
+    }
+  },
+  "serving": {
+    "control": {
+      "completed_requests": 1684,
+      "prompt_tokens": 111788040,
+      "cached_tokens": 104937088,
+      "weighted_cache_fraction": 0.9387148034798714,
+      "completed_response_tokens": 3032610,
+      "prompt_length_tokens": {
+        "p50": 69681,
+        "p90": 105967,
+        "p99": 116313,
+        "max": 118190
+      },
+      "response_length_tokens": {
+        "p50": 1103,
+        "p90": 4206,
+        "p99": 11699,
+        "max": 12291
+      },
+      "server_queue_ms": {
+        "p50": 1.58,
+        "p90": 3.64,
+        "p99": 6862.72,
+        "max": 33241.15
+      },
+      "initial_prefill_ms": {
+        "p50": 256.19,
+        "p90": 832.82,
+        "p99": 5020.69,
+        "max": 6988.99
+      },
+      "long_prompt_requests": 992,
+      "long_prompt_low_cache_requests": 1,
+      "completed_response_tokens_per_window_second": 629.257185412831,
+      "initial_prefill_interval_coverage_seconds": 754.8265674114227,
+      "checked_at": "2026-11-01T07:31:50.626173+00:00",
+      "source_sha256": "4aa9df86b6e831db9f888602de002a4a85b9c2205e96811c6aad3f47fed1ae44",
+      "benchmark_sha256": "a2f7a598aa1dff1a144071ba5ab82e7b3628935bcd83ad57677dd81f82cf8e54",
+      "timing_lines": 1687,
+      "unparsed_timing_lines": 0,
+      "unique_request_ids": 1684,
+      "gameplay_window_seconds": 4819.349020242691,
+      "benchmark_generated_tokens": 2911914,
+      "decode_log_samples": 3101,
+      "decode_running_requests_sample_quantiles": {
+        "p50": 9.0,
+        "p90": 10.0,
+        "p99": 10.0,
+        "max": 10.0
+      },
+      "decode_server_queue_requests_sample_quantiles": {
+        "p50": 0.0,
+        "p90": 0.0,
+        "p99": 1.0,
+        "max": 1.0
+      },
+      "decode_token_throughput_sample_quantiles": {
+        "p50": 747.48,
+        "p90": 838.61,
+        "p99": 883.65,
+        "max": 930.15
+      },
+      "speculative_accept_length_sample_quantiles": {
+        "p50": 2.67,
+        "p90": 2.86,
+        "p99": 3.02,
+        "max": 3.44
+      },
+      "by_two_hour_entry_window": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 4819.349020242691,
+          "completed_requests": 1684,
+          "prompt_tokens": 111788040,
+          "cached_tokens": 104937088,
+          "weighted_cache_fraction": 0.9387148034798714,
+          "completed_response_tokens": 3032610,
+          "prompt_length_tokens": {
+            "p50": 69681,
+            "p90": 105967,
+            "p99": 116313,
+            "max": 118190
+          },
+          "response_length_tokens": {
+            "p50": 1103,
+            "p90": 4206,
+            "p99": 11699,
+            "max": 12291
+          },
+          "server_queue_ms": {
+            "p50": 1.58,
+            "p90": 3.64,
+            "p99": 6862.72,
+            "max": 33241.15
+          },
+          "initial_prefill_ms": {
+            "p50": 256.19,
+            "p90": 832.82,
+            "p99": 5020.69,
+            "max": 6988.99
+          },
+          "long_prompt_requests": 992,
+          "long_prompt_low_cache_requests": 1,
+          "completed_response_tokens_per_window_second": 629.257185412831,
+          "initial_prefill_interval_coverage_seconds": 754.8265674114227
+        }
+      ],
+      "boundary": "Saved public development log. Server queue excludes harness admission waiting. Decode sample quantiles are event-weighted, not time-weighted GPU utilization. Initial-prefill interval coverage uses logged queue/prefill elapsed fields and is not precise device busy time. Response tokens are assigned to request-entry windows, so generation can cross window boundaries. Completed-response totals can differ from benchmark action charges due to retries, cancellation or accounting; no unmeasured cause is assigned. Public/model configuration differs from other authors runs; not a matched throughput ablation or hidden failure diagnosis."
+    },
+    "qwen27": {
+      "completed_requests": 982,
+      "prompt_tokens": 58858557,
+      "cached_tokens": 54722560,
+      "weighted_cache_fraction": 0.9297298946693512,
+      "completed_response_tokens": 2248835,
+      "prompt_length_tokens": {
+        "p50": 60742,
+        "p90": 105571,
+        "p99": 117236,
+        "max": 119778
+      },
+      "response_length_tokens": {
+        "p50": 1559,
+        "p90": 4890,
+        "p99": 12289,
+        "max": 12295
+      },
+      "server_queue_ms": {
+        "p50": 4785.38,
+        "p90": 25647.67,
+        "p99": 676024.3,
+        "max": 889703.77
+      },
+      "initial_prefill_ms": {
+        "p50": 554.91,
+        "p90": 1704.57,
+        "p99": 8916.88,
+        "max": 10103.81
+      },
+      "long_prompt_requests": 475,
+      "long_prompt_low_cache_requests": 3,
+      "completed_response_tokens_per_window_second": 347.80194861921916,
+      "initial_prefill_interval_coverage_seconds": 923.0991342067719,
+      "checked_at": "2026-11-01T15:01:21.682639+00:00",
+      "source_sha256": "4dc1ccc7e1f29434fd12c29f339a3dc4642826d6b585a9aa0af2b2dbefc39544",
+      "benchmark_sha256": "7a52b103fa4b39fa61402e9679ce9a4b64b92f184fdc73836eeaa14e60dbccec",
+      "timing_lines": 986,
+      "unparsed_timing_lines": 0,
+      "unique_request_ids": 982,
+      "gameplay_window_seconds": 6465.849340200424,
+      "benchmark_generated_tokens": 2166817,
+      "decode_log_samples": 3410,
+      "decode_running_requests_sample_quantiles": {
+        "p50": 4.0,
+        "p90": 4.0,
+        "p99": 4.0,
+        "max": 4.0
+      },
+      "decode_server_queue_requests_sample_quantiles": {
+        "p50": 6.0,
+        "p90": 6.0,
+        "p99": 6.0,
+        "max": 10.0
+      },
+      "decode_token_throughput_sample_quantiles": {
+        "p50": 383.84,
+        "p90": 458.71,
+        "p99": 537.66,
+        "max": 626.12
+      },
+      "speculative_accept_length_sample_quantiles": {
+        "p50": 4.09,
+        "p90": 4.79,
+        "p99": 5.42,
+        "max": 6.24
+      },
+      "by_two_hour_entry_window": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 6465.849340200424,
+          "completed_requests": 982,
+          "prompt_tokens": 58858557,
+          "cached_tokens": 54722560,
+          "weighted_cache_fraction": 0.9297298946693512,
+          "completed_response_tokens": 2248835,
+          "prompt_length_tokens": {
+            "p50": 60742,
+            "p90": 105571,
+            "p99": 117236,
+            "max": 119778
+          },
+          "response_length_tokens": {
+            "p50": 1559,
+            "p90": 4890,
+            "p99": 12289,
+            "max": 12295
+          },
+          "server_queue_ms": {
+            "p50": 4785.38,
+            "p90": 25647.67,
+            "p99": 676024.3,
+            "max": 889703.77
+          },
+          "initial_prefill_ms": {
+            "p50": 554.91,
+            "p90": 1704.57,
+            "p99": 8916.88,
+            "max": 10103.81
+          },
+          "long_prompt_requests": 475,
+          "long_prompt_low_cache_requests": 3,
+          "completed_response_tokens_per_window_second": 347.80194861921916,
+          "initial_prefill_interval_coverage_seconds": 923.0991342067719
+        }
+      ],
+      "boundary": "Saved public development log. Server queue excludes harness admission waiting. Decode sample quantiles are event-weighted, not time-weighted GPU utilization. Initial-prefill interval coverage uses logged queue/prefill elapsed fields and is not precise device busy time. Response tokens are assigned to request-entry windows, so generation can cross window boundaries. Completed-response totals can differ from benchmark action charges due to retries, cancellation or accounting; no unmeasured cause is assigned. Public/model configuration differs from other authors runs; not a matched throughput ablation or hidden failure diagnosis."
+    }
+  },
+  "usage": {
+    "control": {
+      "inspection_tools": {
+        "read_region": 216,
+        "row_runs": 249,
+        "read_cells": 239
+      },
+      "inspection_queries": 704,
+      "repeated_identical_event_metadata": 182,
+      "inspection_per_game": [
+        {
+          "game": "bp35-0a0ad940",
+          "queries": 84,
+          "repeated_identical_event_metadata": 6
+        },
+        {
+          "game": "cd82-fb555c5d",
+          "queries": 3,
+          "repeated_identical_event_metadata": 2
+        },
+        {
+          "game": "cn04-2fe56bfb",
+          "queries": 22,
+          "repeated_identical_event_metadata": 1
+        },
+        {
+          "game": "ft09-0d8bbf25",
+          "queries": 138,
+          "repeated_identical_event_metadata": 110
+        },
+        {
+          "game": "g50t-5849a774",
+          "queries": 99,
+          "repeated_identical_event_metadata": 3
+        },
+        {
+          "game": "ka59-38d34dbb",
+          "queries": 1,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "lf52-271a04aa",
+          "queries": 93,
+          "repeated_identical_event_metadata": 1
+        },
+        {
+          "game": "lp85-305b61c3",
+          "queries": 2,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "m0r0-492f87ba",
+          "queries": 36,
+          "repeated_identical_event_metadata": 11
+        },
+        {
+          "game": "r11l-495a7899",
+          "queries": 6,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "s5i5-18d95033",
+          "queries": 59,
+          "repeated_identical_event_metadata": 46
+        },
+        {
+          "game": "sb26-7fbdac44",
+          "queries": 2,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "sc25-635fd71a",
+          "queries": 32,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "sk48-d8078629",
+          "queries": 25,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "su15-1944f8ab",
+          "queries": 1,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "tn36-ef4dde99",
+          "queries": 80,
+          "repeated_identical_event_metadata": 2
+        },
+        {
+          "game": "tu93-0768757b",
+          "queries": 3,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "vc33-5430563c",
+          "queries": 13,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "wa30-ee6fef47",
+          "queries": 5,
+          "repeated_identical_event_metadata": 0
+        }
+      ],
+      "transcript_replies": 1675,
+      "reasoning_characters": 7855418,
+      "no_action_followup_prompts": 309,
+      "boundary": "read_cells telemetry omits requested coordinates, so identical event metadata does not establish an identical query. Repeated measurements may also occur inside one efficient computation. No-action turns can perform useful search. These counts do not identify wasted inference or establish causality."
+    },
+    "qwen27": {
+      "inspection_tools": {
+        "read_region": 45,
+        "read_cells": 5
+      },
+      "inspection_queries": 50,
+      "repeated_identical_event_metadata": 4,
+      "inspection_per_game": [
+        {
+          "game": "bp35-0a0ad940",
+          "queries": 1,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "cd82-fb555c5d",
+          "queries": 17,
+          "repeated_identical_event_metadata": 1
+        },
+        {
+          "game": "ft09-0d8bbf25",
+          "queries": 14,
+          "repeated_identical_event_metadata": 1
+        },
+        {
+          "game": "lp85-305b61c3",
+          "queries": 1,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "r11l-495a7899",
+          "queries": 9,
+          "repeated_identical_event_metadata": 2
+        },
+        {
+          "game": "sb26-7fbdac44",
+          "queries": 3,
+          "repeated_identical_event_metadata": 0
+        },
+        {
+          "game": "wa30-ee6fef47",
+          "queries": 5,
+          "repeated_identical_event_metadata": 0
+        }
+      ],
+      "transcript_replies": 973,
+      "reasoning_characters": 5684132,
+      "no_action_followup_prompts": 169,
+      "boundary": "read_cells telemetry omits requested coordinates, so identical event metadata does not establish an identical query. Repeated measurements may also occur inside one efficient computation. No-action turns can perform useful search. These counts do not identify wasted inference or establish causality."
+    }
+  },
+  "boundary": "One stochastic public pair with frozen common components. 27B changes target, draft and model-specific serving capacity/backends. This is a complete deployment comparison, not an isolated model-quality or training effect. Final scores reflect the same total notebook cap, including startup. Common-gameplay truncation is descriptive and does not restore identical scheduling, inference budgets, random draws or interrupted turns. Unsuccessful tail generation can include useful exploration. No hidden score estimate, significance claim, automatic promotion or submission. Human baselines are used only by this offline researcher audit and never supplied to the agent."
+}

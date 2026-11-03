@@ -1,0 +1,38 @@
+{
+  "phase": "accepted",
+  "pid": 13168,
+  "kernel": "kunalsinghh25/arc-hydra-thinkingcap-matched-candidate",
+  "files": {
+    "submission.ipynb": "b6f41c6f73abe21af075a1fade1b05886d78aff7f1a62a09fd44d9dceddc3aef",
+    "kernel-metadata.json": "5aeafb8df0a188d3608b279884c71aecf8276767a434e54b03fdd587175846ac",
+    "provenance.json": "757811756bb09f0ab97212580c9ffd0c67b7d39b9707aa54f6c463dda4d117f7"
+  },
+  "hard_session_timeout_seconds": 7200,
+  "resources": {
+    "allowed": true,
+    "reason": "Bounded original-account free budget; only the known ARC3 job may already be queued",
+    "available_gpu_seconds": 101286.643,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [
+      {
+        "kernel": "kunalsinghh25/arc-hydra-prediction-matched-candidate",
+        "status": "QUEUED",
+        "accelerator": "unclassified"
+      }
+    ],
+    "arc2_free_seconds_floor": 10800,
+    "prediction_exact_status": "QUEUED",
+    "queue_policy": "At most two independent ARC3 sessions; each externally capped at 7200 seconds, may overlap; ARC2 floor 10800 seconds",
+    "recorded_at": "2026-11-01T08:43:09.915080+00:00"
+  },
+  "scope": "One ARC3 public development comparison; no official submission",
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-thinkingcap-matched-candidate",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-thinkingcap-matched-candidate",
+    "versionNumber": 1,
+    "kernelId": 142078865
+  },
+  "recorded_at": "2026-11-01T08:43:14.340750+00:00"
+}

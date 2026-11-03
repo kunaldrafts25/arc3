@@ -1,0 +1,19 @@
+{
+  "kernel": "kunalsinghh03/arc-hydra-flexible-extended-control/1",
+  "recorded_at": "2026-10-28T19:21:53.349754+00:00",
+  "token_file": "access_token2",
+  "files": {
+    "kernel-metadata.json": "c0b47d83cdce44abf59dd006eca06ed5efe33d39674f179232c6b2d0e93dd827",
+    "provenance.json": "e750618de2646a742c59ec7370399ecdff934638fe39bb50d9f985b318131771",
+    "submission.ipynb": "d8211f9d42e50b7d815ee939a7ab16e4474b82b3e1298401df34e2dcfdee1777"
+  },
+  "whole_notebook_seconds": 32400,
+  "finalization_reserve_seconds": 600,
+  "public_games": 25,
+  "input_cpu_gate": "kunalsinghh03/arc-hydra-public-inputs-probe/1",
+  "competition_datasource_attached": false,
+  "submission_account": "kunalsinghh25",
+  "score": null,
+  "account_rule_compliance": "Not independently established; user explicitly requested the separate development account. No enrollment, rule acceptance or submission was performed there.",
+  "observer_session": 54478
+}

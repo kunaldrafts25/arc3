@@ -1,0 +1,149 @@
+{
+  "sha": "560edbdca18aedae13f71ae20b3984efa4d22633",
+  "node_id": "C_kwDOUDL1D9oAKDU2MGVkYmRjYTE4YWVkYWUxM2Y3MWFlMjBiMzk4NGVmYTRkMjI2MzM",
+  "commit": {
+    "author": {
+      "name": "John Pezzulli",
+      "email": "38448408+jpezzulli@users.noreply.github.com",
+      "date": "2026-10-10T19:11:02Z"
+    },
+    "committer": {
+      "name": "John Pezzulli",
+      "email": "38448408+jpezzulli@users.noreply.github.com",
+      "date": "2026-10-10T19:11:02Z"
+    },
+    "message": "release: publish Penny Royal 3.0",
+    "tree": {
+      "sha": "6072ba1e1353ce16d78feddeff866c3a0d20ff6f",
+      "url": "https://api.github.com/repos/jpezzulli/sglang-rtxpro6000/git/trees/6072ba1e1353ce16d78feddeff866c3a0d20ff6f"
+    },
+    "url": "https://api.github.com/repos/jpezzulli/sglang-rtxpro6000/git/commits/560edbdca18aedae13f71ae20b3984efa4d22633",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/jpezzulli/sglang-rtxpro6000/commits/560edbdca18aedae13f71ae20b3984efa4d22633",
+  "html_url": "https://github.com/jpezzulli/sglang-rtxpro6000/commit/560edbdca18aedae13f71ae20b3984efa4d22633",
+  "comments_url": "https://api.github.com/repos/jpezzulli/sglang-rtxpro6000/commits/560edbdca18aedae13f71ae20b3984efa4d22633/comments",
+  "author": {
+    "login": "jpezzulli",
+    "id": 38448408,
+    "node_id": "MDQ6VXNlcjM4NDQ4NDA4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/38448408?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jpezzulli",
+    "html_url": "https://github.com/jpezzulli",
+    "followers_url": "https://api.github.com/users/jpezzulli/followers",
+    "following_url": "https://api.github.com/users/jpezzulli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jpezzulli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jpezzulli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jpezzulli/subscriptions",
+    "organizations_url": "https://api.github.com/users/jpezzulli/orgs",
+    "repos_url": "https://api.github.com/users/jpezzulli/repos",
+    "events_url": "https://api.github.com/users/jpezzulli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jpezzulli/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "jpezzulli",
+    "id": 38448408,
+    "node_id": "MDQ6VXNlcjM4NDQ4NDA4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/38448408?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jpezzulli",
+    "html_url": "https://github.com/jpezzulli",
+    "followers_url": "https://api.github.com/users/jpezzulli/followers",
+    "following_url": "https://api.github.com/users/jpezzulli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jpezzulli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jpezzulli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jpezzulli/subscriptions",
+    "organizations_url": "https://api.github.com/users/jpezzulli/orgs",
+    "repos_url": "https://api.github.com/users/jpezzulli/repos",
+    "events_url": "https://api.github.com/users/jpezzulli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jpezzulli/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "24b23f43638499e2c7bbdb50fb9dda86261f5178",
+      "url": "https://api.github.com/repos/jpezzulli/sglang-rtxpro6000/commits/24b23f43638499e2c7bbdb50fb9dda86261f5178",
+      "html_url": "https://github.com/jpezzulli/sglang-rtxpro6000/commit/24b23f43638499e2c7bbdb50fb9dda86261f5178"
+    }
+  ],
+  "stats": {
+    "total": 51,
+    "additions": 30,
+    "deletions": 21
+  },
+  "files": [
+    {
+      "sha": "6e789dfdb1a88621f764921f7fec744576895dfb",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/jpezzulli/sglang-rtxpro6000/blob/560edbdca18aedae13f71ae20b3984efa4d22633/README.md",
+      "raw_url": "https://github.com/jpezzulli/sglang-rtxpro6000/raw/560edbdca18aedae13f71ae20b3984efa4d22633/README.md",
+      "contents_url": "https://api.github.com/repos/jpezzulli/sglang-rtxpro6000/contents/README.md?ref=560edbdca18aedae13f71ae20b3984efa4d22633",
+      "patch": "@@ -34,7 +34,7 @@ processing remains available.\n **Penny Royal did almost all the coding for this release.** John, Penny and\n Codex worked through the architecture, tuning and debugging together, down to\n fused kernels, memory layouts and milliseconds per decode cycle.\n-See the [draft release notes](RELEASE_NOTES_3.0.md) for the full change list.\n+See the [release notes](RELEASE_NOTES_3.0.md) for the full change list.\n \n <a id=\"models-and-launch-recipes\"></a>\n <a id=\"qualified-model-profiles-and-launch-recipes\"></a>"
+    },
+    {
+      "sha": "b468c52d2ceff3272d29b7ddd6dba49baf91e372",
+      "filename": "RELEASE_NOTES_3.0.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "changes": 10,
+      "blob_url": "https://github.com/jpezzulli/sglang-rtxpro6000/blob/560edbdca18aedae13f71ae20b3984efa4d22633/RELEASE_NOTES_3.0.md",
+      "raw_url": "https://github.com/jpezzulli/sglang-rtxpro6000/raw/560edbdca18aedae13f71ae20b3984efa4d22633/RELEASE_NOTES_3.0.md",
+      "contents_url": "https://api.github.com/repos/jpezzulli/sglang-rtxpro6000/contents/RELEASE_NOTES_3.0.md?ref=560edbdca18aedae13f71ae20b3984efa4d22633",
+      "patch": "@@ -1,6 +1,6 @@\n # Penny Royal 3.0\n \n-*Draft \u2014 ready for publication.*\n+Released October 10, 2026.\n \n Penny Royal 3.0 brings adaptive speculative decoding, faster small-batch\n kernels, and more room for conversation state to Qwen3.8 Flash-Next. The target\n@@ -122,6 +122,14 @@ confirmed fixture-classifier error. Image input and RAM cache restoration\n also passed. [Detailed results](RESULTS.md#penny-royal-30) and the\n [machine-readable release notes](release-3.0.json) retain the exact conditions.\n \n+## Install or update\n+\n+Use the [native installation guide](BUILD.md) or the\n+[prebuilt container guide](docker/pennyroyal/README.md). Source tag:\n+`pennyroyal-v3.0.0`; container image:\n+`ghcr.io/jpezzulli/sglang-rtxpro6000:v3.0.0`. The image becomes available when\n+the [container build](https://github.com/jpezzulli/sglang-rtxpro6000/actions/workflows/pennyroyal-container.yml) finishes.\n+\n ## Thanks\n \n - **[aiueo52](https://github.com/aiueo52)** \u2014 [Flash-Next"
+    },
+    {
+      "sha": "6c3dc64849975365373369749bd5e1fcd71f1bc8",
+      "filename": "docker/pennyroyal/launch/run.sh",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/jpezzulli/sglang-rtxpro6000/blob/560edbdca18aedae13f71ae20b3984efa4d22633/docker%2Fpennyroyal%2Flaunch%2Frun.sh",
+      "raw_url": "https://github.com/jpezzulli/sglang-rtxpro6000/raw/560edbdca18aedae13f71ae20b3984efa4d22633/docker%2Fpennyroyal%2Flaunch%2Frun.sh",
+      "contents_url": "https://api.github.com/repos/jpezzulli/sglang-rtxpro6000/contents/docker%2Fpennyroyal%2Flaunch%2Frun.sh?ref=560edbdca18aedae13f71ae20b3984efa4d22633",
+      "patch": "@@ -27,7 +27,7 @@\n #                              The two choices are separate and must agree.\n #   --nvme-ple                 keep the io_uring-permitting seccomp setting for the\n #                              independent NVMe PLE reader while NIXL is off\n-#   --image NAME               container image (default: the current v3.0.0 release staging tag)\n+#   --image NAME               container image (default: v3.0.0)\n #   --port HOST_PORT           published server port (default: 8001)\n #   --gpu IDS                  GPU id list, e.g. 0 or 0,1 (default: 0)\n #   --models DIR               host models root, mounted read-only at /models"
+    },
+    {
+      "sha": "344b1e257fca9a559a5b0791cab55fed5da81429",
+      "filename": "llms.txt",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 4,
+      "changes": 9,
+      "blob_url": "https://github.com/jpezzulli/sglang-rtxpro6000/blob/560edbdca18aedae13f71ae20b3984efa4d22633/llms.txt",
+      "raw_url": "https://github.com/jpezzulli/sglang-rtxpro6000/raw/560edbdca18aedae13f71ae20b3984efa4d22633/llms.txt",
+      "contents_url": "https://api.github.com/repos/jpezzulli/sglang-rtxpro6000/contents/llms.txt?ref=560edbdca18aedae13f71ae20b3984efa4d22633",
+      "patch": "@@ -6,9 +6,10 @@ Canonical repository: https://github.com/jpezzulli/sglang-rtxpro6000\n Display name: Penny Royal. CLI, API model name, paths and package identifiers\n keep the existing `pennyroyal` spelling.\n \n-This is the 3.0 documentation draft. Read release-3.0.json for draft status,\n-implementation details, measured configuration, validation, and publication\n-work still pending. Do not infer that a 3.0 image or tag exists from this draft.\n+Penny Royal 3.0 was released October 10, 2026 as `pennyroyal-v3.0.0`.\n+Read release-3.0.json for implementation details, measured configuration and\n+validation. The container workflow builds `ghcr.io/jpezzulli/sglang-rtxpro6000:v3.0.0`\n+from that tag; check its build status before pulling a newly published release.\n \n ## Hardware and profiles\n \n@@ -65,7 +66,7 @@ the actual reasoning settings. A synthetic agent transcript is not a real\n tool workflow.\n \n - [3.0 release notes](https://raw.githubusercontent.com/jpezzulli/sglang-rtxpro6000/pennyroyal-main-sm120-final/RELEASE_NOTES_3.0.md): Human-readable changes and direct contributor acknowledgements.\n-- [3.0 machine-readable release notes](https://raw.githubusercontent.com/jpezzulli/sglang-rtxpro6000/pennyroyal-main-sm120-final/release-3.0.json): Features, source identity, measurements, validation scope and pending release work.\n+- [3.0 machine-readable release notes](https://raw.githubusercontent.com/jpezzulli/sglang-rtxpro6000/pennyroyal-main-sm120-final/release-3.0.json): Features, source identity, measurements, validation scope and container build status.\n - [Results](https://raw.githubusercontent.com/jpezzulli/sglang-rtxpro6000/pennyroyal-main-sm120-final/RESULTS.md): Measurement rules, current results and dated benchmark history.\n - [Community results](https://raw.githubusercontent.com/jpezzulli/sglang-rtxpro6000/pennyroyal-main-sm120-final/COMMUNITY-RESULTS.md): Reports from other users, including TP2.\n - [Changes](https://raw.githubusercontent.com/jpezzulli/sglang-rtxpro6000/pennyroyal-main-sm120-final/CHANGES.md): Release history and technical lineage."
+    },
+    {
+      "sha": "5503a3bc0824d826beeba908d52547c232906622",
+      "filename": "release-3.0.json",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 14,
+      "changes": 28,
+      "blob_url": "https://github.com/jpezzulli/sglang-rtxpro6000/blob/560edbdca18aedae13f71ae20b3984efa4d22633/release-3.0.json",
+      "raw_url": "https://github.com/jpezzulli/sglang-rtxpro6000/raw/560edbdca18aedae13f71ae20b3984efa4d22633/release-3.0.json",
+      "contents_url": "https://api.github.com/repos/jpezzulli/sglang-rtxpro6000/contents/release-3.0.json?ref=560edbdca18aedae13f71ae20b3984efa4d22633",
+      "patch": "@@ -1,22 +1,19 @@\n {\n-  \"schema\": \"release-notes/3.0-draft\",\n+  \"schema\": \"release-notes/3.0\",\n   \"artifact\": \"release-3.0.json\",\n   \"version_label\": \"3.0\",\n-  \"draft_date\": \"2026-10-10\",\n   \"revises\": {\n     \"prior_task\": \"115a2399-5e31-49c5-b38f-85523fdb64bd\",\n     \"reason\": \"writing-brief rewrite: human release notes; facts and measurement conditions carried forward\"\n   },\n   \"status\": {\n-    \"is_draft\": true,\n-    \"published\": false,\n+    \"is_draft\": false,\n+    \"published\": true,\n     \"native_qualification_complete\": true,\n-    \"note\": \"Publication draft ready. Accepted native runtime qualification is reused. Packaging, brand, documentation and launch-default integration are complete; publication and container build remain pending.\",\n+    \"note\": \"Source release published with accepted native qualification, packaging, brand, documentation and launch defaults. Container build and image verification remain pending.\",\n     \"pending_release_owner_work\": [\n-      \"publication approval\",\n-      \"publish reviewed source and release tag\",\n       \"GitHub container build and published image identity\",\n-      \"verify published links and record image size\"\n+      \"verify image size and container installation links\"\n     ]\n   },\n   \"provenance\": {\n@@ -712,17 +709,20 @@\n     \"investigation_and_review\": \"John and Codex with Penny; contributor work remains credited\"\n   },\n   \"version\": \"3.0.0\",\n-  \"planned_publication\": {\n-    \"source_tag\": \"pennyroyal-v3.0.0\",\n-    \"container_image\": \"ghcr.io/jpezzulli/sglang-rtxpro6000:v3.0.0\",\n-    \"published\": false,\n-    \"container_build\": \"pending\"\n-  },\n   \"launch_default_acceptance\": {\n     \"commit\": \"db4b0080f7c29cac3612d52a9edbcf622d06398a\",\n     \"checks\": \"167 focused CPU configuration/recipe tests, 2 skipped; changed shell syntax and diff checks passed\",\n     \"independent_review\": \"no actionable findings\",\n     \"model_suites\": \"accepted qualification reused; no new model runs or service restart\",\n     \"nvme_ple\": \"Existing NVMe PLE implementation is width-aware and preserved. Prior NVMe qualification used fixed W4; no new W8-over-NVMe runtime test was performed.\"\n+  },\n+  \"release_date\": \"2026-10-10\",\n+  \"publication\": {\n+    \"source_tag\": \"pennyroyal-v3.0.0\",\n+    \"container_image\": \"ghcr.io/jpezzulli/sglang-rtxpro6000:v3.0.0\",\n+    \"published\": true,\n+    \"container_build\": \"pending\",\n+    \"release_url\": \"https://github.com/jpezzulli/sglang-rtxpro6000/releases/tag/pennyroyal-v3.0.0\",\n+    \"container_workflow\": \"https://github.com/jpezzulli/sglang-rtxpro6000/actions/workflows/pennyroyal-container.yml\"\n   }\n }"
+    }
+  ]
+}

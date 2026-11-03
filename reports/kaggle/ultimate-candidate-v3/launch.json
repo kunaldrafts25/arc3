@@ -1,0 +1,20 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-ultimate-candidate/3",
+  "recorded_at": "2026-10-27T18:16:29.674830+00:00",
+  "files": {
+    "kernel-metadata.json": "14956339e6f5ccd1ea29f8fa59566d5b957a01177ac22e3db936600981c28589",
+    "provenance.json": "f7a11df31d525ed4fc38f126654734e913b297b4324a3e7723971787c6295784",
+    "submission.ipynb": "f705335b5aa1a5b3ea55d2dfe3a8d4fa3e369da76ee0f451fa184df561c326f5"
+  },
+  "observer_session": 89287,
+  "public_games": 25,
+  "post_readiness_seconds": 7200,
+  "notebook_timeout_seconds": 12000,
+  "cpu_gate": "kunalsinghh25/arc-hydra-verifier-cpu-probe/5",
+  "extension": "planning-assist-v1",
+  "prior_failed_versions": [
+    1,
+    2
+  ],
+  "local_tests_passed": 97
+}

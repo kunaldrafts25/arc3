@@ -1,0 +1,30 @@
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 30, "row": 50}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 3, "encoded_changes": 0, "error": "ValueError: min() iterable argument is empty", "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 4, "stop_reason": "unverified_model", "verification": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 3, "encoded_changes": 0, "error": "ValueError: min() iterable argument is empty", "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 33}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 27, "row": 39}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 27, "row": 33}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 27, "row": 33}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 33, "row": 33}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 21, "row": 33}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 21, "row": 33}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 33}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 33}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 15, "row": 56}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 33, "row": 39}, "executed": true}}

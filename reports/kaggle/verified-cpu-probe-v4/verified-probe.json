@@ -1,0 +1,319 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "name": "consistent_plan",
+      "passed": true,
+      "actual_actions": 2,
+      "events": [
+        {
+          "event": "verify",
+          "report": {
+            "abstained": 0,
+            "checked": 1,
+            "counterexample": null,
+            "eligible": 1,
+            "encoded_changes": 0,
+            "error": null,
+            "excluded": 0,
+            "scope": "full-grid",
+            "truncated": false,
+            "verified": true
+          }
+        },
+        {
+          "event": "plan",
+          "report": {
+            "executed": 2,
+            "planned": 2,
+            "stop_reason": "complete",
+            "verification": {
+              "abstained": 0,
+              "checked": 1,
+              "counterexample": null,
+              "eligible": 1,
+              "encoded_changes": 0,
+              "error": null,
+              "excluded": 0,
+              "scope": "full-grid",
+              "truncated": false,
+              "verified": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "retrospective_counterexample",
+      "passed": true,
+      "actual_actions": 0,
+      "events": [
+        {
+          "event": "verify",
+          "report": {
+            "abstained": 0,
+            "checked": 1,
+            "counterexample": {
+              "action": {
+                "action": "RIGHT"
+              },
+              "after_step": 1,
+              "before_step": 0,
+              "difference": {
+                "expected": 99,
+                "observed": 1,
+                "path": [
+                  0,
+                  0
+                ]
+              }
+            },
+            "eligible": 1,
+            "encoded_changes": 0,
+            "error": null,
+            "excluded": 0,
+            "scope": "full-grid",
+            "truncated": false,
+            "verified": false
+          }
+        },
+        {
+          "event": "plan",
+          "report": {
+            "executed": 0,
+            "planned": 2,
+            "stop_reason": "unverified_model",
+            "verification": {
+              "abstained": 0,
+              "checked": 1,
+              "counterexample": {
+                "action": {
+                  "action": "RIGHT"
+                },
+                "after_step": 1,
+                "before_step": 0,
+                "difference": {
+                  "expected": 99,
+                  "observed": 1,
+                  "path": [
+                    0,
+                    0
+                  ]
+                }
+              },
+              "eligible": 1,
+              "encoded_changes": 0,
+              "error": null,
+              "excluded": 0,
+              "scope": "full-grid",
+              "truncated": false,
+              "verified": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "prospective_counterexample",
+      "passed": true,
+      "actual_actions": 1,
+      "events": [
+        {
+          "event": "verify",
+          "report": {
+            "abstained": 0,
+            "checked": 1,
+            "counterexample": null,
+            "eligible": 1,
+            "encoded_changes": 0,
+            "error": null,
+            "excluded": 0,
+            "scope": "full-grid",
+            "truncated": false,
+            "verified": true
+          }
+        },
+        {
+          "event": "plan",
+          "report": {
+            "counterexample": {
+              "action": {
+                "action": "RIGHT"
+              },
+              "after_step": 7,
+              "before_step": 1,
+              "difference": {
+                "expected": 2,
+                "observed": 7,
+                "path": [
+                  0,
+                  0
+                ]
+              }
+            },
+            "executed": 1,
+            "planned": 2,
+            "stop_reason": "prediction_mismatch",
+            "verification": {
+              "abstained": 0,
+              "checked": 1,
+              "counterexample": null,
+              "eligible": 1,
+              "encoded_changes": 0,
+              "error": null,
+              "excluded": 0,
+              "scope": "full-grid",
+              "truncated": false,
+              "verified": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "zero_coverage",
+      "passed": true,
+      "actual_actions": 0,
+      "events": [
+        {
+          "event": "verify",
+          "report": {
+            "abstained": 0,
+            "checked": 0,
+            "counterexample": null,
+            "eligible": 0,
+            "encoded_changes": 0,
+            "error": null,
+            "excluded": 0,
+            "scope": "full-grid",
+            "truncated": false,
+            "verified": false
+          }
+        },
+        {
+          "event": "plan",
+          "report": {
+            "executed": 0,
+            "planned": 1,
+            "stop_reason": "unverified_model",
+            "verification": {
+              "abstained": 0,
+              "checked": 0,
+              "counterexample": null,
+              "eligible": 0,
+              "encoded_changes": 0,
+              "error": null,
+              "excluded": 0,
+              "scope": "full-grid",
+              "truncated": false,
+              "verified": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "constant_abstraction",
+      "passed": true,
+      "actual_actions": 0,
+      "events": [
+        {
+          "event": "verify",
+          "report": {
+            "abstained": 0,
+            "checked": 1,
+            "counterexample": null,
+            "eligible": 1,
+            "encoded_changes": 0,
+            "error": "Representation has no observed state changes; use a richer encode or gather evidence",
+            "excluded": 0,
+            "scope": "abstract-state",
+            "truncated": false,
+            "verified": false
+          }
+        },
+        {
+          "event": "plan",
+          "report": {
+            "executed": 0,
+            "planned": 1,
+            "stop_reason": "unverified_model",
+            "verification": {
+              "abstained": 0,
+              "checked": 1,
+              "counterexample": null,
+              "eligible": 1,
+              "encoded_changes": 0,
+              "error": "Representation has no observed state changes; use a richer encode or gather evidence",
+              "excluded": 0,
+              "scope": "abstract-state",
+              "truncated": false,
+              "verified": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "impure_prediction",
+      "passed": true,
+      "actual_actions": 0,
+      "events": [
+        {
+          "event": "verify",
+          "report": {
+            "abstained": 0,
+            "checked": 0,
+            "counterexample": null,
+            "eligible": 1,
+            "encoded_changes": 0,
+            "error": "RuntimeError: Prediction and encoding functions cannot spend real actions",
+            "excluded": 0,
+            "scope": "full-grid",
+            "truncated": false,
+            "verified": false
+          }
+        },
+        {
+          "event": "plan",
+          "report": {
+            "executed": 0,
+            "planned": 1,
+            "stop_reason": "unverified_model",
+            "verification": {
+              "abstained": 0,
+              "checked": 0,
+              "counterexample": null,
+              "eligible": 1,
+              "encoded_changes": 0,
+              "error": "RuntimeError: Prediction and encoding functions cannot spend real actions",
+              "excluded": 0,
+              "scope": "full-grid",
+              "truncated": false,
+              "verified": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "one_exploratory_action",
+      "passed": true,
+      "actual_actions": 1,
+      "events": [
+        {
+          "event": "probe",
+          "report": {
+            "action": {
+              "action": "RIGHT"
+            },
+            "executed": true
+          }
+        }
+      ]
+    }
+  ],
+  "prompt_contract_consistent": true,
+  "prompt_contract_scope": "System prompt plus 16 rendered user-prompt combinations: memory on/off, duplicate guidance on/off, opener hint on/off, initial/resumed turn. Not exhaustive configuration coverage.",
+  "boundary": "Synthetic CPU integration checks of installed sandbox and prompt contract; no model inference, gateway or ARC gameplay tested"
+}

@@ -1,0 +1,47 @@
+{
+  "phase": "pilot_complete",
+  "kernel": "kunalsinghh25/arc-hydra-qwen27-lora-pilot",
+  "pid": 19288,
+  "files": {
+    "train.ipynb": "f7ae20d6323cc543c75f44a64927ced35d3be8bba051f05b687eb5876264200a",
+    "kernel-metadata.json": "143968d905131e4bd33ad95a7d59e77c45a17d618639ce57c5ce8215be63cf16",
+    "provenance.json": "74385d9fbca54c8685196bccf4e5c1833ce60bbb277b47b915a5a1a3603de990"
+  },
+  "hard_session_timeout_seconds": 7200,
+  "resources": {
+    "allowed": true,
+    "reason": "One capped training job; only acknowledged capped ARC3 capacity test may overlap; ARC2 floor preserved",
+    "available_gpu_seconds": 78892.222623,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [
+      {
+        "kernel": "kunalsinghh25/arc-hydra-qwen27-fair-capacity",
+        "status": "RUNNING",
+        "accelerator": "unclassified"
+      }
+    ],
+    "arc2_free_seconds_floor": 10800,
+    "recorded_at": "2026-11-01T16:15:32.551315+00:00"
+  },
+  "scope": "One actual ARC3 teacher-adaptation pilot. No automatic serving test, promotion or official submission.",
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-qwen27-lora-pilot",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-qwen27-lora-pilot",
+    "versionNumber": 1,
+    "kernelId": 142140183
+  },
+  "recorded_at": "2026-11-01T16:59:54.775992+00:00",
+  "exact_kernel": "kunalsinghh25/arc-hydra-qwen27-lora-pilot/1",
+  "kernel_status": "COMPLETE",
+  "training_summary": {
+    "optimizer_steps": 40,
+    "training_examples": 158,
+    "training_epoch_fraction": 1.0,
+    "supervised_tokens": 103939,
+    "validation_loss_delta": -0.0426844163167015,
+    "reload_loss_absolute_error": 0.0
+  },
+  "next_action": "Actual adapter serving compatibility and held-out gameplay comparison are required. Training loss/reload success is not agent performance."
+}

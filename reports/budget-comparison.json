@@ -1,0 +1,21 @@
+{
+  "scope": "Four public games, policy seeds 0/1/2, environment seed 0",
+  "baseline_200": {
+    "runs": 12,
+    "levels_completed": 4,
+    "full_wins": 0,
+    "mean_local_score": 0.935786626044647,
+    "total_commands": 2400,
+    "median_runtime_seconds": 1.812,
+    "exceptions": 0
+  },
+  "candidate_1000": {
+    "runs": 12,
+    "levels_completed": 6,
+    "full_wins": 0,
+    "mean_local_score": 0.9359760620549449,
+    "total_commands": 12000,
+    "median_runtime_seconds": 7.1015,
+    "exceptions": 0
+  }
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "game_id": "sk48-d8078629",
+    "state": "cancelled",
+    "levels_completed": 1,
+    "total_levels": 8,
+    "actions": 42,
+    "score": 2.7777777777777777,
+    "generated_tokens": 127762,
+    "note": "tokens=130559"
+  },
+  {
+    "game_id": "tn36-ef4dde99",
+    "state": "cancelled",
+    "levels_completed": 0,
+    "total_levels": 7,
+    "actions": 27,
+    "score": 0.0,
+    "generated_tokens": 71243,
+    "note": null
+  },
+  {
+    "game_id": "m0r0-492f87ba",
+    "state": "cancelled",
+    "levels_completed": 1,
+    "total_levels": 6,
+    "actions": 36,
+    "score": 4.761904761904762,
+    "generated_tokens": 73879,
+    "note": "tokens=76950"
+  },
+  {
+    "game_id": "bp35-0a0ad940",
+    "state": "cancelled",
+    "levels_completed": 0,
+    "total_levels": 9,
+    "actions": 30,
+    "score": 0.0,
+    "generated_tokens": 64509,
+    "note": null
+  },
+  {
+    "game_id": "cn04-2fe56bfb",
+    "state": "cancelled",
+    "levels_completed": 0,
+    "total_levels": 6,
+    "actions": 59,
+    "score": 0.0,
+    "generated_tokens": 72517,
+    "note": null
+  },
+  {
+    "game_id": "dc22-fdcac232",
+    "state": "cancelled",
+    "levels_completed": 0,
+    "total_levels": 6,
+    "actions": 104,
+    "score": 0.0,
+    "generated_tokens": 67828,
+    "note": null
+  },
+  {
+    "game_id": "tu93-0768757b",
+    "state": "cancelled",
+    "levels_completed": 4,
+    "total_levels": 9,
+    "actions": 99,
+    "score": 22.22222222222222,
+    "generated_tokens": 135813,
+    "note": "tokens=137357"
+  },
+  {
+    "game_id": "lp85-305b61c3",
+    "state": "cancelled",
+    "levels_completed": 4,
+    "total_levels": 8,
+    "actions": 74,
+    "score": 22.794784580498867,
+    "generated_tokens": 137545,
+    "note": "tokens=138166"
+  },
+  {
+    "game_id": "ka59-38d34dbb",
+    "state": "cancelled",
+    "levels_completed": 0,
+    "total_levels": 7,
+    "actions": 55,
+    "score": 0.0,
+    "generated_tokens": 61099,
+    "note": null
+  },
+  {
+    "game_id": "wa30-ee6fef47",
+    "state": "cancelled",
+    "levels_completed": 1,
+    "total_levels": 9,
+    "actions": 88,
+    "score": 2.2222222222222223,
+    "generated_tokens": 66171,
+    "note": null
+  },
+  {
+    "game_id": "vc33-5430563c",
+    "state": "cancelled",
+    "levels_completed": 3,
+    "total_levels": 7,
+    "actions": 80,
+    "score": 21.428571428571427,
+    "generated_tokens": 134509,
+    "note": null
+  },
+  {
+    "game_id": "lf52-271a04aa",
+    "state": "cancelled",
+    "levels_completed": 1,
+    "total_levels": 10,
+    "actions": 92,
+    "score": 1.8181818181818181,
+    "generated_tokens": 50406,
+    "note": null
+  },
+  {
+    "game_id": "r11l-495a7899",
+    "state": "cancelled",
+    "levels_completed": 4,
+    "total_levels": 6,
+    "actions": 65,
+    "score": 47.61904761904761,
+    "generated_tokens": 132828,
+    "note": "tokens=132828"
+  },
+  {
+    "game_id": "sc25-635fd71a",
+    "state": "cancelled",
+    "levels_completed": 0,
+    "total_levels": 6,
+    "actions": 54,
+    "score": 0.0,
+    "generated_tokens": 56828,
+    "note": null
+  },
+  {
+    "game_id": "sp80-589a99af",
+    "state": "cancelled",
+    "levels_completed": 1,
+    "total_levels": 6,
+    "actions": 26,
+    "score": 4.761904761904762,
+    "generated_tokens": 70724,
+    "note": "tokens=76502"
+  },
+  {
+    "game_id": "ar25-0c556536",
+    "state": "cancelled",
+    "levels_completed": 2,
+    "total_levels": 8,
+    "actions": 85,
+    "score": 8.333333333333332,
+    "generated_tokens": 101974,
+    "note": "tokens=103545"
+  },
+  {
+    "game_id": "sb26-7fbdac44",
+    "state": "cancelled",
+    "levels_completed": 1,
+    "total_levels": 8,
+    "actions": 56,
+    "score": 2.7777777777777777,
+    "generated_tokens": 52887,
+    "note": null
+  },
+  {
+    "game_id": "cd82-fb555c5d",
+    "state": "cancelled",
+    "levels_completed": 1,
+    "total_levels": 6,
+    "actions": 86,
+    "score": 4.761904761904762,
+    "generated_tokens": 96032,
+    "note": "tokens=96032"
+  },
+  {
+    "game_id": "re86-8af5384d",
+    "state": "cancelled",
+    "levels_completed": 1,
+    "total_levels": 8,
+    "actions": 58,
+    "score": 2.7777777777777777,
+    "generated_tokens": 51574,
+    "note": null
+  },
+  {
+    "game_id": "s5i5-18d95033",
+    "state": "cancelled",
+    "levels_completed": 1,
+    "total_levels": 8,
+    "actions": 49,
+    "score": 2.7777777777777777,
+    "generated_tokens": 59566,
+    "note": "tokens=61593"
+  },
+  {
+    "game_id": "ls20-9607627b",
+    "state": "cancelled",
+    "levels_completed": 1,
+    "total_levels": 7,
+    "actions": 73,
+    "score": 3.571428571428571,
+    "generated_tokens": 103924,
+    "note": "tokens=103924"
+  },
+  {
+    "game_id": "ft09-0d8bbf25",
+    "state": "cancelled",
+    "levels_completed": 4,
+    "total_levels": 6,
+    "actions": 105,
+    "score": 42.85621279761905,
+    "generated_tokens": 140082,
+    "note": "tokens=140082"
+  },
+  {
+    "game_id": "su15-1944f8ab",
+    "state": "cancelled",
+    "levels_completed": 1,
+    "total_levels": 9,
+    "actions": 34,
+    "score": 2.2222222222222223,
+    "generated_tokens": 53287,
+    "note": "tokens=56093"
+  },
+  {
+    "game_id": "tr87-cd924810",
+    "state": "cancelled",
+    "levels_completed": 4,
+    "total_levels": 6,
+    "actions": 197,
+    "score": 38.05816444224748,
+    "generated_tokens": 100994,
+    "note": "tokens=103921"
+  },
+  {
+    "game_id": "g50t-5849a774",
+    "state": "cancelled",
+    "levels_completed": 0,
+    "total_levels": 7,
+    "actions": 34,
+    "score": 0.0,
+    "generated_tokens": 82836,
+    "note": null
+  }
+]

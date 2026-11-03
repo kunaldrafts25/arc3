@@ -1,0 +1,9 @@
+{
+  "kernel_input": "kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair/6",
+  "mounted_path": "/kaggle/input/notebooks/kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair/pennyroyal-v3-overlay",
+  "manifest_sha256": "f1b8e87b99402e8504491bb2d2d107df81b119295d4b919944986eacb2fef7fb",
+  "verified_files": 36,
+  "verified_bytes": 1978944573,
+  "checked_at": "2026-10-26T19:46:09.330900+00:00",
+  "boundary": "CPU input mount and bundle hash verification only; no GPU inference, runtime install or gameplay tested"
+}

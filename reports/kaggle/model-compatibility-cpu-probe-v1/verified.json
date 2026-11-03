@@ -1,0 +1,12 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-model-compatibility-cpu-probe/1",
+  "status": "COMPLETE",
+  "checked_at": "2026-11-01T08:23:45.434793+00:00",
+  "schema_compatible": true,
+  "files": {
+    "probe.ipynb": "17411925a4fbd0cc89ae585757d1b8b522dd79ee0de33b477857f05371661909",
+    "kernel-metadata.json": "a261e2d562914c06ad28f0d67058ac888e585016bd1cd4b485a968e932eedc9b"
+  },
+  "report_sha256": "6a11cf43076d433aebaa26796625e7f63351e22b70a8dd323448a02328ab037f",
+  "boundary": "Metadata/header compatibility only; real serving, draft acceptance and gameplay remain unverified."
+}

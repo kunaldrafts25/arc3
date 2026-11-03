@@ -1,0 +1,15 @@
+{
+  "extension": "general-study-v1",
+  "library_sha256": "52749cb8bc4d80bee73d7621ac9ee017280ba427b4b204f310a4abe0c6eac0fd",
+  "guidance_sha256": "75e30f3ce69688e14fb6d01512d8c04d42fa9596dac8067030d3648d30a361e3",
+  "files": {
+    "python_tool_sandbox.py": {
+      "before": "61ce060b230f852fe13f7de1db70cd5faf7a78cbf9c2e4a7095120c2381db4df",
+      "after": "8ee6f18dcde5290d617f0e30adac8772a275091500029129bcf3578a7b5dea2c"
+    },
+    "tool_agent.py": {
+      "before": "983d425cbf10742bafe52f0c60f54ce2a9196d3e998bd530fec1b7cc6f71f903",
+      "after": "b5815fd709fedb83dd7344912e7b5b6f1675545cd5377f233e8e80468938810b"
+    }
+  }
+}

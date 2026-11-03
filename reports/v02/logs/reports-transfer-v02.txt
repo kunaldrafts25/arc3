@@ -1,0 +1,26 @@
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-10-25 00:29:54 | INFO | Created new scorecard: 713a73c6-49b2-4d5e-8b74-faf17ac64a3e
+.venv/Scripts/python.exe : INFO:arc_agi.base:Created new scorecard: 713a73c6-49b2-4d5e-8b74-faf17ac64a3e
+At line:2 char:40
++ ...  pytest -q; .venv/Scripts/python.exe scripts/benchmark.py --games ft0 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (INFO:arc_agi.ba...74-faf17ac64a3e:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-25 00:29:54 | INFO | Successfully loaded game class Ft09 from environment_files\ft09\0d8bbf25\ft09.py
+INFO:arc_agi.base:Successfully loaded game class Ft09 from environment_files\ft09\0d8bbf25\ft09.py
+INFO:arc_agi.base:Closed scorecard: 713a73c6-49b2-4d5e-8b74-faf17ac64a3e
+2026-10-25 00:29:58 | INFO | Closed scorecard: 713a73c6-49b2-4d5e-8b74-faf17ac64a3e
+{"policy": "reasoning", "seed": 0, "game_id": "ft09-0d8bbf25", "levels_completed": 3, "action_count": 300, "official_score_if_available": 11.521636872706205, "runtime_seconds": 4.531, "exceptions": []}
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-10-25 00:29:59 | INFO | Created new scorecard: b5db39b1-9a4f-48e9-bd5a-750db58d94d5
+INFO:arc_agi.base:Created new scorecard: b5db39b1-9a4f-48e9-bd5a-750db58d94d5
+2026-10-25 00:30:03 | INFO | Closed scorecard: b5db39b1-9a4f-48e9-bd5a-750db58d94d5
+INFO:arc_agi.base:Closed scorecard: b5db39b1-9a4f-48e9-bd5a-750db58d94d5
+{"policy": "reasoning", "seed": 1, "game_id": "ft09-0d8bbf25", "levels_completed": 3, "action_count": 300, "official_score_if_available": 11.684964795178063, "runtime_seconds": 4.969, "exceptions": []}
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-10-25 00:30:03 | INFO | Created new scorecard: 8b6ac35c-e78f-4b5d-a4a7-3a7063d82426
+INFO:arc_agi.base:Created new scorecard: 8b6ac35c-e78f-4b5d-a4a7-3a7063d82426
+2026-10-25 00:30:08 | INFO | Closed scorecard: 8b6ac35c-e78f-4b5d-a4a7-3a7063d82426
+INFO:arc_agi.base:Closed scorecard: 8b6ac35c-e78f-4b5d-a4a7-3a7063d82426
+{"policy": "reasoning", "seed": 2, "game_id": "ft09-0d8bbf25", "levels_completed": 3, "action_count": 300, "official_score_if_available": 11.446130521574503, "runtime_seconds": 4.672, "exceptions": []}

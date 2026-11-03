@@ -1,0 +1,12 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-study-cpu-probe/2",
+  "recorded_at": "2026-10-27T20:55:19.019689+00:00",
+  "status": "COMPLETE",
+  "observer_session": 59853,
+  "files": {
+    "kernel-metadata.json": "74a7098e4256b43a867d877a74824dd836e9e563c151d43fa47ceed9a1a51cbb",
+    "probe.ipynb": "f835eb2ab1fb1446972c38f5b5c62a263295ede9a6362973ce3181799c8e6736",
+    "source-manifest.json": "3060f4cef4e8435b33cb50a3e19f36f213613616b2ae2d4251a782142d40578e"
+  },
+  "hash_record_boundary": "Recorded after completed gate; local package was not regenerated after version 2 upload."
+}

@@ -1,0 +1,127 @@
+{
+  "revision": "cfae5144a91072b05039a3d6c32bea17aa8404fb",
+  "shards": {
+    "data/train-00000.parquet": {
+      "rows": 5000,
+      "families": {
+        "lattice_permutation": 5000
+      },
+      "structural_identities": 125,
+      "rows_per_identity": {
+        "40": 125
+      },
+      "unique_visible_prompts": 5000,
+      "visible_prompts_with_conflicting_exact_targets": 0,
+      "decode_or_coordinate_failures": [],
+      "model_visible_fields": [
+        "support_0_before",
+        "support_0_after",
+        "support_1_before",
+        "support_1_after",
+        "query_before",
+        "support_0_action_json",
+        "support_1_action_json",
+        "query_action_json"
+      ],
+      "excluded_metadata_fields": [
+        "generator_version",
+        "episode_id",
+        "identity_id",
+        "stage",
+        "split",
+        "family",
+        "parameter_json",
+        "structural_seed",
+        "skin_index",
+        "image_scale"
+      ],
+      "target": "target_call_json"
+    },
+    "data/validation-00000.parquet": {
+      "rows": 5000,
+      "families": {
+        "lattice_permutation": 2000,
+        "ring_rotation": 2000,
+        "avatar_navigation": 1000
+      },
+      "structural_identities": 125,
+      "rows_per_identity": {
+        "40": 125
+      },
+      "unique_visible_prompts": 5000,
+      "visible_prompts_with_conflicting_exact_targets": 0,
+      "decode_or_coordinate_failures": [],
+      "model_visible_fields": [
+        "support_0_before",
+        "support_0_after",
+        "support_1_before",
+        "support_1_after",
+        "query_before",
+        "support_0_action_json",
+        "support_1_action_json",
+        "query_action_json"
+      ],
+      "excluded_metadata_fields": [
+        "generator_version",
+        "episode_id",
+        "identity_id",
+        "stage",
+        "split",
+        "family",
+        "parameter_json",
+        "structural_seed",
+        "skin_index",
+        "image_scale"
+      ],
+      "target": "target_call_json"
+    },
+    "ambiguity/data/train-00000.parquet": {
+      "rows": 5000,
+      "families": {
+        "palette_order_ambiguity": 5000
+      },
+      "structural_identities": 125,
+      "rows_per_identity": {
+        "40": 125
+      },
+      "unique_visible_prompts": 4999,
+      "visible_prompts_with_conflicting_exact_targets": 0,
+      "decode_or_coordinate_failures": [],
+      "model_visible_fields": [
+        "support_0_before",
+        "support_0_after",
+        "support_1_before",
+        "support_1_after",
+        "query_before",
+        "support_0_action_json",
+        "support_1_action_json",
+        "candidate_calls_json",
+        "probe_options_json"
+      ],
+      "excluded_metadata_fields": [
+        "generator_version",
+        "episode_id",
+        "identity_id",
+        "stage",
+        "split",
+        "family",
+        "parameter_json",
+        "structural_seed",
+        "skin_index",
+        "image_scale"
+      ],
+      "target": "target_decision_json"
+    }
+  },
+  "sampled_stateful_train_validation_identity_overlap": 0,
+  "sampled_stateful_train_validation_visible_prompt_overlap": 0,
+  "scope": "Three sampled shards only, not a full dataset split or contamination audit.",
+  "train_ready": false,
+  "blockers": [
+    "Public repository file listing contains no Python transition registry/verifier; exact labels have not been re-executed.",
+    "Targets call a supplied synthetic function library that is absent from our deployed agent. Do not teach unavailable tools.",
+    "Forty visual skins per identity require grouped splits and sampling, not random row splits.",
+    "Transition induction and selecting among supplied hypotheses do not establish goal discovery or real-game transfer.",
+    "Do not put family, parameter_json, structural_seed, identity or targets in the model input."
+  ]
+}

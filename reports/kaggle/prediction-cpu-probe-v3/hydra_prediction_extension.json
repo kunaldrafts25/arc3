@@ -1,0 +1,20 @@
+{
+  "extension": "prediction-host-v2",
+  "action_gating": false,
+  "libraries": {
+    "tools": "28ff741670d60cdbb00a38f932617587b828ff5e94ff984262b53633bc81d9d1",
+    "host": "36a6427c450b1e52259c6bcb46624ea77bc7da87d3f6f30ecf8fdebb6eadb097",
+    "ledger": "f6415856143ce413b4346f063b8e61e21fe2c8ebab1374f262da7809de58dd8a"
+  },
+  "guidance_sha256": "af7961b97c8259132398354ae17602132e47addc76411049166d85c64c32a703",
+  "files": {
+    "python_tool_sandbox.py": {
+      "before": "c7c2feb926e9423cd38371f745d45e4b7fd6b082b6bfa976929278f01c18740f",
+      "after": "61ce060b230f852fe13f7de1db70cd5faf7a78cbf9c2e4a7095120c2381db4df"
+    },
+    "tool_agent.py": {
+      "before": "8603d21d6f5b5a402ea44bf2b8c9dde54330936860da5bd4fcab6622af7e3c23",
+      "after": "983d425cbf10742bafe52f0c60f54ce2a9196d3e998bd530fec1b7cc6f71f903"
+    }
+  }
+}

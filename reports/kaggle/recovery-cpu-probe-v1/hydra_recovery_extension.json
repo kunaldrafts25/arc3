@@ -1,0 +1,7 @@
+{
+  "extension": "recovery-advisory-v1",
+  "library_sha256": "ad8366c3f95f126d050d3cec1492ce7434ab82483ea344429b51f062da5bd261",
+  "before_sha256": "67b831a00cff5e3735d4723c8aeaf2fa8b1670faa5507fb154f446ae1766467c",
+  "after_sha256": "189035924976f39b34c4e9e5bbb441d77454dd17d25cbc4f3be9ee47df8e5892",
+  "action_gating": false
+}

@@ -1,0 +1,15 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-duck-verification/1",
+  "recorded_at": "2026-10-26T18:21:03.357898+00:00",
+  "files": {
+    "kernel-metadata.json": "e26bd33facf7f02284e348cb988a2b8753178e1f9acf8ba427bcae42f7585df7",
+    "provenance.json": "c4d83c839c7d5accdb0d8cec3b8576e3734bf6440243e537d903cd0e63a26d2c",
+    "submission.ipynb": "6784027e8bc12c901bb295c7d1c94c9274c4373049407b7ee2549cf0e4e8c8f1"
+  },
+  "diagnostic_source": {
+    "path": "reports/kaggle/duck-m2-benchmark-v2/sk48-d8078629_p0_requests.jsonl",
+    "sha256": "757f864e0bc946517ccb5a4cf43555c734fc25716deff820680ad770ccf6d45d"
+  },
+  "validation": "13 packaging/runtime tests passed; actual prompt activation, gameplay and score unverified",
+  "observer_session": 57352
+}

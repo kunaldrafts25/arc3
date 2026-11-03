@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-27T18:09:22.760478+00:00",
+  "status": "ERROR",
+  "kernel": "kunalsinghh25/arc-hydra-ultimate-candidate/1",
+  "notebook_timeout_seconds": 12000,
+  "public_games": 25,
+  "post_readiness_seconds": 7200,
+  "cpu_gate": "kunalsinghh25/arc-hydra-verifier-cpu-probe/5",
+  "extension": "planning-assist-v1",
+  "files": {
+    "kernel-metadata.json": "14956339e6f5ccd1ea29f8fa59566d5b957a01177ac22e3db936600981c28589",
+    "provenance.json": "f39f47cd797cf26f5662bb166bfce41dedba8c3c6b5e47786e6449135de291ef",
+    "submission.ipynb": "2b04c5bdc0bacaea723e02cff35f67d0e30bcebb20b13ea88b496dc28ffa3c10"
+  },
+  "prior_attempt": {
+    "recorded_at": "2026-10-27T17:52:08.253424+00:00",
+    "status": "LAUNCH_DEFERRED",
+    "reason": "Kaggle rejected push: Maximum batch GPU session count of 2 reached.",
+    "kernel_slug": "kunalsinghh25/arc-hydra-ultimate-candidate",
+    "kernel_version": null,
+    "attempted_timeout_seconds": 3600,
+    "public_games": 5,
+    "post_readiness_seconds": 900,
+    "cpu_gate": "kunalsinghh25/arc-hydra-verifier-cpu-probe/4",
+    "files": {
+      "kernel-metadata.json": "14956339e6f5ccd1ea29f8fa59566d5b957a01177ac22e3db936600981c28589",
+      "provenance.json": "08c7b51252ad2afb6c84d6ad1fd7367faf46b8787d71ba38326461759b875deb",
+      "submission.ipynb": "3cf29189f3cd186c7cc740a5a88c97888c320be30ebe9454789169a5943030f2"
+    },
+    "next_action": "Wait for an existing benchmark to terminate, then retry this exact package once a GPU slot is available; do not cancel existing jobs."
+  },
+  "boundary": "New optional-planning configuration. Upload acceptance does not establish gameplay quality or an official score.",
+  "verified_terminal_at": "2026-10-27T18:13:10.661977+00:00",
+  "error": "Source dataset canonical mount absent; cp failed before harness patch/model loading. No gameplay score.",
+  "repaired_by": "kunalsinghh25/arc-hydra-ultimate-candidate/2"
+}

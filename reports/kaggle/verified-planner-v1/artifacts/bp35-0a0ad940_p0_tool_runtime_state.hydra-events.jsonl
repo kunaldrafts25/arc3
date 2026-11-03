@@ -1,0 +1,28 @@
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 33, "row": 14}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 27, "row": 39}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 27, "row": 33}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 33, "row": 33}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 21, "row": 9}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 39, "row": 33}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 39, "row": 27}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 39, "row": 33}, "executed": true}}

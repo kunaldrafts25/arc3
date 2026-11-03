@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-29T06:33:56.264084+00:00",
+  "source": "Official authenticated Kaggle API",
+  "quota": "{\"quotaRefreshTime\": \"2026-10-31T00:00:00.000Z\", \"gpuQuota\": {\"timeUsed\": \"20407.741.0s\", \"timeReserved\": \"0s\", \"totalTimeAllowed\": \"21600s\", \"minimumTimeAllowed\": \"21600s\", \"isPayToScaleEnabled\": false, \"hasEverRun\": true}, \"tpuQuota\": {\"timeUsed\": \"0s\", \"timeReserved\": \"0s\", \"totalTimeAllowed\": \"72000s\", \"minimumTimeAllowed\": \"72000s\", \"isPayToScaleEnabled\": false, \"hasEverRun\": true}}",
+  "submission_limits": "{\"numToday\": 1, \"numTotal\": 6, \"numAllowedNow\": 0, \"limitedByTotal\": false}",
+  "account": "kunalsinghh25",
+  "competition": "arc-prize-2026-arc-agi-3"
+}

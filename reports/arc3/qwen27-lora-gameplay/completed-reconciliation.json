@@ -1,0 +1,165 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-qwen27-lora-gameplay/1",
+  "status": "COMPLETE",
+  "checked_at": "2026-11-01T22:13:09.731662+00:00",
+  "analysis": {
+    "base": {
+      "model_gameplay_verified": true,
+      "problems": [],
+      "games": 5,
+      "levels": 12,
+      "full_wins": 0,
+      "mean_public_score": 15.714285714285715,
+      "generated_tokens": 853615,
+      "notes": {
+        "cn04-2fe56bfb": "tokens=203508",
+        "ka59-38d34dbb": "tokens=199596",
+        "ar25-0c556536": "tokens=153602",
+        "s5i5-18d95033": "tokens=226722",
+        "ls20-9607627b": "tokens=210934"
+      },
+      "boundary": "Public development gameplay only. Not a hidden score or proof of the 71-point goal.",
+      "token_accounting_corrections": [],
+      "token_accounting_basis": "Action-record generation plus terminal no-action generation; cancellation notes may include additional uncharged generation.",
+      "public_level_completions_by_elapsed_seconds": {
+        "1800": 6,
+        "3600": 9,
+        "5400": 11,
+        "7200": 12
+      }
+    },
+    "adapted": {
+      "model_gameplay_verified": true,
+      "problems": [],
+      "games": 5,
+      "levels": 7,
+      "full_wins": 0,
+      "mean_public_score": 5.330145611963793,
+      "generated_tokens": 929251,
+      "notes": {
+        "cn04-2fe56bfb": "tokens=200615",
+        "ka59-38d34dbb": "tokens=176889",
+        "ar25-0c556536": "tokens=229056",
+        "s5i5-18d95033": "tokens=213362",
+        "ls20-9607627b": "tokens=189643"
+      },
+      "boundary": "Public development gameplay only. Not a hidden score or proof of the 71-point goal.",
+      "token_accounting_corrections": [],
+      "token_accounting_basis": "Action-record generation plus terminal no-action generation; cancellation notes may include additional uncharged generation.",
+      "public_level_completions_by_elapsed_seconds": {
+        "1800": 5,
+        "3600": 6,
+        "5400": 7,
+        "7200": 7
+      }
+    }
+  },
+  "per_game": [
+    {
+      "game_id": "ar25-0c556536",
+      "base_score": 41.66666666666667,
+      "adapted_score": 8.333333333333332,
+      "base_levels": 5,
+      "adapted_levels": 2
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "base_score": 14.285714285714285,
+      "adapted_score": 4.761904761904762,
+      "base_levels": 2,
+      "adapted_levels": 1
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "base_score": 10.714285714285714,
+      "adapted_score": 8.857077266168176,
+      "base_levels": 2,
+      "adapted_levels": 2
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "base_score": 3.571428571428571,
+      "adapted_score": 1.9206349206349205,
+      "base_levels": 1,
+      "adapted_levels": 1
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "base_score": 8.333333333333332,
+      "adapted_score": 2.7777777777777777,
+      "base_levels": 2,
+      "adapted_levels": 1
+    }
+  ],
+  "verified_transcript_routing": {
+    "base": [
+      {
+        "file": "base\\transcripts\\ar25-0c556536_p0.txt",
+        "sha256": "b417322fbc821b9e48c78be7033fcb21756de95583b1641a86de5aa9bab28335",
+        "model": "flashnext",
+        "recorded_model_lines": 56
+      },
+      {
+        "file": "base\\transcripts\\cn04-2fe56bfb_p0.txt",
+        "sha256": "7ffb6b7831b416acd1ac99f9953fef8540c3e074a117b667b1e3bb720f2e0846",
+        "model": "flashnext",
+        "recorded_model_lines": 45
+      },
+      {
+        "file": "base\\transcripts\\ka59-38d34dbb_p0.txt",
+        "sha256": "d40d78a91310d251d2f09ef37c30452100de0bed95175d05824624f6131cd576",
+        "model": "flashnext",
+        "recorded_model_lines": 41
+      },
+      {
+        "file": "base\\transcripts\\ls20-9607627b_p0.txt",
+        "sha256": "08daade6b9deb3f79e61638fbd5bb2835e1014ba3f34fa848bd2e71faabeb3e0",
+        "model": "flashnext",
+        "recorded_model_lines": 40
+      },
+      {
+        "file": "base\\transcripts\\s5i5-18d95033_p0.txt",
+        "sha256": "e196d64cd7cba35798763ef3a79a00b63b922b28451ec69672de558d322c25ae",
+        "model": "flashnext",
+        "recorded_model_lines": 43
+      }
+    ],
+    "adapted": [
+      {
+        "file": "adapted\\transcripts\\ar25-0c556536_p0.txt",
+        "sha256": "0c564321db87441d56f2c0b5e66cbb2796a672e32d7a8cc33ac151bcedd8569d",
+        "model": "flashnext:pilot",
+        "recorded_model_lines": 47
+      },
+      {
+        "file": "adapted\\transcripts\\cn04-2fe56bfb_p0.txt",
+        "sha256": "2499771c686bdd5f20ef7e0cafe29f28e12ad5befe7456f81388e8d7b016d602",
+        "model": "flashnext:pilot",
+        "recorded_model_lines": 38
+      },
+      {
+        "file": "adapted\\transcripts\\ka59-38d34dbb_p0.txt",
+        "sha256": "bced4152a235c33921e39575df9454b71f49a939bffc9e9dde93d9c640a6cf1a",
+        "model": "flashnext:pilot",
+        "recorded_model_lines": 58
+      },
+      {
+        "file": "adapted\\transcripts\\ls20-9607627b_p0.txt",
+        "sha256": "f0142a4008b79dbeee73b9935be99019303b7c59adc0c4da2b8e0155d862d168",
+        "model": "flashnext:pilot",
+        "recorded_model_lines": 49
+      },
+      {
+        "file": "adapted\\transcripts\\s5i5-18d95033_p0.txt",
+        "sha256": "9e6f6ef36a826eb801e1fd0f9c619372cb3783ec632c68d78f53a2aa204e73c1",
+        "model": "flashnext:pilot",
+        "recorded_model_lines": 47
+      }
+    ]
+  },
+  "corrupt_routing_file_sha256": "38d2497fda15049fb373fbd8a42ab5b68c9233e8c77fe63c6c676f822e9616ac",
+  "reason": "Concurrent non-atomic routing snapshot writes corrupted the adapted JSON. Frozen file preserved. Every game transcript independently records the expected model identity; both lifecycles and saved-adapter probability effect passed.",
+  "paired_report_sha256": "57de8aae3177c148acac74229b7b78a9c0cc63c3d2965ede185d328811ef3357",
+  "decision": "Reject this adapter; do not run full25 or submit it. Validation loss improvement failed to transfer to this paired real-game screen.",
+  "boundary": "One stochastic shared-server public gradient-holdout pair; transcript identity plus actual named-adapter probability effect, not a corrected original routing JSON, establish routing. No general population or hidden-score claim."
+}

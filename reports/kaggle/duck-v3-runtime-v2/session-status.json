@@ -1,0 +1,7 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-duck-v3-runtime/2",
+  "status": "ERROR",
+  "observed_error": "FlashInfer XQA JIT linker cannot find -lcuda",
+  "triton_host_extension_probe_passed": true,
+  "recorded_at": "2026-10-27T14:09:53.120602+00:00"
+}

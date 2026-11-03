@@ -1,0 +1,10 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-recovery-cpu-probe/1",
+  "recorded_at": "2026-10-28T18:41:08.035329+00:00",
+  "files": {
+    "kernel-metadata.json": "20746dccf0c2e250394006dfb03053d2715ed9358851b0e76aaccdfe5f94da51",
+    "probe.ipynb": "2e49b3118165060a083286b9b04c76c347f2eacf358c0f310450cba70dfb3f5a",
+    "source-manifest.json": "18e5fe59c0e00129a6d229fb4d1f4c612ee0348deb7b4e26a58b363227bcc7df"
+  },
+  "local_tests_passed": 115
+}

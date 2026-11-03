@@ -1,0 +1,69 @@
+{
+  "reviewed_local_date": "2026-10-28",
+  "timezone": "Asia/Calcutta",
+  "sources": [
+    {
+      "title": "OpenSpiel minimax",
+      "url": "https://raw.githubusercontent.com/google-deepmind/open_spiel/master/open_spiel/python/algorithms/minimax.py",
+      "review_scope": "Implementation docstring and algorithm preconditions"
+    },
+    {
+      "title": "OpenSpiel framework",
+      "url": "https://arxiv.org/abs/1908.09453",
+      "review_scope": "Abstract"
+    },
+    {
+      "title": "BAMCP",
+      "url": "https://www.gatsby.ucl.ac.uk/~dayan/papers/guez_jair2013.pdf",
+      "review_scope": "Abstract/introduction, model formulation and stated full-observability limitation"
+    },
+    {
+      "title": "Causal intervention design",
+      "url": "https://jmlr.org/papers/volume9/he08a/he08a.pdf",
+      "review_scope": "Abstract/introduction"
+    },
+    {
+      "title": "Dual control",
+      "url": "https://epubs.siam.org/doi/10.1137/16M1069936",
+      "review_scope": "Accessible abstract only"
+    },
+    {
+      "title": "State abstraction",
+      "url": "https://thomasjwalsh.net/pub/aima06Towards.pdf",
+      "review_scope": "Abstract/introduction and model-irrelevance definition"
+    },
+    {
+      "title": "UCT",
+      "url": "https://aima.cs.berkeley.edu/~russell/classes/cs294/s11/readings/Kocsis%2BSzepesvari:2006.pdf",
+      "review_scope": "Abstract/introduction"
+    },
+    {
+      "title": "SAT planning",
+      "url": "https://aiweb.cs.washington.edu/ai/planning/papers/AAAI0609KautzA.pdf",
+      "review_scope": "Readable primary introduction/account; earlier 1992 PDF extraction unusable"
+    },
+    {
+      "title": "Risk-averse Bayes-adaptive RL",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/08f90c1a417155361a5c4b8d297e0d78-Paper.pdf",
+      "review_scope": "Abstract/introduction"
+    },
+    {
+      "title": "LLM planning commitment",
+      "url": "https://arxiv.org/html/2610.21108v2",
+      "review_scope": "Abstract, scope and limitations identified"
+    },
+    {
+      "title": "Trace-based POMDP rules",
+      "url": "https://jmlr.org/papers/v17/13-584.html",
+      "review_scope": "Published abstract and stated conditions"
+    }
+  ],
+  "independent_algorithm_reproductions": false,
+  "artifacts": {
+    "docs/general_game_learning_rules.md": "2889184af44d3d89c31af4187fa90415722d95d4990d8ef7423173f1572cccf0",
+    "reports/research/2026-10-28/mathematical_strategy.md": "815150ce7937112f22f2aefb246a4ead92172b9659c8495de81ebe4d48fd6914",
+    "reports/manual-play/2026-10-28/permutation-experiment.json": "1a2fa2efff27952e568d786aaf94776b3eb30085e3c337d8630126615577daac",
+    "reports/manual-play/2026-10-28/contact-plan-experiment.json": "040f4b676d7d3f0e435df06a3b0b98da24a1d96994735d6a5c25a6a2b08ce640",
+    "reports/manual-play/2026-10-28/rotation-experiment.json": "88e21ea89ebd98476e83aec47f966476c86ddd1d788a4d2625bc7f4785a00001"
+  }
+}

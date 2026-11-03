@@ -1,0 +1,83 @@
+{
+  "source": "https://www.kaggle.com/code/dfranzen/arc-agi-3-milestone-2-solution",
+  "source_sha256": "88a379f17c3a4ba8c98715fc23155346ccd6eb289bdafebadfc61a3178f9d9bd",
+  "source_code_sha256": [
+    "6fdcd1ae7445c0cfc26eec1047363aa0c196c867d289a35b6f64403b5a43dce2",
+    "9850ba064f46a851bfe7d29817a46c5fddd76f8eafcd6735a499da57cadac50c",
+    "7ef53c4c2f0a6c2e636be00056ac7ce2a6813c8d6d2ced8e65937e1d6465641a",
+    "0acc65bba3dd5435f5e25a73cb378b3ff269364f0f7a5a99226fc4a41060ae44",
+    "e90a3a7aafca6e8f3a041b70a4dbbec721adb62b58a19e1f89ac4f019d0ae976",
+    "c362ce556dc35ed0725c31b3f5c60b86bc83a2d94152fd1a109116813a4b5cf8",
+    "63d378a0f4ca15b2b46e69e8198b731b703e4ca91b3a889951127846b42cdd5d",
+    "f07004157034433dca3cae84e0000980649f21c32a70f2c17c6cb4111f1f3f7f",
+    "ba1a098185cfdde69293193cebdf108567a446667086c4cb771660a1696459ac",
+    "d390c0bc7cfb9d2e67fddd20e1be24b11930e886789916ce0cf467c492922266",
+    "b417422de021be6ab02751c570276f7639c3b8d52a755701472bbd05c79361d0"
+  ],
+  "author_repository": "https://github.com/da-fr/arc-agi-3-solution",
+  "inspected_repository_commit": "10882e332d883af3e61616df8c8a17d03a328a75",
+  "authors": [
+    "Daniel Franzen",
+    "Jeroen Cottaar",
+    "Tufa Labs"
+  ],
+  "license": "Apache-2.0; third-party model/runtime licenses also apply",
+  "mode": "benchmark",
+  "public_games": "all 25",
+  "public_runtime_seconds": 31800,
+  "public_startup_allowance_seconds": 3600,
+  "competition_changes": "Optional mechanically checked planning; original ordinary action batching and host guards retained. Shared readiness, lifecycle counters and global finalization reserve. Original model/runtime/scheduler retained.",
+  "competition_finalization_reserve_seconds": 600,
+  "notebook_wall_budget_seconds": 32400,
+  "public_deadline_includes_startup": true,
+  "agent_variant": "planning-assist",
+  "verified_planning_sha256": "83057d90c3248775260aa3cc5d06a9f59a36572298dc0d41ef58a858a9a4efe0",
+  "extension_installer_sha256": "edc926c41c065f01ac2bc63055a17e7aff069f0e4e6dd4dcb1eabdd7c1e97d6a",
+  "public_competition_diagnostics": false,
+  "candidate": "general-learner",
+  "input_resolver_sha256": "f062a11ada8103431884817dafb4605a9a641adc7fe07348c4489e01db9dfd8e",
+  "cpu_gate": "kunalsinghh25/arc-hydra-verifier-cpu-probe/5",
+  "extension": {
+    "extension": "planning-assist-v1",
+    "enforce_probes": false,
+    "library_sha256": "83057d90c3248775260aa3cc5d06a9f59a36572298dc0d41ef58a858a9a4efe0",
+    "files": {
+      "python_tool_sandbox.py": {
+        "before": "3900b7255842df04be9ad08f91b521279a2e63f8226ac4bc77fb6de7a4e36943",
+        "after": "83ef0d3092e079f51cdb7da32e96dcb108473daf49f291f5e1e4bb3c02fe8385"
+      },
+      "tool_agent.py": {
+        "before": "053556f4a2d19bbb0f04d3ecde14bad2d76abfe91e89254740b763136a5a8e82",
+        "after": "283132b535967c5a78a098f93431e72ea3c6a149848e61c819452eae92e3869e"
+      }
+    }
+  },
+  "validation_scope": "System prompt plus 16 rendered user-prompt combinations: memory on/off, duplicate guidance on/off, opener hint on/off, initial/resumed turn. Not exhaustive configuration coverage.",
+  "promotion_status": "Experimental; GPU gameplay and official performance unverified",
+  "study_cpu_gate": "kunalsinghh25/arc-hydra-study-cpu-probe/2",
+  "study_extension": {
+    "extension": "general-study-v1",
+    "library_sha256": "52749cb8bc4d80bee73d7621ac9ee017280ba427b4b204f310a4abe0c6eac0fd",
+    "guidance_sha256": "75e30f3ce69688e14fb6d01512d8c04d42fa9596dac8067030d3648d30a361e3",
+    "files": {
+      "python_tool_sandbox.py": {
+        "before": "83ef0d3092e079f51cdb7da32e96dcb108473daf49f291f5e1e4bb3c02fe8385",
+        "after": "d22bd92c65f03b9eda64b7c09c7e99e2799fb2b2c07951b26a16195b16b79ff3"
+      },
+      "tool_agent.py": {
+        "before": "283132b535967c5a78a098f93431e72ea3c6a149848e61c819452eae92e3869e",
+        "after": "67b831a00cff5e3735d4723c8aeaf2fa8b1670faa5507fb154f446ae1766467c"
+      }
+    }
+  },
+  "study_source_manifest": {
+    "hydra/study_memory.py": "52749cb8bc4d80bee73d7621ac9ee017280ba427b4b204f310a4abe0c6eac0fd",
+    "hydra/research_guidance.py": "441342d69f37ab914edd1cc75f4d85e58ed07282845367a6f8242d6e4e1f4587",
+    "scripts/install_study_agent.py": "0ee5d27386c52ce8d4727dba428562bbd4ad81033f99fdf0536a1e8b97174519",
+    "scripts/study_agent_probe.py": "ee875b46cfb419ec6d5deccf56c8dd168ade720e5f5a58bbf9c640dc9b21e5ee"
+  },
+  "finalization_reserve_seconds": 600,
+  "best_prior_public_score": 48.2861310586818,
+  "best_prior_official_score": 24.87,
+  "comparison_boundary": "Longer compute and a changed agent; comparison with the two-hour predecessor does not isolate strategy gain."
+}

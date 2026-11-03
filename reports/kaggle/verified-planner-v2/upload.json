@@ -1,0 +1,14 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-verified-planner/2",
+  "recorded_at": "2026-10-27T15:48:09.120123+00:00",
+  "files": {
+    "kernel-metadata.json": "659c9a7f441916c978167f060b279f64bd345e563850eb15f4af8c05a6f9bff9",
+    "provenance.json": "e9779a248e1750636f24c2fc8ae0e8e0fe815e30e3f11a8cdc2a712d918071cf",
+    "submission.ipynb": "3b9752dc7e79db143f05dd509bdbb7b5b55d8b879e28966b78acf1c67580a4ef"
+  },
+  "observer_session": 24665,
+  "public_games": 25,
+  "post_readiness_seconds": 7200,
+  "notebook_timeout_seconds": 12000,
+  "boundary": "One stochastic public pass; no paired seeds or official score claim"
+}

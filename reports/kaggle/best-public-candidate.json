@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-28T18:33:43.341862+00:00",
+  "status": "best_observed_public_candidate",
+  "kernel": "kunalsinghh25/arc-hydra-general-learner/1",
+  "files": {
+    "kernel-metadata.json": "64360b7782be57a12183f1c60ef13d8dfa92194479fc33f0ab6e9cf22d5b6096",
+    "provenance.json": "1a2d491a9cb6b527022e4d892c210c17020c40fe2068a4093859f6f87b045442",
+    "submission.ipynb": "d94289632f9c33c833b5eaa8a26e0dd98fc99931a54d1352d143592d13e0012e"
+  },
+  "public_metrics": {
+    "games": 25,
+    "model_gameplay_verified": true,
+    "mean_public_score": 62.09472223548143,
+    "levels": 147,
+    "full_wins": 11,
+    "generated_tokens": 15203434
+  },
+  "best_scored_official_submission": {
+    "ref": "57726784",
+    "score": "28.45"
+  },
+  "official_linkage": "User reports this candidate was submitted; exact submitted file hash/version could not be independently verified.",
+  "helper_adoption": "Persistent study memory: 25 games, 244 changes. Causal benefit unestablished.",
+  "previous_best_public_candidate": {
+    "kernel": "kunalsinghh25/arc-hydra-ultimate-candidate/3",
+    "score": 48.2861310586818
+  },
+  "boundary": "Different compute budget and strategy. One stochastic public pass; no causal improvement or hidden-score prediction established."
+}

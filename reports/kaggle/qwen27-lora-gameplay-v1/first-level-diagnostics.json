@@ -1,0 +1,62 @@
+{
+  "cn04-2fe56bfb": {
+    "base": {
+      "first_level_actions": 14,
+      "first_level_seconds": 196.375597083,
+      "first_level_generation": 9978
+    },
+    "adapted": {
+      "first_level_actions": 24,
+      "first_level_seconds": 530.623254723,
+      "first_level_generation": 29314
+    }
+  },
+  "ka59-38d34dbb": {
+    "base": {
+      "first_level_actions": 20,
+      "first_level_seconds": 2622.752396527,
+      "first_level_generation": 82531
+    },
+    "adapted": {
+      "first_level_actions": 66,
+      "first_level_seconds": 2632.787135616,
+      "first_level_generation": 66348
+    }
+  },
+  "ar25-0c556536": {
+    "base": {
+      "first_level_actions": 21,
+      "first_level_seconds": 245.13844954600006,
+      "first_level_generation": 12552
+    },
+    "adapted": {
+      "first_level_actions": 17,
+      "first_level_seconds": 235.798624884,
+      "first_level_generation": 14154
+    }
+  },
+  "s5i5-18d95033": {
+    "base": {
+      "first_level_actions": 18,
+      "first_level_seconds": 351.89082384900007,
+      "first_level_generation": 13686
+    },
+    "adapted": {
+      "first_level_actions": 15,
+      "first_level_seconds": 187.06461628499994,
+      "first_level_generation": 8933
+    }
+  },
+  "ls20-9607627b": {
+    "base": {
+      "first_level_actions": 21,
+      "first_level_seconds": 635.1391842560001,
+      "first_level_generation": 32391
+    },
+    "adapted": {
+      "first_level_actions": 30,
+      "first_level_seconds": 678.9643867,
+      "first_level_generation": 33099
+    }
+  }
+}

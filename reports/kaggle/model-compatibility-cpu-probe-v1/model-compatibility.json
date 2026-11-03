@@ -1,0 +1,1030 @@
+{
+  "base_ref": "dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/Transformers/default/1",
+  "candidate_ref": "lamdang/thinkingcap-qwen3-8-flash-next-w4a16-autoround/Transformers/default/1",
+  "elapsed_seconds": 5.634286107000037,
+  "config_differences": {
+    "/quantization_config/autoround_version": {
+      "base": "0.15.0",
+      "candidate": "0.16.1"
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.0\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.0\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.10\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.10\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.11\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.11\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.12\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.12\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.13\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.13\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.14\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.14\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.15\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.15\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.16\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.16\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.17\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.17\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.18\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.18\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.19\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.19\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.1\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.1\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.20\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.20\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.21\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.21\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.22\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.22\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.23\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.23\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.24\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.24\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.25\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.25\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.26\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.26\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.27\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.27\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.28\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.28\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.29\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.29\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.2\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.2\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.30\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.30\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.31\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.31\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.32\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.32\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.33\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.33\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.34\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.34\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.35\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.35\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.36\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.36\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.37\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.37\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.38\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.38\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.39\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.39\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.3\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.3\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.40\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.40\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.41\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.41\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.42\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.42\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.43\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.43\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.44\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.44\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.45\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.45\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.46\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.46\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.47\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.47\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.4\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.4\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.5\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.5\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.6\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.6\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.7\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.7\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.8\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.8\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.9\\.mlp\\.gate.*/bits": {
+      "base": 16,
+      "candidate": null
+    },
+    "/quantization_config/extra_config/.*model\\.language_model\\.layers\\.9\\.mlp\\.gate.*/data_type": {
+      "base": "float",
+      "candidate": null
+    },
+    "/quantization_config/low_gpu_mem_usage": {
+      "base": null,
+      "candidate": true
+    },
+    "/quantization_config/static_attention_granularity": {
+      "base": "tensor",
+      "candidate": null
+    },
+    "/quantization_config/static_kv_granularity": {
+      "base": "tensor",
+      "candidate": null
+    }
+  },
+  "base_only_tensors": [],
+  "candidate_only_tensors": [],
+  "tensor_shape_dtype_differences": {},
+  "base_metadata": {
+    "config.json": {
+      "size": 266426,
+      "sha256": "0fabfa21fab8bfe69f02234f7ae8df4ed91b785fca2e22011c1230f6a07e5329"
+    },
+    "quantization_config.json": {
+      "size": 94026,
+      "sha256": "2371a9d0bed1ff619622ac57aa0e6e5b39688bb834b48d761e90d5834f4cab4b"
+    },
+    "generation_config.json": {
+      "size": 214,
+      "sha256": "6ef70d6670f24f03a9041724c7663ef26bc1e678d10f79c93fe11c192ba14b7d"
+    },
+    "tokenizer.json": {
+      "size": 19989325,
+      "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523"
+    },
+    "tokenizer_config.json": {
+      "size": 1165,
+      "sha256": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b"
+    },
+    "chat_template.jinja": {
+      "size": 8952,
+      "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"
+    },
+    "preprocessor_config.json": {
+      "size": 443,
+      "sha256": "3a159dfec9978a186a72ba085e0ad6a050f3968d8b364218d7bd13f5c89381f2"
+    },
+    "processor_config.json": {
+      "size": 1220,
+      "sha256": "bfbc24af59a3e73a9cd0653b8d4ae758dfaec4e3e6c15dfb1c6c8ee8d5683c85"
+    }
+  },
+  "candidate_metadata": {
+    "config.json": {
+      "size": 260479,
+      "sha256": "1c108630a564981f0bcf7f8488219643141cc7506141cf317152eaf46787f167"
+    },
+    "quantization_config.json": {
+      "size": 88464,
+      "sha256": "82e4eb6d0fb61b41ae8cc7b94aeef26f5eb31a0416a4441b7143307811dbfa88"
+    },
+    "generation_config.json": {
+      "size": 202,
+      "sha256": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e"
+    },
+    "tokenizer.json": {
+      "size": 19989325,
+      "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523"
+    },
+    "tokenizer_config.json": {
+      "size": 17928,
+      "sha256": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27"
+    },
+    "chat_template.jinja": {
+      "size": 8952,
+      "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"
+    },
+    "preprocessor_config.json": {
+      "size": 443,
+      "sha256": "3a159dfec9978a186a72ba085e0ad6a050f3968d8b364218d7bd13f5c89381f2"
+    },
+    "processor_config.json": {
+      "size": 1220,
+      "sha256": "bfbc24af59a3e73a9cd0653b8d4ae758dfaec4e3e6c15dfb1c6c8ee8d5683c85"
+    }
+  },
+  "base_files": {
+    "model-00001-of-00017.safetensors": {
+      "size": 2899311784,
+      "header_bytes": 1257480,
+      "header_sha256": "77900dc256189b1d9a7adf1e3714dad03bbca0724137c6a6b95d81dd21860558"
+    },
+    "model-00003-of-00017.safetensors": {
+      "size": 5370548192,
+      "header_bytes": 2270104,
+      "header_sha256": "13f02ee36968f8c93c5f64aecd951cd01462d36bf3a94e1a152450e14bedbc9f"
+    },
+    "model-00004-of-00017.safetensors": {
+      "size": 5370910416,
+      "header_bytes": 2296968,
+      "header_sha256": "28ab3cf1df2a5e154398ba1dce2226da5d0132b9b14d66ec4b94064d85732d4f"
+    },
+    "model-00005-of-00017.safetensors": {
+      "size": 5370140704,
+      "header_bytes": 2381464,
+      "header_sha256": "220dc82284111e7d389c82994024532b4f5593bab23b4305d6cfd4de04b72325"
+    },
+    "model-00006-of-00017.safetensors": {
+      "size": 5370205184,
+      "header_bytes": 2314936,
+      "header_sha256": "feff976734e85f70c9050c5bb8a7a09a72650d9704a52ef910c6820ee7a84ff4"
+    },
+    "model-00007-of-00017.safetensors": {
+      "size": 5370927288,
+      "header_bytes": 2313840,
+      "header_sha256": "b71842dd0e3d0e2d9be7281548e6270f164bf501a6afc0b6aeba92b3f5cb95f6"
+    },
+    "model-00008-of-00017.safetensors": {
+      "size": 5344445352,
+      "header_bytes": 2358624,
+      "header_sha256": "a5c186e413b65aeb30bf9d7c8792219f2f1e193b4be4c1d437c8b424e750348c"
+    },
+    "model-00009-of-00017.safetensors": {
+      "size": 5370355648,
+      "header_bytes": 2328888,
+      "header_sha256": "13c60dc8a784e3dcd48ba83868369910319d2be83e6f9990a934117e5fcc29d2"
+    },
+    "model-00010-of-00017.safetensors": {
+      "size": 5370927288,
+      "header_bytes": 2313840,
+      "header_sha256": "a90f4ed428df9f719f127110249bb5c3dea42a5118255b37f7a1df5f504a4fa7"
+    },
+    "model-00011-of-00017.safetensors": {
+      "size": 5324173744,
+      "header_bytes": 2341992,
+      "header_sha256": "6ba75b9131dfd3adeca0f5ac58ce0b171b39fd7d2e9a78e554f0e77f81173753"
+    },
+    "model-00012-of-00017.safetensors": {
+      "size": 5370438520,
+      "header_bytes": 2329392,
+      "header_sha256": "743acd5b4847b53aa38c91ea359805a4200f39bdbf4ad9d769f7d4bba8301612"
+    },
+    "model-00013-of-00017.safetensors": {
+      "size": 5370927288,
+      "header_bytes": 2313840,
+      "header_sha256": "d52651559a9de871998dd39fa8af4820c7aeb880af01bbd05ac3e3cc4d6c8639"
+    },
+    "model-00014-of-00017.safetensors": {
+      "size": 5342689856,
+      "header_bytes": 2342648,
+      "header_sha256": "292b969bd373e3783f27ba21b92b747c2f0334712fe8ae473c8bd77fdc9d00e8"
+    },
+    "model-00015-of-00017.safetensors": {
+      "size": 5050474736,
+      "header_bytes": 1304840,
+      "header_sha256": "c5d2c8c0955ef641ccd30daf6f05d67f7f46781a97afe2eb18228545b9453a06"
+    },
+    "model-00017-of-00017.safetensors": {
+      "size": 1284526608,
+      "header_bytes": 520,
+      "header_sha256": "8201332775b075d5efa33b0050bdbbcac4d893b6615cb311ffc5b37e04b0d601"
+    },
+    "model-ple-00001-of-00022.safetensors": {
+      "size": 4800023992,
+      "header_bytes": 944,
+      "header_sha256": "1bfb7c83350316a64a16f0ebe6800a6144eb7fda5c32c0947c4e255b7a874e95"
+    },
+    "model-ple-00002-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "4dae50229483c1adca4c4673d8f2dd3243aab0c9cc693f143083fe2d69de9de0"
+    },
+    "model-ple-00003-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "87655393f81195f40e330eac30e94c22f60b10c628c30da6029aace4200e0e03"
+    },
+    "model-ple-00004-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "7adfd3a31447eb360eff1bd36cdee7659bed3fab13cfc5e6af3f04381190f3af"
+    },
+    "model-ple-00005-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "5d1295ef9cac18b8d82724dd5f4cfdd24116d50f12abf619de0dd5c5d7aedc5f"
+    },
+    "model-ple-00006-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "c46c174f6b862a6eda4380282739c29f65b50cdeccd64a36ca7d0b26949c1e2c"
+    },
+    "model-ple-00007-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "0dbc079c563642a463d185503ab39b94e6d8adf6f35c550874c649ab168efe3a"
+    },
+    "model-ple-00008-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "8a8ffb0e47af383e3162139171e42a417244a3341390814d1631ce40b6834ad9"
+    },
+    "model-ple-00009-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "7cf64c72e9cb59a49bf66bc1f4d12656c6d761860b693e7aedf6552847c08a2f"
+    },
+    "model-ple-00010-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "ed20177306f8f4054bca0d5b309ad79463161c468c33fd58db45749f62ec87a9"
+    },
+    "model-ple-00011-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "08c5ccd15cf4ef2f1755c92365f125d80ca99aa054e10af653faadcd4d2c043a"
+    },
+    "model-ple-00012-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "ff9eebc1edc027fa371b6879845b2d51268085a7a29eb7d32a01a4bc081f41ad"
+    },
+    "model-ple-00013-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "d9222e548af8b672ec9273394bfbc5749808054e89b70a7f453858ab4d2bb370"
+    },
+    "model-ple-00014-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "5200e6b25bbbfff90fb57736539feffed3aaf47e4cdd190c7a30785ecbdc5888"
+    },
+    "model-ple-00015-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "28fc3d63781b48343c279deb05b5363bc47bc618474242de5be195a2d523e0d7"
+    },
+    "model-ple-00016-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "8e4eb70b46936bef6fa77fdfe4f06c7171161ab80fc94ef099f8105136a04c4b"
+    },
+    "model-ple-00017-of-00022.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "bbb46e9759f05a0398c42a17d277b094f30c099cfabb54a4d2f93dbf17c1c709"
+    },
+    "model-ple-00018-of-00022.safetensors": {
+      "size": 4800024008,
+      "header_bytes": 960,
+      "header_sha256": "5e464918ce74b04d64afdc73537ca4dcaaebd7ebe5d351b56788d0c2091c05b1"
+    },
+    "model-ple-00019-of-00022.safetensors": {
+      "size": 4800024008,
+      "header_bytes": 960,
+      "header_sha256": "723a59948260227aa9736902365150a916e11f71be4826d47702ad3375dcb77e"
+    },
+    "model-ple-00020-of-00022.safetensors": {
+      "size": 4800024008,
+      "header_bytes": 960,
+      "header_sha256": "e6ffd8d244af234daa15c1fca0a984b1783128afc989bd9a38fbdec46f282dc1"
+    },
+    "model-ple-00021-of-00022.safetensors": {
+      "size": 4800024008,
+      "header_bytes": 960,
+      "header_sha256": "4f909ee5a1d7a95c20cc4d47e48aa96af83b8330f07e85c50cc9d985c439b278"
+    },
+    "model-ple-00022-of-00022.safetensors": {
+      "size": 1600008000,
+      "header_bytes": 312,
+      "header_sha256": "94cd88351a362ca578e17961c4d3839f705f92c553d15849897ece7cc411f6d4"
+    },
+    "model_extra_tensors.safetensors": {
+      "size": 5214492152,
+      "header_bytes": 190448,
+      "header_sha256": "4ffb7af05a23fb7ef37a9a788b7aa4b6bd3cfb0a3494270383db8f97d29c0642"
+    }
+  },
+  "candidate_files": {
+    "model-00001-of-00070.safetensors": {
+      "size": 1462863088,
+      "header_bytes": 626472,
+      "header_sha256": "802ece61dfadd99db8ec4a136bd5cf9ec8d5ea9071e4c7353ab81e069631fff8"
+    },
+    "model-00002-of-00070.safetensors": {
+      "size": 4636459312,
+      "header_bytes": 626256,
+      "header_sha256": "28904689580abde13de4b69808cefcb681400d88a3d626e498966dfc178bceee"
+    },
+    "model-00003-of-00070.safetensors": {
+      "size": 4800023992,
+      "header_bytes": 944,
+      "header_sha256": "049734291f85a283f69e71209dd44d20c5e928405661d1bac069094cc8fcf694"
+    },
+    "model-00004-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "92dfa889b4ad41a9cf2516a7f1eda83bc8cfdbc37ae8bc0a6e488d99bb6a2eb0"
+    },
+    "model-00005-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "a4f42321ea7cd2ed19d169a5df5bbb583731a453d45955f18f976a3325d95a30"
+    },
+    "model-00006-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "443fb4da1a096244c92020bd54c5a30ab53f0a6e958089774f82a3671951c25a"
+    },
+    "model-00007-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "9dd504948e54952f2e3ec4f2c91960cf80ca16bc37adcaf7d6b767e74353e252"
+    },
+    "model-00008-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "d1175b06cf7069f53430b98d1938fd29deadaac3bd8fb241038632fbb77d9462"
+    },
+    "model-00009-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "fafcf08b7b2e0394ef8b54bee7ee8fb579dbb7f2d6679f47766b5b39c11656f3"
+    },
+    "model-00010-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "fb60e73316d13b2fb6fd853b710f97634ec7400e612bfb29f804ff6d1d86433d"
+    },
+    "model-00011-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "9808da7d8f0c45515971e044d1d02bcf4ed7c0fb4d64d119fcb364d5e67327c7"
+    },
+    "model-00012-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "3ad0ae232cac2f596acb2eefe34a098bd22c4998a5c16145c3601c2f0496d333"
+    },
+    "model-00013-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "e139dad420232c8b4ab867b0a949a41c9ebd34db6fd9cd22ab095c4f462c853b"
+    },
+    "model-00014-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "d2787c15dac85414b6e3eb1ee5a9886ba6e923a75189c07af68f496a6e014578"
+    },
+    "model-00015-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "8d5b9beeb80f840f4e63c0d7267fd5bc22742982cd2074b2fa80eb707d58a294"
+    },
+    "model-00016-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "635a7aba7936312511f9451855abad6badf27517143ab129f4c4b1cccbdd431a"
+    },
+    "model-00017-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "f3094311f19cad7aaf43a6babf5f3d6ac3f45ad26ea17965366a1b6d4828455f"
+    },
+    "model-00018-of-00070.safetensors": {
+      "size": 4800024000,
+      "header_bytes": 952,
+      "header_sha256": "3e628b3f09738101b08c00e4ab3ff31dcd1d6bc503fd3de7d24b368b6c13b4d0"
+    },
+    "model-00019-of-00070.safetensors": {
+      "size": 4800024008,
+      "header_bytes": 960,
+      "header_sha256": "e9e6a9d906f44c03e0c201ac5ac7dfdf637d426cb80024357849c38509e8d3c3"
+    },
+    "model-00020-of-00070.safetensors": {
+      "size": 4800024008,
+      "header_bytes": 960,
+      "header_sha256": "6f9032eab7b9e88e009aa037a69f7bc5c81f896eb43d5667540118afa74c8732"
+    },
+    "model-00021-of-00070.safetensors": {
+      "size": 4800024008,
+      "header_bytes": 960,
+      "header_sha256": "24694026648712a9488707683a33f50cba400f1918108874b8105bf7391aa41c"
+    },
+    "model-00022-of-00070.safetensors": {
+      "size": 4800024008,
+      "header_bytes": 960,
+      "header_sha256": "c0d935bacca6df3f49da32fa5d8028cea3019f0e0ed601df7b4976811218a26e"
+    },
+    "model-00023-of-00070.safetensors": {
+      "size": 3292116480,
+      "header_bytes": 2552,
+      "header_sha256": "f8bc3b3522ec2bb621554a976c8ff297a2a936bef2628e047a74510a778f43b0"
+    },
+    "model-00024-of-00070.safetensors": {
+      "size": 1462863088,
+      "header_bytes": 626472,
+      "header_sha256": "4a6ac3511fdc1c572ed95e047ce78a96498e1adad2d07a7b09f113dd51bea5d5"
+    },
+    "model-00025-of-00070.safetensors": {
+      "size": 1449838912,
+      "header_bytes": 626488,
+      "header_sha256": "ccf37630d9cca5721ef922c761f50b79c8f781a2e2be180a677e93abfbc6353f"
+    },
+    "model-00026-of-00070.safetensors": {
+      "size": 1462863088,
+      "header_bytes": 626472,
+      "header_sha256": "6172ecdf5790cd31e2f9ac27c98c25eb0b958b5c28c8d8e36af18fe06eb3c60a"
+    },
+    "model-00027-of-00070.safetensors": {
+      "size": 1462863088,
+      "header_bytes": 626472,
+      "header_sha256": "09cfe6d6e2ef3a3f7e607ed442960fc738fc9a2308150e71dfbce5acadd69060"
+    },
+    "model-00028-of-00070.safetensors": {
+      "size": 1462863088,
+      "header_bytes": 626472,
+      "header_sha256": "693a05f6ae84d2ea8693de8696266bc640c8e48d64df760f104e3d9b6bef92f3"
+    },
+    "model-00029-of-00070.safetensors": {
+      "size": 1449838912,
+      "header_bytes": 626488,
+      "header_sha256": "1d6ae0b31069829d3e26cd3d6ea75f040b3b522ad6da3428296426bf0ee6fd7a"
+    },
+    "model-00030-of-00070.safetensors": {
+      "size": 1462863088,
+      "header_bytes": 626472,
+      "header_sha256": "972a89ed5f7c946f264c360633285ceb7eac7f607d6c21a16630b1b1367942a2"
+    },
+    "model-00031-of-00070.safetensors": {
+      "size": 1462863088,
+      "header_bytes": 626472,
+      "header_sha256": "d212952b44702ff22cbad0b65e5552ef938ee78cf42871ebc7cc3c2879cfdf69"
+    },
+    "model-00032-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "c51756bdcd738c9356e510d66574aa54faf3d5428d6242a03be421d1f86395dc"
+    },
+    "model-00033-of-00070.safetensors": {
+      "size": 1449843544,
+      "header_bytes": 631120,
+      "header_sha256": "773705c3cae744a6f1833bc24e0132e3587a739661756a7de5a25e9fd45c936d"
+    },
+    "model-00034-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "db560f5be4fe44eb1137b99b0d13c0bfd17baff05baf434720bf892578c7eb88"
+    },
+    "model-00035-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "bff85cea86c3d94f861e6e55647f3e88becd5d52551ceb689ce040e04757610d"
+    },
+    "model-00036-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "3f9b72920be97c9663d7ca9b2c48bfc2a75483bb478ea51fc705dbaf367a6845"
+    },
+    "model-00037-of-00070.safetensors": {
+      "size": 1449843544,
+      "header_bytes": 631120,
+      "header_sha256": "e8bd564d82ce98d8e7fb59837073e1e4817b04442a17fd25ae04291474cc6ef2"
+    },
+    "model-00038-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "2246999d848a70974c7b1ad57fbef54d0d161bde7eba7fc4677fd5f676d7f6db"
+    },
+    "model-00039-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "b029c4f7d261fd266f5690f25a7ceca5465dbb41280761e078fdde0bf22bdaa9"
+    },
+    "model-00040-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "495596d55d0b919fbf164ff22918096046358281f03132a31999ad914248b62d"
+    },
+    "model-00041-of-00070.safetensors": {
+      "size": 1449843544,
+      "header_bytes": 631120,
+      "header_sha256": "e836edb9415dc365d3eff31ac40c7e7913e2238f7056111e68f917e19894ceda"
+    },
+    "model-00042-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "9a53993645308fbc94b1f51d7654e622aafba4da90d2918243b42e298c1ca98c"
+    },
+    "model-00043-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "ce7d326e3b238821d1c1bc0b2702a7108539423f791a4c9a7d0ce473610f1b95"
+    },
+    "model-00044-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "5f6c716d8008a65cb23962b0e25abd801bf9a78312cb343b4f315048c78fd0c7"
+    },
+    "model-00045-of-00070.safetensors": {
+      "size": 1449843544,
+      "header_bytes": 631120,
+      "header_sha256": "5e2979c3971257fbadc7965a73cf1db27449f4cea6ccef51c13a1a405b8d74fb"
+    },
+    "model-00046-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "b85c505b46f29b2ad40679be6c7efb94e53227711abaeb878e66ddf9188818b5"
+    },
+    "model-00047-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "aae3aac8160f036379abb5babaa9019702dd9876ec8e51512bdec2a928153548"
+    },
+    "model-00048-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "2671eca06dc926970a096c0081f7a244385f86bdf3b8aefb7544612a0b27065a"
+    },
+    "model-00049-of-00070.safetensors": {
+      "size": 1449843544,
+      "header_bytes": 631120,
+      "header_sha256": "0dbefc75c1b81bd1cf0f66c7eaee8d420af341b62381b54756f2149f16d2d84c"
+    },
+    "model-00050-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "6201ef59d5dc56a594ec2e5529f97ed01cfdbcf8c9cbd84fe7b45e0669e24111"
+    },
+    "model-00051-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "166b427a340273ebbaf701b86150e7064327194ce5bed813f11e575b249b0129"
+    },
+    "model-00052-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "b17bfd7df7d66dc6402e64f70e6e468f98370de34cf35727d9a8bc8d37db6f64"
+    },
+    "model-00053-of-00070.safetensors": {
+      "size": 1449843544,
+      "header_bytes": 631120,
+      "header_sha256": "392927b018ddbcd6e1da6e2204efb3c07183da7609ec2c7616027d1f481f852c"
+    },
+    "model-00054-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "66a11ccf04aeb0995d256b1a1882b3e043988f1a80de7184436dfe2c5a3db67f"
+    },
+    "model-00055-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "9c2788e1c5f7f880a079068190e256d6035b407778f787d8db3bbfaf0c0df9f2"
+    },
+    "model-00056-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "f6dca2e9422ca511531b1c9a4c4f8a7d73feec0728a03485d5ec57d9275d73ed"
+    },
+    "model-00057-of-00070.safetensors": {
+      "size": 1449843544,
+      "header_bytes": 631120,
+      "header_sha256": "5f28cd26e97e9ab1aaea84a46215023f314cf6472cf274de3c1db8a00ed37cec"
+    },
+    "model-00058-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "8d556528480d6cd631b9ab65895f0fa81b0320bca191eebe1db095b81c018aff"
+    },
+    "model-00059-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "3c3ae6f376820bf012877f18304f7b1dc29d036cdb8f133ecc3cde8e54c6badc"
+    },
+    "model-00060-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "6b4a6a3a4c283a5c82863094db3942e623f6dbf3607203812b0d68b8e6b1e591"
+    },
+    "model-00061-of-00070.safetensors": {
+      "size": 1449843544,
+      "header_bytes": 631120,
+      "header_sha256": "3de986bed16b9d17c7d1c922e2153dafda8307afd8e16b3eba69f34c3682697e"
+    },
+    "model-00062-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "27bfb54edc11cfed5f73343bc2371f2a9420feb4497816d2fd4397053d2ba51b"
+    },
+    "model-00063-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "de518f14f30095e0604e5b89a9097365112e4675b39a0a3721475aef80493358"
+    },
+    "model-00064-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "09f3f680975fcb7cb42cab51c10d8a738afd13dd64011132883704a9ce9ac6a4"
+    },
+    "model-00065-of-00070.safetensors": {
+      "size": 1449843544,
+      "header_bytes": 631120,
+      "header_sha256": "216e90aac755d6762ca09eae77b9fcab3259db56758040292a8e742f4001996f"
+    },
+    "model-00066-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "f725f58dcf663f47d4ca1840110a1ff782a6c08c9f7dab697dc73b513647354a"
+    },
+    "model-00067-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "e06eea724e13c646ca9326c2bd9ad6a0488d5cfabc0e77f684a6b9132deaea6b"
+    },
+    "model-00068-of-00070.safetensors": {
+      "size": 1462867720,
+      "header_bytes": 631104,
+      "header_sha256": "81d100d879dda17279bd407df1cff943686fb4a3ef91daf5bbffe6e7545668a5"
+    },
+    "model-00069-of-00070.safetensors": {
+      "size": 1449843544,
+      "header_bytes": 631120,
+      "header_sha256": "d405814b265dfdb7dcf1eb687fdc4eb96b3bb3cf372172c2c746c28ce25f696c"
+    },
+    "model-00070-of-00070.safetensors": {
+      "size": 3453825000,
+      "header_bytes": 38400,
+      "header_sha256": "27a0322f78984c68cbcafa1a19f525562af907480195e7713ddd7e7667e53d8e"
+    },
+    "model_extra_tensors.safetensors": {
+      "size": 5214492152,
+      "header_bytes": 190448,
+      "header_sha256": "4ffb7af05a23fb7ef37a9a788b7aa4b6bd3cfb0a3494270383db8f97d29c0642"
+    }
+  },
+  "base_tensor_count": 224280,
+  "candidate_tensor_count": 224280,
+  "boundary": "CPU metadata and safetensors headers only. Weight payloads are not loaded or compared. This does not establish inference correctness, draft acceptance, hardware fit, gameplay quality or a competition score. No GPU or game access."
+}

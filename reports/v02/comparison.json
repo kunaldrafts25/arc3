@@ -1,0 +1,494 @@
+{
+  "complete": true,
+  "action_cap": 300,
+  "environment_seed": 0,
+  "baseline": {
+    "runs": 75,
+    "full_wins": 0,
+    "completed_levels": 6,
+    "mean_official_score": 0.1501989252374873,
+    "median_runtime_seconds": 4.281,
+    "exceptions": 0
+  },
+  "candidate_paired": {
+    "runs": 75,
+    "full_wins": 3,
+    "completed_levels": 27,
+    "mean_official_score": 3.9428181500683337,
+    "median_runtime_seconds": 7.594,
+    "exceptions": 0
+  },
+  "candidate_additional_seeds": {
+    "runs": 50,
+    "full_wins": 2,
+    "completed_levels": 17,
+    "mean_official_score": 3.9532842720094985,
+    "median_runtime_seconds": 4.890499999999999,
+    "exceptions": 0
+  },
+  "candidate_all": {
+    "runs": 125,
+    "full_wins": 5,
+    "completed_levels": 44,
+    "mean_official_score": 3.9470045988447997,
+    "median_runtime_seconds": 6.125,
+    "exceptions": 0
+  },
+  "per_game": {
+    "ar25-0c556536": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 4.109,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 9.5,
+        "exceptions": 0
+      }
+    },
+    "bp35-0a0ad940": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 6.75,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 12.985,
+        "exceptions": 0
+      }
+    },
+    "cd82-fb555c5d": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 4.719,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 7.953,
+        "exceptions": 0
+      }
+    },
+    "cn04-2fe56bfb": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 4.531,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 8.218,
+        "exceptions": 0
+      }
+    },
+    "dc22-fdcac232": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 4.36,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 11.204,
+        "exceptions": 0
+      }
+    },
+    "ft09-0d8bbf25": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 5.687,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 3,
+        "completed_levels": 18,
+        "mean_official_score": 97.37796136078207,
+        "median_runtime_seconds": 5.812,
+        "exceptions": 0
+      }
+    },
+    "g50t-5849a774": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 2.094,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 8.953,
+        "exceptions": 0
+      }
+    },
+    "ka59-38d34dbb": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 3.687,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 8.39,
+        "exceptions": 0
+      }
+    },
+    "lf52-271a04aa": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 7.188,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 11.437,
+        "exceptions": 0
+      }
+    },
+    "lp85-305b61c3": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 2,
+        "mean_official_score": 0.011826626758594175,
+        "median_runtime_seconds": 4.109,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 8.75,
+        "exceptions": 0
+      }
+    },
+    "ls20-9607627b": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 0.719,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 2,
+        "mean_official_score": 0.12299378878510303,
+        "median_runtime_seconds": 9.953,
+        "exceptions": 0
+      }
+    },
+    "m0r0-492f87ba": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 4.172,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 6.437,
+        "exceptions": 0
+      }
+    },
+    "r11l-495a7899": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 3,
+        "mean_official_score": 3.7357821141604926,
+        "median_runtime_seconds": 6.844,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 3,
+        "mean_official_score": 0.31498965833547415,
+        "median_runtime_seconds": 6.531,
+        "exceptions": 0
+      }
+    },
+    "re86-8af5384d": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 0.437,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 3.578,
+        "exceptions": 0
+      }
+    },
+    "s5i5-18d95033": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 4.141,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 5.532,
+        "exceptions": 0
+      }
+    },
+    "sb26-7fbdac44": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 4.953,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 9.0,
+        "exceptions": 0
+      }
+    },
+    "sc25-635fd71a": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 8.359,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 6.516,
+        "exceptions": 0
+      }
+    },
+    "sk48-d8078629": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 4.891,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 7.641,
+        "exceptions": 0
+      }
+    },
+    "sp80-589a99af": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 3.953,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 5.328,
+        "exceptions": 0
+      }
+    },
+    "su15-1944f8ab": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 5.672,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 8.687,
+        "exceptions": 0
+      }
+    },
+    "tn36-ef4dde99": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 5.125,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 3,
+        "mean_official_score": 0.7525140279911502,
+        "median_runtime_seconds": 9.61,
+        "exceptions": 0
+      }
+    },
+    "tr87-cd924810": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 0.594,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 5.859,
+        "exceptions": 0
+      }
+    },
+    "tu93-0768757b": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 1.25,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 3.688,
+        "exceptions": 0
+      }
+    },
+    "vc33-5430563c": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 1,
+        "mean_official_score": 0.007364390018095358,
+        "median_runtime_seconds": 3.766,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 1,
+        "mean_official_score": 0.0019949158145526258,
+        "median_runtime_seconds": 7.391,
+        "exceptions": 0
+      }
+    },
+    "wa30-ee6fef47": {
+      "baseline": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 0.375,
+        "exceptions": 0
+      },
+      "candidate": {
+        "runs": 3,
+        "full_wins": 0,
+        "completed_levels": 0,
+        "mean_official_score": 0.0,
+        "median_runtime_seconds": 4.547,
+        "exceptions": 0
+      }
+    }
+  },
+  "limitations": [
+    "Public development games only; no hidden score inference.",
+    "Additional seeds change policy randomness, not game layout.",
+    "Candidate was developed using public games; these are not unseen tasks."
+  ]
+}

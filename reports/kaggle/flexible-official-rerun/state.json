@@ -1,0 +1,19 @@
+{
+  "phase": "accepted",
+  "kernel": "kunalsinghh25/arc-hydra-ultimate-candidate/3",
+  "competition": "arc-prize-2026-arc-agi-3",
+  "armed_at": "2026-10-28T19:02:00.277124+00:00",
+  "wait_until": "2026-10-29T02:00:00+00:00",
+  "known_submission_refs": [
+    57726784,
+    57686595,
+    57657435,
+    57630597,
+    57601062
+  ],
+  "official_score": null,
+  "checked_at": "2026-10-29T00:00:49.960356+00:00",
+  "last_allowed_now": 1,
+  "attempt_started_at": "2026-10-29T00:00:47.132573+00:00",
+  "submission_ref": 57751759
+}

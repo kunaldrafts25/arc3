@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "cases": [
+    "actual_rpc_freezes_before_action_without_spending_actions",
+    "host_measures_after_original_action_and_returns_counterexample",
+    "counterexample_survives_sandbox_and_session_restart",
+    "ordinary_batch_is_unchanged_and_not_falsely_verified",
+    "post_action_timeout_cannot_erase_host_owned_evidence",
+    "invalid_measurement_rejected_without_accidental_action",
+    "actual_toolagent_routes_rpc_and_persists_frozen_forecast",
+    "actual_new_toolagent_and_drained_context_restore_feedback",
+    "same_directory_game_paths_isolate_predictions",
+    "actual_rpc_preserves_executed_action_despite_post_action_write_failure",
+    "corrupt_optional_prediction_store_keeps_actual_toolagent_observation_tool_working",
+    "observed_level_boundary_without_flag_is_unchecked_without_disabling_tools"
+  ],
+  "base_mechanical_cases": 8,
+  "prompt_combinations": 16,
+  "actual_synthetic_actions": 6,
+  "event_format": 2,
+  "boundary": "Actual sandbox/ToolAgent CPU checks. No model inference or ARC gameplay benefit established."
+}

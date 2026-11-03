@@ -1,0 +1,210 @@
+{
+  "rotation": "Observed quarter-turn, preserving connected tool colors",
+  "goal_hypothesis": "Align both orange contact tips with the observed target ports while avoiding body/target overlap",
+  "execution": [
+    {
+      "step": 1,
+      "action": 4,
+      "expected_bbox": [
+        14,
+        11,
+        28,
+        25
+      ],
+      "index": 6,
+      "levels": 0,
+      "observed_bbox": [
+        14,
+        11,
+        28,
+        25
+      ],
+      "result": "prediction_match"
+    },
+    {
+      "step": 2,
+      "action": 4,
+      "expected_bbox": [
+        17,
+        11,
+        31,
+        25
+      ],
+      "index": 7,
+      "levels": 0,
+      "observed_bbox": [
+        17,
+        11,
+        31,
+        25
+      ],
+      "result": "prediction_match"
+    },
+    {
+      "step": 3,
+      "action": 4,
+      "expected_bbox": [
+        20,
+        11,
+        34,
+        25
+      ],
+      "index": 8,
+      "levels": 0,
+      "observed_bbox": [
+        20,
+        11,
+        34,
+        25
+      ],
+      "result": "prediction_match"
+    },
+    {
+      "step": 4,
+      "action": 4,
+      "expected_bbox": [
+        23,
+        11,
+        37,
+        25
+      ],
+      "index": 9,
+      "levels": 0,
+      "observed_bbox": [
+        23,
+        11,
+        37,
+        25
+      ],
+      "result": "prediction_match"
+    },
+    {
+      "step": 5,
+      "action": 2,
+      "expected_bbox": [
+        23,
+        14,
+        37,
+        28
+      ],
+      "index": 10,
+      "levels": 0,
+      "observed_bbox": [
+        23,
+        14,
+        37,
+        28
+      ],
+      "result": "prediction_match"
+    },
+    {
+      "step": 6,
+      "action": 2,
+      "expected_bbox": [
+        23,
+        17,
+        37,
+        31
+      ],
+      "index": 11,
+      "levels": 0,
+      "observed_bbox": [
+        23,
+        17,
+        37,
+        31
+      ],
+      "result": "prediction_match"
+    },
+    {
+      "step": 7,
+      "action": 2,
+      "expected_bbox": [
+        23,
+        20,
+        37,
+        34
+      ],
+      "index": 12,
+      "levels": 0,
+      "observed_bbox": [
+        23,
+        20,
+        37,
+        34
+      ],
+      "result": "prediction_match"
+    },
+    {
+      "step": 8,
+      "action": 2,
+      "expected_bbox": [
+        23,
+        23,
+        37,
+        37
+      ],
+      "index": 13,
+      "levels": 0,
+      "observed_bbox": [
+        23,
+        23,
+        37,
+        37
+      ],
+      "result": "prediction_match"
+    },
+    {
+      "step": 9,
+      "action": 2,
+      "expected_bbox": [
+        23,
+        26,
+        37,
+        40
+      ],
+      "index": 14,
+      "levels": 0,
+      "observed_bbox": [
+        23,
+        26,
+        37,
+        40
+      ],
+      "result": "prediction_match"
+    },
+    {
+      "step": 10,
+      "action": 2,
+      "expected_bbox": [
+        23,
+        29,
+        37,
+        43
+      ],
+      "index": 15,
+      "levels": 0,
+      "observed_bbox": [
+        23,
+        29,
+        37,
+        43
+      ],
+      "result": "prediction_match"
+    },
+    {
+      "step": 11,
+      "action": 2,
+      "expected_bbox": [
+        23,
+        32,
+        37,
+        46
+      ],
+      "index": 16,
+      "levels": 1,
+      "result": "actual_level_completion"
+    }
+  ],
+  "actual_level_completed": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "kunalsinghh25/arc-hydra-runtime-input-probe",
+  "title": "ARC Hydra Runtime Input Probe",
+  "code_file": "probe.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "model_sources": [],
+  "kernel_sources": [
+    "kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair/6"
+  ],
+  "competition_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:57e612b484cf3df5026ee4dcc3cb176974b22b2bc0937fb1e16132a8be4cb13c"
+}

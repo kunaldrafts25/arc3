@@ -1,0 +1,27 @@
+{
+  "phase": "accepted",
+  "kernel": "kunalsinghh25/arc-hydra-qwen27-cpu-preflight",
+  "files": {
+    "probe.ipynb": "fbd5333f4b4f8354730b2f6212a265d9e11ab119eba5c01372fb5d63f81b34b9",
+    "kernel-metadata.json": "804d0225c0c32042489f416445c2bbda15a2404e2b642db53fcd13b7a040a543"
+  },
+  "cpu_only": true,
+  "hard_session_timeout_seconds": 1800,
+  "resources": {
+    "allowed": true,
+    "reason": "free quota and shared-job checks passed",
+    "available_gpu_seconds": 87869.277,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [],
+    "arc2_free_seconds_floor": 10800
+  },
+  "recorded_at": "2026-11-01T12:54:22.182483+00:00",
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-qwen27-cpu-preflight",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-qwen27-cpu-preflight",
+    "versionNumber": 1,
+    "kernelId": 142112794
+  }
+}

@@ -1,0 +1,59 @@
+[{"stream_name":"stderr","time":11.542384030000001,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.542514752,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.542522956,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.542526853,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.376126902,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.376162427,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.37617318,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.376177322,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.996160876,"data":"\n"}
+,{"stream_name":"stdout","time":540.509610606,"data":"\n"}
+,{"stream_name":"stdout","time":542.013210793,"data":"TRAINING_ASSET_INTEGRITY kaggle-expanded-exact-manifest-and-file-sha256\n"}
+,{"stream_name":"stdout","time":542.434584412,"data":"\n"}
+,{"stream_name":"stderr","time":542.52377872,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stderr","time":542.523836857,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stderr","time":542.728313824,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stderr","time":542.728347472,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stderr","time":542.728353959,"data":"\n"}
+,{"stream_name":"stderr","time":542.728358853,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stderr","time":542.72836357,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":548.666293739,"data":"\n"}
+,{"stream_name":"stdout","time":548.667804258,"data":"error: Failed to build `/kaggle/working/transformers-source/transformers-e6564cfd7efd3affc3b6f3d65738f80b7ad8474f`\n"}
+,{"stream_name":"stdout","time":548.667835696,"data":"  cause: No interpreter found for Python 3.11 in virtual environments, managed installations, or search path\n"}
+,{"stream_name":"stdout","time":548.667843807,"data":"\n"}
+,{"stream_name":"stderr","time":549.220643848,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":549.220676931,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":549.220682124,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":549.22398588,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":549.224012309,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":549.224301651,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":549.224617514,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":549.22463331,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":549.224639121,"data":"Exception encountered at \"In [1]\":\n"}
+,{"stream_name":"stderr","time":549.22464399,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":549.224667777,"data":"RuntimeError                              Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":549.224672476,"data":"/tmp/ipykernel_17/3246538556.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":549.224676907,"data":"     76 with tarfile.open(archive,'r:gz') as handle:handle.extractall(sources,filter='data')\n"}
+,{"stream_name":"stderr","time":549.224680817,"data":"     77 project=next(p for p in sources.iterdir() if p.is_dir())\n"}
+,{"stream_name":"stderr","time":549.224684733,"data":"---\u003e 78 run([uv,'build','--wheel','--out-dir',bundle,project])\n"}
+,{"stream_name":"stderr","time":549.224688946,"data":"     79 run([uv,'pip','uninstall','--python',python,'sglang'])\n"}
+,{"stream_name":"stderr","time":549.224693109,"data":"     80 constraints=work/'torch-constraint.txt';constraints.write_text('torch==2.13.0+cu130\\n')\n"}
+,{"stream_name":"stderr","time":549.224697157,"data":"\n"}
+,{"stream_name":"stderr","time":549.224700496,"data":"/tmp/ipykernel_17/3246538556.py in run(arguments)\n"}
+,{"stream_name":"stderr","time":549.224704471,"data":"     20     result=subprocess.run(list(map(str,arguments)),env=environment,text=True,capture_output=True)\n"}
+,{"stream_name":"stderr","time":549.224708394,"data":"     21     print(result.stdout[-3500:],flush=True)\n"}
+,{"stream_name":"stderr","time":549.224712343,"data":"---\u003e 22     if result.returncode:print(result.stderr[-7000:],flush=True);raise RuntimeError('Isolated CPU command failed')\n"}
+,{"stream_name":"stderr","time":549.224716654,"data":"     23 run([uv,'venv','--python',sys.executable,venv])\n"}
+,{"stream_name":"stderr","time":549.22472035,"data":"     24 run([uv,'pip','install','--python',python,'--no-index','--find-links',wheels,'-r',lock])\n"}
+,{"stream_name":"stderr","time":549.224724782,"data":"\n"}
+,{"stream_name":"stderr","time":549.22472829,"data":"RuntimeError: Isolated CPU command failed\n"}
+,{"stream_name":"stderr","time":549.224732202,"data":"\n"}
+,{"stream_name":"stderr","time":552.66637425,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":552.6664069,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":552.918294387,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":552.918323245,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":553.72344641,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":554.099622025,"data":"[NbConvertApp] Writing 25588 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":557.092084943,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":558.193307042,"data":"[NbConvertApp] Writing 332870 bytes to __results__.html\n"}
+]

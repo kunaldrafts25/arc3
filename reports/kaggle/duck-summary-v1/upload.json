@@ -1,0 +1,9 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-duck-summary/1",
+  "recorded_at": "2026-10-25T18:04:43.795023+00:00",
+  "files": {
+    "kernel-metadata.json": "772c1df1cb6c32e92a1508fb551d7568a2d7da26bb4ea730e7fa6669e018b308",
+    "provenance.json": "5204e2e8830f9346b04dce0bb70609129a8b3e58a5fddde713e3457c0e489df6",
+    "submission.ipynb": "846794a139870cd4eb4a9bbc4b9dc53e5ad2f10038e7fe6944cd84ccf14a12be"
+  }
+}

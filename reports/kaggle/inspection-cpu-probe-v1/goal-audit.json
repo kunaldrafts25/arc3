@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-28T19:05:49.244655+00:00",
+  "best_official_submission": "57726784",
+  "best_official_score": 28.45,
+  "latest_competing_leader": {
+    "teamId": 15499660,
+    "teamName": "Yi-Chia Chen @ Fields Model",
+    "submissionDate": "2026-10-27T18:36:57.433Z",
+    "score": "75.56"
+  },
+  "goal_achieved": false,
+  "goal_status": "active",
+  "previous_turn_classification": "no progress: account-token and strategy reply only",
+  "current_turn_classification": "progress: new exact-inspection implementation and completed CPU gate, primary-source follow-up, isolated candidate packaged, one-attempt official flexible-v3 submission waiter armed",
+  "gpu_candidate_launched": false
+}

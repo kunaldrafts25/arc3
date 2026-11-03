@@ -1,0 +1,468 @@
+{
+  "checked_at": "2026-11-01T18:04:36.972415+00:00",
+  "benchmark_sha256": {
+    "original": "7a52b103fa4b39fa61402e9679ce9a4b64b92f184fdc73836eeaa14e60dbccec",
+    "capacity": "0db23af6c22cb980d68bbd3f39c74eced49a5d1e269c1e836c2fe45ab30f9e8e"
+  },
+  "final": {
+    "original": {
+      "score": 9.541728666176809,
+      "levels": 36,
+      "full_wins": 0,
+      "actions": 1708,
+      "tokens": 2166817,
+      "completion_score_ceiling": 10.313997113997114
+    },
+    "capacity": {
+      "score": 8.362744208617128,
+      "levels": 35,
+      "full_wins": 0,
+      "actions": 1870,
+      "tokens": 2452587,
+      "completion_score_ceiling": 8.974314574314574
+    }
+  },
+  "gameplay_seconds": {
+    "original": 6465.849633,
+    "capacity": 6394.26275
+  },
+  "common_seconds": 6394.26275,
+  "common_score": {
+    "original": 9.541728666176809,
+    "capacity": 8.36274420861713
+  },
+  "common_levels": {
+    "original": 36,
+    "capacity": 35
+  },
+  "common_games_improved": 6,
+  "common_games_regressed": 11,
+  "per_game": [
+    {
+      "game_id": "sk48-d8078629",
+      "original": {
+        "levels": 1,
+        "actions": 42,
+        "generated_tokens": 127762,
+        "score": 2.7777777777777777
+      },
+      "capacity": {
+        "levels": 0,
+        "actions": 39,
+        "generated_tokens": 68328,
+        "score": 0.0
+      },
+      "score_delta": -2.7777777777777777
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "original": {
+        "levels": 0,
+        "actions": 27,
+        "generated_tokens": 71243,
+        "score": 0.0
+      },
+      "capacity": {
+        "levels": 0,
+        "actions": 66,
+        "generated_tokens": 55340,
+        "score": 0.0
+      },
+      "score_delta": 0.0
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "original": {
+        "levels": 1,
+        "actions": 36,
+        "generated_tokens": 73879,
+        "score": 4.761904761904762
+      },
+      "capacity": {
+        "levels": 0,
+        "actions": 49,
+        "generated_tokens": 58572,
+        "score": 0.0
+      },
+      "score_delta": -4.761904761904762
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "original": {
+        "levels": 0,
+        "actions": 30,
+        "generated_tokens": 64509,
+        "score": 0.0
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 59,
+        "generated_tokens": 86797,
+        "score": 0.5829863176680548
+      },
+      "score_delta": 0.5829863176680548
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "original": {
+        "levels": 0,
+        "actions": 59,
+        "generated_tokens": 72517,
+        "score": 0.0
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 78,
+        "generated_tokens": 113749,
+        "score": 1.812929789389726
+      },
+      "score_delta": 1.812929789389726
+    },
+    {
+      "game_id": "dc22-fdcac232",
+      "original": {
+        "levels": 0,
+        "actions": 104,
+        "generated_tokens": 67828,
+        "score": 0.0
+      },
+      "capacity": {
+        "levels": 0,
+        "actions": 114,
+        "generated_tokens": 61708,
+        "score": 0.0
+      },
+      "score_delta": 0.0
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "original": {
+        "levels": 4,
+        "actions": 99,
+        "generated_tokens": 135813,
+        "score": 22.22222222222222
+      },
+      "capacity": {
+        "levels": 3,
+        "actions": 91,
+        "generated_tokens": 170432,
+        "score": 12.039697542533082
+      },
+      "score_delta": -10.18252467968914
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "original": {
+        "levels": 4,
+        "actions": 74,
+        "generated_tokens": 137545,
+        "score": 22.794784580498867
+      },
+      "capacity": {
+        "levels": 3,
+        "actions": 61,
+        "generated_tokens": 122914,
+        "score": 16.666666666666668
+      },
+      "score_delta": -6.128117913832199
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "original": {
+        "levels": 0,
+        "actions": 55,
+        "generated_tokens": 61099,
+        "score": 0.0
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 73,
+        "generated_tokens": 127943,
+        "score": 2.285714285714286
+      },
+      "score_delta": 2.285714285714286
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "original": {
+        "levels": 1,
+        "actions": 88,
+        "generated_tokens": 66171,
+        "score": 2.2222222222222223
+      },
+      "capacity": {
+        "levels": 0,
+        "actions": 89,
+        "generated_tokens": 67231,
+        "score": 0.0
+      },
+      "score_delta": -2.2222222222222223
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "original": {
+        "levels": 3,
+        "actions": 80,
+        "generated_tokens": 134509,
+        "score": 21.428571428571427
+      },
+      "capacity": {
+        "levels": 3,
+        "actions": 44,
+        "generated_tokens": 105657,
+        "score": 21.428571428571427
+      },
+      "score_delta": 0.0
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "original": {
+        "levels": 1,
+        "actions": 92,
+        "generated_tokens": 50406,
+        "score": 1.8181818181818181
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 103,
+        "generated_tokens": 86514,
+        "score": 1.8181818181818181
+      },
+      "score_delta": 0.0
+    },
+    {
+      "game_id": "r11l-495a7899",
+      "original": {
+        "levels": 4,
+        "actions": 65,
+        "generated_tokens": 132828,
+        "score": 47.61904761904762
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 34,
+        "generated_tokens": 115550,
+        "score": 4.761904761904762
+      },
+      "score_delta": -42.85714285714286
+    },
+    {
+      "game_id": "sc25-635fd71a",
+      "original": {
+        "levels": 0,
+        "actions": 54,
+        "generated_tokens": 56828,
+        "score": 0.0
+      },
+      "capacity": {
+        "levels": 4,
+        "actions": 144,
+        "generated_tokens": 157087,
+        "score": 47.61904761904762
+      },
+      "score_delta": 47.61904761904762
+    },
+    {
+      "game_id": "sp80-589a99af",
+      "original": {
+        "levels": 1,
+        "actions": 26,
+        "generated_tokens": 70724,
+        "score": 4.761904761904762
+      },
+      "capacity": {
+        "levels": 3,
+        "actions": 62,
+        "generated_tokens": 115005,
+        "score": 26.34920634920635
+      },
+      "score_delta": 21.58730158730159
+    },
+    {
+      "game_id": "ar25-0c556536",
+      "original": {
+        "levels": 2,
+        "actions": 85,
+        "generated_tokens": 101974,
+        "score": 8.333333333333334
+      },
+      "capacity": {
+        "levels": 5,
+        "actions": 161,
+        "generated_tokens": 185079,
+        "score": 41.666666666666664
+      },
+      "score_delta": 33.33333333333333
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "original": {
+        "levels": 1,
+        "actions": 56,
+        "generated_tokens": 52887,
+        "score": 2.7777777777777777
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 66,
+        "generated_tokens": 65267,
+        "score": 2.7777777777777777
+      },
+      "score_delta": 0.0
+    },
+    {
+      "game_id": "cd82-fb555c5d",
+      "original": {
+        "levels": 1,
+        "actions": 86,
+        "generated_tokens": 96032,
+        "score": 4.761904761904762
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 78,
+        "generated_tokens": 118716,
+        "score": 4.761904761904762
+      },
+      "score_delta": 0.0
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "original": {
+        "levels": 1,
+        "actions": 58,
+        "generated_tokens": 51574,
+        "score": 2.7777777777777777
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 97,
+        "generated_tokens": 93302,
+        "score": 0.5394363050209071
+      },
+      "score_delta": -2.2383414727568707
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "original": {
+        "levels": 1,
+        "actions": 49,
+        "generated_tokens": 59566,
+        "score": 2.7777777777777777
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 29,
+        "generated_tokens": 48899,
+        "score": 2.7777777777777777
+      },
+      "score_delta": 0.0
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "original": {
+        "levels": 1,
+        "actions": 73,
+        "generated_tokens": 103924,
+        "score": 3.5714285714285716
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 85,
+        "generated_tokens": 121017,
+        "score": 0.8536155202821869
+      },
+      "score_delta": -2.7178130511463845
+    },
+    {
+      "game_id": "ft09-0d8bbf25",
+      "original": {
+        "levels": 4,
+        "actions": 105,
+        "generated_tokens": 140082,
+        "score": 42.85621279761905
+      },
+      "capacity": {
+        "levels": 2,
+        "actions": 51,
+        "generated_tokens": 70226,
+        "score": 14.285714285714286
+      },
+      "score_delta": -28.570498511904766
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "original": {
+        "levels": 1,
+        "actions": 34,
+        "generated_tokens": 53287,
+        "score": 2.2222222222222223
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 63,
+        "generated_tokens": 81736,
+        "score": 1.2789007794953096
+      },
+      "score_delta": -0.9433214427269128
+    },
+    {
+      "game_id": "tr87-cd924810",
+      "original": {
+        "levels": 4,
+        "actions": 197,
+        "generated_tokens": 100994,
+        "score": 38.05816444224748
+      },
+      "capacity": {
+        "levels": 1,
+        "actions": 93,
+        "generated_tokens": 79222,
+        "score": 4.761904761904762
+      },
+      "score_delta": -33.29625968034272
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "original": {
+        "levels": 0,
+        "actions": 34,
+        "generated_tokens": 82836,
+        "score": 0.0
+      },
+      "capacity": {
+        "levels": 0,
+        "actions": 41,
+        "generated_tokens": 76296,
+        "score": 0.0
+      },
+      "score_delta": 0.0
+    }
+  ],
+  "serving": {
+    "original": {
+      "server_queue_ms": {
+        "p50": 4785.38,
+        "p90": 25647.67,
+        "p99": 676024.3,
+        "max": 889703.77
+      },
+      "weighted_cache_fraction": 0.9297298946693512,
+      "completed_response_tokens_per_window_second": 347.80194861921916,
+      "completed_requests": 982
+    },
+    "capacity": {
+      "server_queue_ms": {
+        "p50": 10976.43,
+        "p90": 27143.0,
+        "p99": 73874.07,
+        "max": 86699.72
+      },
+      "weighted_cache_fraction": 0.8781307080513447,
+      "completed_response_tokens_per_window_second": 416.6259898713748,
+      "completed_requests": 1106
+    }
+  },
+  "decision": "Do not promote the capacity repair or spend further GPU time on queue tuning alone. The saved-adapter paired gameplay screen remains the next model-quality test.",
+  "boundary": "One public stochastic draw per package, same untrained target/draft/agent and two-hour total cap; capacity changes requests, cache states, graph sizes and queue policy jointly. Prefix truncation is descriptive and does not isolate scheduling, randomness or a queue-policy causal effect. No hidden-score estimate."
+}

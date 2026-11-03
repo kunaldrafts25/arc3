@@ -1,0 +1,5 @@
+{"cols": [0, 64], "level": 9, "returned_runs": 2, "row": 63, "step": 202, "tool": "row_runs"}
+{"cols": [0, 64], "level": 9, "returned_runs": 1, "row": 0, "step": 202, "tool": "row_runs"}
+{"cols": [0, 64], "level": 9, "returned_runs": 2, "row": 63, "step": 247, "tool": "row_runs"}
+{"level": 9, "returned_cells": 8, "step": 247, "tool": "read_cells"}
+{"bounds": [27, 49, 37, 61], "level": 9, "returned_cells": 132, "step": 247, "stride": [2, 2], "tool": "read_region"}

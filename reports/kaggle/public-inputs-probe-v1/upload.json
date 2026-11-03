@@ -1,0 +1,11 @@
+{
+  "kernel": "kunalsinghh03/arc-hydra-public-inputs-probe/1",
+  "recorded_at": "2026-10-28T19:18:38.369880+00:00",
+  "token_file": "access_token2",
+  "files": {
+    "kernel-metadata.json": "09a2265959e2530807658fb45ad29009ee11b040040cc6c2a5a959f6f5143f9c",
+    "probe.ipynb": "242f6093adcb969b4ab37da286a5240ff954cc10ea2dca0d4c97160644cf158d"
+  },
+  "dataset": "kunalsinghh03/arc3-public-development-inputs",
+  "dataset_manifest_sha256": "5ceec22041555e271281f6153c52e1bbcb62129073a5dc65b6b457f384f50918"
+}

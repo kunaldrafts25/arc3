@@ -1,0 +1,10 @@
+{
+  "id": 765013,
+  "ownerSlug": "lordhansolo",
+  "slug": "swift-1-5-qwen3-8-flash-next-nvfp4",
+  "title": "Swift 1.5 Qwen3.8 Flash Next NVFP4",
+  "subtitle": "Public Hugging Face mirror with original weights and full license notices",
+  "isPrivate": false,
+  "description": "Public mirror of UkisAI's **Swift 1.5 Qwen3.8-Flash-Next NVFP4** for offline inference.\n\nSource: [ukisai/Swift-1.5-Qwen3.8-Flash-Next-NVFP4](https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-Flash-Next-NVFP4/tree/3ff0520224f264a2d0ac4ab56ece8f2f13aadb38), exact revision `3ff0520224f264a2d0ac4ab56ece8f2f13aadb38`. The original tensors, inference configuration, tokenizer, and processor files are preserved without modification. The expert linears use ModelOpt NVFP4; the upstream conversion preserves the vision tower, MTP head, and PLE embeddings in BF16.\n\n**License: Other \u2014 Swift Open License v1.0 and Qwen Community License 1.0.** Use and redistribution remain subject to both licenses, including Swift's commercial revenue threshold and Qwen's business-specific commercial restrictions. Full texts are included as `LICENSE` and `LICENSE-QWEN`, with upstream attribution in `NOTICE`. [Swift terms](https://huggingface.co/ukisai/Swift1.5-Qwen3.8-Flash-Next/blob/0bd4fe22431372cdad1979267d3ab45aa7e6150a/LICENSE) \u00b7 [Qwen terms](https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-Flash-Next-NVFP4/blob/3ff0520224f264a2d0ac4ab56ece8f2f13aadb38/LICENSE).\n\nThe source NVFP4 repository's `LICENSE` contains the Qwen terms; this mirror preserves that text as `LICENSE-QWEN` and includes the Swift license and NOTICE from parent revision `0bd4fe22431372cdad1979267d3ab45aa7e6150a`. `MIRROR_MANIFEST.json` records the published files and SHA-256 checksums. `UPSTREAM_FILE_MANIFEST.json` preserves the source repository's original file inventory, including files omitted from this mirror.\n\nUpstream reports a runtime smoke test on H100 with TP4/EP and the Marlin fallback. Its native Blackwell validation has not been run and quantized quality benchmarking is pending; see `VALIDATION.json` and `QUANTIZATION_MANIFEST.json`.",
+  "publishTime": null
+}

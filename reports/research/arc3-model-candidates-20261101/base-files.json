@@ -1,0 +1,254 @@
+{
+  "files": [
+    {
+      "name": ".gitattributes",
+      "size": 1635,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "README.md",
+      "size": 2418,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "chat_template.jinja",
+      "size": 8952,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "config.json",
+      "size": 266426,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "generation_config.json",
+      "size": 214,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00001-of-00017.safetensors",
+      "size": 2899311784,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00003-of-00017.safetensors",
+      "size": 5370548192,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00004-of-00017.safetensors",
+      "size": 5370910416,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00005-of-00017.safetensors",
+      "size": 5370140704,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00006-of-00017.safetensors",
+      "size": 5370205184,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00007-of-00017.safetensors",
+      "size": 5370927288,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00008-of-00017.safetensors",
+      "size": 5344445352,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00009-of-00017.safetensors",
+      "size": 5370355648,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00010-of-00017.safetensors",
+      "size": 5370927288,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00011-of-00017.safetensors",
+      "size": 5324173744,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00012-of-00017.safetensors",
+      "size": 5370438520,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00013-of-00017.safetensors",
+      "size": 5370927288,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00014-of-00017.safetensors",
+      "size": 5342689856,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00015-of-00017.safetensors",
+      "size": 5050474736,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-00017-of-00017.safetensors",
+      "size": 1284526608,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00001-of-00022.safetensors",
+      "size": 4800023992,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00002-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00003-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00004-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00005-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00006-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00007-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00008-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00009-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00010-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00011-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00012-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00013-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00014-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00015-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00016-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00017-of-00022.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00018-of-00022.safetensors",
+      "size": 4800024008,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00019-of-00022.safetensors",
+      "size": 4800024008,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00020-of-00022.safetensors",
+      "size": 4800024008,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00021-of-00022.safetensors",
+      "size": 4800024008,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model-ple-00022-of-00022.safetensors",
+      "size": 1600008000,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "size": 23794973,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "model_extra_tensors.safetensors",
+      "size": 5214492152,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "ple_reshard_manifest.json",
+      "size": 16582,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "preprocessor_config.json",
+      "size": 443,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "processor_config.json",
+      "size": 1220,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "quantization_config.json",
+      "size": 94026,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "tokenizer.json",
+      "size": 19989325,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 1165,
+      "creationDate": "2026-09-28T20:44:08.207Z"
+    }
+  ]
+}

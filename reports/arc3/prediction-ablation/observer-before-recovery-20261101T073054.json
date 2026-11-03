@@ -1,0 +1,22 @@
+{
+  "phase": "observing",
+  "pid": 11772,
+  "plan_sha256": "5ea13f1d079175d9e2949dd61860c2e2074f3d7f9c3651813f1e979abff882a3",
+  "scope": "Two development notebooks only; no official submission or automatic promotion",
+  "variants": [],
+  "next_resource_check": null,
+  "recorded_at": "2026-10-31T20:05:46.072140+00:00",
+  "current_variant": "control",
+  "resources": {
+    "allowed": true,
+    "reason": "free quota and shared-job checks passed",
+    "available_gpu_seconds": 108000.0,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [],
+    "arc2_free_seconds_floor": 10800
+  },
+  "exact_kernel": "kunalsinghh25/arc-hydra-inspection-matched-control/1",
+  "kernel_status": "RUNNING"
+}

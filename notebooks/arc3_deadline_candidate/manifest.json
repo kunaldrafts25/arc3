@@ -1,0 +1,10 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-deadline-candidate",
+  "development_wall_seconds": 7200,
+  "official_wall_seconds": 32400,
+  "files": {
+    "submission.ipynb": "e1478dc542a9085248b248d05fb53be261c22c330b410bb55a0cc5b806fd3034",
+    "kernel-metadata.json": "8c4d76752e72505e3532698273233716c6ac9d38edf80b9d49cf1e39b9466d6a",
+    "provenance.json": "6a5faa3dbf0123613374a5300d848db672cecfdc5b355c15f82c8e80e629a9d5"
+  }
+}

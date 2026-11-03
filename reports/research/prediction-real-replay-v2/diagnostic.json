@@ -1,0 +1,5194 @@
+{
+  "checked_at": "2026-10-29T12:13:31.530334+00:00",
+  "source_sha256": "c2ca907ef0d9e186d33ccb7bb8c899c321bdccf86061b911d61f7dd3d18ca0ef",
+  "source_files": {
+    "hydra/prediction_host.py": "36a6427c450b1e52259c6bcb46624ea77bc7da87d3f6f30ecf8fdebb6eadb097",
+    "hydra/prediction_ledger.py": "f6415856143ce413b4346f063b8e61e21fe2c8ebab1374f262da7809de58dd8a",
+    "scripts/audit_prediction_replay.py": "fc057df4db8c34acf503f9800c47992785a7d83803d4ed4393f45792ace9c960"
+  },
+  "forecast_actions_per_game": 64,
+  "games_expected": 25,
+  "games_replayed": 25,
+  "parity_games": 25,
+  "actions_replayed": 15476,
+  "stats": {
+    "frozen_probes": 1593,
+    "checked_probes": 1545,
+    "changed_feature_probes": 1443,
+    "last_same_action_effect/unknown": 522,
+    "unchanged/contradicted": 1443,
+    "last_same_action_effect/contradicted": 785,
+    "all_supplied_hypotheses_refuted": 743,
+    "last_same_action_effect/consistent": 238,
+    "unchanged/consistent": 102,
+    "boundary_or_unavailable_probes": 48
+  },
+  "per_game": [
+    {
+      "game_id": "sk48-d8078629",
+      "actions_replayed": 881,
+      "parity": true,
+      "completed_levels": 6,
+      "stats": {
+        "frozen_probes": 63,
+        "checked_probes": 63,
+        "changed_feature_probes": 62,
+        "last_same_action_effect/unknown": 5,
+        "unchanged/contradicted": 62,
+        "last_same_action_effect/contradicted": 45,
+        "all_supplied_hypotheses_refuted": 44,
+        "last_same_action_effect/consistent": 13,
+        "unchanged/consistent": 1
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 5,
+        "unchanged/contradicted": 62,
+        "last_same_action_effect/contradicted": 44,
+        "last_same_action_effect/consistent": 13
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 2,
+          "action": {
+            "action": "UP"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_G": {
+                    "expected": [
+                      16,
+                      40,
+                      13,
+                      15
+                    ],
+                    "observed": [
+                      16,
+                      38,
+                      13,
+                      15
+                    ]
+                  },
+                  "count_G": {
+                    "expected": 20,
+                    "observed": 24
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_M": {
+                    "expected": [
+                      30,
+                      62,
+                      11,
+                      26
+                    ],
+                    "observed": [
+                      24,
+                      62,
+                      11,
+                      26
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      31,
+                      61,
+                      12,
+                      25
+                    ],
+                    "observed": [
+                      25,
+                      61,
+                      12,
+                      25
+                    ]
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 5,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_G": {
+                    "expected": [
+                      16,
+                      70,
+                      13,
+                      113
+                    ],
+                    "observed": [
+                      16,
+                      54,
+                      13,
+                      64
+                    ]
+                  },
+                  "bbox_g": {
+                    "expected": [
+                      14,
+                      60,
+                      0,
+                      62
+                    ],
+                    "observed": [
+                      14,
+                      60,
+                      0,
+                      63
+                    ]
+                  },
+                  "count_G": {
+                    "expected": 26,
+                    "observed": 25
+                  },
+                  "count_g": {
+                    "expected": 98,
+                    "observed": 99
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "count_c": {
+                    "expected": 1372,
+                    "observed": 1360
+                  },
+                  "count_g": {
+                    "expected": 95,
+                    "observed": 99
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "b6e32cfcbcd2598cfd6e7d88b975e9a60cb0c6e407b6350df651d826b6ef3ab9"
+    },
+    {
+      "game_id": "tn36-ef4dde99",
+      "actions_replayed": 872,
+      "parity": true,
+      "completed_levels": 6,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 63,
+        "changed_feature_probes": 63,
+        "last_same_action_effect/unknown": 25,
+        "unchanged/contradicted": 63,
+        "last_same_action_effect/consistent": 10,
+        "last_same_action_effect/contradicted": 28,
+        "all_supplied_hypotheses_refuted": 28,
+        "boundary_or_unavailable_probes": 1
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 25,
+        "unchanged/contradicted": 63,
+        "last_same_action_effect/consistent": 10,
+        "last_same_action_effect/contradicted": 28
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 5,
+          "action": {
+            "action": "MOUSE",
+            "row": 45,
+            "col": 21
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_w": {
+                    "expected": [
+                      42,
+                      47,
+                      17,
+                      43
+                    ],
+                    "observed": [
+                      42,
+                      47,
+                      25,
+                      43
+                    ]
+                  },
+                  "count_w": {
+                    "expected": 24,
+                    "observed": 18
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_b": {
+                    "expected": [
+                      1,
+                      60,
+                      1,
+                      57
+                    ],
+                    "observed": [
+                      1,
+                      60,
+                      1,
+                      56
+                    ]
+                  },
+                  "bbox_w": {
+                    "expected": [
+                      42,
+                      47,
+                      21,
+                      43
+                    ],
+                    "observed": [
+                      42,
+                      47,
+                      25,
+                      43
+                    ]
+                  },
+                  "count_b": {
+                    "expected": 125,
+                    "observed": 124
+                  },
+                  "count_w": {
+                    "expected": 21,
+                    "observed": 18
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 6,
+          "action": {
+            "action": "MOUSE",
+            "row": 45,
+            "col": 21
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_w": {
+                    "expected": [
+                      42,
+                      47,
+                      29,
+                      43
+                    ],
+                    "observed": [
+                      42,
+                      47,
+                      21,
+                      43
+                    ]
+                  },
+                  "count_w": {
+                    "expected": 15,
+                    "observed": 21
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_b": {
+                    "expected": [
+                      1,
+                      60,
+                      1,
+                      56
+                    ],
+                    "observed": [
+                      1,
+                      60,
+                      1,
+                      55
+                    ]
+                  },
+                  "bbox_w": {
+                    "expected": [
+                      42,
+                      47,
+                      25,
+                      43
+                    ],
+                    "observed": [
+                      42,
+                      47,
+                      21,
+                      43
+                    ]
+                  },
+                  "count_b": {
+                    "expected": 124,
+                    "observed": 123
+                  },
+                  "count_w": {
+                    "expected": 18,
+                    "observed": 21
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "3f4bd44d35228abcc0190b4cf81845dab15782d64edfbef4c14e939ff8b97f28"
+    },
+    {
+      "game_id": "m0r0-492f87ba",
+      "actions_replayed": 574,
+      "parity": true,
+      "completed_levels": 5,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 63,
+        "changed_feature_probes": 58,
+        "last_same_action_effect/unknown": 7,
+        "unchanged/contradicted": 58,
+        "last_same_action_effect/contradicted": 15,
+        "all_supplied_hypotheses_refuted": 12,
+        "unchanged/consistent": 5,
+        "last_same_action_effect/consistent": 41,
+        "boundary_or_unavailable_probes": 1
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 7,
+        "unchanged/contradicted": 58,
+        "last_same_action_effect/contradicted": 12,
+        "last_same_action_effect/consistent": 39
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 1,
+          "action": {
+            "action": "UP"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_S": {
+                    "expected": [
+                      39,
+                      44,
+                      19,
+                      44
+                    ],
+                    "observed": [
+                      39,
+                      49,
+                      19,
+                      44
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_S": {
+                    "expected": [
+                      44,
+                      49,
+                      19,
+                      44
+                    ],
+                    "observed": [
+                      39,
+                      49,
+                      19,
+                      44
+                    ]
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 5,
+          "action": {
+            "action": "UP"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_S": {
+                    "expected": [
+                      39,
+                      49,
+                      14,
+                      44
+                    ],
+                    "observed": [
+                      34,
+                      49,
+                      14,
+                      44
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_S": {
+                    "expected": [
+                      39,
+                      49,
+                      14,
+                      44
+                    ],
+                    "observed": [
+                      34,
+                      49,
+                      14,
+                      44
+                    ]
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "b7ccd15629cc0ef1b0481ca81a931507ba2d80e21030044e191818030cff36ac"
+    },
+    {
+      "game_id": "bp35-0a0ad940",
+      "actions_replayed": 817,
+      "parity": true,
+      "completed_levels": 3,
+      "stats": {
+        "frozen_probes": 62,
+        "checked_probes": 59,
+        "changed_feature_probes": 59,
+        "last_same_action_effect/unknown": 24,
+        "unchanged/contradicted": 59,
+        "last_same_action_effect/contradicted": 31,
+        "all_supplied_hypotheses_refuted": 31,
+        "last_same_action_effect/consistent": 4,
+        "boundary_or_unavailable_probes": 3
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 24,
+        "unchanged/contradicted": 59,
+        "last_same_action_effect/contradicted": 31,
+        "last_same_action_effect/consistent": 4
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 3,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_Y": {
+                    "expected": [
+                      38,
+                      40,
+                      26,
+                      27
+                    ],
+                    "observed": [
+                      38,
+                      40,
+                      28,
+                      29
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      37,
+                      41,
+                      27,
+                      29
+                    ],
+                    "observed": [
+                      37,
+                      41,
+                      26,
+                      28
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      63,
+                      64,
+                      3,
+                      64
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      4,
+                      64
+                    ]
+                  },
+                  "bbox_Y": {
+                    "expected": [
+                      38,
+                      40,
+                      20,
+                      21
+                    ],
+                    "observed": [
+                      38,
+                      40,
+                      28,
+                      29
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      37,
+                      41,
+                      21,
+                      23
+                    ],
+                    "observed": [
+                      37,
+                      41,
+                      26,
+                      28
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 61,
+                    "observed": 60
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 4,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_Y": {
+                    "expected": [
+                      38,
+                      40,
+                      36,
+                      37
+                    ],
+                    "observed": [
+                      38,
+                      40,
+                      34,
+                      35
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      37,
+                      41,
+                      31,
+                      33
+                    ],
+                    "observed": [
+                      37,
+                      41,
+                      32,
+                      34
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      63,
+                      64,
+                      4,
+                      64
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      5,
+                      64
+                    ]
+                  },
+                  "bbox_Y": {
+                    "expected": [
+                      38,
+                      40,
+                      28,
+                      29
+                    ],
+                    "observed": [
+                      38,
+                      40,
+                      34,
+                      35
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      37,
+                      41,
+                      26,
+                      28
+                    ],
+                    "observed": [
+                      37,
+                      41,
+                      32,
+                      34
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 60,
+                    "observed": 59
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "1e67011b0f5a103392cf0896b6979ee178b742c17cc9f4d7f8b092d53b1bf85c"
+    },
+    {
+      "game_id": "cn04-2fe56bfb",
+      "actions_replayed": 503,
+      "parity": true,
+      "completed_levels": 6,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 63,
+        "changed_feature_probes": 63,
+        "last_same_action_effect/unknown": 10,
+        "unchanged/contradicted": 63,
+        "last_same_action_effect/contradicted": 44,
+        "all_supplied_hypotheses_refuted": 44,
+        "last_same_action_effect/consistent": 9,
+        "boundary_or_unavailable_probes": 1
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 10,
+        "unchanged/contradicted": 63,
+        "last_same_action_effect/contradicted": 44,
+        "last_same_action_effect/consistent": 9
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 2,
+          "action": {
+            "action": "SPACE"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_R": {
+                    "expected": [
+                      2,
+                      44,
+                      11,
+                      41
+                    ],
+                    "observed": [
+                      11,
+                      44,
+                      17,
+                      41
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      -11,
+                      26,
+                      18,
+                      35
+                    ],
+                    "observed": [
+                      0,
+                      29,
+                      14,
+                      29
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      0,
+                      1,
+                      18,
+                      48
+                    ],
+                    "observed": [
+                      0,
+                      1,
+                      17,
+                      48
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 137,
+                    "observed": 136
+                  },
+                  "count_c": {
+                    "expected": 30,
+                    "observed": 31
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_R": {
+                    "expected": [
+                      14,
+                      44,
+                      14,
+                      41
+                    ],
+                    "observed": [
+                      11,
+                      44,
+                      17,
+                      41
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      0,
+                      26,
+                      16,
+                      32
+                    ],
+                    "observed": [
+                      0,
+                      29,
+                      14,
+                      29
+                    ]
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 3,
+          "action": {
+            "action": "SPACE"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_R": {
+                    "expected": [
+                      8,
+                      44,
+                      20,
+                      41
+                    ],
+                    "observed": [
+                      14,
+                      44,
+                      29,
+                      41
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      0,
+                      32,
+                      12,
+                      26
+                    ],
+                    "observed": [
+                      0,
+                      26,
+                      14,
+                      29
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      0,
+                      1,
+                      17,
+                      48
+                    ],
+                    "observed": [
+                      0,
+                      1,
+                      18,
+                      48
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 136,
+                    "observed": 137
+                  },
+                  "count_c": {
+                    "expected": 31,
+                    "observed": 30
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_R": {
+                    "expected": [
+                      11,
+                      44,
+                      17,
+                      41
+                    ],
+                    "observed": [
+                      14,
+                      44,
+                      29,
+                      41
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      0,
+                      29,
+                      14,
+                      29
+                    ],
+                    "observed": [
+                      0,
+                      26,
+                      14,
+                      29
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      0,
+                      1,
+                      17,
+                      48
+                    ],
+                    "observed": [
+                      0,
+                      1,
+                      18,
+                      48
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 136,
+                    "observed": 137
+                  },
+                  "count_c": {
+                    "expected": 31,
+                    "observed": 30
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "a61f8601e8396bcf8cfc8557b777c92213a3fdae1d59dc11f43e89bb5d323540"
+    },
+    {
+      "game_id": "dc22-fdcac232",
+      "actions_replayed": 827,
+      "parity": true,
+      "completed_levels": 5,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 63,
+        "changed_feature_probes": 43,
+        "last_same_action_effect/unknown": 23,
+        "unchanged/contradicted": 43,
+        "unchanged/consistent": 20,
+        "last_same_action_effect/contradicted": 33,
+        "all_supplied_hypotheses_refuted": 27,
+        "last_same_action_effect/consistent": 7,
+        "boundary_or_unavailable_probes": 1
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 10,
+        "unchanged/contradicted": 43,
+        "last_same_action_effect/contradicted": 27,
+        "last_same_action_effect/consistent": 6
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 4,
+          "action": {
+            "action": "UP"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      10,
+                      64,
+                      2,
+                      64
+                    ],
+                    "observed": [
+                      10,
+                      64,
+                      3,
+                      64
+                    ]
+                  },
+                  "count_G": {
+                    "expected": 1218,
+                    "observed": 1219
+                  },
+                  "count_W": {
+                    "expected": 186,
+                    "observed": 185
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      10,
+                      64,
+                      2,
+                      64
+                    ],
+                    "observed": [
+                      10,
+                      64,
+                      3,
+                      64
+                    ]
+                  },
+                  "count_G": {
+                    "expected": 1218,
+                    "observed": 1219
+                  },
+                  "count_W": {
+                    "expected": 186,
+                    "observed": 185
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 8,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      10,
+                      64,
+                      4,
+                      64
+                    ],
+                    "observed": [
+                      10,
+                      64,
+                      5,
+                      64
+                    ]
+                  },
+                  "count_G": {
+                    "expected": 1220,
+                    "observed": 1221
+                  },
+                  "count_W": {
+                    "expected": 184,
+                    "observed": 183
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      10,
+                      64,
+                      4,
+                      64
+                    ],
+                    "observed": [
+                      10,
+                      64,
+                      5,
+                      64
+                    ]
+                  },
+                  "count_G": {
+                    "expected": 1220,
+                    "observed": 1221
+                  },
+                  "count_W": {
+                    "expected": 184,
+                    "observed": 183
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "1eade60f754af7565b86bdbf7c7e40aea158359a11ea1c79478a8053cbcfca09"
+    },
+    {
+      "game_id": "tu93-0768757b",
+      "actions_replayed": 266,
+      "parity": true,
+      "completed_levels": 9,
+      "stats": {
+        "frozen_probes": 62,
+        "checked_probes": 58,
+        "changed_feature_probes": 58,
+        "last_same_action_effect/unknown": 11,
+        "unchanged/contradicted": 58,
+        "last_same_action_effect/contradicted": 43,
+        "all_supplied_hypotheses_refuted": 43,
+        "last_same_action_effect/consistent": 4,
+        "boundary_or_unavailable_probes": 4
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 11,
+        "unchanged/contradicted": 58,
+        "last_same_action_effect/contradicted": 43,
+        "last_same_action_effect/consistent": 4
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 2,
+          "action": {
+            "action": "DOWN"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_M": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      59
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      60
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      30,
+                      31,
+                      21,
+                      22
+                    ],
+                    "observed": [
+                      29,
+                      30,
+                      22,
+                      23
+                    ]
+                  },
+                  "count_M": {
+                    "expected": 59,
+                    "observed": 60
+                  },
+                  "count_W": {
+                    "expected": 266,
+                    "observed": 265
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_M": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      61
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      60
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      21,
+                      24,
+                      21,
+                      24
+                    ],
+                    "observed": [
+                      27,
+                      30,
+                      21,
+                      24
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      23,
+                      24,
+                      22,
+                      23
+                    ],
+                    "observed": [
+                      29,
+                      30,
+                      22,
+                      23
+                    ]
+                  },
+                  "count_M": {
+                    "expected": 61,
+                    "observed": 60
+                  },
+                  "count_W": {
+                    "expected": 264,
+                    "observed": 265
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 3,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      15,
+                      80,
+                      15,
+                      80
+                    ],
+                    "observed": [
+                      15,
+                      64,
+                      15,
+                      64
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      29,
+                      30,
+                      28,
+                      29
+                    ],
+                    "observed": [
+                      28,
+                      29,
+                      29,
+                      30
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_M": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      60
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      59
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      27,
+                      30,
+                      21,
+                      24
+                    ],
+                    "observed": [
+                      27,
+                      30,
+                      27,
+                      30
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      29,
+                      30,
+                      22,
+                      23
+                    ],
+                    "observed": [
+                      28,
+                      29,
+                      29,
+                      30
+                    ]
+                  },
+                  "count_M": {
+                    "expected": 60,
+                    "observed": 59
+                  },
+                  "count_W": {
+                    "expected": 265,
+                    "observed": 266
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "32ec662b716ec59f5371d9b81c3b701e6a1adf0bef1f34c7030059baddeffaba"
+    },
+    {
+      "game_id": "lp85-305b61c3",
+      "actions_replayed": 148,
+      "parity": true,
+      "completed_levels": 8,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 60,
+        "changed_feature_probes": 56,
+        "last_same_action_effect/unknown": 18,
+        "unchanged/consistent": 4,
+        "unchanged/contradicted": 56,
+        "last_same_action_effect/consistent": 2,
+        "last_same_action_effect/contradicted": 40,
+        "all_supplied_hypotheses_refuted": 40,
+        "boundary_or_unavailable_probes": 4
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 14,
+        "unchanged/contradicted": 56,
+        "last_same_action_effect/consistent": 2,
+        "last_same_action_effect/contradicted": 40
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 7,
+          "action": {
+            "action": "MOUSE",
+            "row": 32,
+            "col": 6
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_b": {
+                    "expected": [
+                      19,
+                      47,
+                      24,
+                      52
+                    ],
+                    "observed": [
+                      19,
+                      47,
+                      18,
+                      52
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      15,
+                      64,
+                      0,
+                      62
+                    ],
+                    "observed": [
+                      20,
+                      64,
+                      0,
+                      62
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      19,
+                      47,
+                      24,
+                      52
+                    ],
+                    "observed": [
+                      19,
+                      47,
+                      18,
+                      52
+                    ]
+                  },
+                  "bbox_w": {
+                    "expected": [
+                      25,
+                      47,
+                      12,
+                      28
+                    ],
+                    "observed": [
+                      31,
+                      47,
+                      12,
+                      34
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 89,
+                    "observed": 84
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 8,
+          "action": {
+            "action": "MOUSE",
+            "row": 32,
+            "col": 6
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_p": {
+                    "expected": [
+                      19,
+                      47,
+                      12,
+                      52
+                    ],
+                    "observed": [
+                      19,
+                      47,
+                      18,
+                      52
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      20,
+                      64,
+                      0,
+                      62
+                    ],
+                    "observed": [
+                      25,
+                      64,
+                      0,
+                      62
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      19,
+                      47,
+                      18,
+                      52
+                    ],
+                    "observed": [
+                      19,
+                      47,
+                      12,
+                      52
+                    ]
+                  },
+                  "bbox_p": {
+                    "expected": [
+                      19,
+                      47,
+                      12,
+                      52
+                    ],
+                    "observed": [
+                      19,
+                      47,
+                      18,
+                      52
+                    ]
+                  },
+                  "bbox_w": {
+                    "expected": [
+                      31,
+                      47,
+                      12,
+                      34
+                    ],
+                    "observed": [
+                      37,
+                      47,
+                      12,
+                      40
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 84,
+                    "observed": 79
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "72825064cf66a4f77d25d17247221dadaa272ff7acdcc82fb14f5eaef98377db"
+    },
+    {
+      "game_id": "ka59-38d34dbb",
+      "actions_replayed": 886,
+      "parity": true,
+      "completed_levels": 6,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 62,
+        "changed_feature_probes": 61,
+        "last_same_action_effect/unknown": 20,
+        "unchanged/contradicted": 61,
+        "last_same_action_effect/contradicted": 40,
+        "all_supplied_hypotheses_refuted": 39,
+        "unchanged/consistent": 1,
+        "last_same_action_effect/consistent": 2,
+        "boundary_or_unavailable_probes": 2
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 20,
+        "unchanged/contradicted": 61,
+        "last_same_action_effect/contradicted": 39,
+        "last_same_action_effect/consistent": 2
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 1,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      31,
+                      96,
+                      25,
+                      108
+                    ],
+                    "observed": [
+                      30,
+                      64,
+                      25,
+                      64
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      26,
+                      64,
+                      0,
+                      62
+                    ],
+                    "observed": [
+                      26,
+                      64,
+                      0,
+                      63
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 16,
+                    "observed": 13
+                  },
+                  "count_W": {
+                    "expected": 3,
+                    "observed": 5
+                  },
+                  "count_c": {
+                    "expected": 94,
+                    "observed": 95
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      30,
+                      33,
+                      21,
+                      30
+                    ],
+                    "observed": [
+                      30,
+                      33,
+                      24,
+                      30
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      31,
+                      64,
+                      22,
+                      64
+                    ],
+                    "observed": [
+                      30,
+                      64,
+                      25,
+                      64
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 16,
+                    "observed": 13
+                  },
+                  "count_W": {
+                    "expected": 2,
+                    "observed": 5
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 3,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_B": {
+                    "expected": [
+                      31,
+                      32,
+                      28,
+                      29
+                    ],
+                    "observed": [
+                      31,
+                      32,
+                      43,
+                      44
+                    ]
+                  },
+                  "bbox_N": {
+                    "expected": [
+                      30,
+                      33,
+                      27,
+                      30
+                    ],
+                    "observed": [
+                      30,
+                      33,
+                      24,
+                      45
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      29,
+                      64,
+                      28,
+                      64
+                    ],
+                    "observed": [
+                      31,
+                      64,
+                      25,
+                      64
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      26,
+                      64,
+                      0,
+                      62
+                    ],
+                    "observed": [
+                      26,
+                      64,
+                      0,
+                      61
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 10,
+                    "observed": 16
+                  },
+                  "count_W": {
+                    "expected": 9,
+                    "observed": 4
+                  },
+                  "count_c": {
+                    "expected": 94,
+                    "observed": 92
+                  },
+                  "count_w": {
+                    "expected": 607,
+                    "observed": 608
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_B": {
+                    "expected": [
+                      31,
+                      32,
+                      28,
+                      29
+                    ],
+                    "observed": [
+                      31,
+                      32,
+                      43,
+                      44
+                    ]
+                  },
+                  "bbox_N": {
+                    "expected": [
+                      30,
+                      33,
+                      24,
+                      30
+                    ],
+                    "observed": [
+                      30,
+                      33,
+                      24,
+                      45
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      30,
+                      64,
+                      25,
+                      64
+                    ],
+                    "observed": [
+                      31,
+                      64,
+                      25,
+                      64
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      26,
+                      64,
+                      0,
+                      62
+                    ],
+                    "observed": [
+                      26,
+                      64,
+                      0,
+                      61
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 13,
+                    "observed": 16
+                  },
+                  "count_W": {
+                    "expected": 6,
+                    "observed": 4
+                  },
+                  "count_c": {
+                    "expected": 94,
+                    "observed": 92
+                  },
+                  "count_w": {
+                    "expected": 607,
+                    "observed": 608
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "e1ab272ea2a10bfa1e54d4c7254512d167260ab62fafd5175855ed25ac6e0a5f"
+    },
+    {
+      "game_id": "wa30-ee6fef47",
+      "actions_replayed": 1489,
+      "parity": true,
+      "completed_levels": 4,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 63,
+        "changed_feature_probes": 62,
+        "last_same_action_effect/unknown": 10,
+        "unchanged/contradicted": 62,
+        "last_same_action_effect/contradicted": 40,
+        "all_supplied_hypotheses_refuted": 39,
+        "unchanged/consistent": 1,
+        "last_same_action_effect/consistent": 13,
+        "boundary_or_unavailable_probes": 1
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 10,
+        "unchanged/contradicted": 62,
+        "last_same_action_effect/contradicted": 39,
+        "last_same_action_effect/consistent": 13
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 1,
+          "action": {
+            "action": "UP"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_P": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      64
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      63
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      24,
+                      40,
+                      16,
+                      48
+                    ],
+                    "observed": [
+                      24,
+                      64,
+                      16,
+                      64
+                    ]
+                  },
+                  "count_P": {
+                    "expected": 64,
+                    "observed": 63
+                  },
+                  "count_c": {
+                    "expected": 36,
+                    "observed": 25
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      45,
+                      48,
+                      32,
+                      36
+                    ],
+                    "observed": [
+                      41,
+                      44,
+                      32,
+                      36
+                    ]
+                  },
+                  "bbox_P": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      64
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      63
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      44,
+                      45,
+                      32,
+                      36
+                    ],
+                    "observed": [
+                      40,
+                      41,
+                      32,
+                      36
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      24,
+                      40,
+                      16,
+                      48
+                    ],
+                    "observed": [
+                      24,
+                      64,
+                      16,
+                      64
+                    ]
+                  },
+                  "count_P": {
+                    "expected": 64,
+                    "observed": 63
+                  },
+                  "count_c": {
+                    "expected": 36,
+                    "observed": 25
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 4,
+          "action": {
+            "action": "UP"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      41,
+                      44,
+                      32,
+                      36
+                    ],
+                    "observed": [
+                      37,
+                      40,
+                      32,
+                      36
+                    ]
+                  },
+                  "bbox_P": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      63
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      62
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      36,
+                      41,
+                      32,
+                      36
+                    ],
+                    "observed": [
+                      32,
+                      37,
+                      32,
+                      36
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      25,
+                      39,
+                      17,
+                      47
+                    ],
+                    "observed": [
+                      25,
+                      35,
+                      17,
+                      47
+                    ]
+                  },
+                  "count_P": {
+                    "expected": 63,
+                    "observed": 62
+                  },
+                  "count_c": {
+                    "expected": 25,
+                    "observed": 26
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      41,
+                      44,
+                      32,
+                      36
+                    ],
+                    "observed": [
+                      37,
+                      40,
+                      32,
+                      36
+                    ]
+                  },
+                  "bbox_P": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      63
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      62
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      36,
+                      41,
+                      32,
+                      36
+                    ],
+                    "observed": [
+                      32,
+                      37,
+                      32,
+                      36
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      25,
+                      39,
+                      17,
+                      47
+                    ],
+                    "observed": [
+                      25,
+                      35,
+                      17,
+                      47
+                    ]
+                  },
+                  "count_P": {
+                    "expected": 63,
+                    "observed": 62
+                  },
+                  "count_c": {
+                    "expected": 25,
+                    "observed": 26
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "5cc089767fd335657c2acfca0e22f06bcadf7e4adfda2c0ce660cc694763e04a"
+    },
+    {
+      "game_id": "vc33-5430563c",
+      "actions_replayed": 274,
+      "parity": true,
+      "completed_levels": 7,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 61,
+        "changed_feature_probes": 61,
+        "last_same_action_effect/unknown": 24,
+        "unchanged/contradicted": 61,
+        "last_same_action_effect/consistent": 13,
+        "last_same_action_effect/contradicted": 24,
+        "all_supplied_hypotheses_refuted": 24,
+        "boundary_or_unavailable_probes": 3
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 24,
+        "unchanged/contradicted": 61,
+        "last_same_action_effect/consistent": 13,
+        "last_same_action_effect/contradicted": 24
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 5,
+          "action": {
+            "action": "MOUSE",
+            "row": 25,
+            "col": 61
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_P": {
+                    "expected": [
+                      0,
+                      1,
+                      0,
+                      57
+                    ],
+                    "observed": [
+                      0,
+                      1,
+                      0,
+                      56
+                    ]
+                  },
+                  "count_P": {
+                    "expected": 57,
+                    "observed": 56
+                  },
+                  "count_c": {
+                    "expected": 23,
+                    "observed": 24
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_P": {
+                    "expected": [
+                      0,
+                      1,
+                      0,
+                      58
+                    ],
+                    "observed": [
+                      0,
+                      1,
+                      0,
+                      56
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      1,
+                      64,
+                      28,
+                      64
+                    ],
+                    "observed": [
+                      1,
+                      64,
+                      24,
+                      64
+                    ]
+                  },
+                  "bbox_Y": {
+                    "expected": [
+                      28,
+                      50,
+                      38,
+                      56
+                    ],
+                    "observed": [
+                      28,
+                      50,
+                      38,
+                      60
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      0,
+                      50,
+                      50,
+                      64
+                    ],
+                    "observed": [
+                      0,
+                      50,
+                      54,
+                      64
+                    ]
+                  },
+                  "count_P": {
+                    "expected": 58,
+                    "observed": 56
+                  },
+                  "count_W": {
+                    "expected": 1196,
+                    "observed": 1176
+                  },
+                  "count_c": {
+                    "expected": 22,
+                    "observed": 24
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 6,
+          "action": {
+            "action": "MOUSE",
+            "row": 25,
+            "col": 61
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_P": {
+                    "expected": [
+                      0,
+                      1,
+                      0,
+                      54
+                    ],
+                    "observed": [
+                      0,
+                      1,
+                      0,
+                      55
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      1,
+                      64,
+                      20,
+                      64
+                    ],
+                    "observed": [
+                      1,
+                      28,
+                      20,
+                      64
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      0,
+                      50,
+                      58,
+                      64
+                    ],
+                    "observed": [
+                      0,
+                      50,
+                      55,
+                      64
+                    ]
+                  },
+                  "count_P": {
+                    "expected": 54,
+                    "observed": 55
+                  },
+                  "count_W": {
+                    "expected": 1156,
+                    "observed": 1172
+                  },
+                  "count_c": {
+                    "expected": 26,
+                    "observed": 25
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_P": {
+                    "expected": [
+                      0,
+                      1,
+                      0,
+                      56
+                    ],
+                    "observed": [
+                      0,
+                      1,
+                      0,
+                      55
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      1,
+                      64,
+                      24,
+                      64
+                    ],
+                    "observed": [
+                      1,
+                      28,
+                      20,
+                      64
+                    ]
+                  },
+                  "bbox_Y": {
+                    "expected": [
+                      28,
+                      50,
+                      38,
+                      60
+                    ],
+                    "observed": [
+                      28,
+                      50,
+                      38,
+                      64
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      0,
+                      50,
+                      54,
+                      64
+                    ],
+                    "observed": [
+                      0,
+                      50,
+                      55,
+                      64
+                    ]
+                  },
+                  "count_P": {
+                    "expected": 56,
+                    "observed": 55
+                  },
+                  "count_W": {
+                    "expected": 1176,
+                    "observed": 1172
+                  },
+                  "count_c": {
+                    "expected": 24,
+                    "observed": 25
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "c5de163f579645cd291851ce9a22fd5c3a8341fe7a9a2d7f1a02c0b3f76b93a6"
+    },
+    {
+      "game_id": "lf52-271a04aa",
+      "actions_replayed": 744,
+      "parity": true,
+      "completed_levels": 4,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 63,
+        "changed_feature_probes": 63,
+        "last_same_action_effect/unknown": 20,
+        "unchanged/contradicted": 63,
+        "last_same_action_effect/contradicted": 29,
+        "all_supplied_hypotheses_refuted": 29,
+        "boundary_or_unavailable_probes": 1,
+        "last_same_action_effect/consistent": 14
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 20,
+        "unchanged/contradicted": 63,
+        "last_same_action_effect/contradicted": 29,
+        "last_same_action_effect/consistent": 14
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 2,
+          "action": {
+            "action": "MOUSE",
+            "row": 19,
+            "col": 18
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_w": {
+                    "expected": [
+                      -12,
+                      52,
+                      -11,
+                      51
+                    ],
+                    "observed": [
+                      0,
+                      52,
+                      0,
+                      51
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      0,
+                      53,
+                      2,
+                      64
+                    ],
+                    "observed": [
+                      0,
+                      53,
+                      3,
+                      64
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 722,
+                    "observed": 705
+                  },
+                  "count_w": {
+                    "expected": 470,
+                    "observed": 459
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 4,
+          "action": {
+            "action": "MOUSE",
+            "row": 19,
+            "col": 30
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      18,
+                      40,
+                      41,
+                      45
+                    ],
+                    "observed": [
+                      18,
+                      40,
+                      29,
+                      45
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 36,
+                    "observed": 48
+                  },
+                  "count_W": {
+                    "expected": 735,
+                    "observed": 703
+                  },
+                  "count_w": {
+                    "expected": 509,
+                    "observed": 473
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      0,
+                      53,
+                      4,
+                      64
+                    ],
+                    "observed": [
+                      0,
+                      53,
+                      5,
+                      64
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 720,
+                    "observed": 703
+                  },
+                  "count_w": {
+                    "expected": 484,
+                    "observed": 473
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "e7a02d10fc81371b256253f502a75b82032c06c0082f757a7e4e251293a30d33"
+    },
+    {
+      "game_id": "r11l-495a7899",
+      "actions_replayed": 100,
+      "parity": true,
+      "completed_levels": 6,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 60,
+        "changed_feature_probes": 60,
+        "last_same_action_effect/unknown": 52,
+        "unchanged/contradicted": 60,
+        "last_same_action_effect/contradicted": 8,
+        "all_supplied_hypotheses_refuted": 8,
+        "boundary_or_unavailable_probes": 4
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 52,
+        "unchanged/contradicted": 60,
+        "last_same_action_effect/contradicted": 8
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 4,
+          "action": {
+            "action": "MOUSE",
+            "row": 12,
+            "col": 12
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_G": {
+                    "expected": [
+                      10,
+                      15,
+                      10,
+                      15
+                    ],
+                    "observed": [
+                      57,
+                      62,
+                      25,
+                      30
+                    ]
+                  },
+                  "bbox_M": {
+                    "expected": [
+                      30,
+                      31,
+                      5,
+                      6
+                    ],
+                    "observed": [
+                      35,
+                      36,
+                      19,
+                      20
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      5,
+                      64,
+                      0,
+                      3
+                    ],
+                    "observed": [
+                      5,
+                      64,
+                      0,
+                      15
+                    ]
+                  },
+                  "bbox_p": {
+                    "expected": [
+                      6,
+                      60,
+                      -3,
+                      43
+                    ],
+                    "observed": [
+                      12,
+                      60,
+                      12,
+                      43
+                    ]
+                  },
+                  "bbox_w": {
+                    "expected": [
+                      5,
+                      58,
+                      -2,
+                      15
+                    ],
+                    "observed": [
+                      14,
+                      58,
+                      13,
+                      27
+                    ]
+                  },
+                  "count_w": {
+                    "expected": 49,
+                    "observed": 39
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_G": {
+                    "expected": [
+                      10,
+                      15,
+                      10,
+                      15
+                    ],
+                    "observed": [
+                      57,
+                      62,
+                      25,
+                      30
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      4,
+                      64,
+                      0,
+                      30
+                    ],
+                    "observed": [
+                      5,
+                      64,
+                      0,
+                      15
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 72,
+                    "observed": 71
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 6,
+          "action": {
+            "action": "MOUSE",
+            "row": 59,
+            "col": 27
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_G": {
+                    "expected": [
+                      10,
+                      15,
+                      10,
+                      15
+                    ],
+                    "observed": [
+                      19,
+                      24,
+                      26,
+                      31
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      7,
+                      64,
+                      0,
+                      46
+                    ],
+                    "observed": [
+                      7,
+                      64,
+                      0,
+                      30
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_G": {
+                    "expected": [
+                      57,
+                      62,
+                      25,
+                      30
+                    ],
+                    "observed": [
+                      19,
+                      24,
+                      26,
+                      31
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      6,
+                      64,
+                      0,
+                      31
+                    ],
+                    "observed": [
+                      7,
+                      64,
+                      0,
+                      30
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 70,
+                    "observed": 69
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "749cba9c0f69b4f5632f8c8ac5b9decd6cb96410ddc329dba250c1c5be8e0dca"
+    },
+    {
+      "game_id": "sc25-635fd71a",
+      "actions_replayed": 416,
+      "parity": true,
+      "completed_levels": 6,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 62,
+        "changed_feature_probes": 59,
+        "last_same_action_effect/unknown": 25,
+        "unchanged/consistent": 3,
+        "unchanged/contradicted": 59,
+        "last_same_action_effect/contradicted": 33,
+        "all_supplied_hypotheses_refuted": 32,
+        "last_same_action_effect/consistent": 4,
+        "boundary_or_unavailable_probes": 2
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 23,
+        "unchanged/contradicted": 59,
+        "last_same_action_effect/contradicted": 32,
+        "last_same_action_effect/consistent": 4
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 2,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      0,
+                      64,
+                      29,
+                      64
+                    ],
+                    "observed": [
+                      2,
+                      64,
+                      29,
+                      64
+                    ]
+                  },
+                  "bbox_S": {
+                    "expected": [
+                      18,
+                      23,
+                      13,
+                      43
+                    ],
+                    "observed": [
+                      18,
+                      23,
+                      13,
+                      41
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      54,
+                      62,
+                      24,
+                      37
+                    ],
+                    "observed": [
+                      0,
+                      62,
+                      24,
+                      64
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      17,
+                      23,
+                      12,
+                      41
+                    ],
+                    "observed": [
+                      17,
+                      23,
+                      12,
+                      43
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 137,
+                    "observed": 133
+                  },
+                  "count_W": {
+                    "expected": 27,
+                    "observed": 31
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      0,
+                      64,
+                      29,
+                      64
+                    ],
+                    "observed": [
+                      2,
+                      64,
+                      29,
+                      64
+                    ]
+                  },
+                  "bbox_S": {
+                    "expected": [
+                      18,
+                      23,
+                      13,
+                      43
+                    ],
+                    "observed": [
+                      18,
+                      23,
+                      13,
+                      41
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      54,
+                      62,
+                      24,
+                      37
+                    ],
+                    "observed": [
+                      0,
+                      62,
+                      24,
+                      64
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      17,
+                      23,
+                      12,
+                      41
+                    ],
+                    "observed": [
+                      17,
+                      23,
+                      12,
+                      43
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 137,
+                    "observed": 133
+                  },
+                  "count_W": {
+                    "expected": 27,
+                    "observed": 31
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 8,
+          "action": {
+            "action": "MOUSE",
+            "row": 50,
+            "col": 25
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      6,
+                      64,
+                      19,
+                      64
+                    ],
+                    "observed": [
+                      8,
+                      64,
+                      29,
+                      64
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 143,
+                    "observed": 121
+                  },
+                  "count_W": {
+                    "expected": 39,
+                    "observed": 43
+                  },
+                  "count_g": {
+                    "expected": 151,
+                    "observed": 169
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      6,
+                      64,
+                      24,
+                      64
+                    ],
+                    "observed": [
+                      8,
+                      64,
+                      29,
+                      64
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 134,
+                    "observed": 121
+                  },
+                  "count_W": {
+                    "expected": 39,
+                    "observed": 43
+                  },
+                  "count_g": {
+                    "expected": 160,
+                    "observed": 169
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "472d5b2797b1b0138aaf82dfd85754f68ca718bfb8142b8a913ecd7adb6c8d3b"
+    },
+    {
+      "game_id": "sp80-589a99af",
+      "actions_replayed": 742,
+      "parity": true,
+      "completed_levels": 4,
+      "stats": {
+        "frozen_probes": 62,
+        "checked_probes": 59,
+        "changed_feature_probes": 59,
+        "last_same_action_effect/unknown": 11,
+        "unchanged/contradicted": 59,
+        "last_same_action_effect/contradicted": 39,
+        "all_supplied_hypotheses_refuted": 39,
+        "last_same_action_effect/consistent": 9,
+        "boundary_or_unavailable_probes": 3
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 11,
+        "unchanged/contradicted": 59,
+        "last_same_action_effect/contradicted": 39,
+        "last_same_action_effect/consistent": 9
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 4,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      0,
+                      1,
+                      0,
+                      52
+                    ],
+                    "observed": [
+                      0,
+                      1,
+                      0,
+                      53
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 52,
+                    "observed": 53
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      0,
+                      1,
+                      0,
+                      55
+                    ],
+                    "observed": [
+                      0,
+                      1,
+                      0,
+                      53
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      20,
+                      24,
+                      12,
+                      32
+                    ],
+                    "observed": [
+                      20,
+                      24,
+                      16,
+                      36
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 55,
+                    "observed": 53
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 11,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      63,
+                      64,
+                      5,
+                      64
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      6,
+                      64
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 59,
+                    "observed": 58
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_N": {
+                    "expected": [
+                      63,
+                      64,
+                      4,
+                      64
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      6,
+                      64
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      36,
+                      40,
+                      28,
+                      48
+                    ],
+                    "observed": [
+                      36,
+                      40,
+                      32,
+                      52
+                    ]
+                  },
+                  "count_N": {
+                    "expected": 60,
+                    "observed": 58
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "5b8bd0342ab8ba381049b3a5a82fe3d30fe13cf5e266dab9a9fc3b7d3466a2b2"
+    },
+    {
+      "game_id": "ar25-0c556536",
+      "actions_replayed": 308,
+      "parity": true,
+      "completed_levels": 8,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 62,
+        "changed_feature_probes": 58,
+        "last_same_action_effect/unknown": 15,
+        "unchanged/contradicted": 58,
+        "last_same_action_effect/consistent": 32,
+        "last_same_action_effect/contradicted": 15,
+        "all_supplied_hypotheses_refuted": 15,
+        "boundary_or_unavailable_probes": 2,
+        "unchanged/consistent": 4
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 12,
+        "unchanged/contradicted": 58,
+        "last_same_action_effect/consistent": 31,
+        "last_same_action_effect/contradicted": 15
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 6,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      16,
+                      23,
+                      25,
+                      32
+                    ],
+                    "observed": [
+                      16,
+                      17,
+                      25,
+                      29
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      15,
+                      24,
+                      30,
+                      39
+                    ],
+                    "observed": [
+                      15,
+                      18,
+                      33,
+                      39
+                    ]
+                  },
+                  "count_S": {
+                    "expected": 189,
+                    "observed": 165
+                  },
+                  "count_W": {
+                    "expected": 5,
+                    "observed": 2
+                  },
+                  "count_c": {
+                    "expected": 45,
+                    "observed": 18
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      16,
+                      23,
+                      22,
+                      29
+                    ],
+                    "observed": [
+                      16,
+                      17,
+                      25,
+                      29
+                    ]
+                  },
+                  "bbox_Y": {
+                    "expected": [
+                      6,
+                      64,
+                      51,
+                      64
+                    ],
+                    "observed": [
+                      7,
+                      64,
+                      51,
+                      64
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      15,
+                      24,
+                      33,
+                      42
+                    ],
+                    "observed": [
+                      15,
+                      18,
+                      33,
+                      39
+                    ]
+                  },
+                  "count_B": {
+                    "expected": 109,
+                    "observed": 110
+                  },
+                  "count_S": {
+                    "expected": 189,
+                    "observed": 165
+                  },
+                  "count_W": {
+                    "expected": 5,
+                    "observed": 2
+                  },
+                  "count_Y": {
+                    "expected": 103,
+                    "observed": 102
+                  },
+                  "count_c": {
+                    "expected": 45,
+                    "observed": 18
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 7,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      16,
+                      11,
+                      28,
+                      29
+                    ],
+                    "observed": [
+                      16,
+                      23,
+                      28,
+                      35
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      15,
+                      12,
+                      33,
+                      36
+                    ],
+                    "observed": [
+                      18,
+                      24,
+                      27,
+                      30
+                    ]
+                  },
+                  "count_S": {
+                    "expected": 141,
+                    "observed": 181
+                  },
+                  "count_W": {
+                    "expected": -1,
+                    "observed": 4
+                  },
+                  "count_c": {
+                    "expected": -9,
+                    "observed": 18
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      16,
+                      17,
+                      25,
+                      29
+                    ],
+                    "observed": [
+                      16,
+                      23,
+                      28,
+                      35
+                    ]
+                  },
+                  "bbox_Y": {
+                    "expected": [
+                      7,
+                      64,
+                      51,
+                      64
+                    ],
+                    "observed": [
+                      8,
+                      64,
+                      51,
+                      64
+                    ]
+                  },
+                  "bbox_c": {
+                    "expected": [
+                      15,
+                      18,
+                      33,
+                      39
+                    ],
+                    "observed": [
+                      18,
+                      24,
+                      27,
+                      30
+                    ]
+                  },
+                  "count_B": {
+                    "expected": 110,
+                    "observed": 111
+                  },
+                  "count_S": {
+                    "expected": 165,
+                    "observed": 181
+                  },
+                  "count_W": {
+                    "expected": 2,
+                    "observed": 4
+                  },
+                  "count_Y": {
+                    "expected": 102,
+                    "observed": 101
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "f87f00b68ecb1178e2c74064314c3ad27321584e6195598af31bd00248df32a8"
+    },
+    {
+      "game_id": "sb26-7fbdac44",
+      "actions_replayed": 173,
+      "parity": true,
+      "completed_levels": 8,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 61,
+        "changed_feature_probes": 35,
+        "last_same_action_effect/unknown": 44,
+        "unchanged/contradicted": 35,
+        "boundary_or_unavailable_probes": 3,
+        "unchanged/consistent": 26,
+        "last_same_action_effect/contradicted": 15,
+        "all_supplied_hypotheses_refuted": 9,
+        "last_same_action_effect/consistent": 2
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 26,
+        "unchanged/contradicted": 35,
+        "last_same_action_effect/contradicted": 9
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 23,
+          "action": {
+            "action": "MOUSE",
+            "row": 22,
+            "col": 22
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_O": {
+                    "expected": [
+                      1,
+                      61,
+                      8,
+                      34
+                    ],
+                    "observed": [
+                      1,
+                      25,
+                      8,
+                      25
+                    ]
+                  },
+                  "bbox_g": {
+                    "expected": [
+                      22,
+                      60,
+                      0,
+                      58
+                    ],
+                    "observed": [
+                      36,
+                      60,
+                      0,
+                      57
+                    ]
+                  },
+                  "count_g": {
+                    "expected": 86,
+                    "observed": 85
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_O": {
+                    "expected": [
+                      1,
+                      61,
+                      8,
+                      34
+                    ],
+                    "observed": [
+                      1,
+                      25,
+                      8,
+                      25
+                    ]
+                  },
+                  "bbox_g": {
+                    "expected": [
+                      22,
+                      60,
+                      0,
+                      58
+                    ],
+                    "observed": [
+                      36,
+                      60,
+                      0,
+                      57
+                    ]
+                  },
+                  "count_g": {
+                    "expected": 86,
+                    "observed": 85
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 25,
+          "action": {
+            "action": "MOUSE",
+            "row": 36,
+            "col": 34
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_Y": {
+                    "expected": [
+                      1,
+                      61,
+                      43,
+                      55
+                    ],
+                    "observed": [
+                      1,
+                      39,
+                      33,
+                      49
+                    ]
+                  },
+                  "bbox_g": {
+                    "expected": [
+                      36,
+                      60,
+                      0,
+                      57
+                    ],
+                    "observed": [
+                      36,
+                      60,
+                      0,
+                      56
+                    ]
+                  },
+                  "count_g": {
+                    "expected": 85,
+                    "observed": 84
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_Y": {
+                    "expected": [
+                      1,
+                      61,
+                      43,
+                      55
+                    ],
+                    "observed": [
+                      1,
+                      39,
+                      33,
+                      49
+                    ]
+                  },
+                  "bbox_g": {
+                    "expected": [
+                      36,
+                      60,
+                      0,
+                      57
+                    ],
+                    "observed": [
+                      36,
+                      60,
+                      0,
+                      56
+                    ]
+                  },
+                  "count_g": {
+                    "expected": 85,
+                    "observed": 84
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "7d936ab69b173f22f0f7a8207e101b0dd3e43162376db5a780fe7f6178b7f0f1"
+    },
+    {
+      "game_id": "cd82-fb555c5d",
+      "actions_replayed": 261,
+      "parity": true,
+      "completed_levels": 6,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 63,
+        "changed_feature_probes": 58,
+        "last_same_action_effect/unknown": 18,
+        "unchanged/contradicted": 58,
+        "last_same_action_effect/contradicted": 39,
+        "all_supplied_hypotheses_refuted": 38,
+        "last_same_action_effect/consistent": 6,
+        "unchanged/consistent": 5,
+        "boundary_or_unavailable_probes": 1
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 14,
+        "unchanged/contradicted": 58,
+        "last_same_action_effect/contradicted": 38,
+        "last_same_action_effect/consistent": 6
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 4,
+          "action": {
+            "action": "MOUSE",
+            "row": 4,
+            "col": 36
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_c": {
+                    "expected": [
+                      0,
+                      64,
+                      0,
+                      60
+                    ],
+                    "observed": [
+                      0,
+                      64,
+                      0,
+                      61
+                    ]
+                  },
+                  "bbox_p": {
+                    "expected": [
+                      3,
+                      20,
+                      3,
+                      45
+                    ],
+                    "observed": [
+                      3,
+                      39,
+                      3,
+                      45
+                    ]
+                  },
+                  "count_c": {
+                    "expected": 160,
+                    "observed": 161
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      3,
+                      44,
+                      3,
+                      46
+                    ],
+                    "observed": [
+                      3,
+                      44,
+                      3,
+                      40
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 114,
+                    "observed": 198
+                  },
+                  "count_p": {
+                    "expected": 193,
+                    "observed": 109
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 5,
+          "action": {
+            "action": "SPACE"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_p": {
+                    "expected": [
+                      3,
+                      46,
+                      3,
+                      45
+                    ],
+                    "observed": [
+                      3,
+                      13,
+                      3,
+                      45
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 148,
+                    "observed": 248
+                  },
+                  "count_p": {
+                    "expected": 159,
+                    "observed": 59
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_c": {
+                    "expected": [
+                      0,
+                      64,
+                      0,
+                      61
+                    ],
+                    "observed": [
+                      0,
+                      64,
+                      0,
+                      60
+                    ]
+                  },
+                  "bbox_p": {
+                    "expected": [
+                      3,
+                      39,
+                      3,
+                      45
+                    ],
+                    "observed": [
+                      3,
+                      13,
+                      3,
+                      45
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 198,
+                    "observed": 248
+                  },
+                  "count_c": {
+                    "expected": 161,
+                    "observed": 160
+                  },
+                  "count_p": {
+                    "expected": 109,
+                    "observed": 59
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "8885ebaf972a7231233f536b877739598658f2535cf5481c44e03b8796a63166"
+    },
+    {
+      "game_id": "re86-8af5384d",
+      "actions_replayed": 1067,
+      "parity": true,
+      "completed_levels": 6,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 62,
+        "changed_feature_probes": 62,
+        "last_same_action_effect/unknown": 9,
+        "unchanged/contradicted": 62,
+        "last_same_action_effect/contradicted": 53,
+        "all_supplied_hypotheses_refuted": 53,
+        "boundary_or_unavailable_probes": 2
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 9,
+        "unchanged/contradicted": 62,
+        "last_same_action_effect/contradicted": 53
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 3,
+          "action": {
+            "action": "UP"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_Y": {
+                    "expected": [
+                      3,
+                      39,
+                      6,
+                      33
+                    ],
+                    "observed": [
+                      3,
+                      36,
+                      6,
+                      33
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      16,
+                      53,
+                      26,
+                      54
+                    ],
+                    "observed": [
+                      16,
+                      56,
+                      26,
+                      54
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      27,
+                      28,
+                      21,
+                      22
+                    ],
+                    "observed": [
+                      24,
+                      25,
+                      21,
+                      22
+                    ]
+                  },
+                  "bbox_Y": {
+                    "expected": [
+                      3,
+                      39,
+                      6,
+                      33
+                    ],
+                    "observed": [
+                      3,
+                      36,
+                      6,
+                      33
+                    ]
+                  },
+                  "bbox_p": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      62
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      61
+                    ]
+                  },
+                  "count_p": {
+                    "expected": 62,
+                    "observed": 61
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 4,
+          "action": {
+            "action": "UP"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_p": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      60
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      61
+                    ]
+                  },
+                  "count_p": {
+                    "expected": 60,
+                    "observed": 61
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      24,
+                      25,
+                      21,
+                      22
+                    ],
+                    "observed": [
+                      21,
+                      22,
+                      21,
+                      22
+                    ]
+                  },
+                  "bbox_Y": {
+                    "expected": [
+                      3,
+                      36,
+                      6,
+                      33
+                    ],
+                    "observed": [
+                      3,
+                      33,
+                      6,
+                      33
+                    ]
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "0ed25148a903df15e6e386ed4596b329f7865b0ab251f138530261e0e739cb55"
+    },
+    {
+      "game_id": "s5i5-18d95033",
+      "actions_replayed": 577,
+      "parity": true,
+      "completed_levels": 3,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 63,
+        "changed_feature_probes": 61,
+        "last_same_action_effect/unknown": 25,
+        "unchanged/contradicted": 61,
+        "last_same_action_effect/contradicted": 26,
+        "all_supplied_hypotheses_refuted": 25,
+        "last_same_action_effect/consistent": 12,
+        "boundary_or_unavailable_probes": 1,
+        "unchanged/consistent": 2
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 24,
+        "unchanged/contradicted": 61,
+        "last_same_action_effect/contradicted": 25,
+        "last_same_action_effect/consistent": 12
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 19,
+          "action": {
+            "action": "MOUSE",
+            "row": 21,
+            "col": 46
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_G": {
+                    "expected": [
+                      9,
+                      64,
+                      0,
+                      42
+                    ],
+                    "observed": [
+                      9,
+                      64,
+                      0,
+                      43
+                    ]
+                  },
+                  "count_G": {
+                    "expected": 55,
+                    "observed": 54
+                  },
+                  "count_c": {
+                    "expected": 97,
+                    "observed": 98
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "count_G": {
+                    "expected": 56,
+                    "observed": 54
+                  },
+                  "count_N": {
+                    "expected": 19,
+                    "observed": 28
+                  },
+                  "count_c": {
+                    "expected": 96,
+                    "observed": 98
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 20,
+          "action": {
+            "action": "MOUSE",
+            "row": 21,
+            "col": 46
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "count_G": {
+                    "expected": 52,
+                    "observed": 53
+                  },
+                  "count_c": {
+                    "expected": 100,
+                    "observed": 99
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "count_G": {
+                    "expected": 54,
+                    "observed": 53
+                  },
+                  "count_N": {
+                    "expected": 28,
+                    "observed": 37
+                  },
+                  "count_c": {
+                    "expected": 98,
+                    "observed": 99
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "8e89a8f05b4b6d3b36bfda0177f769290ce73d885f3fce5bcf8c4e2bbac98bf5"
+    },
+    {
+      "game_id": "ls20-9607627b",
+      "actions_replayed": 1124,
+      "parity": true,
+      "completed_levels": 6,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 63,
+        "changed_feature_probes": 61,
+        "last_same_action_effect/unknown": 8,
+        "unchanged/contradicted": 61,
+        "last_same_action_effect/contradicted": 28,
+        "all_supplied_hypotheses_refuted": 26,
+        "last_same_action_effect/consistent": 27,
+        "unchanged/consistent": 2,
+        "boundary_or_unavailable_probes": 1
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 8,
+        "unchanged/contradicted": 61,
+        "last_same_action_effect/contradicted": 26,
+        "last_same_action_effect/consistent": 27
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 1,
+          "action": {
+            "action": "RIGHT"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_G": {
+                    "expected": [
+                      8,
+                      76,
+                      12,
+                      54
+                    ],
+                    "observed": [
+                      8,
+                      63,
+                      13,
+                      54
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_O": {
+                    "expected": [
+                      45,
+                      47,
+                      39,
+                      44
+                    ],
+                    "observed": [
+                      45,
+                      47,
+                      44,
+                      49
+                    ]
+                  },
+                  "bbox_Y": {
+                    "expected": [
+                      61,
+                      63,
+                      14,
+                      55
+                    ],
+                    "observed": [
+                      61,
+                      63,
+                      15,
+                      55
+                    ]
+                  },
+                  "bbox_b": {
+                    "expected": [
+                      11,
+                      61,
+                      3,
+                      44
+                    ],
+                    "observed": [
+                      11,
+                      61,
+                      3,
+                      49
+                    ]
+                  },
+                  "count_G": {
+                    "expected": 894,
+                    "observed": 896
+                  },
+                  "count_Y": {
+                    "expected": 82,
+                    "observed": 80
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 9,
+          "action": {
+            "action": "UP"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "count_B": {
+                    "expected": 439,
+                    "observed": 434
+                  },
+                  "count_G": {
+                    "expected": 912,
+                    "observed": 917
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_O": {
+                    "expected": [
+                      20,
+                      22,
+                      34,
+                      39
+                    ],
+                    "observed": [
+                      15,
+                      17,
+                      34,
+                      39
+                    ]
+                  },
+                  "bbox_Y": {
+                    "expected": [
+                      61,
+                      63,
+                      22,
+                      55
+                    ],
+                    "observed": [
+                      61,
+                      63,
+                      23,
+                      55
+                    ]
+                  },
+                  "count_B": {
+                    "expected": 439,
+                    "observed": 434
+                  },
+                  "count_G": {
+                    "expected": 910,
+                    "observed": 917
+                  },
+                  "count_Y": {
+                    "expected": 66,
+                    "observed": 64
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "47f957e4db679ac8986ee665f3f487ec604371ad70673cd9e49801cbfcdb9601"
+    },
+    {
+      "game_id": "ft09-0d8bbf25",
+      "actions_replayed": 92,
+      "parity": true,
+      "completed_levels": 6,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 60,
+        "changed_feature_probes": 60,
+        "last_same_action_effect/unknown": 52,
+        "unchanged/contradicted": 60,
+        "boundary_or_unavailable_probes": 4,
+        "last_same_action_effect/contradicted": 8,
+        "all_supplied_hypotheses_refuted": 8
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 52,
+        "unchanged/contradicted": 60,
+        "last_same_action_effect/contradicted": 8
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 28,
+          "action": {
+            "action": "MOUSE",
+            "row": 17,
+            "col": 23
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_R": {
+                    "expected": [
+                      4,
+                      32,
+                      -20,
+                      64
+                    ],
+                    "observed": [
+                      4,
+                      8,
+                      60,
+                      64
+                    ]
+                  },
+                  "count_O": {
+                    "expected": 86,
+                    "observed": 123
+                  },
+                  "count_R": {
+                    "expected": 88,
+                    "observed": 16
+                  },
+                  "count_b": {
+                    "expected": 596,
+                    "observed": 632
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_R": {
+                    "expected": [
+                      4,
+                      20,
+                      20,
+                      64
+                    ],
+                    "observed": [
+                      4,
+                      8,
+                      60,
+                      64
+                    ]
+                  },
+                  "count_O": {
+                    "expected": 87,
+                    "observed": 123
+                  },
+                  "count_R": {
+                    "expected": 52,
+                    "observed": 16
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 33,
+          "action": {
+            "action": "MOUSE",
+            "row": 33,
+            "col": 23
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_R": {
+                    "expected": [
+                      4,
+                      80,
+                      -20,
+                      64
+                    ],
+                    "observed": [
+                      4,
+                      52,
+                      20,
+                      64
+                    ]
+                  },
+                  "count_O": {
+                    "expected": 119,
+                    "observed": 155
+                  },
+                  "count_R": {
+                    "expected": 196,
+                    "observed": 124
+                  },
+                  "count_b": {
+                    "expected": 452,
+                    "observed": 488
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "count_O": {
+                    "expected": 120,
+                    "observed": 155
+                  },
+                  "count_R": {
+                    "expected": 160,
+                    "observed": 124
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "6c36a4e6e53f516866cdf9b2a317d7cce60342bdb2741dc88ae775ebcf5ef2c5"
+    },
+    {
+      "game_id": "su15-1944f8ab",
+      "actions_replayed": 720,
+      "parity": true,
+      "completed_levels": 8,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 62,
+        "changed_feature_probes": 60,
+        "last_same_action_effect/unknown": 55,
+        "unchanged/contradicted": 60,
+        "unchanged/consistent": 2,
+        "last_same_action_effect/contradicted": 6,
+        "all_supplied_hypotheses_refuted": 6,
+        "last_same_action_effect/consistent": 1,
+        "boundary_or_unavailable_probes": 2
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 53,
+        "unchanged/contradicted": 60,
+        "last_same_action_effect/contradicted": 6,
+        "last_same_action_effect/consistent": 1
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 5,
+          "action": {
+            "action": "MOUSE",
+            "row": 53,
+            "col": 10
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      74,
+                      64,
+                      0,
+                      54
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      54
+                    ]
+                  },
+                  "bbox_p": {
+                    "expected": [
+                      4,
+                      49,
+                      15,
+                      33
+                    ],
+                    "observed": [
+                      4,
+                      55,
+                      9,
+                      33
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 49,
+                    "observed": 54
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_W": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      56
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      54
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 56,
+                    "observed": 54
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 17,
+          "action": {
+            "action": "MOUSE",
+            "row": 51,
+            "col": 12
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_G": {
+                    "expected": [
+                      14,
+                      56,
+                      8,
+                      50
+                    ],
+                    "observed": [
+                      14,
+                      58,
+                      6,
+                      50
+                    ]
+                  },
+                  "bbox_p": {
+                    "expected": [
+                      4,
+                      57,
+                      6,
+                      33
+                    ],
+                    "observed": [
+                      4,
+                      53,
+                      11,
+                      33
+                    ]
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_G": {
+                    "expected": [
+                      14,
+                      56,
+                      8,
+                      50
+                    ],
+                    "observed": [
+                      14,
+                      58,
+                      6,
+                      50
+                    ]
+                  },
+                  "bbox_W": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      32
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      30
+                    ]
+                  },
+                  "bbox_p": {
+                    "expected": [
+                      4,
+                      59,
+                      5,
+                      33
+                    ],
+                    "observed": [
+                      4,
+                      53,
+                      11,
+                      33
+                    ]
+                  },
+                  "count_W": {
+                    "expected": 32,
+                    "observed": 30
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "61f302f4b7850264fe26bf8e8476b49a3830166d3668888ef729e8565039aa1f"
+    },
+    {
+      "game_id": "tr87-cd924810",
+      "actions_replayed": 507,
+      "parity": true,
+      "completed_levels": 6,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 63,
+        "changed_feature_probes": 63,
+        "last_same_action_effect/unknown": 6,
+        "unchanged/contradicted": 63,
+        "last_same_action_effect/consistent": 6,
+        "last_same_action_effect/contradicted": 51,
+        "all_supplied_hypotheses_refuted": 51,
+        "boundary_or_unavailable_probes": 1
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 6,
+        "unchanged/contradicted": 63,
+        "last_same_action_effect/consistent": 6,
+        "last_same_action_effect/contradicted": 51
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 3,
+          "action": {
+            "action": "UP"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_w": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      63
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      62
+                    ]
+                  },
+                  "count_B": {
+                    "expected": 323,
+                    "observed": 321
+                  },
+                  "count_P": {
+                    "expected": 361,
+                    "observed": 363
+                  },
+                  "count_w": {
+                    "expected": 63,
+                    "observed": 62
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_w": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      63
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      62
+                    ]
+                  },
+                  "count_B": {
+                    "expected": 322,
+                    "observed": 321
+                  },
+                  "count_P": {
+                    "expected": 362,
+                    "observed": 363
+                  },
+                  "count_w": {
+                    "expected": 63,
+                    "observed": 62
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 4,
+          "action": {
+            "action": "UP"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_w": {
+                    "expected": [
+                      63,
+                      64,
+                      0,
+                      61
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      0,
+                      62
+                    ]
+                  },
+                  "count_B": {
+                    "expected": 320,
+                    "observed": 323
+                  },
+                  "count_P": {
+                    "expected": 364,
+                    "observed": 361
+                  },
+                  "count_w": {
+                    "expected": 61,
+                    "observed": 62
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "count_B": {
+                    "expected": 321,
+                    "observed": 323
+                  },
+                  "count_P": {
+                    "expected": 363,
+                    "observed": 361
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "64030e86f78994bb9b99af8b747e1dbdc870c4f6502dbd2c19a68ad8e7cf6a2c"
+    },
+    {
+      "game_id": "g50t-5849a774",
+      "actions_replayed": 1108,
+      "parity": true,
+      "completed_levels": 5,
+      "stats": {
+        "frozen_probes": 64,
+        "checked_probes": 64,
+        "changed_feature_probes": 38,
+        "last_same_action_effect/unknown": 5,
+        "unchanged/consistent": 26,
+        "unchanged/contradicted": 38,
+        "last_same_action_effect/consistent": 7,
+        "last_same_action_effect/contradicted": 52,
+        "all_supplied_hypotheses_refuted": 33
+      },
+      "changed_feature_stats": {
+        "last_same_action_effect/unknown": 4,
+        "unchanged/contradicted": 38,
+        "last_same_action_effect/contradicted": 33,
+        "last_same_action_effect/consistent": 1
+      },
+      "absent_true_rule_examples": [
+        {
+          "before_step": 5,
+          "action": {
+            "action": "DOWN"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_b": {
+                    "expected": [
+                      1,
+                      64,
+                      0,
+                      62
+                    ],
+                    "observed": [
+                      1,
+                      64,
+                      0,
+                      61
+                    ]
+                  },
+                  "bbox_w": {
+                    "expected": [
+                      63,
+                      64,
+                      62,
+                      64
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      61,
+                      64
+                    ]
+                  },
+                  "count_B": {
+                    "expected": 880,
+                    "observed": 856
+                  },
+                  "count_b": {
+                    "expected": 117,
+                    "observed": 116
+                  },
+                  "count_w": {
+                    "expected": 2,
+                    "observed": 3
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_b": {
+                    "expected": [
+                      1,
+                      64,
+                      0,
+                      62
+                    ],
+                    "observed": [
+                      1,
+                      64,
+                      0,
+                      61
+                    ]
+                  },
+                  "bbox_w": {
+                    "expected": [
+                      63,
+                      64,
+                      62,
+                      64
+                    ],
+                    "observed": [
+                      63,
+                      64,
+                      61,
+                      64
+                    ]
+                  },
+                  "count_B": {
+                    "expected": 880,
+                    "observed": 856
+                  },
+                  "count_b": {
+                    "expected": 117,
+                    "observed": 116
+                  },
+                  "count_w": {
+                    "expected": 2,
+                    "observed": 3
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        },
+        {
+          "before_step": 6,
+          "action": {
+            "action": "SPACE"
+          },
+          "outcome": {
+            "checked": true,
+            "verdicts": {
+              "last_same_action_effect": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_b": {
+                    "expected": [
+                      1,
+                      64,
+                      0,
+                      60
+                    ],
+                    "observed": [
+                      1,
+                      64,
+                      0,
+                      61
+                    ]
+                  },
+                  "bbox_w": {
+                    "expected": [
+                      125,
+                      64,
+                      118,
+                      64
+                    ],
+                    "observed": [
+                      1,
+                      64,
+                      5,
+                      64
+                    ]
+                  },
+                  "count_B": {
+                    "expected": 856,
+                    "observed": 880
+                  },
+                  "count_b": {
+                    "expected": 115,
+                    "observed": 116
+                  },
+                  "count_w": {
+                    "expected": -5,
+                    "observed": 12
+                  }
+                }
+              },
+              "unchanged": {
+                "verdict": "contradicted",
+                "differences": {
+                  "bbox_w": {
+                    "expected": [
+                      63,
+                      64,
+                      61,
+                      64
+                    ],
+                    "observed": [
+                      1,
+                      64,
+                      5,
+                      64
+                    ]
+                  },
+                  "count_B": {
+                    "expected": 856,
+                    "observed": 880
+                  },
+                  "count_w": {
+                    "expected": 3,
+                    "observed": 12
+                  }
+                }
+              }
+            },
+            "active": [],
+            "needs_new_hypotheses": true
+          }
+        }
+      ],
+      "observation_sha256": "c43dabbc3a9241819d93f0ecc12e4c6aeb2219124dd4f8138d8f166fef5cf060"
+    }
+  ],
+  "boundary": "Frozen recorded actions; no new policy or model inference. Proposals use only past public observations and may all be wrong. Matching selected pixel features is not mechanics/goal correctness, action utility, gameplay improvement or an official score. Aggregate replay parity does not establish original pixel equality."
+}

@@ -1,0 +1,127 @@
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 12, "counterexample": null, "eligible": 12, "encoded_changes": 2, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 3, "planned": 3, "stop_reason": "complete", "verification": {"abstained": 0, "checked": 12, "counterexample": null, "eligible": 12, "encoded_changes": 2, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 15, "counterexample": null, "eligible": 15, "encoded_changes": 4, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 15, "planned": 15, "stop_reason": "terminal_or_level_boundary", "verification": {"abstained": 0, "checked": 15, "counterexample": null, "eligible": 15, "encoded_changes": 4, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 0, "encoded_changes": 0, "error": null, "excluded": 30, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 8, "stop_reason": "unverified_model", "verification": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 0, "encoded_changes": 0, "error": null, "excluded": 30, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 1, "counterexample": null, "eligible": 1, "encoded_changes": 0, "error": "Representation has no observed state changes; use a richer encode or gather evidence", "excluded": 30, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 7, "stop_reason": "unverified_model", "verification": {"abstained": 0, "checked": 1, "counterexample": null, "eligible": 1, "encoded_changes": 0, "error": "Representation has no observed state changes; use a richer encode or gather evidence", "excluded": 30, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 1, "counterexample": {"action": {"action": "DOWN"}, "after_step": 31, "before_step": 30, "difference": {"expected": "a1", "observed": "a0", "path": [1, 0]}}, "eligible": 7, "encoded_changes": 0, "error": "Representation has no observed state changes; use a richer encode or gather evidence", "excluded": 30, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "verify", "report": {"abstained": 7, "checked": 0, "counterexample": null, "eligible": 7, "encoded_changes": 0, "error": null, "excluded": 30, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "verify", "report": {"abstained": 0, "checked": 7, "counterexample": null, "eligible": 7, "encoded_changes": 7, "error": null, "excluded": 30, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 8, "counterexample": null, "eligible": 8, "encoded_changes": 8, "error": null, "excluded": 30, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 14, "planned": 14, "stop_reason": "complete", "verification": {"abstained": 0, "checked": 8, "counterexample": null, "eligible": 8, "encoded_changes": 8, "error": null, "excluded": 30, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 22, "counterexample": null, "eligible": 22, "encoded_changes": 22, "error": null, "excluded": 30, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 11, "planned": 11, "stop_reason": "terminal_or_level_boundary", "verification": {"abstained": 0, "checked": 22, "counterexample": null, "eligible": 22, "encoded_changes": 22, "error": null, "excluded": 30, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 7, "counterexample": null, "eligible": 7, "encoded_changes": 7, "error": null, "excluded": 63, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 7, "counterexample": null, "eligible": 7, "encoded_changes": 7, "error": null, "excluded": 63, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 16, "planned": 16, "stop_reason": "complete", "verification": {"abstained": 0, "checked": 7, "counterexample": null, "eligible": 7, "encoded_changes": 7, "error": null, "excluded": 63, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 23, "counterexample": null, "eligible": 23, "encoded_changes": 23, "error": null, "excluded": 63, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 5, "planned": 5, "stop_reason": "terminal_or_level_boundary", "verification": {"abstained": 0, "checked": 23, "counterexample": null, "eligible": 23, "encoded_changes": 23, "error": null, "excluded": 63, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 7, "counterexample": null, "eligible": 7, "encoded_changes": 7, "error": null, "excluded": 91, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 7, "counterexample": null, "eligible": 7, "encoded_changes": 7, "error": null, "excluded": 91, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 16, "planned": 16, "stop_reason": "complete", "verification": {"abstained": 0, "checked": 7, "counterexample": null, "eligible": 7, "encoded_changes": 7, "error": null, "excluded": 91, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 23, "counterexample": null, "eligible": 23, "encoded_changes": 23, "error": null, "excluded": 91, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 5, "planned": 5, "stop_reason": "terminal_or_level_boundary", "verification": {"abstained": 0, "checked": 23, "counterexample": null, "eligible": 23, "encoded_changes": 23, "error": null, "excluded": 91, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 11, "checked": 0, "counterexample": null, "eligible": 11, "encoded_changes": 0, "error": null, "excluded": 119, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 22, "checked": 0, "counterexample": null, "eligible": 22, "encoded_changes": 0, "error": null, "excluded": 119, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "verify", "report": {"abstained": 22, "checked": 0, "counterexample": null, "eligible": 22, "encoded_changes": 0, "error": null, "excluded": 119, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "verify", "report": {"abstained": 22, "checked": 0, "counterexample": null, "eligible": 22, "encoded_changes": 0, "error": null, "excluded": 119, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 16, "stop_reason": "unverified_model", "verification": {"abstained": 22, "checked": 0, "counterexample": null, "eligible": 22, "encoded_changes": 0, "error": null, "excluded": 119, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 10, "encoded_changes": 0, "error": "TypeError: 'NoneType' object is not iterable", "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 15, "stop_reason": "unverified_model", "verification": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 10, "encoded_changes": 0, "error": "TypeError: 'NoneType' object is not iterable", "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "verify", "report": {"abstained": 10, "checked": 0, "counterexample": null, "eligible": 10, "encoded_changes": 0, "error": null, "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 15, "stop_reason": "unverified_model", "verification": {"abstained": 10, "checked": 0, "counterexample": null, "eligible": 10, "encoded_changes": 0, "error": null, "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "verify", "report": {"abstained": 10, "checked": 0, "counterexample": null, "eligible": 10, "encoded_changes": 0, "error": null, "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 1, "stop_reason": "unverified_model", "verification": {"abstained": 10, "checked": 0, "counterexample": null, "eligible": 10, "encoded_changes": 0, "error": null, "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "verify", "report": {"abstained": 10, "checked": 0, "counterexample": null, "eligible": 10, "encoded_changes": 0, "error": null, "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 1, "stop_reason": "unverified_model", "verification": {"abstained": 10, "checked": 0, "counterexample": null, "eligible": 10, "encoded_changes": 0, "error": null, "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 10, "counterexample": null, "eligible": 10, "encoded_changes": 10, "error": null, "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 15, "planned": 15, "stop_reason": "complete", "verification": {"abstained": 0, "checked": 10, "counterexample": null, "eligible": 10, "encoded_changes": 10, "error": null, "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 25, "counterexample": null, "eligible": 25, "encoded_changes": 25, "error": null, "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 14, "planned": 14, "stop_reason": "terminal_or_level_boundary", "verification": {"abstained": 0, "checked": 25, "counterexample": null, "eligible": 25, "encoded_changes": 25, "error": null, "excluded": 160, "scope": "abstract-state", "truncated": false, "verified": true}}}

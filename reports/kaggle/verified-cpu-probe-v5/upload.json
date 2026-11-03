@@ -1,0 +1,12 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-verifier-cpu-probe/5",
+  "recorded_at": "2026-10-27T18:06:46.546221+00:00",
+  "files": {
+    "kernel-metadata.json": "e93fc49e691ffcf8f2ce3b77bccf2305fed2f9e6980b2f558d5dc0291eb10f74",
+    "probe.ipynb": "bf9a412395ec54fee96788e2bc7c69255bf86ac8b6a846da340f787cd81d5e60",
+    "source-manifest.json": "19505f8573225a208f1e14679890fbf510b709b619644ee656d3f59c4834114f"
+  },
+  "observer_session": 16169,
+  "enforce_probes": false,
+  "notebook_timeout_seconds": 1200
+}

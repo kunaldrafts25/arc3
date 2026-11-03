@@ -1,0 +1,6 @@
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-10-25 00:32:53 | INFO | Created new scorecard: 16d9f316-bb12-4954-8a69-160b0dc6dd33
+2026-10-25 00:32:53 | INFO | Successfully loaded game class Ft09 from environment_files\ft09\0d8bbf25\ft09.py
+NEXT_LEVEL_GROUPS [[[60, 0, 63, 3], [60, 4, 63, 7], [60, 8, 63, 11]], [[12, 14, 17, 19], [20, 14, 25, 19], [28, 14, 33, 19], [36, 14, 41, 19], [44, 14, 49, 19], [12, 22, 17, 27], [28, 22, 33, 27], [44, 22, 49, 27], [12, 30, 17, 35], [20, 30, 25, 35], [28, 30, 33, 35], [36, 30, 41, 35], [44, 30, 49, 35], [20, 38, 25, 43], [36, 38, 41, 43], [20, 46, 25, 51], [28, 46, 33, 51], [36, 46, 41, 51]]]
+STATS {"meter_pixels": 64, "explore_actions": 180, "visual_panel_probe_actions": 1, "binary_model_hypotheses": 8, "inferred_binary_cells": 18, "visual_goal_hypotheses": 0, "binary_goal_hypotheses": 2, "binary_probe_actions": 99, "plan_actions": 20, "binary_goal_tests": 4, "linear_plan_actions": 19, "binary_plan_actions": 20, "binary_predictions": 17, "binary_matches": 16, "binary_level_completions": 3, "click_probe_actions": 80, "ineffective_actions": 45, "repeated_states": 45, "recover_actions": 0, "binary_mismatches": 1, "binary_representation_failures": 5}
+CLICK_ACTIVE False CLICK_STEPS 111

@@ -1,0 +1,29 @@
+[{"stream_name":"stderr","time":8.465682198,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.465747293,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.465756181,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.465760393,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.114378624,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.114407218,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.114412703,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.114417023,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":16.065663873,"data":"{\n"}
+,{"stream_name":"stdout","time":16.065693928,"data":"  \"base_ref\": \"dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/Transformers/default/1\",\n"}
+,{"stream_name":"stdout","time":16.065700113,"data":"  \"candidate_ref\": \"lamdang/thinkingcap-qwen3-8-flash-next-w4a16-autoround/Transformers/default/1\",\n"}
+,{"stream_name":"stdout","time":16.065721096,"data":"  \"elapsed_seconds\": 5.634286107000037,\n"}
+,{"stream_name":"stdout","time":16.065725199,"data":"  \"base_only_tensors\": [],\n"}
+,{"stream_name":"stdout","time":16.065728821,"data":"  \"candidate_only_tensors\": [],\n"}
+,{"stream_name":"stdout","time":16.065732914,"data":"  \"tensor_shape_dtype_differences\": {},\n"}
+,{"stream_name":"stdout","time":16.065737046,"data":"  \"base_tensor_count\": 224280,\n"}
+,{"stream_name":"stdout","time":16.065741693,"data":"  \"candidate_tensor_count\": 224280,\n"}
+,{"stream_name":"stdout","time":16.065746168,"data":"  \"boundary\": \"CPU metadata and safetensors headers only. Weight payloads are not loaded or compared. This does not establish inference correctness, draft acceptance, hardware fit, gameplay quality or a competition score. No GPU or game access.\"\n"}
+,{"stream_name":"stdout","time":16.065754807,"data":"}\n"}
+,{"stream_name":"stdout","time":16.065758101,"data":"Config differences: 100\n"}
+,{"stream_name":"stderr","time":19.158588626,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":19.158622495,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":19.335029318,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":19.335053543,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":20.017636139,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":20.315994169,"data":"[NbConvertApp] Writing 7719 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":23.052002231,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":23.961412274,"data":"[NbConvertApp] Writing 298101 bytes to __results__.html\n"}
+]

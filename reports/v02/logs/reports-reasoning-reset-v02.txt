@@ -1,0 +1,77 @@
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-10-25 00:14:55 | INFO | Created new scorecard: a604bb84-3976-4444-a3c4-823ee94dde79
+.venv/Scripts/python.exe : INFO:arc_agi.base:Created new scorecard: a604bb84-3976-4444-a3c4-823ee94dde79
+At line:2 char:40
++ ...  pytest -q; .venv/Scripts/python.exe scripts/benchmark.py --games ft0 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (INFO:arc_agi.ba...c4-823ee94dde79:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-25 00:14:55 | INFO | Successfully loaded game class Ft09 from environment_files\ft09\0d8bbf25\ft09.py
+INFO:arc_agi.base:Successfully loaded game class Ft09 from environment_files\ft09\0d8bbf25\ft09.py
+2026-10-25 00:14:58 | INFO | Closed scorecard: a604bb84-3976-4444-a3c4-823ee94dde79
+INFO:arc_agi.base:Closed scorecard: a604bb84-3976-4444-a3c4-823ee94dde79
+{"policy": "reasoning", "seed": 0, "game_id": "ft09-0d8bbf25", "levels_completed": 1, "action_count": 200, "official_score_if_available": 0.9964646791265169, "runtime_seconds": 3.188, "exceptions": []}
+2026-10-25 00:14:58 | INFO | Created new scorecard: 66af0d28-71dc-47c5-b895-ece89d4653dc
+INFO:arc_agi.base:Created new scorecard: 66af0d28-71dc-47c5-b895-ece89d4653dc
+2026-10-25 00:14:58 | INFO | Successfully loaded game class Ls20 from environment_files\ls20\9607627b\ls20.py
+INFO:arc_agi.base:Successfully loaded game class Ls20 from environment_files\ls20\9607627b\ls20.py
+2026-10-25 00:15:02 | INFO | Closed scorecard: 66af0d28-71dc-47c5-b895-ece89d4653dc
+INFO:arc_agi.base:Closed scorecard: 66af0d28-71dc-47c5-b895-ece89d4653dc
+{"policy": "reasoning", "seed": 0, "game_id": "ls20-9607627b", "levels_completed": 1, "action_count": 200, "official_score_if_available": 0.1180637544273908, "runtime_seconds": 4.375, "exceptions": []}
+2026-10-25 00:15:02 | INFO | Created new scorecard: df271f1c-d062-4fa0-8c84-a5fa6dc5edc2
+INFO:arc_agi.base:Created new scorecard: df271f1c-d062-4fa0-8c84-a5fa6dc5edc2
+2026-10-25 00:15:02 | INFO | Successfully loaded game class R11l from environment_files\r11l\495a7899\r11l.py
+INFO:arc_agi.base:Successfully loaded game class R11l from environment_files\r11l\495a7899\r11l.py
+2026-10-25 00:15:05 | INFO | Closed scorecard: df271f1c-d062-4fa0-8c84-a5fa6dc5edc2
+INFO:arc_agi.base:Closed scorecard: df271f1c-d062-4fa0-8c84-a5fa6dc5edc2
+{"policy": "reasoning", "seed": 0, "game_id": "r11l-495a7899", "levels_completed": 1, "action_count": 200, "official_score_if_available": 0.07974954687757459, "runtime_seconds": 3.187, "exceptions": []}
+2026-10-25 00:15:05 | INFO | Created new scorecard: e3be6f1c-f8c1-4e2e-8d83-82530aa5d073
+INFO:arc_agi.base:Created new scorecard: e3be6f1c-f8c1-4e2e-8d83-82530aa5d073
+2026-10-25 00:15:05 | INFO | Successfully loaded game class Vc33 from environment_files\vc33\5430563c\vc33.py
+INFO:arc_agi.base:Successfully loaded game class Vc33 from environment_files\vc33\5430563c\vc33.py
+2026-10-25 00:15:08 | INFO | Closed scorecard: e3be6f1c-f8c1-4e2e-8d83-82530aa5d073
+INFO:arc_agi.base:Closed scorecard: e3be6f1c-f8c1-4e2e-8d83-82530aa5d073
+{"policy": "reasoning", "seed": 0, "game_id": "vc33-5430563c", "levels_completed": 1, "action_count": 200, "official_score_if_available": 0.005984747443657877, "runtime_seconds": 2.734, "exceptions": []}
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-10-25 00:15:08 | INFO | Created new scorecard: 46398500-3634-4889-b4b8-84fa5a84f3c2
+INFO:arc_agi.base:Created new scorecard: 46398500-3634-4889-b4b8-84fa5a84f3c2
+2026-10-25 00:15:12 | INFO | Closed scorecard: 46398500-3634-4889-b4b8-84fa5a84f3c2
+INFO:arc_agi.base:Closed scorecard: 46398500-3634-4889-b4b8-84fa5a84f3c2
+{"policy": "reasoning", "seed": 1, "game_id": "ft09-0d8bbf25", "levels_completed": 1, "action_count": 200, "official_score_if_available": 1.0402601494283914, "runtime_seconds": 3.454, "exceptions": []}
+2026-10-25 00:15:12 | INFO | Created new scorecard: e9248b53-0295-425a-a748-17efa14f5287
+INFO:arc_agi.base:Created new scorecard: e9248b53-0295-425a-a748-17efa14f5287
+2026-10-25 00:15:17 | INFO | Closed scorecard: e9248b53-0295-425a-a748-17efa14f5287
+INFO:arc_agi.base:Closed scorecard: e9248b53-0295-425a-a748-17efa14f5287
+{"policy": "reasoning", "seed": 1, "game_id": "ls20-9607627b", "levels_completed": 0, "action_count": 200, "official_score_if_available": 0.0, "runtime_seconds": 5.281, "exceptions": []}
+2026-10-25 00:15:17 | INFO | Created new scorecard: c93e53df-eff6-4365-a13d-406d11a92cda
+INFO:arc_agi.base:Created new scorecard: c93e53df-eff6-4365-a13d-406d11a92cda
+2026-10-25 00:15:20 | INFO | Closed scorecard: c93e53df-eff6-4365-a13d-406d11a92cda
+INFO:arc_agi.base:Closed scorecard: c93e53df-eff6-4365-a13d-406d11a92cda
+{"policy": "reasoning", "seed": 1, "game_id": "r11l-495a7899", "levels_completed": 0, "action_count": 200, "official_score_if_available": 0.0, "runtime_seconds": 3.125, "exceptions": []}
+2026-10-25 00:15:20 | INFO | Created new scorecard: 6a2b61a0-bdbd-41f3-9ecf-6964c514cd21
+INFO:arc_agi.base:Created new scorecard: 6a2b61a0-bdbd-41f3-9ecf-6964c514cd21
+2026-10-25 00:15:23 | INFO | Closed scorecard: 6a2b61a0-bdbd-41f3-9ecf-6964c514cd21
+INFO:arc_agi.base:Closed scorecard: 6a2b61a0-bdbd-41f3-9ecf-6964c514cd21
+{"policy": "reasoning", "seed": 1, "game_id": "vc33-5430563c", "levels_completed": 0, "action_count": 200, "official_score_if_available": 0.0, "runtime_seconds": 2.812, "exceptions": []}
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-10-25 00:15:23 | INFO | Created new scorecard: 93f4a7b7-83f9-4751-964d-2bad5598edbd
+INFO:arc_agi.base:Created new scorecard: 93f4a7b7-83f9-4751-964d-2bad5598edbd
+2026-10-25 00:15:26 | INFO | Closed scorecard: 93f4a7b7-83f9-4751-964d-2bad5598edbd
+INFO:arc_agi.base:Closed scorecard: 93f4a7b7-83f9-4751-964d-2bad5598edbd
+{"policy": "reasoning", "seed": 2, "game_id": "ft09-0d8bbf25", "levels_completed": 1, "action_count": 200, "official_score_if_available": 1.0402601494283914, "runtime_seconds": 3.141, "exceptions": []}
+2026-10-25 00:15:26 | INFO | Created new scorecard: 561669f3-ec47-4dc5-bfa9-3cb67dc5a16f
+INFO:arc_agi.base:Created new scorecard: 561669f3-ec47-4dc5-bfa9-3cb67dc5a16f
+2026-10-25 00:15:29 | INFO | Closed scorecard: 561669f3-ec47-4dc5-bfa9-3cb67dc5a16f
+INFO:arc_agi.base:Closed scorecard: 561669f3-ec47-4dc5-bfa9-3cb67dc5a16f
+{"policy": "reasoning", "seed": 2, "game_id": "ls20-9607627b", "levels_completed": 1, "action_count": 200, "official_score_if_available": 0.2509176119279183, "runtime_seconds": 3.421, "exceptions": []}
+2026-10-25 00:15:29 | INFO | Created new scorecard: 0857f739-6f3d-4dfe-8298-4f7117a0b475
+INFO:arc_agi.base:Created new scorecard: 0857f739-6f3d-4dfe-8298-4f7117a0b475
+2026-10-25 00:15:33 | INFO | Closed scorecard: 0857f739-6f3d-4dfe-8298-4f7117a0b475
+INFO:arc_agi.base:Closed scorecard: 0857f739-6f3d-4dfe-8298-4f7117a0b475
+{"policy": "reasoning", "seed": 2, "game_id": "r11l-495a7899", "levels_completed": 1, "action_count": 200, "official_score_if_available": 0.8204919561274137, "runtime_seconds": 3.344, "exceptions": []}
+2026-10-25 00:15:33 | INFO | Created new scorecard: f67dd7c3-c6c8-4e29-862c-db399bc034ca
+INFO:arc_agi.base:Created new scorecard: f67dd7c3-c6c8-4e29-862c-db399bc034ca
+2026-10-25 00:15:36 | INFO | Closed scorecard: f67dd7c3-c6c8-4e29-862c-db399bc034ca
+INFO:arc_agi.base:Closed scorecard: f67dd7c3-c6c8-4e29-862c-db399bc034ca
+{"policy": "reasoning", "seed": 2, "game_id": "vc33-5430563c", "levels_completed": 0, "action_count": 200, "official_score_if_available": 0.0, "runtime_seconds": 2.75, "exceptions": []}

@@ -1,0 +1,32 @@
+{
+  "dataset": "hellohawaii/ARC3-human-think-aloud",
+  "revision": "39166afb488d06fe34d19b1ea3c47928ba506c66",
+  "game": "ft09",
+  "split": "train",
+  "files": [
+    {
+      "file": "metadata.json",
+      "url": "https://huggingface.co/datasets/hellohawaii/ARC3-human-think-aloud/resolve/39166afb488d06fe34d19b1ea3c47928ba506c66/games/ft09/llm/direct/openai-gpt-6-astra-max/metadata.json",
+      "bytes": 562,
+      "sha256": "2e2e49fd297c5eebc1aac7defe4abb1a45a6fafece170c848ae0123746e59c67"
+    },
+    {
+      "file": "actions.json",
+      "url": "https://huggingface.co/datasets/hellohawaii/ARC3-human-think-aloud/resolve/39166afb488d06fe34d19b1ea3c47928ba506c66/games/ft09/llm/direct/openai-gpt-6-astra-max/actions.json",
+      "bytes": 48722,
+      "sha256": "9c0591c7216b34679e1ae9f9dc4159f521046f3d252f015a61834a4b531781bb"
+    },
+    {
+      "file": "reasoning.json",
+      "url": "https://huggingface.co/datasets/hellohawaii/ARC3-human-think-aloud/resolve/39166afb488d06fe34d19b1ea3c47928ba506c66/games/ft09/llm/direct/openai-gpt-6-astra-max/reasoning.json",
+      "bytes": 23985,
+      "sha256": "14fa92e79b0c1fcf4604e9c1faf1d035d54081b85e9e6d751e0806d1f0f2eb66"
+    },
+    {
+      "file": "timeline.json.gz",
+      "url": "https://huggingface.co/datasets/hellohawaii/ARC3-human-think-aloud/resolve/39166afb488d06fe34d19b1ea3c47928ba506c66/games/ft09/llm/direct/openai-gpt-6-astra-max/timeline.json.gz",
+      "bytes": 3180,
+      "sha256": "93e819d8c3a6f3e163baa1a55880197896d4b5ea082ad4a8898000e85834f2ca"
+    }
+  ]
+}

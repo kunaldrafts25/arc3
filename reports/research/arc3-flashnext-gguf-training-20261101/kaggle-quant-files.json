@@ -1,0 +1,36 @@
+{
+  "buianhtruc/strata-qwen3-8-flash-next-gsq-rco-iq3-s/GGUF/default/1": [
+    {
+      "name": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf",
+      "size": 54817524224,
+      "totalBytes": null
+    },
+    {
+      "name": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf.done",
+      "size": 16,
+      "totalBytes": null
+    },
+    {
+      "name": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00002-of-00002.gguf",
+      "size": 28800138432,
+      "totalBytes": null
+    },
+    {
+      "name": "Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00002-of-00002.gguf.done",
+      "size": 16,
+      "totalBytes": null
+    }
+  ],
+  "buianhtruc/strata-qwen3-8-flash-next-gyro-m-tq2-0/GGUF/default/1": [
+    {
+      "name": "Qwen3.8-Flash-Next-Gyro-M-TQ2_0.gguf",
+      "size": 91965774272,
+      "totalBytes": null
+    },
+    {
+      "name": "Qwen3.8-Flash-Next-Gyro-M-TQ2_0.gguf.done",
+      "size": 71,
+      "totalBytes": null
+    }
+  ]
+}

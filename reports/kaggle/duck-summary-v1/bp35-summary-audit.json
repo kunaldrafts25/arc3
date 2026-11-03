@@ -1,0 +1,46 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-duck-summary/1",
+  "game": "bp35-0a0ad940",
+  "source": "reference/kaggle/duck-summary-v1/bp35-0a0ad940_p0_requests.jsonl",
+  "source_sha256": "9e8d2c9b3bc72f4327cc4fb95c844a139ad0ca9e97bd05d36225a4638f0e8f8d",
+  "logged_completed_gameplay_responses": 76,
+  "logged_gameplay_completion_tokens": 230037,
+  "distinct_retained_summaries": [
+    {
+      "first_observed_action": 12,
+      "first_observed_analysis_step": 8,
+      "summary_chars": 5134,
+      "summary_sha256": "8bab4adab16902eefcc0f3825aafd25968a0d2fbdee6291f61cb123d245b66fc",
+      "marked_incomplete": false
+    },
+    {
+      "first_observed_action": 25,
+      "first_observed_analysis_step": 17,
+      "summary_chars": 5843,
+      "summary_sha256": "dcff2bd5c0a96b9a2560fe302b0531060e3b3c3f0afe8f048059e8aa40640828",
+      "marked_incomplete": false
+    },
+    {
+      "first_observed_action": 73,
+      "first_observed_analysis_step": 29,
+      "summary_chars": 9889,
+      "summary_sha256": "4f2f0f89b66ce5caf5b57f45e229373c4c47261c08341ef89dd6ac72c9d4d4fe",
+      "marked_incomplete": false
+    },
+    {
+      "first_observed_action": 80,
+      "first_observed_analysis_step": 32,
+      "summary_chars": 9477,
+      "summary_sha256": "d453b7be3a66e8fa7f2e8b6bbf84024c2bb0f9f821233cfacb0122d7a9ff6d5a",
+      "marked_incomplete": false
+    },
+    {
+      "first_observed_action": 83,
+      "first_observed_analysis_step": 35,
+      "summary_chars": 9078,
+      "summary_sha256": "3caeb206a356eaadb90847e013b0420414ca3f1d4f5915b6defc90c670edb3dd",
+      "marked_incomplete": false
+    }
+  ],
+  "boundary": "One public game. Summary request/reply pairs are visible in later logged gameplay histories. The logger does not expose their direct request usage here, so summary token and wall-clock overhead cannot be measured from this file. No causal attribution of score."
+}

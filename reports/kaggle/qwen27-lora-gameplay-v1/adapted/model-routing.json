@@ -1,0 +1,33 @@
+[
+  {
+    "dispatch_index": 1,
+    "requested_model": "flashnext:pilot",
+    "resolved_model": "flashnext:pilot",
+    "base_url": "http://127.0.0.1:8001/v1"
+  },
+  {
+    "dispatch_index": 0,
+    "requested_model": "flashnext:pilot",
+    "resolved_model": "flashnext:pilot",
+    "base_url": "http://127.0.0.1:8001/v1"
+  },
+  {
+    "dispatch_index": 2,
+    "requested_model": "flashnext:pilot",
+    "resolved_model": "flashnext:pilot",
+    "base_url": "http://127.0.0.1:8001/v1"
+  },
+  {
+    "dispatch_index": 4,
+    "requested_model": "flashnext:pilot",
+    "resolved_model": "flashnext:pilot",
+    "base_url": "http://127.0.0.1:8001/v1"
+  }
+]
+ {
+    "dispatch_index": 3,
+    "requested_model": "flashnext:pilot",
+    "resolved_model": "flashnext:pilot",
+    "base_url": "http://127.0.0.1:8001/v1"
+  }
+]

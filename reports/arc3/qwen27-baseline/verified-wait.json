@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-11-01T13:36:18.213482+00:00",
+  "jobs": [
+    {
+      "kernel": "kunalsinghh25/arc-hydra-qwen27-matched-baseline/1",
+      "status": "RUNNING"
+    },
+    {
+      "kernel": "kunalsinghh25/arc-hydra-training-environment-cpu-probe/1",
+      "status": "RUNNING"
+    }
+  ]
+}

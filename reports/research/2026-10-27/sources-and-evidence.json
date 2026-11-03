@@ -1,0 +1,156 @@
+{
+  "objective": "Official competition score above 71.48",
+  "researched_on": "2026-10-27",
+  "sources": [
+    {
+      "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/overview",
+      "category": "official_competition",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/rules",
+      "category": "official_competition",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arcprize.org/leaderboard/community",
+      "category": "official_competition",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.24621",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.05138",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15439",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14490",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.00834v1",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.11794",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01531",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.20709",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://github.com/NVIDIA-NeMo/labs-OO-Agents",
+      "category": "original_repository",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://github.com/da-fr/arc-agi-3-solution/blob/main/WRITEUP.md",
+      "category": "original_repository",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://github.com/LohitSiriki/arc-agi-3-milestone2-solution/blob/main/WRITEUP.md",
+      "category": "original_repository",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://github.com/iamjasonfeng/rps-arc-agi-3",
+      "category": "original_repository",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/1205.3109",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.08381",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.16291",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-025-08744-2",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.02886",
+      "category": "paper",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "category": "model_card_or_serving_docs",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.8-Flash-Next",
+      "category": "model_card_or_serving_docs",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.8-Flash-Next-NVFP4",
+      "category": "model_card_or_serving_docs",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+      "category": "model_card_or_serving_docs",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-Flash-Next-W4A16-AutoRound",
+      "category": "model_card_or_serving_docs",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "category": "model_card_or_serving_docs",
+      "reviewed_on": "2026-10-27"
+    },
+    {
+      "url": "https://recipes.vllm.ai/Qwen/Qwen3.8-Flash-Next",
+      "category": "model_card_or_serving_docs",
+      "reviewed_on": "2026-10-27"
+    }
+  ],
+  "local_evidence": {
+    "reports/kaggle/submission-status.json": "713c19c19c80c7990cdae6273de9c52aab5a87a994f7daa30b5ae2e7e1159a24",
+    "reports/kaggle/submission-status-history.jsonl": "7f7d95e028a6bc85d98ba3b5febeedd53627b8c9c71264e579404260f8b736fd",
+    "reports/kaggle/duck-m2-benchmark-v2/analysis.json": "cdca09c8b99aa22cf6dd12b2ee6f74f38fec760f46b9c6d7b83bdc37c6ccc8e8",
+    "reports/kaggle/duck-summary-v1/analysis.json": "f9d5e01fe20bc3e7ca8e4fecac87f4e0bded3f55f4e43b52c22aae9ece47dafc",
+    "reports/kaggle/duck-swift-v1/analysis.json": "042b0722388422328c2960787bc8f39d251fd7ac8a49d14f7b5dae62abfb58e2",
+    "reports/kaggle/duck-verification-v1/analysis.json": "046a2cb6db89049e04940e7725cd2715771e5bf2ccba07d6dedae357d4eaaae2",
+    "reports/kaggle/duck-verification-v1/prompt-activation.json": "9e6ed119f4cbd4d0b5abc77008876f4c4ead5cd91caf4054f34bbeb265233b66",
+    "reports/kaggle/duck-verification-v1/per-game-comparison.json": "5601d719e61fdf3559621d5c0b263378644841b593dc8c3b76ee575559c8d0b9",
+    "reference/kaggle/duck-v3-runtime-v2/serve.log": "d964d4fa2df4ae9e6c226c204d1a3cd0d7f7f8fdf13ff9db94e54d3a5a6fb25c",
+    "reports/research/2026-10-27/constraints.json": "5dd6ad44d5431382fbbc38c057280dc11311f203dd694a633b0fadd4b463c7f8"
+  },
+  "scope": "Targeted primary-source research, not an exhaustive internet review. Full-text sections inspected for Kepler, Memento 3 and the component ablation; other entries through primary abstracts, author write-ups, model cards or repositories. Two further HTML retrievals stalled; no conclusions rely on their unseen sections.",
+  "new_gpu_jobs_during_research": 0,
+  "new_model_weight_downloads_during_research": 0
+}

@@ -1,0 +1,29 @@
+{
+  "commit": "e6564cfd7efd3affc3b6f3d65738f80b7ad8474f",
+  "files": [
+    {
+      "file": "src/transformers/integrations/gguf/moe.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers/e6564cfd7efd3affc3b6f3d65738f80b7ad8474f/src/transformers/integrations/gguf/moe.py",
+      "bytes": 15765,
+      "sha256": "639ec3207f2e78569adb22c384e73899eec3d829cddc00545677db1d8f709bb6"
+    },
+    {
+      "file": "src/transformers/integrations/gguf/modules.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers/e6564cfd7efd3affc3b6f3d65738f80b7ad8474f/src/transformers/integrations/gguf/modules.py",
+      "bytes": 20147,
+      "sha256": "3efa62b09983199796b1b08700c98dd5e04e00c89ac6d94b86ef1641d0107cf6"
+    },
+    {
+      "file": "src/transformers/integrations/gguf/gguf_quantized_parameter.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers/e6564cfd7efd3affc3b6f3d65738f80b7ad8474f/src/transformers/integrations/gguf/gguf_quantized_parameter.py",
+      "bytes": 6889,
+      "sha256": "c6b5a39ec14c7bc6121856e7e3f92a6c4d7d7809df1633683d3d7fc67859b0ee"
+    },
+    {
+      "file": "src/transformers/quantizers/quantizer_gguf.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers/e6564cfd7efd3affc3b6f3d65738f80b7ad8474f/src/transformers/quantizers/quantizer_gguf.py",
+      "bytes": 13817,
+      "sha256": "c63568b0501de771f174ac7fe009ae720a029116626c4078e64096f46f145f5a"
+    }
+  ]
+}

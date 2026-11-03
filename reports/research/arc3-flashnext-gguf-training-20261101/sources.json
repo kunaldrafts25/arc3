@@ -1,0 +1,90 @@
+{
+  "repository": "woct0rdho/transformers5-qwen3.5-recipe",
+  "commit": "19a827a312808b4f21c366b324b80249e96437e9",
+  "files": [
+    {
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/README.md",
+      "bytes": 3195,
+      "sha256": "aedfadfca398acc423fa6e5ee58ddc87f55d447d8b8f356cc858ead1834586a9"
+    },
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/LICENSE",
+      "bytes": 11397,
+      "sha256": "0545ff79506f7f044f8baeb50312cf7b3e73e2c2f78e75e3d4a8f06a18f7cb3b"
+    },
+    {
+      "file": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/pyproject.toml",
+      "bytes": 195,
+      "sha256": "918e97df941b909ea0f2cc8eb1507f84f32ef82ebd6ae0af4297a131e067e4eb"
+    },
+    {
+      "file": "train_qwen4_exp.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/train_qwen4_exp.py",
+      "bytes": 6619,
+      "sha256": "ce7e92b01c5ff0c6eefa67ee06a9442de9be0200d25aefa67ba196e1c9cb8723"
+    },
+    {
+      "file": "qwen4_exp_lora.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/qwen4_exp_lora.py",
+      "bytes": 5566,
+      "sha256": "ede1521ae48b38a816ee4f71d6404655464b82bae0ef347b4cb466d95e086f64"
+    },
+    {
+      "file": "qwen4_exp_moe_lora.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/qwen4_exp_moe_lora.py",
+      "bytes": 4804,
+      "sha256": "8a10756e35ea18c405d918c15205ca88dee917622b7d78216de0d3465656c450"
+    },
+    {
+      "file": "gguf_support.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/gguf_support.py",
+      "bytes": 1145,
+      "sha256": "48300f1302ca9ae85a2fd08e9b0822260c37d16f1db463b3bb5f4a0c84cd823c"
+    },
+    {
+      "file": "ple_disk_residency.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/ple_disk_residency.py",
+      "bytes": 29298,
+      "sha256": "632028356160d1e22fb78d9690a1ce8d1297384cb5a088fd6d5c94341a909727"
+    },
+    {
+      "file": "bf16_adapter_trainer.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/bf16_adapter_trainer.py",
+      "bytes": 1583,
+      "sha256": "03a59637aaaae006c829c39ce1aa1a7b03c4a9a3cddd27266179714ddb518dce"
+    },
+    {
+      "file": "fast_lora.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/fast_lora.py",
+      "bytes": 7767,
+      "sha256": "8828f4b698d1c8a8544bef9106643e3f3503720f3b0fee91632b7efef9bae0cc"
+    },
+    {
+      "file": "fast_moe_lora.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/fast_moe_lora.py",
+      "bytes": 27780,
+      "sha256": "0a38fdea301d8114409908242ac1997070194feb719d19ecb81e9353f3468030"
+    },
+    {
+      "file": "convert_checkpoint_to_stock_layout.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/convert_checkpoint_to_stock_layout.py",
+      "bytes": 15946,
+      "sha256": "b26a47015d2e48640478fd36390d44f43ebc97b0fd1856c7c73a91ae225cd757"
+    },
+    {
+      "file": "qwen4_exp_attention.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/qwen4_exp_attention.py",
+      "bytes": 10215,
+      "sha256": "6395474c668c69019506df5286ae5b0d8a3a71a478ae0982f1ebb1e546b6baf4"
+    },
+    {
+      "file": "qwen4_exp_qsa_attention.py",
+      "url": "https://raw.githubusercontent.com/woct0rdho/transformers5-qwen3.5-recipe/19a827a312808b4f21c366b324b80249e96437e9/qwen4_exp_qsa_attention.py",
+      "bytes": 38354,
+      "sha256": "a4f3631cf62254f42da87054d993e5c73eefb4e1c1bc7e8b7804c564a6d599d8"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "source_commit": "560edbdca18aedae13f71ae20b3984efa4d22633",
+  "base_dataset": "dfranzen/pennyroyal-v253",
+  "validation": "CPU build, compiled SM120f module and fresh offline installation; GPU inference unverified",
+  "int4_patch": "Daniel Franzen INT4 scale-dtype compatibility fix, Apache-2.0",
+  "reused_native_wheel_sha256": "ffc0be8aa61168db6a521bb9eaae800e3cfde64d888170cc66fa9cde9dfa94a6"
+}

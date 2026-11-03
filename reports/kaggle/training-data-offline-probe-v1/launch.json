@@ -1,0 +1,35 @@
+{
+  "phase": "accepted",
+  "kernel": "kunalsinghh25/arc-hydra-training-data-offline-probe",
+  "files": {
+    "probe.ipynb": "d561571e0c911df0121fa11e4042f7fa4f4b25f35d1bf792e1bbeb3e4f56178e",
+    "kernel-metadata.json": "a329c48d65634faa555ddde6049a5a78d92c0e6d22454b698ff97098b32d016a"
+  },
+  "cpu_only": true,
+  "hard_session_timeout_seconds": 1800,
+  "resources": {
+    "allowed": false,
+    "reason": "shared compute reserved or another GPU development job active",
+    "available_gpu_seconds": 81020.2647,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [
+      {
+        "kernel": "kunalsinghh25/arc-hydra-qwen27-fair-capacity",
+        "status": "RUNNING",
+        "accelerator": "unclassified"
+      }
+    ],
+    "arc2_free_seconds_floor": 10800
+  },
+  "cpu_launch_allowed": true,
+  "cpu_reason": "No accelerator override, private offline data check; only the acknowledged capped ARC3 GPU job may be active",
+  "recorded_at": "2026-11-01T15:39:58.788185+00:00",
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-training-data-offline-probe",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-training-data-offline-probe",
+    "versionNumber": 1,
+    "kernelId": 142135577
+  }
+}

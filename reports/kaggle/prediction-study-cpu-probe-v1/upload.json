@@ -1,0 +1,21 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-prediction-study-cpu-probe/1",
+  "status": "COMPLETE",
+  "checked_at": "2026-11-01T07:50:14.765138+00:00",
+  "files": {
+    "kernel-metadata.json": "e7e55b508f42c492d131d2baa39c7feb6b6a08a5481004144f67eb2aec22ab36",
+    "probe.ipynb": "3ebd124d5059129132b906718b0f2c053fadf53aa50b60810c11901b90c4649a",
+    "source-manifest.json": "643b87b609cdbb034b7b2eee39a5aa94329493b53af63f0863ddaf431c59c20a"
+  },
+  "evidence_files": {
+    "hydra_extension.json": "79db02f1b43a98b797f9feb2f389dc71031db01ca6ecb0a5f5a72f516913fcaa",
+    "hydra_inspection_extension.json": "61631650629b2b8f16193fb7d6d481f9deb95b84cab0c58e2cb142f07a74dc01",
+    "hydra_prediction_extension.json": "46ff7eb53f21a6d1fc3aab8d32e5b36c3061fdb75c3599632558c016a3c6758e",
+    "hydra_study_extension.json": "1f6e2c3e746fba12daac32d52f4d710ee7199cffc8ccb3ab600733b509457eaf",
+    "launch.json": "8518b08b1b11f6192db9bea0c69271dee6dde5ad2094dee6e60057f31983721d",
+    "prediction-probe.json": "25f188520f89965e13c99016b050949529f58281c64fc413f7c9e8facfa40bb9",
+    "prediction-study-probe.json": "6877552796a58683b4473ff7d0ed60f8541d7b6e63ed06581cf33d5a7e806b9d",
+    "study-probe.json": "080a30f4f0e5bdff2fb812f0841a289d321d2d3879a626f3245ce707dbfba145",
+    "verified-probe.json": "e38399fcd9fc551e6c8aa59ec32b12970ab9ae271a301a475ea36696fa81f9a6"
+  }
+}

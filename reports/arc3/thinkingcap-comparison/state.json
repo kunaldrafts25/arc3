@@ -1,0 +1,86 @@
+{
+  "phase": "evaluation_complete",
+  "pid": 13168,
+  "kernel": "kunalsinghh25/arc-hydra-thinkingcap-matched-candidate",
+  "files": {
+    "submission.ipynb": "b6f41c6f73abe21af075a1fade1b05886d78aff7f1a62a09fd44d9dceddc3aef",
+    "kernel-metadata.json": "5aeafb8df0a188d3608b279884c71aecf8276767a434e54b03fdd587175846ac",
+    "provenance.json": "757811756bb09f0ab97212580c9ffd0c67b7d39b9707aa54f6c463dda4d117f7"
+  },
+  "hard_session_timeout_seconds": 7200,
+  "resources": {
+    "allowed": true,
+    "reason": "Bounded original-account free budget; only the known ARC3 job may already be queued",
+    "available_gpu_seconds": 101286.643,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [
+      {
+        "kernel": "kunalsinghh25/arc-hydra-prediction-matched-candidate",
+        "status": "QUEUED",
+        "accelerator": "unclassified"
+      }
+    ],
+    "arc2_free_seconds_floor": 10800,
+    "prediction_exact_status": "QUEUED",
+    "queue_policy": "At most two independent ARC3 sessions; each externally capped at 7200 seconds, may overlap; ARC2 floor 10800 seconds",
+    "recorded_at": "2026-11-01T08:43:09.915080+00:00"
+  },
+  "scope": "One ARC3 public development comparison; no official submission",
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-thinkingcap-matched-candidate",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-thinkingcap-matched-candidate",
+    "versionNumber": 1,
+    "kernelId": 142078865
+  },
+  "recorded_at": "2026-11-01T11:30:09.414086+00:00",
+  "exact_kernel": "kunalsinghh25/arc-hydra-thinkingcap-matched-candidate/1",
+  "kernel_status": "COMPLETE",
+  "analysis": {
+    "model_gameplay_verified": true,
+    "problems": [],
+    "games": 25,
+    "levels": 70,
+    "full_wins": 1,
+    "mean_public_score": 22.358250855378685,
+    "generated_tokens": 2762591,
+    "notes": {
+      "sk48-d8078629": "tokens=70755",
+      "tn36-ef4dde99": "tokens=68123",
+      "m0r0-492f87ba": "tokens=163761",
+      "bp35-0a0ad940": "tokens=78809",
+      "cn04-2fe56bfb": "tokens=95788",
+      "dc22-fdcac232": "tokens=65018",
+      "tu93-0768757b": "tokens=173474",
+      "lp85-305b61c3": "tokens=136396",
+      "ka59-38d34dbb": "tokens=109644",
+      "wa30-ee6fef47": "tokens=99971",
+      "vc33-5430563c": "tokens=154675",
+      "lf52-271a04aa": "tokens=109341",
+      "r11l-495a7899": "tokens=176424",
+      "sc25-635fd71a": "tokens=99212",
+      "sp80-589a99af": "tokens=94989",
+      "ar25-0c556536": "tokens=111551",
+      "sb26-7fbdac44": "tokens=88250",
+      "cd82-fb555c5d": "tokens=128650",
+      "re86-8af5384d": "tokens=112441",
+      "s5i5-18d95033": "tokens=133510",
+      "ls20-9607627b": "tokens=87899",
+      "ft09-0d8bbf25": "tokens=99052",
+      "su15-1944f8ab": "tokens=136179",
+      "tr87-cd924810": "tokens=80933",
+      "g50t-5849a774": "tokens=151776"
+    },
+    "boundary": "Public development gameplay only. Not a hidden score or proof of the 71-point goal.",
+    "token_accounting_corrections": [],
+    "token_accounting_basis": "Action-record generation plus terminal no-action generation; cancellation notes may include additional uncharged generation.",
+    "public_level_completions_by_elapsed_seconds": {
+      "1800": 36,
+      "3600": 57,
+      "5400": 69,
+      "7200": 70
+    }
+  },
+  "next_action": "Compare with the frozen inspection control, inspect model/serving behavior and preserve the best official agent; no automatic promotion."
+}

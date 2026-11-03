@@ -1,0 +1,7 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-duck-verification/1",
+  "source": "reference/kaggle/duck-verification-v1/ft09-0d8bbf25_p0_requests.jsonl",
+  "source_sha256": "e7e2398c9bc67c3bc41e0eee3db09c2b6fb0111f8232a906c1c9c8e86a797797",
+  "system_prompt_sha256": "e9ab123fdec2c0cc9bbaf1daf12286f260b52fd6960cf44e52b609d4b014e783",
+  "step_verification_addendum_present": true
+}

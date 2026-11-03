@@ -1,0 +1,6 @@
+{
+    "module":  "scripts.run_arc3_training_pilot",
+    "started_at":  "2026-11-01T16:15:17.4425202Z",
+    "maximum_gpu_seconds":  7200,
+    "wrapper_pid":  20892
+}

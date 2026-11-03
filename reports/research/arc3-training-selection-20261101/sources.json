@@ -1,0 +1,72 @@
+[
+  {
+    "file": "qwen27-api.json",
+    "url": "https://huggingface.co/api/models/Qwen/Qwen3.8-27B",
+    "bytes": 24093,
+    "sha256": "083973a5db9ff16b2ccf8a1e08053c58bf3d304d00d4f06695209c7d8eca6b52",
+    "status": 200
+  },
+  {
+    "file": "qwen27-readme.md",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B/raw/main/README.md",
+    "bytes": 65012,
+    "sha256": "57e4bdb258ee1a7d2635c5174ebd4e56abe392505cdb5f8bbb356b0dc4293641",
+    "status": 200
+  },
+  {
+    "file": "qwen27-config.json",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B/resolve/main/config.json",
+    "bytes": 4312,
+    "sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+    "status": 200
+  },
+  {
+    "file": "qwen27-bnb-api.json",
+    "url": "https://huggingface.co/api/models/unsloth/Qwen3.8-27B-unsloth-bnb-4bit",
+    "bytes": 11765,
+    "sha256": "de040ab4f787c8b01ad59e630fae233472ac74eee814b9589278fb7694597dd0",
+    "status": 200
+  },
+  {
+    "file": "qwen27-training.md",
+    "url": "https://unsloth.ai/docs/models/qwen3.8/train.md",
+    "bytes": 10418,
+    "sha256": "887c3ac9f22ec8977f68a5be6100895ab81a3ef9f016946dd149b715901d35cd",
+    "status": 200
+  },
+  {
+    "file": "qwen36-api.json",
+    "url": "https://huggingface.co/api/models/Qwen/Qwen3.6-35B-A3B",
+    "bytes": 22303,
+    "sha256": "82f2f6e3daca6b0a5321790c7b47b6c586c8033ba92755faaf3dfe892a5d6e9e",
+    "status": 200
+  },
+  {
+    "file": "curriculum-api.json",
+    "url": "https://huggingface.co/api/datasets/ritwika96/arc-agi-3-full-curriculum",
+    "bytes": 200608,
+    "sha256": "858ea59b3cad84d1148e4ee403f4bd766ca48fba8175647e4ec5604682b38c8e",
+    "status": 200
+  },
+  {
+    "file": "curriculum-tree.json",
+    "url": "https://huggingface.co/api/datasets/ritwika96/arc-agi-3-full-curriculum/tree/main?recursive=true&limit=1000",
+    "bytes": 305882,
+    "sha256": "41559001e4653ef3ca10529b908b66c51aed4ec7ffb882650df46a049260f440",
+    "status": 200
+  },
+  {
+    "file": "curriculum-readme.md",
+    "url": "https://huggingface.co/datasets/ritwika96/arc-agi-3-full-curriculum/raw/main/README.md",
+    "bytes": 2689,
+    "sha256": "ed4859650f43538e81724aca839635a8f0bd2884dbba16d2afa6fb368f64c8be",
+    "status": 200
+  },
+  {
+    "file": "human-site.html",
+    "url": "https://arc3-human-think-aloud.github.io/",
+    "bytes": 16413,
+    "sha256": "c644b57882426eab362ce3b6e22ecd6180da7c63a2630721aca48cbec56be3a2",
+    "status": 200
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "id": "kunalsinghh03/arc3-public-development-inputs",
+  "title": "ARC3 Public Development Inputs",
+  "subtitle": "Public practice environments and pinned public toolkit wheels",
+  "description": "Private development mirror of the 25 public practice games and official PyPI toolkit artifacts. No private evaluation games, credentials or trained solutions.",
+  "licenses": [
+    {
+      "name": "Apache 2.0"
+    }
+  ]
+}

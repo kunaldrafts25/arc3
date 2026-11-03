@@ -1,0 +1,12 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-verifier-cpu-probe/4",
+  "recorded_at": "2026-10-27T16:04:54.773706+00:00",
+  "status": "COMPLETE",
+  "files": {
+    "kernel-metadata.json": "e93fc49e691ffcf8f2ce3b77bccf2305fed2f9e6980b2f558d5dc0291eb10f74",
+    "probe.ipynb": "dbe1a5750a35207d33734055d47b2c9b4940096e40a6fa96bca687e8c44a8e14",
+    "source-manifest.json": "7d2ea08734327a9db5c0d13735dd09cee880dbaea3de65a4985ee1254ff96781"
+  },
+  "observer_session": 39582,
+  "scope": "Offline CPU-only: no model weights, competition attachment or GPU"
+}

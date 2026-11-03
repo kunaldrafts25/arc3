@@ -1,0 +1,27 @@
+{
+  "id": "kunalsinghh25/arc-hydra-qwen27-lora-gameplay",
+  "title": "ARC Hydra Qwen27 Lora Gameplay",
+  "code_file": "submission.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "dfranzen/pennyroyal-v253",
+    "dfranzen/taaf-kaggle-source-bundle-copy"
+  ],
+  "kernel_sources": [
+    "kunalsinghh25/arc-hydra-qwen27-lora-pilot/1"
+  ],
+  "competition_sources": [
+    "arc-prize-2026-arc-agi-3"
+  ],
+  "model_sources": [
+    "mikedan7/qwen3-8-27b-fp8-official/PyTorch/hf-fp8/1",
+    "dangkhoa2016/z-lab-qwen3-8-27b-dflash2/Transformers/default/1"
+  ],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:57e612b484cf3df5026ee4dcc3cb176974b22b2bc0937fb1e16132a8be4cb13c",
+  "machine_shape": "NvidiaRtxPro6000"
+}

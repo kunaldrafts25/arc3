@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-10-25T18:35:17.654825+00:00",
+  "public_model_health_passed": true,
+  "readiness_wait_seconds": 1267.2,
+  "effective_public_run": {
+    "games": 25,
+    "passes": 1,
+    "concurrency": 25,
+    "gameplay_seconds": 7200,
+    "deadline": "2026-10-25T20:34:08.986959"
+  },
+  "boundary": "Health check and configured public gameplay window only. Generated tokens, substantive actions, summary execution and score are not yet verified."
+}

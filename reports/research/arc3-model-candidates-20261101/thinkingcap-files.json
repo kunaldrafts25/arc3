@@ -1,0 +1,419 @@
+{
+  "files": [
+    {
+      "name": "chat_template.jinja",
+      "size": 8952,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "config.json",
+      "size": 260479,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "generation_config.json",
+      "size": 202,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "merges.txt",
+      "size": 3353259,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00001-of-00070.safetensors",
+      "size": 1462863088,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00002-of-00070.safetensors",
+      "size": 4636459312,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00003-of-00070.safetensors",
+      "size": 4800023992,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00004-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00005-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00006-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00007-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00008-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00009-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00010-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00011-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00012-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00013-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00014-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00015-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00016-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00017-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00018-of-00070.safetensors",
+      "size": 4800024000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00019-of-00070.safetensors",
+      "size": 4800024008,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00020-of-00070.safetensors",
+      "size": 4800024008,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00021-of-00070.safetensors",
+      "size": 4800024008,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00022-of-00070.safetensors",
+      "size": 4800024008,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00023-of-00070.safetensors",
+      "size": 3292116480,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00024-of-00070.safetensors",
+      "size": 1462863088,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00025-of-00070.safetensors",
+      "size": 1449838912,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00026-of-00070.safetensors",
+      "size": 1462863088,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00027-of-00070.safetensors",
+      "size": 1462863088,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00028-of-00070.safetensors",
+      "size": 1462863088,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00029-of-00070.safetensors",
+      "size": 1449838912,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00030-of-00070.safetensors",
+      "size": 1462863088,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00031-of-00070.safetensors",
+      "size": 1462863088,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00032-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00033-of-00070.safetensors",
+      "size": 1449843544,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00034-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00035-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00036-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00037-of-00070.safetensors",
+      "size": 1449843544,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00038-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00039-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00040-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00041-of-00070.safetensors",
+      "size": 1449843544,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00042-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00043-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00044-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00045-of-00070.safetensors",
+      "size": 1449843544,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00046-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00047-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00048-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00049-of-00070.safetensors",
+      "size": 1449843544,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00050-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00051-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00052-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00053-of-00070.safetensors",
+      "size": 1449843544,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00054-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00055-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00056-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00057-of-00070.safetensors",
+      "size": 1449843544,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00058-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00059-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00060-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00061-of-00070.safetensors",
+      "size": 1449843544,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00062-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00063-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00064-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00065-of-00070.safetensors",
+      "size": 1449843544,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00066-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00067-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00068-of-00070.safetensors",
+      "size": 1462867720,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00069-of-00070.safetensors",
+      "size": 1449843544,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model-00070-of-00070.safetensors",
+      "size": 3453825000,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "size": 23794458,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "model_extra_tensors.safetensors",
+      "size": 5214492152,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "preprocessor_config.json",
+      "size": 443,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "processor_config.json",
+      "size": 1220,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "quantization_config.json",
+      "size": 88464,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "tokenizer.json",
+      "size": 19989325,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 17928,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "video_preprocessor_config.json",
+      "size": 385,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    },
+    {
+      "name": "vocab.json",
+      "size": 6722759,
+      "creationDate": "2026-10-23T16:44:57.584Z"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-27T18:13:10.661977+00:00",
+  "input_paths": [
+    {
+      "DRAFT_MODEL_DIR": "/kaggle/input/models/dfranzen/albucino-qwen3-8-flash-next-drafter/transformers/default/1",
+      "MODEL_DIR": "/kaggle/input/models/dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/transformers/default/1",
+      "ORIG_BUNDLE_DIR": "/kaggle/input/taaf-kaggle-source-bundle-copy",
+      "WHEELHOUSE_DIR": "/kaggle/input/pennyroyal-v253"
+    },
+    {
+      "DRAFT_MODEL_DIR": "/kaggle/input/models/dfranzen/albucino-qwen3-8-flash-next-drafter/transformers/default/1",
+      "MODEL_DIR": "/kaggle/input/models/dfranzen/intel-qwen3.8-flash-next-w4a16-autoround/transformers/default/1",
+      "ORIG_BUNDLE_DIR": "/kaggle/input/taaf-kaggle-source-bundle-copy",
+      "WHEELHOUSE_DIR": "/kaggle/input/pennyroyal-v253"
+    }
+  ],
+  "harness_patch_applied": true,
+  "model_readiness_verified": false,
+  "source": "Exact version live notebook log; final gameplay pending"
+}

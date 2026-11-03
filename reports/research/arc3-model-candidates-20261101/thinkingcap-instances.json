@@ -1,0 +1,42 @@
+{
+  "instances": [
+    {
+      "id": 770873,
+      "ownerSlug": "lamdang",
+      "modelSlug": "thinkingcap-qwen3-8-flash-next-w4a16-autoround",
+      "slug": "default",
+      "versionId": 1041167,
+      "fineTunable": true,
+      "versionNumber": 1,
+      "framework": "MODEL_FRAMEWORK_TRANSFORMERS",
+      "versionNotes": "Initial release",
+      "downloadUrl": "/models/lamdang/thinkingcap-qwen3-8-flash-next-w4a16-autoround/Transformers/default/1/download",
+      "databundleVersionId": 22317760,
+      "lastVersionId": 1041167,
+      "metrics": "",
+      "license": {
+        "id": 30,
+        "name": "Apache 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0",
+        "agreementRequired": false
+      },
+      "databundleId": 13646621,
+      "firestorePath": "Kt7hy4iG59XU4uI3S5VV/versions/T42O47mF4SVrUp6mTjLo",
+      "status": "READY",
+      "databundleVersionType": "GCS_FILE_SET",
+      "creationStatus": {
+        "status": "READY",
+        "creationPercentComplete": 1,
+        "creationLastUpdate": "2026-10-23T16:51:04.135Z",
+        "creationStep": "Ready",
+        "creationStart": "2026-10-23T16:44:58.171Z"
+      },
+      "uncompressedStorageUri": "",
+      "externalBaseModelUrl": "",
+      "modelId": 778671,
+      "totalUncompressedBytes": 181250061882,
+      "sigstoreState": "SIGSTORE_STATE_NONE",
+      "creatorUserId": 292835
+    }
+  ]
+}

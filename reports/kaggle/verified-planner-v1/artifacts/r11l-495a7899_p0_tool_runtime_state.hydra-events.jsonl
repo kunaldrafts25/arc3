@@ -1,0 +1,22 @@
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 39, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 20, "row": 10}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 27, "row": 59}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 58, "row": 32}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 35}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 15, "row": 30}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 2, "encoded_changes": 0, "error": "TypeError: list indices must be integers or slices, not str", "excluded": 5, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "verify", "report": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 2, "encoded_changes": 0, "error": "ValueError: PAL [(5, 2747), (10, 582), (2, 531), (0, 76), (3, 48), (1, 41), (12, 35), (15, 34), (6, 2)]", "excluded": 5, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "verify", "report": {"abstained": 0, "checked": 1, "counterexample": {"action": {"action": "MOUSE", "col": 45, "row": 35}, "after_step": 6, "before_step": 5, "difference": {"expected": "O", "observed": "p", "path": ["diam", 0, 3]}}, "eligible": 2, "encoded_changes": 1, "error": null, "excluded": 5, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "verify", "report": {"abstained": 0, "checked": 1, "counterexample": {"action": {"action": "MOUSE", "col": 45, "row": 35}, "after_step": 6, "before_step": 5, "difference": {"expected": "O", "observed": "p", "path": ["diam", 0, 3]}}, "eligible": 2, "encoded_changes": 1, "error": null, "excluded": 5, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 9, "stop_reason": "unverified_model", "verification": {"abstained": 0, "checked": 1, "counterexample": {"action": {"action": "MOUSE", "col": 45, "row": 35}, "after_step": 6, "before_step": 5, "difference": {"expected": "O", "observed": "p", "path": ["diam", 0, 3]}}, "eligible": 2, "encoded_changes": 1, "error": null, "excluded": 5, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 2, "encoded_changes": 0, "error": "ValueError: CELLS [((6, 17), 12), ((9, 49), 12), ((21, 8), 12), ((48, 54), 15), ((30, 15), 5), ((12, 24), 6), ((41, 49), 6), ((18, 57), 5), ((51, 40), 5), ((12, 57), 5), ((0, 0), 0), ((30, 14), 5)]", "excluded": 5, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "verify", "report": {"abstained": 1, "checked": 0, "counterexample": null, "eligible": 2, "encoded_changes": 0, "error": "ValueError: DIAG [[35, 45, 'W', 'p']][['O', 12, 24], ['p', 41, 49]]", "excluded": 5, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 57, "row": 12}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 51, "row": 30}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 54, "row": 48}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 63, "row": 6}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 54, "row": 25}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 51, "row": 30}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 60, "row": 11}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 49, "row": 9}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 40, "row": 30}, "executed": true}}

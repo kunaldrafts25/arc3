@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-29T10:13:57.565242+00:00",
+  "competition": "arc-prize-2026-arc-agi-3",
+  "leaderboard": [
+    {
+      "team_name": "Yi-Chia Chen @ Fields Model",
+      "score": "75.56"
+    },
+    {
+      "team_name": "Tufa Labs",
+      "score": "70.02"
+    },
+    {
+      "team_name": "Team Turducken",
+      "score": "56.02"
+    }
+  ],
+  "submission": {
+    "ref": 57751759,
+    "status": "COMPLETE",
+    "score": "25.96",
+    "error": ""
+  },
+  "best_completed_official": {
+    "ref": 57726784,
+    "score": 28.45
+  },
+  "quota": "{\"quotaRefreshTime\": \"2026-10-31T00:00:00.000Z\", \"gpuQuota\": {\"timeUsed\": \"21197.730.0s\", \"timeReserved\": \"0s\", \"totalTimeAllowed\": \"21600s\", \"minimumTimeAllowed\": \"21600s\", \"isPayToScaleEnabled\": false, \"hasEverRun\": true}, \"tpuQuota\": {\"timeUsed\": \"0s\", \"timeReserved\": \"0s\", \"totalTimeAllowed\": \"72000s\", \"minimumTimeAllowed\": \"72000s\", \"isPayToScaleEnabled\": false, \"hasEverRun\": true}}",
+  "limits": "{\"numToday\": 1, \"numTotal\": 6, \"numAllowedNow\": 0, \"limitedByTotal\": false}"
+}

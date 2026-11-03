@@ -1,0 +1,6 @@
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-10-25 00:27:00 | INFO | Created new scorecard: 2fc9be78-7e42-4cba-88a0-bf1557f4e648
+2026-10-25 00:27:01 | INFO | Successfully loaded game class Ft09 from environment_files\ft09\0d8bbf25\ft09.py
+NEXT_LEVEL_GROUPS []
+STATS {"meter_pixels": 0, "explore_actions": 193, "visual_panel_probe_actions": 1, "binary_model_hypotheses": 1, "inferred_binary_cells": 8, "visual_goal_hypotheses": 1, "binary_goal_hypotheses": 25, "binary_probe_actions": 7, "plan_actions": 4, "binary_goal_tests": 1, "binary_plan_actions": 4, "binary_predictions": 3, "binary_matches": 3, "binary_level_completions": 1, "click_probe_actions": 185, "ineffective_actions": 87, "repeated_states": 88, "recover_actions": 0, "resets": 3, "reset_models_revalidated": 3}
+CLICK_ACTIVE False CLICK_STEPS 185

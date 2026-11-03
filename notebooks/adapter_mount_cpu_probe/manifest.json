@@ -1,0 +1,9 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-adapter-mount-cpu-probe",
+  "wall_seconds": 600,
+  "cpu_only": true,
+  "files": {
+    "probe.ipynb": "ead25f4958534e570e8aafb5f7afcca13e59e16e1ff650c3f4dbfbbd8df6549b",
+    "kernel-metadata.json": "9600ca9b2484c4343b0996def9162a090e5dfea62dd833fbeb84a2fd94a3b9a6"
+  }
+}

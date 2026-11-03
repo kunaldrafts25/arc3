@@ -1,0 +1,14 @@
+{"bounds": [12, 18, 28, 34], "level": 3, "returned_cells": 9, "step": 14, "stride": [2, 2], "tool": "read_region"}
+{"bounds": [12, 18, 28, 34], "level": 3, "returned_cells": 9, "step": 14, "stride": [2, 2], "tool": "read_region"}
+{"bounds": [28, 34, 20, 26], "level": 3, "returned_cells": 9, "step": 14, "stride": [2, 2], "tool": "read_region"}
+{"bounds": [28, 34, 36, 42], "level": 3, "returned_cells": 9, "step": 14, "stride": [2, 2], "tool": "read_region"}
+{"bounds": [44, 50, 28, 34], "level": 3, "returned_cells": 9, "step": 14, "stride": [2, 2], "tool": "read_region"}
+{"bounds": [12, 18, 28, 34], "level": 3, "returned_cells": 36, "step": 14, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [28, 34, 20, 26], "level": 3, "returned_cells": 36, "step": 14, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [28, 34, 36, 42], "level": 3, "returned_cells": 36, "step": 14, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [44, 50, 28, 34], "level": 3, "returned_cells": 36, "step": 14, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [12, 18, 28, 34], "level": 3, "returned_cells": 36, "step": 23, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [28, 34, 20, 26], "level": 3, "returned_cells": 36, "step": 23, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [28, 34, 36, 42], "level": 3, "returned_cells": 36, "step": 23, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [44, 50, 28, 34], "level": 3, "returned_cells": 36, "step": 23, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [0, 8, 58, 64], "level": 3, "returned_cells": 12, "step": 23, "stride": [2, 2], "tool": "read_region"}

@@ -1,0 +1,14 @@
+{
+  "before_shape": [
+    18,
+    15
+  ],
+  "after_shape": [
+    15,
+    18
+  ],
+  "matching_quarter_turns": [
+    3
+  ],
+  "scope": "Observed source object and attached orange components only; disconnected HUD pixel excluded by connectivity. One transition is not a global rule proof."
+}

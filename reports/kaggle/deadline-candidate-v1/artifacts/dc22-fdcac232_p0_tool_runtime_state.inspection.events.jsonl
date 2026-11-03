@@ -1,0 +1,10 @@
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 63, "step": 4, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 1, "row": 0, "step": 4, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 1, "row": 54, "step": 4, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 1, "row": 63, "step": 0, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 63, "step": 1, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 63, "step": 2, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 63, "step": 3, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 63, "step": 4, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 63, "step": 5, "tool": "row_runs"}
+{"bounds": [22, 34, 24, 34], "level": 5, "returned_cells": 30, "step": 282, "stride": [2, 2], "tool": "read_region"}

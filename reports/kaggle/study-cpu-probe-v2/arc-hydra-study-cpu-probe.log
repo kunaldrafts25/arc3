@@ -1,0 +1,21 @@
+[{"stream_name":"stderr","time":10.828867879,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.828936807,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.828944421,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.828948395,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.650058782,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.650099805,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.650104937,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.650109145,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":23.585332166,"data":"ARC_HYDRA_VERIFIED_PLANNING_INSTALLED {\"enforce_probes\": false, \"extension\": \"planning-assist-v1\", \"files\": {\"python_tool_sandbox.py\": {\"after\": \"83ef0d3092e079f51cdb7da32e96dcb108473daf49f291f5e1e4bb3c02fe8385\", \"before\": \"3900b7255842df04be9ad08f91b521279a2e63f8226ac4bc77fb6de7a4e36943\"}, \"tool_agent.py\": {\"after\": \"283132b535967c5a78a098f93431e72ea3c6a149848e61c819452eae92e3869e\", \"before\": \"053556f4a2d19bbb0f04d3ecde14bad2d76abfe91e89254740b763136a5a8e82\"}}, \"library_sha256\": \"83057d90c3248775260aa3cc5d06a9f59a36572298dc0d41ef58a858a9a4efe0\"}\n"}
+,{"stream_name":"stdout","time":23.663328233,"data":"ARC_HYDRA_STUDY_INSTALLED {\"extension\": \"general-study-v1\", \"files\": {\"python_tool_sandbox.py\": {\"after\": \"d22bd92c65f03b9eda64b7c09c7e99e2799fb2b2c07951b26a16195b16b79ff3\", \"before\": \"83ef0d3092e079f51cdb7da32e96dcb108473daf49f291f5e1e4bb3c02fe8385\"}, \"tool_agent.py\": {\"after\": \"67b831a00cff5e3735d4723c8aeaf2fa8b1670faa5507fb154f446ae1766467c\", \"before\": \"283132b535967c5a78a098f93431e72ea3c6a149848e61c819452eae92e3869e\"}}, \"guidance_sha256\": \"75e30f3ce69688e14fb6d01512d8c04d42fa9596dac8067030d3648d30a361e3\", \"library_sha256\": \"52749cb8bc4d80bee73d7621ac9ee017280ba427b4b204f310a4abe0c6eac0fd\"}\n"}
+,{"stream_name":"stdout","time":24.827132014,"data":"VERIFIED_AGENT_CPU_PROBE_PASSED {\"cases\": 8}\n"}
+,{"stream_name":"stdout","time":25.554523907,"data":"STUDY_CPU_PROBE_PASSED {\"passed\": true, \"base_mechanical_cases\": 8, \"prompt_combinations\": 16, \"study_cases\": [\"real_sandbox_exports_evidence_note\", \"real_sandbox_restores_next_call\", \"unseen_evidence_rejected_without_losing_memory\", \"oversized_note_rejected\", \"prior_level_claim_is_not_silently_certified\", \"fresh_game_input_has_no_prior_notes\", \"actual_host_persists_child_memory\", \"actual_host_restarts_context_and_renders_memory\", \"actual_host_same_directory_game_isolation\"], \"boundary\": \"Synthetic CPU tests of real sandbox/host and prompt paths. No model inference, ARC gameplay or score gain established.\"}\n"}
+,{"stream_name":"stderr","time":28.936043496,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":28.936085763,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":29.152689261,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":29.152728808,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":29.932004027,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":30.333723911,"data":"[NbConvertApp] Writing 585888 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":33.486230014,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":34.686573706,"data":"[NbConvertApp] Writing 1497668 bytes to __results__.html\n"}
+]

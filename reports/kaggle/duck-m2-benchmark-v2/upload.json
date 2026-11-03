@@ -1,0 +1,10 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-duck-m2-baseline/2",
+  "timeout_seconds": 12000,
+  "purpose": "All 25 public games, one pass, two hours after backend readiness",
+  "files": {
+    "kernel-metadata.json": "e1d0848e259e69746e41ed5686557eb5157a2d1c3db313e441087bd699676f99",
+    "provenance.json": "ba6bb47e9af66ba50f900aa5fcdc1acbc2733342337c9d5a1cc37c96b7e9fa05",
+    "submission.ipynb": "a29c1315f792e2085f3f3d79ee965e44f9c3010c3265f98fdfab5f825b367724"
+  }
+}

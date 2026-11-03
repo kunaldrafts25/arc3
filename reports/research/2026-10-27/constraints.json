@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-27T13:58:36.178562+00:00",
+  "official_pages": [
+    {
+      "name": "Evaluation",
+      "content": "Scores for individual game range from 0 to 100%. A score of 100% represents an agent matching human-level performance, meaning it beat every game while matching the number of actions humans took. While an agent could theoretically exceed 100% by using fewer moves, scores are capped at 100%. The final score averages individual game scores across levels. Read more at the [ARC-AGI-3 Scoring Methodology page](https://docs.arcprize.org/methodology).\n\n## Submission File\n\nSubmission files are automatically calculated. As long as the agent takes action on _any_ of the games, a submission file for all of the games is created. "
+    },
+    {
+      "name": "Timeline",
+      "content": "* **March 25, 2026** - Start Date. \n* **June 30, 2026 (optional)** - Deadline for Milestone 1.\n* **September 30, 2026 (optional)** - Deadline for Milestone 2.\n* **October 26, 2026** - Entry Deadline. You must accept the competition rules before this date in order to compete. \n* **October 26, 2026** - Team Merger Deadline. This is the last day participants may join or merge teams. \n* **November 2, 2026** - Final Submission Deadline. \n* **December 4, 2026** - Winners announcement.\n\nAll deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted. The competition organizers reserve the right to update the contest timeline if they deem it necessary."
+    },
+    {
+      "name": "Code Requirements",
+      "content": "<img src=\"https://storage.googleapis.com/kaggle-media/competitions/general/Kerneler-white-desc2_transparent.png\" style=\"float: right; width: 70px; padding: 10px\">\n\nSubmissions to this competition must be made through Notebooks. In order for the \"Submit\" button to be active after a commit, the following conditions must be met: \n- CPU Notebook <= 9 hours run-time \n- GPU Notebook <= 9 hours run-time \n- Internet access disabled \n- Freely & publicly available external data is allowed, including pre-trained models \n- Submission file will be automatically generated.\n\nPlease see the [Code Competition FAQ](https://www.kaggle.com/docs/competitions#notebooks-only-FAQ) for more information on how to submit. And review the [code debugging doc](https://www.kaggle.com/code-competition-debugging) if you are encountering submission errors."
+    },
+    {
+      "name": "Upgraded accelerators",
+      "content": "We're excited to announce that we've added RTX 6000 machines to the ARC-AGI-3 hardware pool!  See [this page](https://docs.cloud.google.com/compute/docs/accelerator-optimized-machines#g4-machine-types) for more on these machines. Kaggle uses machine type `g4-standard-48`.\n\nWhat you need to know:\n\n- ARC-AGI-3 3 Only - RTX are only available for notebooks attached to this competition, use of RTX for any other activity could result in moderation action (e.g. site suspension or account ban).\n- No Internet - To help ensure these machines are reserved for competition use, all RTX sessions must have internet disabled."
+    }
+  ],
+  "quota": {
+    "used_seconds": 49245.598,
+    "allowed_seconds": 108000.0,
+    "reserved_seconds": 0.0,
+    "remaining_seconds": 58754.402,
+    "pay_to_scale_enabled": false,
+    "refresh_time": "2026-10-31T00:00:00"
+  }
+}

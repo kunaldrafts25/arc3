@@ -1,0 +1,10 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-training-data-offline-probe",
+  "cpu_only": true,
+  "wall_seconds": 1800,
+  "input_archive_sha256": "10e5df7fbe82f82f4cbf95e923e465b900184e36fa9877fbafdf752e6b549961",
+  "files": {
+    "probe.ipynb": "d561571e0c911df0121fa11e4042f7fa4f4b25f35d1bf792e1bbeb3e4f56178e",
+    "kernel-metadata.json": "a329c48d65634faa555ddde6049a5a78d92c0e6d22454b698ff97098b32d016a"
+  }
+}

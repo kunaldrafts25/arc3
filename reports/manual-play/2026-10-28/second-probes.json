@@ -1,0 +1,188 @@
+[
+  [
+    "ar25",
+    2,
+    null,
+    "Inverse-control test: predict return of the two moved structures while the action counter continues."
+  ],
+  [
+    "bp35",
+    4,
+    null,
+    "Inverse lateral probe: test whether the small actor returns without assuming gravity or camera behavior."
+  ],
+  [
+    "cd82",
+    6,
+    {
+      "x": 31,
+      "y": 28
+    },
+    "Prior UP changed only a corner counter. Test whether selecting the central block enables manipulation."
+  ],
+  [
+    "cn04",
+    4,
+    null,
+    "Inverse translation test for the white-orange structure; keep its role separate from the goal hypothesis."
+  ],
+  [
+    "dc22",
+    6,
+    {
+      "x": 8,
+      "y": 34
+    },
+    "Test whether a visible left-side element is selectable after the arrow probe produced little change."
+  ],
+  [
+    "ft09",
+    6,
+    {
+      "x": 52,
+      "y": 48
+    },
+    "Repeat exactly the prior cell click to distinguish a binary toggle from a longer color cycle or irreversible action."
+  ],
+  [
+    "g50t",
+    3,
+    null,
+    "Inverse test for the yellow moving square; the orange left object did not move in the first probe."
+  ],
+  [
+    "ka59",
+    3,
+    null,
+    "Inverse control while comparing both purple markers; determine whether control is shared or selective."
+  ],
+  [
+    "lf52",
+    6,
+    {
+      "x": 19,
+      "y": 19
+    },
+    "The initial arrow changed only a corner marker. Click an exact occupied purple component to test selection."
+  ],
+  [
+    "lp85",
+    6,
+    {
+      "x": 50,
+      "y": 21
+    },
+    "Correct the previous empty-space hit: click a measured component point inside the gray perimeter tile."
+  ],
+  [
+    "ls20",
+    2,
+    null,
+    "Test reverse movement of the blue-yellow object; the white cross remained stationary and may be a goal."
+  ],
+  [
+    "m0r0",
+    3,
+    null,
+    "Reverse the first arrow intervention and test whether the changed lower region returns."
+  ],
+  [
+    "r11l",
+    6,
+    {
+      "x": 41,
+      "y": 21
+    },
+    "Click the visible destination region to distinguish click-to-aim from endpoint selection; previous endpoint click had no gameplay effect."
+  ],
+  [
+    "re86",
+    2,
+    null,
+    "Inverse-action test of the changed yellow mechanism; compare relative poses, not total pixel changes."
+  ],
+  [
+    "s5i5",
+    6,
+    {
+      "x": 24,
+      "y": 38
+    },
+    "Click an exact colored component in a framed pair after the earlier click hit empty space."
+  ],
+  [
+    "sb26",
+    6,
+    {
+      "x": 30,
+      "y": 28
+    },
+    "Keyboard action changed only a counter. Test selection of the central outlined assembly."
+  ],
+  [
+    "sc25",
+    6,
+    {
+      "x": 16,
+      "y": 50
+    },
+    "An arrow had no effect. Test whether the lower visible piece must first be selected."
+  ],
+  [
+    "sk48",
+    2,
+    null,
+    "Reverse movement while tracking pink object and attached gray elements separately."
+  ],
+  [
+    "sp80",
+    2,
+    null,
+    "Opposite-arrow test: distinguish reversible translation from a global phase change."
+  ],
+  [
+    "su15",
+    6,
+    {
+      "x": 50,
+      "y": 15
+    },
+    "Use a measured occupied pixel on the yellow target; the previous boundary click only changed the counter."
+  ],
+  [
+    "tn36",
+    6,
+    {
+      "x": 30,
+      "y": 33
+    },
+    "Test the lower blue U-shaped feature after the first click on the upper feature was ineffective."
+  ],
+  [
+    "tr87",
+    2,
+    null,
+    "Test whether opposite input reverses the glyph change; do not infer the symbolic rule from one transition."
+  ],
+  [
+    "tu93",
+    3,
+    null,
+    "Inverse transformation test of the moved checkerboard feature."
+  ],
+  [
+    "vc33",
+    6,
+    {
+      "x": 39,
+      "y": 29
+    },
+    "Hit the measured blue control; the first click was on the neighboring black segment."
+  ],
+  [
+    "wa30",
+    2,
+    null,
+    "Reverse the purple actor movement; keep the yellow outline as an unverified destination hypothesis."
+  ]
+]

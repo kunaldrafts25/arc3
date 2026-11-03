@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-28T19:04:25.559365+00:00",
+  "gate": "kunalsinghh25/arc-hydra-inspection-cpu-probe/1",
+  "status": "COMPLETE",
+  "launched": false,
+  "files": {
+    "kernel-metadata.json": "b5a1199ebd07978f66ccd41a0b511a39303f9fe42f829f1fdd22d5a44fcb4837",
+    "provenance.json": "d31511f45fbd271382fd5dadf33df72d97a174c7f0a8d067bc9f65c7939027ec",
+    "submission.ipynb": "dcc6a551ef26b5a2561a1b3a25efe6090eb16f336a5e285b658d3b17d2eb8aad"
+  },
+  "wall_budget_seconds": 32400,
+  "finalization_reserve_seconds": 600,
+  "model_gameplay_verified": false
+}

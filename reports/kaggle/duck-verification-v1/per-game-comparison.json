@@ -1,0 +1,263 @@
+{
+  "source_sha256": {
+    "baseline": "ea1b36ae74f2c56d2d0f27423995ba47276f965d98f56743531f22cd9a6e5e5f",
+    "verification": "d0648dfab494ca1f8966a687f890ac9ff86cc22674212e8ee75145d48d007b63"
+  },
+  "games_improved": 9,
+  "games_worsened": 7,
+  "games_equal": 9,
+  "full_wins_in_both": 4,
+  "rows": [
+    {
+      "game": "r11l-495a7899",
+      "baseline_score": 14.285714285714285,
+      "verification_score": 100.0,
+      "score_delta": 85.71428571428572,
+      "baseline_levels": 2,
+      "verification_levels": 6,
+      "baseline_won": false,
+      "verification_won": true
+    },
+    {
+      "game": "vc33-5430563c",
+      "baseline_score": 21.428571428571427,
+      "verification_score": 100.0,
+      "score_delta": 78.57142857142857,
+      "baseline_levels": 3,
+      "verification_levels": 7,
+      "baseline_won": false,
+      "verification_won": true
+    },
+    {
+      "game": "cd82-fb555c5d",
+      "baseline_score": 35.898025759822495,
+      "verification_score": 100.0,
+      "score_delta": 64.1019742401775,
+      "baseline_levels": 4,
+      "verification_levels": 6,
+      "baseline_won": false,
+      "verification_won": true
+    },
+    {
+      "game": "ls20-9607627b",
+      "baseline_score": 16.15174762207464,
+      "verification_score": 44.82766396318876,
+      "score_delta": 28.67591634111412,
+      "baseline_levels": 3,
+      "verification_levels": 5,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "sc25-635fd71a",
+      "baseline_score": 67.14599736882118,
+      "verification_score": 79.34406671477505,
+      "score_delta": 12.198069345953868,
+      "baseline_levels": 5,
+      "verification_levels": 6,
+      "baseline_won": false,
+      "verification_won": true
+    },
+    {
+      "game": "sb26-7fbdac44",
+      "baseline_score": 92.21261053440985,
+      "verification_score": 100.0,
+      "score_delta": 7.787389465590152,
+      "baseline_levels": 8,
+      "verification_levels": 8,
+      "baseline_won": true,
+      "verification_won": true
+    },
+    {
+      "game": "tu93-0768757b",
+      "baseline_score": 73.0719555847761,
+      "verification_score": 80.0,
+      "score_delta": 6.928044415223894,
+      "baseline_levels": 8,
+      "verification_levels": 8,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "lf52-271a04aa",
+      "baseline_score": 2.2239375038750078,
+      "verification_score": 5.454545454545454,
+      "score_delta": 3.2306079506704464,
+      "baseline_levels": 2,
+      "verification_levels": 2,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "bp35-0a0ad940",
+      "baseline_score": 0.5829863176680548,
+      "verification_score": 3.52077376650852,
+      "score_delta": 2.9377874488404654,
+      "baseline_levels": 1,
+      "verification_levels": 2,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "sk48-d8078629",
+      "baseline_score": 0.0,
+      "verification_score": 0.0,
+      "score_delta": 0.0,
+      "baseline_levels": 0,
+      "verification_levels": 0,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "lp85-305b61c3",
+      "baseline_score": 100.0,
+      "verification_score": 100.0,
+      "score_delta": 0.0,
+      "baseline_levels": 8,
+      "verification_levels": 8,
+      "baseline_won": true,
+      "verification_won": true
+    },
+    {
+      "game": "wa30-ee6fef47",
+      "baseline_score": 2.2222222222222223,
+      "verification_score": 2.2222222222222223,
+      "score_delta": 0.0,
+      "baseline_levels": 1,
+      "verification_levels": 1,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "sp80-589a99af",
+      "baseline_score": 4.761904761904762,
+      "verification_score": 4.761904761904762,
+      "score_delta": 0.0,
+      "baseline_levels": 1,
+      "verification_levels": 1,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "ar25-0c556536",
+      "baseline_score": 100.0,
+      "verification_score": 100.0,
+      "score_delta": 0.0,
+      "baseline_levels": 8,
+      "verification_levels": 8,
+      "baseline_won": true,
+      "verification_won": true
+    },
+    {
+      "game": "re86-8af5384d",
+      "baseline_score": 41.66666666666667,
+      "verification_score": 41.66666666666667,
+      "score_delta": 0.0,
+      "baseline_levels": 5,
+      "verification_levels": 5,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "ft09-0d8bbf25",
+      "baseline_score": 100.0,
+      "verification_score": 100.0,
+      "score_delta": 0.0,
+      "baseline_levels": 6,
+      "verification_levels": 6,
+      "baseline_won": true,
+      "verification_won": true
+    },
+    {
+      "game": "su15-1944f8ab",
+      "baseline_score": 22.22222222222222,
+      "verification_score": 22.22222222222222,
+      "score_delta": 0.0,
+      "baseline_levels": 4,
+      "verification_levels": 4,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "tr87-cd924810",
+      "baseline_score": 71.42857142857143,
+      "verification_score": 71.42857142857143,
+      "score_delta": 0.0,
+      "baseline_levels": 5,
+      "verification_levels": 5,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "g50t-5849a774",
+      "baseline_score": 21.428571428571427,
+      "verification_score": 21.167222809142206,
+      "score_delta": -0.2613486194292207,
+      "baseline_levels": 3,
+      "verification_levels": 3,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "tn36-ef4dde99",
+      "baseline_score": 3.571428571428571,
+      "verification_score": 1.8059964726631395,
+      "score_delta": -1.7654320987654317,
+      "baseline_levels": 1,
+      "verification_levels": 1,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "s5i5-18d95033",
+      "baseline_score": 16.666666666666664,
+      "verification_score": 8.333333333333332,
+      "score_delta": -8.333333333333332,
+      "baseline_levels": 3,
+      "verification_levels": 2,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "ka59-38d34dbb",
+      "baseline_score": 68.0356036028502,
+      "verification_score": 35.714285714285715,
+      "score_delta": -32.32131788856449,
+      "baseline_levels": 6,
+      "verification_levels": 4,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "dc22-fdcac232",
+      "baseline_score": 47.61904761904761,
+      "verification_score": 0.0,
+      "score_delta": -47.61904761904761,
+      "baseline_levels": 4,
+      "verification_levels": 0,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "cn04-2fe56bfb",
+      "baseline_score": 71.42857142857143,
+      "verification_score": 4.761904761904762,
+      "score_delta": -66.66666666666667,
+      "baseline_levels": 5,
+      "verification_levels": 1,
+      "baseline_won": false,
+      "verification_won": false
+    },
+    {
+      "game": "m0r0-492f87ba",
+      "baseline_score": 100.0,
+      "verification_score": 28.57142857142857,
+      "score_delta": -71.42857142857143,
+      "baseline_levels": 6,
+      "verification_levels": 3,
+      "baseline_won": true,
+      "verification_won": false
+    }
+  ],
+  "boundary": "One stochastic public pass per arm, shared scheduler, no paired-seed replication. Differences are descriptive and do not establish a causal effect or hidden-game performance. No game-ID dispatch or retrospective oracle policy is deployed."
+}

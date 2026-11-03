@@ -1,0 +1,50 @@
+{
+  "files": {
+    "16k/train.jsonl": {
+      "sha256": "fd73b3802e886bd4dc6c443ac24388f3c491f7720b6213ded89e4bc5889d71c5",
+      "bytes": 7031316
+    },
+    "16k/validation.jsonl": {
+      "sha256": "c8527dde162787d496e842a6a4684cf692e9490211b8ce520176ade02c8ea452",
+      "bytes": 2815735
+    },
+    "32k/train.jsonl": {
+      "sha256": "d3e8c271f7fc67c3c5ff72019946ff5a46bf4f90f0bbc973b08da58c44c19efe",
+      "bytes": 18380809
+    },
+    "32k/validation.jsonl": {
+      "sha256": "c40c876828c0338036fdde844e1d47f7d66f575dfc22e5e9721a33dc39489d74",
+      "bytes": 4696845
+    },
+    "wheels/accelerate-1.15.0-py3-none-any.whl": {
+      "sha256": "97eacca0b73e45cb867dbf8c5d5d4dc32219544300e0c8992c7334dc2ef33cec",
+      "bytes": 394295
+    },
+    "wheels/fla_core-0.6.0-py3-none-any.whl": {
+      "sha256": "b0708b70e0b119cd58a0a5146ea56cb175cef6ed969d8ac60267e3e077ce3ebd",
+      "bytes": 1085221
+    },
+    "wheels/flash_linear_attention-0.6.0-py3-none-any.whl": {
+      "sha256": "6dec9735f8454523c13553622e98aff30152dde6586b4ac7d88010fbb7a06b5f",
+      "bytes": 403549
+    },
+    "wheels/peft-0.21.2-py3-none-any.whl": {
+      "sha256": "106ab6077ff72c54d21577f9af5970e34bac7582cb14209f7b2b511e322a4eae",
+      "bytes": 835427
+    },
+    "arc3_training_collator.py": {
+      "sha256": "e27f3881e0b83ab3f3cdc4da216158ed5dd69e6807891e5ea925702766170858",
+      "bytes": 2460
+    },
+    "split.json": {
+      "sha256": "ce36006c553278e8282b9e8ca05bfa0b6f6b39a9ffc831d03dd9419e760e5525",
+      "bytes": 1233
+    },
+    "base-requirements.lock": {
+      "sha256": "4b0ee12848c1e7c3a51b0819de3a1ae63a967313fd1f62b9e2ca6b9c82b8da02",
+      "bytes": 4187
+    }
+  },
+  "purpose": "Private offline ARC3 training/evaluation inputs. No pretrained weights, credentials, hidden games or test-game examples.",
+  "attribution": "Agent/prompt source Daniel Franzen, Jeroen Cottaar and Tufa Labs, Apache2.0. Our own recorded Qwen agent outputs. Upstream dependency licenses remain inside wheels. Preserve applicable original notices; no blanket relicensing of third-party material."
+}

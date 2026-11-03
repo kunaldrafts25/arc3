@@ -1,0 +1,19 @@
+{
+  "phase": "accepted",
+  "kernel": "kunalsinghh25/arc-hydra-model-compatibility-cpu-probe",
+  "cpu_only": true,
+  "hard_session_timeout_seconds": 1800,
+  "checked_at": "2026-11-01T08:20:40.571966+00:00",
+  "shared_arc2_status": "COMPLETE",
+  "available_gpu_seconds": 101311.34,
+  "files": {
+    "probe.ipynb": "17411925a4fbd0cc89ae585757d1b8b522dd79ee0de33b477857f05371661909",
+    "kernel-metadata.json": "a261e2d562914c06ad28f0d67058ac888e585016bd1cd4b485a968e932eedc9b"
+  },
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-model-compatibility-cpu-probe",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-model-compatibility-cpu-probe",
+    "versionNumber": 1,
+    "kernelId": 142075857
+  }
+}

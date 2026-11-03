@@ -1,0 +1,44 @@
+{
+  "splits": [
+    {
+      "split": "train",
+      "examples": 158,
+      "games": [
+        "bp35-0a0ad940",
+        "cd82-fb555c5d",
+        "ft09-0d8bbf25",
+        "g50t-5849a774",
+        "lp85-305b61c3",
+        "m0r0-492f87ba",
+        "r11l-495a7899",
+        "re86-8af5384d",
+        "sk48-d8078629",
+        "sp80-589a99af",
+        "su15-1944f8ab",
+        "tn36-ef4dde99",
+        "tr87-cd924810",
+        "tu93-0768757b",
+        "vc33-5430563c",
+        "wa30-ee6fef47"
+      ],
+      "mismatches": [],
+      "full_tokens": 1626879,
+      "supervised_text_tokens": 103939
+    },
+    {
+      "split": "validation",
+      "examples": 57,
+      "games": [
+        "dc22-fdcac232",
+        "lf52-271a04aa",
+        "sb26-7fbdac44",
+        "sc25-635fd71a"
+      ],
+      "mismatches": [],
+      "full_tokens": 643844,
+      "supervised_text_tokens": 32984
+    }
+  ],
+  "all_observed_levels_match": true,
+  "boundary": "Recorded-user-level validation of the selected causal input. Not verified reasoning or game transfer."
+}

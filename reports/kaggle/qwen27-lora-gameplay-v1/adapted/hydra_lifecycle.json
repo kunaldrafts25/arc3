@@ -1,0 +1,20 @@
+{
+  "phase": "run_finished",
+  "context": {
+    "competition": false,
+    "variant": "lora-adapted",
+    "games": 5
+  },
+  "gameplay": {
+    "games": 5,
+    "model_gameplay_games": 5,
+    "actions": 615,
+    "generated_tokens": 929251,
+    "levels_completed": 7,
+    "states": {
+      "cancelled": 5
+    }
+  },
+  "error": null,
+  "checked_at": "2026-11-01T19:02:58.145884+00:00"
+}

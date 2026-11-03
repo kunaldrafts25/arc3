@@ -1,0 +1,10 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-inspection-cpu-probe/1",
+  "recorded_at": "2026-10-28T18:55:55.128722+00:00",
+  "files": {
+    "kernel-metadata.json": "2984cc57de10eb232551fa611bdaaf62b9cfc6052608def751a86bbc49728559",
+    "probe.ipynb": "2f6f7bcfb6b5326ce4a6dc5c34ca4ec0b981b9fc17402b7172ce93b906ee3e93",
+    "source-manifest.json": "402245a5368701a8ef4f010750ae59caf1a7071394d1aff3db6809ed1afebb31"
+  },
+  "local_tests_passed": 124
+}

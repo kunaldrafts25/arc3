@@ -1,0 +1,30 @@
+name: Source checks
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install CPU test dependencies
+        run: python -m pip install numpy pytest jinja2 pillow
+      - name: Audit release files
+        run: python -m scripts.audit_release
+      - name: Run self-contained tests
+        run: >-
+          python -m pytest -q
+          tests/test_core.py
+          tests/test_prediction_ledger.py
+          tests/test_prediction_host.py
+          tests/test_prediction_adoption.py
+          tests/test_arc3_comparison.py
+          tests/test_arc3_allocation_bound.py
+          tests/test_arc3_teacher_alignment.py
+          tests/test_release_audit.py

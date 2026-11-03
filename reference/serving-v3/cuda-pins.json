@@ -1,0 +1,7 @@
+{
+  "nvidia-cuda-nvcc": "13.3.73",
+  "nvidia-cuda-crt": "13.3.73",
+  "nvidia-nvvm": "13.3.73",
+  "nvidia-cuda-runtime": "13.3.29",
+  "nvidia-cuda-cccl": "13.3.4.3.1"
+}

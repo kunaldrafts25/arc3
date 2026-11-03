@@ -1,0 +1,41 @@
+{
+  "phase": "observation_stopped",
+  "kernel": "kunalsinghh25/arc-hydra-qwen27-lora-gameplay",
+  "pid": 22236,
+  "files": {
+    "submission.ipynb": "979aa9a8d6a9c7ffd88139918d0a941d20eaf9d23b3116d75c1157031e09bdaa",
+    "kernel-metadata.json": "a69827bd421cba132f183624114407ea0864e04942ba1c7110e7d04bde92ae29",
+    "provenance.json": "286031ac6d544c3e9985650648231db23390cb282e08b3cd679c4f0bb5f63cfe"
+  },
+  "hard_session_timeout_seconds": 7200,
+  "resources": {
+    "allowed": true,
+    "reason": "One two-hour screen; only acknowledged capped ARC3 capacity job may overlap; ARC2 and final evaluation reserves preserved",
+    "available_gpu_seconds": 73076.909224,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [
+      {
+        "kernel": "kunalsinghh25/arc-hydra-qwen27-fair-capacity",
+        "status": "RUNNING",
+        "accelerator": "unclassified"
+      }
+    ],
+    "arc2_free_seconds_floor": 10800,
+    "final_official_free_seconds_floor": 32400,
+    "recorded_at": "2026-11-01T17:12:20.980643+00:00"
+  },
+  "scope": "One paired base/adapter real-game screen. No automatic promotion or official submission.",
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-qwen27-lora-gameplay",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-qwen27-lora-gameplay",
+    "versionNumber": 1,
+    "kernelId": 142147595
+  },
+  "recorded_at": "2026-11-01T19:04:41.125811+00:00",
+  "exact_kernel": "kunalsinghh25/arc-hydra-qwen27-lora-gameplay/1",
+  "kernel_status": "COMPLETE",
+  "error_type": "JSONDecodeError",
+  "reason": "Extra data: line 27 column 2 (char 644)"
+}

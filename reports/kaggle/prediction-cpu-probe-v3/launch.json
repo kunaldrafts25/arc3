@@ -1,0 +1,19 @@
+{
+  "phase": "accepted",
+  "checked_at": "2026-10-29T11:55:32.712471+00:00",
+  "kernel": "kunalsinghh25/arc-hydra-prediction-cpu-probe",
+  "cpu_only": true,
+  "shared_arc2_development_status": "COMPLETE",
+  "available_gpu_seconds": 402.27,
+  "files": {
+    "kernel-metadata.json": "be6f29291a4d8a78a2f97711a1159ec1bed22748be7fd68916b98ce05351aa81",
+    "probe.ipynb": "ba5caec4676032f54d8c71fc6e45d35fb302db8d88a586eb5a47973dfc90720e",
+    "source-manifest.json": "0d31f49aa2f3322ee589aaa42c83be682e2d18a3b87152a220c17b35bccb4608"
+  },
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-prediction-cpu-probe",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-prediction-cpu-probe",
+    "versionNumber": 3,
+    "kernelId": 141489683
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "instances": [
+    {
+      "id": 733563,
+      "ownerSlug": "mikedan7",
+      "modelSlug": "qwen3-8-27b-fp8-official",
+      "slug": "hf-fp8",
+      "versionId": 972203,
+      "fineTunable": false,
+      "overview": "Official Qwen/Qwen3.8-27B-FP8 at pinned revision 017b9c7af6b5689d5dd426a76e0bc077eb5ca20a, mirrored byte-for-byte.",
+      "usage": "# Model Format\n\nHugging Face safetensors, FP8 e4m3 with `weight_block_size [128, 128]`. Loads directly in vLLM.\n\n# Model Inputs\n\nText. The vision tower is present but unused by our harness.\n\n# Model Usage\n\nAttach as a model source and point vLLM at the mounted directory.\n\n# Changelog\n\n- 1: initial mirror of revision `017b9c7af6b5689d5dd426a76e0bc077eb5ca20a`, unmodified.",
+      "versionNumber": 1,
+      "framework": "MODEL_FRAMEWORK_PY_TORCH",
+      "versionNotes": "Initial release",
+      "downloadUrl": "/models/mikedan7/qwen3-8-27b-fp8-official/PyTorch/hf-fp8/1/download",
+      "databundleVersionId": 20205711,
+      "lastVersionId": 972203,
+      "metrics": "",
+      "license": {
+        "id": 30,
+        "name": "Apache 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0",
+        "agreementRequired": false
+      },
+      "databundleId": 12537119,
+      "firestorePath": "BZe91UxCb6GMvMmzeb8n/versions/wqPFDQl6SQQof3q9GYJp",
+      "status": "READY",
+      "databundleVersionType": "FILESET",
+      "creationStatus": {
+        "status": "READY",
+        "creationPercentComplete": 1,
+        "creationLastUpdate": "2026-08-22T11:18:53.382Z",
+        "creationStep": "Ready",
+        "creationStart": "2026-08-22T11:07:52.562Z"
+      },
+      "uncompressedStorageUri": "",
+      "externalBaseModelUrl": "",
+      "modelId": 745013,
+      "totalUncompressedBytes": 30890068612,
+      "sigstoreState": "SIGSTORE_STATE_NONE",
+      "creatorUserId": 21369947
+    }
+  ]
+}

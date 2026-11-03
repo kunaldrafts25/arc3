@@ -1,0 +1,22 @@
+{
+  "id": "kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair",
+  "id_no": 140810676,
+  "title": "ARC Hydra Pennyroyal v3 Dependency Repair",
+  "code_file": "arc-hydra-pennyroyal-v3-dependency-repair.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "kunalsinghh25/arc-hydra-retained-v3-native-wheel",
+    "dfranzen/pennyroyal-v253"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:57e612b484cf3df5026ee4dcc3cb176974b22b2bc0937fb1e16132a8be4cb13c",
+  "machine_shape": "None"
+}

@@ -1,0 +1,25 @@
+{
+  "phase": "complete",
+  "arms": {
+    "base": {
+      "games": 5,
+      "score": 15.714285714285714,
+      "levels": 12,
+      "full_wins": 0,
+      "actions": 548,
+      "generated_tokens": 853615
+    },
+    "adapted": {
+      "games": 5,
+      "score": 5.330145611963793,
+      "levels": 7,
+      "full_wins": 0,
+      "actions": 615,
+      "generated_tokens": 929251
+    }
+  },
+  "finished_at_epoch": 1793559778.1465604,
+  "official_submission_eligible": false,
+  "boundary": "Five public whole-game gradient holdouts, previously studied by the researcher. Paired shared-server screening with one stochastic draw; no hidden-score estimate or automatic promotion.",
+  "adapted_minus_base_score": -10.38414010232192
+}

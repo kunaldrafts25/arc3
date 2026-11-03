@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-10-28T18:45:56.282769+00:00",
+  "cases": [
+    {
+      "game": "bp35-0a0ad940",
+      "source_sha256": "2479bd47fcb9cdc2c47a39c4745a091458f8b8a375d5e16eb9d4b3f7023b0a6e",
+      "finding": "A late Python tool call defines runs with endpoint i+j-1 although j is already the absolute exclusive end.",
+      "inspected_expression": "out.append((i,i+j-1)); i=j",
+      "reproduction": {
+        "input": "BBwwBB",
+        "actual": [
+          [
+            2,
+            5
+          ]
+        ],
+        "expected_inclusive_runs": [
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "boundary": "Concrete helper arithmetic error. Its downstream score cost and whether subsequent code corrected it are not established."
+    },
+    {
+      "game": "wa30-ee6fef47",
+      "source_sha256": "382f379f9f8db18c48c5fd94a23bfcc1dad553f19f647773916ff17ad891237e",
+      "finding": "Late analysis at recorded actions 1462 and 1464 repeatedly revises player/box/other-actor positions and movement interpretation while continuing to act.",
+      "boundary": "Qualitative evidence of perception/dynamics uncertainty, not a demonstrated cause of all failures or the official score."
+    }
+  ],
+  "next_intervention": "Validate generated geometry helpers on trivial invariants and compact observed transitions before trusting plans. Test perception and recovery changes separately where compute permits."
+}

@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-10-29T12:07:42.878982+00:00",
+  "process_exit_code": 1,
+  "games_completed": 12,
+  "reason": "PermissionError during atomic JSON replacement on Windows while live sidecar inspection was occurring; exact competing handle not identified",
+  "temporary_directory": ".tmp/prediction-replay-20261029T115948230898",
+  "official_or_model_gameplay": false
+}

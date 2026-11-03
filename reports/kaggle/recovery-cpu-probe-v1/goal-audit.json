@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-28T18:36:22.201853+00:00",
+  "best_official_submission": "57726784",
+  "best_official_score": 28.45,
+  "latest_competing_leader": {
+    "teamId": 15499660,
+    "teamName": "Yi-Chia Chen @ Fields Model",
+    "submissionDate": "2026-10-27T18:36:57.433Z",
+    "score": "75.56"
+  },
+  "goal_achieved": false,
+  "work_status": "active",
+  "previous_goal_turn_classification": "no progress: account-token policy reply only",
+  "current_goal_turn_classification": "progress: authoritative state refreshed, weak traces inspected, recovery implementation tested in actual Kaggle CPU host and full-budget candidates packaged",
+  "constraint": "1192.259 free GPU seconds until 2026-10-31 00:00 UTC; CPU work remains possible."
+}

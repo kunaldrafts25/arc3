@@ -1,0 +1,2 @@
+{"bounds": [0, 4, 0, 18], "level": 2, "returned_cells": 72, "step": 10, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [22, 34, 27, 39], "level": 2, "returned_cells": 144, "step": 26, "stride": [1, 1], "tool": "read_region"}

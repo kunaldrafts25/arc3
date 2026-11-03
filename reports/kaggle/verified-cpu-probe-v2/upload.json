@@ -1,0 +1,10 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-verifier-cpu-probe/2",
+  "recorded_at": "2026-10-27T14:54:15.384648+00:00",
+  "files": {
+    "kernel-metadata.json": "e93fc49e691ffcf8f2ce3b77bccf2305fed2f9e6980b2f558d5dc0291eb10f74",
+    "probe.ipynb": "e39f61265cc369a96acaea195980f0cb86f858e2f8d893f43f1a3a78bf2eebd4",
+    "source-manifest.json": "c1dc50eae0021ed0932a53e1c609df7557c9d26b4d7e1432edbfb145a16a6348"
+  },
+  "validation": "82 local tests passed; actual Kaggle/Linux integration pending"
+}

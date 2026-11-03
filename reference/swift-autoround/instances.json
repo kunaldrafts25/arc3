@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "w4a16-a",
+    "framework": "MODEL_FRAMEWORK_PY_TORCH",
+    "version": 1,
+    "license": "Other (specified in description)",
+    "overview": "Swift-1.5-Qwen3.8-Flash-Next-W4A16-AutoRound part a (2-part split, 50-file Kaggle limit).",
+    "usage": "",
+    "bytes": 124500425336
+  },
+  {
+    "slug": "w4a16-b",
+    "framework": "MODEL_FRAMEWORK_PY_TORCH",
+    "version": 1,
+    "license": "Other (specified in description)",
+    "overview": "Swift-1.5-Qwen3.8-Flash-Next-W4A16-AutoRound part b (2-part split, 50-file Kaggle limit).",
+    "usage": "",
+    "bytes": 52790776295
+  }
+]

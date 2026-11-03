@@ -1,0 +1,28 @@
+{
+  "phase": "accepted",
+  "variant": "prediction",
+  "kernel": "kunalsinghh25/arc-hydra-prediction-matched-candidate",
+  "files": {
+    "kernel-metadata.json": "5e2a517e5df21ea866173d2a1a3f977edceb66aeab17218ac8e9b0c7133121d0",
+    "provenance.json": "0beeb46aa860d2438b25a16ec110d72f710a48539eb4cc9aaaad68a4cd9fa2cc",
+    "submission.ipynb": "3ba5d002f5712d702687eefc0e2c927546f84303b105d96b23d7f378dc5921f2"
+  },
+  "resources": {
+    "allowed": true,
+    "reason": "free quota and shared-job checks passed",
+    "available_gpu_seconds": 101311.34,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [],
+    "arc2_free_seconds_floor": 10800
+  },
+  "hard_session_timeout_seconds": 7200,
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-prediction-matched-candidate",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-prediction-matched-candidate",
+    "versionNumber": 1,
+    "kernelId": 142069676
+  },
+  "recorded_at": "2026-11-01T07:31:56.339160+00:00"
+}

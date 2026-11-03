@@ -1,0 +1,506 @@
+{
+  "games": {
+    "bp35-0a0ad940_p0_requests.jsonl": {
+      "completed_responses": 69,
+      "completed_response_tokens": 152502,
+      "cache_usage_rows": 69,
+      "prompt_tokens_with_cache_usage": 4873815,
+      "cached_prompt_tokens": 4531520,
+      "weighted_cache_fraction": 0.9297685693855839,
+      "distinct_visible_tool_results": 65,
+      "tool_errors": [
+        {
+          "tool_call_id": "call_11d95a0251a344e8bbab2fb8",
+          "kind": "TypeError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 12,
+          "message": "TypeError: object of type 'int' has no len()"
+        },
+        {
+          "tool_call_id": "call_ae6b42412a0b4ecb849534f8",
+          "kind": "TerminalStateActionError",
+          "guard_stop": true,
+          "first_observed_analysis_step": 21,
+          "message": "TerminalStateActionError: the previous action reported game_over. The level has been reset to its start, so the board you planned against is gone and this action was not executed. The next turn begins from the new state."
+        },
+        {
+          "tool_call_id": "call_f2b45ada9919476683447b8f",
+          "kind": "NameError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 29,
+          "message": "NameError: name 'row_pur' is not defined"
+        },
+        {
+          "tool_call_id": "call_5219630f55944076b6881cd4",
+          "kind": "NameError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 29,
+          "message": "NameError: name 'open' is not defined"
+        }
+      ],
+      "ordinary_tool_errors": 3,
+      "observed_stale_state_guard_stops": 0,
+      "observed_terminal_state_guard_stops": 1,
+      "longest_same_action_response_group": {
+        "action": 77,
+        "responses": 16,
+        "completion_tokens": 58236
+      },
+      "most_tokens_at_one_action": {
+        "action": 77,
+        "responses": 16,
+        "completion_tokens": 58236
+      },
+      "large_prompt_token_decreases": [
+        {
+          "analysis_step": 21,
+          "action": 49,
+          "before": 113057,
+          "after": 54536
+        },
+        {
+          "analysis_step": 29,
+          "action": 77,
+          "before": 118707,
+          "after": 59307
+        },
+        {
+          "analysis_step": 29,
+          "action": 77,
+          "before": 113968,
+          "after": 58915
+        }
+      ],
+      "interpretation": "Repeated action counters measure computation without a recorded game action; computation may be useful. Prompt decreases do not prove forgetting or establish a causal effect on score.",
+      "finish_reasons": {
+        "tool_calls": 66,
+        "length": 3
+      },
+      "source_sha256": "0ccbdff8ade8de6099d3e60df114718a2b763a34a076e7448cfcdbd068b89adf"
+    },
+    "lf52-271a04aa_p0_requests.jsonl": {
+      "completed_responses": 128,
+      "completed_response_tokens": 208453,
+      "cache_usage_rows": 128,
+      "prompt_tokens_with_cache_usage": 9293970,
+      "cached_prompt_tokens": 8742336,
+      "weighted_cache_fraction": 0.9406460317818973,
+      "distinct_visible_tool_results": 127,
+      "tool_errors": [
+        {
+          "tool_call_id": "call_509111a5491c45ab89250fb1",
+          "kind": "KeyError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 25,
+          "message": "KeyError: 'steps'"
+        },
+        {
+          "tool_call_id": "call_a34ce58876f749148f930c03",
+          "kind": "StaleStateActionError",
+          "guard_stop": true,
+          "first_observed_analysis_step": 32,
+          "message": "StaleStateActionError: MOUSE(row=52, col=49) was not executed. The action immediately before it, MOUSE(row=16, col=6), was a no-op - it produced no change inside the board area - so positions and paths computed since then may be wrong, which is why execution has been halted here. Re-read current_fra"
+        },
+        {
+          "tool_call_id": "call_fd5dbd5a98e746d98038a4a2",
+          "kind": "KeyError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 38,
+          "message": "KeyError: 'frames'"
+        },
+        {
+          "tool_call_id": "call_f0a988860c304b00a4b4eded",
+          "kind": "StaleStateActionError",
+          "guard_stop": true,
+          "first_observed_analysis_step": 42,
+          "message": "StaleStateActionError: DOWN was not executed. The action immediately before it, UP, was a no-op - it produced no change inside the board area - so positions and paths computed since then may be wrong, which is why execution has been halted here. Re-read current_frame and last_action_call_result, wor"
+        },
+        {
+          "tool_call_id": "call_f0e192d6fd2d4ac9a9f5ff99",
+          "kind": "IndexError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 58,
+          "message": "IndexError: list index out of range"
+        },
+        {
+          "tool_call_id": "call_c8e18d65835a4965b0712aa5",
+          "kind": "IndexError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 59,
+          "message": "IndexError: list index out of range"
+        },
+        {
+          "tool_call_id": "call_85a97e3ec88646cc8ff39e4b",
+          "kind": "StaleStateActionError",
+          "guard_stop": true,
+          "first_observed_analysis_step": 60,
+          "message": "StaleStateActionError: MOUSE(row=52, col=38) was not executed. The action immediately before it, MOUSE(row=33, col=55), was a no-op - it produced no change inside the board area - so positions and paths computed since then may be wrong, which is why execution has been halted here. Re-read current_fr"
+        },
+        {
+          "tool_call_id": "call_d21c6e0395614cc48f5fcb6d",
+          "kind": "StaleStateActionError",
+          "guard_stop": true,
+          "first_observed_analysis_step": 75,
+          "message": "StaleStateActionError: MOUSE(row=14, col=55) was not executed. The action immediately before it, RIGHT, was a no-op - it produced no change inside the board area - so positions and paths computed since then may be wrong, which is why execution has been halted here. Re-read current_frame and last_act"
+        },
+        {
+          "tool_call_id": "call_f6b363faa3c34eda8b54aaf9",
+          "kind": "NameError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 87,
+          "message": "NameError: name 'c1' is not defined"
+        }
+      ],
+      "ordinary_tool_errors": 5,
+      "observed_stale_state_guard_stops": 4,
+      "observed_terminal_state_guard_stops": 0,
+      "longest_same_action_response_group": {
+        "action": 120,
+        "responses": 5,
+        "completion_tokens": 6631
+      },
+      "most_tokens_at_one_action": {
+        "action": 178,
+        "responses": 3,
+        "completion_tokens": 14067
+      },
+      "large_prompt_token_decreases": [
+        {
+          "analysis_step": 28,
+          "action": 47,
+          "before": 116155,
+          "after": 56834
+        },
+        {
+          "analysis_step": 41,
+          "action": 77,
+          "before": 112613,
+          "after": 55966
+        },
+        {
+          "analysis_step": 55,
+          "action": 152,
+          "before": 109997,
+          "after": 56004
+        },
+        {
+          "analysis_step": 68,
+          "action": 181,
+          "before": 113698,
+          "after": 56006
+        },
+        {
+          "analysis_step": 83,
+          "action": 203,
+          "before": 117005,
+          "after": 56893
+        }
+      ],
+      "interpretation": "Repeated action counters measure computation without a recorded game action; computation may be useful. Prompt decreases do not prove forgetting or establish a causal effect on score.",
+      "finish_reasons": {
+        "tool_calls": 128
+      },
+      "source_sha256": "fb407d6a66a0b519178a75c1099ae234401ac4c315f0e83964bf607deba17476"
+    },
+    "sk48-d8078629_p0_requests.jsonl": {
+      "completed_responses": 29,
+      "completed_response_tokens": 70169,
+      "cache_usage_rows": 29,
+      "prompt_tokens_with_cache_usage": 1385388,
+      "cached_prompt_tokens": 1218176,
+      "weighted_cache_fraction": 0.8793031266331165,
+      "distinct_visible_tool_results": 26,
+      "tool_errors": [
+        {
+          "tool_call_id": "call_625d7d724070451ba96390b4",
+          "kind": "TypeError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 19,
+          "message": "TypeError: unhashable type: 'dict'"
+        }
+      ],
+      "ordinary_tool_errors": 1,
+      "observed_stale_state_guard_stops": 0,
+      "observed_terminal_state_guard_stops": 0,
+      "longest_same_action_response_group": {
+        "action": 94,
+        "responses": 5,
+        "completion_tokens": 27706
+      },
+      "most_tokens_at_one_action": {
+        "action": 94,
+        "responses": 5,
+        "completion_tokens": 27706
+      },
+      "large_prompt_token_decreases": [
+        {
+          "analysis_step": 19,
+          "action": 94,
+          "before": 118543,
+          "after": 54829
+        }
+      ],
+      "interpretation": "Repeated action counters measure computation without a recorded game action; computation may be useful. Prompt decreases do not prove forgetting or establish a causal effect on score.",
+      "finish_reasons": {
+        "tool_calls": 26,
+        "length": 3
+      },
+      "source_sha256": "757f864e0bc946517ccb5a4cf43555c734fc25716deff820680ad770ccf6d45d"
+    },
+    "sp80-589a99af_p0_requests.jsonl": {
+      "completed_responses": 46,
+      "completed_response_tokens": 117626,
+      "cache_usage_rows": 46,
+      "prompt_tokens_with_cache_usage": 2768088,
+      "cached_prompt_tokens": 2499456,
+      "weighted_cache_fraction": 0.9029539523309953,
+      "distinct_visible_tool_results": 45,
+      "tool_errors": [
+        {
+          "tool_call_id": "call_b8994e64609f40478ff8b574",
+          "kind": "AttributeError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 4,
+          "message": "AttributeError: '_LazyAnimation' object has no attribute 'items'"
+        },
+        {
+          "tool_call_id": "call_05ede3ef1a554b61aef4d1eb",
+          "kind": "StaleStateActionError",
+          "guard_stop": true,
+          "first_observed_analysis_step": 17,
+          "message": "StaleStateActionError: SPACE was not executed. The action immediately before it, UP, was a no-op - it produced no change inside the board area - so positions and paths computed since then may be wrong, which is why execution has been halted here. Re-read current_frame and last_action_call_result, wo"
+        },
+        {
+          "tool_call_id": "call_142bad96bf894b69be800fcc",
+          "kind": "KeyError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 20,
+          "message": "KeyError: 'steps'"
+        },
+        {
+          "tool_call_id": "call_2811f608c78442e4bb721436",
+          "kind": "TypeError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 20,
+          "message": "TypeError: can only concatenate list (not \"tuple\") to list"
+        },
+        {
+          "tool_call_id": "call_92a7140d27b5444d89f17918",
+          "kind": "StaleStateActionError",
+          "guard_stop": true,
+          "first_observed_analysis_step": 21,
+          "message": "StaleStateActionError: RIGHT was not executed. The action immediately before it, SPACE, was a no-op - it produced no change inside the board area - so positions and paths computed since then may be wrong, which is why execution has been halted here. Re-read current_frame and last_action_call_result,"
+        },
+        {
+          "tool_call_id": "call_a03825fa35db4310967df0d2",
+          "kind": "KeyError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 27,
+          "message": "KeyError: 'action'"
+        }
+      ],
+      "ordinary_tool_errors": 4,
+      "observed_stale_state_guard_stops": 2,
+      "observed_terminal_state_guard_stops": 0,
+      "longest_same_action_response_group": {
+        "action": 5,
+        "responses": 5,
+        "completion_tokens": 2220
+      },
+      "most_tokens_at_one_action": {
+        "action": 73,
+        "responses": 1,
+        "completion_tokens": 11794
+      },
+      "large_prompt_token_decreases": [
+        {
+          "analysis_step": 20,
+          "action": 66,
+          "before": 115798,
+          "after": 58656
+        },
+        {
+          "analysis_step": 29,
+          "action": 98,
+          "before": 116851,
+          "after": 54359
+        }
+      ],
+      "interpretation": "Repeated action counters measure computation without a recorded game action; computation may be useful. Prompt decreases do not prove forgetting or establish a causal effect on score.",
+      "finish_reasons": {
+        "tool_calls": 46
+      },
+      "source_sha256": "aacbf284b18dbb7136f353050a2bc1e66ce9452b4d713690162cc7f427a51aa2"
+    },
+    "vc33-5430563c_p0_requests.jsonl": {
+      "completed_responses": 68,
+      "completed_response_tokens": 155808,
+      "cache_usage_rows": 68,
+      "prompt_tokens_with_cache_usage": 4762821,
+      "cached_prompt_tokens": 4415232,
+      "weighted_cache_fraction": 0.927020352014069,
+      "distinct_visible_tool_results": 66,
+      "tool_errors": [
+        {
+          "tool_call_id": "call_2768df477bc44557a77cabaf",
+          "kind": "StaleStateActionError",
+          "guard_stop": true,
+          "first_observed_analysis_step": 7,
+          "message": "StaleStateActionError: MOUSE(row=45, col=1) was not executed. The action immediately before it, MOUSE(row=45, col=1), was a no-op - it produced no change inside the board area - so positions and paths computed since then may be wrong, which is why execution has been halted here. Re-read current_fram"
+        },
+        {
+          "tool_call_id": "call_7a1a5ae1fbe34710ad7d2715",
+          "kind": "IndexError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 7,
+          "message": "IndexError: list index out of range"
+        },
+        {
+          "tool_call_id": "call_fb28bd0ef6924a5daa1ad8f4",
+          "kind": "IndexError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 35,
+          "message": "IndexError: list index out of range"
+        }
+      ],
+      "ordinary_tool_errors": 2,
+      "observed_stale_state_guard_stops": 1,
+      "observed_terminal_state_guard_stops": 0,
+      "longest_same_action_response_group": {
+        "action": 83,
+        "responses": 7,
+        "completion_tokens": 25770
+      },
+      "most_tokens_at_one_action": {
+        "action": 83,
+        "responses": 7,
+        "completion_tokens": 25770
+      },
+      "large_prompt_token_decreases": [
+        {
+          "analysis_step": 26,
+          "action": 76,
+          "before": 116229,
+          "after": 56396
+        },
+        {
+          "analysis_step": 33,
+          "action": 83,
+          "before": 114385,
+          "after": 52456
+        },
+        {
+          "analysis_step": 35,
+          "action": 89,
+          "before": 115168,
+          "after": 58960
+        }
+      ],
+      "interpretation": "Repeated action counters measure computation without a recorded game action; computation may be useful. Prompt decreases do not prove forgetting or establish a causal effect on score.",
+      "finish_reasons": {
+        "tool_calls": 67,
+        "length": 1
+      },
+      "source_sha256": "b05089ef9210ebadb24732bc487de1e0ad9983a3478caa5f093cf1373fca345d"
+    },
+    "wa30-ee6fef47_p0_requests.jsonl": {
+      "completed_responses": 55,
+      "completed_response_tokens": 103673,
+      "cache_usage_rows": 55,
+      "prompt_tokens_with_cache_usage": 3423516,
+      "cached_prompt_tokens": 3204160,
+      "weighted_cache_fraction": 0.9359266905719149,
+      "distinct_visible_tool_results": 54,
+      "tool_errors": [
+        {
+          "tool_call_id": "call_d6ee3a22d47d4c9f840707ae",
+          "kind": "TypeError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 15,
+          "message": "TypeError: unsupported operand type(s) for &: 'list' and 'set'"
+        },
+        {
+          "tool_call_id": "call_820bf5ca7c44469fb8cb34d7",
+          "kind": "KeyError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 15,
+          "message": "KeyError: 'U'"
+        },
+        {
+          "tool_call_id": "call_335417e96696446fbadf39f3",
+          "kind": "NameError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 15,
+          "message": "NameError: name 'PIECES' is not defined"
+        },
+        {
+          "tool_call_id": "call_53525c4df4c94b04bde6c7de",
+          "kind": "KeyError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 15,
+          "message": "KeyError: None"
+        },
+        {
+          "tool_call_id": "call_2495fa20887744eba0481205",
+          "kind": "ImportError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 15,
+          "message": "ImportError: Module 'time' is not allowed in the sandbox."
+        },
+        {
+          "tool_call_id": "call_1c91c17cc09b4ef195fbf93a",
+          "kind": "KeyError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 15,
+          "message": "KeyError: ('DOWN',)"
+        },
+        {
+          "tool_call_id": "call_ad9e2c8d1597473a9c95de48",
+          "kind": "TypeError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 15,
+          "message": "TypeError: unhashable type: 'list'"
+        },
+        {
+          "tool_call_id": "call_3bcb62225b0247069c25f6da",
+          "kind": "AttributeError",
+          "guard_stop": false,
+          "first_observed_analysis_step": 20,
+          "message": "AttributeError: 'HistoryEntryView' object has no attribute 'step'"
+        }
+      ],
+      "ordinary_tool_errors": 8,
+      "observed_stale_state_guard_stops": 0,
+      "observed_terminal_state_guard_stops": 0,
+      "longest_same_action_response_group": {
+        "action": 36,
+        "responses": 18,
+        "completion_tokens": 25576
+      },
+      "most_tokens_at_one_action": {
+        "action": 36,
+        "responses": 18,
+        "completion_tokens": 25576
+      },
+      "large_prompt_token_decreases": [
+        {
+          "analysis_step": 20,
+          "action": 72,
+          "before": 113597,
+          "after": 57822
+        }
+      ],
+      "interpretation": "Repeated action counters measure computation without a recorded game action; computation may be useful. Prompt decreases do not prove forgetting or establish a causal effect on score.",
+      "finish_reasons": {
+        "tool_calls": 55
+      },
+      "source_sha256": "3fa39d75e68557d0367867f859373f64c131952db93a72b6c8080b07568a8db6"
+    }
+  },
+  "completed_responses": 395,
+  "completed_response_tokens": 808231,
+  "ordinary_tool_errors": 23,
+  "observed_stale_state_guard_stops": 7,
+  "observed_terminal_state_guard_stops": 1,
+  "boundary": "Completed-response usage excludes unfinished generation. Tool results are deduplicated by call ID within each game; not every completed response necessarily exposes its final tool result. Cached public-game files may cover only a subset of a run."
+}

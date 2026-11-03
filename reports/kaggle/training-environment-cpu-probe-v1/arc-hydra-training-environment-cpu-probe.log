@@ -1,0 +1,35 @@
+[{"stream_name":"stderr","time":11.268271512,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.268334527,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.268339536,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.268342638,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.193313465,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.19335607,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.19336299,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.193368013,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":16.991853763,"data":"\n"}
+,{"stream_name":"stdout","time":710.855352766,"data":"\n"}
+,{"stream_name":"stdout","time":711.406916108,"data":"\n"}
+,{"stream_name":"stdout","time":711.457166235,"data":"\n"}
+,{"stream_name":"stdout","time":735.557574651,"data":"{\n"}
+,{"stream_name":"stdout","time":735.55774102,"data":"  \"passed\": true,\n"}
+,{"stream_name":"stdout","time":735.557747628,"data":"  \"torch\": \"2.13.0+cu130\",\n"}
+,{"stream_name":"stdout","time":735.557752919,"data":"  \"transformers\": \"5.12.1\",\n"}
+,{"stream_name":"stdout","time":735.557758221,"data":"  \"peft\": \"0.21.2\",\n"}
+,{"stream_name":"stdout","time":735.557763375,"data":"  \"accelerate\": \"1.15.0\",\n"}
+,{"stream_name":"stdout","time":735.557768606,"data":"  \"cuda_available\": false,\n"}
+,{"stream_name":"stdout","time":735.557773918,"data":"  \"model_class\": \"Qwen3_5ForConditionalGeneration\",\n"}
+,{"stream_name":"stdout","time":735.557779211,"data":"  \"supports_gradient_checkpointing\": true,\n"}
+,{"stream_name":"stdout","time":735.557784323,"data":"  \"parameters\": 27356728560,\n"}
+,{"stream_name":"stdout","time":735.557789604,"data":"  \"boundary\": \"CPU imports and meta-device model construction only. No loaded checkpoint, multimodal tensor validation, actual gradients, CUDA training, saved-adapter reload or serving compatibility established.\"\n"}
+,{"stream_name":"stdout","time":735.557836503,"data":"}\n"}
+,{"stream_name":"stdout","time":735.557841784,"data":"\n"}
+,{"stream_name":"stdout","time":735.565599266,"data":"TRAINING_DEPENDENCY_CPU_CHECK_COMPLETE\n"}
+,{"stream_name":"stderr","time":739.619547433,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":739.619589793,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":739.882473087,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":739.882505782,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":740.742682888,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":741.21069759,"data":"[NbConvertApp] Writing 11199 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":744.455053697,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":745.574144925,"data":"[NbConvertApp] Writing 308002 bytes to __results__.html\n"}
+]

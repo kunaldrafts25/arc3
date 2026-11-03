@@ -1,0 +1,66 @@
+{
+  "phase": "evaluation_complete",
+  "kernel": "kunalsinghh25/arc-hydra-qwen27-matched-baseline",
+  "files": {
+    "submission.ipynb": "4bc36b29f7fe84ca6e78c00696330ef9614a65313376c462678d6ee20a8366df",
+    "kernel-metadata.json": "1927f99e660eb242ffbbdbabc0582293554bed847c00f1694074468f03ddd063",
+    "provenance.json": "3f58e08173706328ea30936d4f56bb7311fb7ea59347da8f0a0abc8eb41f1290"
+  },
+  "hard_session_timeout_seconds": 7200,
+  "pid": 22388,
+  "resources": {
+    "allowed": true,
+    "reason": "free quota and shared-job checks passed",
+    "available_gpu_seconds": 87869.277,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [],
+    "arc2_free_seconds_floor": 10800,
+    "recorded_at": "2026-11-01T13:06:33.112856+00:00"
+  },
+  "scope": "One 25-game ARC3 baseline. No training or official submission.",
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-qwen27-matched-baseline",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-qwen27-matched-baseline",
+    "versionNumber": 1,
+    "kernelId": 142114682
+  },
+  "recorded_at": "2026-11-01T15:01:21.689271+00:00",
+  "exact_kernel": "kunalsinghh25/arc-hydra-qwen27-matched-baseline/1",
+  "kernel_status": "COMPLETE",
+  "analysis": {
+    "model_gameplay_verified": true,
+    "problems": [],
+    "games": 25,
+    "levels": 36,
+    "full_wins": 0,
+    "mean_public_score": 9.541728666176809,
+    "generated_tokens": 2166817,
+    "notes": {
+      "sk48-d8078629": "tokens=130559",
+      "m0r0-492f87ba": "tokens=76950",
+      "tu93-0768757b": "tokens=137357",
+      "lp85-305b61c3": "tokens=138166",
+      "r11l-495a7899": "tokens=132828",
+      "sp80-589a99af": "tokens=76502",
+      "ar25-0c556536": "tokens=103545",
+      "cd82-fb555c5d": "tokens=96032",
+      "s5i5-18d95033": "tokens=61593",
+      "ls20-9607627b": "tokens=103924",
+      "ft09-0d8bbf25": "tokens=140082",
+      "su15-1944f8ab": "tokens=56093",
+      "tr87-cd924810": "tokens=103921"
+    },
+    "boundary": "Public development gameplay only. Not a hidden score or proof of the 71-point goal.",
+    "token_accounting_corrections": [],
+    "token_accounting_basis": "Action-record generation plus terminal no-action generation; cancellation notes may include additional uncharged generation.",
+    "public_level_completions_by_elapsed_seconds": {
+      "1800": 6,
+      "3600": 19,
+      "5400": 30,
+      "7200": 36
+    }
+  },
+  "next_action": "Inspect serving and gameplay, compare against incumbent; no automatic training, promotion or submission."
+}

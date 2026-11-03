@@ -1,0 +1,149 @@
+{
+  "checked_at": "2026-11-03T09:25:00.138308+00:00",
+  "competition": "arc-prize-2026-arc-agi-3",
+  "gpu_used_seconds": 49369.233,
+  "gpu_allowed_seconds": 108000.0,
+  "gpu_reserved_seconds": 0.0,
+  "gpu_available_seconds": 58630.767,
+  "pay_to_scale_enabled": false,
+  "quota_refresh_time": "2026-11-07 00:00:00",
+  "submission_limits": {
+    "num_today": 0,
+    "num_total": 6,
+    "num_allowed_now": 100
+  },
+  "leaders": [
+    {
+      "team": "Yi-Chia Chen @ Fields Model",
+      "score": "75.56",
+      "date": "2026-11-02 11:35:40.300000"
+    },
+    {
+      "team": "Tufa Labs",
+      "score": "70.24",
+      "date": "2026-11-02 12:51:42.313000"
+    },
+    {
+      "team": "NVARC3",
+      "score": "60.95",
+      "date": "2026-11-02 12:28:12.226000"
+    },
+    {
+      "team": "xz",
+      "score": "58.59",
+      "date": "2026-11-02 00:00:47.983000"
+    },
+    {
+      "team": "Team Turducken",
+      "score": "56.02",
+      "date": "2026-11-02 13:22:26.903000"
+    },
+    {
+      "team": "Grigoriy Zatravkin & co",
+      "score": "54.55",
+      "date": "2026-11-02 13:34:45.546000"
+    },
+    {
+      "team": "the last dance \ud83d\udd7a",
+      "score": "54.52",
+      "date": "2026-11-01 23:11:30.543000"
+    },
+    {
+      "team": "Majkel1337",
+      "score": "53.96",
+      "date": "2026-11-02 14:57:27.296000"
+    },
+    {
+      "team": "Van-Phuc Huynh & Tran N M Tien",
+      "score": "53.12",
+      "date": "2026-11-02 13:34:12.246000"
+    },
+    {
+      "team": "yktori",
+      "score": "51.04",
+      "date": "2026-11-02 01:04:49.286000"
+    }
+  ],
+  "competitions": [
+    {
+      "title": "ARC Prize 2026 - ARC-AGI-3",
+      "deadline": "2026-11-02 23:59:00"
+    }
+  ],
+  "submissions": [
+    {
+      "ref": 57751759,
+      "status": "COMPLETE",
+      "score": "25.96",
+      "description": "ARC Hydra flexible v3 full-budget official comparison; development 48.29 at two hours; official result unverified"
+    },
+    {
+      "ref": 57726784,
+      "status": "COMPLETE",
+      "score": "28.45",
+      "description": "Game theory"
+    },
+    {
+      "ref": 57686595,
+      "status": "COMPLETE",
+      "score": "0.00",
+      "description": "ARC Hydra step verification; best measured 25-game public development 46.23; official score unverified"
+    },
+    {
+      "ref": 57657435,
+      "status": "COMPLETE",
+      "score": "24.87",
+      "description": "ARC Hydra best validated Duck baseline; 25-game public development 43.76; hidden score unverified"
+    },
+    {
+      "ref": 57630597,
+      "status": "COMPLETE",
+      "score": "0.02",
+      "description": "ARC-Hydra v0.2 learned mechanics and visual goals; validated offline public full win"
+    },
+    {
+      "ref": 57601062,
+      "status": "COMPLETE",
+      "score": "0.01",
+      "description": "ARC-Hydra v0.1 verified offline baseline"
+    }
+  ],
+  "pages": [
+    {
+      "name": "rules",
+      "characters": 37996
+    },
+    {
+      "name": "Description",
+      "characters": 1504
+    },
+    {
+      "name": "Evaluation",
+      "characters": 625
+    },
+    {
+      "name": "Timeline",
+      "characters": 670
+    },
+    {
+      "name": "data-description",
+      "characters": 4009
+    },
+    {
+      "name": "Prizes",
+      "characters": 1496
+    },
+    {
+      "name": "Code Requirements",
+      "characters": 834
+    },
+    {
+      "name": "abstract",
+      "characters": 149
+    },
+    {
+      "name": "Upgraded accelerators",
+      "characters": 618
+    }
+  ]
+}

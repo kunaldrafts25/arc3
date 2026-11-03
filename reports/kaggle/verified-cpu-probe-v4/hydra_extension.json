@@ -1,0 +1,14 @@
+{
+  "extension": "verified-planning-v2",
+  "library_sha256": "2fbcd9dc435ae8844e770fee3fce6987c0c37da7aecea6f5f41feb7b7cdf7172",
+  "files": {
+    "python_tool_sandbox.py": {
+      "before": "3900b7255842df04be9ad08f91b521279a2e63f8226ac4bc77fb6de7a4e36943",
+      "after": "937d06bbd1752eef1c39020001379f9cafa1043aed0f252e9ca2fcd809b6246d"
+    },
+    "tool_agent.py": {
+      "before": "053556f4a2d19bbb0f04d3ecde14bad2d76abfe91e89254740b763136a5a8e82",
+      "after": "4f952d2f8467f2cdbbd9be96f2738fd80082f598ab166cdc0f3fdedb5677f3a7"
+    }
+  }
+}

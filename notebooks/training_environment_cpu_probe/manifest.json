@@ -1,0 +1,9 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-training-environment-cpu-probe",
+  "wall_seconds": 1800,
+  "cpu_only": true,
+  "files": {
+    "probe.ipynb": "f671354f62f72d052d2b2d0167984c57ad393201d5a27b6009dd935d56eab3ea",
+    "kernel-metadata.json": "acea587826fa34c6742ee84a650af15c6333ccfea9dfab3bd6aec1512653bc6c"
+  }
+}

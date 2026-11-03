@@ -1,0 +1,40 @@
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 29, "row": 10}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 39, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 39, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 24, "row": 44}, "executed": true}}
+{"event": "verify", "report": {"abstained": 1, "checked": 1, "counterexample": {"action": {"action": "MOUSE", "col": 39, "row": 21}, "after_step": 2, "before_step": 1, "difference": {"expected": 62, "observed": 61, "path": ["hud"]}}, "eligible": 12, "encoded_changes": 1, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 4, "stop_reason": "unverified_model", "verification": {"abstained": 1, "checked": 1, "counterexample": {"action": {"action": "MOUSE", "col": 39, "row": 21}, "after_step": 2, "before_step": 1, "difference": {"expected": 62, "observed": 61, "path": ["hud"]}}, "eligible": 12, "encoded_changes": 1, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "verify", "report": {"abstained": 1, "checked": 11, "counterexample": null, "eligible": 12, "encoded_changes": 11, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 4, "stop_reason": "unverified_model", "verification": {"abstained": 1, "checked": 11, "counterexample": null, "eligible": 12, "encoded_changes": 11, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 12, "counterexample": null, "eligible": 12, "encoded_changes": 11, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 4, "planned": 4, "stop_reason": "complete", "verification": {"abstained": 0, "checked": 12, "counterexample": null, "eligible": 12, "encoded_changes": 11, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 45, "row": 21}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 24, "row": 44}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 43, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 43, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 43, "row": 57}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 3, "counterexample": null, "eligible": 3, "encoded_changes": 3, "error": null, "excluded": 18, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"counterexample": {"action": {"action": "MOUSE", "col": 43, "row": 57}, "after_step": 27, "before_step": 26, "difference": {"expected": 43, "observed": 40, "path": ["red_col"]}}, "executed": 6, "planned": 6, "stop_reason": "prediction_mismatch", "verification": {"abstained": 0, "checked": 3, "counterexample": null, "eligible": 3, "encoded_changes": 3, "error": null, "excluded": 18, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 40, "row": 38}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 27, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 57, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 52, "row": 31}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 43, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 51, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 27, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 35, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 35, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 35, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 27, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 27, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 27, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 43, "row": 57}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 31, "row": 21}, "executed": true}}

@@ -1,0 +1,29 @@
+{
+  "phase": "outcome_unconfirmed",
+  "kernel": "kunalsinghh25/arc-hydra-training-data-cpu-probe",
+  "files": {
+    "probe.ipynb": "c6de75e9185a5f2604f1af3145b18e0fb3447da51f5d30794c9d3403644c63c0",
+    "kernel-metadata.json": "e9b76f9c80e69d1675c2dd1d0dab5b25d858891f8b59c6e2731d005a4d38c353"
+  },
+  "cpu_only": true,
+  "hard_session_timeout_seconds": 1800,
+  "resources": {
+    "allowed": true,
+    "reason": "free quota and shared-job checks passed",
+    "available_gpu_seconds": 81131.871,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [],
+    "arc2_free_seconds_floor": 10800
+  },
+  "recorded_at": "2026-11-01T15:25:14.570675+00:00",
+  "dataset_sha256": {
+    "reports\\arc3\\qwen27-training-pilot\\train.jsonl": "fd73b3802e886bd4dc6c443ac24388f3c491f7720b6213ded89e4bc5889d71c5",
+    "reports\\arc3\\qwen27-training-pilot\\context-32768\\train.jsonl": "d3e8c271f7fc67c3c5ff72019946ff5a46bf4f90f0bbc973b08da58c44c19efe",
+    "reports\\arc3\\qwen27-training-pilot\\validation.jsonl": "c8527dde162787d496e842a6a4684cf692e9490211b8ce520176ade02c8ea452",
+    "reports\\arc3\\qwen27-training-pilot\\context-32768\\validation.jsonl": "c40c876828c0338036fdde844e1d47f7d66f575dfc22e5e9721a33dc39489d74"
+  },
+  "collator_sha256": "e27f3881e0b83ab3f3cdc4da216158ed5dd69e6807891e5ea925702766170858",
+  "error_type": "HTTPError"
+}

@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\compi\ARC-AGI-3-Kaggle-Starter\scripts\run_arc3_lora_gameplay.py", line 121, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\compi\ARC-AGI-3-Kaggle-Starter\scripts\run_arc3_lora_gameplay.py", line 107, in main
+    routes=json.loads((OUTPUT/name/'model-routing.json').read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kumar\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kumar\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 341, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 27 column 2 (char 644)

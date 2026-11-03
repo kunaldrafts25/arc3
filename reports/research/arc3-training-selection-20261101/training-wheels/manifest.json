@@ -1,0 +1,43 @@
+{
+  "fla-core": {
+    "version": "0.6.0",
+    "filename": "fla_core-0.6.0-py3-none-any.whl",
+    "sha256": "b0708b70e0b119cd58a0a5146ea56cb175cef6ed969d8ac60267e3e077ce3ebd",
+    "bytes": 1085221,
+    "requires_dist": [
+      "einops",
+      "torch>=2.7.0; extra == \"cuda\"",
+      "triton>=3.3; extra == \"cuda\"",
+      "torch>=2.7.0; extra == \"rocm\"",
+      "torch>=2.7.0; extra == \"xpu\"",
+      "torch==2.10.0; extra == \"npu\"",
+      "torch_npu==2.10.0.post7; extra == \"npu\"",
+      "torchvision==0.25.0; extra == \"npu\"",
+      "triton-ascend==3.6.0; extra == \"npu\"",
+      "torch>=2.7.0; extra == \"cpu\"",
+      "triton>=3.3; extra == \"cpu\""
+    ]
+  },
+  "flash-linear-attention": {
+    "version": "0.6.0",
+    "filename": "flash_linear_attention-0.6.0-py3-none-any.whl",
+    "sha256": "6dec9735f8454523c13553622e98aff30152dde6586b4ac7d88010fbb7a06b5f",
+    "bytes": 403549,
+    "requires_dist": [
+      "fla-core==0.6.0",
+      "transformers<6,>=5.6.2",
+      "fla-core[cuda]==0.6.0; extra == \"cuda\"",
+      "fla-core[rocm]==0.6.0; extra == \"rocm\"",
+      "fla-core[xpu]==0.6.0; extra == \"xpu\"",
+      "fla-core[npu]==0.6.0; extra == \"npu\"",
+      "fla-core[cpu]==0.6.0; extra == \"cpu\"",
+      "tilelang>=0.1.9; extra == \"tilelang\"",
+      "causal-conv1d>=1.7.0; extra == \"conv1d\"",
+      "matplotlib; extra == \"benchmark\"",
+      "pandas; extra == \"benchmark\"",
+      "datasets>=3.3.0; extra == \"benchmark\"",
+      "pytest; extra == \"test\"",
+      "pytest-xdist; extra == \"test\""
+    ]
+  }
+}

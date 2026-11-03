@@ -1,0 +1,11 @@
+{
+  "snapshot": "D:\\compi\\ARC-AGI-3-Kaggle-Starter\\.tmp\\release-smoke-5c7f53e5d9954ba49d8f75e94eb0fe6e",
+  "files": 1275,
+  "frozen_git_index_bytes_verified": {
+    "notebooks/arc3_deadline_candidate/submission.ipynb": "e1478dc542a9085248b248d05fb53be261c22c330b410bb55a0cc5b806fd3034",
+    "notebooks/general_learner/submission.ipynb": "d94289632f9c33c833b5eaa8a26e0dd98fc99931a54d1352d143592d13e0012e",
+    "notebooks/prediction_study_cpu_probe/source-manifest.json": "643b87b609cdbb034b7b2eee39a5aa94329493b53af63f0863ddaf431c59c20a",
+    "scripts/install_study_agent.py": "0ee5d27386c52ce8d4727dba428562bbd4ad81033f99fdf0536a1e8b97174519",
+    "hydra/study_memory.py": "52749cb8bc4d80bee73d7621ac9ee017280ba427b4b204f310a4abe0c6eac0fd"
+  }
+}

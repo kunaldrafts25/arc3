@@ -1,0 +1,19 @@
+{
+  "submission_ref": "57686595",
+  "kernel": "kunalsinghh25/arc-hydra-duck-verification/1",
+  "recorded_at": "2026-10-27T02:49:43.395644+00:00",
+  "selection": "Highest completed measured 25-game public mean; actual prompt activation verified; exact upload hashes matched",
+  "public_development_score": 46.232112354534515,
+  "levels": 102,
+  "full_wins": 8,
+  "allowance_after_submission": 0,
+  "official": {
+    "submission_ref": "57686595",
+    "status": "COMPLETE",
+    "public_score": "0.00",
+    "private_score": "",
+    "error": "",
+    "checked_at": "2026-10-27T13:43:36.293067+05:30"
+  },
+  "boundary": "Official score is 0.00; root cause is not established by available metadata. Original entry 57657435 / 24.87 remains best scored. Public 46.23 does not establish hidden performance."
+}

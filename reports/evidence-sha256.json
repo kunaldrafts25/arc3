@@ -1,0 +1,7 @@
+{
+  "reports/confirmation-v01.jsonl": "19979904ba098b4bab699d6c46f4c8a683cb5a22a9c025edefcef530da94d7ca",
+  "reports/coverage-v01.jsonl": "8e67c7d8286a81bc3de0e7343580b3317d284e54909582c837ea72e2ac9a3050",
+  "reports/memory-confirmation-v01.jsonl": "66d132c09d81c5938f10c5091228ab9bde5d6fc4007ab265aa1fe2baf6a96848",
+  "reports/novelty-corrected-v01.jsonl": "6210c0836de7d194f58b1544061b00962efb9c5e02aa2458ad3c2b2348295b46",
+  "reports/public-ablation-v01.jsonl": "1b4fdb4e55225fc6ad16948dc911aa046323e50c7989bbc607b20f24261712d0"
+}

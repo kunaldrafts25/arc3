@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-11-01T08:45:35.882351+00:00",
+  "executed_version": "kunalsinghh25/arc-hydra-model-compatibility-cpu-probe/1",
+  "original_intent": "CPU-only metadata and header inspection",
+  "configuration_error": "Inherited machine_shape=NvidiaRtxPro6000 overrides enable_gpu=False in Kaggle API",
+  "gpu_used_before_seconds": 6688.66,
+  "gpu_used_after_seconds": 6713.357,
+  "observed_gpu_quota_increment_seconds": 24.697,
+  "attribution": "Increment is consistent with this short GPU-requested probe; no device census was recorded. Computation itself used CPU JSON/header reads, with no model payload loading or CUDA calls.",
+  "measurements_remain_valid": true,
+  "original_upload_and_report_preserved": true,
+  "corrected_future_package": "notebooks/model_compatibility_cpu_probe_v2",
+  "shared_job_guard_fix": "Never skip recent notebooks based on enable_gpu=False in list summaries; confirmed GPU runs also have this summary value.",
+  "focused_resource_tests_passed": 27
+}

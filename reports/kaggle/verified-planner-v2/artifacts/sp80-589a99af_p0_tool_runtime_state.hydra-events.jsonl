@@ -1,0 +1,34 @@
+{"event": "probe", "report": {"action": {"action": "DOWN"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "SPACE"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 1, "counterexample": {"action": {"action": "DOWN"}, "after_step": 1, "before_step": 0, "difference": {"expected": 14, "observed": 0, "path": ["static", 0, 62]}}, "eligible": 4, "encoded_changes": 1, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 4, "stop_reason": "unverified_model", "verification": {"abstained": 0, "checked": 1, "counterexample": {"action": {"action": "DOWN"}, "after_step": 1, "before_step": 0, "difference": {"expected": 14, "observed": 0, "path": ["static", 0, 62]}}, "eligible": 4, "encoded_changes": 1, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 4, "counterexample": null, "eligible": 4, "encoded_changes": 3, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 4, "planned": 4, "stop_reason": "no_gameplay_change", "verification": {"abstained": 0, "checked": 4, "counterexample": null, "eligible": 4, "encoded_changes": 3, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "probe", "report": {"action": {"action": "MOUSE", "col": 30, "row": 17}, "executed": true}}
+{"event": "verify", "report": {"abstained": 1, "checked": 8, "counterexample": null, "eligible": 9, "encoded_changes": 6, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 2, "stop_reason": "unverified_model", "verification": {"abstained": 1, "checked": 8, "counterexample": null, "eligible": 9, "encoded_changes": 6, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 9, "counterexample": null, "eligible": 9, "encoded_changes": 6, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 2, "planned": 2, "stop_reason": "terminal_or_level_boundary", "verification": {"abstained": 0, "checked": 9, "counterexample": null, "eligible": 9, "encoded_changes": 6, "error": null, "excluded": 0, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 1, "counterexample": null, "eligible": 1, "encoded_changes": 1, "error": null, "excluded": 11, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"executed": 14, "planned": 14, "stop_reason": "no_gameplay_change", "verification": {"abstained": 0, "checked": 1, "counterexample": null, "eligible": 1, "encoded_changes": 1, "error": null, "excluded": 11, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 15, "counterexample": null, "eligible": 15, "encoded_changes": 14, "error": null, "excluded": 11, "scope": "abstract-state", "truncated": false, "verified": true}}
+{"event": "plan", "report": {"counterexample": {"action": {"action": "SPACE"}, "after_step": 30, "before_step": 29, "difference": {"expected": "[16, 20]", "observed": "None", "path": ["bar"]}}, "executed": 4, "planned": 4, "stop_reason": "prediction_mismatch", "verification": {"abstained": 0, "checked": 15, "counterexample": null, "eligible": 15, "encoded_changes": 14, "error": null, "excluded": 11, "scope": "abstract-state", "truncated": false, "verified": true}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 19, "encoded_changes": 0, "error": "TypeError: 'NoneType' object is not subscriptable", "excluded": 11, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 14, "stop_reason": "unverified_model", "verification": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 19, "encoded_changes": 0, "error": "TypeError: 'NoneType' object is not subscriptable", "excluded": 11, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "verify", "report": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 19, "encoded_changes": 0, "error": "TypeError: 'NoneType' object is not subscriptable", "excluded": 11, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 14, "stop_reason": "unverified_model", "verification": {"abstained": 0, "checked": 0, "counterexample": null, "eligible": 19, "encoded_changes": 0, "error": "TypeError: 'NoneType' object is not subscriptable", "excluded": 11, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "verify", "report": {"abstained": 19, "checked": 0, "counterexample": null, "eligible": 19, "encoded_changes": 0, "error": null, "excluded": 11, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "plan", "report": {"executed": 0, "planned": 12, "stop_reason": "unverified_model", "verification": {"abstained": 19, "checked": 0, "counterexample": null, "eligible": 19, "encoded_changes": 0, "error": null, "excluded": 11, "scope": "abstract-state", "truncated": false, "verified": false}}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": true}}
+{"event": "verify", "report": {"abstained": 0, "checked": 1, "counterexample": {"action": {"action": "RIGHT"}, "after_step": 12, "before_step": 11, "difference": {"expected": 14, "observed": 10, "path": ["bar", 1]}}, "eligible": 20, "encoded_changes": 1, "error": null, "excluded": 11, "scope": "abstract-state", "truncated": false, "verified": false}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "SPACE"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "SPACE"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "RIGHT"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "UP"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "SPACE"}, "executed": true}}
+{"event": "probe", "report": {"action": {"action": "LEFT"}, "executed": false}}

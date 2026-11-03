@@ -1,0 +1,15 @@
+{
+  "extension": "grid-inspection-v1",
+  "library_sha256": "b7c023672d6d9b1469755c4f40c27dc03b8aa82fe7272534c34c2a086cca0037",
+  "guidance_sha256": "7918a62b4324f7b0f5ebd1221f9fa4506c0e50336dc769069559cea2b84e8399",
+  "files": {
+    "python_tool_sandbox.py": {
+      "before": "83ef0d3092e079f51cdb7da32e96dcb108473daf49f291f5e1e4bb3c02fe8385",
+      "after": "c7c2feb926e9423cd38371f745d45e4b7fd6b082b6bfa976929278f01c18740f"
+    },
+    "tool_agent.py": {
+      "before": "283132b535967c5a78a098f93431e72ea3c6a149848e61c819452eae92e3869e",
+      "after": "8603d21d6f5b5a402ea44bf2b8c9dde54330936860da5bd4fcab6622af7e3c23"
+    }
+  }
+}

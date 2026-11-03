@@ -1,0 +1,23 @@
+{
+  "observed_at": "2026-10-27T16:04:54.773706+00:00",
+  "exact_pilot": "kunalsinghh25/arc-hydra-verified-planner/1",
+  "transcripts": [
+    {
+      "path": "reference/kaggle/verified-planner-v1/transcripts/bp35-0a0ad940_p0.txt",
+      "sha256": "ff5d37ae1631b5cfcd3debb6714604c7062738c50c71bfd1107bb904cc5bcc62",
+      "user_prompts": 34,
+      "unchecked_batch_instruction_count": 34,
+      "repeated_action_instruction_count": 34
+    },
+    {
+      "path": "reference/kaggle/verified-planner-v1/transcripts/vc33-5430563c_p0.txt",
+      "sha256": "4d5db108a307d0fd9959baf96a8ef76ab564bc7b3114ce4b2b4ebee625ec4448",
+      "user_prompts": 37,
+      "unchecked_batch_instruction_count": 37,
+      "repeated_action_instruction_count": 37
+    }
+  ],
+  "finding": "Per-turn user prompt contradicted the system prompt and enforced one-probe action limit. Actual model reasoning explicitly noticed the conflict. Earlier CPU v3 checked only the system prompt.",
+  "fix": "Rewrite the rendered user prompt, including duplicate guidance and optional opener hint. CPU v4 exercises 16 memory/deduplication/opener/turn combinations plus seven sandbox cases.",
+  "boundary": "Current verified-planner/2 full GPU comparison retains its already uploaded v1 extension. CPU v4 validates the v2 extension for a later candidate only. No score gain established."
+}

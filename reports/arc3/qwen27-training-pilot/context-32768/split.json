@@ -1,0 +1,32 @@
+{
+  "policy": "Whole game hash allocation fixed before the 27B result; gradient holdout, not a claim of researcher blindness.",
+  "salt": "arc3-27b-pilot-v1/",
+  "games": {
+    "r11l-495a7899": "train",
+    "wa30-ee6fef47": "train",
+    "ft09-0d8bbf25": "train",
+    "bp35-0a0ad940": "train",
+    "vc33-5430563c": "train",
+    "su15-1944f8ab": "train",
+    "lp85-305b61c3": "train",
+    "g50t-5849a774": "train",
+    "tu93-0768757b": "train",
+    "sp80-589a99af": "train",
+    "sk48-d8078629": "train",
+    "re86-8af5384d": "train",
+    "cd82-fb555c5d": "train",
+    "m0r0-492f87ba": "train",
+    "tn36-ef4dde99": "train",
+    "tr87-cd924810": "train",
+    "lf52-271a04aa": "validation",
+    "dc22-fdcac232": "validation",
+    "sb26-7fbdac44": "validation",
+    "sc25-635fd71a": "validation",
+    "cn04-2fe56bfb": "test",
+    "s5i5-18d95033": "test",
+    "ar25-0c556536": "test",
+    "ls20-9607627b": "test",
+    "ka59-38d34dbb": "test"
+  },
+  "boundary": "All games are public development games already studied. Hidden competition games remain the ultimate generalization test. This real-trace pilot replaces the initial synthetic-only data proposal; it does not provide an untouched public test."
+}

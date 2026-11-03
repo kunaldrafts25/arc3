@@ -1,0 +1,21 @@
+{
+  "kernel": "kunalsinghh03/arc-hydra-exact-inspection-candidate/1",
+  "requested_metadata_id": "kunalsinghh03/arc-hydra-inspection-candidate",
+  "slug_boundary": "Kaggle canonicalized the first upload from its title; use the accepted exact ref, not the requested id.",
+  "recorded_at": "2026-10-28T19:25:55.393433+00:00",
+  "token_file": "access_token2",
+  "files": {
+    "kernel-metadata.json": "507d9dd2554ace6cef4af460d950cc3ef70e2dcf40301a67cae10f49dcc3356d",
+    "provenance.json": "c46cfd7e3c6457494d96000beb3df4f291eaf75aafba7e6a6c8a9b4c3fcce8b6",
+    "submission.ipynb": "95683e72b3f52394fae037b23804a045facdbcb058e7b6ac735b39eaae6727c1"
+  },
+  "whole_notebook_seconds": 32400,
+  "finalization_reserve_seconds": 600,
+  "public_games": 25,
+  "input_cpu_gate": "kunalsinghh03/arc-hydra-public-inputs-probe/1",
+  "inspection_cpu_gate": "kunalsinghh25/arc-hydra-inspection-cpu-probe/1",
+  "competition_datasource_attached": false,
+  "submission_account": "kunalsinghh25",
+  "score": null,
+  "observer_session": 33676
+}

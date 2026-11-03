@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-28T20:16:50.512988+00:00",
+  "status": "ERROR",
+  "model_gameplay_established": false,
+  "score": null,
+  "error": "No NVIDIA driver in requested NvidiaRtxPro6000 runtime",
+  "boundary": "No model inference or score. Saved metadata requested GPU but actual runtime lacked the driver; exact platform cause unestablished. Standard explicit T4 probe subsequently received real GPUs."
+}

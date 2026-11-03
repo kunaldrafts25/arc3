@@ -1,0 +1,20 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-ultimate-candidate/2",
+  "recorded_at": "2026-10-27T18:13:10.661977+00:00",
+  "files": {
+    "kernel-metadata.json": "14956339e6f5ccd1ea29f8fa59566d5b957a01177ac22e3db936600981c28589",
+    "provenance.json": "7f76e62f15116d717608db9fe817e383fe39fb35be371eaf2ccad0027be2d3eb",
+    "submission.ipynb": "9f647d0978334ba132943c71105eaa879f5a959ee3431f59419635601f9eb4e6"
+  },
+  "observer_session": 86564,
+  "public_games": 25,
+  "post_readiness_seconds": 7200,
+  "notebook_timeout_seconds": 12000,
+  "cpu_gate": "kunalsinghh25/arc-hydra-verifier-cpu-probe/5",
+  "extension": "planning-assist-v1",
+  "prior_failed_version": "kunalsinghh25/arc-hydra-ultimate-candidate/1",
+  "status": "ERROR",
+  "verified_terminal_at": "2026-10-27T18:16:29.674830+00:00",
+  "error": "Canonical competition wheel mount absent. Pip failed before extension installation/model loading.",
+  "repaired_by": "kunalsinghh25/arc-hydra-ultimate-candidate/3"
+}

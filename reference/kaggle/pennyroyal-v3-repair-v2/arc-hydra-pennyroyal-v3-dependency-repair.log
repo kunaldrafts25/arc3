@@ -1,0 +1,52 @@
+[{"stream_name":"stderr","time":7.71471763,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.714781857,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.714787604,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.714790934,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.445287426,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.445332805,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.445339178,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.445344455,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.798042585,"data":"3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]\n"}
+,{"stream_name":"stdout","time":10.000418009,"data":"3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]\n"}
+,{"stream_name":"stdout","time":10.177450586,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":10.177482356,"data":"  File \"\u003cstdin\u003e\", line 6, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":10.17748964,"data":"AssertionError: Expected one retained native wheel, found []\n"}
+,{"stream_name":"stdout","time":10.193254104,"data":"BUILD FAILED at line 17; partial artifacts retained\n"}
+,{"stream_name":"stdout","time":10.204398934,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":10.20444222,"data":"  File \"\u003cstdin\u003e\", line 6, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":10.20444977,"data":"AssertionError: Expected one retained native wheel, found []\n"}
+,{"stream_name":"stdout","time":10.204454916,"data":"BUILD FAILED at line 17; partial artifacts retained\n"}
+,{"stream_name":"stderr","time":10.531969346,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":10.531997708,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":10.532004331,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":10.532181972,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":10.532205413,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":10.532367099,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":10.532529463,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":10.532537959,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":10.532557939,"data":"Exception encountered at \"In [1]\":\n"}
+,{"stream_name":"stderr","time":10.532565683,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":10.532570385,"data":"CalledProcessError                        Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":10.532574807,"data":"/tmp/ipykernel_16/2864297209.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":10.532579976,"data":"      9 for name,content in BUILD_SOURCES.items():\n"}
+,{"stream_name":"stderr","time":10.532596647,"data":"     10     (stage/name).write_text(content,encoding='utf-8')\n"}
+,{"stream_name":"stderr","time":10.532601207,"data":"---\u003e 11 subprocess.run(['bash',str(stage/'build_overlay.sh'),str(stage)],check=True)\n"}
+,{"stream_name":"stderr","time":10.532606147,"data":"\n"}
+,{"stream_name":"stderr","time":10.532610688,"data":"/usr/lib/python3.12/subprocess.py in run(input, capture_output, timeout, check, *popenargs, **kwargs)\n"}
+,{"stream_name":"stderr","time":10.532615708,"data":"    569         retcode = process.poll()\n"}
+,{"stream_name":"stderr","time":10.532620761,"data":"    570         if check and retcode:\n"}
+,{"stream_name":"stderr","time":10.532625396,"data":"--\u003e 571             raise CalledProcessError(retcode, process.args,\n"}
+,{"stream_name":"stderr","time":10.532630064,"data":"    572                                      output=stdout, stderr=stderr)\n"}
+,{"stream_name":"stderr","time":10.532634744,"data":"    573     return CompletedProcess(process.args, retcode, stdout, stderr)\n"}
+,{"stream_name":"stderr","time":10.532639602,"data":"\n"}
+,{"stream_name":"stderr","time":10.53264404,"data":"CalledProcessError: Command '['bash', '/kaggle/working/build-src/build_overlay.sh', '/kaggle/working/build-src']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stderr","time":10.532649076,"data":"\n"}
+,{"stream_name":"stderr","time":13.432764482,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":13.43280327,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13.625506573,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13.625558104,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":14.377435581,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":14.776644717,"data":"[NbConvertApp] Writing 43317 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":17.854203291,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":18.892367276999998,"data":"[NbConvertApp] Writing 370002 bytes to __results__.html\n"}
+]

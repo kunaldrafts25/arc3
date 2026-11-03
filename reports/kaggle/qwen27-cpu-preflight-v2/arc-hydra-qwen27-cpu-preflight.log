@@ -1,0 +1,44 @@
+[{"stream_name":"stderr","time":11.051677267,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.051738797,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.051743467,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.051746396,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.906660396,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.906701784,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.906705746,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.906708628,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":20.662500895,"data":"{\n"}
+,{"stream_name":"stdout","time":20.662543321,"data":"  \"passed\": true,\n"}
+,{"stream_name":"stdout","time":20.662549468,"data":"  \"elapsed_seconds\": 4.481995782000013,\n"}
+,{"stream_name":"stdout","time":20.662554155,"data":"  \"target_path\": \"/kaggle/input/models/mikedan7/qwen3-8-27b-fp8-official/pytorch/hf-fp8/1\",\n"}
+,{"stream_name":"stdout","time":20.662558852,"data":"  \"draft_path\": \"/kaggle/input/models/dangkhoa2016/z-lab-qwen3-8-27b-dflash2/transformers/default/1\",\n"}
+,{"stream_name":"stdout","time":20.662563757,"data":"  \"draft_weight_bytes\": 3848817896,\n"}
+,{"stream_name":"stdout","time":20.662568136,"data":"  \"wheel_name\": \"sglang-0.5.19+gd00d88efc8d6-cp312-cp312-linux_x86_64.whl\",\n"}
+,{"stream_name":"stdout","time":20.662572316,"data":"  \"wheel_sha256\": \"d0620216732b82b6efd4f8a78cc9b5f55343a4d3837fdfa3bcbb841b7718a225\",\n"}
+,{"stream_name":"stdout","time":20.662576515,"data":"  \"runtime_flags\": {\n"}
+,{"stream_name":"stdout","time":20.66258044,"data":"    \"DFLASH\": true,\n"}
+,{"stream_name":"stdout","time":20.662584441,"data":"    \"--speculative-draft-window-size\": true,\n"}
+,{"stream_name":"stdout","time":20.662588458,"data":"    \"--speculative-attention-mode\": true,\n"}
+,{"stream_name":"stdout","time":20.662592425,"data":"    \"--decode-attention-backend\": true,\n"}
+,{"stream_name":"stdout","time":20.662596336,"data":"    \"--max-mamba-cache-size\": true\n"}
+,{"stream_name":"stdout","time":20.662619413,"data":"  },\n"}
+,{"stream_name":"stdout","time":20.662623527,"data":"  \"runtime_implementations\": [\n"}
+,{"stream_name":"stdout","time":20.662627605,"data":"    \"sglang/kernels/ops/speculative/dflash.py\",\n"}
+,{"stream_name":"stdout","time":20.662632146,"data":"    \"sglang/srt/models/dflash.py\",\n"}
+,{"stream_name":"stdout","time":20.662636733,"data":"    \"sglang/srt/speculative/dflash_disaggregation.py\",\n"}
+,{"stream_name":"stdout","time":20.662640826,"data":"    \"sglang/srt/speculative/dflash_info.py\",\n"}
+,{"stream_name":"stdout","time":20.662644999,"data":"    \"sglang/srt/speculative/dflash_info_v2.py\",\n"}
+,{"stream_name":"stdout","time":20.662649296,"data":"    \"sglang/srt/speculative/dflash_utils.py\",\n"}
+,{"stream_name":"stdout","time":20.662653802,"data":"    \"sglang/srt/speculative/dflash_worker_v2.py\"\n"}
+,{"stream_name":"stdout","time":20.662657753,"data":"  ],\n"}
+,{"stream_name":"stdout","time":20.66266144,"data":"  \"device_census\": \"\",\n"}
+,{"stream_name":"stdout","time":20.662666084,"data":"  \"boundary\": \"CPU mount/config/file-existence and serving-source inspection only. Option strings or configuration fields found in source do not certify a successful CLI launch. No model loading, weight correctness, draft compatibility, GPU inference, training support or gameplay quality established.\"\n"}
+,{"stream_name":"stdout","time":20.662687228,"data":"}\n"}
+,{"stream_name":"stderr","time":24.065070365,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":24.065107982,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":24.287397858,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":24.287440998,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":25.107242365,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":25.491882234,"data":"[NbConvertApp] Writing 8142 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":28.619069817,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":29.669960781,"data":"[NbConvertApp] Writing 296670 bytes to __results__.html\n"}
+]

@@ -1,0 +1,569 @@
+[
+  {
+    "step": 0,
+    "state": "NOT_FINISHED",
+    "level": 0
+  },
+  {
+    "step": 1,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 41,
+      "y": 4
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 2,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 56,
+      "y": 8
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 3,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 8,
+      "y": 8
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 4,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 13,
+      "y": 48
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 5,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 39,
+      "y": 38
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 38,
+      "bbox": [
+        36,
+        36,
+        63,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 6,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 50,
+      "y": 12
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 7,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 8,
+      "y": 24
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 8,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 13,
+      "y": 48
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 9,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 56,
+      "y": 40
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 38,
+      "bbox": [
+        52,
+        36,
+        61,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 10,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 23,
+      "y": 38
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 11,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 50,
+      "y": 10
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 12,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 45,
+      "y": 46
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 13,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 7,
+      "y": 4
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 14,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 48,
+      "y": 46
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 15,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 60,
+      "y": 59
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 16,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 47,
+      "y": 54
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 38,
+      "bbox": [
+        44,
+        52,
+        59,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 17,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 40,
+      "y": 40
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 38,
+      "bbox": [
+        36,
+        36,
+        57,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 18,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 39,
+      "y": 46
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 38,
+      "bbox": [
+        36,
+        44,
+        55,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 19,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 40,
+      "y": 56
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 38,
+      "bbox": [
+        36,
+        52,
+        53,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 20,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 39,
+      "y": 46
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 38,
+      "bbox": [
+        36,
+        44,
+        51,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 21,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 60,
+      "y": 59
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 22,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 15,
+      "y": 20
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 23,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 47,
+      "y": 54
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 38,
+      "bbox": [
+        44,
+        52,
+        49,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 24,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 8,
+      "y": 8
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 25,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 23,
+      "y": 12
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 26,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 49,
+      "y": 4
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 27,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 47,
+      "y": 38
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 38,
+      "bbox": [
+        44,
+        36,
+        49,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 28,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 24,
+      "y": 56
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 29,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 24,
+      "y": 8
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 30,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 46,
+      "y": 10
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 31,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 56,
+      "y": 56
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 38,
+      "bbox": [
+        44,
+        52,
+        57,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 32,
+    "action": 6,
+    "data": {
+      "game_id": "ft09-0d8bbf25",
+      "x": 8,
+      "y": 24
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 0,
+      "bbox": null,
+      "shape_changed": false
+    }
+  }
+]

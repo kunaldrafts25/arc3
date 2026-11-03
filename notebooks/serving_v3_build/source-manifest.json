@@ -1,0 +1,7 @@
+{
+  "build_overlay.sh": "d78cf1f99fd4be9e311eedcc376ca8fb9ba3bb5a581dce335e377827f1b6d35c",
+  "cuda_overlay.py": "8ff3c14338ab8caa3fea09f4639387a0767fa1641f5a2a65759cd6584071d39f",
+  "package_overlay.py": "fc195cea31aec1de3b5265295266e67f1410866c47cdb89b5669c30e2e76b481",
+  "pins.json": "557a5a7d3ffb12c46d872659f1074dd0007a7fb617df45fdfe50e25f0fb97299",
+  "LICENSE.Franzen": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+}

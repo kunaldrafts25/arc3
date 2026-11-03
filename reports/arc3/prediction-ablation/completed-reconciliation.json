@@ -1,0 +1,50 @@
+{
+  "exact_kernel": "kunalsinghh25/arc-hydra-prediction-matched-candidate/1",
+  "status": "COMPLETE",
+  "checked_at": "2026-11-01T12:38:24.988925+00:00",
+  "analysis": {
+    "model_gameplay_verified": true,
+    "problems": [],
+    "games": 25,
+    "levels": 99,
+    "full_wins": 8,
+    "mean_public_score": 45.18429143710498,
+    "generated_tokens": 3713121,
+    "notes": {
+      "sk48-d8078629": "tokens=68325",
+      "tn36-ef4dde99": "tokens=80809",
+      "m0r0-492f87ba": "tokens=245480",
+      "bp35-0a0ad940": "tokens=90545",
+      "cn04-2fe56bfb": "tokens=177172",
+      "dc22-fdcac232": "tokens=172035",
+      "tu93-0768757b": "tokens=274835",
+      "lp85-305b61c3": "tokens=181257",
+      "ka59-38d34dbb": "tokens=206861",
+      "wa30-ee6fef47": "tokens=116461",
+      "vc33-5430563c": "tokens=194097",
+      "lf52-271a04aa": "tokens=225170",
+      "r11l-495a7899": "tokens=139597",
+      "sc25-635fd71a": "tokens=73938",
+      "sp80-589a99af": "tokens=243089",
+      "ar25-0c556536": "tokens=138331",
+      "sb26-7fbdac44": "tokens=26173",
+      "cd82-fb555c5d": "tokens=113718",
+      "re86-8af5384d": "tokens=134233",
+      "s5i5-18d95033": "tokens=114503",
+      "ls20-9607627b": "tokens=162247",
+      "ft09-0d8bbf25": "tokens=114883",
+      "su15-1944f8ab": "tokens=164307",
+      "tr87-cd924810": "tokens=100372",
+      "g50t-5849a774": "tokens=215358"
+    },
+    "boundary": "Public development gameplay only. Not a hidden score or proof of the 71-point goal.",
+    "token_accounting_corrections": [],
+    "token_accounting_basis": "Action-record generation plus terminal no-action generation; cancellation notes may include additional uncharged generation.",
+    "public_level_completions_by_elapsed_seconds": {
+      "1800": 42,
+      "3600": 70,
+      "5400": 89,
+      "7200": 99
+    }
+  }
+}

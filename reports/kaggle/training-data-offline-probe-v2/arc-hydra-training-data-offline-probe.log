@@ -1,0 +1,44 @@
+[{"stream_name":"stderr","time":11.64286683,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.642923966,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.642932481,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.64293769,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.549066763999999,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.549103235,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.54910808,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.54911161,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":16.278015402,"data":"TRAINING_ASSET_INTEGRITY kaggle-expanded-exact-manifest-and-file-sha256\n"}
+,{"stream_name":"stdout","time":16.794815703,"data":"\n"}
+,{"stream_name":"stdout","time":916.355318494,"data":"\n"}
+,{"stream_name":"stdout","time":916.570062274,"data":"\n"}
+,{"stream_name":"stdout","time":916.619343541,"data":"\n"}
+,{"stream_name":"stdout","time":1071.843625658,"data":"COLLATION_PROGRESS 0 231\n"}
+,{"stream_name":"stdout","time":1071.843823416,"data":"COLLATION_PROGRESS 25 231\n"}
+,{"stream_name":"stdout","time":1071.843838328,"data":"COLLATION_PROGRESS 50 231\n"}
+,{"stream_name":"stdout","time":1071.8438446,"data":"COLLATION_PROGRESS 75 231\n"}
+,{"stream_name":"stdout","time":1071.843850636,"data":"COLLATION_PROGRESS 100 231\n"}
+,{"stream_name":"stdout","time":1071.843856306,"data":"COLLATION_PROGRESS 125 231\n"}
+,{"stream_name":"stdout","time":1071.843861858,"data":"COLLATION_PROGRESS 150 231\n"}
+,{"stream_name":"stdout","time":1071.843867196,"data":"COLLATION_PROGRESS 175 231\n"}
+,{"stream_name":"stdout","time":1071.843872501,"data":"COLLATION_PROGRESS 200 231\n"}
+,{"stream_name":"stdout","time":1071.843878086,"data":"COLLATION_PROGRESS 225 231\n"}
+,{"stream_name":"stdout","time":1071.843883383,"data":"{\n"}
+,{"stream_name":"stdout","time":1071.84388871,"data":"  \"passed\": true,\n"}
+,{"stream_name":"stdout","time":1071.843894506,"data":"  \"examples_expected\": 231,\n"}
+,{"stream_name":"stdout","time":1071.843899787,"data":"  \"examples_passed\": 231,\n"}
+,{"stream_name":"stdout","time":1071.843905138,"data":"  \"errors\": [],\n"}
+,{"stream_name":"stdout","time":1071.843910941,"data":"  \"lora_trainable_parameters\": 10485760,\n"}
+,{"stream_name":"stdout","time":1071.843916613,"data":"  \"cuda_available\": false,\n"}
+,{"stream_name":"stdout","time":1071.843922151,"data":"  \"boundary\": \"Actual CPU processor tensors, frozen render/prefix agreement, assistant-only labels and meta-model LoRA placement. No full checkpoint, CUDA backward step, training quality, adapter reload or serving compatibility established.\"\n"}
+,{"stream_name":"stdout","time":1071.843930791,"data":"}\n"}
+,{"stream_name":"stdout","time":1071.843935803,"data":"\n"}
+,{"stream_name":"stdout","time":1092.797006058,"data":"FLA_CPU_IMPORT_PASSED\n"}
+,{"stream_name":"stdout","time":1092.797059481,"data":"\n"}
+,{"stream_name":"stderr","time":1097.173296585,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1097.173347898,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1097.468028808,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1097.468062048,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1098.363897424,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1098.785764854,"data":"[NbConvertApp] Writing 19659 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1102.181124122,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1103.396739989,"data":"[NbConvertApp] Writing 334693 bytes to __results__.html\n"}
+]

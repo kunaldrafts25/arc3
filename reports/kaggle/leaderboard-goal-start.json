@@ -1,0 +1,126 @@
+{
+  "source": "Official Kaggle competition leaderboard API",
+  "recorded_at": "2026-10-25T14:27:17.954459+00:00",
+  "entries": [
+    {
+      "teamId": 15499660,
+      "teamName": "Yi-Chia Chen @ Fields Model",
+      "submissionDate": "2026-10-24T21:44:05.953000",
+      "score": "71.48"
+    },
+    {
+      "teamId": 15486995,
+      "teamName": "Tufa Labs",
+      "submissionDate": "2026-10-22T05:49:19.933000",
+      "score": "68.91"
+    },
+    {
+      "teamId": 15605182,
+      "teamName": "Team Turducken",
+      "submissionDate": "2026-10-24T23:45:16.093000",
+      "score": "56.02"
+    },
+    {
+      "teamId": 16021367,
+      "teamName": "the last dance \ud83d\udd7a",
+      "submissionDate": "2026-10-24T22:00:31.273000",
+      "score": "50.69"
+    },
+    {
+      "teamId": 16153655,
+      "teamName": "mtg",
+      "submissionDate": "2026-10-24T08:53:11.840000",
+      "score": "50.37"
+    },
+    {
+      "teamId": 16490178,
+      "teamName": "Grigoriy Zatravkin",
+      "submissionDate": "2026-10-22T22:03:42.630000",
+      "score": "47.19"
+    },
+    {
+      "teamId": 16569113,
+      "teamName": "\u5fa9\u6d3b\u306e\u6df7\u30c6\u30ad\u30b9\u30c8",
+      "submissionDate": "2026-10-24T20:38:09.206000",
+      "score": "46.82"
+    },
+    {
+      "teamId": 15770880,
+      "teamName": "NVARC3",
+      "submissionDate": "2026-10-24T23:56:36.103000",
+      "score": "45.90"
+    },
+    {
+      "teamId": 16132261,
+      "teamName": "artificialagencylab.com",
+      "submissionDate": "2026-10-22T18:16:22.746000",
+      "score": "45.41"
+    },
+    {
+      "teamId": 16958599,
+      "teamName": "Majkel1337",
+      "submissionDate": "2026-10-24T23:15:56.240000",
+      "score": "45.03"
+    },
+    {
+      "teamId": 16760837,
+      "teamName": "yktori",
+      "submissionDate": "2026-10-24T17:33:51.660000",
+      "score": "42.77"
+    },
+    {
+      "teamId": 16537511,
+      "teamName": "Vineeth Sai Varikuntla",
+      "submissionDate": "2026-10-25T03:08:16.176000",
+      "score": "40.98"
+    },
+    {
+      "teamId": 15488763,
+      "teamName": "AquaUrsa Research",
+      "submissionDate": "2026-10-24T18:44:42.273000",
+      "score": "39.69"
+    },
+    {
+      "teamId": 16805955,
+      "teamName": "dreach.ai",
+      "submissionDate": "2026-10-23T00:02:16.806000",
+      "score": "39.11"
+    },
+    {
+      "teamId": 16754530,
+      "teamName": "\u5927\u962a\u516c\u7acb\u5927\u5b66\u751fAI\u30c1\u30fc\u30e0",
+      "submissionDate": "2026-10-24T15:01:23.860000",
+      "score": "38.98"
+    },
+    {
+      "teamId": 16384837,
+      "teamName": "Daniel Franzen",
+      "submissionDate": "2026-10-25T01:50:27.933000",
+      "score": "38.85"
+    },
+    {
+      "teamId": 16958955,
+      "teamName": "Nhan Duc Nguyen",
+      "submissionDate": "2026-10-22T23:18:20.046000",
+      "score": "38.84"
+    },
+    {
+      "teamId": 15501006,
+      "teamName": "Jan Disselhoff",
+      "submissionDate": "2026-10-24T20:43:35.930000",
+      "score": "38.58"
+    },
+    {
+      "teamId": 16253766,
+      "teamName": "Advaith Vecham",
+      "submissionDate": "2026-10-24T00:39:19.046000",
+      "score": "38.22"
+    },
+    {
+      "teamId": 16992721,
+      "teamName": "fshindo",
+      "submissionDate": "2026-10-24T14:34:02.763000",
+      "score": "38.20"
+    }
+  ]
+}

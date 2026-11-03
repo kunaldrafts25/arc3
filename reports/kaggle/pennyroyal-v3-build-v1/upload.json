@@ -1,0 +1,12 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-pennyroyal-v3-build/1",
+  "timeout_seconds": 14400,
+  "configured_gpu": false,
+  "internet": true,
+  "models": [],
+  "files": {
+    "build.ipynb": "12d1169669770f33cc33d3bf225212d8260a04fb84cdab0e28da2fa9df1d68b8",
+    "kernel-metadata.json": "52d46d8e14b0224c1c6e2a66154c24237a413b86b600700bcc33b1c35b187a83",
+    "source-manifest.json": "bde872f28a40668541530d8e0f9d40e37e2756f01c33498b3541cf2ca63ab522"
+  }
+}

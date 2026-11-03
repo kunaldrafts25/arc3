@@ -1,0 +1,2537 @@
+{
+  "source_origin": "programmatic",
+  "session_store_files": 25,
+  "event_files": 25,
+  "counts": {
+    "started_game_sessions": 25,
+    "hypothesis_versions_observed": 1593,
+    "pending_forecasts_at_snapshot": 0,
+    "retained_counterexamples_at_snapshot": 38,
+    "invalidated_scopes_at_snapshot": 25,
+    "actual_resolution_events": 1545,
+    "all_candidates_refuted_events": 743,
+    "hypothesis_unknown": 522,
+    "hypothesis_contradicted": 2228,
+    "hypothesis_consistent": 340,
+    "new_version_after_all_candidates_refuted": 730,
+    "versions_ending_with_unchecked_outcome": 48
+  },
+  "per_session": {
+    "ar25-0c556536": {
+      "store": "ar25-0c556536.prediction.json",
+      "events": "ar25-0c556536.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 62,
+        "all_candidates_refuted_events": 15,
+        "hypothesis_unknown": 15,
+        "hypothesis_contradicted": 73,
+        "hypothesis_consistent": 36,
+        "new_version_after_all_candidates_refuted": 15,
+        "versions_ending_with_unchecked_outcome": 2
+      },
+      "feature_queries": {
+        "bbox": 311,
+        "count": 311
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 1,
+          "partial": 0,
+          "status": "consistent_on_observed_predictions"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_W": {
+                "expected": [
+                  22,
+                  32,
+                  25,
+                  35
+                ],
+                "observed": [
+                  22,
+                  32,
+                  28,
+                  38
+                ]
+              },
+              "count_Y": {
+                "expected": 290,
+                "observed": 289
+              }
+            },
+            "level": 3
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "bp35-0a0ad940": {
+      "store": "bp35-0a0ad940.prediction.json",
+      "events": "bp35-0a0ad940.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 62,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 59,
+        "all_candidates_refuted_events": 31,
+        "hypothesis_unknown": 24,
+        "hypothesis_contradicted": 90,
+        "new_version_after_all_candidates_refuted": 30,
+        "hypothesis_consistent": 4,
+        "versions_ending_with_unchecked_outcome": 3
+      },
+      "feature_queries": {
+        "bbox": 413,
+        "count": 413
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_N": {
+                "expected": [
+                  -17,
+                  66,
+                  13,
+                  54
+                ],
+                "observed": [
+                  1,
+                  48,
+                  13,
+                  54
+                ]
+              },
+              "bbox_S": {
+                "expected": [
+                  2,
+                  63,
+                  13,
+                  54
+                ],
+                "observed": [
+                  7,
+                  63,
+                  13,
+                  54
+                ]
+              },
+              "count_G": {
+                "expected": 218,
+                "observed": 242
+              },
+              "count_N": {
+                "expected": 242,
+                "observed": 357
+              },
+              "count_S": {
+                "expected": 1061,
+                "observed": 870
+              },
+              "count_p": {
+                "expected": 129,
+                "observed": 135
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_N": {
+                "expected": [
+                  1,
+                  63,
+                  13,
+                  54
+                ],
+                "observed": [
+                  1,
+                  48,
+                  13,
+                  54
+                ]
+              },
+              "bbox_S": {
+                "expected": [
+                  1,
+                  63,
+                  13,
+                  54
+                ],
+                "observed": [
+                  7,
+                  63,
+                  13,
+                  54
+                ]
+              },
+              "bbox_W": {
+                "expected": [
+                  17,
+                  64,
+                  15,
+                  64
+                ],
+                "observed": [
+                  23,
+                  64,
+                  15,
+                  64
+                ]
+              },
+              "bbox_Y": {
+                "expected": [
+                  17,
+                  54,
+                  14,
+                  53
+                ],
+                "observed": [
+                  23,
+                  60,
+                  14,
+                  53
+                ]
+              },
+              "bbox_p": {
+                "expected": [
+                  13,
+                  64,
+                  0,
+                  53
+                ],
+                "observed": [
+                  19,
+                  64,
+                  0,
+                  53
+                ]
+              },
+              "count_G": {
+                "expected": 226,
+                "observed": 242
+              },
+              "count_N": {
+                "expected": 247,
+                "observed": 357
+              },
+              "count_S": {
+                "expected": 978,
+                "observed": 870
+              },
+              "count_W": {
+                "expected": 47,
+                "observed": 46
+              },
+              "count_p": {
+                "expected": 134,
+                "observed": 135
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "cd82-fb555c5d": {
+      "store": "cd82-fb555c5d.prediction.json",
+      "events": "cd82-fb555c5d.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 63,
+        "all_candidates_refuted_events": 38,
+        "hypothesis_unknown": 18,
+        "hypothesis_contradicted": 97,
+        "new_version_after_all_candidates_refuted": 37,
+        "hypothesis_consistent": 11,
+        "versions_ending_with_unchecked_outcome": 1
+      },
+      "feature_queries": {
+        "bbox": 324,
+        "count": 324
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_O": {
+                "expected": [
+                  3,
+                  54,
+                  3,
+                  48
+                ],
+                "observed": [
+                  3,
+                  55,
+                  3,
+                  48
+                ]
+              },
+              "bbox_g": {
+                "expected": [
+                  43,
+                  54,
+                  20,
+                  21
+                ],
+                "observed": [
+                  40,
+                  57,
+                  14,
+                  31
+                ]
+              },
+              "count_O": {
+                "expected": 147,
+                "observed": 149
+              },
+              "count_g": {
+                "expected": 17,
+                "observed": 43
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_O": {
+                "expected": [
+                  3,
+                  45,
+                  3,
+                  48
+                ],
+                "observed": [
+                  3,
+                  55,
+                  3,
+                  48
+                ]
+              },
+              "bbox_c": {
+                "expected": [
+                  0,
+                  64,
+                  0,
+                  62
+                ],
+                "observed": [
+                  0,
+                  64,
+                  0,
+                  61
+                ]
+              },
+              "bbox_g": {
+                "expected": [
+                  32,
+                  46,
+                  17,
+                  26
+                ],
+                "observed": [
+                  40,
+                  57,
+                  14,
+                  31
+                ]
+              },
+              "count_O": {
+                "expected": 148,
+                "observed": 149
+              },
+              "count_c": {
+                "expected": 178,
+                "observed": 177
+              },
+              "count_g": {
+                "expected": 30,
+                "observed": 43
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "cn04-2fe56bfb": {
+      "store": "cn04-2fe56bfb.prediction.json",
+      "events": "cn04-2fe56bfb.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 63,
+        "all_candidates_refuted_events": 44,
+        "hypothesis_unknown": 10,
+        "hypothesis_contradicted": 107,
+        "new_version_after_all_candidates_refuted": 43,
+        "hypothesis_consistent": 9,
+        "versions_ending_with_unchecked_outcome": 1
+      },
+      "feature_queries": {
+        "bbox": 356,
+        "count": 356
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_W": {
+                "expected": [
+                  0,
+                  50,
+                  16,
+                  54
+                ],
+                "observed": [
+                  0,
+                  50,
+                  16,
+                  53
+                ]
+              },
+              "bbox_c": {
+                "expected": [
+                  0,
+                  1,
+                  33,
+                  48
+                ],
+                "observed": [
+                  0,
+                  1,
+                  32,
+                  48
+                ]
+              },
+              "count_N": {
+                "expected": 90,
+                "observed": 72
+              },
+              "count_W": {
+                "expected": 107,
+                "observed": 106
+              },
+              "count_c": {
+                "expected": 15,
+                "observed": 16
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_W": {
+                "expected": [
+                  0,
+                  53,
+                  16,
+                  53
+                ],
+                "observed": [
+                  0,
+                  50,
+                  16,
+                  53
+                ]
+              },
+              "count_N": {
+                "expected": 90,
+                "observed": 72
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "dc22-fdcac232": {
+      "store": "dc22-fdcac232.prediction.json",
+      "events": "dc22-fdcac232.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 63,
+        "all_candidates_refuted_events": 27,
+        "hypothesis_unknown": 23,
+        "hypothesis_contradicted": 76,
+        "hypothesis_consistent": 27,
+        "new_version_after_all_candidates_refuted": 27,
+        "versions_ending_with_unchecked_outcome": 1
+      },
+      "feature_queries": {
+        "bbox": 512,
+        "count": 512
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_W": {
+                "expected": [
+                  8,
+                  64,
+                  7,
+                  64
+                ],
+                "observed": [
+                  8,
+                  64,
+                  6,
+                  64
+                ]
+              },
+              "count_G": {
+                "expected": 967,
+                "observed": 966
+              },
+              "count_W": {
+                "expected": 105,
+                "observed": 106
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 1,
+          "partial": 0,
+          "status": "consistent_on_observed_predictions"
+        }
+      }
+    },
+    "ft09-0d8bbf25": {
+      "store": "ft09-0d8bbf25.prediction.json",
+      "events": "ft09-0d8bbf25.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 60,
+        "all_candidates_refuted_events": 8,
+        "hypothesis_unknown": 52,
+        "hypothesis_contradicted": 68,
+        "versions_ending_with_unchecked_outcome": 4,
+        "new_version_after_all_candidates_refuted": 8
+      },
+      "feature_queries": {
+        "bbox": 341,
+        "count": 341
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 1,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_O": {
+                "expected": [
+                  63,
+                  64,
+                  0,
+                  56
+                ],
+                "observed": [
+                  63,
+                  64,
+                  0,
+                  55
+                ]
+              },
+              "count_N": {
+                "expected": 400,
+                "observed": 436
+              },
+              "count_O": {
+                "expected": 56,
+                "observed": 55
+              },
+              "count_p": {
+                "expected": 696,
+                "observed": 660
+              }
+            },
+            "level": 5
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "g50t-5849a774": {
+      "store": "g50t-5849a774.prediction.json",
+      "events": "g50t-5849a774.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 64,
+        "all_candidates_refuted_events": 33,
+        "hypothesis_unknown": 5,
+        "hypothesis_consistent": 33,
+        "hypothesis_contradicted": 90,
+        "new_version_after_all_candidates_refuted": 32
+      },
+      "feature_queries": {
+        "bbox": 256,
+        "count": 256
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_w": {
+                "expected": [
+                  63,
+                  64,
+                  33,
+                  64
+                ],
+                "observed": [
+                  63,
+                  64,
+                  32,
+                  64
+                ]
+              },
+              "count_b": {
+                "expected": 88,
+                "observed": 87
+              },
+              "count_w": {
+                "expected": 31,
+                "observed": 32
+              }
+            },
+            "level": 1
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_w": {
+                "expected": [
+                  63,
+                  64,
+                  33,
+                  64
+                ],
+                "observed": [
+                  63,
+                  64,
+                  32,
+                  64
+                ]
+              },
+              "count_b": {
+                "expected": 88,
+                "observed": 87
+              },
+              "count_w": {
+                "expected": 31,
+                "observed": 32
+              }
+            },
+            "level": 1
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "ka59-38d34dbb": {
+      "store": "ka59-38d34dbb.prediction.json",
+      "events": "ka59-38d34dbb.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 62,
+        "all_candidates_refuted_events": 39,
+        "hypothesis_unknown": 20,
+        "hypothesis_contradicted": 101,
+        "new_version_after_all_candidates_refuted": 39,
+        "hypothesis_consistent": 3,
+        "versions_ending_with_unchecked_outcome": 2
+      },
+      "feature_queries": {
+        "bbox": 377,
+        "count": 377
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 1,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_N": {
+                "expected": [
+                  29,
+                  32,
+                  44,
+                  47
+                ],
+                "observed": [
+                  29,
+                  32,
+                  41,
+                  44
+                ]
+              },
+              "bbox_W": {
+                "expected": [
+                  30,
+                  64,
+                  45,
+                  64
+                ],
+                "observed": [
+                  30,
+                  64,
+                  42,
+                  64
+                ]
+              }
+            },
+            "level": 3
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "lf52-271a04aa": {
+      "store": "lf52-271a04aa.prediction.json",
+      "events": "lf52-271a04aa.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 63,
+        "all_candidates_refuted_events": 29,
+        "hypothesis_unknown": 20,
+        "hypothesis_contradicted": 92,
+        "new_version_after_all_candidates_refuted": 28,
+        "versions_ending_with_unchecked_outcome": 1,
+        "hypothesis_consistent": 14
+      },
+      "feature_queries": {
+        "bbox": 428,
+        "count": 428
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_w": {
+                "expected": [
+                  0,
+                  55,
+                  0,
+                  53
+                ],
+                "observed": [
+                  0,
+                  55,
+                  0,
+                  54
+                ]
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_O": {
+                "expected": [
+                  33,
+                  37,
+                  31,
+                  35
+                ],
+                "observed": [
+                  33,
+                  37,
+                  37,
+                  41
+                ]
+              },
+              "bbox_Y": {
+                "expected": [
+                  32,
+                  38,
+                  30,
+                  36
+                ],
+                "observed": [
+                  32,
+                  38,
+                  36,
+                  42
+                ]
+              },
+              "bbox_w": {
+                "expected": [
+                  0,
+                  55,
+                  0,
+                  53
+                ],
+                "observed": [
+                  0,
+                  55,
+                  0,
+                  54
+                ]
+              },
+              "count_W": {
+                "expected": 511,
+                "observed": 510
+              },
+              "count_w": {
+                "expected": 417,
+                "observed": 418
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "lp85-305b61c3": {
+      "store": "lp85-305b61c3.prediction.json",
+      "events": "lp85-305b61c3.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 60,
+        "all_candidates_refuted_events": 40,
+        "hypothesis_unknown": 18,
+        "hypothesis_consistent": 6,
+        "hypothesis_contradicted": 96,
+        "new_version_after_all_candidates_refuted": 39,
+        "versions_ending_with_unchecked_outcome": 4
+      },
+      "feature_queries": {
+        "bbox": 512,
+        "count": 512
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_S": {
+                "expected": [
+                  6,
+                  64,
+                  29,
+                  27
+                ],
+                "observed": [
+                  6,
+                  58,
+                  23,
+                  33
+                ]
+              },
+              "bbox_Y": {
+                "expected": [
+                  4,
+                  58,
+                  15,
+                  47
+                ],
+                "observed": [
+                  4,
+                  28,
+                  15,
+                  47
+                ]
+              },
+              "bbox_b": {
+                "expected": [
+                  24,
+                  58,
+                  17,
+                  33
+                ],
+                "observed": [
+                  18,
+                  58,
+                  17,
+                  27
+                ]
+              },
+              "bbox_p": {
+                "expected": [
+                  6,
+                  46,
+                  17,
+                  39
+                ],
+                "observed": [
+                  12,
+                  52,
+                  17,
+                  33
+                ]
+              },
+              "bbox_w": {
+                "expected": [
+                  6,
+                  46,
+                  17,
+                  45
+                ],
+                "observed": [
+                  6,
+                  58,
+                  17,
+                  39
+                ]
+              },
+              "count_N": {
+                "expected": 158,
+                "observed": 157
+              }
+            },
+            "level": 5
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_Y": {
+                "expected": [
+                  4,
+                  58,
+                  15,
+                  47
+                ],
+                "observed": [
+                  4,
+                  28,
+                  15,
+                  47
+                ]
+              },
+              "bbox_b": {
+                "expected": [
+                  18,
+                  58,
+                  17,
+                  33
+                ],
+                "observed": [
+                  18,
+                  58,
+                  17,
+                  27
+                ]
+              },
+              "bbox_p": {
+                "expected": [
+                  6,
+                  46,
+                  17,
+                  33
+                ],
+                "observed": [
+                  12,
+                  52,
+                  17,
+                  33
+                ]
+              },
+              "bbox_w": {
+                "expected": [
+                  6,
+                  52,
+                  17,
+                  45
+                ],
+                "observed": [
+                  6,
+                  58,
+                  17,
+                  39
+                ]
+              },
+              "count_N": {
+                "expected": 158,
+                "observed": 157
+              }
+            },
+            "level": 5
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "ls20-9607627b": {
+      "store": "ls20-9607627b.prediction.json",
+      "events": "ls20-9607627b.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 63,
+        "all_candidates_refuted_events": 26,
+        "hypothesis_unknown": 8,
+        "hypothesis_contradicted": 89,
+        "new_version_after_all_candidates_refuted": 26,
+        "hypothesis_consistent": 29,
+        "versions_ending_with_unchecked_outcome": 1
+      },
+      "feature_queries": {
+        "bbox": 512,
+        "count": 512
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 1,
+          "partial": 0,
+          "status": "consistent_on_observed_predictions"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_O": {
+                "expected": [
+                  25,
+                  27,
+                  34,
+                  39
+                ],
+                "observed": [
+                  20,
+                  22,
+                  34,
+                  39
+                ]
+              },
+              "bbox_b": {
+                "expected": [
+                  27,
+                  61,
+                  3,
+                  39
+                ],
+                "observed": [
+                  22,
+                  61,
+                  3,
+                  39
+                ]
+              },
+              "count_G": {
+                "expected": 1376,
+                "observed": 1380
+              },
+              "count_Y": {
+                "expected": 84,
+                "observed": 80
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "m0r0-492f87ba": {
+      "store": "m0r0-492f87ba.prediction.json",
+      "events": "m0r0-492f87ba.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 63,
+        "all_candidates_refuted_events": 12,
+        "hypothesis_unknown": 7,
+        "hypothesis_contradicted": 73,
+        "new_version_after_all_candidates_refuted": 11,
+        "hypothesis_consistent": 46,
+        "versions_ending_with_unchecked_outcome": 1
+      },
+      "feature_queries": {
+        "bbox": 226,
+        "count": 226
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_S": {
+                "expected": [
+                  42,
+                  54,
+                  22,
+                  34
+                ],
+                "observed": [
+                  46,
+                  50,
+                  22,
+                  34
+                ]
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_S": {
+                "expected": [
+                  46,
+                  54,
+                  22,
+                  34
+                ],
+                "observed": [
+                  46,
+                  50,
+                  22,
+                  34
+                ]
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "r11l-495a7899": {
+      "store": "r11l-495a7899.prediction.json",
+      "events": "r11l-495a7899.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 60,
+        "all_candidates_refuted_events": 8,
+        "hypothesis_unknown": 52,
+        "hypothesis_contradicted": 68,
+        "new_version_after_all_candidates_refuted": 7,
+        "versions_ending_with_unchecked_outcome": 4
+      },
+      "feature_queries": {
+        "bbox": 496,
+        "count": 496
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_G": {
+                "expected": [
+                  18,
+                  58,
+                  23,
+                  55
+                ],
+                "observed": [
+                  36,
+                  58,
+                  18,
+                  55
+                ]
+              },
+              "bbox_W": {
+                "expected": [
+                  8,
+                  64,
+                  0,
+                  57
+                ],
+                "observed": [
+                  9,
+                  64,
+                  0,
+                  57
+                ]
+              },
+              "bbox_w": {
+                "expected": [
+                  18,
+                  55,
+                  21,
+                  51
+                ],
+                "observed": [
+                  22,
+                  55,
+                  21,
+                  51
+                ]
+              },
+              "count_W": {
+                "expected": 131,
+                "observed": 130
+              },
+              "count_w": {
+                "expected": 21,
+                "observed": 19
+              }
+            },
+            "level": 5
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_G": {
+                "expected": [
+                  18,
+                  58,
+                  23,
+                  55
+                ],
+                "observed": [
+                  36,
+                  58,
+                  18,
+                  55
+                ]
+              },
+              "bbox_W": {
+                "expected": [
+                  7,
+                  64,
+                  0,
+                  57
+                ],
+                "observed": [
+                  9,
+                  64,
+                  0,
+                  57
+                ]
+              },
+              "count_W": {
+                "expected": 132,
+                "observed": 130
+              }
+            },
+            "level": 5
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "re86-8af5384d": {
+      "store": "re86-8af5384d.prediction.json",
+      "events": "re86-8af5384d.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 62,
+        "all_candidates_refuted_events": 53,
+        "hypothesis_unknown": 9,
+        "hypothesis_contradicted": 115,
+        "new_version_after_all_candidates_refuted": 52,
+        "versions_ending_with_unchecked_outcome": 2
+      },
+      "feature_queries": {
+        "bbox": 351,
+        "count": 351
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_p": {
+                "expected": [
+                  63,
+                  64,
+                  0,
+                  61
+                ],
+                "observed": [
+                  63,
+                  64,
+                  0,
+                  62
+                ]
+              },
+              "count_c": {
+                "expected": 62,
+                "observed": 63
+              },
+              "count_p": {
+                "expected": 61,
+                "observed": 62
+              }
+            },
+            "level": 3
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_W": {
+                "expected": [
+                  30,
+                  31,
+                  30,
+                  31
+                ],
+                "observed": [
+                  27,
+                  28,
+                  30,
+                  31
+                ]
+              },
+              "count_c": {
+                "expected": 62,
+                "observed": 63
+              }
+            },
+            "level": 3
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "s5i5-18d95033": {
+      "store": "s5i5-18d95033.prediction.json",
+      "events": "s5i5-18d95033.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 63,
+        "all_candidates_refuted_events": 25,
+        "hypothesis_unknown": 25,
+        "hypothesis_contradicted": 87,
+        "new_version_after_all_candidates_refuted": 25,
+        "hypothesis_consistent": 14,
+        "versions_ending_with_unchecked_outcome": 1
+      },
+      "feature_queries": {
+        "bbox": 438,
+        "count": 438
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 1,
+          "partial": 0,
+          "status": "consistent_on_observed_predictions"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "count_G": {
+                "expected": 85,
+                "observed": 84
+              },
+              "count_N": {
+                "expected": 37,
+                "observed": 28
+              },
+              "count_c": {
+                "expected": 155,
+                "observed": 156
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "sb26-7fbdac44": {
+      "store": "sb26-7fbdac44.prediction.json",
+      "events": "sb26-7fbdac44.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 61,
+        "all_candidates_refuted_events": 9,
+        "hypothesis_unknown": 44,
+        "hypothesis_contradicted": 50,
+        "versions_ending_with_unchecked_outcome": 3,
+        "hypothesis_consistent": 28,
+        "new_version_after_all_candidates_refuted": 9
+      },
+      "feature_queries": {
+        "bbox": 512,
+        "count": 512
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 1,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_R": {
+                "expected": [
+                  1,
+                  61,
+                  15,
+                  49
+                ],
+                "observed": [
+                  1,
+                  28,
+                  15,
+                  49
+                ]
+              },
+              "bbox_g": {
+                "expected": [
+                  22,
+                  60,
+                  0,
+                  62
+                ],
+                "observed": [
+                  22,
+                  60,
+                  0,
+                  61
+                ]
+              },
+              "count_g": {
+                "expected": 90,
+                "observed": 89
+              }
+            },
+            "level": 4
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "sc25-635fd71a": {
+      "store": "sc25-635fd71a.prediction.json",
+      "events": "sc25-635fd71a.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 62,
+        "all_candidates_refuted_events": 32,
+        "hypothesis_unknown": 25,
+        "hypothesis_consistent": 7,
+        "hypothesis_contradicted": 92,
+        "new_version_after_all_candidates_refuted": 32,
+        "versions_ending_with_unchecked_outcome": 2
+      },
+      "feature_queries": {
+        "bbox": 472,
+        "count": 472
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 1,
+          "partial": 0,
+          "status": "consistent_on_observed_predictions"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_N": {
+                "expected": [
+                  24,
+                  64,
+                  62,
+                  64
+                ],
+                "observed": [
+                  26,
+                  64,
+                  29,
+                  64
+                ]
+              },
+              "bbox_W": {
+                "expected": [
+                  0,
+                  24,
+                  62,
+                  64
+                ],
+                "observed": [
+                  0,
+                  26,
+                  62,
+                  64
+                ]
+              },
+              "count_N": {
+                "expected": 80,
+                "observed": 85
+              },
+              "count_W": {
+                "expected": 48,
+                "observed": 52
+              },
+              "count_g": {
+                "expected": 577,
+                "observed": 568
+              }
+            },
+            "level": 3
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "sk48-d8078629": {
+      "store": "sk48-d8078629.prediction.json",
+      "events": "sk48-d8078629.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 63,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 63,
+        "all_candidates_refuted_events": 44,
+        "hypothesis_unknown": 5,
+        "hypothesis_contradicted": 107,
+        "new_version_after_all_candidates_refuted": 43,
+        "hypothesis_consistent": 14
+      },
+      "feature_queries": {
+        "bbox": 504,
+        "count": 504
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_N": {
+                "expected": [
+                  19,
+                  61,
+                  18,
+                  37
+                ],
+                "observed": [
+                  19,
+                  61,
+                  24,
+                  37
+                ]
+              },
+              "count_c": {
+                "expected": 1388,
+                "observed": 1380
+              },
+              "count_g": {
+                "expected": 76,
+                "observed": 78
+              }
+            },
+            "level": 1
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_N": {
+                "expected": [
+                  19,
+                  61,
+                  18,
+                  37
+                ],
+                "observed": [
+                  19,
+                  61,
+                  24,
+                  37
+                ]
+              },
+              "count_c": {
+                "expected": 1392,
+                "observed": 1380
+              },
+              "count_g": {
+                "expected": 74,
+                "observed": 78
+              }
+            },
+            "level": 1
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "sp80-589a99af": {
+      "store": "sp80-589a99af.prediction.json",
+      "events": "sp80-589a99af.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 62,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 59,
+        "all_candidates_refuted_events": 39,
+        "hypothesis_unknown": 11,
+        "hypothesis_contradicted": 98,
+        "new_version_after_all_candidates_refuted": 38,
+        "hypothesis_consistent": 9,
+        "versions_ending_with_unchecked_outcome": 3
+      },
+      "feature_queries": {
+        "bbox": 426,
+        "count": 426
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_N": {
+                "expected": [
+                  63,
+                  64,
+                  19,
+                  64
+                ],
+                "observed": [
+                  63,
+                  64,
+                  20,
+                  64
+                ]
+              },
+              "count_N": {
+                "expected": 45,
+                "observed": 44
+              },
+              "count_R": {
+                "expected": 80,
+                "observed": 96
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_N": {
+                "expected": [
+                  63,
+                  64,
+                  18,
+                  64
+                ],
+                "observed": [
+                  63,
+                  64,
+                  20,
+                  64
+                ]
+              },
+              "bbox_b": {
+                "expected": [
+                  16,
+                  20,
+                  36,
+                  48
+                ],
+                "observed": [
+                  16,
+                  20,
+                  32,
+                  44
+                ]
+              },
+              "count_N": {
+                "expected": 46,
+                "observed": 44
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "su15-1944f8ab": {
+      "store": "su15-1944f8ab.prediction.json",
+      "events": "su15-1944f8ab.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 62,
+        "all_candidates_refuted_events": 6,
+        "hypothesis_unknown": 55,
+        "hypothesis_contradicted": 66,
+        "hypothesis_consistent": 3,
+        "new_version_after_all_candidates_refuted": 6,
+        "versions_ending_with_unchecked_outcome": 2
+      },
+      "feature_queries": {
+        "bbox": 400,
+        "count": 400
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 1,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_W": {
+                "expected": [
+                  63,
+                  64,
+                  0,
+                  40
+                ],
+                "observed": [
+                  63,
+                  64,
+                  0,
+                  39
+                ]
+              },
+              "bbox_p": {
+                "expected": [
+                  1,
+                  49,
+                  9,
+                  39
+                ],
+                "observed": [
+                  1,
+                  52,
+                  9,
+                  39
+                ]
+              },
+              "count_W": {
+                "expected": 40,
+                "observed": 39
+              },
+              "count_b": {
+                "expected": 138,
+                "observed": 129
+              }
+            },
+            "level": 3
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "tn36-ef4dde99": {
+      "store": "tn36-ef4dde99.prediction.json",
+      "events": "tn36-ef4dde99.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 63,
+        "all_candidates_refuted_events": 28,
+        "hypothesis_unknown": 25,
+        "hypothesis_contradicted": 91,
+        "hypothesis_consistent": 10,
+        "new_version_after_all_candidates_refuted": 28,
+        "versions_ending_with_unchecked_outcome": 1
+      },
+      "feature_queries": {
+        "bbox": 406,
+        "count": 406
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 1,
+          "partial": 0,
+          "status": "consistent_on_observed_predictions"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_c": {
+                "expected": [
+                  4,
+                  32,
+                  6,
+                  61
+                ],
+                "observed": [
+                  4,
+                  32,
+                  14,
+                  61
+                ]
+              },
+              "count_G": {
+                "expected": 898,
+                "observed": 899
+              },
+              "count_b": {
+                "expected": 120,
+                "observed": 119
+              },
+              "count_w": {
+                "expected": 129,
+                "observed": 117
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "tr87-cd924810": {
+      "store": "tr87-cd924810.prediction.json",
+      "events": "tr87-cd924810.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 63,
+        "all_candidates_refuted_events": 51,
+        "hypothesis_unknown": 6,
+        "hypothesis_contradicted": 114,
+        "hypothesis_consistent": 6,
+        "new_version_after_all_candidates_refuted": 50,
+        "versions_ending_with_unchecked_outcome": 1
+      },
+      "feature_queries": {
+        "bbox": 384,
+        "count": 384
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_w": {
+                "expected": [
+                  63,
+                  64,
+                  0,
+                  51
+                ],
+                "observed": [
+                  63,
+                  64,
+                  0,
+                  52
+                ]
+              },
+              "count_B": {
+                "expected": 380,
+                "observed": 374
+              },
+              "count_Y": {
+                "expected": 702,
+                "observed": 708
+              },
+              "count_w": {
+                "expected": 51,
+                "observed": 52
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "count_B": {
+                "expected": 377,
+                "observed": 374
+              },
+              "count_Y": {
+                "expected": 705,
+                "observed": 708
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "tu93-0768757b": {
+      "store": "tu93-0768757b.prediction.json",
+      "events": "tu93-0768757b.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 62,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 2,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 58,
+        "all_candidates_refuted_events": 43,
+        "hypothesis_unknown": 11,
+        "hypothesis_contradicted": 101,
+        "new_version_after_all_candidates_refuted": 42,
+        "hypothesis_consistent": 4,
+        "versions_ending_with_unchecked_outcome": 4
+      },
+      "feature_queries": {
+        "bbox": 460,
+        "count": 460
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "count_R": {
+                "expected": -8,
+                "observed": 0
+              },
+              "count_W": {
+                "expected": 235,
+                "observed": 226
+              },
+              "count_p": {
+                "expected": -1,
+                "observed": 0
+              }
+            },
+            "level": 3
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_M": {
+                "expected": [
+                  63,
+                  64,
+                  0,
+                  29
+                ],
+                "observed": [
+                  63,
+                  64,
+                  0,
+                  27
+                ]
+              },
+              "bbox_b": {
+                "expected": [
+                  36,
+                  39,
+                  12,
+                  15
+                ],
+                "observed": [
+                  36,
+                  39,
+                  18,
+                  21
+                ]
+              },
+              "bbox_c": {
+                "expected": [
+                  38,
+                  39,
+                  13,
+                  14
+                ],
+                "observed": [
+                  37,
+                  38,
+                  20,
+                  21
+                ]
+              },
+              "count_M": {
+                "expected": 29,
+                "observed": 27
+              },
+              "count_W": {
+                "expected": 224,
+                "observed": 226
+              }
+            },
+            "level": 3
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "vc33-5430563c": {
+      "store": "vc33-5430563c.prediction.json",
+      "events": "vc33-5430563c.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 61,
+        "all_candidates_refuted_events": 24,
+        "hypothesis_unknown": 24,
+        "hypothesis_contradicted": 85,
+        "hypothesis_consistent": 13,
+        "new_version_after_all_candidates_refuted": 24,
+        "versions_ending_with_unchecked_outcome": 3
+      },
+      "feature_queries": {
+        "bbox": 433,
+        "count": 433
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 1,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_P": {
+                "expected": [
+                  0,
+                  1,
+                  0,
+                  61
+                ],
+                "observed": [
+                  0,
+                  1,
+                  0,
+                  60
+                ]
+              },
+              "count_P": {
+                "expected": 61,
+                "observed": 60
+              },
+              "count_W": {
+                "expected": 459,
+                "observed": 468
+              },
+              "count_c": {
+                "expected": 19,
+                "observed": 20
+              }
+            },
+            "level": 4
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    },
+    "wa30-ee6fef47": {
+      "store": "wa30-ee6fef47.prediction.json",
+      "events": "wa30-ee6fef47.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 64,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 1,
+        "actual_resolution_events": 63,
+        "all_candidates_refuted_events": 39,
+        "hypothesis_unknown": 10,
+        "hypothesis_contradicted": 102,
+        "new_version_after_all_candidates_refuted": 39,
+        "hypothesis_consistent": 14,
+        "versions_ending_with_unchecked_outcome": 1
+      },
+      "feature_queries": {
+        "bbox": 418,
+        "count": 418
+      },
+      "last_question": "Online naive pixel-feature proposal diagnostic",
+      "last_models": {
+        "last_same_action_effect": {
+          "abstained": 0,
+          "consistent": 1,
+          "partial": 0,
+          "status": "consistent_on_observed_predictions"
+        },
+        "unchanged": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "recorded",
+            "after_step": 64,
+            "before_step": 63,
+            "differences": {
+              "bbox_N": {
+                "expected": [
+                  0,
+                  4,
+                  1,
+                  4
+                ],
+                "observed": [
+                  0,
+                  4,
+                  4,
+                  7
+                ]
+              },
+              "bbox_O": {
+                "expected": [
+                  24,
+                  28,
+                  24,
+                  28
+                ],
+                "observed": [
+                  24,
+                  28,
+                  28,
+                  32
+                ]
+              },
+              "bbox_P": {
+                "expected": [
+                  63,
+                  64,
+                  0,
+                  34
+                ],
+                "observed": [
+                  63,
+                  64,
+                  0,
+                  33
+                ]
+              },
+              "bbox_W": {
+                "expected": [
+                  0,
+                  4,
+                  0,
+                  1
+                ],
+                "observed": [
+                  0,
+                  4,
+                  7,
+                  8
+                ]
+              },
+              "count_P": {
+                "expected": 34,
+                "observed": 33
+              },
+              "count_c": {
+                "expected": 90,
+                "observed": 91
+              }
+            },
+            "level": 2
+          },
+          "partial": 0,
+          "status": "contradicted"
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "ar25-0c556536.prediction.json": "560828268cc0b39517558fb2f4ab9e6b01cba4afa1d8c9202b4c2460e2db5585",
+    "bp35-0a0ad940.prediction.json": "0e0fb0d5e62e88755716438045e23d9307396bc207f796bfd9579ebf2af3e804",
+    "cd82-fb555c5d.prediction.json": "8edc56086397366c71b28b326083fc4e488fadb2c8ccd85e76052ff2c3b9485d",
+    "cn04-2fe56bfb.prediction.json": "6b723215adc6b378c8edcabbd56bd98efa27e3be7cd02b9196e02a0ac5003258",
+    "dc22-fdcac232.prediction.json": "9cf6e1d6f7e855e074070afb5e58a7343b7bf51b60cd672a5f687c2b7b78973c",
+    "ft09-0d8bbf25.prediction.json": "692901f323856399dd42fd744bce762360f99cedd44ee0d37b131cadfc083984",
+    "g50t-5849a774.prediction.json": "87ed31da656f953284f49da16998618f79875e65dba3f3260746ed2f3405ba9d",
+    "ka59-38d34dbb.prediction.json": "d87d6ae451b694f90f482657020e5c80c248e8d855df496becd1650d7febd57d",
+    "lf52-271a04aa.prediction.json": "5b2b5a2008932678b00413ddac6e04670080f259581724d6dd234463a2f8b2de",
+    "lp85-305b61c3.prediction.json": "c150c436c829faad20a7b2c37d6b919befc6b88f11cff2c868963d5fd2db3c40",
+    "ls20-9607627b.prediction.json": "7e9a8eac307b6c230d226b8a77cc2202a2e75b781574a2b98466e0c7baf4c63c",
+    "m0r0-492f87ba.prediction.json": "9487be1ae335c8c8ec1cdcdbe561a5c22949489bad125a5e6fe319376c0f08ee",
+    "r11l-495a7899.prediction.json": "e82a8e077f3fbc4bf5de4b2097546140dd180af0177721b5f0dee26e3deb4103",
+    "re86-8af5384d.prediction.json": "1687558895330fcc6c715b9c9ec3a21cb78157f6ad379b472f638158c8ecad21",
+    "s5i5-18d95033.prediction.json": "a6797654cb32004e842b7f4666d2e616156810cb010c86449bd1fceb000f9a4c",
+    "sb26-7fbdac44.prediction.json": "dca1882aaba139c4dea42ff90d5c11a1329d9473984783f8921e4be4b9006198",
+    "sc25-635fd71a.prediction.json": "380f5ed54821dd1177631989b8bbba7cbf19a57f03e772c16046f93a6a318303",
+    "sk48-d8078629.prediction.json": "1321e5c21dd3a979277a6a7f912fea16bad024bc0b2c11f61b681b467b7bcd88",
+    "sp80-589a99af.prediction.json": "7e5fb797fc565c5ae21844ff56f0058329e5cc2d969948d27ce6f73d092324d1",
+    "su15-1944f8ab.prediction.json": "74c329eb6fb7175311a55d9d6818df371b62f55eef9e4fbed72b2ae84f44525c",
+    "tn36-ef4dde99.prediction.json": "a2b2e7c46325d7c2d2a901e3d92bf0c1f7e3515e4e1a7742368fa0c347164aa9",
+    "tr87-cd924810.prediction.json": "e1861b1f9c7d55e466640ed1d61e9636a4221a9f8eedab0f8bc31b951ddc0980",
+    "tu93-0768757b.prediction.json": "e7a1c718d25b952e70ecda9755096f6a83802b9eacb3e41d6e8586ec6befa078",
+    "vc33-5430563c.prediction.json": "b62353ade572c94c31f76c552cfefb4efc62c6aeb26d4349836f0bf6f22ecf4b",
+    "wa30-ee6fef47.prediction.json": "e417689489c859db4051342d499997320296a818df46e60d29593d7c7ea94121",
+    "ar25-0c556536.prediction.events.jsonl": "26f605d3de0c000285e54d0d4c35783706cde0efaf29ab9501716137c0b60e45",
+    "bp35-0a0ad940.prediction.events.jsonl": "3f04bf0a662b214daefca0ea7ea4017ab8166e0f679d951cda564c8ffd935dcf",
+    "cd82-fb555c5d.prediction.events.jsonl": "5e80b3841f783239587011b2647fb06115b20b6b71c9f9c9867244338d291dcf",
+    "cn04-2fe56bfb.prediction.events.jsonl": "b61ea97f6a3185aaa9e27fe5e6a6a1c6e9c6c5c06e89474951da202ebf2d40a8",
+    "dc22-fdcac232.prediction.events.jsonl": "103545b8434c21e61b90d600cb14d5afc4b676e3e970c4529d4fd06e2c1faaeb",
+    "ft09-0d8bbf25.prediction.events.jsonl": "718832e9b4bf60ec6a4335997373589301e846d093e8d46a340af6b0c5f2dba1",
+    "g50t-5849a774.prediction.events.jsonl": "508061a664f85efee1b51c5bd4425e3f8eedde9eb622c90c6bf4ce37b1ed12ce",
+    "ka59-38d34dbb.prediction.events.jsonl": "b7232529e7654894d4bf5e9284307e7e4c701ca3c85e2960fddfff393ade97f5",
+    "lf52-271a04aa.prediction.events.jsonl": "98c68f06dc7283d0133ec64f99ccae470b50f22321146d1d4b141b4434d97bf2",
+    "lp85-305b61c3.prediction.events.jsonl": "573a0d917fa09eff91d140d52c475fc059a8ad78019665f943817f4c84adb5ff",
+    "ls20-9607627b.prediction.events.jsonl": "46f321fdca1efa8ff3286dae21a9b14ab2a1f13ea613ada297784235f786b76e",
+    "m0r0-492f87ba.prediction.events.jsonl": "588190d577cf3b27c7b0ebf9c47d129c7030b8e6e4f431391f75d8189f3a9780",
+    "r11l-495a7899.prediction.events.jsonl": "0fdb403c21684a04f55ecddb58c637c92dba2e980225d496b682049778d90d9b",
+    "re86-8af5384d.prediction.events.jsonl": "f1b203a214930e27cc121284e8e32a309a2a86778e66f863667807f394d72ce1",
+    "s5i5-18d95033.prediction.events.jsonl": "f30e9482ab148d14b3aae0b28f796e50915e2b0f03b108bcda0b87719b25c04d",
+    "sb26-7fbdac44.prediction.events.jsonl": "10f01836272c5f876eacacb95e39e3840a4e01aa04f7a6c288934ba8a1d66948",
+    "sc25-635fd71a.prediction.events.jsonl": "c7e30b827bc0656caa48ad18d1790441a717bac7e20203d9eef94788ccb2b615",
+    "sk48-d8078629.prediction.events.jsonl": "ea163cff7df63124ad414ac8d1bdf7543c1aa38c0b7c92876256360028a4fbd4",
+    "sp80-589a99af.prediction.events.jsonl": "08277a637a2473ba414db7b1203b86f89e25ba54e4e2e161d3cf8d0ace3db500",
+    "su15-1944f8ab.prediction.events.jsonl": "24b514b646d68722f2f2f9cd76c731163be647251dc2abb8d36e87d922597b48",
+    "tn36-ef4dde99.prediction.events.jsonl": "a3b78f8428a45bd741f6faaa8892282c4c2ee9d25d7024c71bc779d2c134e530",
+    "tr87-cd924810.prediction.events.jsonl": "118672726b896ccd65e6927284bc0aa47f4674576a1fbadda23a412ec85eb3b1",
+    "tu93-0768757b.prediction.events.jsonl": "f5e2b6deb094dbdcd7a64b989870e5f466d322d2b3bdddce0f72809e05a69fd2",
+    "vc33-5430563c.prediction.events.jsonl": "830e88cf39707383679687a62d11a24be01be73d3b85bb29012fa302db47bed0",
+    "wa30-ee6fef47.prediction.events.jsonl": "e92cd400a3b8318f0f6a88743b51808ecd446fff67fd0a91133afeed668e2bc3"
+  },
+  "event_formats": [
+    1
+  ],
+  "audit_errors": [],
+  "frozen_forecast_archive_complete": false,
+  "boundary": "Counts establish use and measured checks only. Model origin must be established separately from real gameplay/provenance; programmatic replay is not LLM adoption. Superseded archives are not counted as new checks. V1 events do not retain all original forecasts/cancellations; V2 explicitly logs forecast-before-dispatch and measured resolution, which this audit checks for internal consistency. These logs are not an independent game-state oracle. Matching selected features is not a correct object identity, rule, goal, better decision or score improvement. New version after refutation is an observed sequence, not proof of causal learning or successful repair."
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "hydra/verified_planning.py": "83057d90c3248775260aa3cc5d06a9f59a36572298dc0d41ef58a858a9a4efe0",
+    "scripts/install_verified_agent.py": "edc926c41c065f01ac2bc63055a17e7aff069f0e4e6dd4dcb1eabdd7c1e97d6a",
+    "scripts/verified_agent_probe.py": "64669c1cb65754138d77148022e39b9c50a75e6d27a946ca8bbbad87cb2c10fe"
+  },
+  "upstream_patch_sha256": "80aef535ee80970622127f3ee1917e1b127db22ebe07ece40fc8558a63b4484d",
+  "enforce_probes": false,
+  "study_files": {
+    "hydra/study_memory.py": "52749cb8bc4d80bee73d7621ac9ee017280ba427b4b204f310a4abe0c6eac0fd",
+    "hydra/research_guidance.py": "441342d69f37ab914edd1cc75f4d85e58ed07282845367a6f8242d6e4e1f4587",
+    "scripts/install_study_agent.py": "0ee5d27386c52ce8d4727dba428562bbd4ad81033f99fdf0536a1e8b97174519",
+    "scripts/study_agent_probe.py": "ee875b46cfb419ec6d5deccf56c8dd168ade720e5f5a58bbf9c640dc9b21e5ee"
+  },
+  "guidance_sha256": "75e30f3ce69688e14fb6d01512d8c04d42fa9596dac8067030d3648d30a361e3"
+}

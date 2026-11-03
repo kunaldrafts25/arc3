@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-29T12:15:07.944272+00:00",
+  "process_exit_code": 0,
+  "games_with_matching_v1_v2_replay_pixel_hashes": 25,
+  "games": 25,
+  "stats_equal_to_v1": true,
+  "event_audit_errors": 0,
+  "frozen_forecast_archive_complete": true,
+  "temporary_directory": ".tmp\\prediction-replay-20261029T120750339159",
+  "counts": {
+    "started_game_sessions": 25,
+    "hypothesis_versions_observed": 1593,
+    "pending_forecasts_at_snapshot": 0,
+    "retained_counterexamples_at_snapshot": 38,
+    "invalidated_scopes_at_snapshot": 25,
+    "frozen_forecasts_logged": 1593,
+    "forecast_actions_with_predicted_disagreement": 1009,
+    "forecasts_with_predicted_disagreement": 1009,
+    "forecasts_with_no_known_prediction": 0,
+    "dispatch_events": 1593,
+    "actual_resolution_events": 1545,
+    "all_candidates_refuted_events": 743,
+    "hypothesis_unknown": 522,
+    "hypothesis_contradicted": 2228,
+    "hypothesis_consistent": 340,
+    "new_version_after_all_candidates_refuted": 730,
+    "cancel_events": 48,
+    "versions_ending_with_unchecked_outcome": 48
+  },
+  "boundary": "V1 and V2 replay the same frozen actions with identical observed-frame digests. These hashes compare the two CPU replays, not the original GPU frames. No new policy, LLM adoption or gameplay improvement is established."
+}

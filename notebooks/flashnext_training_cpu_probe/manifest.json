@@ -1,0 +1,9 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-flashnext-training-cpu-probe",
+  "cpu_only": true,
+  "wall_seconds": 1800,
+  "files": {
+    "probe.ipynb": "49d02347d80f0f3d3b06a27550390daf1b8f8b05345314e2be49efaecfecf197",
+    "kernel-metadata.json": "66fb89880ee915dfc0bc2ac4577121a23a3f740bc2f02ede19196cdd2967d411"
+  }
+}

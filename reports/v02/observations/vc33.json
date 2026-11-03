@@ -1,0 +1,679 @@
+[
+  {
+    "step": 0,
+    "state": "NOT_FINISHED",
+    "level": 0
+  },
+  {
+    "step": 1,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 25,
+      "y": 52
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        63,
+        0,
+        63,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 2,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 24,
+      "y": 56
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 2,
+      "bbox": [
+        61,
+        0,
+        62,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 3,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 56,
+      "y": 56
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        60,
+        0,
+        60,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 4,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 24,
+      "y": 56
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        59,
+        0,
+        59,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 5,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 8,
+      "y": 24
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        58,
+        0,
+        58,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 6,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 40,
+      "y": 24
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 2,
+      "bbox": [
+        56,
+        0,
+        57,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 7,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 24,
+      "y": 40
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        55,
+        0,
+        55,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 8,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 24,
+      "y": 24
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        54,
+        0,
+        54,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 9,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 39,
+      "y": 29
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 2,
+      "bbox": [
+        52,
+        0,
+        53,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 10,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 56,
+      "y": 24
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        51,
+        0,
+        51,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 11,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 40,
+      "y": 24
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        50,
+        0,
+        50,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 12,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 25,
+      "y": 47
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        49,
+        0,
+        49,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 13,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 56,
+      "y": 40
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 2,
+      "bbox": [
+        47,
+        0,
+        48,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 14,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 8,
+      "y": 40
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        46,
+        0,
+        46,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 15,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 39,
+      "y": 29
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        45,
+        0,
+        45,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 16,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 62,
+      "y": 34
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 265,
+      "bbox": [
+        32,
+        0,
+        51,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 17,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 52,
+      "y": 30
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 2,
+      "bbox": [
+        42,
+        0,
+        43,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 18,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 47,
+      "y": 46
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        41,
+        0,
+        41,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 19,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 1,
+      "y": 34
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        40,
+        0,
+        40,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 20,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 62,
+      "y": 34
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 266,
+      "bbox": [
+        36,
+        0,
+        47,
+        63
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 21,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 8,
+      "y": 8
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        37,
+        0,
+        37,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 22,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 56,
+      "y": 56
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        36,
+        0,
+        36,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 23,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 24,
+      "y": 56
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        35,
+        0,
+        35,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 24,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 52,
+      "y": 30
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 2,
+      "bbox": [
+        33,
+        0,
+        34,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 25,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 39,
+      "y": 29
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        32,
+        0,
+        32,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 26,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 47,
+      "y": 0
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        31,
+        0,
+        31,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 27,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 56,
+      "y": 40
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 2,
+      "bbox": [
+        29,
+        0,
+        30,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 28,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 24,
+      "y": 40
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        28,
+        0,
+        28,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 29,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 56,
+      "y": 56
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        27,
+        0,
+        27,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 30,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 40,
+      "y": 46
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        26,
+        0,
+        26,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 31,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 51,
+      "y": 14
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 2,
+      "bbox": [
+        24,
+        0,
+        25,
+        0
+      ],
+      "shape_changed": false
+    }
+  },
+  {
+    "step": 32,
+    "action": 6,
+    "data": {
+      "game_id": "vc33-5430563c",
+      "x": 8,
+      "y": 8
+    },
+    "state": "NOT_FINISHED",
+    "level": 0,
+    "difference": {
+      "changed_cells": 1,
+      "bbox": [
+        23,
+        0,
+        23,
+        0
+      ],
+      "shape_changed": false
+    }
+  }
+]

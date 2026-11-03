@@ -1,0 +1,25 @@
+{"bounds": [36, 41, 10, 26], "level": 1, "returned_cells": 80, "step": 0, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [12, 37, 12, 17], "level": 1, "returned_cells": 125, "step": 0, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [12, 42, 12, 17], "level": 1, "returned_cells": 150, "step": 1, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [28, 38, 10, 26], "level": 1, "returned_cells": 160, "step": 1, "stride": [1, 1], "tool": "read_region"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 53, "step": 4, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 1, "row": 63, "step": 4, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 1, "row": 0, "step": 4, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 53, "step": 5, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 22, "row": 20, "step": 5, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 22, "row": 21, "step": 5, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 26, "row": 20, "step": 6, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 53, "step": 6, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 26, "row": 20, "step": 7, "tool": "row_runs"}
+{"bounds": [17, 25, 40, 49], "level": 1, "returned_cells": 72, "step": 7, "stride": [1, 1], "tool": "read_region"}
+{"cols": [0, 64], "level": 1, "returned_runs": 7, "row": 32, "step": 9, "tool": "row_runs"}
+{"bounds": [18, 24, 10, 24], "level": 1, "returned_cells": 84, "step": 15, "stride": [1, 1], "tool": "read_region"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 53, "step": 15, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 53, "step": 16, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 8, "row": 26, "step": 16, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 10, "row": 38, "step": 18, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 26, "row": 38, "step": 23, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 26, "row": 20, "step": 26, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 9, "row": 20, "step": 27, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 15, "row": 20, "step": 31, "tool": "row_runs"}
+{"bounds": [56, 62, 20, 44], "level": 1, "returned_cells": 144, "step": 31, "stride": [1, 1], "tool": "read_region"}

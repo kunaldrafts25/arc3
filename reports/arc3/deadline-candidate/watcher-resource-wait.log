@@ -1,0 +1,82 @@
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T22:55:55.117060+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T22:56:56.556402+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T22:57:57.899597+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T22:58:58.576871+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T22:59:59.146806+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:01:00.509481+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:02:01.258385+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:03:01.943337+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:04:03.549153+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:05:05.289415+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:06:07.248372+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:07:07.976363+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:08:09.836020+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:09:11.268422+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:10:13.127038+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:11:14.362217+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:12:16.199862+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:13:17.547829+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:14:19.718397+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:15:21.555548+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:16:22.585784+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:17:24.435055+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:18:26.173672+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:19:27.014379+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:20:28.860816+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:21:30.814419+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:22:32.654649+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:23:33.695540+00:00"}
+{"phase": "screen_observing", "kernel_status": "RUNNING", "at": "2026-11-01T23:24:35.649081+00:00"}
+{"phase": "screen_observing", "kernel_status": "COMPLETE", "at": "2026-11-02T08:32:28.483773+00:00"}
+{
+  "phase": "evaluation_complete",
+  "exact_kernel": "kunalsinghh25/arc-hydra-deadline-candidate/1",
+  "kernel_status": "COMPLETE",
+  "analysis": {
+    "model_gameplay_verified": true,
+    "problems": [],
+    "games": 25,
+    "levels": 84,
+    "full_wins": 4,
+    "mean_public_score": 36.601928890135454,
+    "generated_tokens": 2925138,
+    "notes": {
+      "sk48-d8078629": "tokens=70573",
+      "tn36-ef4dde99": "tokens=65127",
+      "m0r0-492f87ba": "tokens=165846",
+      "bp35-0a0ad940": "tokens=64851",
+      "cn04-2fe56bfb": "tokens=116213",
+      "dc22-fdcac232": "tokens=184088",
+      "tu93-0768757b": "tokens=191222",
+      "lp85-305b61c3": "tokens=164977",
+      "ka59-38d34dbb": "tokens=125788",
+      "wa30-ee6fef47": "tokens=104098",
+      "vc33-5430563c": "tokens=117610",
+      "lf52-271a04aa": "tokens=107173",
+      "r11l-495a7899": "tokens=138938",
+      "sc25-635fd71a": "tokens=157534",
+      "sp80-589a99af": "tokens=106681",
+      "ar25-0c556536": "tokens=120889",
+      "sb26-7fbdac44": "tokens=130700",
+      "cd82-fb555c5d": "tokens=72432",
+      "re86-8af5384d": "tokens=112842",
+      "s5i5-18d95033": "tokens=169154",
+      "ls20-9607627b": "tokens=124279",
+      "ft09-0d8bbf25": "tokens=77992",
+      "su15-1944f8ab": "tokens=181686",
+      "tr87-cd924810": "tokens=87866",
+      "g50t-5849a774": "tokens=81251"
+    },
+    "boundary": "Public development gameplay only. Not a hidden score or proof of the 71-point goal.",
+    "token_accounting_corrections": [],
+    "token_accounting_basis": "Action-record generation plus terminal no-action generation; cancellation notes may include additional uncharged generation.",
+    "public_level_completions_by_elapsed_seconds": {
+      "1800": 34,
+      "3600": 66,
+      "5400": 84,
+      "7200": 84
+    }
+  },
+  "promotion": "Undecided; compare actual gameplay with incumbent before any submission",
+  "recorded_at": "2026-11-02T08:35:16.646307+00:00"
+}

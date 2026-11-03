@@ -1,0 +1,9 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-duck-swift/1",
+  "recorded_at": "2026-10-25T18:19:22.986668+00:00",
+  "files": {
+    "kernel-metadata.json": "f3d7d983752c132a306e26254ca63cb7811c0edbbc22665a044d9f5b912b25d7",
+    "provenance.json": "10369b67765f053344630293a9f159984ae46f3a82b64894f163c90c4db184c5",
+    "submission.ipynb": "6d04f081cd3c5f39242e5c534ea65b387377e597b97a448a26b94f0e7435f39d"
+  }
+}

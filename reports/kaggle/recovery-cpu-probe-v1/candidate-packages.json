@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-28T18:46:45.604101+00:00",
+  "gate": "kunalsinghh25/arc-hydra-recovery-cpu-probe/1",
+  "status": "COMPLETE",
+  "local_tests_passed": 115,
+  "candidates": {
+    "recovery_candidate": {
+      "launched": false,
+      "files": {
+        "kernel-metadata.json": "08cec55fcb582bf8cb90503c4cbe9e888c9e851754ec387ea3ec107ebf40952a",
+        "provenance.json": "ffb0b1b7443d242cd6bd567ef78db04f6736de6e38877cb8812e83322d165468",
+        "submission.ipynb": "3cd05b69cb92898ce5f6a60648303ad29fae821cdb51eb0343e9ce917173b8ff"
+      },
+      "wall_budget_seconds": 32400,
+      "finalization_reserve_seconds": 600
+    },
+    "flexible_extended_control": {
+      "launched": false,
+      "files": {
+        "kernel-metadata.json": "9fb76acacba7ef21e3fd170c97188fe47f32b5452a172ce4a2fd90c77dc35390",
+        "provenance.json": "ca5053afa4b64ae9a635013cee1615827fedc92ef4cf1087f1c1525c29118c3d",
+        "submission.ipynb": "67d45b4a6be372d98e27eff1591a0fb9ce8671bf23ded8f99d3b097d79f0c5b5"
+      },
+      "wall_budget_seconds": 32400,
+      "finalization_reserve_seconds": 600
+    }
+  }
+}

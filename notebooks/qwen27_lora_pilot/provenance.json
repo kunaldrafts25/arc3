@@ -1,0 +1,18 @@
+{
+  "candidate": "qwen27-language-lora-pilot",
+  "official_submission_eligible": false,
+  "hard_session_timeout_seconds": 7200,
+  "internal_total_seconds": 7200,
+  "training_reserve_seconds": 900,
+  "model": "dangkhoa2016/qwen-qwen3-8-27b/Transformers/default/1",
+  "processor": "mikedan7/qwen3-8-27b-fp8-official/PyTorch/hf-fp8/1",
+  "cpu_data_gate": "kunalsinghh25/arc-hydra-training-data-offline-probe/2",
+  "cpu_report_sha256": "b88e44d87bbbb8ba2f68580ea509605a955c9b3c2f5a272348eb79eb0c7c6b45",
+  "input_archive_sha256": "10e5df7fbe82f82f4cbf95e923e465b900184e36fa9877fbafdf752e6b549961",
+  "trainer_sha256": "fb049ff129d2960d66d37d06bfeb69f2bb668c1e987bd3373fe7fc3ee986ad3f",
+  "exporter_sha256": "dc9f813ed55cd7f7dbfa5114bc6859be9a96111264c3425f2ce749640f58dcdd",
+  "runtime_gdn_normalizer_sha256": "4ca4271197f4636515bbac30636ac5187c19396a12e2653a0b04d07f23cedbeb",
+  "initial_plan": "At most one epoch of158 actual teacher examples at16K, rank16 on400 supported language attention/recurrent/feed-forward projections,108789760 adapter parameters, LR1e-5, accumulation4. Save after first update and every8updates. Stop if no update by40minutes. Actual CUDA loss/gradients/optimizer, finite nonzero adapter and independent-slot save/reload checks. No serving/gameplay/official-score claim.",
+  "cpu_placement_boundary": "CPU native inventory covers all400 selected projections; CPU PEFT placement checked64 attention projections only. Actual400-module placement and shapes must be checked on the GPU before training.",
+  "deployment_boundary": "Exact runtime source supports the selected packed LoRA families and DFlash. Enabling LoRA disables a fused GDN projection optimization. Actual saved adapter serving, correct request routing and performance are still required; this training notebook cannot be submitted."
+}

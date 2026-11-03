@@ -1,0 +1,44 @@
+{
+  "instances": [
+    {
+      "id": 733968,
+      "ownerSlug": "dangkhoa2016",
+      "modelSlug": "z-lab-qwen3-8-27b-dflash2",
+      "slug": "default",
+      "versionId": 972918,
+      "fineTunable": true,
+      "overview": "Pinned artifact mirror of `z-lab/Qwen3.8-27B-DFlash2@50307d4c4cde` on Kaggle, exposed as the `transformers` / `default` variation. See Model Details and the bundled upstream documentation for model-specific capabilities, hardware requirements, and usage.",
+      "usage": "Use the mirrored model files from `${PATH}` inside a Kaggle Notebook. See the bundled `README.md` and upstream Hugging Face repository for model-specific usage.",
+      "versionNumber": 1,
+      "framework": "MODEL_FRAMEWORK_TRANSFORMERS",
+      "versionNotes": "Initial release",
+      "downloadUrl": "/models/dangkhoa2016/z-lab-qwen3-8-27b-dflash2/Transformers/default/1/download",
+      "databundleVersionId": 20224357,
+      "lastVersionId": 972918,
+      "metrics": "",
+      "license": {
+        "id": 30,
+        "name": "Apache 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0",
+        "agreementRequired": false
+      },
+      "databundleId": 12545980,
+      "firestorePath": "bjYPuSIaQmNwtBAyfU0M/versions/Db2GKIAV7N8BTotqj14p",
+      "status": "READY",
+      "databundleVersionType": "REMOTE_URL_FILE_SET",
+      "creationStatus": {
+        "status": "READY",
+        "creationPercentComplete": 1,
+        "creationLastUpdate": "2026-08-23T07:59:51.845Z",
+        "creationStep": "Ready",
+        "creationStart": "2026-08-23T07:57:52.482Z"
+      },
+      "uncompressedStorageUri": "",
+      "externalBaseModelUrl": "",
+      "modelId": 745538,
+      "totalUncompressedBytes": 3849112899,
+      "sigstoreState": "SIGSTORE_STATE_NONE",
+      "creatorUserId": 35264943
+    }
+  ]
+}

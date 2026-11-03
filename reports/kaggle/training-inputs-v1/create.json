@@ -1,0 +1,18 @@
+{
+  "phase": "accepted",
+  "dataset": "kunalsinghh25/arc3-training-pilot-inputs-v1",
+  "private": true,
+  "archive_sha256": "10e5df7fbe82f82f4cbf95e923e465b900184e36fa9877fbafdf752e6b549961",
+  "archive_bytes": 11111335,
+  "recorded_at": "2026-11-01T15:33:38.993694+00:00",
+  "preflight": {
+    "owned_dataset_count": 16,
+    "target_in_owned_list": false,
+    "status_read": "403 for absent target; no mutation attempted by that read"
+  },
+  "response": {
+    "ref": "/datasets/kunalsinghh25/arc3-training-pilot-inputs-v1",
+    "url": "https://www.kaggle.com/datasets/kunalsinghh25/arc3-training-pilot-inputs-v1",
+    "status": "Ok"
+  }
+}

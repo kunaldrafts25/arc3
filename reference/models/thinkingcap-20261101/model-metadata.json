@@ -1,0 +1,10 @@
+{
+  "id": 778671,
+  "ownerSlug": "lamdang",
+  "slug": "thinkingcap-qwen3-8-flash-next-w4a16-autoround",
+  "title": "ThinkingCap Qwen3.8 Flash-Next W4A16 AutoRound",
+  "subtitle": "ThinkingCap-Qwen3.8-Flash-Next in Intel's W4A16 AutoRound format",
+  "isPrivate": false,
+  "description": "bottlecapai/ThinkingCap-Qwen3.8-Flash-Next quantized with Intel's Qwen3.8-Flash-Next W4A16 AutoRound recipe (routed experts int4 symmetric group 128, auto_round:auto_gptq packing; everything else bf16), calibrated on 32 harness-trace windows of 8K tokens. Tensor names and quantization_config match Intel/Qwen3.8-Flash-Next-W4A16-AutoRound; tokenizer.json is Intel's file (same vocabulary; the Pennyroyal FR-Spec map is keyed to it). Serve with SGLang --quantization auto-round. Qwen Community License 1.0. Built by exp/thinkingcap-autoround in LamDang/arc-agi-3-solution-da-fr.",
+  "publishTime": null
+}

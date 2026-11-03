@@ -1,0 +1,10 @@
+{
+  "allowed": true,
+  "reason": "free quota and shared-job checks passed",
+  "available_gpu_seconds": 87869.277,
+  "reserved_gpu_seconds": 0.0,
+  "pay_to_scale_enabled": false,
+  "refresh": "2026-11-07 00:00:00",
+  "active_gpu_jobs": [],
+  "arc2_free_seconds_floor": 10800
+}

@@ -1,0 +1,10 @@
+{
+  "id": 763369,
+  "ownerSlug": "phuongncn",
+  "slug": "arc3-qwen38-swift-w4a16-autoround",
+  "title": "ARC3 Qwen38 Swift W4A16 AutoRound",
+  "subtitle": "Swift-1.5 Qwen3.8-Flash-Next W4A16 AutoRound (v188m-swift source)",
+  "isPrivate": false,
+  "description": "v188m-swift model source, verbatim copy of https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-Flash-Next-W4A16-AutoRound",
+  "publishTime": null
+}

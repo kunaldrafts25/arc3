@@ -1,0 +1,33 @@
+{
+  "phase": "accepted",
+  "kernel": "kunalsinghh25/arc-hydra-adapter-mount-cpu-probe",
+  "files": {
+    "probe.ipynb": "ead25f4958534e570e8aafb5f7afcca13e59e16e1ff650c3f4dbfbbd8df6549b",
+    "kernel-metadata.json": "9600ca9b2484c4343b0996def9162a090e5dfea62dd833fbeb84a2fd94a3b9a6"
+  },
+  "cpu_only": true,
+  "hard_session_timeout_seconds": 600,
+  "resources": {
+    "allowed": false,
+    "reason": "shared compute reserved or another GPU development job active",
+    "available_gpu_seconds": 73295.919753,
+    "reserved_gpu_seconds": 0.0,
+    "pay_to_scale_enabled": false,
+    "refresh": "2026-11-07 00:00:00",
+    "active_gpu_jobs": [
+      {
+        "kernel": "kunalsinghh25/arc-hydra-qwen27-fair-capacity",
+        "status": "RUNNING",
+        "accelerator": "unclassified"
+      }
+    ],
+    "arc2_free_seconds_floor": 10800
+  },
+  "recorded_at": "2026-11-01T17:08:45.546469+00:00",
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-adapter-mount-cpu-probe",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-adapter-mount-cpu-probe",
+    "versionNumber": 1,
+    "kernelId": 142147113
+  }
+}

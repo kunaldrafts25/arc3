@@ -1,0 +1,9 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair/5",
+  "recorded_at": "2026-10-25T18:39:12.508629+00:00",
+  "files": {
+    "build.ipynb": "af10501f1119d4cb73fe2e8da2ca6a94e0f553baf3b2bd08bb6e61349f6b3359",
+    "kernel-metadata.json": "bf0ebcb1b42bb35e319021593395e4f5fd0291f30742a9afad0b0c78079494e9",
+    "source-manifest.json": "90adf1911842d48d49ea163e02a4ad86dde099285d5dab59b0bfcbfa6b005ac3"
+  }
+}

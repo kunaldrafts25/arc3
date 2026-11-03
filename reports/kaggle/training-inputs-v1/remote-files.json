@@ -1,0 +1,54 @@
+[
+  {
+    "name": "README.md",
+    "bytes": 605
+  },
+  {
+    "name": "training-pilot-inputs/16k/train.jsonl",
+    "bytes": 7031316
+  },
+  {
+    "name": "training-pilot-inputs/16k/validation.jsonl",
+    "bytes": 2815735
+  },
+  {
+    "name": "training-pilot-inputs/32k/train.jsonl",
+    "bytes": 18380809
+  },
+  {
+    "name": "training-pilot-inputs/32k/validation.jsonl",
+    "bytes": 4696845
+  },
+  {
+    "name": "training-pilot-inputs/arc3_training_collator.py",
+    "bytes": 2460
+  },
+  {
+    "name": "training-pilot-inputs/base-requirements.lock",
+    "bytes": 4187
+  },
+  {
+    "name": "training-pilot-inputs/manifest.json",
+    "bytes": 2074
+  },
+  {
+    "name": "training-pilot-inputs/split.json",
+    "bytes": 1233
+  },
+  {
+    "name": "training-pilot-inputs/wheels/accelerate-1.15.0-py3-none-any.whl",
+    "bytes": 394295
+  },
+  {
+    "name": "training-pilot-inputs/wheels/fla_core-0.6.0-py3-none-any.whl",
+    "bytes": 1085221
+  },
+  {
+    "name": "training-pilot-inputs/wheels/flash_linear_attention-0.6.0-py3-none-any.whl",
+    "bytes": 403549
+  },
+  {
+    "name": "training-pilot-inputs/wheels/peft-0.21.2-py3-none-any.whl",
+    "bytes": 835427
+  }
+]

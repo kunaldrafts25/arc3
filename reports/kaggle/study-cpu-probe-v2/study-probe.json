@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "base_mechanical_cases": 8,
+  "prompt_combinations": 16,
+  "study_cases": [
+    "real_sandbox_exports_evidence_note",
+    "real_sandbox_restores_next_call",
+    "unseen_evidence_rejected_without_losing_memory",
+    "oversized_note_rejected",
+    "prior_level_claim_is_not_silently_certified",
+    "fresh_game_input_has_no_prior_notes",
+    "actual_host_persists_child_memory",
+    "actual_host_restarts_context_and_renders_memory",
+    "actual_host_same_directory_game_isolation"
+  ],
+  "boundary": "Synthetic CPU tests of real sandbox/host and prompt paths. No model inference, ARC gameplay or score gain established."
+}

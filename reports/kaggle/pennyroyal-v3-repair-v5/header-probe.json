@@ -1,0 +1,9 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair/5",
+  "recorded_at": "2026-10-25T19:15:40.510002+00:00",
+  "compiler_probe_passed": true,
+  "library_header_probe_passed": true,
+  "dependencies_checked": true,
+  "full_build_complete": false,
+  "boundary": "Live CPU stage evidence only; native FlashInfer completion, fresh offline installation and GPU inference remain unverified."
+}

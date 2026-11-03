@@ -1,0 +1,11 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-prediction-cpu-probe/3",
+  "files": {
+    "kernel-metadata.json": "be6f29291a4d8a78a2f97711a1159ec1bed22748be7fd68916b98ce05351aa81",
+    "probe.ipynb": "ba5caec4676032f54d8c71fc6e45d35fb302db8d88a586eb5a47973dfc90720e",
+    "source-manifest.json": "0d31f49aa2f3322ee589aaa42c83be682e2d18a3b87152a220c17b35bccb4608"
+  },
+  "status": "COMPLETE",
+  "recorded_at": "2026-10-29T11:58:41.394929+00:00",
+  "verification": "Exact version confirmed COMPLETE by read-only Kaggle API; downloaded report passed 12 cases"
+}

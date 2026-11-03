@@ -1,0 +1,173 @@
+[
+  [
+    "ar25",
+    1,
+    null,
+    "Test whether UP moves the blue angular object, another actor, or the camera; inspect independent HUD change."
+  ],
+  [
+    "bp35",
+    3,
+    null,
+    "Test lateral control of the small two-color object; distinguish actor displacement from viewport movement."
+  ],
+  [
+    "cd82",
+    1,
+    null,
+    "Test whether the arrow moves a light object, a block, or a selection; do not assume the target."
+  ],
+  [
+    "cn04",
+    3,
+    null,
+    "Probe LEFT and compare the white-orange structure with the purple-green structure; infer controllability."
+  ],
+  [
+    "dc22",
+    1,
+    null,
+    "Test whether arrow control affects the small left assembly or the right displayed shapes."
+  ],
+  [
+    "ft09",
+    6,
+    {
+      "x": 52,
+      "y": 48
+    },
+    "Click one cell in the lower-right colored assembly; distinguish selection, recoloring and neighbor propagation."
+  ],
+  [
+    "g50t",
+    4,
+    null,
+    "Probe RIGHT from the orange object; test actor movement against corridor and tether constraints."
+  ],
+  [
+    "ka59",
+    4,
+    null,
+    "Probe RIGHT while tracking both purple markers; test shared control versus a single actor."
+  ],
+  [
+    "lf52",
+    1,
+    null,
+    "Probe UP and compare purple pieces with the tiled board; distinguish tile movement, avatar movement and selection."
+  ],
+  [
+    "lp85",
+    6,
+    {
+      "x": 49,
+      "y": 23
+    },
+    "Click a colored perimeter tile; test direct manipulation versus selecting a color or piece."
+  ],
+  [
+    "ls20",
+    1,
+    null,
+    "Probe UP from the white cross; compare actor displacement, collision and bottom-bar changes."
+  ],
+  [
+    "m0r0",
+    4,
+    null,
+    "Probe RIGHT; track blue, light-blue, black and green regions separately before assigning semantic roles."
+  ],
+  [
+    "r11l",
+    6,
+    {
+      "x": 8,
+      "y": 36
+    },
+    "Click the visible white arm endpoint; test selection or rotation without assuming drag semantics."
+  ],
+  [
+    "re86",
+    1,
+    null,
+    "Probe UP; distinguish translation of a cross, rotation, or selecting a colored mechanism."
+  ],
+  [
+    "s5i5",
+    6,
+    {
+      "x": 16,
+      "y": 33
+    },
+    "Click a visible blue feature; distinguish selectable source from decoration using actual change."
+  ],
+  [
+    "sb26",
+    5,
+    null,
+    "Test the single keyboard action; observe whether colors, active object or geometry change."
+  ],
+  [
+    "sc25",
+    4,
+    null,
+    "Probe RIGHT while tracking the upper bar and lower grid; infer which element is controlled."
+  ],
+  [
+    "sk48",
+    1,
+    null,
+    "Probe UP; compare pink actor, nearby chain and colored targets to infer attachment or movement rules."
+  ],
+  [
+    "sp80",
+    1,
+    null,
+    "Probe UP; determine what responds in a scene dominated by uniform background and a few colored regions."
+  ],
+  [
+    "su15",
+    6,
+    {
+      "x": 52,
+      "y": 12
+    },
+    "Click the large yellow target and track the white endpoint/dotted line; test aiming versus object selection."
+  ],
+  [
+    "tn36",
+    6,
+    {
+      "x": 32,
+      "y": 15
+    },
+    "Click the upper blue feature inside the checkerboard; test grid interaction versus placement/selection."
+  ],
+  [
+    "tr87",
+    1,
+    null,
+    "Probe UP on a symbolic scene; inspect selection indicators and output glyphs without guessing the rule."
+  ],
+  [
+    "tu93",
+    4,
+    null,
+    "Probe RIGHT and compare the checkerboard silhouettes and purple marker; test coupled translation."
+  ],
+  [
+    "vc33",
+    6,
+    {
+      "x": 32,
+      "y": 30
+    },
+    "Click the blue horizontal feature; test whether it controls a geometric transformation."
+  ],
+  [
+    "wa30",
+    1,
+    null,
+    "Probe UP from the purple lower feature; compare its movement with the yellow outlined region."
+  ]
+]

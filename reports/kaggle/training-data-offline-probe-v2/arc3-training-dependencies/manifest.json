@@ -1,0 +1,9 @@
+{
+  "files": {
+    "accelerate-1.15.0-py3-none-any.whl": "97eacca0b73e45cb867dbf8c5d5d4dc32219544300e0c8992c7334dc2ef33cec",
+    "fla_core-0.6.0-py3-none-any.whl": "b0708b70e0b119cd58a0a5146ea56cb175cef6ed969d8ac60267e3e077ce3ebd",
+    "flash_linear_attention-0.6.0-py3-none-any.whl": "6dec9735f8454523c13553622e98aff30152dde6586b4ac7d88010fbb7a06b5f",
+    "peft-0.21.2-py3-none-any.whl": "106ab6077ff72c54d21577f9af5970e34bac7582cb14209f7b2b511e322a4eae"
+  },
+  "base_lock_sha256": "4b0ee12848c1e7c3a51b0819de3a1ae63a967313fd1f62b9e2ca6b9c82b8da02"
+}

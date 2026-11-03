@@ -1,0 +1,298 @@
+{
+  "source_origin": "programmatic",
+  "session_store_files": 6,
+  "event_files": 6,
+  "counts": {
+    "started_game_sessions": 5,
+    "hypothesis_versions_observed": 6,
+    "pending_forecasts_at_snapshot": 1,
+    "retained_counterexamples_at_snapshot": 2,
+    "invalidated_scopes_at_snapshot": 0,
+    "frozen_forecasts_logged": 6,
+    "cancel_events": 2,
+    "dispatch_events": 4,
+    "actual_resolution_events": 2,
+    "all_candidates_refuted_events": 0,
+    "hypothesis_consistent": 2,
+    "hypothesis_contradicted": 2,
+    "hypothesis_unknown": 2
+  },
+  "per_session": {
+    "batch": {
+      "store": "batch.prediction.json",
+      "events": "batch.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 1,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 0,
+        "invalidated_scopes_at_snapshot": 0,
+        "frozen_forecasts_logged": 1,
+        "cancel_events": 1
+      },
+      "feature_queries": {
+        "bbox": 1
+      },
+      "last_question": "Does the measured color move?",
+      "last_models": {
+        "move": {
+          "abstained": 0,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        },
+        "stay": {
+          "abstained": 0,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        },
+        "unknown": {
+          "abstained": 0,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        }
+      }
+    },
+    "boundary": {
+      "store": "boundary.prediction.json",
+      "events": "boundary.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 1,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 0,
+        "invalidated_scopes_at_snapshot": 0,
+        "frozen_forecasts_logged": 1,
+        "dispatch_events": 1,
+        "cancel_events": 1
+      },
+      "feature_queries": {
+        "bbox": 1
+      },
+      "last_question": "Does the measured color move?",
+      "last_models": {
+        "move": {
+          "abstained": 0,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        },
+        "stay": {
+          "abstained": 0,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        },
+        "unknown": {
+          "abstained": 0,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        }
+      }
+    },
+    "rpc": {
+      "store": "rpc.prediction.json",
+      "events": "rpc.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 1,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 0,
+        "frozen_forecasts_logged": 1,
+        "dispatch_events": 1,
+        "actual_resolution_events": 1,
+        "all_candidates_refuted_events": 0,
+        "hypothesis_consistent": 1,
+        "hypothesis_contradicted": 1,
+        "hypothesis_unknown": 1
+      },
+      "feature_queries": {
+        "bbox": 1
+      },
+      "last_question": "Does the measured color move?",
+      "last_models": {
+        "move": {
+          "abstained": 0,
+          "consistent": 1,
+          "partial": 0,
+          "status": "consistent_on_observed_predictions"
+        },
+        "stay": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "r",
+            "after_step": 1,
+            "before_step": 0,
+            "differences": {
+              "red": {
+                "expected": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "observed": [
+                  0,
+                  1,
+                  1,
+                  2
+                ]
+              }
+            },
+            "level": 1
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unknown": {
+          "abstained": 1,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        }
+      }
+    },
+    "timeout": {
+      "store": "timeout.prediction.json",
+      "events": "timeout.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 1,
+        "pending_forecasts_at_snapshot": 0,
+        "retained_counterexamples_at_snapshot": 1,
+        "invalidated_scopes_at_snapshot": 0,
+        "frozen_forecasts_logged": 1,
+        "dispatch_events": 1,
+        "actual_resolution_events": 1,
+        "all_candidates_refuted_events": 0,
+        "hypothesis_consistent": 1,
+        "hypothesis_contradicted": 1,
+        "hypothesis_unknown": 1
+      },
+      "feature_queries": {
+        "bbox": 1
+      },
+      "last_question": "Does the measured color move?",
+      "last_models": {
+        "move": {
+          "abstained": 0,
+          "consistent": 1,
+          "partial": 0,
+          "status": "consistent_on_observed_predictions"
+        },
+        "stay": {
+          "abstained": 0,
+          "consistent": 0,
+          "counterexample": {
+            "action": "r",
+            "after_step": 4,
+            "before_step": 3,
+            "differences": {
+              "red": {
+                "expected": [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "observed": [
+                  0,
+                  1,
+                  1,
+                  2
+                ]
+              }
+            },
+            "level": 1
+          },
+          "partial": 0,
+          "status": "contradicted"
+        },
+        "unknown": {
+          "abstained": 1,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        }
+      }
+    },
+    "write-failure": {
+      "store": "write-failure.prediction.json",
+      "events": "write-failure.prediction.events.jsonl",
+      "counts": {
+        "started_game_sessions": 1,
+        "hypothesis_versions_observed": 1,
+        "pending_forecasts_at_snapshot": 1,
+        "retained_counterexamples_at_snapshot": 0,
+        "invalidated_scopes_at_snapshot": 0,
+        "frozen_forecasts_logged": 1,
+        "dispatch_events": 1
+      },
+      "feature_queries": {
+        "bbox": 1
+      },
+      "last_question": "Does the measured color move?",
+      "last_models": {
+        "move": {
+          "abstained": 0,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        },
+        "stay": {
+          "abstained": 0,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        },
+        "unknown": {
+          "abstained": 0,
+          "consistent": 0,
+          "partial": 0,
+          "status": "untested"
+        }
+      }
+    },
+    "first.runtime": {
+      "store": null,
+      "events": "first.runtime.prediction.events.jsonl",
+      "counts": {
+        "frozen_forecasts_logged": 1,
+        "hypothesis_versions_observed": 1
+      },
+      "feature_queries": {},
+      "last_question": null,
+      "last_models": null
+    }
+  },
+  "source_sha256": {
+    "batch.prediction.json": "5f0f1a99e9df1e328952aaef13581ad0586ad2c3559f0bc57cdca6d7dc228ab9",
+    "boundary.prediction.json": "32763662086c3488dd3d1a8b0fb98ceba9549d2c47828f87975fd1e96067fbe6",
+    "first.runtime.prediction.json": "0f141a72c5fee36c36c746802672014e731d60f3bb1eebd27be3b7356e2fbd8e",
+    "rpc.prediction.json": "f6bfdf59e5431b5a7085f20e79dee651cf3769407e7d9964a5d8307cb6e6ad60",
+    "timeout.prediction.json": "8d22f0c7dd1b4f131d207dd5fe82eae689e0b7166fb69b97a8d531980152d235",
+    "write-failure.prediction.json": "5a7b3afac2e698f93983ee1256d54bb8ed51a376393db0698abbebc7ed33b6d8",
+    "batch.prediction.events.jsonl": "0e3cdb913d4649f020fad6141b6f97dd57ceb929c2aabf86144ad98774267880",
+    "boundary.prediction.events.jsonl": "0c7a34271a37f70f43ff17df2a78ff3ab0bfefb1abb0957531cfe3aea183de48",
+    "first.runtime.prediction.events.jsonl": "9cc8607400b648f553e30f7cd4089831df4fe5963b50f7c7d8a9b8c08582d2e9",
+    "rpc.prediction.events.jsonl": "6a7c1319608425e6b51672605738f3bef212af40bb7458f4f5f21e3e9c48afb4",
+    "timeout.prediction.events.jsonl": "148627df9b1a6ab51e6aebb8c1af13642e817da0950722ea64247a8b57745425",
+    "write-failure.prediction.events.jsonl": "affb0b9ed37602854bac4787398b9b35f00a85adefe4f5d1083b2a3fb4c75aa5"
+  },
+  "event_formats": [
+    2
+  ],
+  "audit_errors": [
+    {
+      "path": "first.runtime.prediction.json",
+      "reason": "unreadable store"
+    }
+  ],
+  "frozen_forecast_archive_complete": false,
+  "boundary": "Counts establish use and measured checks only. Model origin must be established separately from real gameplay/provenance; programmatic replay is not LLM adoption. Superseded archives are not counted as new checks. V1 events do not retain all original forecasts/cancellations; V2 explicitly logs forecast-before-dispatch and measured resolution, which this audit checks for internal consistency. These logs are not an independent game-state oracle. Matching selected features is not a correct object identity, rule, goal, better decision or score improvement. New version after refutation is an observed sequence, not proof of causal learning or successful repair."
+}

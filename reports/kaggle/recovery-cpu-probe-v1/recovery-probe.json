@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "cases": [
+    "actual_host_renders_and_records_cross_turn_recovery_evidence",
+    "same_step_repeated_analysis_does_not_spam_recovery",
+    "actual_level_boundary_clears_recovery_streak",
+    "same_parent_new_game_has_independent_recovery_evidence"
+  ],
+  "action_gating": false,
+  "boundary": "Synthetic actual-host CPU integration only. No LLM gameplay or score improvement established."
+}

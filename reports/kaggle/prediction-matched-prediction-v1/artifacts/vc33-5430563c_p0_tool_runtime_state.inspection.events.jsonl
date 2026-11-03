@@ -1,0 +1,44 @@
+{"level": 1, "returned_cells": 14, "step": 11, "tool": "read_cells"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 5, "step": 15, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 15, "step": 15, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 3, "row": 26, "step": 15, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 3, "row": 33, "step": 15, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 40, "step": 15, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 55, "step": 15, "tool": "row_runs"}
+{"cols": [0, 64], "level": 1, "returned_runs": 2, "row": 62, "step": 15, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 15, "step": 17, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 4, "row": 40, "step": 17, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 10, "step": 17, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 20, "step": 17, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 3, "row": 25, "step": 17, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 30, "step": 17, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 3, "row": 36, "step": 17, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 3, "row": 45, "step": 17, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 4, "row": 55, "step": 17, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 10, "step": 21, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 25, "step": 21, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 1, "row": 30, "step": 21, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 36, "step": 21, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 3, "row": 45, "step": 21, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 50, "step": 21, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 60, "step": 21, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 10, "step": 22, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 25, "step": 22, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 30, "step": 22, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 3, "row": 45, "step": 22, "tool": "row_runs"}
+{"cols": [0, 64], "level": 2, "returned_runs": 2, "row": 50, "step": 22, "tool": "row_runs"}
+{"cols": [6, 26], "level": 3, "returned_runs": 3, "row": 52, "step": 26, "tool": "row_runs"}
+{"cols": [6, 26], "level": 3, "returned_runs": 3, "row": 54, "step": 26, "tool": "row_runs"}
+{"cols": [6, 26], "level": 3, "returned_runs": 6, "row": 56, "step": 26, "tool": "row_runs"}
+{"cols": [0, 64], "level": 4, "returned_runs": 5, "row": 30, "step": 73, "tool": "row_runs"}
+{"cols": [0, 64], "level": 4, "returned_runs": 9, "row": 40, "step": 73, "tool": "row_runs"}
+{"cols": [0, 64], "level": 4, "returned_runs": 9, "row": 44, "step": 73, "tool": "row_runs"}
+{"cols": [0, 64], "level": 4, "returned_runs": 9, "row": 46, "step": 73, "tool": "row_runs"}
+{"cols": [0, 64], "level": 4, "returned_runs": 9, "row": 50, "step": 73, "tool": "row_runs"}
+{"cols": [0, 64], "level": 4, "returned_runs": 11, "row": 55, "step": 73, "tool": "row_runs"}
+{"cols": [0, 64], "level": 4, "returned_runs": 11, "row": 58, "step": 73, "tool": "row_runs"}
+{"cols": [0, 64], "level": 4, "returned_runs": 11, "row": 60, "step": 73, "tool": "row_runs"}
+{"cols": [0, 64], "level": 4, "returned_runs": 15, "row": 62, "step": 73, "tool": "row_runs"}
+{"level": 4, "returned_cells": 17, "step": 90, "tool": "read_cells"}
+{"level": 4, "returned_cells": 16, "step": 90, "tool": "read_cells"}
+{"level": 4, "returned_cells": 6, "step": 90, "tool": "read_cells"}

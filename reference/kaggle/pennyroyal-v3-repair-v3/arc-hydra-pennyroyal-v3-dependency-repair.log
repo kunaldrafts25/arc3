@@ -1,0 +1,982 @@
+[{"stream_name":"stderr","time":19.153185119,"data":"0.01s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":19.153344236,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":19.153351361,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":19.153355783,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":20.54500219,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":20.54505248,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":20.545060749,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":20.54506503,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":23.372238753,"data":"3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]\n"}
+,{"stream_name":"stdout","time":23.576312308,"data":"3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]\n"}
+,{"stream_name":"stdout","time":24.826795629,"data":"Reused hash-verified native runtime wheel\n"}
+,{"stream_name":"stdout","time":25.02957893,"data":"Reused hash-verified native runtime wheel\n"}
+,{"stream_name":"stdout","time":30.774689385,"data":"Fetch Shard Index for conda-forge/linux-64                                                      ⧖ Starting\n"}
+,{"stream_name":"stdout","time":30.884878069,"data":"Fetch Shard Index for conda-forge/linux-64                                                ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":30.88492124,"data":"Fetch Shard Index for conda-forge/noarch                                                        ⧖ Starting\n"}
+,{"stream_name":"stdout","time":30.977912979,"data":"Fetch Shard Index for conda-forge/linux-64                                                      ⧖ Starting\n"}
+,{"stream_name":"stdout","time":30.977952402,"data":"Fetch Shard Index for conda-forge/linux-64                                                ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":30.977958024,"data":"Fetch Shard Index for conda-forge/noarch                                                        ⧖ Starting\n"}
+,{"stream_name":"stdout","time":30.997026804,"data":"Fetch Shard Index for conda-forge/noarch                                                  ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":30.997056447,"data":"Fetching and Parsing Packages' Shards                                                           ⧖ Starting\n"}
+,{"stream_name":"stdout","time":31.200717391,"data":"Fetch Shard Index for conda-forge/noarch                                                  ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":31.200777466,"data":"Fetching and Parsing Packages' Shards                                                           ⧖ Starting\n"}
+,{"stream_name":"stdout","time":34.921369333,"data":"Fetching and Parsing Packages' Shards                                                     ✔ Done (3.9 sec)\n"}
+,{"stream_name":"stdout","time":35.126317897,"data":"Fetching and Parsing Packages' Shards                                                     ✔ Done (3.9 sec)\n"}
+,{"stream_name":"stdout","time":35.218213726,"data":"\n"}
+,{"stream_name":"stdout","time":35.218291386,"data":"Resolving Environment                                                                           ⧖ Starting\n"}
+,{"stream_name":"stdout","time":35.345624321,"data":"Resolving Environment                                                                     ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":35.347444231,"data":"\n"}
+,{"stream_name":"stdout","time":35.347485832,"data":"Transaction\n"}
+,{"stream_name":"stdout","time":35.347492762,"data":"\n"}
+,{"stream_name":"stdout","time":35.347497348,"data":"  Prefix: /tmp/hydra-serving-v3/gcc\n"}
+,{"stream_name":"stdout","time":35.347501127,"data":"\n"}
+,{"stream_name":"stdout","time":35.347504835,"data":"  Updating specs:\n"}
+,{"stream_name":"stdout","time":35.347508614,"data":"\n"}
+,{"stream_name":"stdout","time":35.34751216,"data":"   - gxx_linux-64=15\n"}
+,{"stream_name":"stdout","time":35.347515761,"data":"\n"}
+,{"stream_name":"stdout","time":35.347519246,"data":"\n"}
+,{"stream_name":"stdout","time":35.367726089,"data":"  Package                     Version  Build                 Channel          Size\n"}
+,{"stream_name":"stdout","time":35.367765069,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":35.367777519,"data":"  Install:\n"}
+,{"stream_name":"stdout","time":35.367782439,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":35.367787754,"data":"\n"}
+,{"stream_name":"stdout","time":35.367791412,"data":"  + _openmp_mutex                 4.5  20_gnu                conda-forge      29kB\n"}
+,{"stream_name":"stdout","time":35.367795016,"data":"  + binutils_impl_linux-64     2.46.1  default_hfdba357_103  conda-forge       4MB\n"}
+,{"stream_name":"stdout","time":35.367799151,"data":"  + binutils_linux-64          2.46.1  default_h4852527_103  conda-forge      36kB\n"}
+,{"stream_name":"stdout","time":35.367803607,"data":"  + gcc_impl_linux-64          15.3.0  h6ad849d_7            conda-forge      84MB\n"}
+,{"stream_name":"stdout","time":35.367807355,"data":"  + gcc_linux-64               15.3.0  h7df7c86_2            conda-forge      30kB\n"}
+,{"stream_name":"stdout","time":35.367811374,"data":"  + gxx_impl_linux-64          15.3.0  h90d9265_7            conda-forge      17MB\n"}
+,{"stream_name":"stdout","time":35.367815644,"data":"  + gxx_linux-64               15.3.0  h39dd401_2            conda-forge      29kB\n"}
+,{"stream_name":"stdout","time":35.367820522,"data":"  + kernel-headers_linux-64    5.14.0  he073ed8_3            conda-forge       1MB\n"}
+,{"stream_name":"stdout","time":35.367824462,"data":"  + ld_impl_linux-64           2.46.1  default_hbd61a6d_103  conda-forge     742kB\n"}
+,{"stream_name":"stdout","time":35.36782849,"data":"  + libgcc                     16.2.0  ha9f2e26_7            conda-forge       1MB\n"}
+,{"stream_name":"stdout","time":35.367832032,"data":"  + libgcc-devel_linux-64      15.3.0  h2b852eb_107          conda-forge       3MB\n"}
+,{"stream_name":"stdout","time":35.367835791,"data":"  + libgomp                    16.2.0  he0feb66_7            conda-forge     641kB\n"}
+,{"stream_name":"stdout","time":35.367839547,"data":"  + libsanitizer               15.3.0  h54950a5_7            conda-forge       8MB\n"}
+,{"stream_name":"stdout","time":35.367843776,"data":"  + libstdcxx                  16.2.0  h934c35e_7            conda-forge       7MB\n"}
+,{"stream_name":"stdout","time":35.367847592,"data":"  + libstdcxx-devel_linux-64   15.3.0  hb2c5482_107          conda-forge      21MB\n"}
+,{"stream_name":"stdout","time":35.367865806,"data":"  + libzlib                     1.3.2  h25fd6f3_3            conda-forge      64kB\n"}
+,{"stream_name":"stdout","time":35.367870688,"data":"  + sysroot_linux-64             2.34  h087de78_3            conda-forge      41MB\n"}
+,{"stream_name":"stdout","time":35.367876631,"data":"  + tzdata                      2026e  h5d301ff_0            conda-forge     119kB\n"}
+,{"stream_name":"stdout","time":35.367880642,"data":"  + zstd                        1.5.7  hb78ec9c_7            conda-forge     601kB\n"}
+,{"stream_name":"stdout","time":35.367884775,"data":"\n"}
+,{"stream_name":"stdout","time":35.367888377,"data":"  Summary:\n"}
+,{"stream_name":"stdout","time":35.367892491,"data":"\n"}
+,{"stream_name":"stdout","time":35.367896699,"data":"  Install: 19 packages\n"}
+,{"stream_name":"stdout","time":35.36790066,"data":"\n"}
+,{"stream_name":"stdout","time":35.367904468,"data":"  Total download: 189MB\n"}
+,{"stream_name":"stdout","time":35.367908264,"data":"\n"}
+,{"stream_name":"stdout","time":35.367912207,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":35.36791709,"data":"\n"}
+,{"stream_name":"stdout","time":35.367921395,"data":"\n"}
+,{"stream_name":"stdout","time":35.367925672,"data":"warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.\n"}
+,{"stream_name":"stdout","time":35.379028319,"data":"\n"}
+,{"stream_name":"stdout","time":35.379069804,"data":"Transaction starting\n"}
+,{"stream_name":"stdout","time":35.423608429,"data":"\n"}
+,{"stream_name":"stdout","time":35.423654578,"data":"Resolving Environment                                                                           ⧖ Starting\n"}
+,{"stream_name":"stdout","time":35.423661755,"data":"Resolving Environment                                                                     ✔ Done (0.1 sec)\n"}
+,{"stream_name":"stdout","time":35.423667024,"data":"\n"}
+,{"stream_name":"stdout","time":35.423671197,"data":"Transaction\n"}
+,{"stream_name":"stdout","time":35.423675304,"data":"\n"}
+,{"stream_name":"stdout","time":35.423679519,"data":"  Prefix: /tmp/hydra-serving-v3/gcc\n"}
+,{"stream_name":"stdout","time":35.423683829,"data":"\n"}
+,{"stream_name":"stdout","time":35.423687821,"data":"  Updating specs:\n"}
+,{"stream_name":"stdout","time":35.42369211,"data":"\n"}
+,{"stream_name":"stdout","time":35.423695999,"data":"   - gxx_linux-64=15\n"}
+,{"stream_name":"stdout","time":35.423700328,"data":"\n"}
+,{"stream_name":"stdout","time":35.42370451,"data":"\n"}
+,{"stream_name":"stdout","time":35.423709025,"data":"  Package                     Version  Build                 Channel          Size\n"}
+,{"stream_name":"stdout","time":35.423713826,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":35.423722241,"data":"  Install:\n"}
+,{"stream_name":"stdout","time":35.423726304,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":35.423748903,"data":"\n"}
+,{"stream_name":"stdout","time":35.423753372,"data":"  + _openmp_mutex                 4.5  20_gnu                conda-forge      29kB\n"}
+,{"stream_name":"stdout","time":35.423758671,"data":"  + binutils_impl_linux-64     2.46.1  default_hfdba357_103  conda-forge       4MB\n"}
+,{"stream_name":"stdout","time":35.423763505,"data":"  + binutils_linux-64          2.46.1  default_h4852527_103  conda-forge      36kB\n"}
+,{"stream_name":"stdout","time":35.423768253,"data":"  + gcc_impl_linux-64          15.3.0  h6ad849d_7            conda-forge      84MB\n"}
+,{"stream_name":"stdout","time":35.423773029,"data":"  + gcc_linux-64               15.3.0  h7df7c86_2            conda-forge      30kB\n"}
+,{"stream_name":"stdout","time":35.423777694,"data":"  + gxx_impl_linux-64          15.3.0  h90d9265_7            conda-forge      17MB\n"}
+,{"stream_name":"stdout","time":35.423781929,"data":"  + gxx_linux-64               15.3.0  h39dd401_2            conda-forge      29kB\n"}
+,{"stream_name":"stdout","time":35.423786132,"data":"  + kernel-headers_linux-64    5.14.0  he073ed8_3            conda-forge       1MB\n"}
+,{"stream_name":"stdout","time":35.423790011,"data":"  + ld_impl_linux-64           2.46.1  default_hbd61a6d_103  conda-forge     742kB\n"}
+,{"stream_name":"stdout","time":35.423794189,"data":"  + libgcc                     16.2.0  ha9f2e26_7            conda-forge       1MB\n"}
+,{"stream_name":"stdout","time":35.423798371,"data":"  + libgcc-devel_linux-64      15.3.0  h2b852eb_107          conda-forge       3MB\n"}
+,{"stream_name":"stdout","time":35.423803037,"data":"  + libgomp                    16.2.0  he0feb66_7            conda-forge     641kB\n"}
+,{"stream_name":"stdout","time":35.423808312,"data":"  + libsanitizer               15.3.0  h54950a5_7            conda-forge       8MB\n"}
+,{"stream_name":"stdout","time":35.423815606,"data":"  + libstdcxx                  16.2.0  h934c35e_7            conda-forge       7MB\n"}
+,{"stream_name":"stdout","time":35.423820788,"data":"  + libstdcxx-devel_linux-64   15.3.0  hb2c5482_107          conda-forge      21MB\n"}
+,{"stream_name":"stdout","time":35.423825824,"data":"  + libzlib                     1.3.2  h25fd6f3_3            conda-forge      64kB\n"}
+,{"stream_name":"stdout","time":35.423830145,"data":"  + sysroot_linux-64             2.34  h087de78_3            conda-forge      41MB\n"}
+,{"stream_name":"stdout","time":35.423834479,"data":"  + tzdata                      2026e  h5d301ff_0            conda-forge     119kB\n"}
+,{"stream_name":"stdout","time":35.423838581,"data":"  + zstd                        1.5.7  hb78ec9c_7            conda-forge     601kB\n"}
+,{"stream_name":"stdout","time":35.423842818,"data":"\n"}
+,{"stream_name":"stdout","time":35.423847183,"data":"  Summary:\n"}
+,{"stream_name":"stdout","time":35.423851655,"data":"\n"}
+,{"stream_name":"stdout","time":35.42385598,"data":"  Install: 19 packages\n"}
+,{"stream_name":"stdout","time":35.423860399,"data":"\n"}
+,{"stream_name":"stdout","time":35.423864293,"data":"  Total download: 189MB\n"}
+,{"stream_name":"stdout","time":35.423868193,"data":"\n"}
+,{"stream_name":"stdout","time":35.423872529,"data":"────────────────────────────────────────────────────────────────────────────────────\n"}
+,{"stream_name":"stdout","time":35.423877614,"data":"\n"}
+,{"stream_name":"stdout","time":35.423881753,"data":"\n"}
+,{"stream_name":"stdout","time":35.423891209,"data":"warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.\n"}
+,{"stream_name":"stdout","time":35.423896911,"data":"\n"}
+,{"stream_name":"stdout","time":35.423900844,"data":"Transaction starting\n"}
+,{"stream_name":"stdout","time":38.895052494,"data":"Linking libstdcxx-devel_linux-64-15.3.0-hb2c5482_107\n"}
+,{"stream_name":"stdout","time":39.10003212,"data":"Linking libstdcxx-devel_linux-64-15.3.0-hb2c5482_107\n"}
+,{"stream_name":"stdout","time":39.102662254,"data":"Linking libgcc-devel_linux-64-15.3.0-h2b852eb_107\n"}
+,{"stream_name":"stdout","time":39.109754147,"data":"Linking kernel-headers_linux-64-5.14.0-he073ed8_3\n"}
+,{"stream_name":"stdout","time":39.307523117,"data":"Linking libgcc-devel_linux-64-15.3.0-h2b852eb_107\n"}
+,{"stream_name":"stdout","time":39.307562494,"data":"Linking kernel-headers_linux-64-5.14.0-he073ed8_3\n"}
+,{"stream_name":"stdout","time":39.339906699,"data":"Linking tzdata-2026e-h5d301ff_0\n"}
+,{"stream_name":"stdout","time":39.41509219,"data":"Linking sysroot_linux-64-2.34-h087de78_3\n"}
+,{"stream_name":"stdout","time":39.543264666,"data":"Linking tzdata-2026e-h5d301ff_0\n"}
+,{"stream_name":"stdout","time":39.543316844,"data":"Linking sysroot_linux-64-2.34-h087de78_3\n"}
+,{"stream_name":"stdout","time":39.547311224,"data":"Linking libgomp-16.2.0-he0feb66_7\n"}
+,{"stream_name":"stdout","time":39.549799504,"data":"Linking libzlib-1.3.2-h25fd6f3_3\n"}
+,{"stream_name":"stdout","time":39.552001404,"data":"Linking _openmp_mutex-4.5-20_gnu\n"}
+,{"stream_name":"stdout","time":39.564289528,"data":"Linking zstd-1.5.7-hb78ec9c_7\n"}
+,{"stream_name":"stdout","time":39.568801513,"data":"Linking libgcc-16.2.0-ha9f2e26_7\n"}
+,{"stream_name":"stdout","time":39.572827751,"data":"Linking ld_impl_linux-64-2.46.1-default_hbd61a6d_103\n"}
+,{"stream_name":"stdout","time":39.623856027,"data":"Linking libstdcxx-16.2.0-h934c35e_7\n"}
+,{"stream_name":"stdout","time":39.626236147,"data":"Linking binutils_impl_linux-64-2.46.1-default_hfdba357_103\n"}
+,{"stream_name":"stdout","time":39.684239322,"data":"Linking libsanitizer-15.3.0-h54950a5_7\n"}
+,{"stream_name":"stdout","time":39.688044827,"data":"Linking binutils_linux-64-2.46.1-default_h4852527_103\n"}
+,{"stream_name":"stdout","time":39.690377291,"data":"Linking gcc_impl_linux-64-15.3.0-h6ad849d_7\n"}
+,{"stream_name":"stdout","time":39.75115443,"data":"Linking libgomp-16.2.0-he0feb66_7\n"}
+,{"stream_name":"stdout","time":39.751186733,"data":"Linking libzlib-1.3.2-h25fd6f3_3\n"}
+,{"stream_name":"stdout","time":39.751192925,"data":"Linking _openmp_mutex-4.5-20_gnu\n"}
+,{"stream_name":"stdout","time":39.7511976,"data":"Linking zstd-1.5.7-hb78ec9c_7\n"}
+,{"stream_name":"stdout","time":39.751201608,"data":"Linking libgcc-16.2.0-ha9f2e26_7\n"}
+,{"stream_name":"stdout","time":39.751205515,"data":"Linking ld_impl_linux-64-2.46.1-default_hbd61a6d_103\n"}
+,{"stream_name":"stdout","time":39.751209418,"data":"Linking libstdcxx-16.2.0-h934c35e_7\n"}
+,{"stream_name":"stdout","time":39.751213251,"data":"Linking binutils_impl_linux-64-2.46.1-default_hfdba357_103\n"}
+,{"stream_name":"stdout","time":39.751217616,"data":"Linking libsanitizer-15.3.0-h54950a5_7\n"}
+,{"stream_name":"stdout","time":39.751223393,"data":"Linking binutils_linux-64-2.46.1-default_h4852527_103\n"}
+,{"stream_name":"stdout","time":39.751233243,"data":"Linking gcc_impl_linux-64-15.3.0-h6ad849d_7\n"}
+,{"stream_name":"stdout","time":40.097634691,"data":"Linking gxx_impl_linux-64-15.3.0-h90d9265_7\n"}
+,{"stream_name":"stdout","time":40.100582123,"data":"Linking gcc_linux-64-15.3.0-h7df7c86_2\n"}
+,{"stream_name":"stdout","time":40.103708709,"data":"Linking gxx_linux-64-15.3.0-h39dd401_2\n"}
+,{"stream_name":"stdout","time":40.107098868,"data":"\n"}
+,{"stream_name":"stdout","time":40.107127305,"data":"Transaction finished\n"}
+,{"stream_name":"stdout","time":40.107226912,"data":"\n"}
+,{"stream_name":"stdout","time":40.107241698,"data":"\n"}
+,{"stream_name":"stdout","time":40.107246761,"data":"To activate this environment, use:\n"}
+,{"stream_name":"stdout","time":40.107252095,"data":"\n"}
+,{"stream_name":"stdout","time":40.107256995,"data":"    micromamba activate /tmp/hydra-serving-v3/gcc\n"}
+,{"stream_name":"stdout","time":40.107262336,"data":"\n"}
+,{"stream_name":"stdout","time":40.107267001,"data":"Or to execute a single command in this environment, use:\n"}
+,{"stream_name":"stdout","time":40.107271986,"data":"\n"}
+,{"stream_name":"stdout","time":40.107276635,"data":"    micromamba run -p /tmp/hydra-serving-v3/gcc mycommand\n"}
+,{"stream_name":"stdout","time":40.107282206,"data":"\n"}
+,{"stream_name":"stdout","time":40.192119293,"data":"x86_64-conda-linux-gnu-g++ (conda-forge gcc 15.3.0-7) 15.3.0\n"}
+,{"stream_name":"stdout","time":40.19217047,"data":"Copyright (C) 2025 Free Software Foundation, Inc.\n"}
+,{"stream_name":"stdout","time":40.192319214,"data":"This is free software; see the source for copying conditions.  There is NO\n"}
+,{"stream_name":"stdout","time":40.192344134,"data":"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"}
+,{"stream_name":"stdout","time":40.192351759,"data":"\n"}
+,{"stream_name":"stdout","time":40.302903372,"data":"Linking gxx_impl_linux-64-15.3.0-h90d9265_7\n"}
+,{"stream_name":"stdout","time":40.302971435,"data":"Linking gcc_linux-64-15.3.0-h7df7c86_2\n"}
+,{"stream_name":"stdout","time":40.302979453,"data":"Linking gxx_linux-64-15.3.0-h39dd401_2\n"}
+,{"stream_name":"stdout","time":40.302983718,"data":"\n"}
+,{"stream_name":"stdout","time":40.302987556,"data":"Transaction finished\n"}
+,{"stream_name":"stdout","time":40.302991958,"data":"\n"}
+,{"stream_name":"stdout","time":40.302995674,"data":"\n"}
+,{"stream_name":"stdout","time":40.302999462,"data":"To activate this environment, use:\n"}
+,{"stream_name":"stdout","time":40.303003274,"data":"\n"}
+,{"stream_name":"stdout","time":40.303007027,"data":"    micromamba activate /tmp/hydra-serving-v3/gcc\n"}
+,{"stream_name":"stdout","time":40.303010963,"data":"\n"}
+,{"stream_name":"stdout","time":40.30301468,"data":"Or to execute a single command in this environment, use:\n"}
+,{"stream_name":"stdout","time":40.303018628,"data":"\n"}
+,{"stream_name":"stdout","time":40.303022368,"data":"    micromamba run -p /tmp/hydra-serving-v3/gcc mycommand\n"}
+,{"stream_name":"stdout","time":40.30302599,"data":"\n"}
+,{"stream_name":"stdout","time":40.303029387,"data":"x86_64-conda-linux-gnu-g++ (conda-forge gcc 15.3.0-7) 15.3.0\n"}
+,{"stream_name":"stdout","time":40.303033352,"data":"Copyright (C) 2025 Free Software Foundation, Inc.\n"}
+,{"stream_name":"stdout","time":40.303037463,"data":"This is free software; see the source for copying conditions.  There is NO\n"}
+,{"stream_name":"stdout","time":40.303041791,"data":"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"}
+,{"stream_name":"stdout","time":40.303045768,"data":"\n"}
+,{"stream_name":"stdout","time":40.916528512,"data":"Using CPython 3.12.13 interpreter at: /usr/bin/python3\n"}
+,{"stream_name":"stdout","time":40.916609708,"data":"Creating virtual environment at: /tmp/hydra-serving-v3/compiler\n"}
+,{"stream_name":"stdout","time":40.920702348,"data":"Activate with: source /tmp/hydra-serving-v3/compiler/bin/activate\n"}
+,{"stream_name":"stdout","time":41.119622638,"data":"Using CPython 3.12.13 interpreter at: /usr/bin/python3\n"}
+,{"stream_name":"stdout","time":41.119661229,"data":"Creating virtual environment at: /tmp/hydra-serving-v3/compiler\n"}
+,{"stream_name":"stdout","time":41.119668086,"data":"Activate with: source /tmp/hydra-serving-v3/compiler/bin/activate\n"}
+,{"stream_name":"stdout","time":41.248836054,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/compiler\n"}
+,{"stream_name":"stdout","time":41.405406132,"data":"Resolved 5 packages in 151ms\n"}
+,{"stream_name":"stdout","time":41.415445043,"data":"Downloading nvidia-cuda-cccl (3.7MiB)\n"}
+,{"stream_name":"stdout","time":41.425130324,"data":"Downloading nvidia-nvvm (66.0MiB)\n"}
+,{"stream_name":"stdout","time":41.431715448,"data":"Downloading nvidia-cuda-runtime (2.2MiB)\n"}
+,{"stream_name":"stdout","time":41.431740895,"data":"Downloading nvidia-cuda-nvcc (42.9MiB)\n"}
+,{"stream_name":"stdout","time":41.456358775,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/compiler\n"}
+,{"stream_name":"stdout","time":41.456454445,"data":"Resolved 5 packages in 151ms\n"}
+,{"stream_name":"stdout","time":41.45646237,"data":"Downloading nvidia-cuda-cccl (3.7MiB)\n"}
+,{"stream_name":"stdout","time":41.456468215,"data":"Downloading nvidia-nvvm (66.0MiB)\n"}
+,{"stream_name":"stdout","time":41.456473405,"data":"Downloading nvidia-cuda-runtime (2.2MiB)\n"}
+,{"stream_name":"stdout","time":41.456478666,"data":"Downloading nvidia-cuda-nvcc (42.9MiB)\n"}
+,{"stream_name":"stdout","time":41.601465059,"data":" Downloaded nvidia-cuda-runtime\n"}
+,{"stream_name":"stdout","time":41.810202139,"data":" Downloaded nvidia-cuda-runtime\n"}
+,{"stream_name":"stdout","time":42.044811979,"data":" Downloaded nvidia-cuda-cccl\n"}
+,{"stream_name":"stdout","time":42.25023084,"data":" Downloaded nvidia-cuda-cccl\n"}
+,{"stream_name":"stdout","time":43.029553167,"data":" Downloaded nvidia-cuda-nvcc\n"}
+,{"stream_name":"stdout","time":43.236314161,"data":" Downloaded nvidia-cuda-nvcc\n"}
+,{"stream_name":"stdout","time":43.319711848,"data":" Downloaded nvidia-nvvm\n"}
+,{"stream_name":"stdout","time":43.321127452,"data":"Prepared 5 packages in 1.91s\n"}
+,{"stream_name":"stdout","time":43.531610898,"data":" Downloaded nvidia-nvvm\n"}
+,{"stream_name":"stdout","time":43.531640122,"data":"Prepared 5 packages in 1.91s\n"}
+,{"stream_name":"stdout","time":44.212000218,"data":"Installed 5 packages in 889ms\n"}
+,{"stream_name":"stdout","time":44.212258298,"data":" + nvidia-cuda-cccl==13.3.4.3.1\n"}
+,{"stream_name":"stdout","time":44.21226454,"data":" + nvidia-cuda-crt==13.3.73\n"}
+,{"stream_name":"stdout","time":44.21256004,"data":" + nvidia-cuda-nvcc==13.3.73\n"}
+,{"stream_name":"stdout","time":44.212571071,"data":" + nvidia-cuda-runtime==13.3.29\n"}
+,{"stream_name":"stdout","time":44.212576353,"data":" + nvidia-nvvm==13.3.73\n"}
+,{"stream_name":"stdout","time":44.295011851,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":44.295058939,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":44.416456163,"data":"Installed 5 packages in 889ms\n"}
+,{"stream_name":"stdout","time":44.416506295,"data":" + nvidia-cuda-cccl==13.3.4.3.1\n"}
+,{"stream_name":"stdout","time":44.416512123,"data":" + nvidia-cuda-crt==13.3.73\n"}
+,{"stream_name":"stdout","time":44.416564791,"data":" + nvidia-cuda-nvcc==13.3.73\n"}
+,{"stream_name":"stdout","time":44.416570683,"data":" + nvidia-cuda-runtime==13.3.29\n"}
+,{"stream_name":"stdout","time":44.416575112,"data":" + nvidia-nvvm==13.3.73\n"}
+,{"stream_name":"stdout","time":44.416579711,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":44.416588208,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":46.662494821,"data":"nvcc: NVIDIA (R) Cuda compiler driver\n"}
+,{"stream_name":"stdout","time":46.66253219,"data":"Copyright (c) 2005-2026 NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":46.662537382,"data":"Built on Tue_Jun_09_02:43:40_PM_PDT_2026\n"}
+,{"stream_name":"stdout","time":46.662541307,"data":"Cuda compilation tools, release 13.3, V13.3.73\n"}
+,{"stream_name":"stdout","time":46.66257639,"data":"Build cuda_13.3.r13.3/compiler.38244171_0\n"}
+,{"stream_name":"stdout","time":46.662581328,"data":"\n"}
+,{"stream_name":"stdout","time":46.866018831,"data":"nvcc: NVIDIA (R) Cuda compiler driver\n"}
+,{"stream_name":"stdout","time":46.86609475,"data":"Copyright (c) 2005-2026 NVIDIA Corporation\n"}
+,{"stream_name":"stdout","time":46.866101414,"data":"Built on Tue_Jun_09_02:43:40_PM_PDT_2026\n"}
+,{"stream_name":"stdout","time":46.866106864,"data":"Cuda compilation tools, release 13.3, V13.3.73\n"}
+,{"stream_name":"stdout","time":46.866111242,"data":"Build cuda_13.3.r13.3/compiler.38244171_0\n"}
+,{"stream_name":"stdout","time":46.866116783,"data":"\n"}
+,{"stream_name":"stdout","time":48.41044668,"data":"CPU CUDA SM120f compiler probe passed\n"}
+,{"stream_name":"stdout","time":48.613701965,"data":"CPU CUDA SM120f compiler probe passed\n"}
+,{"stream_name":"stdout","time":49.013542603,"data":"Cloning into '/tmp/hydra-serving-v3/source'...\n"}
+,{"stream_name":"stdout","time":49.216383056,"data":"Cloning into '/tmp/hydra-serving-v3/source'...\n"}
+,{"stream_name":"stdout","time":54.898920784,"data":"Note: switching to '560edbdca18aedae13f71ae20b3984efa4d22633'.\n"}
+,{"stream_name":"stdout","time":54.899008131,"data":"\n"}
+,{"stream_name":"stdout","time":54.899017375,"data":"You are in 'detached HEAD' state. You can look around, make experimental\n"}
+,{"stream_name":"stdout","time":54.8990233,"data":"changes and commit them, and you can discard any commits you make in this\n"}
+,{"stream_name":"stdout","time":54.899028768,"data":"state without impacting any branches by switching back to a branch.\n"}
+,{"stream_name":"stdout","time":54.899033585,"data":"\n"}
+,{"stream_name":"stdout","time":54.899037881,"data":"If you want to create a new branch to retain commits you create, you may\n"}
+,{"stream_name":"stdout","time":54.899042797999996,"data":"do so (now or later) by using -c with the switch command. Example:\n"}
+,{"stream_name":"stdout","time":54.8990478,"data":"\n"}
+,{"stream_name":"stdout","time":54.89905308,"data":"  git switch -c \u003cnew-branch-name\u003e\n"}
+,{"stream_name":"stdout","time":54.899059142,"data":"\n"}
+,{"stream_name":"stdout","time":54.899064545,"data":"Or undo this operation with:\n"}
+,{"stream_name":"stdout","time":54.899082415,"data":"\n"}
+,{"stream_name":"stdout","time":54.899087201,"data":"  git switch -\n"}
+,{"stream_name":"stdout","time":54.899092156,"data":"\n"}
+,{"stream_name":"stdout","time":54.89909697,"data":"Turn off this advice by setting config variable advice.detachedHead to false\n"}
+,{"stream_name":"stdout","time":54.89910214,"data":"\n"}
+,{"stream_name":"stdout","time":55.106001191,"data":"Note: switching to '560edbdca18aedae13f71ae20b3984efa4d22633'.\n"}
+,{"stream_name":"stdout","time":55.106051541,"data":"\n"}
+,{"stream_name":"stdout","time":55.106058251,"data":"You are in 'detached HEAD' state. You can look around, make experimental\n"}
+,{"stream_name":"stdout","time":55.106062395,"data":"changes and commit them, and you can discard any commits you make in this\n"}
+,{"stream_name":"stdout","time":55.106066335,"data":"state without impacting any branches by switching back to a branch.\n"}
+,{"stream_name":"stdout","time":55.106069975,"data":"\n"}
+,{"stream_name":"stdout","time":55.1060741,"data":"If you want to create a new branch to retain commits you create, you may\n"}
+,{"stream_name":"stdout","time":55.106078483,"data":"do so (now or later) by using -c with the switch command. Example:\n"}
+,{"stream_name":"stdout","time":55.106083394,"data":"\n"}
+,{"stream_name":"stdout","time":55.106087496,"data":"  git switch -c \u003cnew-branch-name\u003e\n"}
+,{"stream_name":"stdout","time":55.106092546,"data":"\n"}
+,{"stream_name":"stdout","time":55.106096851,"data":"Or undo this operation with:\n"}
+,{"stream_name":"stdout","time":55.10610118,"data":"\n"}
+,{"stream_name":"stdout","time":55.106104836,"data":"  git switch -\n"}
+,{"stream_name":"stdout","time":55.1061091,"data":"\n"}
+,{"stream_name":"stdout","time":55.106113193,"data":"Turn off this advice by setting config variable advice.detachedHead to false\n"}
+,{"stream_name":"stdout","time":55.106118008,"data":"\n"}
+,{"stream_name":"stdout","time":56.413210295,"data":"Updating files:  59% (5137/8591)\rUpdating files:  60% (5155/8591)\rUpdating files:  61% (5241/8591)\rUpdating files:  62% (5327/8591)\rUpdating files:  63% (5413/8591)\rUpdating files:  64% (5499/8591)\rUpdating files:  65% (5585/8591)\rUpdating files:  66% (5671/8591)\rUpdating files:  67% (5756/8591)\rUpdating files:  68% (5842/8591)\rUpdating files:  69% (5928/8591)\rUpdating files:  70% (6014/8591)\rUpdating files:  71% (6100/8591)\rUpdating files:  72% (6186/8591)\rUpdating files:  73% (6272/8591)\rUpdating files:  74% (6358/8591)\rUpdating files:  75% (6444/8591)\rUpdating files:  76% (6530/8591)\rUpdating files:  59% (5137/8591)\rUpdating files:  60% (5155/8591)\rUpdating files:  61% (5241/8591)\rUpdating files:  62% (5327/8591)\rUpdating files:  63% (5413/8591)\rUpdating files:  64% (5499/8591)\rUpdating files:  65% (5585/8591)\rUpdating files:  66% (5671/8591)\rUpdating files:  67% (5756/8591)\rUpdating files:  68% (5842/8591)\rUpdating files:  69% (5928/8591)\rUpdating files:  70% (6014/8591)\rUpdating files:  71% (6100/8591)\rUpdating files:  72% (6186/8591)\rUpdating files:  73% (6272/8591)\rUpdating files:  74% (6358/8591)\rUpdating files:  75% (6444/8591)\rUpdating files:  76% (6530/8591)\rUpdating files:  77% (6616/8591)\rUpdating files:  78% (6701/8591)\rUpdating files:  79% (6787/8591)\rUpdating files:  80% (6873/8591)\rUpdating files:  81% (6959/8591)\rUpdating files:  82% (7045/8591)\rUpdating files:  83% (7131/8591)\rUpdating files:  84% (7217/8591)\rUpdating files:  85% (7303/8591)\rUpdating files:  86% (7389/8591)\rUpdating files:  87% (7475/8591)\rUpdating files:  88% (7561/8591)\rUpdating files:  89% (7646/8591)\rUpdating files:  90% (7732/8591)\rUpdating files:  91% (7818/8591)\rUpdating files:  92% (7904/8591)\rUpdating files:  93% (7990/8591)\rUpdating files:  94% (8076/8591)\rUpdating files:  77% (6616/8591)\rUpdating files:  78% (6701/8591)\rUpdating files:  79% (6787/8591)\rUpdating files:  80% (6873/8591)\rUpdating files:  81% (6959/8591)\rUpdating files:  82% (7045/8591)\rUpdating files:  83% (7131/8591)\rUpdating files:  84% (7217/8591)\rUpdating files:  85% (7303/8591)\rUpdating files:  86% (7389/8591)\rUpdating files:  87% (7475/8591)\rUpdating files:  88% (7561/8591)\rUpdating files:  89% (7646/8591)\rUpdating files:  90% (7732/8591)\rUpdating files:  91% (7818/8591)\rUpdating files:  92% (7904/8591)\rUpdating files:  93% (7990/8591)\rUpdating files:  94% (8076/8591)\rUpdating files:  95% (8162/8591)\rUpdating files:  96% (8248/8591)\rUpdating files:  97% (8334/8591)\rUpdating files:  98% (8420/8591)\rUpdating files:  99% (8506/8591)\rUpdating files: 100% (8591/8591)\rUpdating files: 100% (8591/8591), done.\n"}
+,{"stream_name":"stdout","time":56.532753054,"data":"Updating files:  95% (8162/8591)\rUpdating files:  96% (8248/8591)\rUpdating files:  97% (8334/8591)\rUpdating files:  98% (8420/8591)\rUpdating files:  99% (8506/8591)\rUpdating files: 100% (8591/8591)\rUpdating files: 100% (8591/8591), done.\n"}
+,{"stream_name":"stdout","time":57.400626824,"data":"Using CPython 3.12.13 interpreter at: /usr/bin/python3\n"}
+,{"stream_name":"stdout","time":57.40065475,"data":"Creating virtual environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":57.401999938,"data":"Activate with: source /tmp/hydra-serving-v3/runtime/bin/activate\n"}
+,{"stream_name":"stdout","time":57.60435739,"data":"Using CPython 3.12.13 interpreter at: /usr/bin/python3\n"}
+,{"stream_name":"stdout","time":57.604414383,"data":"Creating virtual environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":57.604420522,"data":"Activate with: source /tmp/hydra-serving-v3/runtime/bin/activate\n"}
+,{"stream_name":"stdout","time":57.66759533,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":57.870754578,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":61.195303086,"data":"Resolved 208 packages in 3.42s\n"}
+,{"stream_name":"stdout","time":61.400073379,"data":"Resolved 208 packages in 3.42s\n"}
+,{"stream_name":"stdout","time":4094.076369773,"data":"Prepared 208 packages in 67m 12s\n"}
+,{"stream_name":"stdout","time":4094.381025779,"data":"Prepared 208 packages in 67m 12s\n"}
+,{"stream_name":"stdout","time":4345.570861404,"data":"Installed 208 packages in 4m 11s\n"}
+,{"stream_name":"stdout","time":4345.587569028,"data":" + aiohappyeyeballs==2.7.1\n"}
+,{"stream_name":"stdout","time":4345.587650828,"data":" + aiohttp==3.14.3\n"}
+,{"stream_name":"stdout","time":4345.587659453,"data":" + aiosignal==1.4.0\n"}
+,{"stream_name":"stdout","time":4345.587666129,"data":" + airportsdata==20260905\n"}
+,{"stream_name":"stdout","time":4345.587752131,"data":" + annotated-doc==0.0.5\n"}
+,{"stream_name":"stdout","time":4345.587791797,"data":" + annotated-types==0.8.0\n"}
+,{"stream_name":"stdout","time":4345.587798971,"data":" + anthropic==1.9.0\n"}
+,{"stream_name":"stdout","time":4345.587804401,"data":" + anyio==4.15.1\n"}
+,{"stream_name":"stdout","time":4345.587808879,"data":" + apache-tvm-ffi==0.1.11\n"}
+,{"stream_name":"stdout","time":4345.587813893,"data":" + asttokens==3.0.2\n"}
+,{"stream_name":"stdout","time":4345.587819513,"data":" + attrs==26.1.0\n"}
+,{"stream_name":"stdout","time":4345.587824787,"data":" + blobfile==3.0.0\n"}
+,{"stream_name":"stdout","time":4345.587829474,"data":" + build==1.6.1\n"}
+,{"stream_name":"stdout","time":4345.587834076,"data":" + certifi==2026.7.22\n"}
+,{"stream_name":"stdout","time":4345.587839051,"data":" + cffi==2.1.1\n"}
+,{"stream_name":"stdout","time":4345.587844072,"data":" + charset-normalizer==3.5.1\n"}
+,{"stream_name":"stdout","time":4345.5878493,"data":" + click==8.5.0\n"}
+,{"stream_name":"stdout","time":4345.587854144,"data":" + cloudpickle==3.1.2\n"}
+,{"stream_name":"stdout","time":4345.587859054,"data":" + compressed-tensors==0.19.1a20260928\n"}
+,{"stream_name":"stdout","time":4345.587863922,"data":" + cryptography==50.0.1\n"}
+,{"stream_name":"stdout","time":4345.587895258,"data":" + cuda-bindings==13.4.3\n"}
+,{"stream_name":"stdout","time":4345.587899902,"data":" + cuda-core==1.2.1\n"}
+,{"stream_name":"stdout","time":4345.587903637,"data":" + cuda-pathfinder==1.8.2\n"}
+,{"stream_name":"stdout","time":4345.587907849,"data":" + cuda-python==13.4.1\n"}
+,{"stream_name":"stdout","time":4345.58791204,"data":" + cuda-tile==1.6.0rc5\n"}
+,{"stream_name":"stdout","time":4345.587916007,"data":" + cuda-toolkit==13.0.3.0\n"}
+,{"stream_name":"stdout","time":4345.587920259,"data":" + datasets==5.0.1\n"}
+,{"stream_name":"stdout","time":4345.587924567,"data":" + dill==0.4.1\n"}
+,{"stream_name":"stdout","time":4345.587929637,"data":" + diskcache==5.6.3\n"}
+,{"stream_name":"stdout","time":4345.587933731,"data":" + distro==1.9.0\n"}
+,{"stream_name":"stdout","time":4345.587942211,"data":" + docstring-parser==0.18.0\n"}
+,{"stream_name":"stdout","time":4345.587946661,"data":" + easydict==1.13\n"}
+,{"stream_name":"stdout","time":4345.587977977,"data":" + einops==0.9.0.dev0\n"}
+,{"stream_name":"stdout","time":4345.587982734,"data":" + executing==2.2.1\n"}
+,{"stream_name":"stdout","time":4345.587986797,"data":" + fastapi==0.141.1\n"}
+,{"stream_name":"stdout","time":4345.587990846,"data":" + filelock==4.0.6\n"}
+,{"stream_name":"stdout","time":4345.587994771,"data":" + flash-attn-4==4.0.0b19\n"}
+,{"stream_name":"stdout","time":4345.587998868,"data":" + flashinfer-cubin==0.6.17\n"}
+,{"stream_name":"stdout","time":4345.588003015,"data":" + flashinfer-jit-cache==0.6.17+cu130\n"}
+,{"stream_name":"stdout","time":4345.588007193,"data":" + flashinfer-python==0.6.17\n"}
+,{"stream_name":"stdout","time":4345.588011525,"data":" + frozenlist==1.8.0\n"}
+,{"stream_name":"stdout","time":4345.588015649,"data":" + fsspec==2026.6.0\n"}
+,{"stream_name":"stdout","time":4345.588019839,"data":" + gguf==0.19.0\n"}
+,{"stream_name":"stdout","time":4345.5880239,"data":" + grpcio==1.84.0\n"}
+,{"stream_name":"stdout","time":4345.593894149,"data":" + grpcio-health-checking==1.82.0rc2\n"}
+,{"stream_name":"stdout","time":4345.594208742,"data":" + grpcio-reflection==1.82.0rc2\n"}
+,{"stream_name":"stdout","time":4345.594240097,"data":" + h11==0.16.0\n"}
+,{"stream_name":"stdout","time":4345.594245211,"data":" + hf-xet==1.7.0.dev1\n"}
+,{"stream_name":"stdout","time":4345.594249485,"data":" + httpcore==1.0.9\n"}
+,{"stream_name":"stdout","time":4345.594255011,"data":" + httpcore2==2.13.1\n"}
+,{"stream_name":"stdout","time":4345.594264472,"data":" + httpx==0.28.1\n"}
+,{"stream_name":"stdout","time":4345.594267722,"data":" + httpx2==2.13.1\n"}
+,{"stream_name":"stdout","time":4345.594270319,"data":" + huggingface-hub==1.33.0\n"}
+,{"stream_name":"stdout","time":4345.594273036,"data":" + humming-kernels==0.1.12\n"}
+,{"stream_name":"stdout","time":4345.59427646,"data":" + idna==3.20\n"}
+,{"stream_name":"stdout","time":4345.594296467,"data":" + interegular==0.3.3\n"}
+,{"stream_name":"stdout","time":4345.594301253,"data":" + ipython==9.17.1\n"}
+,{"stream_name":"stdout","time":4345.594305761,"data":" + ipython-pygments-lexers==1.1.1\n"}
+,{"stream_name":"stdout","time":4345.594310286,"data":" + jedi==0.20.0\n"}
+,{"stream_name":"stdout","time":4345.594314574,"data":" + jinja2==3.1.6\n"}
+,{"stream_name":"stdout","time":4345.59431921,"data":" + jiter==0.17.0\n"}
+,{"stream_name":"stdout","time":4345.594323548,"data":" + jsonschema==4.26.0\n"}
+,{"stream_name":"stdout","time":4345.594327285,"data":" + jsonschema-specifications==2025.9.1\n"}
+,{"stream_name":"stdout","time":4345.594331704,"data":" + kernels==0.14.1\n"}
+,{"stream_name":"stdout","time":4345.594352764,"data":" + kernels-data==0.16.2\n"}
+,{"stream_name":"stdout","time":4345.594357286,"data":" + lark==1.3.1\n"}
+,{"stream_name":"stdout","time":4345.594361425,"data":" + llguidance==1.8.0\n"}
+,{"stream_name":"stdout","time":4345.594365993,"data":" + llvmlite==0.47.0\n"}
+,{"stream_name":"stdout","time":4345.594369767,"data":" + loguru==0.7.3\n"}
+,{"stream_name":"stdout","time":4345.594373578,"data":" + lxml==7.0.0b1\n"}
+,{"stream_name":"stdout","time":4345.59437698,"data":" + markdown-it-py==4.2.0\n"}
+,{"stream_name":"stdout","time":4345.594380514,"data":" + markupsafe==3.0.3\n"}
+,{"stream_name":"stdout","time":4345.594384564,"data":" + matplotlib-inline==0.2.2\n"}
+,{"stream_name":"stdout","time":4345.594388518,"data":" + mdurl==0.1.2\n"}
+,{"stream_name":"stdout","time":4345.594392167,"data":" + mistral-common==1.12.0\n"}
+,{"stream_name":"stdout","time":4345.594396163,"data":" + ml-dtypes==0.6.0\n"}
+,{"stream_name":"stdout","time":4345.594399735,"data":" + modelscope==1.40.1\n"}
+,{"stream_name":"stdout","time":4345.594403628,"data":" + modelscope-hub==0.4.5\n"}
+,{"stream_name":"stdout","time":4345.594408154,"data":" + mpmath==1.3.0\n"}
+,{"stream_name":"stdout","time":4345.594413744,"data":" + msgspec==0.22.0\n"}
+,{"stream_name":"stdout","time":4345.594417327,"data":" + multidict==6.9.1\n"}
+,{"stream_name":"stdout","time":4345.594421608,"data":" + multiprocess==0.70.19\n"}
+,{"stream_name":"stdout","time":4345.594425641,"data":" + nccl4py==0.6.0\n"}
+,{"stream_name":"stdout","time":4345.594429606,"data":" + nest-asyncio==1.6.0\n"}
+,{"stream_name":"stdout","time":4345.594433627,"data":" + networkx==3.7\n"}
+,{"stream_name":"stdout","time":4345.594438124,"data":" + ninja==1.13.2\n"}
+,{"stream_name":"stdout","time":4345.59444265,"data":" + numba==0.65.1\n"}
+,{"stream_name":"stdout","time":4345.594446663,"data":" + numpy==2.3.5\n"}
+,{"stream_name":"stdout","time":4345.59445068,"data":" + nvidia-cublas==13.1.1.3\n"}
+,{"stream_name":"stdout","time":4345.594454709,"data":" + nvidia-cuda-cccl==13.0.85\n"}
+,{"stream_name":"stdout","time":4345.594458707,"data":" + nvidia-cuda-crt==13.0.88\n"}
+,{"stream_name":"stdout","time":4345.594462751,"data":" + nvidia-cuda-cupti==13.0.85\n"}
+,{"stream_name":"stdout","time":4345.594466715,"data":" + nvidia-cuda-nvcc==13.0.88\n"}
+,{"stream_name":"stdout","time":4345.59447084,"data":" + nvidia-cuda-nvdisasm==13.4.92\n"}
+,{"stream_name":"stdout","time":4345.594475211,"data":" + nvidia-cuda-nvrtc==13.0.88\n"}
+,{"stream_name":"stdout","time":4345.594479258,"data":" + nvidia-cuda-runtime==13.0.96\n"}
+,{"stream_name":"stdout","time":4345.594483277,"data":" + nvidia-cudnn-cu13==9.20.0.48\n"}
+,{"stream_name":"stdout","time":4345.594487846,"data":" + nvidia-cudnn-frontend==1.30.0\n"}
+,{"stream_name":"stdout","time":4345.594491763,"data":" + nvidia-cufft==12.0.0.61\n"}
+,{"stream_name":"stdout","time":4345.59449588,"data":" + nvidia-cufile==1.15.1.6\n"}
+,{"stream_name":"stdout","time":4345.594499851,"data":" + nvidia-curand==10.4.0.35\n"}
+,{"stream_name":"stdout","time":4345.594503981,"data":" + nvidia-cusolver==12.0.4.66\n"}
+,{"stream_name":"stdout","time":4345.594507988,"data":" + nvidia-cusparse==12.6.3.3\n"}
+,{"stream_name":"stdout","time":4345.594512204,"data":" + nvidia-cusparselt-cu13==0.8.1\n"}
+,{"stream_name":"stdout","time":4345.594516199,"data":" + nvidia-cutlass-dsl==4.6.2\n"}
+,{"stream_name":"stdout","time":4345.59452036,"data":" + nvidia-cutlass-dsl-libs-base==4.6.2\n"}
+,{"stream_name":"stdout","time":4345.594524798,"data":" + nvidia-cutlass-dsl-libs-core==4.6.2\n"}
+,{"stream_name":"stdout","time":4345.594528967,"data":" + nvidia-cutlass-dsl-libs-cu12==4.6.2\n"}
+,{"stream_name":"stdout","time":4345.594539535,"data":" + nvidia-cutlass-dsl-libs-cu13==4.6.2\n"}
+,{"stream_name":"stdout","time":4345.594543768,"data":" + nvidia-mathdx==25.6.0\n"}
+,{"stream_name":"stdout","time":4345.594548022,"data":" + nvidia-ml-py==13.615.71\n"}
+,{"stream_name":"stdout","time":4345.594552143,"data":" + nvidia-nccl-cu13==2.29.7\n"}
+,{"stream_name":"stdout","time":4345.594556331,"data":" + nvidia-nvjitlink==13.4.92\n"}
+,{"stream_name":"stdout","time":4345.594560452,"data":" + nvidia-nvshmem-cu13==3.4.5\n"}
+,{"stream_name":"stdout","time":4345.594564548,"data":" + nvidia-nvtx==13.0.85\n"}
+,{"stream_name":"stdout","time":4345.594568654,"data":" + nvidia-nvvm==13.0.88\n"}
+,{"stream_name":"stdout","time":4345.594572926,"data":" + openai==2.6.1\n"}
+,{"stream_name":"stdout","time":4345.594576872,"data":" + openai-harmony==0.0.4\n"}
+,{"stream_name":"stdout","time":4345.594580981,"data":" + orjson==3.12.0\n"}
+,{"stream_name":"stdout","time":4345.594585229,"data":" + outlines==0.1.11\n"}
+,{"stream_name":"stdout","time":4345.594589224,"data":" + outlines-core==0.1.26\n"}
+,{"stream_name":"stdout","time":4345.594593333,"data":" + packaging==26.3\n"}
+,{"stream_name":"stdout","time":4345.594597191,"data":" + pandas==3.0.6\n"}
+,{"stream_name":"stdout","time":4345.594601341,"data":" + parso==0.8.7\n"}
+,{"stream_name":"stdout","time":4345.5946055,"data":" + partial-json-parser==0.2.1.1.post7\n"}
+,{"stream_name":"stdout","time":4345.59460959,"data":" + pexpect==4.9.0\n"}
+,{"stream_name":"stdout","time":4345.594613521,"data":" + pillow==12.3.0\n"}
+,{"stream_name":"stdout","time":4345.594617598,"data":" + pip==26.2.1\n"}
+,{"stream_name":"stdout","time":4345.594621926,"data":" + prometheus-client==0.26.0\n"}
+,{"stream_name":"stdout","time":4345.594634108,"data":" + prompt-toolkit==3.0.53\n"}
+,{"stream_name":"stdout","time":4345.594638453,"data":" + propcache==0.5.4\n"}
+,{"stream_name":"stdout","time":4345.594642485,"data":" + protobuf==6.33.6\n"}
+,{"stream_name":"stdout","time":4345.59464632,"data":" + psutil==7.2.2\n"}
+,{"stream_name":"stdout","time":4345.594650271,"data":" + ptyprocess==0.7.0\n"}
+,{"stream_name":"stdout","time":4345.594654354,"data":" + pure-eval==0.2.4\n"}
+,{"stream_name":"stdout","time":4345.594658486,"data":" + py-spy==0.4.2\n"}
+,{"stream_name":"stdout","time":4345.594662716,"data":" + pyarrow==25.0.1\n"}
+,{"stream_name":"stdout","time":4345.594666709,"data":" + pybase64==1.5.0\n"}
+,{"stream_name":"stdout","time":4345.594670677,"data":" + pycountry==26.2.16\n"}
+,{"stream_name":"stdout","time":4345.594674804,"data":" + pycparser==3.0\n"}
+,{"stream_name":"stdout","time":4345.594678687,"data":" + pycryptodomex==3.23.0\n"}
+,{"stream_name":"stdout","time":4345.594682841,"data":" + pydantic==2.14.0b2\n"}
+,{"stream_name":"stdout","time":4345.594686986,"data":" + pydantic-core==2.49.0\n"}
+,{"stream_name":"stdout","time":4345.594691485,"data":" + pydantic-extra-types==2.11.1\n"}
+,{"stream_name":"stdout","time":4345.594696032,"data":" + pygments==2.21.0\n"}
+,{"stream_name":"stdout","time":4345.594699693,"data":" + pyproject-hooks==1.3.3\n"}
+,{"stream_name":"stdout","time":4345.594703688,"data":" + python-dateutil==2.9.0.post0\n"}
+,{"stream_name":"stdout","time":4345.594707834,"data":" + python-multipart==0.0.32\n"}
+,{"stream_name":"stdout","time":4345.594712117,"data":" + pyyaml==6.0.3\n"}
+,{"stream_name":"stdout","time":4345.594716019,"data":" + pyzmq==27.2.0\n"}
+,{"stream_name":"stdout","time":4345.594720038,"data":" + quack-kernels==0.6.4\n"}
+,{"stream_name":"stdout","time":4345.594727543,"data":" + referencing==0.37.0\n"}
+,{"stream_name":"stdout","time":4345.594731737,"data":" + regex==2026.9.29\n"}
+,{"stream_name":"stdout","time":4345.594735752,"data":" + requests==2.34.2\n"}
+,{"stream_name":"stdout","time":4345.594739724,"data":" + rich==15.0.0\n"}
+,{"stream_name":"stdout","time":4345.594743753,"data":" + rpds-py==2026.6.3\n"}
+,{"stream_name":"stdout","time":4345.594747653,"data":" + safetensors==0.9.0rc1\n"}
+,{"stream_name":"stdout","time":4345.594751749,"data":" + scipy==1.18.1\n"}
+,{"stream_name":"stdout","time":4345.594755654,"data":" + sentencepiece==0.2.2\n"}
+,{"stream_name":"stdout","time":4345.594760313,"data":" + setproctitle==1.3.7\n"}
+,{"stream_name":"stdout","time":4345.594763646,"data":" + setuptools==84.0.0\n"}
+,{"stream_name":"stdout","time":4345.594767514,"data":" + sgl-deep-ep==0.1.2+cu130\n"}
+,{"stream_name":"stdout","time":4345.594772582,"data":" + sgl-deep-gemm==0.1.5.post3+cu130\n"}
+,{"stream_name":"stdout","time":4345.594777526,"data":" + sglang==0.5.19+gd00d88efc8d6\n"}
+,{"stream_name":"stdout","time":4345.594782193,"data":" + sglang-kernel==0.4.6.post1+cu130\n"}
+,{"stream_name":"stdout","time":4345.594786183,"data":" + shellingham==1.5.4\n"}
+,{"stream_name":"stdout","time":4345.594789975,"data":" + six==1.17.0\n"}
+,{"stream_name":"stdout","time":4345.594793974,"data":" + smg-grpc-proto==0.4.22\n"}
+,{"stream_name":"stdout","time":4345.594797845,"data":" + smg-grpc-servicer==0.13.0\n"}
+,{"stream_name":"stdout","time":4345.59480227,"data":" + sniffio==1.3.1\n"}
+,{"stream_name":"stdout","time":4345.594806883,"data":" + soundfile==0.13.1\n"}
+,{"stream_name":"stdout","time":4345.594811037,"data":" + stack-data==0.6.3\n"}
+,{"stream_name":"stdout","time":4345.594815043,"data":" + starlette==1.7.0\n"}
+,{"stream_name":"stdout","time":4345.594818915,"data":" + sympy==1.14.0\n"}
+,{"stream_name":"stdout","time":4345.594822982,"data":" + tabulate==0.10.0\n"}
+,{"stream_name":"stdout","time":4345.5948271,"data":" + tiktoken==0.14.0\n"}
+,{"stream_name":"stdout","time":4345.594831597,"data":" + tilelang==0.1.12\n"}
+,{"stream_name":"stdout","time":4345.594835666,"data":" + timm==1.0.16\n"}
+,{"stream_name":"stdout","time":4345.594839806,"data":" + tokenizers==0.22.2\n"}
+,{"stream_name":"stdout","time":4345.59484379,"data":" + tokenspeed-mla==0.1.8\n"}
+,{"stream_name":"stdout","time":4345.594847806,"data":" + tokenspeed-triton==3.8.10.post20260920\n"}
+,{"stream_name":"stdout","time":4345.594865756,"data":" + tomlkit==0.15.1\n"}
+,{"stream_name":"stdout","time":4345.594869967,"data":" + torch==2.13.0+cu130\n"}
+,{"stream_name":"stdout","time":4345.594873976,"data":" + torch-c-dlpack-ext==0.1.5\n"}
+,{"stream_name":"stdout","time":4345.594878064,"data":" + torch-memory-saver==0.0.10\n"}
+,{"stream_name":"stdout","time":4345.594882062,"data":" + torchaudio==2.11.0+cu130\n"}
+,{"stream_name":"stdout","time":4345.59488604,"data":" + torchcodec==0.15.0+cu130\n"}
+,{"stream_name":"stdout","time":4345.59489014,"data":" + torchvision==0.28.0+cu130\n"}
+,{"stream_name":"stdout","time":4345.594894131,"data":" + tqdm==4.70.1\n"}
+,{"stream_name":"stdout","time":4345.594962852,"data":" + traitlets==5.16.1\n"}
+,{"stream_name":"stdout","time":4345.594973392,"data":" + transformers==5.12.1\n"}
+,{"stream_name":"stdout","time":4345.594977572,"data":" + triton==3.7.1\n"}
+,{"stream_name":"stdout","time":4345.594981608,"data":" + truststore==0.10.4\n"}
+,{"stream_name":"stdout","time":4345.59498571,"data":" + typer==0.27.2\n"}
+,{"stream_name":"stdout","time":4345.594996362,"data":" + typing-extensions==4.16.0\n"}
+,{"stream_name":"stdout","time":4345.5950064,"data":" + typing-inspection==0.4.4\n"}
+,{"stream_name":"stdout","time":4345.595010653,"data":" + urllib3==2.8.0\n"}
+,{"stream_name":"stdout","time":4345.595014932,"data":" + uv==0.12.20\n"}
+,{"stream_name":"stdout","time":4345.595019585,"data":" + uvicorn==0.54.0\n"}
+,{"stream_name":"stdout","time":4345.595023488,"data":" + uvloop==0.22.1\n"}
+,{"stream_name":"stdout","time":4345.595027915,"data":" + watchfiles==1.3.0\n"}
+,{"stream_name":"stdout","time":4345.59503192,"data":" + wcwidth==0.9.1\n"}
+,{"stream_name":"stdout","time":4345.595035913,"data":" + wheel==0.48.0\n"}
+,{"stream_name":"stdout","time":4345.59504014,"data":" + xgrammar==0.2.1\n"}
+,{"stream_name":"stdout","time":4345.595044191,"data":" + xxhash==4.0.1\n"}
+,{"stream_name":"stdout","time":4345.595048136,"data":" + yarl==1.25.1\n"}
+,{"stream_name":"stdout","time":4345.595052096,"data":" + z3-solver==4.15.4.0\n"}
+,{"stream_name":"stdout","time":4345.595056224,"data":" + zstandard==0.25.0\n"}
+,{"stream_name":"stdout","time":4345.829738244,"data":"Installed 208 packages in 4m 11s\n"}
+,{"stream_name":"stdout","time":4345.829787225,"data":" + aiohappyeyeballs==2.7.1\n"}
+,{"stream_name":"stdout","time":4345.829797325,"data":" + aiohttp==3.14.3\n"}
+,{"stream_name":"stdout","time":4345.829800684,"data":" + aiosignal==1.4.0\n"}
+,{"stream_name":"stdout","time":4345.829803731,"data":" + airportsdata==20260905\n"}
+,{"stream_name":"stdout","time":4345.829806876,"data":" + annotated-doc==0.0.5\n"}
+,{"stream_name":"stdout","time":4345.829810028,"data":" + annotated-types==0.8.0\n"}
+,{"stream_name":"stdout","time":4345.829812964,"data":" + anthropic==1.9.0\n"}
+,{"stream_name":"stdout","time":4345.829815922,"data":" + anyio==4.15.1\n"}
+,{"stream_name":"stdout","time":4345.829818852,"data":" + apache-tvm-ffi==0.1.11\n"}
+,{"stream_name":"stdout","time":4345.829821871,"data":" + asttokens==3.0.2\n"}
+,{"stream_name":"stdout","time":4345.82982487,"data":" + attrs==26.1.0\n"}
+,{"stream_name":"stdout","time":4345.829827748,"data":" + blobfile==3.0.0\n"}
+,{"stream_name":"stdout","time":4345.829830666,"data":" + build==1.6.1\n"}
+,{"stream_name":"stdout","time":4345.829833696,"data":" + certifi==2026.7.22\n"}
+,{"stream_name":"stdout","time":4345.829836619,"data":" + cffi==2.1.1\n"}
+,{"stream_name":"stdout","time":4345.82983962,"data":" + charset-normalizer==3.5.1\n"}
+,{"stream_name":"stdout","time":4345.829842689,"data":" + click==8.5.0\n"}
+,{"stream_name":"stdout","time":4345.82984564,"data":" + cloudpickle==3.1.2\n"}
+,{"stream_name":"stdout","time":4345.82984861,"data":" + compressed-tensors==0.19.1a20260928\n"}
+,{"stream_name":"stdout","time":4345.829851623,"data":" + cryptography==50.0.1\n"}
+,{"stream_name":"stdout","time":4345.829854735,"data":" + cuda-bindings==13.4.3\n"}
+,{"stream_name":"stdout","time":4345.829857971,"data":" + cuda-core==1.2.1\n"}
+,{"stream_name":"stdout","time":4345.829860868,"data":" + cuda-pathfinder==1.8.2\n"}
+,{"stream_name":"stdout","time":4345.829863787,"data":" + cuda-python==13.4.1\n"}
+,{"stream_name":"stdout","time":4345.82986678,"data":" + cuda-tile==1.6.0rc5\n"}
+,{"stream_name":"stdout","time":4345.829869753,"data":" + cuda-toolkit==13.0.3.0\n"}
+,{"stream_name":"stdout","time":4345.829872664,"data":" + datasets==5.0.1\n"}
+,{"stream_name":"stdout","time":4345.82987557,"data":" + dill==0.4.1\n"}
+,{"stream_name":"stdout","time":4345.829878462,"data":" + diskcache==5.6.3\n"}
+,{"stream_name":"stdout","time":4345.82988138,"data":" + distro==1.9.0\n"}
+,{"stream_name":"stdout","time":4345.829884331,"data":" + docstring-parser==0.18.0\n"}
+,{"stream_name":"stdout","time":4345.829921285,"data":" + easydict==1.13\n"}
+,{"stream_name":"stdout","time":4345.829927148,"data":" + einops==0.9.0.dev0\n"}
+,{"stream_name":"stdout","time":4345.829931282,"data":" + executing==2.2.1\n"}
+,{"stream_name":"stdout","time":4345.829935972,"data":" + fastapi==0.141.1\n"}
+,{"stream_name":"stdout","time":4345.829940904,"data":" + filelock==4.0.6\n"}
+,{"stream_name":"stdout","time":4345.829945755,"data":" + flash-attn-4==4.0.0b19\n"}
+,{"stream_name":"stdout","time":4345.829950135,"data":" + flashinfer-cubin==0.6.17\n"}
+,{"stream_name":"stdout","time":4345.829954405,"data":" + flashinfer-jit-cache==0.6.17+cu130\n"}
+,{"stream_name":"stdout","time":4345.829958715,"data":" + flashinfer-python==0.6.17\n"}
+,{"stream_name":"stdout","time":4345.829977719,"data":" + frozenlist==1.8.0\n"}
+,{"stream_name":"stdout","time":4345.829982453,"data":" + fsspec==2026.6.0\n"}
+,{"stream_name":"stdout","time":4345.829986768,"data":" + gguf==0.19.0\n"}
+,{"stream_name":"stdout","time":4345.829993351,"data":" + grpcio==1.84.0\n"}
+,{"stream_name":"stdout","time":4345.830002985,"data":" + grpcio-health-checking==1.82.0rc2\n"}
+,{"stream_name":"stdout","time":4345.83002691,"data":" + grpcio-reflection==1.82.0rc2\n"}
+,{"stream_name":"stdout","time":4345.830032398,"data":" + h11==0.16.0\n"}
+,{"stream_name":"stdout","time":4345.830037377,"data":" + hf-xet==1.7.0.dev1\n"}
+,{"stream_name":"stdout","time":4345.830042435,"data":" + httpcore==1.0.9\n"}
+,{"stream_name":"stdout","time":4345.830047239,"data":" + httpcore2==2.13.1\n"}
+,{"stream_name":"stdout","time":4345.830052105,"data":" + httpx==0.28.1\n"}
+,{"stream_name":"stdout","time":4345.830056849,"data":" + httpx2==2.13.1\n"}
+,{"stream_name":"stdout","time":4345.830061259,"data":" + huggingface-hub==1.33.0\n"}
+,{"stream_name":"stdout","time":4345.830065467,"data":" + humming-kernels==0.1.12\n"}
+,{"stream_name":"stdout","time":4345.830069822,"data":" + idna==3.20\n"}
+,{"stream_name":"stdout","time":4345.830074028,"data":" + interegular==0.3.3\n"}
+,{"stream_name":"stdout","time":4345.830078524,"data":" + ipython==9.17.1\n"}
+,{"stream_name":"stdout","time":4345.830082847,"data":" + ipython-pygments-lexers==1.1.1\n"}
+,{"stream_name":"stdout","time":4345.830087345,"data":" + jedi==0.20.0\n"}
+,{"stream_name":"stdout","time":4345.830091744,"data":" + jinja2==3.1.6\n"}
+,{"stream_name":"stdout","time":4345.83009614,"data":" + jiter==0.17.0\n"}
+,{"stream_name":"stdout","time":4345.830101105,"data":" + jsonschema==4.26.0\n"}
+,{"stream_name":"stdout","time":4345.830106365,"data":" + jsonschema-specifications==2025.9.1\n"}
+,{"stream_name":"stdout","time":4345.830111555,"data":" + kernels==0.14.1\n"}
+,{"stream_name":"stdout","time":4345.830116093,"data":" + kernels-data==0.16.2\n"}
+,{"stream_name":"stdout","time":4345.830121212,"data":" + lark==1.3.1\n"}
+,{"stream_name":"stdout","time":4345.830125199,"data":" + llguidance==1.8.0\n"}
+,{"stream_name":"stdout","time":4345.830129431,"data":" + llvmlite==0.47.0\n"}
+,{"stream_name":"stdout","time":4345.830133559,"data":" + loguru==0.7.3\n"}
+,{"stream_name":"stdout","time":4345.8301392,"data":" + lxml==7.0.0b1\n"}
+,{"stream_name":"stdout","time":4345.830167824,"data":" + markdown-it-py==4.2.0\n"}
+,{"stream_name":"stdout","time":4345.830173515,"data":" + markupsafe==3.0.3\n"}
+,{"stream_name":"stdout","time":4345.830177415,"data":" + matplotlib-inline==0.2.2\n"}
+,{"stream_name":"stdout","time":4345.830181265,"data":" + mdurl==0.1.2\n"}
+,{"stream_name":"stdout","time":4345.830186835,"data":" + mistral-common==1.12.0\n"}
+,{"stream_name":"stdout","time":4345.830191404,"data":" + ml-dtypes==0.6.0\n"}
+,{"stream_name":"stdout","time":4345.830203555,"data":" + modelscope==1.40.1\n"}
+,{"stream_name":"stdout","time":4345.83020833,"data":" + modelscope-hub==0.4.5\n"}
+,{"stream_name":"stdout","time":4345.83021289,"data":" + mpmath==1.3.0\n"}
+,{"stream_name":"stdout","time":4345.830218154,"data":" + msgspec==0.22.0\n"}
+,{"stream_name":"stdout","time":4345.830222485,"data":" + multidict==6.9.1\n"}
+,{"stream_name":"stdout","time":4345.83022705,"data":" + multiprocess==0.70.19\n"}
+,{"stream_name":"stdout","time":4345.830231941,"data":" + nccl4py==0.6.0\n"}
+,{"stream_name":"stdout","time":4345.830236317,"data":" + nest-asyncio==1.6.0\n"}
+,{"stream_name":"stdout","time":4345.830240986,"data":" + networkx==3.7\n"}
+,{"stream_name":"stdout","time":4345.830246307,"data":" + ninja==1.13.2\n"}
+,{"stream_name":"stdout","time":4345.830251641,"data":" + numba==0.65.1\n"}
+,{"stream_name":"stdout","time":4345.830256341,"data":" + numpy==2.3.5\n"}
+,{"stream_name":"stdout","time":4345.830261091,"data":" + nvidia-cublas==13.1.1.3\n"}
+,{"stream_name":"stdout","time":4345.830266585,"data":" + nvidia-cuda-cccl==13.0.85\n"}
+,{"stream_name":"stdout","time":4345.830271175,"data":" + nvidia-cuda-crt==13.0.88\n"}
+,{"stream_name":"stdout","time":4345.830278778,"data":" + nvidia-cuda-cupti==13.0.85\n"}
+,{"stream_name":"stdout","time":4345.830284169,"data":" + nvidia-cuda-nvcc==13.0.88\n"}
+,{"stream_name":"stdout","time":4345.830289361,"data":" + nvidia-cuda-nvdisasm==13.4.92\n"}
+,{"stream_name":"stdout","time":4345.830294429,"data":" + nvidia-cuda-nvrtc==13.0.88\n"}
+,{"stream_name":"stdout","time":4345.830299261,"data":" + nvidia-cuda-runtime==13.0.96\n"}
+,{"stream_name":"stdout","time":4345.830304222,"data":" + nvidia-cudnn-cu13==9.20.0.48\n"}
+,{"stream_name":"stdout","time":4345.830309527,"data":" + nvidia-cudnn-frontend==1.30.0\n"}
+,{"stream_name":"stdout","time":4345.83031471,"data":" + nvidia-cufft==12.0.0.61\n"}
+,{"stream_name":"stdout","time":4345.830319639,"data":" + nvidia-cufile==1.15.1.6\n"}
+,{"stream_name":"stdout","time":4345.830324146,"data":" + nvidia-curand==10.4.0.35\n"}
+,{"stream_name":"stdout","time":4345.830328995,"data":" + nvidia-cusolver==12.0.4.66\n"}
+,{"stream_name":"stdout","time":4345.830334069,"data":" + nvidia-cusparse==12.6.3.3\n"}
+,{"stream_name":"stdout","time":4345.830339467,"data":" + nvidia-cusparselt-cu13==0.8.1\n"}
+,{"stream_name":"stdout","time":4345.8303446850005,"data":" + nvidia-cutlass-dsl==4.6.2\n"}
+,{"stream_name":"stdout","time":4345.83034879,"data":" + nvidia-cutlass-dsl-libs-base==4.6.2\n"}
+,{"stream_name":"stdout","time":4345.830353331,"data":" + nvidia-cutlass-dsl-libs-core==4.6.2\n"}
+,{"stream_name":"stdout","time":4345.830358672,"data":" + nvidia-cutlass-dsl-libs-cu12==4.6.2\n"}
+,{"stream_name":"stdout","time":4345.830363511,"data":" + nvidia-cutlass-dsl-libs-cu13==4.6.2\n"}
+,{"stream_name":"stdout","time":4345.830368836,"data":" + nvidia-mathdx==25.6.0\n"}
+,{"stream_name":"stdout","time":4345.830373541,"data":" + nvidia-ml-py==13.615.71\n"}
+,{"stream_name":"stdout","time":4345.830378643,"data":" + nvidia-nccl-cu13==2.29.7\n"}
+,{"stream_name":"stdout","time":4345.830383711,"data":" + nvidia-nvjitlink==13.4.92\n"}
+,{"stream_name":"stdout","time":4345.830388713,"data":" + nvidia-nvshmem-cu13==3.4.5\n"}
+,{"stream_name":"stdout","time":4345.830392943,"data":" + nvidia-nvtx==13.0.85\n"}
+,{"stream_name":"stdout","time":4345.830398408,"data":" + nvidia-nvvm==13.0.88\n"}
+,{"stream_name":"stdout","time":4345.830403413,"data":" + openai==2.6.1\n"}
+,{"stream_name":"stdout","time":4345.830408635,"data":" + openai-harmony==0.0.4\n"}
+,{"stream_name":"stdout","time":4345.830420777,"data":" + orjson==3.12.0\n"}
+,{"stream_name":"stdout","time":4345.830426022,"data":" + outlines==0.1.11\n"}
+,{"stream_name":"stdout","time":4345.830431493,"data":" + outlines-core==0.1.26\n"}
+,{"stream_name":"stdout","time":4345.830436648,"data":" + packaging==26.3\n"}
+,{"stream_name":"stdout","time":4345.830441493,"data":" + pandas==3.0.6\n"}
+,{"stream_name":"stdout","time":4345.830446564,"data":" + parso==0.8.7\n"}
+,{"stream_name":"stdout","time":4345.830450724,"data":" + partial-json-parser==0.2.1.1.post7\n"}
+,{"stream_name":"stdout","time":4345.830455063,"data":" + pexpect==4.9.0\n"}
+,{"stream_name":"stdout","time":4345.830459261,"data":" + pillow==12.3.0\n"}
+,{"stream_name":"stdout","time":4345.830463593,"data":" + pip==26.2.1\n"}
+,{"stream_name":"stdout","time":4345.830467903,"data":" + prometheus-client==0.26.0\n"}
+,{"stream_name":"stdout","time":4345.830472876,"data":" + prompt-toolkit==3.0.53\n"}
+,{"stream_name":"stdout","time":4345.830477956,"data":" + propcache==0.5.4\n"}
+,{"stream_name":"stdout","time":4345.830483117,"data":" + protobuf==6.33.6\n"}
+,{"stream_name":"stdout","time":4345.830488376,"data":" + psutil==7.2.2\n"}
+,{"stream_name":"stdout","time":4345.830493394,"data":" + ptyprocess==0.7.0\n"}
+,{"stream_name":"stdout","time":4345.830497801,"data":" + pure-eval==0.2.4\n"}
+,{"stream_name":"stdout","time":4345.830502572,"data":" + py-spy==0.4.2\n"}
+,{"stream_name":"stdout","time":4345.830507214,"data":" + pyarrow==25.0.1\n"}
+,{"stream_name":"stdout","time":4345.830511709,"data":" + pybase64==1.5.0\n"}
+,{"stream_name":"stdout","time":4345.830515957,"data":" + pycountry==26.2.16\n"}
+,{"stream_name":"stdout","time":4345.830520543,"data":" + pycparser==3.0\n"}
+,{"stream_name":"stdout","time":4345.830524973,"data":" + pycryptodomex==3.23.0\n"}
+,{"stream_name":"stdout","time":4345.830529491,"data":" + pydantic==2.14.0b2\n"}
+,{"stream_name":"stdout","time":4345.830533671,"data":" + pydantic-core==2.49.0\n"}
+,{"stream_name":"stdout","time":4345.830537924,"data":" + pydantic-extra-types==2.11.1\n"}
+,{"stream_name":"stdout","time":4345.830543246,"data":" + pygments==2.21.0\n"}
+,{"stream_name":"stdout","time":4345.830548653,"data":" + pyproject-hooks==1.3.3\n"}
+,{"stream_name":"stdout","time":4345.830564346,"data":" + python-dateutil==2.9.0.post0\n"}
+,{"stream_name":"stdout","time":4345.830570031,"data":" + python-multipart==0.0.32\n"}
+,{"stream_name":"stdout","time":4345.830575648,"data":" + pyyaml==6.0.3\n"}
+,{"stream_name":"stdout","time":4345.830580492,"data":" + pyzmq==27.2.0\n"}
+,{"stream_name":"stdout","time":4345.830585738,"data":" + quack-kernels==0.6.4\n"}
+,{"stream_name":"stdout","time":4345.830596031,"data":" + referencing==0.37.0\n"}
+,{"stream_name":"stdout","time":4345.830601206,"data":" + regex==2026.9.29\n"}
+,{"stream_name":"stdout","time":4345.830606836,"data":" + requests==2.34.2\n"}
+,{"stream_name":"stdout","time":4345.830611499,"data":" + rich==15.0.0\n"}
+,{"stream_name":"stdout","time":4345.830616975,"data":" + rpds-py==2026.6.3\n"}
+,{"stream_name":"stdout","time":4345.830622515,"data":" + safetensors==0.9.0rc1\n"}
+,{"stream_name":"stdout","time":4345.830627834,"data":" + scipy==1.18.1\n"}
+,{"stream_name":"stdout","time":4345.830632991,"data":" + sentencepiece==0.2.2\n"}
+,{"stream_name":"stdout","time":4345.830637569,"data":" + setproctitle==1.3.7\n"}
+,{"stream_name":"stdout","time":4345.830642059,"data":" + setuptools==84.0.0\n"}
+,{"stream_name":"stdout","time":4345.830646376,"data":" + sgl-deep-ep==0.1.2+cu130\n"}
+,{"stream_name":"stdout","time":4345.830651136,"data":" + sgl-deep-gemm==0.1.5.post3+cu130\n"}
+,{"stream_name":"stdout","time":4345.830661776,"data":" + sglang==0.5.19+gd00d88efc8d6\n"}
+,{"stream_name":"stdout","time":4345.830666347,"data":" + sglang-kernel==0.4.6.post1+cu130\n"}
+,{"stream_name":"stdout","time":4345.830670941,"data":" + shellingham==1.5.4\n"}
+,{"stream_name":"stdout","time":4345.830675965,"data":" + six==1.17.0\n"}
+,{"stream_name":"stdout","time":4345.831252003,"data":" + smg-grpc-proto==0.4.22\n"}
+,{"stream_name":"stdout","time":4345.831392219,"data":" + smg-grpc-servicer==0.13.0\n"}
+,{"stream_name":"stdout","time":4345.831406836,"data":" + sniffio==1.3.1\n"}
+,{"stream_name":"stdout","time":4345.83141239,"data":" + soundfile==0.13.1\n"}
+,{"stream_name":"stdout","time":4345.831417445,"data":" + stack-data==0.6.3\n"}
+,{"stream_name":"stdout","time":4345.831421621,"data":" + starlette==1.7.0\n"}
+,{"stream_name":"stdout","time":4345.831429498,"data":" + sympy==1.14.0\n"}
+,{"stream_name":"stdout","time":4345.83143377,"data":" + tabulate==0.10.0\n"}
+,{"stream_name":"stdout","time":4345.831438235,"data":" + tiktoken==0.14.0\n"}
+,{"stream_name":"stdout","time":4345.831442753,"data":" + tilelang==0.1.12\n"}
+,{"stream_name":"stdout","time":4345.831446664,"data":" + timm==1.0.16\n"}
+,{"stream_name":"stdout","time":4345.831450417,"data":" + tokenizers==0.22.2\n"}
+,{"stream_name":"stdout","time":4345.831454089,"data":" + tokenspeed-mla==0.1.8\n"}
+,{"stream_name":"stdout","time":4345.831457793,"data":" + tokenspeed-triton==3.8.10.post20260920\n"}
+,{"stream_name":"stdout","time":4345.831461777,"data":" + tomlkit==0.15.1\n"}
+,{"stream_name":"stdout","time":4345.831558897,"data":" + torch==2.13.0+cu130\n"}
+,{"stream_name":"stdout","time":4345.831563373,"data":" + torch-c-dlpack-ext==0.1.5\n"}
+,{"stream_name":"stdout","time":4345.831567271,"data":" + torch-memory-saver==0.0.10\n"}
+,{"stream_name":"stdout","time":4345.831570836,"data":" + torchaudio==2.11.0+cu130\n"}
+,{"stream_name":"stdout","time":4345.831575383,"data":" + torchcodec==0.15.0+cu130\n"}
+,{"stream_name":"stdout","time":4345.831579746,"data":" + torchvision==0.28.0+cu130\n"}
+,{"stream_name":"stdout","time":4345.831584099,"data":" + tqdm==4.70.1\n"}
+,{"stream_name":"stdout","time":4345.831588767,"data":" + traitlets==5.16.1\n"}
+,{"stream_name":"stdout","time":4345.831593374,"data":" + transformers==5.12.1\n"}
+,{"stream_name":"stdout","time":4345.831598161,"data":" + triton==3.7.1\n"}
+,{"stream_name":"stdout","time":4345.831602885,"data":" + truststore==0.10.4\n"}
+,{"stream_name":"stdout","time":4345.831606488,"data":" + typer==0.27.2\n"}
+,{"stream_name":"stdout","time":4345.831610295,"data":" + typing-extensions==4.16.0\n"}
+,{"stream_name":"stdout","time":4345.831614396,"data":" + typing-inspection==0.4.4\n"}
+,{"stream_name":"stdout","time":4345.831618667,"data":" + urllib3==2.8.0\n"}
+,{"stream_name":"stdout","time":4345.831623292,"data":" + uv==0.12.20\n"}
+,{"stream_name":"stdout","time":4345.831627551,"data":" + uvicorn==0.54.0\n"}
+,{"stream_name":"stdout","time":4345.831631215,"data":" + uvloop==0.22.1\n"}
+,{"stream_name":"stdout","time":4345.831634734,"data":" + watchfiles==1.3.0\n"}
+,{"stream_name":"stdout","time":4345.83163897,"data":" + wcwidth==0.9.1\n"}
+,{"stream_name":"stdout","time":4345.831642512,"data":" + wheel==0.48.0\n"}
+,{"stream_name":"stdout","time":4345.831646281,"data":" + xgrammar==0.2.1\n"}
+,{"stream_name":"stdout","time":4345.831667547,"data":" + xxhash==4.0.1\n"}
+,{"stream_name":"stdout","time":4345.831672677,"data":" + yarl==1.25.1\n"}
+,{"stream_name":"stdout","time":4345.831677269,"data":" + z3-solver==4.15.4.0\n"}
+,{"stream_name":"stdout","time":4345.831699158,"data":" + zstandard==0.25.0\n"}
+,{"stream_name":"stdout","time":4346.24674972,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":4346.246803674,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":4346.450315365,"data":"Error in sitecustomize; set PYTHONVERBOSE for traceback:\n"}
+,{"stream_name":"stdout","time":4346.450360181,"data":"ModuleNotFoundError: No module named 'wrapt'\n"}
+,{"stream_name":"stdout","time":4347.245943736,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":4347.448971067,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":4350.570572121,"data":"Resolved 204 packages in 3.09s\n"}
+,{"stream_name":"stdout","time":4350.593056438,"data":"Downloading nvidia-cutlass-dsl-libs-base (2.7MiB)\n"}
+,{"stream_name":"stdout","time":4350.605324462,"data":"Downloading nvidia-cutlass-dsl-libs-cu12 (84.6MiB)\n"}
+,{"stream_name":"stdout","time":4350.605400019,"data":"Downloading nvidia-cutlass-dsl-libs-cu13 (84.2MiB)\n"}
+,{"stream_name":"stdout","time":4350.607322178,"data":"Downloading flashinfer-python (32.1MiB)\n"}
+,{"stream_name":"stdout","time":4350.60734857,"data":"Downloading nvidia-cutlass-dsl-libs-core (1.2MiB)\n"}
+,{"stream_name":"stdout","time":4350.607715938,"data":"Downloading nccl-extensions (21.5MiB)\n"}
+,{"stream_name":"stdout","time":4350.782793531,"data":"Resolved 204 packages in 3.09s\n"}
+,{"stream_name":"stdout","time":4350.782843158,"data":"Downloading nvidia-cutlass-dsl-libs-base (2.7MiB)\n"}
+,{"stream_name":"stdout","time":4350.782850081,"data":"Downloading nvidia-cutlass-dsl-libs-cu12 (84.6MiB)\n"}
+,{"stream_name":"stdout","time":4350.782854779,"data":"Downloading nvidia-cutlass-dsl-libs-cu13 (84.2MiB)\n"}
+,{"stream_name":"stdout","time":4350.782859482,"data":"Downloading flashinfer-python (32.1MiB)\n"}
+,{"stream_name":"stdout","time":4350.78286392,"data":"Downloading nvidia-cutlass-dsl-libs-core (1.2MiB)\n"}
+,{"stream_name":"stdout","time":4350.782868563,"data":"Downloading nccl-extensions (21.5MiB)\n"}
+,{"stream_name":"stdout","time":4350.813496453,"data":" Downloaded nvidia-cutlass-dsl-libs-core\n"}
+,{"stream_name":"stdout","time":4350.871950371,"data":" Downloaded nvidia-cutlass-dsl-libs-base\n"}
+,{"stream_name":"stdout","time":4351.017264245,"data":" Downloaded nvidia-cutlass-dsl-libs-core\n"}
+,{"stream_name":"stdout","time":4351.017305372,"data":" Downloaded nvidia-cutlass-dsl-libs-base\n"}
+,{"stream_name":"stdout","time":4352.236243976,"data":" Downloaded nccl-extensions\n"}
+,{"stream_name":"stdout","time":4352.452463464,"data":" Downloaded nccl-extensions\n"}
+,{"stream_name":"stdout","time":4353.022339085,"data":" Downloaded flashinfer-python\n"}
+,{"stream_name":"stdout","time":4353.226583489,"data":" Downloaded flashinfer-python\n"}
+,{"stream_name":"stdout","time":4353.665731822,"data":" Downloaded nvidia-cutlass-dsl-libs-cu13\n"}
+,{"stream_name":"stdout","time":4353.76508149,"data":" Downloaded nvidia-cutlass-dsl-libs-cu12\n"}
+,{"stream_name":"stdout","time":4353.766057275,"data":"Prepared 9 packages in 3.18s\n"}
+,{"stream_name":"stdout","time":4353.868390581,"data":" Downloaded nvidia-cutlass-dsl-libs-cu13\n"}
+,{"stream_name":"stdout","time":4353.868430252,"data":" Downloaded nvidia-cutlass-dsl-libs-cu12\n"}
+,{"stream_name":"stdout","time":4353.868436608,"data":"Prepared 9 packages in 3.18s\n"}
+,{"stream_name":"stdout","time":4354.230412469,"data":"Uninstalled 8 packages in 460ms\n"}
+,{"stream_name":"stdout","time":4354.442890018,"data":"Uninstalled 8 packages in 460ms\n"}
+,{"stream_name":"stdout","time":4363.66488375,"data":"Installed 9 packages in 9.43s\n"}
+,{"stream_name":"stdout","time":4363.664926902,"data":" - flashinfer-python==0.6.17\n"}
+,{"stream_name":"stdout","time":4363.664935137,"data":" + flashinfer-python==0.7.0.post1\n"}
+,{"stream_name":"stdout","time":4363.664942079,"data":" + nccl-extensions==0.1.0\n"}
+,{"stream_name":"stdout","time":4363.664947874,"data":" - nvidia-cutlass-dsl==4.6.2\n"}
+,{"stream_name":"stdout","time":4363.665250294,"data":" + nvidia-cutlass-dsl==4.7.1\n"}
+,{"stream_name":"stdout","time":4363.665268003,"data":" - nvidia-cutlass-dsl-libs-base==4.6.2\n"}
+,{"stream_name":"stdout","time":4363.665274991,"data":" + nvidia-cutlass-dsl-libs-base==4.7.1\n"}
+,{"stream_name":"stdout","time":4363.665281172,"data":" - nvidia-cutlass-dsl-libs-core==4.6.2\n"}
+,{"stream_name":"stdout","time":4363.665287638,"data":" + nvidia-cutlass-dsl-libs-core==4.7.1\n"}
+,{"stream_name":"stdout","time":4363.665294001,"data":" - nvidia-cutlass-dsl-libs-cu12==4.6.2\n"}
+,{"stream_name":"stdout","time":4363.665300701,"data":" + nvidia-cutlass-dsl-libs-cu12==4.7.1\n"}
+,{"stream_name":"stdout","time":4363.665307191,"data":" - nvidia-cutlass-dsl-libs-cu13==4.6.2\n"}
+,{"stream_name":"stdout","time":4363.665434038,"data":" + nvidia-cutlass-dsl-libs-cu13==4.7.1\n"}
+,{"stream_name":"stdout","time":4363.665443765,"data":" - quack-kernels==0.6.4\n"}
+,{"stream_name":"stdout","time":4363.66545057,"data":" + quack-kernels==0.6.5\n"}
+,{"stream_name":"stdout","time":4363.665457204,"data":" - sglang==0.5.19+gd00d88efc8d6\n"}
+,{"stream_name":"stdout","time":4363.665463925,"data":" + sglang==0.5.19+g560edbdca18a (from file:///kaggle/working/pennyroyal-v3-overlay/wheels/sglang-0.5.19+g560edbdca18a-cp312-cp312-linux_x86_64.whl)\n"}
+,{"stream_name":"stdout","time":4363.697244968,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":4363.867806872,"data":"Installed 9 packages in 9.43s\n"}
+,{"stream_name":"stdout","time":4363.867855858,"data":" - flashinfer-python==0.6.17\n"}
+,{"stream_name":"stdout","time":4363.867863414,"data":" + flashinfer-python==0.7.0.post1\n"}
+,{"stream_name":"stdout","time":4363.867869541,"data":" + nccl-extensions==0.1.0\n"}
+,{"stream_name":"stdout","time":4363.867875388,"data":" - nvidia-cutlass-dsl==4.6.2\n"}
+,{"stream_name":"stdout","time":4363.867881214,"data":" + nvidia-cutlass-dsl==4.7.1\n"}
+,{"stream_name":"stdout","time":4363.867887136,"data":" - nvidia-cutlass-dsl-libs-base==4.6.2\n"}
+,{"stream_name":"stdout","time":4363.86789305,"data":" + nvidia-cutlass-dsl-libs-base==4.7.1\n"}
+,{"stream_name":"stdout","time":4363.867898862,"data":" - nvidia-cutlass-dsl-libs-core==4.6.2\n"}
+,{"stream_name":"stdout","time":4363.867904512,"data":" + nvidia-cutlass-dsl-libs-core==4.7.1\n"}
+,{"stream_name":"stdout","time":4363.86791024,"data":" - nvidia-cutlass-dsl-libs-cu12==4.6.2\n"}
+,{"stream_name":"stdout","time":4363.867915917,"data":" + nvidia-cutlass-dsl-libs-cu12==4.7.1\n"}
+,{"stream_name":"stdout","time":4363.867921604,"data":" - nvidia-cutlass-dsl-libs-cu13==4.6.2\n"}
+,{"stream_name":"stdout","time":4363.867927299,"data":" + nvidia-cutlass-dsl-libs-cu13==4.7.1\n"}
+,{"stream_name":"stdout","time":4363.867932963,"data":" - quack-kernels==0.6.4\n"}
+,{"stream_name":"stdout","time":4363.867938561,"data":" + quack-kernels==0.6.5\n"}
+,{"stream_name":"stdout","time":4363.8679442,"data":" - sglang==0.5.19+gd00d88efc8d6\n"}
+,{"stream_name":"stdout","time":4363.867949994,"data":" + sglang==0.5.19+g560edbdca18a (from file:///kaggle/working/pennyroyal-v3-overlay/wheels/sglang-0.5.19+g560edbdca18a-cp312-cp312-linux_x86_64.whl)\n"}
+,{"stream_name":"stdout","time":4363.867973113,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":4372.211306457,"data":"Resolved 7 packages in 8.50s\n"}
+,{"stream_name":"stdout","time":4372.239606472,"data":"Downloading flashinfer-jit-cache-sm100a (260.7MiB)\n"}
+,{"stream_name":"stdout","time":4372.243288313,"data":"Downloading flashinfer-jit-cache-sm120f (178.5MiB)\n"}
+,{"stream_name":"stdout","time":4372.247005933,"data":"Downloading flashinfer-jit-cache-sm90a (280.5MiB)\n"}
+,{"stream_name":"stdout","time":4372.2505762,"data":"Downloading flashinfer-jit-cache-sm89 (108.6MiB)\n"}
+,{"stream_name":"stdout","time":4372.26067456,"data":"Downloading flashinfer-jit-cache-sm103a (266.7MiB)\n"}
+,{"stream_name":"stdout","time":4372.265464791,"data":"Downloading flashinfer-jit-cache-sm80 (110.5MiB)\n"}
+,{"stream_name":"stdout","time":4372.414775505,"data":"Resolved 7 packages in 8.50s\n"}
+,{"stream_name":"stdout","time":4372.414815184,"data":"Downloading flashinfer-jit-cache-sm100a (260.7MiB)\n"}
+,{"stream_name":"stdout","time":4372.41482065,"data":"Downloading flashinfer-jit-cache-sm120f (178.5MiB)\n"}
+,{"stream_name":"stdout","time":4372.414825235,"data":"Downloading flashinfer-jit-cache-sm90a (280.5MiB)\n"}
+,{"stream_name":"stdout","time":4372.414829772,"data":"Downloading flashinfer-jit-cache-sm89 (108.6MiB)\n"}
+,{"stream_name":"stdout","time":4372.414834409,"data":"Downloading flashinfer-jit-cache-sm103a (266.7MiB)\n"}
+,{"stream_name":"stdout","time":4372.414838999,"data":"Downloading flashinfer-jit-cache-sm80 (110.5MiB)\n"}
+,{"stream_name":"stdout","time":4380.260210634,"data":" Downloaded flashinfer-jit-cache-sm89\n"}
+,{"stream_name":"stdout","time":4380.340177016,"data":" Downloaded flashinfer-jit-cache-sm80\n"}
+,{"stream_name":"stdout","time":4380.470804753,"data":" Downloaded flashinfer-jit-cache-sm89\n"}
+,{"stream_name":"stdout","time":4380.470930416,"data":" Downloaded flashinfer-jit-cache-sm80\n"}
+,{"stream_name":"stdout","time":4383.868420619,"data":" Downloaded flashinfer-jit-cache-sm120f\n"}
+,{"stream_name":"stdout","time":4384.072607704,"data":" Downloaded flashinfer-jit-cache-sm120f\n"}
+,{"stream_name":"stdout","time":4386.781281577,"data":" Downloaded flashinfer-jit-cache-sm100a\n"}
+,{"stream_name":"stdout","time":4386.950871942,"data":" Downloaded flashinfer-jit-cache-sm103a\n"}
+,{"stream_name":"stdout","time":4386.984310134,"data":" Downloaded flashinfer-jit-cache-sm100a\n"}
+,{"stream_name":"stdout","time":4386.984343496,"data":" Downloaded flashinfer-jit-cache-sm103a\n"}
+,{"stream_name":"stdout","time":4387.144558012,"data":" Downloaded flashinfer-jit-cache-sm90a\n"}
+,{"stream_name":"stdout","time":4387.145191344,"data":"Prepared 7 packages in 14.93s\n"}
+,{"stream_name":"stdout","time":4387.348396566,"data":" Downloaded flashinfer-jit-cache-sm90a\n"}
+,{"stream_name":"stdout","time":4387.348468925,"data":"Prepared 7 packages in 14.93s\n"}
+,{"stream_name":"stdout","time":4387.478924898,"data":"Uninstalled 1 package in 333ms\n"}
+,{"stream_name":"stdout","time":4387.683558926,"data":"Uninstalled 1 package in 333ms\n"}
+,{"stream_name":"stdout","time":4403.890881544,"data":"Installed 7 packages in 16.41s\n"}
+,{"stream_name":"stdout","time":4403.891539299,"data":" - flashinfer-jit-cache==0.6.17+cu130\n"}
+,{"stream_name":"stdout","time":4403.891574205,"data":" + flashinfer-jit-cache==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4403.891581598,"data":" + flashinfer-jit-cache-sm100a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4403.891587385,"data":" + flashinfer-jit-cache-sm103a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4403.891606124,"data":" + flashinfer-jit-cache-sm120f==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4403.89161075,"data":" + flashinfer-jit-cache-sm80==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4403.892041894,"data":" + flashinfer-jit-cache-sm89==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4403.892057486,"data":" + flashinfer-jit-cache-sm90a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4404.094328056,"data":"Installed 7 packages in 16.41s\n"}
+,{"stream_name":"stdout","time":4404.094407567,"data":" - flashinfer-jit-cache==0.6.17+cu130\n"}
+,{"stream_name":"stdout","time":4404.094415435,"data":" + flashinfer-jit-cache==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4404.094419887,"data":" + flashinfer-jit-cache-sm100a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4404.09442404,"data":" + flashinfer-jit-cache-sm103a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4404.094428364,"data":" + flashinfer-jit-cache-sm120f==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4404.094432577,"data":" + flashinfer-jit-cache-sm80==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4404.094436799,"data":" + flashinfer-jit-cache-sm89==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4404.094441382,"data":" + flashinfer-jit-cache-sm90a==0.7.0.post1+cu130\n"}
+,{"stream_name":"stdout","time":4405.972989192,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":4406.098066017,"data":"Resolved 1 package in 116ms\n"}
+,{"stream_name":"stdout","time":4406.176170722,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":4406.176226739,"data":"Resolved 1 package in 116ms\n"}
+,{"stream_name":"stdout","time":4406.201438014,"data":"Downloading flashinfer-cubin (1.5GiB)\n"}
+,{"stream_name":"stdout","time":4406.405496973,"data":"Downloading flashinfer-cubin (1.5GiB)\n"}
+,{"stream_name":"stdout","time":4448.214239006,"data":" Downloaded flashinfer-cubin\n"}
+,{"stream_name":"stdout","time":4448.34453004,"data":"Prepared 1 package in 42.24s\n"}
+,{"stream_name":"stdout","time":4448.421806924,"data":" Downloaded flashinfer-cubin\n"}
+,{"stream_name":"stdout","time":4448.421846248,"data":"Prepared 1 package in 42.24s\n"}
+,{"stream_name":"stdout","time":4451.155767282,"data":"Uninstalled 1 package in 2.81s\n"}
+,{"stream_name":"stdout","time":4451.364230274,"data":"Uninstalled 1 package in 2.81s\n"}
+,{"stream_name":"stdout","time":4584.016240047,"data":"Installed 1 package in 2m 12s\n"}
+,{"stream_name":"stdout","time":4584.020100215,"data":" - flashinfer-cubin==0.6.17\n"}
+,{"stream_name":"stdout","time":4584.020126627,"data":" + flashinfer-cubin==0.7.0.post1\n"}
+,{"stream_name":"stdout","time":4584.108313822,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":4584.224595441,"data":"Installed 1 package in 2m 12s\n"}
+,{"stream_name":"stdout","time":4584.224645625,"data":" - flashinfer-cubin==0.6.17\n"}
+,{"stream_name":"stdout","time":4584.224654602,"data":" + flashinfer-cubin==0.7.0.post1\n"}
+,{"stream_name":"stdout","time":4584.224665543,"data":"Using Python 3.12.13 environment at: /tmp/hydra-serving-v3/runtime\n"}
+,{"stream_name":"stdout","time":4584.408434143,"data":"Resolved 1 package in 287ms\n"}
+,{"stream_name":"stdout","time":4584.429340513,"data":"Prepared 1 package in 20ms\n"}
+,{"stream_name":"stdout","time":4584.434082152,"data":"Installed 1 package in 4ms\n"}
+,{"stream_name":"stdout","time":4584.434110741,"data":" + wrapt==1.17.3\n"}
+,{"stream_name":"stdout","time":4584.611183135,"data":"Resolved 1 package in 287ms\n"}
+,{"stream_name":"stdout","time":4584.611285002,"data":"Prepared 1 package in 20ms\n"}
+,{"stream_name":"stdout","time":4584.611293085,"data":"Installed 1 package in 4ms\n"}
+,{"stream_name":"stdout","time":4584.611297925,"data":" + wrapt==1.17.3\n"}
+,{"stream_name":"stdout","time":4586.770324239,"data":"No broken requirements found.\n"}
+,{"stream_name":"stdout","time":4586.973544372,"data":"No broken requirements found.\n"}
+,{"stream_name":"stdout","time":4638.771562096,"data":"FlashInfer SM120 packaging: the fused_moe_120 build failed with nvcc host compiler /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ (CUDAHOSTCXX), MAX_JOBS=2:\n"}
+,{"stream_name":"stdout","time":4638.77161731,"data":"--- stderr ---\n"}
+,{"stream_name":"stdout","time":4638.771624114,"data":"2026-10-25 17:49:44,126 - INFO - core.py:564 - flashinfer.jit: Building JIT module fused_moe_120; this can take several minutes on first use.\n"}
+,{"stream_name":"stdout","time":4638.771630805,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":4638.771636517,"data":"  File \"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/jit/cpp_ext.py\", line 406, in run_ninja\n"}
+,{"stream_name":"stdout","time":4638.77164289,"data":"    subprocess.run(\n"}
+,{"stream_name":"stdout","time":4638.771649418,"data":"  File \"/usr/lib/python3.12/subprocess.py\", line 571, in run\n"}
+,{"stream_name":"stdout","time":4638.771655239,"data":"    raise CalledProcessError(retcode, process.args,\n"}
+,{"stream_name":"stdout","time":4638.771661812,"data":"subprocess.CalledProcessError: Command '['ninja', '-v', '-C', '/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120', '-f', '/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/build.ninja', '-j', '2']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stdout","time":4638.771690768,"data":"\n"}
+,{"stream_name":"stdout","time":4638.771697103,"data":"The above exception was the direct cause of the following exception:\n"}
+,{"stream_name":"stdout","time":4638.77170309,"data":"\n"}
+,{"stream_name":"stdout","time":4638.771708237,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":4638.771713825,"data":"  File \"\u003cstring\u003e\", line 15, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":4638.77172022,"data":"  File \"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/jit/core.py\", line 569, in build\n"}
+,{"stream_name":"stdout","time":4638.771726965,"data":"    run_ninja(self.build_dir, self.ninja_path, verbose)\n"}
+,{"stream_name":"stdout","time":4638.771732324,"data":"  File \"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/jit/cpp_ext.py\", line 418, in run_ninja\n"}
+,{"stream_name":"stdout","time":4638.771738634,"data":"    raise RuntimeError(msg) from e\n"}
+,{"stream_name":"stdout","time":4638.771744424,"data":"RuntimeError: Ninja build failed. Ninja output:\n"}
+,{"stream_name":"stdout","time":4638.771751582,"data":"ninja: Entering directory `/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120'\n"}
+,{"stream_name":"stdout","time":4638.772652282,"data":"[1/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp8_uint4.cu -o /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o \n"}
+,{"stream_name":"stdout","time":4638.772721226,"data":"FAILED: [code=1] /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o \n"}
+,{"stream_name":"stdout","time":4638.772729293,"data":" /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp8_uint4.cu -o /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o \n"}
+,{"stream_name":"stdout","time":4638.772752027,"data":"In file included from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include/cutlass_extensions/compute_occupancy.h:21,\n"}
+,{"stream_name":"stdout","time":4638.772772464,"data":"                 from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_template_dispatch.h:39,\n"}
+,{"stream_name":"stdout","time":4638.772776393,"data":"                 from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp8_uint4.cu:17:\n"}
+,{"stream_name":"stdout","time":4638.77277934,"data":"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include/tensorrt_llm/common/cudaUtils.h:19:10: fatal error: cublasLt.h: No such file or directory\n"}
+,{"stream_name":"stdout","time":4638.772782399,"data":"   19 | #include \u003ccublasLt.h\u003e\n"}
+,{"stream_name":"stdout","time":4638.772785403,"data":"      |          ^~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":4638.772788179,"data":"compilation terminated.\n"}
+,{"stream_name":"stdout","time":4638.772791422,"data":"[2/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_tma_warp_specialized_input.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_tma_warp_specialized_input.cu -o /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_tma_warp_specialized_input.cuda.o \n"}
+,{"stream_name":"stdout","time":4638.772802991,"data":"ninja: build stopped: subcommand failed.\n"}
+,{"stream_name":"stdout","time":4638.772805747,"data":"patches/moe-source.patch: applied\n"}
+,{"stream_name":"stdout","time":4638.772808395,"data":"patches/gdn-source.patch: applied\n"}
+,{"stream_name":"stdout","time":4638.772810993,"data":"patches/asan-include-compat.patch: applied\n"}
+,{"stream_name":"stdout","time":4638.772813793,"data":"building fused_moe_120 for FLASHINFER_CUDA_ARCH_LIST=12.0f (MAX_JOBS=2)\n"}
+,{"stream_name":"stdout","time":4638.806367585,"data":"BUILD FAILED at line 147; partial artifacts retained\n"}
+,{"stream_name":"stdout","time":4638.92809146,"data":"FlashInfer SM120 packaging: the fused_moe_120 build failed with nvcc host compiler /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ (CUDAHOSTCXX), MAX_JOBS=2:\n"}
+,{"stream_name":"stdout","time":4638.928132128,"data":"--- stderr ---\n"}
+,{"stream_name":"stdout","time":4638.92819955,"data":"2026-10-25 17:49:44,126 - INFO - core.py:564 - flashinfer.jit: Building JIT module fused_moe_120; this can take several minutes on first use.\n"}
+,{"stream_name":"stdout","time":4638.928205641,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":4638.928210067,"data":"  File \"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/jit/cpp_ext.py\", line 406, in run_ninja\n"}
+,{"stream_name":"stdout","time":4638.928215656,"data":"    subprocess.run(\n"}
+,{"stream_name":"stdout","time":4638.928241509,"data":"  File \"/usr/lib/python3.12/subprocess.py\", line 571, in run\n"}
+,{"stream_name":"stdout","time":4638.928245974,"data":"    raise CalledProcessError(retcode, process.args,\n"}
+,{"stream_name":"stdout","time":4638.928250818,"data":"subprocess.CalledProcessError: Command '['ninja', '-v', '-C', '/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120', '-f', '/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/build.ninja', '-j', '2']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stdout","time":4638.928269894,"data":"\n"}
+,{"stream_name":"stdout","time":4638.928273824,"data":"The above exception was the direct cause of the following exception:\n"}
+,{"stream_name":"stdout","time":4638.928278085,"data":"\n"}
+,{"stream_name":"stdout","time":4638.928282178,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":4638.928286044,"data":"  File \"\u003cstring\u003e\", line 15, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":4638.92829098,"data":"  File \"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/jit/core.py\", line 569, in build\n"}
+,{"stream_name":"stdout","time":4638.928296881,"data":"    run_ninja(self.build_dir, self.ninja_path, verbose)\n"}
+,{"stream_name":"stdout","time":4638.92830216,"data":"  File \"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/jit/cpp_ext.py\", line 418, in run_ninja\n"}
+,{"stream_name":"stdout","time":4638.928306907,"data":"    raise RuntimeError(msg) from e\n"}
+,{"stream_name":"stdout","time":4638.928310854,"data":"RuntimeError: Ninja build failed. Ninja output:\n"}
+,{"stream_name":"stdout","time":4638.928315738,"data":"ninja: Entering directory `/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120'\n"}
+,{"stream_name":"stdout","time":4638.928327511,"data":"[1/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp8_uint4.cu -o /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o \n"}
+,{"stream_name":"stdout","time":4638.928350847,"data":"FAILED: [code=1] /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o \n"}
+,{"stream_name":"stdout","time":4638.92835666,"data":" /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp8_uint4.cu -o /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_kernels_fp8_uint4.cuda.o \n"}
+,{"stream_name":"stdout","time":4638.928371779,"data":"In file included from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include/cutlass_extensions/compute_occupancy.h:21,\n"}
+,{"stream_name":"stdout","time":4638.92837975,"data":"                 from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_template_dispatch.h:39,\n"}
+,{"stream_name":"stdout","time":4638.928385055,"data":"                 from /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_kernels_fp8_uint4.cu:17:\n"}
+,{"stream_name":"stdout","time":4638.928389843,"data":"/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include/tensorrt_llm/common/cudaUtils.h:19:10: fatal error: cublasLt.h: No such file or directory\n"}
+,{"stream_name":"stdout","time":4638.928394471,"data":"   19 | #include \u003ccublasLt.h\u003e\n"}
+,{"stream_name":"stdout","time":4638.928398959,"data":"      |          ^~~~~~~~~~~~\n"}
+,{"stream_name":"stdout","time":4638.92840333,"data":"compilation terminated.\n"}
+,{"stream_name":"stdout","time":4638.928408147,"data":"[2/97]  /tmp/hydra-serving-v3/cuda/bin/nvcc --generate-dependencies-with-compile -MF /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_tma_warp_specialized_input.cuda.o.d -ccbin /tmp/hydra-serving-v3/gcc/bin/x86_64-conda-linux-gnu-g++ -DPy_LIMITED_API=0x03090000 -D_GLIBCXX_USE_CXX11_ABI=1 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/cutlass_extensions/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels -I/tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/generated/cutlass_instantiations/120 -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/cub -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/libcudacxx/include -I/tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cccl/thrust -isystem /usr/include/python3.12 -isystem /tmp/hydra-serving-v3/cuda/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/tvm_ffi/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/cutlass/tools/util/include -isystem /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/spdlog/include --compiler-options=-fPIC --expt-relaxed-constexpr -static-global-template-stub=false -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -std=c++17 --threads=1 -use_fast_math -Xfatbin=-compress-all --compress-mode=size -DFLASHINFER_ENABLE_F16 -DFLASHINFER_ENABLE_BF16 -DFLASHINFER_ENABLE_FP8_E4M3 -DFLASHINFER_ENABLE_FP8_E5M2 -DNDEBUG -O3 -DCOMPILE_BLACKWELL_TMA_GEMMS -DCOMPILE_BLACKWELL_SM120_TMA_GROUPED_GEMMS -DENABLE_BF16 -DENABLE_FP8 -DENABLE_FP4 -DUSING_OSS_CUTLASS_MOE_GEMM -DCUTLASS_ENABLE_GDC_FOR_SM100=1 -gencode=arch=compute_120f,code=sm_120f -DFLASHINFER_ENABLE_FP8_E8M0 -DFLASHINFER_ENABLE_FP4_E2M1 -c /tmp/hydra-serving-v3/runtime/lib/python3.12/site-packages/flashinfer/data/csrc/nv_internal/tensorrt_llm/kernels/cutlass_kernels/moe_gemm/moe_gemm_tma_warp_specialized_input.cu -o /tmp/pennyroyal-flashinfer-sm120-1ijmhil6/.cache/flashinfer/0.7.0.post1/120f/cached_ops/fused_moe_120/moe_gemm_moe_gemm_tma_warp_specialized_input.cuda.o \n"}
+,{"stream_name":"stdout","time":4638.928427706,"data":"ninja: build stopped: subcommand failed.\n"}
+,{"stream_name":"stdout","time":4638.928432064,"data":"patches/moe-source.patch: applied\n"}
+,{"stream_name":"stdout","time":4638.928436165,"data":"patches/gdn-source.patch: applied\n"}
+,{"stream_name":"stdout","time":4638.928439832,"data":"patches/asan-include-compat.patch: applied\n"}
+,{"stream_name":"stdout","time":4638.928443936,"data":"building fused_moe_120 for FLASHINFER_CUDA_ARCH_LIST=12.0f (MAX_JOBS=2)\n"}
+,{"stream_name":"stdout","time":4638.928448283,"data":"BUILD FAILED at line 147; partial artifacts retained\n"}
+,{"stream_name":"stderr","time":4639.818092357,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":4639.818158375,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":4639.818168105,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":4639.830017544,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":4639.831406634,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":4639.831451933,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":4639.83145925,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":4639.831463644,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":4639.83146787,"data":"Exception encountered at \"In [1]\":\n"}
+,{"stream_name":"stderr","time":4639.831471998,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":4639.83147614,"data":"CalledProcessError                        Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":4639.831480166,"data":"/tmp/ipykernel_16/689062345.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":4639.83148475,"data":"      9 for name,content in BUILD_SOURCES.items():\n"}
+,{"stream_name":"stderr","time":4639.831488601,"data":"     10     (stage/name).write_text(content,encoding='utf-8')\n"}
+,{"stream_name":"stderr","time":4639.831492624,"data":"---\u003e 11 subprocess.run(['bash',str(stage/'build_overlay.sh'),str(stage)],check=True)\n"}
+,{"stream_name":"stderr","time":4639.831496864,"data":"\n"}
+,{"stream_name":"stderr","time":4639.831500687,"data":"/usr/lib/python3.12/subprocess.py in run(input, capture_output, timeout, check, *popenargs, **kwargs)\n"}
+,{"stream_name":"stderr","time":4639.831505333,"data":"    569         retcode = process.poll()\n"}
+,{"stream_name":"stderr","time":4639.831509818,"data":"    570         if check and retcode:\n"}
+,{"stream_name":"stderr","time":4639.831514154,"data":"--\u003e 571             raise CalledProcessError(retcode, process.args,\n"}
+,{"stream_name":"stderr","time":4639.831518514,"data":"    572                                      output=stdout, stderr=stderr)\n"}
+,{"stream_name":"stderr","time":4639.83152289,"data":"    573     return CompletedProcess(process.args, retcode, stdout, stderr)\n"}
+,{"stream_name":"stderr","time":4639.831528382,"data":"\n"}
+,{"stream_name":"stderr","time":4639.83153253,"data":"CalledProcessError: Command '['bash', '/kaggle/working/build-src/build_overlay.sh', '/kaggle/working/build-src']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stderr","time":4639.831603664,"data":"\n"}
+,{"stream_name":"stderr","time":4644.738861743,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4644.73890966,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4645.237694973,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4645.237735165,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4648.513868751,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":4648.971632053,"data":"[NbConvertApp] Writing 76535 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":4652.451867641,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4654.380882766,"data":"[NbConvertApp] Writing 399801 bytes to __results__.html\n"}
+]

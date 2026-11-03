@@ -1,0 +1,241 @@
+{"bounds": [3, 5, 0, 9], "level": 4, "returned_cells": 3, "step": 157, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [4, 9, 7, 9], "level": 4, "returned_cells": 2, "step": 172, "stride": [3, 3], "tool": "read_region"}
+{"level": 4, "returned_cells": 5, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 15, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 45, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 36, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"additional_calls_not_logged": 17, "level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"additional_calls_not_logged": 17, "level": 4, "returned_cells": 1, "step": 172, "tool": "read_cells"}
+{"bounds": [12, 45, 9, 57], "level": 5, "returned_cells": 176, "step": 202, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [12, 45, 9, 57], "level": 5, "returned_cells": 176, "step": 202, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [12, 45, 9, 57], "level": 5, "returned_cells": 176, "step": 202, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [12, 45, 9, 57], "level": 5, "returned_cells": 176, "step": 202, "stride": [3, 3], "tool": "read_region"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"level": 5, "returned_cells": 1, "step": 238, "tool": "read_cells"}
+{"bounds": [12, 45, 9, 57], "level": 5, "returned_cells": 176, "step": 242, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 308, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 308, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 308, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 309, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 310, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 311, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 312, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 313, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 314, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 315, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 316, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 317, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 318, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 328, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 328, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 329, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 329, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 330, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 330, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 331, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 331, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 332, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 332, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 332, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 332, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 332, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 332, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 332, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 333, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 333, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 334, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 334, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 334, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 335, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 335, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 335, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 336, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 336, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 336, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 337, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 337, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 337, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 338, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 339, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 339, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 340, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 340, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 341, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 341, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 342, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 342, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 343, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 344, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 345, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 345, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 346, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 346, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 347, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 347, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 348, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 349, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 349, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 350, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 350, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 351, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 351, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 352, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 352, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 353, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 354, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 354, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 354, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 354, "stride": [3, 3], "tool": "read_region"}
+{"bounds": [14, 44, 9, 57], "level": 5, "returned_cells": 160, "step": 354, "stride": [3, 3], "tool": "read_region"}

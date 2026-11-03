@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-10-28T19:28:28.596120+00:00",
+  "status_at_check": "RUNNING",
+  "extensions": {
+    "ARC_HYDRA_VERIFIED_PLANNING_INSTALLED": {
+      "matches_cpu_gate": true,
+      "report": {
+        "enforce_probes": false,
+        "extension": "planning-assist-v1",
+        "files": {
+          "python_tool_sandbox.py": {
+            "after": "83ef0d3092e079f51cdb7da32e96dcb108473daf49f291f5e1e4bb3c02fe8385",
+            "before": "3900b7255842df04be9ad08f91b521279a2e63f8226ac4bc77fb6de7a4e36943"
+          },
+          "tool_agent.py": {
+            "after": "283132b535967c5a78a098f93431e72ea3c6a149848e61c819452eae92e3869e",
+            "before": "053556f4a2d19bbb0f04d3ecde14bad2d76abfe91e89254740b763136a5a8e82"
+          }
+        },
+        "library_sha256": "83057d90c3248775260aa3cc5d06a9f59a36572298dc0d41ef58a858a9a4efe0"
+      }
+    },
+    "ARC_HYDRA_INSPECTION_INSTALLED": {
+      "matches_cpu_gate": true,
+      "report": {
+        "extension": "grid-inspection-v1",
+        "files": {
+          "python_tool_sandbox.py": {
+            "after": "c7c2feb926e9423cd38371f745d45e4b7fd6b082b6bfa976929278f01c18740f",
+            "before": "83ef0d3092e079f51cdb7da32e96dcb108473daf49f291f5e1e4bb3c02fe8385"
+          },
+          "tool_agent.py": {
+            "after": "8603d21d6f5b5a402ea44bf2b8c9dde54330936860da5bd4fcab6622af7e3c23",
+            "before": "283132b535967c5a78a098f93431e72ea3c6a149848e61c819452eae92e3869e"
+          }
+        },
+        "guidance_sha256": "7918a62b4324f7b0f5ebd1221f9fa4506c0e50336dc769069559cea2b84e8399",
+        "library_sha256": "b7c023672d6d9b1469755c4f40c27dc03b8aa82fe7272534c34c2a086cca0037"
+      }
+    }
+  },
+  "public_input_verification_logged": true,
+  "model_readiness_established": false,
+  "score_established": false
+}

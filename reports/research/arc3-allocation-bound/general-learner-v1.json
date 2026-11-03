@@ -1,0 +1,962 @@
+{
+  "checked_at": "2026-10-29T12:10:05.729501+00:00",
+  "source_sha256": "c2ca907ef0d9e186d33ccb7bb8c899c321bdccf86061b911d61f7dd3d18ca0ef",
+  "cost_rounding_unit": 500,
+  "games": 25,
+  "recorded_generation_tokens": 15203434,
+  "recorded_final_score": 62.09472223548142,
+  "tokens_through_last_observed_completion": 10020517,
+  "observed_two_hour_tokens": 4211289,
+  "observed_two_hour_score": 42.98683319096972,
+  "comparisons": [
+    {
+      "token_budget": 1000000,
+      "fixed_trace_oracle_lower": 29.12285187861021,
+      "fixed_trace_oracle_upper": 29.387132942788003,
+      "feasible_prefix_tokens": 988375,
+      "feasible_prefix_allocation": [
+        {
+          "game": "sk48-d8078629",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "tn36-ef4dde99",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "m0r0-492f87ba",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "bp35-0a0ad940",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "cn04-2fe56bfb",
+          "levels": 1,
+          "tokens": 10449,
+          "score": 4.761904761904762
+        },
+        {
+          "game": "dc22-fdcac232",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "tu93-0768757b",
+          "levels": 7,
+          "tokens": 123017,
+          "score": 62.22222222222222
+        },
+        {
+          "game": "lp85-305b61c3",
+          "levels": 8,
+          "tokens": 147234,
+          "score": 100.0
+        },
+        {
+          "game": "ka59-38d34dbb",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "wa30-ee6fef47",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "vc33-5430563c",
+          "levels": 7,
+          "tokens": 170539,
+          "score": 100.0
+        },
+        {
+          "game": "lf52-271a04aa",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "r11l-495a7899",
+          "levels": 6,
+          "tokens": 114094,
+          "score": 100.0
+        },
+        {
+          "game": "sc25-635fd71a",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "sp80-589a99af",
+          "levels": 1,
+          "tokens": 4706,
+          "score": 4.761904761904762
+        },
+        {
+          "game": "ar25-0c556536",
+          "levels": 8,
+          "tokens": 131553,
+          "score": 100.0
+        },
+        {
+          "game": "sb26-7fbdac44",
+          "levels": 8,
+          "tokens": 98221,
+          "score": 92.59932260190452
+        },
+        {
+          "game": "cd82-fb555c5d",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "re86-8af5384d",
+          "levels": 3,
+          "tokens": 36084,
+          "score": 16.666666666666668
+        },
+        {
+          "game": "s5i5-18d95033",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "ls20-9607627b",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "ft09-0d8bbf25",
+          "levels": 6,
+          "tokens": 84399,
+          "score": 100.0
+        },
+        {
+          "game": "su15-1944f8ab",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "tr87-cd924810",
+          "levels": 4,
+          "tokens": 68079,
+          "score": 47.05927595065239
+        },
+        {
+          "game": "g50t-5849a774",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "token_budget": 2000000,
+      "fixed_trace_oracle_lower": 42.507152542266496,
+      "fixed_trace_oracle_upper": 42.65000968512364,
+      "feasible_prefix_tokens": 1985971,
+      "feasible_prefix_allocation": [
+        {
+          "game": "sk48-d8078629",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "tn36-ef4dde99",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "m0r0-492f87ba",
+          "levels": 5,
+          "tokens": 152029,
+          "score": 71.42857142857143
+        },
+        {
+          "game": "bp35-0a0ad940",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "cn04-2fe56bfb",
+          "levels": 1,
+          "tokens": 10449,
+          "score": 4.761904761904762
+        },
+        {
+          "game": "dc22-fdcac232",
+          "levels": 4,
+          "tokens": 137457,
+          "score": 47.61904761904762
+        },
+        {
+          "game": "tu93-0768757b",
+          "levels": 7,
+          "tokens": 123017,
+          "score": 62.22222222222222
+        },
+        {
+          "game": "lp85-305b61c3",
+          "levels": 8,
+          "tokens": 147234,
+          "score": 100.0
+        },
+        {
+          "game": "ka59-38d34dbb",
+          "levels": 5,
+          "tokens": 171127,
+          "score": 45.75636920112223
+        },
+        {
+          "game": "wa30-ee6fef47",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "vc33-5430563c",
+          "levels": 7,
+          "tokens": 170539,
+          "score": 100.0
+        },
+        {
+          "game": "lf52-271a04aa",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "r11l-495a7899",
+          "levels": 6,
+          "tokens": 114094,
+          "score": 100.0
+        },
+        {
+          "game": "sc25-635fd71a",
+          "levels": 5,
+          "tokens": 147254,
+          "score": 71.42857142857143
+        },
+        {
+          "game": "sp80-589a99af",
+          "levels": 1,
+          "tokens": 4706,
+          "score": 4.761904761904762
+        },
+        {
+          "game": "ar25-0c556536",
+          "levels": 8,
+          "tokens": 131553,
+          "score": 100.0
+        },
+        {
+          "game": "sb26-7fbdac44",
+          "levels": 8,
+          "tokens": 98221,
+          "score": 92.59932260190452
+        },
+        {
+          "game": "cd82-fb555c5d",
+          "levels": 6,
+          "tokens": 255426,
+          "score": 61.03306917860774
+        },
+        {
+          "game": "re86-8af5384d",
+          "levels": 5,
+          "tokens": 104164,
+          "score": 40.67522106881969
+        },
+        {
+          "game": "s5i5-18d95033",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "ls20-9607627b",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "ft09-0d8bbf25",
+          "levels": 6,
+          "tokens": 84399,
+          "score": 100.0
+        },
+        {
+          "game": "su15-1944f8ab",
+          "levels": 3,
+          "tokens": 66223,
+          "score": 13.333333333333334
+        },
+        {
+          "game": "tr87-cd924810",
+          "levels": 4,
+          "tokens": 68079,
+          "score": 47.05927595065239
+        },
+        {
+          "game": "g50t-5849a774",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "token_budget": 4211289,
+      "fixed_trace_oracle_lower": 53.22570410412918,
+      "fixed_trace_oracle_upper": 53.22570410412918,
+      "feasible_prefix_tokens": 4183204,
+      "feasible_prefix_allocation": [
+        {
+          "game": "sk48-d8078629",
+          "levels": 6,
+          "tokens": 658200,
+          "score": 58.333333333333336
+        },
+        {
+          "game": "tn36-ef4dde99",
+          "levels": 1,
+          "tokens": 13645,
+          "score": 3.5714285714285716
+        },
+        {
+          "game": "m0r0-492f87ba",
+          "levels": 5,
+          "tokens": 152029,
+          "score": 71.42857142857143
+        },
+        {
+          "game": "bp35-0a0ad940",
+          "levels": 0,
+          "tokens": 0,
+          "score": 0.0
+        },
+        {
+          "game": "cn04-2fe56bfb",
+          "levels": 4,
+          "tokens": 239872,
+          "score": 47.61904761904762
+        },
+        {
+          "game": "dc22-fdcac232",
+          "levels": 4,
+          "tokens": 137457,
+          "score": 47.61904761904762
+        },
+        {
+          "game": "tu93-0768757b",
+          "levels": 9,
+          "tokens": 349708,
+          "score": 96.12431819050705
+        },
+        {
+          "game": "lp85-305b61c3",
+          "levels": 8,
+          "tokens": 147234,
+          "score": 100.0
+        },
+        {
+          "game": "ka59-38d34dbb",
+          "levels": 5,
+          "tokens": 171127,
+          "score": 45.75636920112223
+        },
+        {
+          "game": "wa30-ee6fef47",
+          "levels": 4,
+          "tokens": 190209,
+          "score": 17.19161061268532
+        },
+        {
+          "game": "vc33-5430563c",
+          "levels": 7,
+          "tokens": 170539,
+          "score": 100.0
+        },
+        {
+          "game": "lf52-271a04aa",
+          "levels": 2,
+          "tokens": 56537,
+          "score": 5.454545454545454
+        },
+        {
+          "game": "r11l-495a7899",
+          "levels": 6,
+          "tokens": 114094,
+          "score": 100.0
+        },
+        {
+          "game": "sc25-635fd71a",
+          "levels": 5,
+          "tokens": 147254,
+          "score": 71.42857142857143
+        },
+        {
+          "game": "sp80-589a99af",
+          "levels": 1,
+          "tokens": 4706,
+          "score": 4.761904761904762
+        },
+        {
+          "game": "ar25-0c556536",
+          "levels": 8,
+          "tokens": 131553,
+          "score": 100.0
+        },
+        {
+          "game": "sb26-7fbdac44",
+          "levels": 8,
+          "tokens": 98221,
+          "score": 92.59932260190452
+        },
+        {
+          "game": "cd82-fb555c5d",
+          "levels": 6,
+          "tokens": 255426,
+          "score": 61.03306917860774
+        },
+        {
+          "game": "re86-8af5384d",
+          "levels": 6,
+          "tokens": 201722,
+          "score": 58.333333333333336
+        },
+        {
+          "game": "s5i5-18d95033",
+          "levels": 1,
+          "tokens": 16043,
+          "score": 0.811622433244055
+        },
+        {
+          "game": "ls20-9607627b",
+          "levels": 4,
+          "tokens": 223404,
+          "score": 23.810115665617513
+        },
+        {
+          "game": "ft09-0d8bbf25",
+          "levels": 6,
+          "tokens": 84399,
+          "score": 100.0
+        },
+        {
+          "game": "su15-1944f8ab",
+          "levels": 3,
+          "tokens": 66223,
+          "score": 13.333333333333334
+        },
+        {
+          "game": "tr87-cd924810",
+          "levels": 6,
+          "tokens": 241735,
+          "score": 75.71877212213815
+        },
+        {
+          "game": "g50t-5849a774",
+          "levels": 4,
+          "tokens": 311867,
+          "score": 35.714285714285715
+        }
+      ]
+    },
+    {
+      "token_budget": 8000000,
+      "fixed_trace_oracle_lower": 61.18298614642785,
+      "fixed_trace_oracle_upper": 61.18298614642785,
+      "feasible_prefix_tokens": 7981930,
+      "feasible_prefix_allocation": [
+        {
+          "game": "sk48-d8078629",
+          "levels": 6,
+          "tokens": 658200,
+          "score": 58.333333333333336
+        },
+        {
+          "game": "tn36-ef4dde99",
+          "levels": 6,
+          "tokens": 475661,
+          "score": 44.953878365194164
+        },
+        {
+          "game": "m0r0-492f87ba",
+          "levels": 5,
+          "tokens": 152029,
+          "score": 71.42857142857143
+        },
+        {
+          "game": "bp35-0a0ad940",
+          "levels": 1,
+          "tokens": 81099,
+          "score": 2.2222222222222223
+        },
+        {
+          "game": "cn04-2fe56bfb",
+          "levels": 6,
+          "tokens": 826508,
+          "score": 94.03303229689766
+        },
+        {
+          "game": "dc22-fdcac232",
+          "levels": 5,
+          "tokens": 539548,
+          "score": 71.42857142857143
+        },
+        {
+          "game": "tu93-0768757b",
+          "levels": 9,
+          "tokens": 349708,
+          "score": 96.12431819050705
+        },
+        {
+          "game": "lp85-305b61c3",
+          "levels": 8,
+          "tokens": 147234,
+          "score": 100.0
+        },
+        {
+          "game": "ka59-38d34dbb",
+          "levels": 5,
+          "tokens": 171127,
+          "score": 45.75636920112223
+        },
+        {
+          "game": "wa30-ee6fef47",
+          "levels": 4,
+          "tokens": 190209,
+          "score": 17.19161061268532
+        },
+        {
+          "game": "vc33-5430563c",
+          "levels": 7,
+          "tokens": 170539,
+          "score": 100.0
+        },
+        {
+          "game": "lf52-271a04aa",
+          "levels": 3,
+          "tokens": 168358,
+          "score": 9.678557693298325
+        },
+        {
+          "game": "r11l-495a7899",
+          "levels": 6,
+          "tokens": 114094,
+          "score": 100.0
+        },
+        {
+          "game": "sc25-635fd71a",
+          "levels": 6,
+          "tokens": 309129,
+          "score": 82.91037998141158
+        },
+        {
+          "game": "sp80-589a99af",
+          "levels": 4,
+          "tokens": 947276,
+          "score": 28.726286839015827
+        },
+        {
+          "game": "ar25-0c556536",
+          "levels": 8,
+          "tokens": 131553,
+          "score": 100.0
+        },
+        {
+          "game": "sb26-7fbdac44",
+          "levels": 8,
+          "tokens": 98221,
+          "score": 92.59932260190452
+        },
+        {
+          "game": "cd82-fb555c5d",
+          "levels": 6,
+          "tokens": 255426,
+          "score": 61.03306917860774
+        },
+        {
+          "game": "re86-8af5384d",
+          "levels": 6,
+          "tokens": 201722,
+          "score": 58.333333333333336
+        },
+        {
+          "game": "s5i5-18d95033",
+          "levels": 1,
+          "tokens": 16043,
+          "score": 0.811622433244055
+        },
+        {
+          "game": "ls20-9607627b",
+          "levels": 6,
+          "tokens": 642785,
+          "score": 34.80916120157725
+        },
+        {
+          "game": "ft09-0d8bbf25",
+          "levels": 6,
+          "tokens": 84399,
+          "score": 100.0
+        },
+        {
+          "game": "su15-1944f8ab",
+          "levels": 8,
+          "tokens": 697460,
+          "score": 47.7679554827745
+        },
+        {
+          "game": "tr87-cd924810",
+          "levels": 6,
+          "tokens": 241735,
+          "score": 75.71877212213815
+        },
+        {
+          "game": "g50t-5849a774",
+          "levels": 4,
+          "tokens": 311867,
+          "score": 35.714285714285715
+        }
+      ]
+    },
+    {
+      "token_budget": 10020517,
+      "fixed_trace_oracle_lower": 62.06090723928881,
+      "fixed_trace_oracle_upper": 62.09472223548142,
+      "feasible_prefix_tokens": 9539415,
+      "feasible_prefix_allocation": [
+        {
+          "game": "sk48-d8078629",
+          "levels": 6,
+          "tokens": 658200,
+          "score": 58.333333333333336
+        },
+        {
+          "game": "tn36-ef4dde99",
+          "levels": 6,
+          "tokens": 475661,
+          "score": 44.953878365194164
+        },
+        {
+          "game": "m0r0-492f87ba",
+          "levels": 5,
+          "tokens": 152029,
+          "score": 71.42857142857143
+        },
+        {
+          "game": "bp35-0a0ad940",
+          "levels": 3,
+          "tokens": 811101,
+          "score": 5.603173768362958
+        },
+        {
+          "game": "cn04-2fe56bfb",
+          "levels": 6,
+          "tokens": 826508,
+          "score": 94.03303229689766
+        },
+        {
+          "game": "dc22-fdcac232",
+          "levels": 5,
+          "tokens": 539548,
+          "score": 71.42857142857143
+        },
+        {
+          "game": "tu93-0768757b",
+          "levels": 9,
+          "tokens": 349708,
+          "score": 96.12431819050705
+        },
+        {
+          "game": "lp85-305b61c3",
+          "levels": 8,
+          "tokens": 147234,
+          "score": 100.0
+        },
+        {
+          "game": "ka59-38d34dbb",
+          "levels": 6,
+          "tokens": 391422,
+          "score": 47.8831025221413
+        },
+        {
+          "game": "wa30-ee6fef47",
+          "levels": 4,
+          "tokens": 190209,
+          "score": 17.19161061268532
+        },
+        {
+          "game": "vc33-5430563c",
+          "levels": 7,
+          "tokens": 170539,
+          "score": 100.0
+        },
+        {
+          "game": "lf52-271a04aa",
+          "levels": 4,
+          "tokens": 356209,
+          "score": 15.130939933306978
+        },
+        {
+          "game": "r11l-495a7899",
+          "levels": 6,
+          "tokens": 114094,
+          "score": 100.0
+        },
+        {
+          "game": "sc25-635fd71a",
+          "levels": 6,
+          "tokens": 309129,
+          "score": 82.91037998141158
+        },
+        {
+          "game": "sp80-589a99af",
+          "levels": 4,
+          "tokens": 947276,
+          "score": 28.726286839015827
+        },
+        {
+          "game": "ar25-0c556536",
+          "levels": 8,
+          "tokens": 131553,
+          "score": 100.0
+        },
+        {
+          "game": "sb26-7fbdac44",
+          "levels": 8,
+          "tokens": 98221,
+          "score": 92.59932260190452
+        },
+        {
+          "game": "cd82-fb555c5d",
+          "levels": 6,
+          "tokens": 255426,
+          "score": 61.03306917860774
+        },
+        {
+          "game": "re86-8af5384d",
+          "levels": 6,
+          "tokens": 201722,
+          "score": 58.333333333333336
+        },
+        {
+          "game": "s5i5-18d95033",
+          "levels": 3,
+          "tokens": 435380,
+          "score": 11.79958264759994
+        },
+        {
+          "game": "ls20-9607627b",
+          "levels": 6,
+          "tokens": 642785,
+          "score": 34.80916120157725
+        },
+        {
+          "game": "ft09-0d8bbf25",
+          "levels": 6,
+          "tokens": 84399,
+          "score": 100.0
+        },
+        {
+          "game": "su15-1944f8ab",
+          "levels": 8,
+          "tokens": 697460,
+          "score": 47.7679554827745
+        },
+        {
+          "game": "tr87-cd924810",
+          "levels": 6,
+          "tokens": 241735,
+          "score": 75.71877212213815
+        },
+        {
+          "game": "g50t-5849a774",
+          "levels": 4,
+          "tokens": 311867,
+          "score": 35.714285714285715
+        }
+      ]
+    },
+    {
+      "token_budget": 15203434,
+      "fixed_trace_oracle_lower": 62.09472223548142,
+      "fixed_trace_oracle_upper": 62.09472223548142,
+      "feasible_prefix_tokens": 10020517,
+      "feasible_prefix_allocation": [
+        {
+          "game": "sk48-d8078629",
+          "levels": 6,
+          "tokens": 658200,
+          "score": 58.333333333333336
+        },
+        {
+          "game": "tn36-ef4dde99",
+          "levels": 6,
+          "tokens": 475661,
+          "score": 44.953878365194164
+        },
+        {
+          "game": "m0r0-492f87ba",
+          "levels": 5,
+          "tokens": 152029,
+          "score": 71.42857142857143
+        },
+        {
+          "game": "bp35-0a0ad940",
+          "levels": 3,
+          "tokens": 811101,
+          "score": 5.603173768362958
+        },
+        {
+          "game": "cn04-2fe56bfb",
+          "levels": 6,
+          "tokens": 826508,
+          "score": 94.03303229689766
+        },
+        {
+          "game": "dc22-fdcac232",
+          "levels": 5,
+          "tokens": 539548,
+          "score": 71.42857142857143
+        },
+        {
+          "game": "tu93-0768757b",
+          "levels": 9,
+          "tokens": 349708,
+          "score": 96.12431819050705
+        },
+        {
+          "game": "lp85-305b61c3",
+          "levels": 8,
+          "tokens": 147234,
+          "score": 100.0
+        },
+        {
+          "game": "ka59-38d34dbb",
+          "levels": 6,
+          "tokens": 391422,
+          "score": 47.8831025221413
+        },
+        {
+          "game": "wa30-ee6fef47",
+          "levels": 4,
+          "tokens": 190209,
+          "score": 17.19161061268532
+        },
+        {
+          "game": "vc33-5430563c",
+          "levels": 7,
+          "tokens": 170539,
+          "score": 100.0
+        },
+        {
+          "game": "lf52-271a04aa",
+          "levels": 4,
+          "tokens": 356209,
+          "score": 15.130939933306978
+        },
+        {
+          "game": "r11l-495a7899",
+          "levels": 6,
+          "tokens": 114094,
+          "score": 100.0
+        },
+        {
+          "game": "sc25-635fd71a",
+          "levels": 6,
+          "tokens": 309129,
+          "score": 82.91037998141158
+        },
+        {
+          "game": "sp80-589a99af",
+          "levels": 4,
+          "tokens": 947276,
+          "score": 28.726286839015827
+        },
+        {
+          "game": "ar25-0c556536",
+          "levels": 8,
+          "tokens": 131553,
+          "score": 100.0
+        },
+        {
+          "game": "sb26-7fbdac44",
+          "levels": 8,
+          "tokens": 98221,
+          "score": 92.59932260190452
+        },
+        {
+          "game": "cd82-fb555c5d",
+          "levels": 6,
+          "tokens": 255426,
+          "score": 61.03306917860774
+        },
+        {
+          "game": "re86-8af5384d",
+          "levels": 6,
+          "tokens": 201722,
+          "score": 58.333333333333336
+        },
+        {
+          "game": "s5i5-18d95033",
+          "levels": 3,
+          "tokens": 435380,
+          "score": 11.79958264759994
+        },
+        {
+          "game": "ls20-9607627b",
+          "levels": 6,
+          "tokens": 642785,
+          "score": 34.80916120157725
+        },
+        {
+          "game": "ft09-0d8bbf25",
+          "levels": 6,
+          "tokens": 84399,
+          "score": 100.0
+        },
+        {
+          "game": "su15-1944f8ab",
+          "levels": 8,
+          "tokens": 697460,
+          "score": 47.7679554827745
+        },
+        {
+          "game": "tr87-cd924810",
+          "levels": 6,
+          "tokens": 241735,
+          "score": 75.71877212213815
+        },
+        {
+          "game": "g50t-5849a774",
+          "levels": 5,
+          "tokens": 792969,
+          "score": 36.55966061910117
+        }
+      ]
+    }
+  ],
+  "boundary": "Retrospective perfect-future-information oracle over each fixed recorded trajectory prefix. Exact multiple-choice prefix optimization is bracketed by conservative ceil and optimistic floor token rounding. No newly solved level or improved action sequence exists in the choices. Pausing/resuming is assumed free, and real policies may change trajectories, cache costs, tokens, learning and outcomes. Generation charges omit some unfinished computation. These bounds quantify fixed-trace opportunities only; they are neither achievable scheduling scores nor bounds/estimates of a new policy or official hidden performance. Human baseline values are used only in this offline researcher audit, never supplied to the agent."
+}

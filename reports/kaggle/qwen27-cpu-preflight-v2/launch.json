@@ -1,0 +1,19 @@
+{
+  "phase": "accepted",
+  "kernel": "kunalsinghh25/arc-hydra-qwen27-cpu-preflight",
+  "files": {
+    "probe.ipynb": "e4651d034c9a04c2347f863505baf8dab70498262f3e94b85a6df3ba2d11ecf8",
+    "kernel-metadata.json": "804d0225c0c32042489f416445c2bbda15a2404e2b642db53fcd13b7a040a543"
+  },
+  "cpu_only": true,
+  "hard_session_timeout_seconds": 1800,
+  "previous_exact_status": "ERROR",
+  "reason": "V1 source check incorrectly required generated option in a single file; inspect all actual runtime sources",
+  "recorded_at": "2026-11-01T13:02:12.139411+00:00",
+  "response": {
+    "ref": "/code/kunalsinghh25/arc-hydra-qwen27-cpu-preflight",
+    "url": "https://www.kaggle.com/code/kunalsinghh25/arc-hydra-qwen27-cpu-preflight",
+    "versionNumber": 2,
+    "kernelId": 142112794
+  }
+}

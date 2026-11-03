@@ -1,0 +1,21 @@
+[{"stream_name":"stderr","time":11.649928346,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.650051062,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.650058658,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.650063185,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.630484974,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.630536519,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.630542944,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.630547307,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.192537316,"data":"Checking exact completed kernel input mount\n"}
+,{"stream_name":"stdout","time":14.193619449,"data":"Input top directories: ['/kaggle/input/notebooks']\n"}
+,{"stream_name":"stdout","time":14.214612052,"data":"Mounted: /kaggle/input/notebooks/kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair/pennyroyal-v3-overlay manifest: f1b8e87b99402e8504491bb2d2d107df81b119295d4b919944986eacb2fef7fb\n"}
+,{"stream_name":"stdout","time":58.062362972,"data":"{\"kernel_input\": \"kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair/6\", \"mounted_path\": \"/kaggle/input/notebooks/kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair/pennyroyal-v3-overlay\", \"manifest_sha256\": \"f1b8e87b99402e8504491bb2d2d107df81b119295d4b919944986eacb2fef7fb\", \"verified_files\": 36, \"verified_bytes\": 1978944573, \"checked_at\": \"2026-10-26T19:46:09.330900+00:00\", \"boundary\": \"CPU input mount and bundle hash verification only; no GPU inference, runtime install or gameplay tested\"}\n"}
+,{"stream_name":"stderr","time":61.727024173,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":61.727074504,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":61.960601071,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":61.96066517,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":62.841883155,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":63.276371492,"data":"[NbConvertApp] Writing 11287 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":66.78261677,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":68.097785571,"data":"[NbConvertApp] Writing 305195 bytes to __results__.html\n"}
+]

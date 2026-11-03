@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "training_kernel": "kunalsinghh25/arc-hydra-qwen27-lora-pilot/1",
+  "adapter_directory": "/kaggle/input/notebooks/kunalsinghh25/arc-hydra-qwen27-lora-pilot/sft-pilot/serving-adapter",
+  "actual_tensor_count": 992,
+  "recurrent_groups_checked": 48,
+  "training_report_sha256": "7c2129b8b3d81a2ccc633a28129e6d2300f8c03c7668f11be1aeafa3d770e50d",
+  "adapter_files": {
+    "adapter_config.json": {
+      "bytes": 1227,
+      "sha256": "a6aec727ab26ba005e55e1c84145032a7ad8cdb8a3e21a3d3d8ee9c0e3b7792f"
+    },
+    "adapter_model.safetensors": {
+      "bytes": 466767600,
+      "sha256": "d43af1abea2c99c6fe527546c72bcb6acdb4cdb972a6dc9181a7b42e007e7b30"
+    },
+    "export-report.json": {
+      "bytes": 10870,
+      "sha256": "4bb5dec1e460c504d66695b56d37617c84f6c42882ce341426a5b1e3efe425a1"
+    }
+  },
+  "boundary": "CPU-only exact mount, file hashes and saved tensor-header check. No weights loaded into a model; no inference or gameplay claim."
+}

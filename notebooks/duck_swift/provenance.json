@@ -1,0 +1,426 @@
+{
+  "source": "https://www.kaggle.com/code/dfranzen/arc-agi-3-milestone-2-solution",
+  "source_sha256": "88a379f17c3a4ba8c98715fc23155346ccd6eb289bdafebadfc61a3178f9d9bd",
+  "source_code_sha256": [
+    "6fdcd1ae7445c0cfc26eec1047363aa0c196c867d289a35b6f64403b5a43dce2",
+    "9850ba064f46a851bfe7d29817a46c5fddd76f8eafcd6735a499da57cadac50c",
+    "7ef53c4c2f0a6c2e636be00056ac7ce2a6813c8d6d2ced8e65937e1d6465641a",
+    "0acc65bba3dd5435f5e25a73cb378b3ff269364f0f7a5a99226fc4a41060ae44",
+    "e90a3a7aafca6e8f3a041b70a4dbbec721adb62b58a19e1f89ac4f019d0ae976",
+    "c362ce556dc35ed0725c31b3f5c60b86bc83a2d94152fd1a109116813a4b5cf8",
+    "63d378a0f4ca15b2b46e69e8198b731b703e4ca91b3a889951127846b42cdd5d",
+    "f07004157034433dca3cae84e0000980649f21c32a70f2c17c6cb4111f1f3f7f",
+    "ba1a098185cfdde69293193cebdf108567a446667086c4cb771660a1696459ac",
+    "d390c0bc7cfb9d2e67fddd20e1be24b11930e886789916ce0cf467c492922266",
+    "b417422de021be6ab02751c570276f7639c3b8d52a755701472bbd05c79361d0"
+  ],
+  "author_repository": "https://github.com/da-fr/arc-agi-3-solution",
+  "inspected_repository_commit": "10882e332d883af3e61616df8c8a17d03a328a75",
+  "authors": [
+    "Daniel Franzen",
+    "Jeroen Cottaar",
+    "Tufa Labs"
+  ],
+  "license": "Apache-2.0; third-party model/runtime licenses also apply",
+  "mode": "benchmark",
+  "public_games": "all 25",
+  "public_runtime_seconds": 7200,
+  "public_startup_allowance_seconds": 3600,
+  "competition_changes": "Swift 1.5 AutoRound target; original runtime, draft, agent, prompts, tools and scheduler retained",
+  "model_variant": "swift-1.5",
+  "model_manifest": {
+    "author": "UkisAI",
+    "mirror_owner": "phuongncn",
+    "upstream": "https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-Flash-Next-W4A16-AutoRound",
+    "upstream_inspected_revision": "177e8a382da63080bfd2875ab379fd8cb23e0dea",
+    "upstream_config_sha256": "172763afc483a36814dcfcc34f02b2acc116b9b7d0fe2889e19d239934f565b6",
+    "model_sources": [
+      "phuongncn/arc3-qwen38-swift-w4a16-autoround/PyTorch/w4a16-a/1",
+      "phuongncn/arc3-qwen38-swift-w4a16-autoround/PyTorch/w4a16-b/1"
+    ],
+    "files": {
+      "model-00001-of-00081.safetensors": {
+        "bytes": 1377483080,
+        "part": "a"
+      },
+      "model-00002-of-00081.safetensors": {
+        "bytes": 2951071312,
+        "part": "a"
+      },
+      "model-00003-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00004-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00005-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00006-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00007-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00008-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00009-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00010-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00011-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00012-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00013-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00014-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00015-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00016-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00017-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00018-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00019-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00020-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00021-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00022-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00023-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00024-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00025-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00026-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00027-of-00081.safetensors": {
+        "bytes": 3200016032,
+        "part": "a"
+      },
+      "model-00028-of-00081.safetensors": {
+        "bytes": 3200016040,
+        "part": "a"
+      },
+      "model-00029-of-00081.safetensors": {
+        "bytes": 3200016040,
+        "part": "a"
+      },
+      "model-00030-of-00081.safetensors": {
+        "bytes": 3200016040,
+        "part": "a"
+      },
+      "model-00031-of-00081.safetensors": {
+        "bytes": 3200016040,
+        "part": "a"
+      },
+      "model-00032-of-00081.safetensors": {
+        "bytes": 3200016040,
+        "part": "a"
+      },
+      "model-00033-of-00081.safetensors": {
+        "bytes": 3200016040,
+        "part": "a"
+      },
+      "model-00034-of-00081.safetensors": {
+        "bytes": 1692108480,
+        "part": "a"
+      },
+      "model-00035-of-00081.safetensors": {
+        "bytes": 1377483080,
+        "part": "a"
+      },
+      "model-00036-of-00081.safetensors": {
+        "bytes": 1376101696,
+        "part": "a"
+      },
+      "model-00037-of-00081.safetensors": {
+        "bytes": 1377483080,
+        "part": "a"
+      },
+      "model-00038-of-00081.safetensors": {
+        "bytes": 1377483080,
+        "part": "a"
+      },
+      "model-00039-of-00081.safetensors": {
+        "bytes": 1377483080,
+        "part": "a"
+      },
+      "model-00040-of-00081.safetensors": {
+        "bytes": 1376101696,
+        "part": "a"
+      },
+      "model-00041-of-00081.safetensors": {
+        "bytes": 1377483080,
+        "part": "a"
+      },
+      "model-00042-of-00081.safetensors": {
+        "bytes": 1377483080,
+        "part": "a"
+      },
+      "model-00043-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "a"
+      },
+      "model-00044-of-00081.safetensors": {
+        "bytes": 1376106336,
+        "part": "a"
+      },
+      "model-00045-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "a"
+      },
+      "model-00046-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "a"
+      },
+      "model-00047-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "a"
+      },
+      "model-00048-of-00081.safetensors": {
+        "bytes": 1376106336,
+        "part": "a"
+      },
+      "LICENSE": {
+        "bytes": 3235,
+        "part": "b"
+      },
+      "chat_template.jinja": {
+        "bytes": 8952,
+        "part": "b"
+      },
+      "config.json": {
+        "bytes": 242853,
+        "part": "b"
+      },
+      "generation_config.json": {
+        "bytes": 202,
+        "part": "b"
+      },
+      "merges.txt": {
+        "bytes": 3353259,
+        "part": "b"
+      },
+      "model-00049-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00050-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00051-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00052-of-00081.safetensors": {
+        "bytes": 1376106336,
+        "part": "b"
+      },
+      "model-00053-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00054-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00055-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00056-of-00081.safetensors": {
+        "bytes": 1376106336,
+        "part": "b"
+      },
+      "model-00057-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00058-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00059-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00060-of-00081.safetensors": {
+        "bytes": 1376106336,
+        "part": "b"
+      },
+      "model-00061-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00062-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00063-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00064-of-00081.safetensors": {
+        "bytes": 1376106336,
+        "part": "b"
+      },
+      "model-00065-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00066-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00067-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00068-of-00081.safetensors": {
+        "bytes": 1376106336,
+        "part": "b"
+      },
+      "model-00069-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00070-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00071-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00072-of-00081.safetensors": {
+        "bytes": 1376106336,
+        "part": "b"
+      },
+      "model-00073-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00074-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00075-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00076-of-00081.safetensors": {
+        "bytes": 1376106336,
+        "part": "b"
+      },
+      "model-00077-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00078-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00079-of-00081.safetensors": {
+        "bytes": 1377487720,
+        "part": "b"
+      },
+      "model-00080-of-00081.safetensors": {
+        "bytes": 1376106336,
+        "part": "b"
+      },
+      "model-00081-of-00081.safetensors": {
+        "bytes": 3453825000,
+        "part": "b"
+      },
+      "model.safetensors.index.json": {
+        "bytes": 23692313,
+        "part": "b"
+      },
+      "model_mtp.safetensors": {
+        "bytes": 5214305424,
+        "part": "b"
+      },
+      "preprocessor_config.json": {
+        "bytes": 390,
+        "part": "b"
+      },
+      "processor_config.json": {
+        "bytes": 1220,
+        "part": "b"
+      },
+      "quantization_config.json": {
+        "bytes": 73886,
+        "part": "b"
+      },
+      "tokenizer.json": {
+        "bytes": 19989325,
+        "part": "b"
+      },
+      "tokenizer_config.json": {
+        "bytes": 1124,
+        "part": "b"
+      },
+      "video_preprocessor_config.json": {
+        "bytes": 385,
+        "part": "b"
+      },
+      "vocab.json": {
+        "bytes": 6722759,
+        "part": "b"
+      }
+    },
+    "license": "Swift Open License v1.0 plus Qwen Community License 1.0; preserve original notices; no eligibility assertion",
+    "validation": "Public metadata and inventory only; GPU inference and game performance unverified"
+  }
+}

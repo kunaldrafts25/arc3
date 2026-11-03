@@ -1,0 +1,6 @@
+{"cols": [0, 64], "level": 3, "returned_runs": 7, "row": 45, "step": 58, "tool": "row_runs"}
+{"level": 4, "returned_cells": 6, "step": 129, "tool": "read_cells"}
+{"level": 6, "returned_cells": 8, "step": 245, "tool": "read_cells"}
+{"level": 6, "returned_cells": 4, "step": 326, "tool": "read_cells"}
+{"cols": [0, 64], "level": 6, "returned_runs": 2, "row": 63, "step": 354, "tool": "row_runs"}
+{"cols": [0, 64], "level": 6, "returned_runs": 2, "row": 0, "step": 354, "tool": "row_runs"}

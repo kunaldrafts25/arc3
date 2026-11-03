@@ -1,0 +1,44 @@
+{
+  "instances": [
+    {
+      "id": 733496,
+      "ownerSlug": "dangkhoa2016",
+      "modelSlug": "qwen-qwen3-8-27b",
+      "slug": "default",
+      "versionId": 972084,
+      "fineTunable": true,
+      "overview": "Pinned artifact mirror of `Qwen/Qwen3.8-27B@1d4bf0f2ff60` on Kaggle, exposed as the `transformers` / `default` variation. See Model Details and the bundled upstream documentation for model-specific capabilities, hardware requirements, and usage.",
+      "usage": "Use the mirrored model files from `${PATH}` inside a Kaggle Notebook. See the bundled `README.md` and upstream Hugging Face repository for model-specific usage.",
+      "versionNumber": 1,
+      "framework": "MODEL_FRAMEWORK_TRANSFORMERS",
+      "versionNotes": "Initial release",
+      "downloadUrl": "/models/dangkhoa2016/qwen-qwen3-8-27b/Transformers/default/1/download",
+      "databundleVersionId": 20201963,
+      "lastVersionId": 972084,
+      "metrics": "",
+      "license": {
+        "id": 30,
+        "name": "Apache 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0",
+        "agreementRequired": false
+      },
+      "databundleId": 12535057,
+      "firestorePath": "nFVQWmaSSH7OK668YB2A/versions/meggiEfvn5sTpc5k8wJG",
+      "status": "READY",
+      "databundleVersionType": "REMOTE_URL_FILE_SET",
+      "creationStatus": {
+        "status": "READY",
+        "creationPercentComplete": 1,
+        "creationLastUpdate": "2026-08-22T07:46:16.097Z",
+        "creationStep": "Ready",
+        "creationStart": "2026-08-22T07:40:53.675Z"
+      },
+      "uncompressedStorageUri": "",
+      "externalBaseModelUrl": "",
+      "modelId": 745078,
+      "totalUncompressedBytes": 55586114770,
+      "sigstoreState": "SIGSTORE_STATE_NONE",
+      "creatorUserId": 35264943
+    }
+  ]
+}

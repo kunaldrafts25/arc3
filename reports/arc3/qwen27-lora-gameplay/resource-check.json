@@ -1,0 +1,18 @@
+{
+  "allowed": true,
+  "reason": "One two-hour screen; only acknowledged capped ARC3 capacity job may overlap; ARC2 and final evaluation reserves preserved",
+  "available_gpu_seconds": 73076.909224,
+  "reserved_gpu_seconds": 0.0,
+  "pay_to_scale_enabled": false,
+  "refresh": "2026-11-07 00:00:00",
+  "active_gpu_jobs": [
+    {
+      "kernel": "kunalsinghh25/arc-hydra-qwen27-fair-capacity",
+      "status": "RUNNING",
+      "accelerator": "unclassified"
+    }
+  ],
+  "arc2_free_seconds_floor": 10800,
+  "final_official_free_seconds_floor": 32400,
+  "recorded_at": "2026-11-01T17:12:20.980643+00:00"
+}

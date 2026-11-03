@@ -1,0 +1,9 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-qwen27-matched-baseline",
+  "wall_seconds": 7200,
+  "files": {
+    "submission.ipynb": "4bc36b29f7fe84ca6e78c00696330ef9614a65313376c462678d6ee20a8366df",
+    "kernel-metadata.json": "1927f99e660eb242ffbbdbabc0582293554bed847c00f1694074468f03ddd063",
+    "provenance.json": "3f58e08173706328ea30936d4f56bb7311fb7ea59347da8f0a0abc8eb41f1290"
+  }
+}

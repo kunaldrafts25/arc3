@@ -1,0 +1,25 @@
+{
+  "source_files_match_upload": {
+    "kernel-metadata.json": true,
+    "provenance.json": true,
+    "submission.ipynb": true
+  },
+  "installed_extension_matches_cpu_gate": true,
+  "selected_transcripts": [
+    {
+      "path": "reference/kaggle/ultimate-candidate-v3/transcripts/ar25-0c556536_p0.txt",
+      "sha256": "395a76d3cd34ea18b1a931bd70ba52a18929e54fbda3cd37f771419531aa43cb",
+      "tool_blocks": 149,
+      "parsed_tool_blocks": 148,
+      "helper_call_syntax_count": 0
+    },
+    {
+      "path": "reference/kaggle/ultimate-candidate-v3/transcripts/r11l-495a7899_p0.txt",
+      "sha256": "26ed8d377fee17e114020aff396200efe9df0e2edd686223d68763131ae540ee",
+      "tool_blocks": 135,
+      "parsed_tool_blocks": 132,
+      "helper_call_syntax_count": 0
+    }
+  ],
+  "scope": "Two selected games only. Syntactic calls are not execution proof. Whole output inventory has no mechanical event files, so completed helper adoption is not established."
+}

@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-10-28T18:34:11.586066+00:00",
+  "kernel": "kunalsinghh25/arc-hydra-general-learner/1",
+  "status": "COMPLETE",
+  "raw_log_sha256": "02dd7ea125e378f4e8fb542690b3bb5e3633022b98246a193ac3c0c2a13db921",
+  "raw_log_cache": "reference\\kaggle\\general-learner-v1\\arc-hydra-general-learner.log",
+  "benchmark_sha256": "c2ca907ef0d9e186d33ccb7bb8c899c321bdccf86061b911d61f7dd3d18ca0ef",
+  "own_submission_episodes": [],
+  "own_submission_download_status": 403,
+  "gpu_remaining_seconds_at_check": 1192.259,
+  "gpu_refresh_utc": "2026-10-31T00:00:00",
+  "paid_scaling": false
+}

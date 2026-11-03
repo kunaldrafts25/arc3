@@ -1,0 +1,19 @@
+{
+  "allowed": true,
+  "reason": "Bounded original-account free budget; only the known ARC3 job may already be queued",
+  "available_gpu_seconds": 101286.643,
+  "reserved_gpu_seconds": 0.0,
+  "pay_to_scale_enabled": false,
+  "refresh": "2026-11-07 00:00:00",
+  "active_gpu_jobs": [
+    {
+      "kernel": "kunalsinghh25/arc-hydra-prediction-matched-candidate",
+      "status": "QUEUED",
+      "accelerator": "unclassified"
+    }
+  ],
+  "arc2_free_seconds_floor": 10800,
+  "prediction_exact_status": "QUEUED",
+  "queue_policy": "At most two independent ARC3 sessions; each externally capped at 7200 seconds, may overlap; ARC2 floor 10800 seconds",
+  "recorded_at": "2026-11-01T08:43:09.915080+00:00"
+}

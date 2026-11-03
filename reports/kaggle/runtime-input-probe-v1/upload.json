@@ -1,0 +1,12 @@
+{
+  "kernel": "kunalsinghh25/arc-hydra-runtime-input-probe/1",
+  "recorded_at": "2026-10-26T18:34:34.510436+00:00",
+  "files": {
+    "kernel-metadata.json": "1f404c1b4aed39c519e2df0b8cff595b2e96b06a093f746a619f9babc65c9076",
+    "probe.ipynb": "57a0a17a8af5ef89a1da70c4611329fc4073b460aabae5d05f73a701cc32fcea"
+  },
+  "kernel_input": "kunalsinghh25/arc-hydra-pennyroyal-v3-dependency-repair/6",
+  "manifest_sha256": "f1b8e87b99402e8504491bb2d2d107df81b119295d4b919944986eacb2fef7fb",
+  "validation": "Notebook code compiled locally; actual mount and checksum checks pending",
+  "observer_session": 87895
+}

@@ -1,0 +1,37 @@
+[{"stream_name":"stderr","time":8.329951578,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.330272842,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.330283056,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.330287727,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.054828216,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.05488031,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.054886477,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.054890718,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.880893172,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":10.880946436,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":10.880953643,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":10.881036255,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":10.88132967,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":10.881349638,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":10.881558269,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":10.88161998,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":10.881627108,"data":"Exception encountered at \"In [1]\":\n"}
+,{"stream_name":"stderr","time":10.881631759,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":10.88163577,"data":"AssertionError                            Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":10.881639527,"data":"/tmp/ipykernel_16/4079878857.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":10.881643418,"data":"     31     source=archive.read(server).decode()\n"}
+,{"stream_name":"stderr","time":10.881647059,"data":"     32     flags={flag:flag in source for flag in ['DFLASH','--speculative-draft-window-size','--speculative-attention-mode','--decode-attention-backend','--max-mamba-cache-size']}\n"}
+,{"stream_name":"stderr","time":10.881651697,"data":"---\u003e 33     assert all(flags.values()),flags\n"}
+,{"stream_name":"stderr","time":10.881655703,"data":"     34     implementations=[n for n in names if 'dflash' in n.lower() and n.endswith('.py')]\n"}
+,{"stream_name":"stderr","time":10.881659513,"data":"     35     assert implementations,'No DFlash implementation in actual serving wheel'\n"}
+,{"stream_name":"stderr","time":10.881663844,"data":"\n"}
+,{"stream_name":"stderr","time":10.881667087,"data":"AssertionError: {'DFLASH': True, '--speculative-draft-window-size': True, '--speculative-attention-mode': True, '--decode-attention-backend': True, '--max-mamba-cache-size': False}\n"}
+,{"stream_name":"stderr","time":10.881671089,"data":"\n"}
+,{"stream_name":"stderr","time":13.758402337,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":13.758465082,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13.947409634,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13.947441111,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":14.694178081,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":15.076359919,"data":"[NbConvertApp] Writing 9022 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":18.072238325,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":19.098168626,"data":"[NbConvertApp] Writing 296593 bytes to __results__.html\n"}
+]

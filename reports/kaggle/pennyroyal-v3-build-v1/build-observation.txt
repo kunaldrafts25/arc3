@@ -1,0 +1,2 @@
+CPU CUDA SM120f compiler probe passed
+CPU CUDA SM120f compiler probe passed

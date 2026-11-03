@@ -1,0 +1,32 @@
+{
+  "qwen3.8 flash next gguf": [
+    {
+      "ref": "buianhtruc/strata-qwen3-8-flash-next-gsq-rco-iq3-s",
+      "title": "Strata Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S",
+      "slug": "strata-qwen3-8-flash-next-gsq-rco-iq3-s"
+    },
+    {
+      "ref": "buianhtruc/strata-qwen3-8-flash-next-gyro-m-tq2-0",
+      "title": "Strata Qwen3.8-Flash-Next-Gyro-M-TQ2_0",
+      "slug": "strata-qwen3-8-flash-next-gyro-m-tq2-0"
+    },
+    {
+      "ref": "davidaylward/whittle-next-27b-a3b",
+      "title": "Whittle-Next-27B-A3B",
+      "slug": "whittle-next-27b-a3b"
+    },
+    {
+      "ref": "khoinguyennguyen/victoria",
+      "title": "Victoria",
+      "slug": "victoria"
+    }
+  ],
+  "qwen3.8 flash next gsq": [
+    {
+      "ref": "buianhtruc/strata-qwen3-8-flash-next-gsq-rco-iq3-s",
+      "title": "Strata Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S",
+      "slug": "strata-qwen3-8-flash-next-gsq-rco-iq3-s"
+    }
+  ],
+  "qwen3.8 flash next q2": []
+}

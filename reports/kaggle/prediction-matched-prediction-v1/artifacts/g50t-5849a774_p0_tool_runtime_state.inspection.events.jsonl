@@ -1,0 +1,7 @@
+{"cols": [0, 64], "level": 3, "returned_runs": 2, "row": 63, "step": 104, "tool": "row_runs"}
+{"bounds": [24, 32, 48, 58], "level": 4, "returned_cells": 80, "step": 317, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [0, 7, 0, 12], "level": 4, "returned_cells": 84, "step": 322, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [5, 6, 1, 8], "level": 4, "returned_cells": 7, "step": 322, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [43, 53, 47, 57], "level": 4, "returned_cells": 100, "step": 322, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [36, 52, 24, 33], "level": 4, "returned_cells": 144, "step": 322, "stride": [1, 1], "tool": "read_region"}
+{"bounds": [0, 7, 0, 12], "level": 4, "returned_cells": 84, "step": 323, "stride": [1, 1], "tool": "read_region"}

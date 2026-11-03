@@ -1,0 +1,108 @@
+{
+  "completed_requests": 982,
+  "prompt_tokens": 58858557,
+  "cached_tokens": 54722560,
+  "weighted_cache_fraction": 0.9297298946693512,
+  "completed_response_tokens": 2248835,
+  "prompt_length_tokens": {
+    "p50": 60742,
+    "p90": 105571,
+    "p99": 117236,
+    "max": 119778
+  },
+  "response_length_tokens": {
+    "p50": 1559,
+    "p90": 4890,
+    "p99": 12289,
+    "max": 12295
+  },
+  "server_queue_ms": {
+    "p50": 4785.38,
+    "p90": 25647.67,
+    "p99": 676024.3,
+    "max": 889703.77
+  },
+  "initial_prefill_ms": {
+    "p50": 554.91,
+    "p90": 1704.57,
+    "p99": 8916.88,
+    "max": 10103.81
+  },
+  "long_prompt_requests": 475,
+  "long_prompt_low_cache_requests": 3,
+  "completed_response_tokens_per_window_second": 347.80194861921916,
+  "initial_prefill_interval_coverage_seconds": 923.0991342067719,
+  "checked_at": "2026-11-01T15:01:21.682639+00:00",
+  "source_sha256": "4dc1ccc7e1f29434fd12c29f339a3dc4642826d6b585a9aa0af2b2dbefc39544",
+  "benchmark_sha256": "7a52b103fa4b39fa61402e9679ce9a4b64b92f184fdc73836eeaa14e60dbccec",
+  "timing_lines": 986,
+  "unparsed_timing_lines": 0,
+  "unique_request_ids": 982,
+  "gameplay_window_seconds": 6465.849340200424,
+  "benchmark_generated_tokens": 2166817,
+  "decode_log_samples": 3410,
+  "decode_running_requests_sample_quantiles": {
+    "p50": 4.0,
+    "p90": 4.0,
+    "p99": 4.0,
+    "max": 4.0
+  },
+  "decode_server_queue_requests_sample_quantiles": {
+    "p50": 6.0,
+    "p90": 6.0,
+    "p99": 6.0,
+    "max": 10.0
+  },
+  "decode_token_throughput_sample_quantiles": {
+    "p50": 383.84,
+    "p90": 458.71,
+    "p99": 537.66,
+    "max": 626.12
+  },
+  "speculative_accept_length_sample_quantiles": {
+    "p50": 4.09,
+    "p90": 4.79,
+    "p99": 5.42,
+    "max": 6.24
+  },
+  "by_two_hour_entry_window": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 6465.849340200424,
+      "completed_requests": 982,
+      "prompt_tokens": 58858557,
+      "cached_tokens": 54722560,
+      "weighted_cache_fraction": 0.9297298946693512,
+      "completed_response_tokens": 2248835,
+      "prompt_length_tokens": {
+        "p50": 60742,
+        "p90": 105571,
+        "p99": 117236,
+        "max": 119778
+      },
+      "response_length_tokens": {
+        "p50": 1559,
+        "p90": 4890,
+        "p99": 12289,
+        "max": 12295
+      },
+      "server_queue_ms": {
+        "p50": 4785.38,
+        "p90": 25647.67,
+        "p99": 676024.3,
+        "max": 889703.77
+      },
+      "initial_prefill_ms": {
+        "p50": 554.91,
+        "p90": 1704.57,
+        "p99": 8916.88,
+        "max": 10103.81
+      },
+      "long_prompt_requests": 475,
+      "long_prompt_low_cache_requests": 3,
+      "completed_response_tokens_per_window_second": 347.80194861921916,
+      "initial_prefill_interval_coverage_seconds": 923.0991342067719
+    }
+  ],
+  "boundary": "Saved public development log. Server queue excludes harness admission waiting. Decode sample quantiles are event-weighted, not time-weighted GPU utilization. Initial-prefill interval coverage uses logged queue/prefill elapsed fields and is not precise device busy time. Response tokens are assigned to request-entry windows, so generation can cross window boundaries. Completed-response totals can differ from benchmark action charges due to retries, cancellation or accounting; no unmeasured cause is assigned. Public/model configuration differs from other authors runs; not a matched throughput ablation or hidden failure diagnosis."
+}
