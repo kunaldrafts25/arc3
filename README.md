@@ -52,7 +52,7 @@ the original setup and notebook workflow. On Windows:
 ```powershell
 ./scripts/setup_windows.ps1
 .venv/Scripts/python.exe -m pytest --ignore-glob="tests/test_arc2*.py"
-.venv/Scripts/python.exe -m scripts.audit_release
+.venv/Scripts/python.exe -m scripts.audit_release --max-file-mib 25
 ```
 
 The full integration suite also needs the ignored Duck source checkout and

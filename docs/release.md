@@ -1,3 +1,5 @@
+> GitHub publication note: this expanded snapshot retains archived public logs up to 11 MB; use `--max-file-mib 25` for the release audit. GitHub's normal file limit is larger. Model weights and credentials remain excluded.
+
 # GitHub release and reproduction notes
 
 ## What is preserved
@@ -22,7 +24,7 @@ does not release a trained model.
 From the repository root, using Python 3.12:
 
 ```powershell
-.venv/Scripts/python.exe -m scripts.audit_release
+.venv/Scripts/python.exe -m scripts.audit_release --max-file-mib 25
 .venv/Scripts/python.exe -m pytest --ignore-glob="tests/test_arc2*.py"
 git diff --check
 git status --short

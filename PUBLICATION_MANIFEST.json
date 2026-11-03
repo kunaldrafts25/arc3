@@ -9,7 +9,7 @@
       "bytes": 584,
       "track": "shared",
       "published_sha256": "ffe82f3c5b968ed009c2577fa38f32c83be167799ee565d40a18e3440c57b342",
-      "transformation": "Repository-specific entry point or Git attributes; original content preserved in combined workspace/history"
+      "transformation": "Repository-specific documentation, CI size allowance or Git metadata; original source hash retained"
     },
     {
       "source_path": "ARC-AGI-3-Kaggle-Starter/.gitignore",
@@ -18,7 +18,7 @@
       "bytes": 2951,
       "track": "shared",
       "published_sha256": "521fbcd5ec80b37cc45c48fcd01ecf2c0f4a4e39da1f157a376b5513a4ef19c8",
-      "transformation": "Repository-specific entry point or Git attributes; original content preserved in combined workspace/history"
+      "transformation": "Repository-specific documentation, CI size allowance or Git metadata; original source hash retained"
     },
     {
       "source_path": "ARC-AGI-3-Kaggle-Starter/LICENSE",
@@ -47,8 +47,8 @@
       "sha256": "a14b13af79ed9b7a2a5e3de6d1403a08b6f6c4e95d5bf955ad240514cfd9f772",
       "bytes": 4661,
       "track": "arc3",
-      "published_sha256": "16a1df850fc499110369486d30a67b603e52ca2de79b0d5603cfba781b7ef23d",
-      "transformation": "Repository-specific entry point or Git attributes; original content preserved in combined workspace/history"
+      "published_sha256": "8e98fd298584ad30339e8937ce637347b7411b1436ba64db955d3906edd9850a",
+      "transformation": "Repository-specific documentation, CI size allowance or Git metadata; original source hash retained"
     },
     {
       "source_path": "ARC-AGI-3-Kaggle-Starter/requirements-deploy-lock.txt",
@@ -83,7 +83,9 @@
       "published_path": ".github/workflows/tests.yml",
       "sha256": "3ba2b5e3fbf4dde6b8a0619d31660b08206ba770e2e83ac354de49e835107df5",
       "bytes": 851,
-      "track": "arc3"
+      "track": "arc3",
+      "published_sha256": "1c7132cfae746c0c96093c230cad1a1ed3da033b39528ae563a97bf30c0ed9c1",
+      "transformation": "Repository-specific documentation, CI size allowance or Git metadata; original source hash retained"
     },
     {
       "source_path": "ARC-AGI-3-Kaggle-Starter/agent/my_agent.py",
@@ -272,7 +274,9 @@
       "published_path": "docs/release.md",
       "sha256": "01989852047dd8507eaa4733fbed7a9269ed39f417c9383fa7f25b76b99e5d0f",
       "bytes": 5163,
-      "track": "arc3"
+      "track": "arc3",
+      "published_sha256": "b665a95fc55f1a40d67e814cbf737c052c643e16171fa8338511b4dc2af4e256",
+      "transformation": "Repository-specific documentation, CI size allowance or Git metadata; original source hash retained"
     },
     {
       "source_path": "ARC-AGI-3-Kaggle-Starter/docs/research_review.md",

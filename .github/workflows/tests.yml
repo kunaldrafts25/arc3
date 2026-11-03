@@ -16,7 +16,7 @@ jobs:
       - name: Install CPU test dependencies
         run: python -m pip install numpy pytest jinja2 pillow
       - name: Audit release files
-        run: python -m scripts.audit_release
+        run: python -m scripts.audit_release --max-file-mib 25
       - name: Run self-contained tests
         run: >-
           python -m pytest -q
